@@ -1,0 +1,372 @@
+{
+ "job": {
+  "S": [
+   64
+  ],
+  "p": 0.1,
+  "seed": 0,
+  "beam": 100,
+  "member": "T6",
+  "dvS": 2.0,
+  "jit": 0.001,
+  "front": 24,
+  "cap": 1100.0,
+  "save_cap": 1300.0,
+  "max_settles": 10,
+  "ok_target": 6,
+  "dense": 3,
+  "stride": 3,
+  "repair": true,
+  "repair_settles": 5,
+  "absorb": null,
+  "absorb_hosts": 2,
+  "absorb_trials": 4,
+  "absorb_dmax": 0.2,
+  "absorb_kg": 80.0,
+  "settle_timeout": 240.0,
+  "kappa": 90.0,
+  "wall_budget": 2400.0,
+  "tag": "I1Bt1x64T6",
+  "out": "results/s15b/cols/I1Bt1x64T6",
+  "kind": "column"
+ },
+ "pool_n": 29,
+ "S": [
+  64
+ ],
+ "plan": {
+  "member": "T6",
+  "sec": 86,
+  "deepest": 26,
+  "deepest_S": 0,
+  "front": [
+   [
+    26,
+    1018,
+    []
+   ],
+   [
+    25,
+    1003,
+    []
+   ],
+   [
+    24,
+    976,
+    []
+   ],
+   [
+    23,
+    937,
+    []
+   ],
+   [
+    22,
+    908,
+    []
+   ],
+   [
+    21,
+    899,
+    []
+   ],
+   [
+    20,
+    868,
+    []
+   ],
+   [
+    19,
+    858,
+    []
+   ],
+   [
+    18,
+    854,
+    []
+   ],
+   [
+    17,
+    842,
+    []
+   ],
+   [
+    16,
+    820,
+    []
+   ],
+   [
+    15,
+    793,
+    []
+   ],
+   [
+    14,
+    784,
+    []
+   ],
+   [
+    13,
+    761,
+    []
+   ],
+   [
+    12,
+    729,
+    []
+   ],
+   [
+    11,
+    724,
+    []
+   ],
+   [
+    10,
+    715,
+    []
+   ],
+   [
+    9,
+    688,
+    []
+   ],
+   [
+    8,
+    684,
+    []
+   ],
+   [
+    7,
+    670,
+    []
+   ],
+   [
+    6,
+    639,
+    []
+   ],
+   [
+    5,
+    634,
+    []
+   ],
+   [
+    4,
+    627,
+    []
+   ]
+  ],
+  "repair": {
+   "k_ok": 5,
+   "k_fail": 6,
+   "leg": 157,
+   "settles": 5,
+   "ban": 157,
+   "replan_deepest": 22
+  }
+ },
+ "settles": [
+  {
+   "member": "T6",
+   "n": 26,
+   "planner": 1017.6,
+   "tank": null,
+   "miss": null,
+   "ok": false,
+   "s_taken": [],
+   "sec": 0.4
+  },
+  {
+   "member": "T6",
+   "n": 25,
+   "planner": 1003.2,
+   "tank": null,
+   "miss": null,
+   "ok": false,
+   "s_taken": [],
+   "sec": 0.4
+  },
+  {
+   "member": "T6",
+   "n": 24,
+   "planner": 976.3,
+   "tank": null,
+   "miss": null,
+   "ok": false,
+   "s_taken": [],
+   "sec": 0.4
+  },
+  {
+   "member": "T6",
+   "n": 23,
+   "planner": 937.1,
+   "tank": null,
+   "miss": null,
+   "ok": false,
+   "s_taken": [],
+   "sec": 0.3
+  },
+  {
+   "member": "T6",
+   "n": 22,
+   "planner": 908.4,
+   "tank": null,
+   "miss": null,
+   "ok": false,
+   "s_taken": [],
+   "sec": 0.3
+  },
+  {
+   "member": "T6",
+   "n": 21,
+   "planner": 898.7,
+   "tank": null,
+   "miss": null,
+   "ok": false,
+   "s_taken": [],
+   "sec": 0.3
+  },
+  {
+   "member": "T6",
+   "n": 20,
+   "planner": 867.6,
+   "tank": null,
+   "miss": null,
+   "ok": false,
+   "s_taken": [],
+   "sec": 0.3
+  },
+  {
+   "member": "T6",
+   "n": 19,
+   "planner": 857.5,
+   "tank": null,
+   "miss": null,
+   "ok": false,
+   "s_taken": [],
+   "sec": 0.3
+  },
+  {
+   "member": "T6",
+   "n": 18,
+   "planner": 854.3,
+   "tank": null,
+   "miss": null,
+   "ok": false,
+   "s_taken": [],
+   "sec": 0.3
+  },
+  {
+   "member": "T6",
+   "n": 17,
+   "planner": 842.3,
+   "tank": null,
+   "miss": null,
+   "ok": false,
+   "s_taken": [],
+   "sec": 0.3
+  },
+  {
+   "member": "T6r",
+   "n": 22,
+   "planner": 915.6,
+   "tank": 955.3,
+   "miss": 22.2,
+   "ok": true,
+   "s_taken": [],
+   "sec": 11.5
+  },
+  {
+   "member": "T6r",
+   "n": 21,
+   "planner": 903.0,
+   "tank": 927.4,
+   "miss": 1.0,
+   "ok": true,
+   "s_taken": [],
+   "sec": 10.7
+  }
+ ],
+ "absorbed": [],
+ "cols": [
+  {
+   "kind": "settled",
+   "member": "T6r",
+   "planner": 915.6,
+   "tank": 955.34,
+   "miss": 22.2,
+   "s_taken": [],
+   "f": "results/s15b/cols/I1Bt1x64T6/route_I1Bt1x64T6_22.npz",
+   "n": 22,
+   "targets": [
+    20,
+    32,
+    51,
+    104,
+    119,
+    124,
+    141,
+    147,
+    158,
+    165,
+    168,
+    175,
+    188,
+    203,
+    234,
+    246,
+    251,
+    254,
+    262,
+    284,
+    287,
+    298
+   ],
+   "iso": [
+    119,
+    158,
+    168
+   ]
+  },
+  {
+   "kind": "settled",
+   "member": "T6r",
+   "planner": 903.0,
+   "tank": 927.38,
+   "miss": 1.0,
+   "s_taken": [],
+   "f": "results/s15b/cols/I1Bt1x64T6/route_I1Bt1x64T6_21.npz",
+   "n": 21,
+   "targets": [
+    20,
+    32,
+    51,
+    119,
+    124,
+    141,
+    147,
+    158,
+    165,
+    168,
+    175,
+    188,
+    203,
+    234,
+    246,
+    251,
+    254,
+    262,
+    284,
+    287,
+    298
+   ],
+   "iso": [
+    119,
+    158,
+    168
+   ]
+  }
+ ],
+ "wall_s": 178,
+ "done": "02:27:45"
+}

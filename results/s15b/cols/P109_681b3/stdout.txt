@@ -1,0 +1,7 @@
+[01:34:11] twintail P109_681b3: pool 14, S [], p 0.0, steps 1, beam 24/72, nproc 1; resume at step 1
+[01:34:22]   roots: 196 launch legs -> 47 kept; pool 14, S [] p 0.0
+[01:36:07]   depth  2: 47 parents -> 117 kids (75 uniq) -> tried 40, settled 24, kept 21; t_end 500-1603 d, tank 605-667, max S 0 (104 s, gen 24 s)
+[01:38:24]   depth  3: 21 parents -> 61 kids (61 uniq) -> tried 37, settled 24, kept 22; t_end 951-2088 d, tank 611-709, max S 0 (137 s, gen 15 s)
+[01:40:00]   depth  4: 22 parents -> 64 kids (64 uniq) -> tried 24, settled 24, kept 22; t_end 1433-2298 d, tank 622-691, max S 0 (96 s, gen 19 s)
+[01:55:42]   depth  5: 22 parents -> 57 kids (56 uniq) -> tried 36, settled 24, kept 21; t_end 1599-2720 d, tank 630-909, max S 0 (942 s, gen 24 s)
+[02:12:50]   depth  6: 21 parents -> 33 kids (33 uniq) -> tried 33, settled 21, kept 20; t_end 1886-3133 d, tank 645-825, max S 0 (1028 s, gen 282 s)

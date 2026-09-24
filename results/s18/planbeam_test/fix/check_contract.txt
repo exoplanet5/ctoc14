@@ -1,0 +1,41 @@
+== planbeam_test/fix s03_c0 kind craft ok True columns 2 retried False wall 220.4 end {'kind': 'plan_done', 'depth': 9} error ''
+  OK  s03_c0_k0    n 2 dtank   15.5 pot 0 miss  99.5 epochs [1825, 2158] tL 0 d
+  OK  s03_c0_k1    n 1 dtank   10.3 pot 2 miss  98.9 epochs [1825] tL 0 d
+== planbeam_test/fix s03_c4 kind craft ok True columns 16 retried False wall 141.7 end {'kind': 'plan_done', 'depth': 12} error ''
+  OK  s03_c4_k0    n 4 dtank   30.0 pot 1 miss  82.1 epochs [1626, 1764, 1820, 1998] tL 100 d
+  OK  s03_c4_k1    n 4 dtank   71.9 pot 1 miss  50.8 epochs [1679, 1817, 1953, 2048] tL 100 d
+  OK  s03_c4_k2    n 4 dtank   76.2 pot 0 miss  41.6 epochs [1681, 1755, 1852, 2001] tL 100 d
+  OK  s03_c4_k3    n 3 dtank   11.9 pot 0 miss  18.9 epochs [1764, 1830, 2038] tL 100 d
+  OK  s03_c4_k4    n 3 dtank   20.7 pot 3 miss  49.4 epochs [1627, 1814, 1976] tL 100 d
+  OK  s03_c4_k5    n 3 dtank   38.2 pot 0 miss  62.9 epochs [1663, 1756, 1980] tL 100 d
+  OK  s03_c4_k6    n 2 dtank    6.0 pot 0 miss  22.0 epochs [1815, 2038] tL 100 d
+  OK  s03_c4_k7    n 2 dtank   14.7 pot 3 miss  25.3 epochs [1627, 1817] tL 100 d
+  OK  s03_c4_k8    n 2 dtank   23.6 pot 0 miss  49.3 epochs [1660, 1759] tL 100 d
+  OK  s03_c4_k9    n 1 dtank    2.2 pot 2 miss  82.7 epochs [1822] tL 100 d
+  OK  s03_c4_k10   n 1 dtank    2.3 pot 2 miss  75.3 epochs [1765] tL 100 d
+  OK  s03_c4_k11   n 1 dtank    3.2 pot 0 miss  11.8 epochs [2037] tL 100 d
+  OK  s03_c4_k12   n 1 dtank    3.5 pot 3 miss  76.5 epochs [1627] tL 100 d
+  OK  s03_c4_k13   n 1 dtank    4.1 pot 2 miss  44.1 epochs [1982] tL 100 d
+  OK  s03_c4_k14   n 1 dtank    6.9 pot 0 miss   3.8 epochs [2099] tL 100 d
+  OK  s03_c4_k15   n 1 dtank   17.4 pot 2 miss  61.1 epochs [1681] tL 100 d
+== planbeam_test/fix_root s00_r0 kind root ok True columns 16 retried False wall 81.1 end {'kind': 'plan_done', 'depth': 11} error ''
+  OK  s00_r0_k0    n 4 dtank   23.5 pot 0 miss   0.5 epochs [72, 235, 334, 413] tL 0 d
+  OK  s00_r0_k1    n 4 dtank   31.3 pot 2 miss   0.0 epochs [75, 195, 370, 456] tL 0 d
+  OK  s00_r0_k2    n 4 dtank   35.0 pot 1 miss   0.2 epochs [75, 196, 368, 500] tL 0 d
+  OK  s00_r0_k3    n 3 dtank    3.6 pot 0 miss   0.1 epochs [90, 331, 442] tL 60 d
+  OK  s00_r0_k4    n 3 dtank    5.2 pot 0 miss   0.0 epochs [90, 300, 440] tL 60 d
+  OK  s00_r0_k5    n 3 dtank   26.1 pot 3 miss   0.0 epochs [75, 195, 370] tL 0 d
+  OK  s00_r0_k6    n 2 dtank    0.0 pot 0 miss   0.0 epochs [305, 357] tL 50 d
+  OK  s00_r0_k7    n 2 dtank    0.2 pot 0 miss   0.0 epochs [190, 341] tL 60 d
+  OK  s00_r0_k8    n 2 dtank   14.1 pot 3 miss   0.0 epochs [74, 191] tL 0 d
+  OK  s00_r0_k9    n 1 dtank    0.0 pot 3 miss   0.0 epochs [75] tL 0 d
+  OK  s00_r0_k10   n 1 dtank    0.0 pot 2 miss   0.0 epochs [365] tL 0 d
+  OK  s00_r0_k11   n 1 dtank    0.0 pot 0 miss   0.0 epochs [70] tL 0 d
+  OK  s00_r0_k12   n 1 dtank    0.0 pot 0 miss   0.0 epochs [155] tL 40 d
+  OK  s00_r0_k13   n 1 dtank    0.0 pot 0 miss   0.0 epochs [160] tL 60 d
+  OK  s00_r0_k14   n 1 dtank    0.0 pot 0 miss   0.0 epochs [170] tL 0 d
+  OK  s00_r0_k15   n 1 dtank    0.0 pot 0 miss   0.0 epochs [170] tL 0 d
+SUMMARY: 34 columns, 0 with violations
+REGRID s03_c4_k0 n 4: column tank 737.43 -> honest 737.41 (delta -0.02 kg), ok True miss 26.0 km irregular 0 cap 0.9998 (0.3 s)
+REGRID s03_c4_k3 n 3: column tank 719.24 -> honest 719.20 (delta -0.04 kg), ok True miss 8.7 km irregular 0 cap 0.9435 (0.2 s)
+REGRID s03_c4_k6 n 2: column tank 713.34 -> honest 713.34 (delta -0.00 kg), ok True miss 94.0 km irregular 0 cap 0.9997 (0.3 s)

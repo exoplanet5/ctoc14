@@ -1,0 +1,23 @@
+[21:16:46] === 04 cond pool builder seg: pool 38 = own 30 + extra 8 [3, 19, 167, 207, 233, 242, 282, 291]; hard in pool 13; source route 30 fb @ 886.7 kg (9.56 kg/fb)
+[21:16:46]   hard extra 282: waypoint at 1999 d (closest approach 0.071 AU to the source route)
+[21:16:46]   skeleton: 13 waypoints 161@676 84@1245 50@1769 282@1999 92@2013 123@2450 158@3017 236@3530 22@3638 216@4166 137@4364 232@4449 58@5014; easy 25
+[21:17:33]     04 seg 4: 0 states reach waypoint 92 -- relaxed retry
+[21:17:34]     04 seg 4: 0 states reach waypoint 92 -- giving up
+[21:17:34]     04 seg 4: DROPPING waypoint 92 ([1968,2058] d unreachable); it goes to the leftovers
+[21:17:37]     04 seg 5: 1 states reach waypoint 123 -- relaxed retry
+[21:17:48]     04 seg 7: 4 states reach waypoint 236 -- relaxed retry
+[21:17:51]     04 seg 8: 3 states reach waypoint 22 -- relaxed retry
+[21:17:53]     04 seg 9: 0 states reach waypoint 216 -- relaxed retry
+[21:17:54]     04 seg 9: 2 states reach waypoint 216 -- giving up
+[21:17:54]     04 seg 10: 0 states reach waypoint 137 -- relaxed retry
+[21:17:54]     04 seg 10: 1 states reach waypoint 137 -- giving up
+[21:17:54]     04 seg 11: 1 states reach waypoint 232 -- relaxed retry
+[21:17:54]     04 seg 11: 2 states reach waypoint 232 -- giving up
+[21:17:54]     04 seg 12: 3 states reach waypoint 58 -- relaxed retry
+[21:17:55]     04 segments: 0:161->8st/3fb 1:84->4st/5fb 2:50->13st/8fb 3:282->17st/10fb 4:92->0st/0fb 5:123->15st/11fb 6:158->8st/14fb 7:236->10st/15fb 8:22->3st/16fb 9:216->2st/19fb 10:137->1st/20fb 11:232->1st/21fb 12:58->2st/24fb 13:None->4st/25fb
+[21:17:55]   build 68 s: 4 states, deepest 25 of pool 38; Pareto 23:1000 24:1004 25:1007
+[21:17:55]     25 pool fb (alt 0): settle FAILED (miss inf, 0 s)
+[21:17:56]     24 pool fb (alt 0): settle FAILED (miss inf, 0 s)
+[21:17:56]     24 pool fb (alt 1): settle FAILED (miss inf, 0 s)
+[21:17:57]     23 pool fb (alt 0): settle FAILED (miss inf, 0 s)
+[21:17:57]   04: NOTHING settled

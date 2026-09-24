@@ -1,0 +1,3 @@
+[14:32:49] load: 5149 files (24 new; {'ok': 5142, 'tank': 7}), 3089 distinct, 188 dominated -> 2901 columns
+[14:32:56]   N<=9 K>=298 alt 0: 9 craft 298 covered sum J_i 11.7439 (Optimization terminated , 8 s); misses []; depths [42, 41, 41, 38, 31, 31, 30, 24, 20]
+[14:32:56] ranking by est closed: N9K298a0 11.7439->None (8 s)

@@ -1,0 +1,174 @@
+{
+ "L1r8k13S": {
+  "host": "r8",
+  "tank0": 927.2333857070846,
+  "best_own_only": null,
+  "all_own_with_r9": [],
+  "trades": [
+   {
+    "kind": "s",
+    "n": 14,
+    "own": 0,
+    "own_missing": [
+     22,
+     33,
+     71,
+     93,
+     138,
+     139,
+     148,
+     150,
+     172,
+     173,
+     223
+    ],
+    "add": [
+     258
+    ],
+    "tank": 739.6,
+    "dkg": -187.6,
+    "t_end": 3410
+   }
+  ],
+  "hist": [
+   {
+    "depth": 14,
+    "parents": 1,
+    "children": 12,
+    "unique": 12,
+    "tried": 12,
+    "settled": 12,
+    "kept": 11,
+    "wall_s": 46.8,
+    "gen_s": 5.5,
+    "t_end_d": [
+     3410,
+     3661
+    ],
+    "tank": [
+     714,
+     854
+    ],
+    "maxS": 1
+   },
+   {
+    "depth": 15,
+    "parents": 11,
+    "children": 111,
+    "unique": 109,
+    "tried": 16,
+    "settled": 16,
+    "kept": 15,
+    "wall_s": 92.2,
+    "gen_s": 63.2,
+    "t_end_d": [
+     3530,
+     3974
+    ],
+    "tank": [
+     717,
+     877
+    ],
+    "maxS": 0
+   },
+   {
+    "depth": 16,
+    "parents": 15,
+    "children": 147,
+    "unique": 147,
+    "tried": 16,
+    "settled": 16,
+    "kept": 16,
+    "wall_s": 145.1,
+    "gen_s": 89.1,
+    "t_end_d": [
+     3619,
+     3975
+    ],
+    "tank": [
+     729,
+     913
+    ],
+    "maxS": 0
+   }
+  ],
+  "end": null
+ },
+ "L1r6k17S": {
+  "host": "r6",
+  "tank0": 901.5475939376395,
+  "best_own_only": null,
+  "all_own_with_r9": [],
+  "trades": [
+   {
+    "kind": "s",
+    "n": 18,
+    "own": 0,
+    "own_missing": [
+     7,
+     25,
+     34,
+     40,
+     53,
+     98,
+     100,
+     166,
+     170,
+     256,
+     263,
+     267,
+     284
+    ],
+    "add": [
+     142
+    ],
+    "tank": 766.2,
+    "dkg": -135.3,
+    "t_end": 3767
+   }
+  ],
+  "hist": [
+   {
+    "depth": 18,
+    "parents": 1,
+    "children": 18,
+    "unique": 18,
+    "tried": 16,
+    "settled": 16,
+    "kept": 15,
+    "wall_s": 64.5,
+    "gen_s": 6.2,
+    "t_end_d": [
+     3467,
+     3891
+    ],
+    "tank": [
+     756,
+     828
+    ],
+    "maxS": 1
+   },
+   {
+    "depth": 19,
+    "parents": 15,
+    "children": 216,
+    "unique": 213,
+    "tried": 17,
+    "settled": 16,
+    "kept": 13,
+    "wall_s": 165.3,
+    "gen_s": 97.4,
+    "t_end_d": [
+     3516,
+     3889
+    ],
+    "tank": [
+     764,
+     930
+    ],
+    "maxS": 0
+   }
+  ],
+  "end": null
+ }
+}

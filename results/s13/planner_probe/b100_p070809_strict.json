@@ -1,0 +1,134 @@
+{
+ "pool": "routes:07,08,09",
+ "pool_size": 77,
+ "mode": "strict",
+ "soft_prize": 0.0,
+ "beam": 100,
+ "nproc": 1,
+ "m0": 1600.0,
+ "t_beam_s": 153.9,
+ "cpu_beam_s": 103.1,
+ "n_expand": 2647,
+ "n_states": 1550,
+ "deepest_total": 26,
+ "deepest_pool": 26,
+ "pareto_pool": {
+  "10": {
+   "n_tot": 10,
+   "fuel": 188.5,
+   "tank_planner": 656.1
+  },
+  "11": {
+   "n_tot": 11,
+   "fuel": 223.9,
+   "tank_planner": 667.4
+  },
+  "12": {
+   "n_tot": 12,
+   "fuel": 260.7,
+   "tank_planner": 679.5
+  },
+  "13": {
+   "n_tot": 13,
+   "fuel": 281.4,
+   "tank_planner": 686.5
+  },
+  "14": {
+   "n_tot": 14,
+   "fuel": 288.9,
+   "tank_planner": 689.1
+  },
+  "15": {
+   "n_tot": 15,
+   "fuel": 328.1,
+   "tank_planner": 702.9
+  },
+  "16": {
+   "n_tot": 16,
+   "fuel": 356.2,
+   "tank_planner": 713.1
+  },
+  "17": {
+   "n_tot": 17,
+   "fuel": 364.2,
+   "tank_planner": 716.1
+  },
+  "18": {
+   "n_tot": 18,
+   "fuel": 378.6,
+   "tank_planner": 721.5
+  },
+  "19": {
+   "n_tot": 19,
+   "fuel": 415.8,
+   "tank_planner": 735.9
+  },
+  "20": {
+   "n_tot": 20,
+   "fuel": 454.2,
+   "tank_planner": 751.3
+  },
+  "21": {
+   "n_tot": 21,
+   "fuel": 473.1,
+   "tank_planner": 759.1
+  },
+  "22": {
+   "n_tot": 22,
+   "fuel": 482.6,
+   "tank_planner": 763.1
+  },
+  "23": {
+   "n_tot": 23,
+   "fuel": 541.4,
+   "tank_planner": 788.8
+  },
+  "24": {
+   "n_tot": 24,
+   "fuel": 548.1,
+   "tank_planner": 791.9
+  },
+  "25": {
+   "n_tot": 25,
+   "fuel": 573.9,
+   "tank_planner": 803.8
+  },
+  "26": {
+   "n_tot": 26,
+   "fuel": 650.1,
+   "tank_planner": 841.3
+  }
+ },
+ "settles": [
+  {
+   "k_pool": 26,
+   "n_tot": 26,
+   "tank_planner": 841.3,
+   "t_settle_s": 15.3,
+   "ok": true,
+   "miss_km": 77.9,
+   "lag_d": 1.0,
+   "tank_twin": 821.0,
+   "J_i": 1.1828,
+   "kg_per_fb": 8.5,
+   "dv_per_fb": 0.4693,
+   "t_end_yr": 14.83,
+   "t_launch_d": 60.0
+  },
+  {
+   "k_pool": 25,
+   "n_tot": 25,
+   "tank_planner": 803.8,
+   "t_settle_s": 19.4,
+   "ok": true,
+   "miss_km": 13.8,
+   "lag_d": 1.0,
+   "tank_twin": 803.2,
+   "J_i": 1.1662,
+   "kg_per_fb": 8.13,
+   "dv_per_fb": 0.4538,
+   "t_end_yr": 14.84,
+   "t_launch_d": 60.0
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+[01:10:50] -> results/s7/cgL1/duals.json
+[01:10:50] MILP Optimization terminated successfully. (H: 10 craft, 298 covered, sum J_i 12.355, J 14.355 (incl. 2 permanent misses)
+[01:10:50] saved 10 routes -> results/s7/cgL1/fleet   (covered 298, J 14.355)
+[01:32:17] [  8/40] carrier 140: 26 fb @   1127 kg, 0.0584 J/fb  (436 s, total 1286 s)
+[01:32:42] [  9/40] carrier 40: 30 fb @   1064 kg, 0.0481 J/fb  (1311 s, total 1311 s)

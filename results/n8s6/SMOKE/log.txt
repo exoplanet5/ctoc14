@@ -1,0 +1,6 @@
+[12:46:49] partition search from results/n8/skel8b: 05:9 09:9 13:9 01:8 03:8 06:8 10:8 12:8
+[12:46:49] fill order ['05', '09', '13', '01', '03', '06', '10', '12'], beam 300, seg-k 20, lam 0.4, anneal 1
+[12:55:57] baseline: covered 223, sum J_i 10.202  (548 s)
+[13:00:10] [  1] 01<-199(10) + 10<-111(01): covered 224 (best 223), sum J_i 10.084, from pos 3  ACCEPT  (253 s)
+[13:00:10]       NEW BEST: covered 224, sum J_i 10.084 -> J 86.084
+[13:00:10] done: best covered 224, sum J_i 10.084  (802 s)

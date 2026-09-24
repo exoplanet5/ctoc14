@@ -1,0 +1,12 @@
+[11:22:22] pass start: {'out': 'results/s13/gen/g01/full6', 'start': '', 'keep': '', 'prem': 'results/s13/gen/prem/PREM_01.json', 'delta': 0.01, 'dvt': 1.8, 'beam': 100, 'npt': 6, 'mc': 150, 'tail_from': 6, 'members': 'T1,T2,T3,T5,T6', 'kappa': 90.0, 'cap_head': 1050.0, 'cap_tail': 1080.0, 'grid': '0,800,20', 'pilot': 0, 'seed': 1006, 'jitter': 0.004, 'nproc': 1, 'repair': True, 'n': 8, 'cache': 'results/s13/gen/cache', 'choice': 'value', 'settle_timeout': 240.0}; lambda {'n_prem': 67, 'n_pos': 166, 'n_neg': 134, 'mean': 0.00206, 'max': 0.014, 'prize_min': 1.0, 'prize_max': 1.014, 'sha1': '2cd8e7d5ff98', 'src': 'results/s13/gen/prem/PREM_01.json', 'jitter': 0.004, 'seed': 1006}; kept none
+[11:27:06]   route 01 H: pool 298, front 48:1035 47:1027 46:1022 45:1010 44:1005 (284 s)
+[11:28:51]     H 48 fb planner 1035 -> twin 1168 (miss 83) over cap (9 s)
+[11:28:51]     H 47 fb planner 1027 -> twin None (miss 32157595) fail (59 s)
+[11:28:51]     H 46 fb planner 1022 -> twin 1133 (miss 68) over cap (10 s)
+[11:28:51]     H 45 fb planner 1010 -> twin 1107 (miss 82) over cap (9 s)
+[11:28:51]     H 44 fb planner 1005 -> twin 1105 (miss 88) over cap (9 s)
+[11:28:51]     H 43 fb planner 994 -> twin 1107 (miss 70) over cap (9 s)
+[11:29:10]     H 42 fb planner 978 -> twin 1092 (miss 73) over cap (9 s)
+[11:29:10]     H 41 fb planner 967 -> twin 1067 (miss 80) over cap (10 s)
+[11:29:10] route 01: nothing settled (8 settles)
+[11:29:10] PASS {"covered": 0, "sumJi": 0, "J": 300, "depths": [], "tanks": [], "n_routes": 0, "wall_s": 409}

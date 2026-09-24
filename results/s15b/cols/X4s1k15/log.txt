@@ -1,0 +1,5 @@
+[06:43:17] prefix results/s15/cols/t03/TB2f/route_TB2fs1_21.npz k=15: 15 flybys to 3957 d, tank 765.9 kg, miss 75 km (4 s)
+[06:43:17] twintail X4s1k15: pool 23, S [64], p 0.5, steps 1, beam 24/72, nproc 1; resume at step 1
+[06:43:17]   RESUME level 15: beam 1, deepest 0
+[06:43:51]   depth 16: 1 parents -> 5 kids (5 uniq) -> tried 5, settled 5, kept 5; t_end 4128-4509 d, tank 773-974, max S 0 (34 s, gen 2 s)
+[06:45:32]   depth 17: 5 parents -> 15 kids (15 uniq) -> tried 15, settled 15, kept 15; t_end 4237-5092 d, tank 779-995, max S 0 (101 s, gen 8 s)

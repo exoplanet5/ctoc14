@@ -1,0 +1,38 @@
+{
+ "J": 41.0,
+ "n_sc": 11,
+ "covered": 292,
+ "flybys": [
+  29,
+  33,
+  31,
+  34,
+  35,
+  34,
+  33,
+  29,
+  22,
+  8,
+  4
+ ],
+ "args": {
+  "outdir": "results/plan_E2",
+  "beam": 300,
+  "wfuel": 0.7,
+  "eta": 0.6,
+  "max_sc": 12,
+  "min_gain": 0.0,
+  "launch_max_days": 400,
+  "launch_max_days_late": 1000,
+  "launch_step": 20,
+  "nproc": 6,
+  "resume": false,
+  "mmargin": 100.0,
+  "dvmax": 2.5,
+  "wrare": 0.5,
+  "rarity_csv": "analysis/ballistic/out/junction_per_asteroid.csv",
+  "improve_rounds": 2,
+  "eliminate": true,
+  "late_from": 5
+ }
+}

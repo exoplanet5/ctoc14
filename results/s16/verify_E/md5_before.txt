@@ -1,0 +1,4 @@
+MD5 (results/CTOC14_Result_s16E.txt) = cc438c69d975bad84646953b70bd6f03
+MD5 (results/CTOC14_Result_s15a.txt) = 0014a26eb7d9b7187adeb112901afc4f
+MD5 (results/CTOC14_Result_t10d.txt) = 265d3ac7f310ea87b3687de09aa28e8e
+MD5 (MEA.txt) = 00eb3ac7aa13212728a5b1effeba21fb

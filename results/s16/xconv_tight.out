@@ -1,0 +1,11 @@
+[16:27:29] 9 conversions (opt_iters 200) on 5 procs; 0 in index
+[16:41:48] dfd0bcca0110_o200g1e-06 31 fb: tank 958.10 -> m0 959.57 (+1.47 kg) miss 93 km valid True hs 0.1 n_opt 108 (858 s) results/s16/fleets/E/route_r5.npz
+[16:41:49] 433974ce2693_o200g1e-06 42 fb: tank 944.38 -> m0 948.03 (+3.65 kg) miss 33 km valid True hs 0.1 n_opt 105 (860 s) results/s16/fleets/E/route_r1.npz
+[16:42:51] 6d4f27966a9b_o200g1e-06 41 fb: tank 986.29 -> m0 988.89 (+2.61 kg) miss 31 km valid True hs 0.1 n_opt 133 (922 s) results/s16/fleets/E/route_r3.npz
+[16:46:21] c43ad8352491_o200g1e-06 38 fb: tank 913.12 -> m0 915.50 (+2.39 kg) miss 12 km valid True hs 0.1 n_opt 186 (1132 s) results/s16/fleets/E/route_r4.npz
+[16:46:38] 21ae69c35731_o200g1e-06 41 fb: tank 908.90 -> m0 910.83 (+1.93 kg) miss 7 km valid True hs 0.1 n_opt 200 (1149 s) results/s16/fleets/E/route_r2.npz
+[17:02:42] f941ab93ef93_o200g1e-06 30 fb: tank 901.55 -> m0 902.25 (+0.70 kg) miss 4 km valid True hs 0.1 n_opt 200 (1254 s) results/s16/fleets/E/route_r6.npz
+[17:03:09] a7a0989ecdc8_o200g1e-06 24 fb: tank 927.23 -> m0 927.72 (+0.48 kg) miss 23 km valid True hs 0.1 n_opt 200 (1217 s) results/s16/fleets/E/route_r8.npz
+[17:03:44] a4568e297ef2_o200g1e-06 30 fb: tank 1017.13 -> m0 1018.85 (+1.72 kg) miss 10 km valid True hs 0.05 n_opt 95 (1314 s) results/s16/fleets/E/route_r7.npz
+[17:04:34] 146a4cfa507f_o200g1e-06 21 fb: tank 902.83 -> m0 903.98 (+1.15 kg) miss 41 km valid True hs 0.05 n_opt 104 (1093 s) results/s16/fleets/E/route_r9.npz
+[17:04:34] done

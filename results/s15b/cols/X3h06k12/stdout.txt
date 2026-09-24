@@ -1,0 +1,11 @@
+[06:21:08] prefix results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz k=12: 12 flybys to 2189 d, tank 738.3 kg, miss 8 km (1 s)
+[06:21:08] twintail X3h06k12: pool 32, S [64], p 0.5, steps 1, beam 24/72, nproc 1; resume at step 1
+[06:21:08]   RESUME level 12: beam 1, deepest 0
+[06:21:23]   depth 13: 1 parents -> 6 kids (6 uniq) -> tried 6, settled 6, kept 6; t_end 2297-2793 d, tank 746-784, max S 0 (16 s, gen 3 s)
+[06:22:36]   depth 14: 6 parents -> 53 kids (52 uniq) -> tried 24, settled 24, kept 23; t_end 2444-3187 d, tank 751-833, max S 0 (73 s, gen 17 s)
+[06:24:22]   depth 15: 23 parents -> 214 kids (211 uniq) -> tried 24, settled 24, kept 24; t_end 2518-3184 d, tank 754-792, max S 0 (106 s, gen 68 s)
+[06:26:07]   depth 16: 24 parents -> 199 kids (195 uniq) -> tried 24, settled 24, kept 23; t_end 2751-3186 d, tank 764-804, max S 0 (104 s, gen 69 s)
+[06:28:46]   depth 17: 23 parents -> 170 kids (167 uniq) -> tried 25, settled 24, kept 21; t_end 2932-3383 d, tank 769-868, max S 0 (159 s, gen 64 s)
+[06:30:28]   depth 18: 21 parents -> 162 kids (161 uniq) -> tried 24, settled 24, kept 23; t_end 3124-3486 d, tank 777-844, max S 0 (102 s, gen 57 s)
+[06:32:09]   depth 19: 23 parents -> 188 kids (187 uniq) -> tried 24, settled 24, kept 22; t_end 3381-3912 d, tank 781-823, max S 0 (101 s, gen 62 s)
+[06:33:45]   depth 20: 22 parents -> 190 kids (187 uniq) -> tried 24, settled 24, kept 23; t_end 3486-4005 d, tank 787-825, max S 0 (96 s, gen 58 s)

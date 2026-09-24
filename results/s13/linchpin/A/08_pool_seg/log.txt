@@ -1,0 +1,11 @@
+[20:53:59] === 08 cond pool builder seg: pool 34 = own 26 + extra 8 [49, 117, 120, 124, 134, 240, 273, 292]; hard in pool 6; source route 26 fb @ 870.6 kg (10.41 kg/fb)
+[20:53:59]   hard extra 240: waypoint at 2578 d (closest approach 0.078 AU to the source route)
+[20:53:59]   skeleton: 6 waypoints 86@1010 108@1285 196@1416 240@2578 145@3265 96@4447; easy 28
+[20:54:55]     08 seg 3: 2 states reach waypoint 240 -- relaxed retry
+[20:54:59]     08 seg 4: 3 states reach waypoint 145 -- relaxed retry
+[20:55:00]     08 seg 5: 0 states reach waypoint 96 -- relaxed retry
+[20:55:02]     08 segments: 0:86->15st/3fb 1:108->10st/4fb 2:196->9st/5fb 3:240->6st/8fb 4:145->3st/10fb 5:96->3st/12fb 6:None->3st/12fb
+[20:55:02]   build 62 s: 3 states, deepest 12 of pool 34; Pareto 11:721 12:725
+[20:55:10]     12 pool fb (alt 0): planner 725 -> twin 673.5 kg, 6.13 kg/fb, 0.370 km/s/fb, J_i 1.0553, own 11/26 extra 1/8 (miss 51 km, 8 s)
+[20:55:22]     11 pool fb (alt 0): planner 721 -> twin 671.8 kg, 6.53 kg/fb, 0.394 km/s/fb, J_i 1.0539, own 10/26 extra 1/8 (miss 35 km, 13 s)
+[20:55:22]   BEST 08: 12/34 pool targets @ 673.5 kg (6.13 kg/fb; source 26 @ 870.6 = 10.41 kg/fb); orphans [49, 64, 70, 91, 93, 95, 110, 117, 120, 124, 134, 148, 160, 177, 180, 198, 244, 257, 273, 280, 286, 292]

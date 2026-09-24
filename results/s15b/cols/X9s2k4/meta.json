@@ -1,0 +1,334 @@
+{
+ "job": {
+  "beam": 24,
+  "tries": 72,
+  "roots": 300,
+  "dv": 1.2,
+  "drmax": 0.15,
+  "mc": 60,
+  "k_epochs": 3,
+  "lin_cap": 3.0,
+  "res_max": 150000000.0,
+  "grid": "0,800,20",
+  "iters": 100,
+  "timeout": 240.0,
+  "p": 0.5,
+  "S": [
+   212
+  ],
+  "w_fuel": 1.5,
+  "w_t": null,
+  "cap": 1150.0,
+  "kappa": 90.0,
+  "w_iso": 1.0,
+  "steps": 1,
+  "nproc": 1,
+  "wall_budget": 28800.0,
+  "min_save": 12,
+  "save_cap": 1300.0,
+  "level_budget": null,
+  "tag": "X9s2k4",
+  "out": "results/s15b/cols/X9s2k4",
+  "route": "results/s15b/cols/X1s2k5/route_X1s2k5s1_14.npz",
+  "k": 4,
+  "own": [
+   6,
+   17,
+   36,
+   75,
+   108,
+   118,
+   145,
+   180,
+   216,
+   219,
+   220,
+   243,
+   247,
+   288
+  ],
+  "own_prize": 1.0,
+  "runner": "tools/s15b_prefix.py",
+  "fleet_pre": [],
+  "replaced": "results/s15b/cols/X1s2k5/route_X1s2k5s1_14.npz",
+  "src_fleet": "results/s15b/close/G1/fleet",
+  "src_route": "s2",
+  "prefix_end": [
+   118,
+   1890.1026940389888
+  ],
+  "note": "G1c miss 212: s2 passes 0.321 AU @2460 (145@2399 -> 243@2691), h05 0.320 AU @3826 (267@3679 -> 7@3888)"
+ },
+ "kind": "twintail",
+ "pool_n": 15,
+ "chain": {
+  "steps": [
+   {
+    "k": 1,
+    "pool": 15,
+    "S": [
+     212
+    ],
+    "end": {
+     "kind": "no_children",
+     "depth": 14
+    },
+    "deepest": 14,
+    "settles": 188,
+    "settle_ok": 184,
+    "wall_s": 898,
+    "ncols": 3,
+    "took": {
+     "f": "results/s15b/cols/X9s2k4/route_X9s2k4s1_14.npz",
+     "n": 14,
+     "tank": 862.69,
+     "iso": [
+      216
+     ],
+     "s_taken": [
+      212
+     ]
+    },
+    "covered": 14
+   }
+  ],
+  "covered": [
+   6,
+   17,
+   36,
+   75,
+   108,
+   118,
+   180,
+   212,
+   216,
+   219,
+   220,
+   243,
+   247,
+   288
+  ],
+  "cols": [
+   {
+    "f": "results/s15b/cols/X9s2k4/route_X9s2k4s1_14.npz",
+    "n": 14,
+    "n_real": 14,
+    "tank": 862.69,
+    "miss": 96.7,
+    "kind": "score",
+    "targets": [
+     6,
+     17,
+     36,
+     75,
+     108,
+     118,
+     180,
+     212,
+     216,
+     219,
+     220,
+     243,
+     247,
+     288
+    ],
+    "iso": [
+     216
+    ],
+    "s_taken": [
+     212
+    ],
+    "t_end_d": 5189.2,
+    "t_launch_d": 960.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15b/cols/X9s2k4/route_X9s2k4s1_13.npz",
+    "n": 13,
+    "n_real": 13,
+    "tank": 848.78,
+    "miss": 71.1,
+    "kind": "score",
+    "targets": [
+     6,
+     17,
+     36,
+     75,
+     108,
+     118,
+     180,
+     212,
+     216,
+     219,
+     220,
+     243,
+     288
+    ],
+    "iso": [
+     216
+    ],
+    "s_taken": [
+     212
+    ],
+    "t_end_d": 4602.4,
+    "t_launch_d": 960.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15b/cols/X9s2k4/route_X9s2k4s1_12.npz",
+    "n": 12,
+    "n_real": 12,
+    "tank": 831.37,
+    "miss": 76.9,
+    "kind": "score",
+    "targets": [
+     6,
+     17,
+     36,
+     75,
+     108,
+     118,
+     180,
+     212,
+     216,
+     219,
+     220,
+     243
+    ],
+    "iso": [
+     216
+    ],
+    "s_taken": [
+     212
+    ],
+    "t_end_d": 4298.0,
+    "t_launch_d": 960.0,
+    "step": 1
+   }
+  ],
+  "taken": [
+   {
+    "k": 1,
+    "f": "results/s15b/cols/X9s2k4/route_X9s2k4s1_14.npz",
+    "n": 14,
+    "tank": 862.69,
+    "targets": [
+     6,
+     17,
+     36,
+     75,
+     108,
+     118,
+     180,
+     212,
+     216,
+     219,
+     220,
+     243,
+     247,
+     288
+    ]
+   }
+  ]
+ },
+ "cols": [
+  {
+   "f": "results/s15b/cols/X9s2k4/route_X9s2k4s1_14.npz",
+   "n": 14,
+   "n_real": 14,
+   "tank": 862.69,
+   "miss": 96.7,
+   "kind": "score",
+   "targets": [
+    6,
+    17,
+    36,
+    75,
+    108,
+    118,
+    180,
+    212,
+    216,
+    219,
+    220,
+    243,
+    247,
+    288
+   ],
+   "iso": [
+    216
+   ],
+   "s_taken": [
+    212
+   ],
+   "t_end_d": 5189.2,
+   "t_launch_d": 960.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/X9s2k4/route_X9s2k4s1_13.npz",
+   "n": 13,
+   "n_real": 13,
+   "tank": 848.78,
+   "miss": 71.1,
+   "kind": "score",
+   "targets": [
+    6,
+    17,
+    36,
+    75,
+    108,
+    118,
+    180,
+    212,
+    216,
+    219,
+    220,
+    243,
+    288
+   ],
+   "iso": [
+    216
+   ],
+   "s_taken": [
+    212
+   ],
+   "t_end_d": 4602.4,
+   "t_launch_d": 960.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/X9s2k4/route_X9s2k4s1_12.npz",
+   "n": 12,
+   "n_real": 12,
+   "tank": 831.37,
+   "miss": 76.9,
+   "kind": "score",
+   "targets": [
+    6,
+    17,
+    36,
+    75,
+    108,
+    118,
+    180,
+    212,
+    216,
+    219,
+    220,
+    243
+   ],
+   "iso": [
+    216
+   ],
+   "s_taken": [
+    212
+   ],
+   "t_end_d": 4298.0,
+   "t_launch_d": 960.0,
+   "step": 1
+  }
+ ],
+ "covered": 14,
+ "wall_s": 898
+}

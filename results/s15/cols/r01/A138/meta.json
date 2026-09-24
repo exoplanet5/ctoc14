@@ -1,0 +1,88 @@
+{
+ "job": {
+  "pool": null,
+  "S": [],
+  "p": 0.01,
+  "seed": 0,
+  "beam": 100,
+  "member": "H",
+  "dvS": 2.0,
+  "jit": 0.001,
+  "front": 24,
+  "cap": 1100.0,
+  "save_cap": 1300.0,
+  "max_settles": 10,
+  "ok_target": 6,
+  "dense": 3,
+  "stride": 3,
+  "repair": true,
+  "repair_settles": 5,
+  "absorb": null,
+  "absorb_hosts": 2,
+  "absorb_trials": 4,
+  "absorb_dmax": 0.06,
+  "absorb_kg": 80.0,
+  "settle_timeout": 240.0,
+  "kappa": 90.0,
+  "wall_budget": 1800.0,
+  "kind": "absorb",
+  "tag": "A138",
+  "out": "results/s15/cols/r01/A138",
+  "item_trials": 1
+ },
+ "kind": "absorb",
+ "items": [
+  {
+   "f": "results/s13/gen/g02/full4/lib/route_05_Hpre_16.npz",
+   "X": 138,
+   "n": 16,
+   "tank": 788.9,
+   "ok": 0
+  },
+  {
+   "f": "results/s13/gen/g01/full3/lib/route_05_H_31.npz",
+   "X": 138,
+   "n": 31,
+   "tank": 844.6,
+   "ok": 0
+  },
+  {
+   "f": "results/s13/gen/g01/full3/lib/route_05_H_32.npz",
+   "X": 138,
+   "n": 32,
+   "tank": 855.8,
+   "ok": 0
+  },
+  {
+   "f": "results/s13/gen/g01/full3/lib/route_05_H_30.npz",
+   "X": 138,
+   "n": 30,
+   "tank": 818.0,
+   "ok": 0
+  },
+  {
+   "f": "results/s13/linchpin/curve/07_N30/route_07.npz",
+   "X": 138,
+   "n": 29,
+   "tank": 837.8,
+   "ok": 0
+  },
+  {
+   "f": "results/s13/gen/g02/tail4/lib/route_06_T2_32.npz",
+   "X": 138,
+   "n": 32,
+   "tank": 1000.6,
+   "ok": 0
+  },
+  {
+   "f": "results/s13/gen/g02x/tailB55/lib/route_07_T3_24.npz",
+   "X": 138,
+   "n": 24,
+   "tank": 906.2,
+   "ok": 0
+  }
+ ],
+ "cols": [],
+ "wall_s": 2,
+ "done": "20:41:51"
+}

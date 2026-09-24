@@ -1,0 +1,41 @@
+[09:33:38] new run _opt2_fake_claims: N 3 H 540.0 d L 360.0 d proposer fixture_fake commit none nproc 2 stop_T 1620.0 claims on (bonus 0.5, ttl 2)
+[09:33:38] [slice 0] claims in force: -  (0 targets; claim_bonus 0.5, ttl 2)
+[09:33:38] [slice 0 T=0 d] propose: 2 jobs (0 craft, 2 root) on 2 workers, proposer fixture_fake, H_eff 540 d, lam 1.0
+[09:33:40]   job s00_r0 root  columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[09:33:40]   job s00_r1 root  columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[09:33:40] [slice 0] propose: 12 columns (0 bad dropped) in 2.0 s
+[09:33:40] [slice 0] auction: 12 columns, kept 8, dropped {'ramp': 2, 'fuel': 2}; lam 1.00 H_eff 540 d fuel budget 482 kg quota on
+[09:33:40] [slice 0] auction: status optimal objective 14.759 vars 8 rows 12 chosen 3 fuel 182/482 kg (0.019 s)
+[09:33:42] [slice 0] claims: c0:3  (3 targets: 0 kept, 3 new; 0 released, 0 expired (ttl 2), 6 conflicts)
+[09:33:42] [slice 0] fuel dual: lam 1.000 -> 1.500 (chosen 182 / budget 482 kg, ramp drops 2 of 10)
+[09:33:42] [slice 0 T=0 d] launched 3/3  covered 15  remaining 283  fuel 186 kg  sumJi 3.1390  chosen: r->c0:6(+70) r->c1:4(+48) r->c2:5(+63)  rejected: -  (wall 4 s)
+[09:33:42] [slice 1] claims in force: c0:3  (3 targets; claim_bonus 0.5, ttl 2)
+[09:33:42]   c0: claims: 3 own (prized +0.5), 0 claimed by others withheld
+[09:33:42]   c1: claims: 0 own (prized +0.5), 3 claimed by others withheld
+[09:33:42]   c2: claims: 0 own (prized +0.5), 3 claimed by others withheld
+[09:33:42] [slice 1 T=540 d] propose: 3 jobs (3 craft, 0 root) on 2 workers, proposer fixture_fake, H_eff 540 d, lam 1.5
+[09:33:44]   job s01_c0 craft columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[09:33:44]   job s01_c1 craft columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[09:33:44]   job s01_c2 craft columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[09:33:44] [slice 1] propose: 18 columns (0 bad dropped) in 2.0 s
+[09:33:44] [slice 1] auction: 18 columns, kept 12, dropped {'quota': 1, 'fuel': 3, 'ramp': 2}; lam 1.50 H_eff 540 d fuel budget 482 kg quota on
+[09:33:44] [slice 1] auction: status optimal objective 13.101 vars 12 rows 11 chosen 3 fuel 158/482 kg (0.008 s)
+[09:33:46] [slice 1] claims: c0:3 c1:2  (5 targets: 1 kept, 4 new; 2 released, 0 expired (ttl 2), 4 conflicts)
+[09:33:46] [slice 1 T=540 d] launched 3/3  covered 28  remaining 270  fuel 344 kg  sumJi 3.2662  chosen: c0:4(+51) c1:5(+61) c2:4(+46)  rejected: -  (wall 4 s)
+[09:33:46] [slice 2] claims in force: c0:3 c1:2  (5 targets; claim_bonus 0.5, ttl 2)
+[09:33:46]   c0: claims: 3 own (prized +0.5), 2 claimed by others withheld
+[09:33:46]   c1: claims: 2 own (prized +0.5), 3 claimed by others withheld
+[09:33:46]   c2: claims: 0 own (prized +0.5), 5 claimed by others withheld
+[09:33:46] [slice 2 T=1080 d] propose: 3 jobs (3 craft, 0 root) on 2 workers, proposer fixture_fake, H_eff 540 d, lam 1.5
+[09:33:48]   job s02_c0 craft columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[09:33:48]   job s02_c1 craft columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[09:33:48]   job s02_c2 craft columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[09:33:48] [slice 2] propose: 18 columns (0 bad dropped) in 2.0 s
+[09:33:48] [slice 2] auction: 18 columns, kept 12, dropped {'quota': 3, 'fuel': 3}; lam 1.50 H_eff 540 d fuel budget 482 kg quota on
+[09:33:48] [slice 2] auction: status optimal objective 15.712 vars 12 rows 17 chosen 3 fuel 194/482 kg (0.007 s)
+[09:33:50] [slice 2] claims: c0:2 c1:2 c2:2  (6 targets: 3 kept, 3 new; 1 released, 1 expired (ttl 2), 2 conflicts)
+[09:33:50] [slice 2] fuel dual: lam 1.500 -> 1.200 (chosen 194 / budget 482 kg, ramp drops 0 of 12)
+[09:33:50] [slice 2 T=1080 d] launched 3/3  covered 44  remaining 254  fuel 539 kg  sumJi 3.4341  chosen: c0:4(+48) c1:6(+73) c2:6(+74)  rejected: -  (wall 4 s)
+[09:33:50] stop: stop_T at T=1620 d (slice 3)
+[09:33:50] finalize: fleet/ 3 routes  covered 44  misses 254  fuel 539 kg  sumJi 3.4341  J 259.4341  honest False
+[09:33:50] _opt2_fake_claims: slice 3 phase propose T=1620 d  launched 3/3  covered 44  remaining 254  fuel 539 kg  sumJi 3.4341  done True (stop_T)

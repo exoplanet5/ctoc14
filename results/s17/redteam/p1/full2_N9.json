@@ -1,0 +1,28 @@
+[
+ {
+  "maxcov": false,
+  "N": 9,
+  "K": 298,
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal",
+  "sec": 900,
+  "dual_bound": null,
+  "nC": 1382,
+  "nA": 23798,
+  "thr": 0.08,
+  "cap": 150.0
+ },
+ {
+  "maxcov": false,
+  "N": 9,
+  "K": 298,
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal",
+  "sec": 900,
+  "dual_bound": null,
+  "nC": 1382,
+  "nA": 27099,
+  "thr": 0.15,
+  "cap": 150.0
+ }
+]

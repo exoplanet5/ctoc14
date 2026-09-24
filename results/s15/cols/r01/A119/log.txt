@@ -1,0 +1,9 @@
+[20:41:51]     absorb[07_pool_beam/route_07]: 1 approaches of [119]; lintwin 119@3412d 0.025AU 10kg
+[20:41:57]     absorb[07_pool_beam/route_07]: insert 119 at 3412 d (lintwin 10 kg) -> OK tank 754 (+10.6 kg) (6 s)
+[20:41:58]     absorb[07_own_beam/route_07]: 1 approaches of [119]; lintwin 119@3410d 0.033AU 0kg
+[20:42:10]     absorb[07_own_beam/route_07]: insert 119 at 3410 d (lintwin 0 kg) -> OK tank 747 (+-9.1 kg) (12 s)
+[20:42:10]     absorb[lib/route_04_H_31]: 1 approaches of [119]; lintwin 119@5133d 0.037AU 15kg
+[20:42:13]     absorb[lib/route_04_H_31]: insert 119 at 5133 d (lintwin 15 kg) -> OK tank 940 (+8.0 kg) (3 s)
+[20:42:13]     absorb[pass_a/route_07]: 1 approaches of [119]; lintwin 119@1708d 0.049AU 106kg
+[20:42:14]     absorb[G4a/route_01]: 1 approaches of [119]; lintwin 119@5132d 0.056AU 360kg
+[20:42:14] absorb A119 done: 3 columns from 5 items (23 s)

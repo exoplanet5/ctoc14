@@ -1,0 +1,2 @@
+[b100_pool77_minusA] beam 100 nproc 1 pool 51 strict: 84 s wall / 58 s cpu, deepest 18 total / 18 pool; Pareto(pool) 10:662 11:672 12:678 13:686 14:694 15:697 16:706 17:732 18:763
+   settle {'k_pool': 18, 'n_tot': 18, 'tank_planner': 762.8, 't_settle_s': 107.7, 'ok': False, 'miss_km': 3281219.0759933833}

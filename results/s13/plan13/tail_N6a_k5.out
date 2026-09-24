@@ -1,0 +1,97 @@
+[03:07:12] kept 5: 5 routes, covered 199, J 107.7263; 01:48@1048 03:42@993 02:39@1039 04:36@930 05:34@881; source tail: 06:26@836 07:23@848 08:15@699
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+[03:21:31]   route 06 T1: pool 99, front 26:874 25:825 24:807 23:792 22:789 (670 s)
+[03:21:31]   route 06 T2: pool 99, front 29:904 28:892 27:871 26:866 25:837 (749 s)
+[03:21:31]   route 06 T3: pool 99, front 32:1008 31:922 30:908 29:886 28:881 (808 s)
+[03:21:31]   route 06 T4: pool 99, front 26:874 25:825 24:807 23:792 22:789 (724 s)
+[03:21:31]   route 06 T5: pool 99, front 30:945 29:932 28:869 27:839 26:820 (753 s)
+[03:21:31]   route 06 T6: pool 99, front 31:995 30:975 29:961 28:889 27:850 (859 s)
+[03:25:31]     T3 32 fb planner 1008 -> twin None (miss inf) fail (240 s)
+[03:25:31]     T3 31 fb planner 922 -> twin 938 (miss 66) OK (83 s)
+[03:25:31]     T6 31 fb planner 995 -> twin None (miss inf) fail (240 s)
+[03:25:31]     T3 30 fb planner 908 -> twin 912 (miss 38) OK (111 s)
+[03:25:31]     T5 30 fb planner 945 -> twin 912 (miss 50) OK (156 s)
+[03:25:31]     T6 30 fb planner 975 -> twin None (miss inf) fail (240 s)
+[03:25:31] route 06: TOOK T3 31 fb @ 938 kg; covered 230, sum J_i 8.0262
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+[03:41:08]   route 07 T1: pool 68, front 22:800 21:771 20:765 19:753 18:740 (650 s)
+[03:41:08]   route 07 T2: pool 68, front 23:821 22:801 21:782 20:771 19:749 (759 s)
+[03:41:08]   route 07 T3: pool 68, front 25:997 24:879 23:830 22:817 21:809 (826 s)
+[03:41:08]   route 07 T4: pool 68, front 22:800 21:771 20:765 19:753 18:740 (775 s)
+[03:41:08]   route 07 T5: pool 68, front 23:817 22:788 21:766 20:753 19:724 (770 s)
+[03:41:08]   route 07 T6: pool 68, front 27:1015 26:954 25:945 24:935 23:911 (937 s)
+[03:45:04]     T6 27 fb planner 1015 -> twin 1067 (miss 2) OK (171 s)
+[03:45:04]     T6 26 fb planner 954 -> twin None (miss 100832881) fail (235 s)
+[03:45:04]     T6 25 fb planner 945 -> twin 949 (miss 34) OK (169 s)
+[03:45:04]     T3 25 fb planner 997 -> twin 1042 (miss 81) OK (164 s)
+[03:45:04]     T3 24 fb planner 879 -> twin 843 (miss 7) OK (148 s)
+[03:45:04]     T6 24 fb planner 935 -> twin 894 (miss 19) OK (183 s)
+[03:45:04] route 07: TOOK T6 25 fb @ 949 kg; covered 255, sum J_i 9.3379
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+[03:47:34]   route 08 T1: pool 43, front 8:660 7:653 6:641 5:631 4:620 (68 s)
+[03:47:34]   route 08 T2: pool 43, front 18:790 17:773 16:757 15:736 14:730 (119 s)
+[03:47:34]   route 08 T3: pool 43, front 20:879 19:858 18:820 17:803 16:787 (131 s)
+[03:47:34]   route 08 T4: pool 43, front 8:660 7:653 6:641 5:631 4:620 (101 s)
+[03:47:34]   route 08 T5: pool 43, front 19:822 18:808 17:769 16:755 15:747 (113 s)
+[03:47:34]   route 08 T6: pool 43, front 22:953 21:907 20:881 19:843 18:806 (150 s)
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:195: RuntimeWarning: overflow encountered in multiply
+  gdot = 1 - chi * chi / r * C; fdot = sqmu / (r * r0n) * chi * (z * S - 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/globalopt.py:258: RuntimeWarning: overflow encountered in multiply
+  lam = y * sc
+[03:51:34]     T6 22 fb planner 953 -> twin 2781 (miss 97) fail (88 s)
+[03:51:34]     T6 21 fb planner 907 -> twin None (miss inf) fail (240 s)
+[03:51:34]     T3 20 fb planner 879 -> twin None (miss 58678) fail (139 s)
+[03:51:34]     T6 20 fb planner 881 -> twin None (miss 251989098) fail (141 s)
+[03:51:34]     T5 19 fb planner 822 -> twin None (miss 233009585) fail (120 s)
+[03:51:34]     T6 19 fb planner 843 -> twin 1284 (miss 14) fail (112 s)
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:117: RuntimeWarning: overflow encountered in cosh
+  C[neg] = (np.cosh(sz[neg]) - 1) / (-z[neg])
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:118: RuntimeWarning: overflow encountered in sinh
+  S[neg] = (np.sinh(sz[neg]) - sz[neg]) / sz[neg] ** 3
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:187: RuntimeWarning: invalid value encountered in divide
+  dchi = -F / r
+/Users/mickey/.venvs/astro313/lib/python3.13/site-packages/numpy/linalg/_linalg.py:2803: RuntimeWarning: overflow encountered in multiply
+  s = (x.conj() * x).real
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:181: RuntimeWarning: divide by zero encountered in log
+  chi[hyp] = sgn * np.sqrt(-a) * np.log(-2 * mu * alpha[hyp] * dt[hyp] / (rdotv[hyp] + sgn * np.sqrt(-mu * a) * (1 - r0n[hyp] * alpha[hyp])))
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:117: RuntimeWarning: invalid value encountered in divide
+  C[neg] = (np.cosh(sz[neg]) - 1) / (-z[neg])
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:118: RuntimeWarning: invalid value encountered in subtract
+  S[neg] = (np.sinh(sz[neg]) - sz[neg]) / sz[neg] ** 3
+[03:53:29]     T3 19 fb planner 858 -> twin None (miss 436142371) fail (115 s)
+[03:53:29]     T2 18 fb planner 790 -> twin 772 (miss 102) OK (46 s)
+[03:53:29]     T6 18 fb planner 806 -> twin 2223 (miss 77) fail (15 s)
+[03:53:29]     T5 18 fb planner 808 -> twin None (miss 119498481) fail (97 s)
+[03:53:29]     T3 18 fb planner 820 -> twin None (miss 65057570) fail (114 s)
+[03:53:29]     T5 17 fb planner 769 -> twin 817 (miss 49) OK (19 s)
+[03:53:29] route 08: TOOK T2 18 fb @ 772 kg; covered 273, sum J_i 10.4757
+[03:53:29] FINAL tail probe: 8 routes, covered 273, J 37.4757; 01:48@1048 03:42@993 02:39@1039 04:36@930 05:34@881 06:31@938 07:25@949 08:18@772; covered 273, sum J_i 10.4757; source was 263 @ 10.2068

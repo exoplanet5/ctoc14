@@ -1,0 +1,3 @@
+hstep 0.1 d: misses max 8616 km (m0 875.1)
+restored: max 89 km, m0 874.8 (237 s)
+valid False ['SC1 line 4432: flyby distance to asteroid 70 is 1049.3 km > 1000 km', 'SC1 line 4715: flyby distance to asteroid 148 is 1438.8 km > 1000 km', 'SC1 line 4916: flyby distance to asteroid 244 is 1503.4 km > 1000 km'] flybys 17 (596 s)

@@ -1,0 +1,642 @@
+{
+ "N9K298": {
+  "N": 9,
+  "K": 298,
+  "i": 0,
+  "covered": 298,
+  "sumJi": 11.81948,
+  "misses": [],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/colgen/s15a/cols/route_h03_base_44.npz",
+   "results/s16/colgen/s15a/cols/route_h02m130_42.npz",
+   "results/s16/colgen/s15a/cols/route_h01_base_41.npz",
+   "results/s16/colgen/s15a/cols/route_h04m300_38.npz",
+   "results/s16/colgen/s15a/cols/route_h05_base_31.npz",
+   "results/s16/colgen/s15a/cols/route_h06x300_30.npz",
+   "results/s16/colgen/s15a/cols/route_t1_base_30.npz",
+   "results/s16/colgen/s15a/cols/route_s1_base_23.npz",
+   "results/s16/colgen/s15a/cols/route_s2x130_19.npz"
+  ],
+  "depths": [
+   44,
+   42,
+   41,
+   38,
+   31,
+   30,
+   30,
+   23,
+   19
+  ],
+  "tanks": [
+   1048.67,
+   947.26,
+   909.87,
+   915.31,
+   920.86,
+   947.24,
+   1030.09,
+   922.23,
+   904.17
+  ],
+  "sec": 8,
+  "est": 11.81948,
+  "plan": []
+ },
+ "N9K298a1": {
+  "N": 9,
+  "K": 298,
+  "i": 1,
+  "covered": 298,
+  "sumJi": 11.82077,
+  "misses": [],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/colgen/s15a/cols/route_h03_base_44.npz",
+   "results/s16/colgen/s15a/cols/route_h02_base_43.npz",
+   "results/s16/colgen/s15a/cols/route_h01_base_41.npz",
+   "results/s16/colgen/s15a/cols/route_h04m300_38.npz",
+   "results/s16/colgen/s15a/cols/route_h05m208_30.npz",
+   "results/s16/colgen/s15a/cols/route_h06x300_30.npz",
+   "results/s16/colgen/s15a/cols/route_t1_base_30.npz",
+   "results/s16/colgen/s15a/cols/route_s1_base_23.npz",
+   "results/s16/colgen/s15a/cols/route_s2x208_19.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   38,
+   30,
+   30,
+   30,
+   23,
+   19
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   915.31,
+   915.3,
+   947.24,
+   1030.09,
+   922.23,
+   887.38
+  ],
+  "sec": 17,
+  "est": 11.82077,
+  "plan": []
+ },
+ "N9K298a2": {
+  "N": 9,
+  "K": 298,
+  "i": 2,
+  "covered": 298,
+  "sumJi": 11.82126,
+  "misses": [],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/colgen/s15a/cols/route_h03_base_44.npz",
+   "results/s16/colgen/s15a/cols/route_h02_base_43.npz",
+   "results/s16/colgen/s15a/cols/route_h01_base_41.npz",
+   "results/s16/colgen/s15a/cols/route_h04m300_38.npz",
+   "results/s16/colgen/s15a/cols/route_h05_base_31.npz",
+   "results/s16/colgen/s15a/cols/route_h06x300_30.npz",
+   "results/s16/colgen/s15a/cols/route_t1_base_30.npz",
+   "results/s16/colgen/s15a/cols/route_s1_base_23.npz",
+   "results/s16/colgen/s15a/cols/route_s2_base_18.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   38,
+   31,
+   30,
+   30,
+   23,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   915.31,
+   920.86,
+   947.24,
+   1030.09,
+   922.23,
+   882.13
+  ],
+  "sec": 27,
+  "est": 11.82126,
+  "plan": []
+ },
+ "N9K298a3": {
+  "N": 9,
+  "K": 298,
+  "i": 3,
+  "covered": 298,
+  "sumJi": 11.8216,
+  "misses": [],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/colgen/s15a/cols/route_h03m14_43.npz",
+   "results/s16/colgen/s15a/cols/route_h02m130_42.npz",
+   "results/s16/colgen/s15a/cols/route_h01_base_41.npz",
+   "results/s16/pipe/K297a2/close/cols/route_04x163_39.npz",
+   "results/s16/colgen/s15a/cols/route_h05_base_31.npz",
+   "results/s16/colgen/s15a/cols/route_h06x14_30.npz",
+   "results/s16/colgen/s15a/cols/route_t1_base_30.npz",
+   "results/s16/colgen/s15a/cols/route_s1_base_23.npz",
+   "results/s16/colgen/s15a/cols/route_s2x130_19.npz"
+  ],
+  "depths": [
+   43,
+   42,
+   41,
+   39,
+   31,
+   30,
+   30,
+   23,
+   19
+  ],
+  "tanks": [
+   1032.24,
+   947.26,
+   909.87,
+   922.41,
+   920.86,
+   960.13,
+   1030.09,
+   922.23,
+   904.17
+  ],
+  "sec": 36,
+  "est": 11.8216,
+  "plan": []
+ },
+ "N9K297": {
+  "N": 9,
+  "K": 297,
+  "i": 0,
+  "covered": 297,
+  "sumJi": 11.77992,
+  "misses": [
+   148
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/colgen/s15a/cols/route_h03_base_44.npz",
+   "results/s16/colgen/s15a/cols/route_h02m130_42.npz",
+   "results/s16/colgen/s15a/cols/route_h01_base_41.npz",
+   "results/s16/colgen/s15a/cols/route_h04m300_38.npz",
+   "results/s16/colgen/s15a/cols/route_h05_base_31.npz",
+   "results/s16/colgen/s15a/cols/route_h06x300_30.npz",
+   "results/s16/colgen/s15a/cols/route_t1_base_30.npz",
+   "results/s16/colgen/s15a/cols/route_s1m148_22.npz",
+   "results/s16/colgen/s15a/cols/route_s2x130_19.npz"
+  ],
+  "depths": [
+   44,
+   42,
+   41,
+   38,
+   31,
+   30,
+   30,
+   22,
+   19
+  ],
+  "tanks": [
+   1048.67,
+   947.26,
+   909.87,
+   915.31,
+   920.86,
+   947.24,
+   1030.09,
+   883.57,
+   904.17
+  ],
+  "sec": 14,
+  "est": 11.89984,
+  "plan": [
+   [
+    148,
+    "08",
+    0.07,
+    0.1199
+   ]
+  ]
+ },
+ "N9K297a1": {
+  "N": 9,
+  "K": 297,
+  "i": 1,
+  "covered": 297,
+  "sumJi": 11.78245,
+  "misses": [
+   56
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/colgen/s15a/cols/route_h03m56_43.npz",
+   "results/s16/colgen/s15a/cols/route_h02m130_42.npz",
+   "results/s16/colgen/s15a/cols/route_h01_base_41.npz",
+   "results/s16/colgen/s15a/cols/route_h04m300_38.npz",
+   "results/s16/colgen/s15a/cols/route_h05_base_31.npz",
+   "results/s16/colgen/s15a/cols/route_h06x300_30.npz",
+   "results/s16/colgen/s15a/cols/route_t1_base_30.npz",
+   "results/s16/colgen/s15a/cols/route_s1_base_23.npz",
+   "results/s16/colgen/s15a/cols/route_s2x130_19.npz"
+  ],
+  "depths": [
+   43,
+   42,
+   41,
+   38,
+   31,
+   30,
+   30,
+   23,
+   19
+  ],
+  "tanks": [
+   1016.63,
+   947.26,
+   909.87,
+   915.31,
+   920.86,
+   947.24,
+   1030.09,
+   922.23,
+   904.17
+  ],
+  "sec": 29,
+  "est": 11.82666,
+  "plan": [
+   [
+    56,
+    "01",
+    0.082,
+    0.0442
+   ]
+  ]
+ },
+ "N9K297a2": {
+  "N": 9,
+  "K": 297,
+  "i": 2,
+  "covered": 297,
+  "sumJi": 11.78611,
+  "misses": [
+   234
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/colgen/s15a/cols/route_h03_base_44.npz",
+   "results/s16/colgen/s15a/cols/route_h02m130_42.npz",
+   "results/s16/colgen/s15a/cols/route_h01_base_41.npz",
+   "results/s16/colgen/s15a/cols/route_h04m300_38.npz",
+   "results/s16/colgen/s15a/cols/route_h05_base_31.npz",
+   "results/s16/colgen/s15a/cols/route_h06x300_30.npz",
+   "results/s16/colgen/s15a/cols/route_t1m234_29.npz",
+   "results/s16/colgen/s15a/cols/route_s1_base_23.npz",
+   "results/s16/colgen/s15a/cols/route_s2x130_19.npz"
+  ],
+  "depths": [
+   44,
+   42,
+   41,
+   38,
+   31,
+   30,
+   29,
+   23,
+   19
+  ],
+  "tanks": [
+   1048.67,
+   947.26,
+   909.87,
+   915.31,
+   920.86,
+   947.24,
+   1000.77,
+   922.23,
+   904.17
+  ],
+  "sec": 44,
+  "est": 11.83886,
+  "plan": [
+   [
+    234,
+    "07",
+    0.196,
+    0.0527
+   ]
+  ]
+ },
+ "N9K297a3": {
+  "N": 9,
+  "K": 297,
+  "i": 3,
+  "covered": 297,
+  "sumJi": 11.78761,
+  "misses": [
+   206
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/colgen/s15a/cols/route_h03_base_44.npz",
+   "results/s16/colgen/s15a/cols/route_h02m206_42.npz",
+   "results/s16/colgen/s15a/cols/route_h01_base_41.npz",
+   "results/s16/colgen/s15a/cols/route_h04m300_38.npz",
+   "results/s16/colgen/s15a/cols/route_h05m208_30.npz",
+   "results/s16/colgen/s15a/cols/route_h06x300_30.npz",
+   "results/s16/colgen/s15a/cols/route_t1_base_30.npz",
+   "results/s16/colgen/s15a/cols/route_s1_base_23.npz",
+   "results/s16/colgen/s15a/cols/route_s2x208_19.npz"
+  ],
+  "depths": [
+   44,
+   42,
+   41,
+   38,
+   30,
+   30,
+   30,
+   23,
+   19
+  ],
+  "tanks": [
+   1048.67,
+   938.76,
+   909.87,
+   915.31,
+   915.3,
+   947.24,
+   1030.09,
+   922.23,
+   887.38
+  ],
+  "sec": 56,
+  "est": 11.82426,
+  "plan": [
+   [
+    206,
+    "02",
+    0.03,
+    0.0366
+   ]
+  ]
+ },
+ "N9K296": {
+  "N": 9,
+  "K": 296,
+  "i": 0,
+  "covered": 296,
+  "sumJi": 11.74289,
+  "misses": [
+   56,
+   148
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/colgen/s15a/cols/route_h03m56_43.npz",
+   "results/s16/colgen/s15a/cols/route_h02m130_42.npz",
+   "results/s16/colgen/s15a/cols/route_h01_base_41.npz",
+   "results/s16/colgen/s15a/cols/route_h04m300_38.npz",
+   "results/s16/colgen/s15a/cols/route_h05_base_31.npz",
+   "results/s16/colgen/s15a/cols/route_h06x300_30.npz",
+   "results/s16/colgen/s15a/cols/route_t1_base_30.npz",
+   "results/s16/colgen/s15a/cols/route_s1m148_22.npz",
+   "results/s16/colgen/s15a/cols/route_s2x130_19.npz"
+  ],
+  "depths": [
+   43,
+   42,
+   41,
+   38,
+   31,
+   30,
+   30,
+   22,
+   19
+  ],
+  "tanks": [
+   1016.63,
+   947.26,
+   909.87,
+   915.31,
+   920.86,
+   947.24,
+   1030.09,
+   883.57,
+   904.17
+  ],
+  "sec": 45,
+  "est": 11.91503,
+  "plan": [
+   [
+    56,
+    "08",
+    0.048,
+    0.0252
+   ],
+   [
+    148,
+    "06",
+    0.178,
+    0.1469
+   ]
+  ]
+ },
+ "N9K296a1": {
+  "N": 9,
+  "K": 296,
+  "i": 1,
+  "covered": 296,
+  "sumJi": 11.74655,
+  "misses": [
+   148,
+   234
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/colgen/s15a/cols/route_h03_base_44.npz",
+   "results/s16/colgen/s15a/cols/route_h02m130_42.npz",
+   "results/s16/colgen/s15a/cols/route_h01_base_41.npz",
+   "results/s16/colgen/s15a/cols/route_h04m300_38.npz",
+   "results/s16/colgen/s15a/cols/route_h05_base_31.npz",
+   "results/s16/colgen/s15a/cols/route_h06x300_30.npz",
+   "results/s16/colgen/s15a/cols/route_t1m234_29.npz",
+   "results/s16/colgen/s15a/cols/route_s1m148_22.npz",
+   "results/s16/colgen/s15a/cols/route_s2x130_19.npz"
+  ],
+  "depths": [
+   44,
+   42,
+   41,
+   38,
+   31,
+   30,
+   29,
+   22,
+   19
+  ],
+  "tanks": [
+   1048.67,
+   947.26,
+   909.87,
+   915.31,
+   920.86,
+   947.24,
+   1000.77,
+   883.57,
+   904.17
+  ],
+  "sec": 92,
+  "est": 11.91921,
+  "plan": [
+   [
+    148,
+    "08",
+    0.07,
+    0.1199
+   ],
+   [
+    234,
+    "07",
+    0.196,
+    0.0527
+   ]
+  ]
+ },
+ "N9K296a2": {
+  "N": 9,
+  "K": 296,
+  "i": 2,
+  "covered": 296,
+  "sumJi": 11.74709,
+  "misses": [
+   148,
+   172
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/colgen/s15a/cols/route_h03_base_44.npz",
+   "results/s16/colgen/s15a/cols/route_h02m130_42.npz",
+   "results/s16/colgen/s15a/cols/route_h01_base_41.npz",
+   "results/s16/colgen/s15a/cols/route_h04m300_38.npz",
+   "results/s16/colgen/s15a/cols/route_h05_base_31.npz",
+   "results/s16/colgen/s15a/cols/route_h06x300_30.npz",
+   "results/s16/colgen/s15a/cols/route_t1_base_30.npz",
+   "results/s16/honest/route_0050b0eaffa66585.npz",
+   "results/s16/colgen/s15a/cols/route_s2x130_19.npz"
+  ],
+  "depths": [
+   44,
+   42,
+   41,
+   38,
+   31,
+   30,
+   30,
+   21,
+   19
+  ],
+  "tanks": [
+   1048.67,
+   947.26,
+   909.87,
+   915.31,
+   920.86,
+   947.24,
+   1030.09,
+   850.3,
+   904.17
+  ],
+  "sec": 127,
+  "est": 11.93323,
+  "plan": [
+   [
+    148,
+    "06",
+    0.178,
+    0.1469
+   ],
+   [
+    172,
+    "08",
+    0.084,
+    0.0392
+   ]
+  ]
+ },
+ "N9K296a3": {
+  "N": 9,
+  "K": 296,
+  "i": 3,
+  "covered": 296,
+  "sumJi": 11.74805,
+  "misses": [
+   148,
+   206
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/colgen/s15a/cols/route_h03_base_44.npz",
+   "results/s16/colgen/s15a/cols/route_h02m206_42.npz",
+   "results/s16/colgen/s15a/cols/route_h01_base_41.npz",
+   "results/s16/colgen/s15a/cols/route_h04m300_38.npz",
+   "results/s16/colgen/s15a/cols/route_h05m208_30.npz",
+   "results/s16/colgen/s15a/cols/route_h06x300_30.npz",
+   "results/s16/colgen/s15a/cols/route_t1_base_30.npz",
+   "results/s16/colgen/s15a/cols/route_s1m148_22.npz",
+   "results/s16/colgen/s15a/cols/route_s2x208_19.npz"
+  ],
+  "depths": [
+   44,
+   42,
+   41,
+   38,
+   30,
+   30,
+   30,
+   22,
+   19
+  ],
+  "tanks": [
+   1048.67,
+   938.76,
+   909.87,
+   915.31,
+   915.3,
+   947.24,
+   1030.09,
+   883.57,
+   887.38
+  ],
+  "sec": 176,
+  "est": 11.90461,
+  "plan": [
+   [
+    148,
+    "08",
+    0.07,
+    0.1199
+   ],
+   [
+    206,
+    "02",
+    0.03,
+    0.0366
+   ]
+  ]
+ }
+}

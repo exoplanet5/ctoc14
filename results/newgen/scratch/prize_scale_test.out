@@ -1,0 +1,29 @@
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+  pricing s0.0: 9986 states, 8768 sets, 0 with rc<-0.02, added 0; rc_min 0.205, deepest 36, w_fuel 0.97 (180 s)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+  pricing s0.15: 9410 states, 8171 sets, 1655 with rc<-0.02, added 400; rc_min -0.901, deepest 34, w_fuel 0.97 (174 s)
+  scale 0.15: added 400, depth p50 30 max 33, best five rc/depth: -0.90/31 -0.80/32 -0.76/33 -0.75/33 -0.75/33
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+  pricing s0.3: 9202 states, 7988 sets, 2804 with rc<-0.02, added 400; rc_min -1.327, deepest 33, w_fuel 0.97 (161 s)
+  scale 0.3: added 400, depth p50 28 max 33, best five rc/depth: -1.33/32 -1.27/33 -1.27/31 -1.27/32 -1.27/32

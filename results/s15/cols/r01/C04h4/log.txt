@@ -1,0 +1,18 @@
+[20:01:56] chain C04h4: pool 127, S [64, 119, 137, 138, 157, 158, 168, 216], p 0.01, steps 5, members ['H', 'T2']; resume at step 1
+[20:04:27]   step 1 plan T2: pool 127, S [64, 119, 137, 138, 157, 158, 168, 216], deepest 35 (with S 35); front 35:1032*** 34:1009*** 34:1034**** 33:1005*** 32:978*** 31:966*** 30:951*** 29:926*** (151 s)
+[20:07:10]   step 1 plan T3: pool 127, S [64, 119, 137, 138, 157, 158, 168, 216], deepest 35 (with S 35); front 35:1019** 35:1023*** 34:985** 34:1034***** 33:974** 33:1037****** 32:956** 32:1018***** (163 s)
+[20:10:01]   step 1 plan T6: pool 127, S [64, 119, 137, 138, 157, 158, 168, 216], deepest 35 (with S 35); front 35:1037*** 34:1025*** 33:1011*** 33:1036***** 32:996*** 32:1028***** 31:987*** 31:1014***** (171 s)
+[20:11:30]     settle T3 35 fb (S [157, 158, 168]) planner 1023 -> twin - miss 82147976 no (89 s)
+[20:11:39]     settle T2 35 fb (S [119, 157, 168]) planner 1032 -> twin 1126 miss 85 OK (10 s)
+[20:12:55]     settle T3 35 fb (S [157, 168]) planner 1019 -> twin - miss 44092195 no (76 s)
+[20:14:13]     settle T3 34 fb (S [119, 157, 158, 168, 216]) planner 1034 -> twin - miss 25568522 no (77 s)
+[20:14:22]     settle T2 34 fb (S [64, 119, 157, 168]) planner 1034 -> twin 1139 miss 54 OK (9 s)
+[20:14:34]     settle T2 34 fb (S [119, 157, 168]) planner 1009 -> twin 1118 miss 59 OK (13 s)
+[20:15:55]     settle T3 31 fb (S [119, 157, 158, 168, 216]) planner 994 -> twin - miss 28335278 no (81 s)
+[20:17:12]     settle T3 30 fb (S [119, 157, 158, 168, 216]) planner 956 -> twin - miss 22260678 no (76 s)
+[20:18:22]     settle T3 29 fb (S [119, 157, 158, 168, 216]) planner 951 -> twin - miss 22902745 no (70 s)
+[20:19:10]     settle T3 28 fb (S [119, 137, 157, 158, 168]) planner 918 -> twin - miss 12136471 no (48 s)
+[20:20:20]     settle T3 27 fb (S [119, 157, 158, 168, 216]) planner 902 -> twin - miss 21926298 no (70 s)
+[20:21:17]     settle T3 26 fb (S [119, 157, 158, 168, 216]) planner 889 -> twin - miss 24796966 no (56 s)
+[20:21:17]   step 1: nothing settled under the cap -> chain ends
+[20:21:17] chain C04h4 done: 3 columns, covered 0/127 (1161 s)

@@ -1,0 +1,32 @@
+[01:08:11] job s00_r0 (root, craft None): T 0 d H 540 L 360; remaining 298; prize >1 on 0, tank_prev 601.5
+[01:08:16] roots: grid (0, 540] step 30 d -> 10 launch legs kept (5.0 s); launch 30-120 d, first flyby 80-180 d
+[01:08:16] start: 10 root state(s), remaining 298, horizon (0, 540] + L 360 d, B 3 tries 4 k_epochs 3 price_cap 250 max_levels 3 wall 2400 s
+[01:08:43]   price_cap: 2500 of 8753 horizon candidates priced (10 parents)
+[01:08:43] depth  2: 10/10 parents -> 945 children (902 unique) -> tried 3, settled 3 (3 in H), kept 3; t_end 173-244 d, tank 605-624 (27 s: price 27, settle 0)
+[01:08:53]   price_cap: 750 of 2652 horizon candidates priced (3 parents)
+[01:08:53] depth  3: 3/3 parents -> 273 children (273 unique) -> tried 3, settled 3 (3 in H), kept 3; t_end 293-320 d, tank 611-622 (10 s: price 9, settle 0)
+[01:09:03]   price_cap: 750 of 2559 horizon candidates priced (3 parents)
+[01:09:04] depth  4: 3/3 parents -> 263 children (263 unique) -> tried 3, settled 3 (3 in H), kept 3; t_end 327-468 d, tank 616-640 (11 s: price 11, settle 0)
+[01:09:04] beam end {'kind': 'max_levels', 'depth': 4}: 19 settled states, 9 settles (9 ok), wall 48 s (price 47, settle 1)
+[01:09:04] RESULT s00_r0: 15 columns (n_new 1-4, potential 0-0), 19 states, end max_levels, wall 53 s
+[2026-09-24 01:09:04] test-root: 15 columns, n_new 1-4, 0 with potential > 0, launch bins (60 d) [0, 1]; stats {"levels": 3, "n_states": 19, "n_columns": 15, "settles": 9, "settle_ok": 9, "price_s": 46.5, "settle_s": 1.0, "wall_s": 52.6, "end": {"kind": "max_levels", "depth": 4}}
+  k  id                n_new  depth  pot   tank    dtank   miss  t_launch  t_end   classes         targets @ epochs [d]
+           s00_r0_k0      4      4    0   615.7    14.2    0.3      60.0   468.1  p1/m2/f1  174@89 278@242 67@315 28@468
+           s00_r0_k1      4      4    0   632.3    30.8    5.1      60.0   392.0  p0/m2/f2  174@88 278@240 272@292 128@392
+           s00_r0_k2      4      4    0   640.0    38.5    2.1      60.0   327.3  p0/m2/f2  174@88 278@241 272@297 67@327
+           s00_r0_k3      3      3    0   610.7     9.2    0.0      60.0   317.6  p0/m2/f1  174@89 278@241 67@318
+           s00_r0_k4      3      3    0   615.4    13.9    3.6      60.0   292.8  p0/m2/f1  174@88 278@240 272@293
+           s00_r0_k5      3      3    0   622.3    20.8    5.4      30.0   319.6  p1/m2/f0  181@161 171@207 61@320
+           s00_r0_k6      2      2    0   605.4     3.9    0.3      30.0   207.7  p0/m2/f0  181@160 171@208
+           s00_r0_k7      2      2    0   605.8     4.3    0.0      60.0   243.8  p0/m2/f0  174@89 278@244
+           s00_r0_k8      2      2    0   623.9    22.4   17.7      30.0   173.3  p0/m1/f1  181@160 155@173
+           s00_r0_k9      1      1    0   601.5     0.0    0.0      30.0    80.0  p0/m1/f0  174@80
+          s00_r0_k10      1      1    0   601.5     0.0    0.0      30.0   150.0  p0/m1/f0  181@150
+          s00_r0_k11      1      1    0   601.5     0.0    0.0      60.0   160.0  p0/m0/f1  162@160
+          s00_r0_k12      1      1    0   601.5     0.0    0.0      30.0   165.0  p0/m0/f1  155@165
+          s00_r0_k13      1      1    0   601.5     0.0    0.0      30.0   180.0  p0/m0/f1  67@180
+          s00_r0_k14      1      1    0   601.5     0.0    0.0      30.0   180.0  p0/m0/f1  153@180
+  level {'depth': 2, 'parents': 10, 'children': 945, 'unique': 902, 'tried': 3, 'settled': 3, 'kept': 3, 'in_H': 3, 'wall_s': 27.0, 'price_s': 26.7, 'settle_s': 0.3, 'n_epochs': 8753, 'n_priced': 2500, 'drift': 0}
+  level {'depth': 3, 'parents': 3, 'children': 273, 'unique': 273, 'tried': 3, 'settled': 3, 'kept': 3, 'in_H': 3, 'wall_s': 9.5, 'price_s': 9.2, 'settle_s': 0.3, 'n_epochs': 2652, 'n_priced': 750, 'drift': 0}
+  level {'depth': 4, 'parents': 3, 'children': 263, 'unique': 263, 'tried': 3, 'settled': 3, 'kept': 3, 'in_H': 3, 'wall_s': 11.1, 'price_s': 10.6, 'settle_s': 0.4, 'n_epochs': 2559, 'n_priced': 750, 'drift': 0}
+[2026-09-24 01:09:04] test-root PASS: run_job MEASURED 52.6 s (cached call 0.00 s); total 52.6 s; result /Users/mickey/solarsystem/ctoc14/results/s18/_wp1_root/slices/s00/r0/result.json

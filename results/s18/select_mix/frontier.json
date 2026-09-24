@@ -1,0 +1,88 @@
+{
+ "N9K298": {
+  "N": 9,
+  "K": 298,
+  "i": 0,
+  "covered": 298,
+  "sumJi": 11.83267,
+  "misses": [],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_520abde40c0a1cf1.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   39,
+   31,
+   30,
+   29,
+   23,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   922.44,
+   920.86,
+   1030.09,
+   950.98,
+   922.23,
+   882.13
+  ],
+  "sec": 3
+ },
+ "N9K298a1": {
+  "N": 9,
+  "K": 298,
+  "i": 1,
+  "covered": 298,
+  "sumJi": 11.83829,
+  "misses": [],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_969cff36028e9d8b.npz",
+   "results/s16/honest/route_7bf95624d2fdc0cc.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_520abde40c0a1cf1.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   42,
+   38,
+   31,
+   30,
+   29,
+   23,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   925.44,
+   912.27,
+   920.86,
+   1030.09,
+   950.98,
+   922.23,
+   882.13
+  ],
+  "sec": 5
+ }
+}

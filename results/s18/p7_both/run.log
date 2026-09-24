@@ -1,0 +1,36 @@
+[11:18:48] new run p7_both: N 8 H 540.0 d L 360.0 d proposer planbeam commit regrid nproc 9 stop_T None max_launch 3 launch_stagger 60.0 d
+[11:18:48] [slice 0 T=0 d] propose: 9 jobs (0 craft, 9 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 0.7
+[11:18:48] job s00_r1 (root, craft None, planbeam): T 0 d H 540 L 360; plan horizon 1620 d; remaining 298; prize >1 on 6; width 150 npt 6 mc 150 dv 1.2 drmax 0.15 plan_wall 240 s; quota {'fil': 12, 'med': 18}
+[11:18:48] job s00_r6 (root, craft None, planbeam): T 0 d H 540 L 360; plan horizon 1620 d; remaining 298; prize >1 on 6; width 150 npt 6 mc 150 dv 1.2 drmax 0.15 plan_wall 240 s; quota {'fil': 12, 'med': 18}
+[11:18:48] job s00_r4 (root, craft None, planbeam): T 0 d H 540 L 360; plan horizon 1620 d; remaining 298; prize >1 on 6; width 150 npt 6 mc 150 dv 1.2 drmax 0.15 plan_wall 240 s; quota {'fil': 12, 'med': 18}
+[11:18:48] job s00_r5 (root, craft None, planbeam): T 0 d H 540 L 360; plan horizon 1620 d; remaining 298; prize >1 on 6; width 150 npt 6 mc 150 dv 1.2 drmax 0.15 plan_wall 240 s; quota {'fil': 12, 'med': 18}
+[11:18:48] budget: job_wall 300 s, 300 s left before the plan -> plan cap 210 s (plan_wall 240, settle_reserve 90)
+[11:18:48] budget: job_wall 300 s, 300 s left before the plan -> plan cap 210 s (plan_wall 240, settle_reserve 90)
+[11:18:48] job s00_r3 (root, craft None, planbeam): T 0 d H 540 L 360; plan horizon 1620 d; remaining 298; prize >1 on 6; width 150 npt 6 mc 150 dv 1.2 drmax 0.15 plan_wall 240 s; quota {'fil': 12, 'med': 18}
+[11:18:48] budget: job_wall 300 s, 300 s left before the plan -> plan cap 210 s (plan_wall 240, settle_reserve 90)
+[11:18:48] budget: job_wall 300 s, 300 s left before the plan -> plan cap 210 s (plan_wall 240, settle_reserve 90)
+[11:18:48] budget: job_wall 300 s, 300 s left before the plan -> plan cap 210 s (plan_wall 240, settle_reserve 90)
+[11:18:48] job s00_r7 (root, craft None, planbeam): T 0 d H 540 L 360; plan horizon 1620 d; remaining 298; prize >1 on 6; width 150 npt 6 mc 150 dv 1.2 drmax 0.15 plan_wall 240 s; quota {'fil': 12, 'med': 18}
+[11:18:48] budget: job_wall 300 s, 300 s left before the plan -> plan cap 210 s (plan_wall 240, settle_reserve 90)
+[11:18:48] job s00_r0 (root, craft None, planbeam): T 0 d H 540 L 360; plan horizon 1620 d; remaining 298; prize >1 on 6; width 150 npt 6 mc 150 dv 1.2 drmax 0.15 plan_wall 240 s; quota {'fil': 12, 'med': 18}
+[11:18:48] budget: job_wall 300 s, 300 s left before the plan -> plan cap 210 s (plan_wall 240, settle_reserve 90)
+[11:18:48] job s00_r2 (root, craft None, planbeam): T 0 d H 540 L 360; plan horizon 1620 d; remaining 298; prize >1 on 6; width 150 npt 6 mc 150 dv 1.2 drmax 0.15 plan_wall 240 s; quota {'fil': 12, 'med': 18}
+[11:18:48] job s00_r8 (root, craft None, planbeam): T 0 d H 540 L 360; plan horizon 1620 d; remaining 298; prize >1 on 6; width 150 npt 6 mc 150 dv 1.2 drmax 0.15 plan_wall 240 s; quota {'fil': 12, 'med': 18}
+[11:18:48] budget: job_wall 300 s, 300 s left before the plan -> plan cap 210 s (plan_wall 240, settle_reserve 90)
+[11:18:48] budget: job_wall 300 s, 300 s left before the plan -> plan cap 210 s (plan_wall 240, settle_reserve 90)
+[11:18:50] plan start: 6 launch dates (190-240 d) -> 1235 launch legs with first flyby <= T+H, 159 kept (cap min(roots_max 450, 3 x width) = 450; 1.9 s)
+[11:18:50] plan start: 6 launch dates (70-120 d) -> 1681 launch legs with first flyby <= T+H, 192 kept (cap min(roots_max 450, 3 x width) = 450; 2.2 s)
+[11:18:50] plan start: 6 launch dates (370-420 d) -> 160 launch legs with first flyby <= T+H, 27 kept (cap min(roots_max 450, 3 x width) = 450; 2.2 s)
+[11:18:50] plan start: 6 launch dates (130-180 d) -> 1340 launch legs with first flyby <= T+H, 185 kept (cap min(roots_max 450, 3 x width) = 450; 2.3 s)
+[11:18:50] plan start: 6 launch dates (310-360 d) -> 276 launch legs with first flyby <= T+H, 62 kept (cap min(roots_max 450, 3 x width) = 450; 2.4 s)
+[11:18:50] plan start: 6 launch dates (490-540 d) -> 0 launch legs with first flyby <= T+H, 0 kept (cap min(roots_max 450, 3 x width) = 450; 2.4 s)
+[11:18:50] plan: 0 states, depth 0 new flybys, end no_children (2 s)
+[11:18:50] candidates: 0 distinct committed target sets (n_new -, potential -)
+[11:18:50] frontier: 0 candidates chosen (n fb / committed planner kg / continuation (lookahead) [full]; pot_mode full, pot_cap 8): 
+[11:18:50] budget: 298 s of 300 left for the settles + regrids (settle_wall 480)
+[11:18:50] RESULT s00_r8: 0 columns; frontier ; settles 0 (0 ok), regrids 0 (0 ok); wall 2 s of 300 (plan 2, price 0, settle 0; budget hit None, 0 unsettled)
+[11:18:50] plan start: 6 launch dates (250-300 d) -> 726 launch legs with first flyby <= T+H, 116 kept (cap min(roots_max 450, 3 x width) = 450; 2.6 s)
+[11:18:50] plan start: 6 launch dates (430-480 d) -> 36 launch legs with first flyby <= T+H, 5 kept (cap min(roots_max 450, 3 x width) = 450; 2.6 s)
+[11:18:51] plan start: 7 launch dates (0-60 d) -> 2000 launch legs with first flyby <= T+H, 208 kept (cap min(roots_max 450, 3 x width) = 450; 2.7 s)
+[11:18:52]   job s00_r8 root  columns   0  levels 0  settles 0/0  end no_children  wall 2.4 s
+[11:19:05] interrupted (Interrupted): slice 0 -- phase files on disk are the resume point

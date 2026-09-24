@@ -1,0 +1,10 @@
+skeleton: 29 targets (17 hard), tank 803.0, dv 11.34; 211 easy targets available
+round 0: 24 trials, 17 feasible; inserted 126 at 9.80 yr: tank +-0.1 kg (+-0.007 km/s) -> 802.9; next best +0.609; 30 targets  (76 s)
+round 1: 24 trials, 16 feasible; inserted 47 at 2.02 yr: tank +13.2 kg (+0.641 km/s) -> 816.1; next best +0.992; 31 targets  (85 s)
+round 2: 24 trials, 15 feasible; inserted 164 at 3.07 yr: tank +14.7 kg (+0.698 km/s) -> 830.8; next best +1.025; 32 targets  (81 s)
+round 3: 24 trials, 15 feasible; inserted 4 at 5.16 yr: tank +13.8 kg (+0.644 km/s) -> 844.5; next best +1.138; 33 targets  (76 s)
+round 4: 24 trials, 12 feasible; inserted 133 at 5.43 yr: tank +14.4 kg (+0.663 km/s) -> 858.9; next best +1.190; 34 targets  (82 s)
+round 5: 24 trials, 11 feasible; inserted 83 at 8.36 yr: tank +25.6 kg (+1.151 km/s) -> 884.5; next best +1.247; 35 targets  (82 s)
+round 6: 24 trials, 13 feasible; inserted 190 at 9.12 yr: tank +12.4 kg (+0.545 km/s) -> 896.9; next best +0.894; 36 targets  (76 s)
+round 7: 24 trials, 11 feasible; inserted 247 at 7.34 yr: tank +22.2 kg (+0.961 km/s) -> 919.1; next best +1.338; 37 targets  (78 s)
+final: 37 targets, tank 919.1 (J_i 1.280), dv 16.63 = 0.449 per flyby; marginal 0.662 km/s per inserted target

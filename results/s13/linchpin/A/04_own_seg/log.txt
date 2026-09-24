@@ -1,0 +1,19 @@
+[20:53:43] === 04 cond own builder seg: pool 30 = own 30 + extra 0 []; hard in pool 12; source route 30 fb @ 886.7 kg (9.56 kg/fb)
+[20:53:43]   skeleton: 12 waypoints 161@676 84@1245 50@1769 92@2013 123@2450 158@3017 236@3530 22@3638 216@4166 137@4364 232@4449 58@5014; easy 18
+[20:54:10]     04 seg 1: 3 states reach waypoint 84 -- relaxed retry
+[20:54:14]     04 seg 5: 3 states reach waypoint 158 -- relaxed retry
+[20:54:15]     04 seg 6: 3 states reach waypoint 236 -- relaxed retry
+[20:54:16]     04 seg 7: 3 states reach waypoint 22 -- relaxed retry
+[20:54:17]     04 seg 8: 0 states reach waypoint 216 -- relaxed retry
+[20:54:18]     04 seg 8: 1 states reach waypoint 216 -- giving up
+[20:54:18]     04 seg 9: 0 states reach waypoint 137 -- relaxed retry
+[20:54:18]     04 seg 9: 0 states reach waypoint 137 -- giving up
+[20:54:18]     04 seg 9: DROPPING waypoint 137 ([4319,4409] d unreachable); it goes to the leftovers
+[20:54:18]     04 seg 10: 0 states reach waypoint 232 -- relaxed retry
+[20:54:18]     04 seg 10: 1 states reach waypoint 232 -- giving up
+[20:54:18]     04 seg 11: 0 states reach waypoint 58 -- relaxed retry
+[20:54:18]     04 seg 11: 2 states reach waypoint 58 -- giving up
+[20:54:18]     04 segments: 0:161->3st/3fb 1:84->4st/5fb 2:50->7st/8fb 3:92->9st/10fb 4:123->5st/11fb 5:158->3st/11fb 6:236->4st/13fb 7:22->2st/14fb 8:216->1st/16fb 9:137->0st/0fb 10:232->1st/17fb 11:58->1st/19fb 12:None->1st/19fb
+[20:54:18]   build 35 s: 1 states, deepest 19 of pool 30; Pareto 19:801
+[20:54:31]     19 pool fb (alt 0): planner 801 -> twin 728.4 kg, 6.76 kg/fb, 0.395 km/s/fb, J_i 1.1001, own 19/30 extra 0/0 (miss 5 km, 12 s)
+[20:54:31]   BEST 04: 19/30 pool targets @ 728.4 kg (6.76 kg/fb; source 30 @ 886.7 = 9.56 kg/fb); orphans [9, 47, 53, 57, 66, 125, 137, 140, 239, 276, 287]

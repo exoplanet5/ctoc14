@@ -1,0 +1,54 @@
+interpolation window reading: A
+token-count histogram over data lines: {15: 47598}
+data lines 47598; Line col == 1..N: True; Line>0: True
+SC_IDs: [1, 2, 3, 4, 5, 6, 7, 8, 9]  sorted ascending: True
+Event histogram: {0: 9, 1: 47282, 3: 298, 4: 9}
+Time range: [np.float64(0.0), np.float64(473040060.0)] (window [0, 473364000.0])
+non-Event1 lines with any nonzero thrust component: 0
+max sample |T| on Event=1 lines: np.float64(0.44286630970708996) N; count > 0.5: 0
+arcs: 9 (per craft {np.int64(1): 1, np.int64(2): 1, np.int64(3): 1, np.int64(4): 1, np.int64(5): 1, np.int64(6): 1, np.int64(7): 1, np.int64(8): 1, np.int64(9): 1}); samples/arc min 4438 max 5475
+min Event=1 spacing inside arcs: np.float64(86400.0) s ; min gap last-sample->first-sample across an arc boundary: inf s (0 < 8640)
+Event=1 spacing inside arcs: distinct values (rounded 1e-6) [86400.0]
+
+Launch:
+  SC 1: t=3542400.0s |dr|=0.0000 m (alt 0.0004 m) v_inf=2.545139175114 (alt 2.545139175114) km/s m0=948.034746094718 ok
+  SC 2: t=0.0s |dr|=0.0001 m (alt 0.0001 m) v_inf=2.458938235937 (alt 2.458938235937) km/s m0=910.83313121526373 ok
+  SC 3: t=7603200.0s |dr|=0.0000 m (alt 0.0007 m) v_inf=3.494866690187 (alt 3.494866690187) km/s m0=988.89308897971682 ok
+  SC 4: t=0.0s |dr|=0.0001 m (alt 0.0001 m) v_inf=3.837980759009 (alt 3.837980759009) km/s m0=915.50254722994794 ok
+  SC 5: t=6912000.0s |dr|=0.0000 m (alt 0.0004 m) v_inf=2.899051751116 (alt 2.899051751116) km/s m0=959.56854522437163 ok
+  SC 6: t=0.0s |dr|=0.0001 m (alt 0.0001 m) v_inf=3.942332938935 (alt 3.942332938935) km/s m0=902.25107618564232 ok
+  SC 7: t=1296000.0s |dr|=0.0000 m (alt 0.0001 m) v_inf=2.507721911846 (alt 2.507721911846) km/s m0=1018.8523654069166 ok
+  SC 8: t=1641600.0s |dr|=0.0000 m (alt 0.0005 m) v_inf=3.435578091066 (alt 3.435578091066) km/s m0=927.71745513050485 ok
+  SC 9: t=81561600.0s |dr|=0.0000 m (alt 0.0005 m) v_inf=2.267897463761 (alt 2.267897463761) km/s m0=903.97976873410971 ok
+
+thrust segments 47571; exact max interpolated |T| = 0.464848260 N at file line 11021 (window n=4); dense-401 max = 0.464848167 N; #segments > 0.5: 0
+  top-5 segments: 0.464848@11021(SC3), 0.455274@27513(SC6), 0.451895@27531(SC6), 0.442866@11012(SC3), 0.442866@11013(SC3)
+
+coast segments 18: max|dr| 2.107e-08 km, max|dv| 5.024e-12 m/s, max|dm| 0.000e+00 kg
+thrust segments 47571: max|dr| 4.769e-07 km, max|dv| 3.159e-09 m/s, max|dm| 3.156e-06 kg; longest 1.0000 d; min integrated end mass 600.137793 kg
+  SC 1: lines 5441, t_end 469843260.0 s, final mass np.float64(600.4131235850377)
+  SC 2: lines 5378, t_end 460944060.0 s, final mass np.float64(600.1377930739974)
+  SC 3: lines 5401, t_end 470534460.0 s, final mass np.float64(600.4837093681949)
+  SC 4: lines 5515, t_end 473040060.0 s, final mass np.float64(600.620146946995)
+  SC 5: lines 5415, t_end 471916860.0 s, final mass np.float64(600.9464715569846)
+  SC 6: lines 5454, t_end 468460860.0 s, final mass np.float64(600.7387761986895)
+  SC 7: lines 5433, t_end 467942460.0 s, final mass np.float64(600.145933927771)
+  SC 8: lines 5100, t_end 440035260.0 s, final mass np.float64(600.761040561769)
+  SC 9: lines 4461, t_end 465004860.0 s, final mass np.float64(600.9050579101694)
+
+Event=3 lines: 298
+  distance max 710.892517 km (bisection 710.892517, f&g 710.892517); max |d1-d2| 1.800e-06 km; #>1000: 0; #>900: 0; rel-speed 5.518..42.889 km/s
+  distinct covered 298; repeat/uncounted Event=3 lines 0; missing [131, 144]
+  SC 1: Event=3 42, first-detections 42, max d 710.893 km
+  SC 2: Event=3 41, first-detections 41, max d 562.566 km
+  SC 3: Event=3 41, first-detections 41, max d 322.122 km
+  SC 4: Event=3 38, first-detections 38, max d 149.638 km
+  SC 5: Event=3 31, first-detections 31, max d 113.150 km
+  SC 6: Event=3 30, first-detections 30, max d 229.749 km
+  SC 7: Event=3 30, first-detections 30, max d 287.040 km
+  SC 8: Event=3 24, first-detections 24, max d 316.792 km
+  SC 9: Event=3 21, first-detections 21, max d 245.401 km
+
+N=9 sum J_i = 11.739946894 (exact-decimal 11.739946893761); N_miss=2; J = 13.739946894 (exact 13.739946893761)
+
+VIOLATIONS: 0  by kind {}

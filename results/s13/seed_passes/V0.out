@@ -1,0 +1,11 @@
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+{"k": 1, "relaxed": false, "n": 46, "hard": 4, "planner": 956, "twin": 1004, "covered": 46, "beam_s": 251, "settle_s": 11}
+{"k": 2, "relaxed": false, "n": 43, "hard": 9, "planner": 947, "twin": 975, "covered": 89, "beam_s": 207, "settle_s": 69}
+{"k": 3, "relaxed": false, "n": 37, "hard": 7, "planner": 862, "twin": 848, "covered": 126, "beam_s": 170, "settle_s": 6}
+{"k": 4, "relaxed": false, "n": 35, "hard": 4, "planner": 925, "twin": 934, "covered": 161, "beam_s": 144, "settle_s": 11}
+{"k": 5, "relaxed": false, "n": 29, "hard": 4, "planner": 828, "twin": 799, "covered": 190, "beam_s": 125, "settle_s": 10}
+{"k": 6, "relaxed": false, "n": 25, "hard": 9, "planner": 829, "twin": 792, "covered": 215, "beam_s": 94, "settle_s": 9}
+{"k": 7, "relaxed": false, "n": 21, "hard": 6, "planner": 765, "twin": 757, "covered": 236, "beam_s": 68, "settle_s": 11}
+{"k": 8, "relaxed": false, "n": 15, "hard": 6, "planner": 738, "twin": 737, "covered": 251, "beam_s": 27, "settle_s": 9}
+PASS {"covered": 251, "hard_left": 18, "sumJi": 9.766, "depths": [46, 43, 37, 35, 29, 25, 21, 15], "tanks": [1004, 975, 848, 934, 799, 792, 757, 737]}

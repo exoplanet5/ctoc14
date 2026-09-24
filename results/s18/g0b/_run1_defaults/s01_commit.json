@@ -1,0 +1,302 @@
+{
+ "slice": 1,
+ "T_d": 540.0,
+ "mode": "regrid",
+ "accepted": [
+  {
+   "craft": 1,
+   "column_id": "s01_c1_k4",
+   "n_new": 4,
+   "tank": 744.7579053954776,
+   "dtank": 120.08,
+   "miss": 23.4,
+   "secs": 0.15,
+   "honest": true,
+   "root": false
+  },
+  {
+   "craft": 2,
+   "column_id": "s01_c2_k0",
+   "n_new": 2,
+   "tank": 694.9396327554258,
+   "dtank": 25.866,
+   "miss": 36.6,
+   "secs": 0.13,
+   "honest": true,
+   "root": false
+  },
+  {
+   "craft": 3,
+   "column_id": "s01_c3_k0",
+   "n_new": 4,
+   "tank": 702.7209591217306,
+   "dtank": 85.283,
+   "miss": 1.5,
+   "secs": 0.11,
+   "honest": true,
+   "root": false
+  },
+  {
+   "craft": 4,
+   "column_id": "s01_c4_k21",
+   "n_new": 1,
+   "tank": 646.9329269571589,
+   "dtank": 11.63,
+   "miss": 53.5,
+   "secs": 0.1,
+   "honest": true,
+   "root": false
+  },
+  {
+   "craft": 5,
+   "column_id": "s01_c5_k11",
+   "n_new": 2,
+   "tank": 688.4782471444709,
+   "dtank": 75.26,
+   "miss": 38.2,
+   "secs": 0.11,
+   "honest": true,
+   "root": false
+  },
+  {
+   "craft": 6,
+   "column_id": "s01_c6_k4",
+   "n_new": 3,
+   "tank": 722.783519744284,
+   "dtank": 89.425,
+   "miss": 0.2,
+   "secs": 0.1,
+   "honest": true,
+   "root": false
+  },
+  {
+   "craft": 7,
+   "column_id": "s01_c7_k1",
+   "n_new": 4,
+   "tank": 664.00027453223,
+   "dtank": 62.5,
+   "miss": 21.0,
+   "secs": 0.1,
+   "honest": true,
+   "root": false
+  }
+ ],
+ "rejected": [
+  {
+   "craft": 0,
+   "column_id": "s01_c0_k0",
+   "reason": "regrid_settle failed (miss 103308 km / cap 0.764)",
+   "secs": 1.6
+  }
+ ],
+ "results": {
+  "6": {
+   "craft": 6,
+   "column_id": "s01_c6_k4",
+   "ok": true,
+   "tank": 722.783519744284,
+   "miss": 0.23797480431976778,
+   "secs": 0.1,
+   "error": null,
+   "honest": {
+    "n": 7,
+    "irregular": 0,
+    "max_imp_cap": 0.9996,
+    "max_window_cap": 0.9996,
+    "miss_km": 0.2,
+    "tank": 722.783519744284,
+    "dv": 7.2052682944733,
+    "ok": true
+   },
+   "tank_in": 722.8615519838924,
+   "over_in": 0.9961523758154103,
+   "over_out": 0.9996395828675341
+  },
+  "7": {
+   "craft": 7,
+   "column_id": "s01_c7_k1",
+   "ok": true,
+   "tank": 664.00027453223,
+   "miss": 20.97314045692698,
+   "secs": 0.1,
+   "error": null,
+   "honest": {
+    "n": 5,
+    "irregular": 0,
+    "max_imp_cap": 0.9997,
+    "max_window_cap": 0.9997,
+    "miss_km": 21.0,
+    "tank": 664.00027453223,
+    "dv": 3.8777858488715924,
+    "ok": true
+   },
+   "tank_in": 664.0083761495559,
+   "over_in": 0.9991184540247682,
+   "over_out": 0.9996650892261436
+  },
+  "4": {
+   "craft": 4,
+   "column_id": "s01_c4_k21",
+   "ok": true,
+   "tank": 646.9329269571589,
+   "miss": 53.45232135400076,
+   "secs": 0.1,
+   "error": null,
+   "honest": {
+    "n": 6,
+    "irregular": 0,
+    "max_imp_cap": 0.9997,
+    "max_window_cap": 0.9997,
+    "miss_km": 53.5,
+    "tank": 646.9329269571589,
+    "dv": 2.8563274770876173,
+    "ok": true
+   },
+   "tank_in": 646.9435181502516,
+   "over_in": 0.9992347090918828,
+   "over_out": 0.9996918845635961
+  },
+  "3": {
+   "craft": 3,
+   "column_id": "s01_c3_k0",
+   "ok": true,
+   "tank": 702.7209591217306,
+   "miss": 1.5009360377262337,
+   "secs": 0.11,
+   "error": null,
+   "honest": {
+    "n": 8,
+    "irregular": 0,
+    "max_imp_cap": 0.9934,
+    "max_window_cap": 0.9934,
+    "miss_km": 1.5,
+    "tank": 702.7209591217306,
+    "dv": 6.101044463795825,
+    "ok": true
+   },
+   "tank_in": 702.7701241942921,
+   "over_in": 0.9902430671966544,
+   "over_out": 0.993360735333913
+  },
+  "5": {
+   "craft": 5,
+   "column_id": "s01_c5_k11",
+   "ok": true,
+   "tank": 688.4782471444709,
+   "miss": 38.160243088744885,
+   "secs": 0.11,
+   "error": null,
+   "honest": {
+    "n": 5,
+    "irregular": 0,
+    "max_imp_cap": 0.9997,
+    "max_window_cap": 0.9997,
+    "miss_km": 38.2,
+    "tank": 688.4782471444709,
+    "dv": 5.297834278775872,
+    "ok": true
+   },
+   "tank_in": 688.4806386080354,
+   "over_in": 0.9996383359319223,
+   "over_out": 0.9997244553647034
+  },
+  "2": {
+   "craft": 2,
+   "column_id": "s01_c2_k0",
+   "ok": true,
+   "tank": 694.9396327554258,
+   "miss": 36.60190057494198,
+   "secs": 0.13,
+   "error": null,
+   "honest": {
+    "n": 8,
+    "irregular": 0,
+    "max_imp_cap": 0.9997,
+    "max_window_cap": 0.9997,
+    "miss_km": 36.6,
+    "tank": 694.9396327554258,
+    "dv": 5.664260122379037,
+    "ok": true
+   },
+   "tank_in": 694.9866002453375,
+   "over_in": 0.9974538498392019,
+   "over_out": 0.999688301145371
+  },
+  "1": {
+   "craft": 1,
+   "column_id": "s01_c1_k4",
+   "ok": true,
+   "tank": 744.7579053954776,
+   "miss": 23.38692565364843,
+   "secs": 0.15,
+   "error": null,
+   "honest": {
+    "n": 8,
+    "irregular": 0,
+    "max_imp_cap": 0.9992,
+    "max_window_cap": 0.9992,
+    "miss_km": 23.4,
+    "tank": 744.7579053954776,
+    "dv": 8.380083330422302,
+    "ok": true
+   },
+   "tank_in": 744.7824614825682,
+   "over_in": 0.9982246662056405,
+   "over_out": 0.999224540961282
+  },
+  "0": {
+   "craft": 0,
+   "column_id": "s01_c0_k0",
+   "ok": false,
+   "tank": 756.8584442738428,
+   "miss": 103307.89836838745,
+   "secs": 1.6,
+   "error": null,
+   "honest": {
+    "n": 8,
+    "irregular": 0,
+    "max_imp_cap": 0.7644,
+    "max_window_cap": 0.7644,
+    "miss_km": 103307.9,
+    "tank": 756.8584442738428,
+    "dv": 9.01229977272417,
+    "ok": false
+   },
+   "tank_in": 758.855628267237,
+   "over_in": 0.999650321903098,
+   "over_out": 0.7644007210332252
+  }
+ },
+ "record": {
+  "slice": 1,
+  "T_d": 540.0,
+  "n_jobs": 8,
+  "n_columns": 173,
+  "n_kept": 173,
+  "chosen": {
+   "6": "s01_c6_k4",
+   "7": "s01_c7_k1",
+   "2": "s01_c2_k0",
+   "4": "s01_c4_k21",
+   "5": "s01_c5_k11",
+   "1": "s01_c1_k4",
+   "3": "s01_c3_k0",
+   "0": "s01_c0_k0"
+  },
+  "rejected": [
+   {
+    "craft": 0,
+    "column_id": "s01_c0_k0",
+    "reason": "regrid_settle failed (miss 103308 km / cap 0.764)",
+    "secs": 1.6
+   }
+  ],
+  "launched": 8,
+  "covered": 51,
+  "remaining": 247,
+  "fuel": 705.8,
+  "sumJi": 8.5406,
+  "wall_s": 673.4,
+  "auction_status": "optimal"
+ }
+}

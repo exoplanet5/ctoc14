@@ -1,0 +1,10 @@
+[06:34:12] prefix results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz k=34: 34 flybys to 3829 d, tank 887.2 kg, miss 69 km (1 s)
+[06:34:12] twintail X6h01k34: pool 47, S [212], p 0.5, steps 1, beam 24/72, nproc 1; resume at step 1
+[06:34:12]   RESUME level 34: beam 1, deepest 0
+[06:35:01]   depth 35: 1 parents -> 11 kids (11 uniq) -> tried 11, settled 11, kept 10; t_end 4068-4416 d, tank 892-951, max S 0 (50 s, gen 3 s)
+[06:36:51]   depth 36: 10 parents -> 57 kids (52 uniq) -> tried 24, settled 24, kept 23; t_end 4144-5143 d, tank 893-967, max S 1 (110 s, gen 32 s)
+[06:39:51]   depth 37: 23 parents -> 150 kids (150 uniq) -> tried 26, settled 24, kept 23; t_end 4274-5190 d, tank 895-1219, max S 1 (180 s, gen 70 s)
+[06:41:38]   depth 38: 23 parents -> 158 kids (158 uniq) -> tried 24, settled 24, kept 24; t_end 4388-4634 d, tank 899-919, max S 0 (106 s, gen 64 s)
+[06:43:21]   depth 39: 24 parents -> 167 kids (167 uniq) -> tried 24, settled 24, kept 24; t_end 4536-4870 d, tank 905-939, max S 0 (103 s, gen 62 s)
+[06:45:00]   depth 40: 24 parents -> 162 kids (162 uniq) -> tried 24, settled 24, kept 24; t_end 4602-4936 d, tank 913-938, max S 0 (99 s, gen 56 s)
+[06:46:43]   depth 41: 24 parents -> 165 kids (165 uniq) -> tried 24, settled 24, kept 24; t_end 4633-5053 d, tank 925-975, max S 0 (104 s, gen 51 s)

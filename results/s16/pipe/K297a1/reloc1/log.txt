@@ -1,0 +1,1 @@
+[13:42:21] relocate results/s16/pipe/K297a1/close/fleet: sum J_i 11.8327

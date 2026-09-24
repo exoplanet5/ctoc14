@@ -1,0 +1,7 @@
+[20:55:39] start 0: /linchpin/pools_A_c38.json 06 results/s13/linchpin/INS/A_06 --nproc 3 --cands 3 > results/s13/linchpin/INS/A_06.out 2>&1
+[21:23:58] done 0 rc 0 in 1699 s
+[21:23:58] start 1: /linchpin/pools_A_c38.json 03 results/s13/linchpin/INS/A_03 --nproc 3 --cands 3 > results/s13/linchpin/INS/A_03.out 2>&1
+[21:39:45] done 1 rc 0 in 947 s
+[21:39:45] start 2: /linchpin/pools_A_c38.json 08 results/s13/linchpin/INS/A_08 --nproc 3 --cands 3 > results/s13/linchpin/INS/A_08.out 2>&1
+[22:01:04] done 2 rc 0 in 1278 s
+[22:01:04] all done

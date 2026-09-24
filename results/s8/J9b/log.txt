@@ -1,0 +1,43 @@
+[12:58:14] k=9 carriers, 600 subgradient iterations, step 0.06
+[12:58:14] [   1] distinct 130 (total 179, dup 49), per route [22, 22, 20, 20, 20, 19, 19, 19, 18]  <-- BEST
+[12:58:14] [   3] distinct 131 (total 174, dup 43), per route [22, 21, 20, 20, 19, 18, 18, 18, 18]  <-- BEST
+[12:58:14] [  25] distinct 112 (total 128, dup 16), step 0.0532, mu>0 61, max mu 0.95
+[12:58:19]        carriers re-optimised against prices (values [14.2, 12.0, 12.0, 11.3, 11.0, 10.0, 11.9, 9.7, 14.0])
+[12:58:20] [  50] distinct  99 (total 115, dup 16), step 0.0469, mu>0 82, max mu 0.90
+[12:58:20] [  75] distinct 108 (total 115, dup 7), step 0.0414, mu>0 65, max mu 0.90
+[12:58:24]        carriers re-optimised against prices (values [14.9, 11.1, 11.9, 13.1, 12.1, 11.7, 11.1, 13.1, 12.5])
+[12:58:24] [ 100] distinct  96 (total 110, dup 14), step 0.0365, mu>0 75, max mu 0.93
+[12:58:28]        carriers re-optimised against prices (values [12.2, 9.8, 10.7, 11.3, 12.2, 9.8, 12.2, 11.2, 11.2])
+[12:58:28] [ 125] distinct  92 (total 114, dup 22), step 0.0322, mu>0 73, max mu 0.80
+[12:58:29] [ 150] distinct  94 (total 106, dup 12), step 0.0284, mu>0 62, max mu 0.95
+[12:58:32]        carriers re-optimised against prices (values [11.4, 12.2, 11.2, 10.3, 11.1, 12.8, 9.9, 11.9, 12.0])
+[12:58:33] [ 175] distinct 110 (total 121, dup 11), step 0.0251, mu>0 70, max mu 0.68
+[12:58:34] [ 200] distinct 109 (total 119, dup 10), step 0.0221, mu>0 66, max mu 0.68
+[12:58:38]        carriers re-optimised against prices (values [12.8, 12.5, 11.7, 10.9, 13.0, 10.5, 13.0, 13.9, 11.9])
+[12:58:38] [ 225] distinct 106 (total 124, dup 18), step 0.0195, mu>0 67, max mu 0.87
+[12:58:42]        carriers re-optimised against prices (values [11.7, 13.9, 12.3, 12.8, 15.0, 12.2, 13.0, 11.9, 9.4])
+[12:58:42] [ 250] distinct 100 (total 119, dup 19), step 0.0172, mu>0 67, max mu 0.74
+[12:58:42] [ 275] distinct 106 (total 118, dup 12), step 0.0152, mu>0 60, max mu 0.77
+[12:58:45]        carriers re-optimised against prices (values [10.0, 12.6, 13.6, 11.4, 13.1, 13.5, 12.8, 10.3, 10.8])
+[12:58:46] [ 300] distinct 100 (total 123, dup 23), step 0.0134, mu>0 75, max mu 0.82
+[12:58:50]        carriers re-optimised against prices (values [11.4, 9.6, 12.7, 11.9, 14.7, 12.2, 11.4, 12.1, 11.2])
+[12:58:50] [ 325] distinct 102 (total 130, dup 28), step 0.0118, mu>0 89, max mu 0.83
+[12:58:51] [ 350] distinct 108 (total 125, dup 17), step 0.0104, mu>0 69, max mu 0.77
+[12:58:54]        carriers re-optimised against prices (values [9.9, 13.0, 12.7, 10.6, 14.6, 11.3, 10.6, 11.1, 9.0])
+[12:58:55] [ 375] distinct 106 (total 128, dup 22), step 0.0092, mu>0 76, max mu 0.88
+[12:58:55] [ 400] distinct 108 (total 128, dup 20), step 0.0081, mu>0 70, max mu 0.88
+[12:58:57]        carriers re-optimised against prices (values [11.6, 10.6, 11.4, 11.2, 12.0, 10.4, 11.1, 11.6, 9.6])
+[12:58:58] [ 425] distinct 111 (total 134, dup 23), step 0.0072, mu>0 84, max mu 0.88
+[12:59:01]        carriers re-optimised against prices (values [9.9, 13.1, 12.7, 11.8, 11.9, 10.4, 10.1, 10.1, 9.9])
+[12:59:01] [ 450] distinct 103 (total 133, dup 30), step 0.0063, mu>0 96, max mu 0.80
+[12:59:02] [ 475] distinct 109 (total 134, dup 25), step 0.0056, mu>0 92, max mu 0.78
+[12:59:05]        carriers re-optimised against prices (values [8.9, 12.6, 11.1, 11.6, 13.7, 10.9, 9.3, 12.3, 11.2])
+[12:59:06] [ 500] distinct 101 (total 123, dup 22), step 0.0049, mu>0 89, max mu 0.68
+[12:59:09]        carriers re-optimised against prices (values [9.1, 11.4, 11.5, 10.2, 12.3, 12.1, 9.7, 15.7, 11.6])
+[12:59:09] [ 525] distinct 101 (total 128, dup 27), step 0.0043, mu>0 98, max mu 0.72
+[12:59:10] [ 550] distinct 107 (total 126, dup 19), step 0.0040, mu>0 95, max mu 0.70
+[12:59:13]        carriers re-optimised against prices (values [10.8, 10.6, 11.6, 11.5, 11.2, 11.3, 9.2, 14.2, 11.4])
+[12:59:14] [ 575] distinct 109 (total 132, dup 23), step 0.0040, mu>0 94, max mu 0.74
+[12:59:14] [ 600] distinct 111 (total 130, dup 19), step 0.0040, mu>0 91, max mu 0.78
+[12:59:18]        carriers re-optimised against prices (values [10.1, 12.1, 11.2, 12.0, 12.8, 11.0, 8.9, 13.0, 10.7])
+[12:59:18] done: best distinct 131 of 298

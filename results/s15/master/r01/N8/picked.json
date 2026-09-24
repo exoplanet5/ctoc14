@@ -1,0 +1,50 @@
+[
+ {
+  "f": "results/s13/gen/g02/master/N8/fleet/route_01.npz",
+  "n": 48,
+  "tank": 1046.763,
+  "resettled": false
+ },
+ {
+  "f": "results/s13/gen/g02/master/N8/fleet/route_02.npz",
+  "n": 43,
+  "tank": 1194.316,
+  "resettled": false
+ },
+ {
+  "f": "results/s13/gen/g02/master/N8/fleet/route_03.npz",
+  "n": 41,
+  "tank": 1202.788,
+  "resettled": false
+ },
+ {
+  "f": "results/s13/gen/g02/master/N8/fleet/route_04.npz",
+  "n": 39,
+  "tank": 1124.616,
+  "resettled": false
+ },
+ {
+  "f": "results/s13/gen/g02/master/N8/fleet/route_05.npz",
+  "n": 34,
+  "tank": 879.878,
+  "resettled": false
+ },
+ {
+  "f": "results/s13/gen/g02/master/N8/fleet/route_06.npz",
+  "n": 31,
+  "tank": 994.098,
+  "resettled": false
+ },
+ {
+  "f": "results/s13/gen/g02/master/N8/fleet/route_07.npz",
+  "n": 26,
+  "tank": 931.593,
+  "resettled": false
+ },
+ {
+  "f": "results/s13/gen/g02/master/N8/fleet/route_08.npz",
+  "n": 20,
+  "tank": 907.772,
+  "resettled": false
+ }
+]

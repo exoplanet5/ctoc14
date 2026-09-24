@@ -1,0 +1,39 @@
+{
+ "pool": "pool50_minusA.json",
+ "pool_size": 28,
+ "mode": "strict",
+ "soft_prize": 0.0,
+ "beam": 100,
+ "nproc": 1,
+ "m0": 1600.0,
+ "t_beam_s": 25.6,
+ "cpu_beam_s": 19.8,
+ "n_expand": 234,
+ "n_states": 9,
+ "deepest_total": 8,
+ "deepest_pool": 8,
+ "pareto_pool": {
+  "8": {
+   "n_tot": 8,
+   "fuel": 177.5,
+   "tank_planner": 652.7
+  }
+ },
+ "settles": [
+  {
+   "k_pool": 8,
+   "n_tot": 8,
+   "tank_planner": 652.7,
+   "t_settle_s": 8.2,
+   "ok": true,
+   "miss_km": 4.1,
+   "lag_d": 1.0,
+   "tank_twin": 653.9,
+   "J_i": 1.04,
+   "kg_per_fb": 6.74,
+   "dv_per_fb": 0.4097,
+   "t_end_yr": 9.74,
+   "t_launch_d": 740.0
+  }
+ ]
+}

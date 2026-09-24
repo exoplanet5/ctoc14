@@ -1,0 +1,3 @@
+21:44:38 [solve] N<=8: 42650 columns, incumbent (parents) 286 with 8 picks
+21:44:46 [solve] LP bound 293.735 (7 s)
+21:44:46 [solve] reduced-cost fixing keeps 37361 columns (rc <= 6.735)

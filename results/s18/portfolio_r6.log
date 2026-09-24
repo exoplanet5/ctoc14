@@ -1,0 +1,3 @@
+[15:00:36] START p19_claims_N9 N=9 --H 540 --L 360 --claims --claim-bonus 1.0 --claim-ttl 4 --fuel-bar 4300 --seed 19
+[15:27:25] END p19_claims_N9: [15:27:25] [slice 9 T=4860 d] launched 9/9  covered 262  remaining 36  fuel 3575 kg  sumJi 12.2924  chosen: c0
+[15:27:40] START p20_claims_H360 N=8 --H 360 --L 360 --claims --claim-bonus 1.0 --claim-ttl 6 --seed 20

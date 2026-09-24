@@ -1,0 +1,8 @@
+[23:49:12] load: 2412 files ({'ok': 2412}), 1624 distinct, 36 dominated -> 1588 columns
+[23:49:12] LP (sum y <= 9): 13.8528; 226 fractional columns
+[23:49:13]   dive 0: 9 craft 296 covered sum J_i 12.5482 J 16.5482 -> swap: 296 covered 12.4375 J 16.4375
+[23:49:13]   dive 1: 9 craft 276 covered sum J_i 12.3976 J 36.3976 -> swap: 285 covered 12.3492 J 27.3492
+[23:49:14]   dive 2: 9 craft 296 covered sum J_i 12.5482 J 16.5482 -> swap: 296 covered 12.4375 J 16.4375
+[23:49:14] incumbent J 16.4375; LB 13.8528; gap 2.5847: reduced-cost fixing keeps 1588 of 1588 columns
+[23:49:46] MILP (Optimization terminated successfully. (HiGHS Statu): 9 craft, 296 covered, sum J_i 12.4375, J 16.4375
+[23:49:46] FINAL N<=9: 296 covered, sum J_i 12.4375, J 16.4375 (LB 13.8528); misses [17, 219]; depths [46, 46, 44, 35, 33, 31, 27, 22, 12] (160 s)

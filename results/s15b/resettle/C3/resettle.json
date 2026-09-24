@@ -1,0 +1,110 @@
+{
+ "fleet": "results/s15b/reloc/C2/fleet",
+ "craft": 9,
+ "covered": 298,
+ "misses": [],
+ "sumJi_stored": 12.0228,
+ "sumJi_resettled": 11.997,
+ "all_ok": true,
+ "routes": [
+  {
+   "name": "h01",
+   "f": "results/s15b/reloc/C2/fleet/route_h01.npz",
+   "ok": true,
+   "tank0": 1004.1789895157272,
+   "miss0": 0.5171851262650332,
+   "tank": 1004.1516452628139,
+   "miss": 0.35258080725820656,
+   "n": 46,
+   "sec": 1
+  },
+  {
+   "name": "h02",
+   "f": "results/s15b/reloc/C2/fleet/route_h02.npz",
+   "ok": true,
+   "tank0": 1029.004889072159,
+   "miss0": 4.618111641670141,
+   "tank": 1028.843866896403,
+   "miss": 8.41879062949114,
+   "n": 46,
+   "sec": 2
+  },
+  {
+   "name": "h03",
+   "f": "results/s15b/reloc/C2/fleet/route_h03.npz",
+   "ok": true,
+   "tank0": 1045.082934147228,
+   "miss0": 1.1700468885134847,
+   "tank": 1044.9955464768707,
+   "miss": 0.5509660958120502,
+   "n": 44,
+   "sec": 2
+  },
+  {
+   "name": "h04",
+   "f": "results/s15b/reloc/C2/fleet/route_h04.npz",
+   "ok": true,
+   "tank0": 894.5664655439984,
+   "miss0": 75.19429058815217,
+   "tank": 894.4521719701821,
+   "miss": 80.46364209232934,
+   "n": 36,
+   "sec": 3
+  },
+  {
+   "name": "h05",
+   "f": "results/s15b/reloc/C2/fleet/route_h05.npz",
+   "ok": true,
+   "tank0": 948.4136121274607,
+   "miss0": 27.9872230968918,
+   "tank": 924.7950494973221,
+   "miss": 3.6852315062115566,
+   "n": 31,
+   "sec": 18
+  },
+  {
+   "name": "h06",
+   "f": "results/s15b/reloc/C2/fleet/route_h06.npz",
+   "ok": true,
+   "tank0": 1003.351173990332,
+   "miss0": 0.6762703680187427,
+   "tank": 1003.1538346589246,
+   "miss": 26.238317445615227,
+   "n": 30,
+   "sec": 2
+  },
+  {
+   "name": "s1",
+   "f": "results/s15b/reloc/C2/fleet/route_s1.npz",
+   "ok": true,
+   "tank0": 922.6391690594551,
+   "miss0": 24.79621106541047,
+   "tank": 922.5237745771867,
+   "miss": 25.89618709181811,
+   "n": 23,
+   "sec": 2
+  },
+  {
+   "name": "s2",
+   "f": "results/s15b/reloc/C2/fleet/route_s2.npz",
+   "ok": true,
+   "tank0": 862.6428207991474,
+   "miss0": 45.07634385583252,
+   "tank": 862.6415371373295,
+   "miss": 38.042222229417455,
+   "n": 14,
+   "sec": 1
+  },
+  {
+   "name": "t1",
+   "f": "results/s15b/reloc/C2/fleet/route_t1.npz",
+   "ok": true,
+   "tank0": 1018.6448423614632,
+   "miss0": 22.29998940399593,
+   "tank": 1018.6426112383159,
+   "miss": 95.86529440854486,
+   "n": 28,
+   "sec": 2
+  }
+ ]
+}

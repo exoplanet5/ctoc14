@@ -1,0 +1,132 @@
+{
+ "291": {
+  "covered": 291,
+  "sumJi": 11.8015,
+  "picks": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+   "results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz",
+   "results/s15/cols/r01/C00h6/route_C00h6s1_27.npz",
+   "results/s15/cols/t02/TB1f/route_TB1fs1_21.npz",
+   "results/s15/cols/t02/TB1f/route_TB1fs2_9.npz"
+  ],
+  "misses": [
+   17,
+   71,
+   120,
+   139,
+   145,
+   219,
+   243
+  ]
+ },
+ "292": {
+  "covered": 292,
+  "sumJi": 11.8092,
+  "picks": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_06.npz",
+   "results/s15/cols/r01/C00h6/route_C00h6s1_27.npz",
+   "results/s15/cols/t02/TB1f/route_TB1fs1_21.npz",
+   "results/s15/cols/t02/TB1f/route_TB1fs2_11_1.npz"
+  ],
+  "misses": [
+   71,
+   139,
+   145,
+   219,
+   243,
+   280
+  ]
+ },
+ "293": {
+  "covered": 293,
+  "sumJi": 11.8666,
+  "picks": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_06.npz",
+   "results/s15/cols/r01/C00h6/route_C00h6s1_27.npz",
+   "results/s15/cols/t02/TB1f/route_TB1fs1_22.npz",
+   "results/s15/cols/t02/TB1f/route_TB1fs2_11_1.npz"
+  ],
+  "misses": [
+   108,
+   139,
+   145,
+   219,
+   280
+  ]
+ },
+ "294": {
+  "covered": 294,
+  "sumJi": 11.9485,
+  "picks": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+   "results/s15/cols/r01/fclose/C00h6_h6/route_C00h6_h606x145_31.npz",
+   "results/s15/cols/r01/C00h6/route_C00h6s1_27.npz",
+   "results/s15/cols/t02/TB1f/route_TB1fs1_22.npz",
+   "results/s15/cols/t02/TB1f/route_TB1fs2_11_1.npz"
+  ],
+  "misses": [
+   108,
+   139,
+   219,
+   280
+  ]
+ },
+ "295": {
+  "covered": 295,
+  "sumJi": 12.0779,
+  "picks": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+   "results/s15/cols/r01/fclose/C00h6_h6/route_C00h6_h606x145_31.npz",
+   "results/s15/cols/r01/fclose/C00h6_s1/route_C00h6_s127x139_28.npz",
+   "results/s15/cols/t02/TB1f/route_TB1fs1_22.npz",
+   "results/s15/cols/t02/TB1f/route_TB1fs2_11_1.npz"
+  ],
+  "misses": [
+   108,
+   219,
+   280
+  ]
+ },
+ "296": {
+  "covered": 296,
+  "sumJi": 12.4375,
+  "picks": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s15/cols/r01/fclose/C01h6_h5/route_C01h6_h505x223_33.npz",
+   "results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz",
+   "results/s15/cols/r01/C00h6/route_C00h6s1_27.npz",
+   "results/s15/cols/t02/TB1/route_TB1s1_22.npz",
+   "results/s15/cols/t02/TB1/route_TB1s2_12.npz"
+  ],
+  "misses": [
+   17,
+   219
+  ]
+ },
+ "297": null
+}

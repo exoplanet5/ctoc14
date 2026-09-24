@@ -1,0 +1,3 @@
+[11:19:29] START p10_claims --H 540 --L 360 --claims --claim-bonus 0.5 --claim-ttl 2 --seed 10
+[11:45:58] END p10_claims: [11:45:58] [slice 9 T=4860 d] launched 8/8  covered 242  remaining 56  fuel 2836 kg  sumJi 10.5457  chosen: c0
+[11:46:20] START p11_prizeG2 --H 540 --L 360 --prize-json results/s18/prizes_g2.json --seed 11

@@ -1,0 +1,219 @@
+{
+ "pool": "pool_all_minusA46.json",
+ "pool_size": 252,
+ "mode": "strict",
+ "soft_prize": 0.0,
+ "beam": 100,
+ "nproc": 1,
+ "m0": 1600.0,
+ "t_beam_s": 349.4,
+ "cpu_beam_s": 230.8,
+ "n_expand": 4318,
+ "n_states": 3219,
+ "deepest_total": 43,
+ "deepest_pool": 43,
+ "pareto_pool": {
+  "10": {
+   "n_tot": 10,
+   "fuel": 195.1,
+   "tank_planner": 658.2
+  },
+  "11": {
+   "n_tot": 11,
+   "fuel": 216.6,
+   "tank_planner": 665.0
+  },
+  "12": {
+   "n_tot": 12,
+   "fuel": 223.7,
+   "tank_planner": 667.3
+  },
+  "13": {
+   "n_tot": 13,
+   "fuel": 239.6,
+   "tank_planner": 672.5
+  },
+  "14": {
+   "n_tot": 14,
+   "fuel": 254.1,
+   "tank_planner": 677.3
+  },
+  "15": {
+   "n_tot": 15,
+   "fuel": 271.2,
+   "tank_planner": 683.1
+  },
+  "16": {
+   "n_tot": 16,
+   "fuel": 285.1,
+   "tank_planner": 687.8
+  },
+  "17": {
+   "n_tot": 17,
+   "fuel": 300.0,
+   "tank_planner": 693.0
+  },
+  "18": {
+   "n_tot": 18,
+   "fuel": 330.3,
+   "tank_planner": 703.7
+  },
+  "19": {
+   "n_tot": 19,
+   "fuel": 369.8,
+   "tank_planner": 718.2
+  },
+  "20": {
+   "n_tot": 20,
+   "fuel": 402.3,
+   "tank_planner": 730.6
+  },
+  "21": {
+   "n_tot": 21,
+   "fuel": 409.2,
+   "tank_planner": 733.3
+  },
+  "22": {
+   "n_tot": 22,
+   "fuel": 430.6,
+   "tank_planner": 741.7
+  },
+  "23": {
+   "n_tot": 23,
+   "fuel": 443.6,
+   "tank_planner": 747.0
+  },
+  "24": {
+   "n_tot": 24,
+   "fuel": 470.7,
+   "tank_planner": 758.1
+  },
+  "25": {
+   "n_tot": 25,
+   "fuel": 485.2,
+   "tank_planner": 764.2
+  },
+  "26": {
+   "n_tot": 26,
+   "fuel": 516.2,
+   "tank_planner": 777.6
+  },
+  "27": {
+   "n_tot": 27,
+   "fuel": 539.9,
+   "tank_planner": 788.2
+  },
+  "28": {
+   "n_tot": 28,
+   "fuel": 551.9,
+   "tank_planner": 793.6
+  },
+  "29": {
+   "n_tot": 29,
+   "fuel": 558.4,
+   "tank_planner": 796.6
+  },
+  "30": {
+   "n_tot": 30,
+   "fuel": 565.2,
+   "tank_planner": 799.7
+  },
+  "31": {
+   "n_tot": 31,
+   "fuel": 590.0,
+   "tank_planner": 811.5
+  },
+  "32": {
+   "n_tot": 32,
+   "fuel": 618.0,
+   "tank_planner": 825.1
+  },
+  "33": {
+   "n_tot": 33,
+   "fuel": 640.6,
+   "tank_planner": 836.4
+  },
+  "34": {
+   "n_tot": 34,
+   "fuel": 657.0,
+   "tank_planner": 844.9
+  },
+  "35": {
+   "n_tot": 35,
+   "fuel": 673.9,
+   "tank_planner": 853.7
+  },
+  "36": {
+   "n_tot": 36,
+   "fuel": 679.1,
+   "tank_planner": 856.5
+  },
+  "37": {
+   "n_tot": 37,
+   "fuel": 703.8,
+   "tank_planner": 869.8
+  },
+  "38": {
+   "n_tot": 38,
+   "fuel": 711.0,
+   "tank_planner": 873.8
+  },
+  "39": {
+   "n_tot": 39,
+   "fuel": 719.5,
+   "tank_planner": 878.6
+  },
+  "40": {
+   "n_tot": 40,
+   "fuel": 720.6,
+   "tank_planner": 879.2
+  },
+  "41": {
+   "n_tot": 41,
+   "fuel": 743.8,
+   "tank_planner": 892.4
+  },
+  "42": {
+   "n_tot": 42,
+   "fuel": 771.6,
+   "tank_planner": 908.8
+  },
+  "43": {
+   "n_tot": 43,
+   "fuel": 832.4,
+   "tank_planner": 946.8
+  }
+ },
+ "settles": [
+  {
+   "k_pool": 43,
+   "n_tot": 43,
+   "tank_planner": 946.8,
+   "t_settle_s": 120.9,
+   "ok": true,
+   "miss_km": 94.2,
+   "lag_d": 0.05,
+   "tank_twin": 975.3,
+   "J_i": 1.3399,
+   "kg_per_fb": 8.73,
+   "dv_per_fb": 0.4409,
+   "t_end_yr": 14.91,
+   "t_launch_d": 80.0
+  },
+  {
+   "k_pool": 42,
+   "n_tot": 42,
+   "tank_planner": 908.8,
+   "t_settle_s": 75.1,
+   "ok": true,
+   "miss_km": 64.2,
+   "lag_d": 0.25,
+   "tank_twin": 944.8,
+   "J_i": 1.3069,
+   "kg_per_fb": 8.21,
+   "dv_per_fb": 0.4217,
+   "t_end_yr": 14.84,
+   "t_launch_d": 80.0
+  }
+ ]
+}

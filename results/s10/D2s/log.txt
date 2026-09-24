@@ -1,0 +1,20 @@
+[16:35:30] 00: seed 50 31 fb / 6 carriers -> NOT settled (miss 298757119.5654009)
+[16:35:30] 01: seed 24 30 fb / 9 carriers -> NOT settled (miss 212631197.00683185)
+[16:35:30] 02: seed 25 29 fb / 8 carriers -> NOT settled (miss inf)
+[16:35:30] 03: seed 51 28 fb / 10 carriers, tank 867 kg, dv 14.34 km/s, J_i 1.227, 0.0438 J/fb  [model dv 11.17]
+[16:35:30] 04: seed 12 27 fb / 8 carriers -> NOT settled (miss 272346408.3036234)
+[16:35:30] 05: seed 14 26 fb / 6 carriers, tank 987 kg, dv 19.44 km/s, J_i 1.353, 0.0520 J/fb  [model dv 9.15]
+[16:35:30] 06: seed 29 26 fb / 9 carriers -> NOT settled (miss 14175521.38382268)
+[16:35:30] 07: seed 36 26 fb / 11 carriers -> NOT settled (miss 167604118.65417254)
+[16:35:30] 08: seed 13 25 fb / 7 carriers -> NOT settled (miss inf)
+[16:35:30] 09: seed 34 25 fb / 5 carriers -> NOT settled (miss 167933465.7931706)
+[16:35:30] 10: seed 49 25 fb / 5 carriers -> NOT settled (miss 167933465.7931706)
+[16:35:30] 11: seed 2 24 fb / 8 carriers -> NOT settled (miss 2122.6665844560234)
+[16:35:30] 12: seed 18 24 fb / 8 carriers -> NOT settled (miss inf)
+[16:35:30] 13: seed 39 24 fb / 10 carriers -> NOT settled (miss 171.32179239101274)
+[16:35:30] 14: seed 0 23 fb / 8 carriers -> NOT settled (miss 62504349.83039998)
+[16:35:30] 15: seed 37 20 fb / 7 carriers, tank 765 kg, dv 9.45 km/s, J_i 1.132, 0.0566 J/fb  [model dv 8.75]
+[16:35:30] 
+settled 3/16 in 2003 s; flybys median 26 max 28; J/fb best 0.0438 median 0.0520
+[16:35:30] fleet: 3 routes, 62 covered, sum J_i 3.712
+[16:35:30] bar: best fixed-carrier deep route 0.0339 J/fb, fleet target 0.0369, t10d fleet 0.0415

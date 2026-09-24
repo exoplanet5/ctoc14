@@ -1,0 +1,77 @@
+[09:29:06] search start: 10 routes, covered 298, J 14.3574; 01:37@919 05:36@905 02:33@904 12:30@795 13:30@887 09:28@976 03:27@815 10:27@792 04:26@871 06:24@878
+[09:29:06] dissolve 09 (cost 1.3410, 28 targets)
+[09:34:55]   8: no insertion (3 candidates within 0.30 AU), failure 1
+[09:34:55]   39: no insertion (3 candidates within 0.30 AU), failure 1
+[09:34:55]   168: no insertion (6 candidates within 0.30 AU), failure 1
+[09:34:55]   251: no insertion (1 candidates within 0.30 AU), failure 1
+[09:34:55]   placed 6 on 02 at 580 d: dJ -0.0002 (placed cost -0.000, misses 0, of 1.341)
+[09:34:55]   placed 273 on 05 at 4638 d: dJ +0.0213 (placed cost 0.021, misses 0, of 1.341)
+[09:34:55]   placed 292 on 04 at 5317 d: dJ +0.0221 (placed cost 0.043, misses 0, of 1.341)
+[09:34:55]   placed 2 on 06 at 4681 d: dJ +0.0290 (placed cost 0.072, misses 0, of 1.341)
+[09:34:55]   placed 270 on 12 at 344 d: dJ +0.0380 (placed cost 0.110, misses 0, of 1.341)
+[09:34:55]   placed 157 on 10 at 3251 d: dJ +0.0416 (placed cost 0.152, misses 0, of 1.341)
+[09:34:55]   placed 165 on 13 at 2918 d: dJ +0.0577 (placed cost 0.209, misses 0, of 1.341)
+[09:34:55]   placed 267 on 01 at 4317 d: dJ +0.0637 (placed cost 0.273, misses 0, of 1.341)
+[09:34:55]   placed 51 on 03 at 1712 d: dJ +0.1213 (placed cost 0.394, misses 0, of 1.341)
+[09:39:52]   8: no insertion (5 candidates within 0.45 AU), failure 2
+[09:39:52]   39: no insertion (4 candidates within 0.45 AU), failure 2
+[09:39:52]   168: no insertion (8 candidates within 0.45 AU), failure 2
+[09:39:52]   251: no insertion (3 candidates within 0.45 AU), failure 2
+[09:39:52]   placed 272 on 02 at 2485 d: dJ +0.0084 (placed cost 0.403, misses 0, of 1.341)
+[09:39:52]   placed 49 on 13 at 2864 d: dJ +0.0263 (placed cost 0.429, misses 0, of 1.341)
+[09:39:52]   placed 219 on 12 at 1675 d: dJ +0.1005 (placed cost 0.530, misses 0, of 1.341)
+[09:39:52]   placed 68 on 06 at 1029 d: dJ +0.1331 (placed cost 0.663, misses 0, of 1.341)
+[09:39:52]   placed 213 on 05 at 3416 d: dJ +0.1784 (placed cost 0.841, misses 0, of 1.341)
+[09:39:52]   placed 260 on 03 at 2084 d: dJ +0.2001 (placed cost 1.041, misses 0, of 1.341)
+[09:43:55]   8: no insertion (7 candidates within 0.60 AU), failure 3
+[09:43:55]   8: missed (+1)
+[09:43:55]   39: no insertion (5 candidates within 0.60 AU), failure 3
+[09:43:55]   39: missed (+1)
+[09:43:55]   168: no insertion (8 candidates within 0.60 AU), failure 3
+[09:43:55]   168: missed (+1)
+[09:43:55]   251: no insertion (3 candidates within 0.60 AU), failure 3
+[09:43:55]   251: missed (+1)
+[09:43:55]   placed 42 on 02 at 4722 d: dJ +0.0570 (placed cost 1.098, misses 4, of 1.341)
+[09:43:55]   placed 118 on 01 at 3883 d: dJ +0.1370 (placed cost 1.235, misses 4, of 1.341)
+[09:43:55]   placed 271 on 13 at 4096 d: dJ +0.1440 (placed cost 1.379, misses 4, of 1.341)
+[09:43:55]   placed 248 on 06 at 4063 d: dJ +0.1771 (placed cost 1.556, misses 4, of 1.341)
+[09:43:55]   placed 188 on 12 at 2962 d: dJ +0.2469 (placed cost 1.803, misses 4, of 1.341)
+[09:43:55]   placed cost 1.803 + misses 4 > 1.341 + slack: abort
+[09:43:55] dissolve 06 (cost 1.2378, 24 targets)
+[09:49:23]   7: no insertion (4 candidates within 0.30 AU), failure 1
+[09:49:23]   171: no insertion (8 candidates within 0.30 AU), failure 1
+[09:49:23]   208: no insertion (4 candidates within 0.30 AU), failure 1
+[09:49:23]   placed 175 on 13 at 5188 d: dJ +0.0025 (placed cost 0.002, misses 0, of 1.238)
+[09:49:23]   placed 289 on 09 at 1768 d: dJ +0.0094 (placed cost 0.012, misses 0, of 1.238)
+[09:49:23]   placed 85 on 10 at 3427 d: dJ +0.0159 (placed cost 0.028, misses 0, of 1.238)
+[09:49:23]   placed 107 on 02 at 4697 d: dJ +0.0161 (placed cost 0.044, misses 0, of 1.238)
+[09:49:23]   placed 83 on 05 at 1476 d: dJ +0.0253 (placed cost 0.069, misses 0, of 1.238)
+[09:49:23]   placed 141 on 01 at 1747 d: dJ +0.0263 (placed cost 0.096, misses 0, of 1.238)
+[09:49:23]   placed 120 on 04 at 1755 d: dJ +0.0407 (placed cost 0.136, misses 0, of 1.238)
+[09:49:23]   placed 254 on 03 at 3708 d: dJ +0.0769 (placed cost 0.213, misses 0, of 1.238)
+[09:49:23]   placed 149 on 12 at 2178 d: dJ +0.1574 (placed cost 0.371, misses 0, of 1.238)
+[09:53:21]   7: no insertion (6 candidates within 0.45 AU), failure 2
+[09:53:21]   34: no insertion (3 candidates within 0.30 AU), failure 1
+[09:53:21]   171: no insertion (8 candidates within 0.45 AU), failure 2
+[09:53:21]   208: no insertion (8 candidates within 0.45 AU), failure 2
+[09:53:21]   224: no insertion (3 candidates within 0.30 AU), failure 1
+[09:53:21]   placed 134 on 04 at 2042 d: dJ +0.0226 (placed cost 0.393, misses 0, of 1.238)
+[09:53:21]   placed 16 on 10 at 1994 d: dJ +0.0255 (placed cost 0.419, misses 0, of 1.238)
+[09:53:21]   placed 12 on 13 at 4077 d: dJ +0.0911 (placed cost 0.510, misses 0, of 1.238)
+[09:53:21]   placed 27 on 09 at 5346 d: dJ +0.2067 (placed cost 0.716, misses 0, of 1.238)
+[09:53:21]   placed 250 on 02 at 4452 d: dJ +0.2116 (placed cost 0.928, misses 0, of 1.238)
+[09:53:21]   placed 75 on 01 at 4455 d: dJ +0.2892 (placed cost 1.217, misses 0, of 1.238)
+[09:56:58]   7: no insertion (6 candidates within 0.60 AU), failure 3
+[09:56:58]   7: missed (+1)
+[09:56:58]   34: no insertion (4 candidates within 0.45 AU), failure 2
+[09:56:58]   171: no insertion (8 candidates within 0.60 AU), failure 3
+[09:56:58]   171: missed (+1)
+[09:56:58]   208: no insertion (8 candidates within 0.60 AU), failure 3
+[09:56:58]   208: missed (+1)
+[09:56:58]   224: no insertion (7 candidates within 0.45 AU), failure 2
+[09:56:58]   placed 130 on 10 at 3931 d: dJ +0.0523 (placed cost 1.270, misses 3, of 1.238)
+[09:56:58]   placed 152 on 04 at 712 d: dJ +0.0969 (placed cost 1.366, misses 3, of 1.238)
+[09:56:58]   placed 240 on 13 at 2578 d: dJ +0.2431 (placed cost 1.610, misses 3, of 1.238)
+[09:56:58]   placed cost 1.610 + misses 3 > 1.238 + slack: abort
+[09:56:58] no improving move
+[09:56:58] search done: 10 routes, covered 298, J 14.3574; 01:37@919 05:36@905 02:33@904 12:30@795 13:30@887 09:28@976 03:27@815 10:27@792 04:26@871 06:24@878

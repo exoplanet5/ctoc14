@@ -1,0 +1,15 @@
+[23:18:22] twintail TB6f: pool 38, S [64, 137, 138, 216], p 0.03, steps 2, beam 20/60, nproc 1; resume at step 1
+[23:18:33]   roots: 292 launch legs -> 75 kept; pool 38, S [64, 137, 138, 216] p 0.03
+[23:20:51]   depth  2: 75 parents -> 430 kids (312 uniq) -> tried 28, settled 20, kept 16; t_end 531-881 d, tank 602-625, max S 1 (138 s, gen 103 s)
+[23:22:25]   depth  3: 16 parents -> 108 kids (108 uniq) -> tried 32, settled 20, kept 19; t_end 815-1438 d, tank 605-638, max S 1 (94 s, gen 30 s)
+[23:23:39]   depth  4: 19 parents -> 192 kids (192 uniq) -> tried 21, settled 20, kept 20; t_end 973-1507 d, tank 606-658, max S 1 (74 s, gen 47 s)
+[23:25:17]   depth  5: 20 parents -> 159 kids (159 uniq) -> tried 23, settled 20, kept 20; t_end 1282-1882 d, tank 620-719, max S 1 (98 s, gen 54 s)
+[23:26:52]   depth  6: 20 parents -> 139 kids (139 uniq) -> tried 21, settled 20, kept 18; t_end 1403-2121 d, tank 628-799, max S 2 (94 s, gen 62 s)
+[23:28:19]   depth  7: 18 parents -> 98 kids (98 uniq) -> tried 20, settled 20, kept 17; t_end 1829-2692 d, tank 632-684, max S 2 (88 s, gen 61 s)
+[23:30:03]   depth  8: 17 parents -> 119 kids (119 uniq) -> tried 20, settled 20, kept 19; t_end 2033-3266 d, tank 648-746, max S 3 (103 s, gen 64 s)
+[23:32:05]   depth  9: 19 parents -> 111 kids (110 uniq) -> tried 20, settled 20, kept 19; t_end 2259-3459 d, tank 664-1015, max S 3 (123 s, gen 74 s)
+[23:34:07]   depth 10: 19 parents -> 126 kids (126 uniq) -> tried 20, settled 20, kept 20; t_end 2744-3105 d, tank 672-717, max S 3 (122 s, gen 83 s)
+[23:36:25]   depth 11: 20 parents -> 119 kids (119 uniq) -> tried 20, settled 20, kept 20; t_end 2811-3350 d, tank 682-760, max S 1 (138 s, gen 90 s)
+[23:38:43]   depth 12: 20 parents -> 124 kids (121 uniq) -> tried 20, settled 20, kept 19; t_end 3093-3743 d, tank 687-768, max S 1 (138 s, gen 91 s)
+[23:41:08]   depth 13: 19 parents -> 108 kids (108 uniq) -> tried 20, settled 20, kept 20; t_end 3216-3985 d, tank 697-754, max S 1 (145 s, gen 90 s)
+[23:43:47]   depth 14: 20 parents -> 117 kids (117 uniq) -> tried 20, settled 20, kept 17; t_end 3530-4119 d, tank 706-771, max S 1 (159 s, gen 98 s)

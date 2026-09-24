@@ -1,0 +1,20 @@
+[16:33:01] 00: seed 24 22 fb / 1 carriers -> NOT settled (miss 204067963.74963933)
+[16:33:01] 01: seed 0 21 fb / 1 carriers, tank 777 kg, dv 10.04 km/s, J_i 1.142, 0.0544 J/fb  [model dv 5.92]
+[16:33:01] 02: seed 34 21 fb / 1 carriers, tank 703 kg, dv 6.10 km/s, J_i 1.079, 0.0514 J/fb  [model dv 5.89]
+[16:33:01] 03: seed 36 21 fb / 1 carriers, tank 782 kg, dv 10.28 km/s, J_i 1.147, 0.0546 J/fb  [model dv 7.17]
+[16:33:01] 04: seed 2 20 fb / 1 carriers -> NOT settled (error LinAlgError('Singular matrix'))
+[16:33:01] 05: seed 13 20 fb / 1 carriers -> NOT settled (miss inf)
+[16:33:01] 06: seed 51 20 fb / 1 carriers, tank 774 kg, dv 9.91 km/s, J_i 1.140, 0.0570 J/fb  [model dv 8.09]
+[16:33:01] 07: seed 12 19 fb / 1 carriers, tank 713 kg, dv 6.68 km/s, J_i 1.087, 0.0572 J/fb  [model dv 6.28]
+[16:33:01] 08: seed 18 19 fb / 1 carriers, tank 818 kg, dv 12.05 km/s, J_i 1.180, 0.0621 J/fb  [model dv 5.43]
+[16:33:01] 09: seed 25 19 fb / 1 carriers, tank 730 kg, dv 7.61 km/s, J_i 1.102, 0.0580 J/fb  [model dv 5.85]
+[16:33:01] 10: seed 29 19 fb / 1 carriers, tank 881 kg, dv 14.99 km/s, J_i 1.241, 0.0653 J/fb  [model dv 5.71]
+[16:33:01] 11: seed 39 19 fb / 1 carriers, tank 733 kg, dv 7.75 km/s, J_i 1.104, 0.0581 J/fb  [model dv 7.06]
+[16:33:01] 12: seed 37 18 fb / 1 carriers, tank 672 kg, dv 4.36 km/s, J_i 1.054, 0.0586 J/fb  [model dv 4.38]
+[16:33:01] 13: seed 50 18 fb / 1 carriers -> NOT settled (miss 59667417.96762912)
+[16:33:01] 14: seed 49 11 fb / 1 carriers, tank 809 kg, dv 11.60 km/s, J_i 1.171, 0.1065 J/fb  [model dv 3.21]
+[16:33:01] 15: seed 14 10 fb / 1 carriers, tank 626 kg, dv 1.59 km/s, J_i 1.019, 0.1019 J/fb  [model dv 2.26]
+[16:33:01] 
+settled 12/16 in 603 s; flybys median 19 max 21; J/fb best 0.0514 median 0.0580
+[16:33:01] fleet: 12 routes, 104 covered, sum J_i 13.466
+[16:33:01] bar: best fixed-carrier deep route 0.0339 J/fb, fleet target 0.0369, t10d fleet 0.0415

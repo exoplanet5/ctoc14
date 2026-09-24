@@ -1,0 +1,212 @@
+{
+ "track": "stage 11 - attack the set-cover pool limit by scaling route/carrier diversity",
+ "banked_reference": {
+  "fleet": "t10d",
+  "craft": 10,
+  "covered": 298,
+  "sum_J_i": 12.366,
+  "J": 14.366
+ },
+ "cover_over_full_pool": {
+  "route_files": 1251,
+  "distinct_routes": 595,
+  "J": 14.3546,
+  "LP_bound": 14.3546,
+  "craft": 10,
+  "covered": 298,
+  "sum_J_i": 12.3546,
+  "total_flybys": 298,
+  "surplus_flybys": 0,
+  "fleet_dir": "results/s11/cover_all/fleet"
+ },
+ "J_vs_pool_size_random_subsample_mean": {
+  "100": 24.883,
+  "200": 16.957,
+  "300": 15.921,
+  "350": 15.131,
+  "400": 14.572,
+  "450": 14.495,
+  "500": 14.413,
+  "525": 14.412,
+  "550": 14.368,
+  "574": 14.355
+ },
+ "J_vs_pool_size_min": {
+  "400": 14.469,
+  "450": 14.375,
+  "500": 14.355,
+  "525": 14.355,
+  "550": 14.355,
+  "574": 14.355
+ },
+ "J_vs_number_of_fleets_in_pool_min": {
+  "2": 14.355,
+  "4": 14.363,
+  "6": 14.355,
+  "12": 14.355,
+  "24": 14.355,
+  "99": 14.355
+ },
+ "distinct_full_coverage_fleets_in_corpus": 12,
+ "fleet_partition_similarity_jaccard": {
+  "median": 0.638,
+  "min": 0.388,
+  "max": 0.985
+ },
+ "disjointness_of_efficient_routes_thr_0.040": {
+  "pool_168_max_disjoint": 4,
+  "pool_168_disjoint_coverage": 157,
+  "thr_0.042_max_disjoint": 5,
+  "coverage": 186,
+  "thr_0.045_max_disjoint": 7,
+  "coverage_045": 221
+ },
+ "P_two_efficient_routes_disjoint_matched_depth": {
+  "farm_free_choice": 0.0023,
+  "farm_null": 0.0115,
+  "fleet_partition_derived": 0.1118,
+  "fleet_null": 0.0088,
+  "note": "median depth 35-36 in both classes; farm is 5x BELOW the random null, partition-derived is 13x ABOVE"
+ },
+ "routes_needed_for_an_8_clique_random_graph_law": {
+  "from_farm_routes": 33000000000.0,
+  "from_partition_routes": 6400.0
+ },
+ "carrier_capacity_bound_max_targets": {
+  "note": "choose K carriers, assign each target to one whose closest approach is < d, <= 40-45 per carrier; ignores timing, tank and settle",
+  "d0.037_K8": 185,
+  "d0.037_K10": 210,
+  "d0.06_K8": 233,
+  "d0.06_K10": 254,
+  "d0.10_K8": 269,
+  "d0.10_K10": 285,
+  "d0.15_K8": 295,
+  "d0.15_K10": 297
+ },
+ "carrier_capacity_vs_library_size_d0.06_K8": {
+  "60": 210,
+  "120": 215,
+  "240": 223,
+  "480": 225,
+  "680": 233,
+  "growth_per_doubling": 6.4
+ },
+ "carrier_capacity_vs_library_size_d0.10_K8": {
+  "60": 263.5,
+  "120": 269,
+  "240": 273,
+  "480": 269.5,
+  "680": 269,
+  "note": "saturated"
+ },
+ "depth_price_scissors": {
+  "tank_ridge": "tank = 12.53*depth + 539",
+  "margin_law": "days to the nearest existing flyby ~ 1300/depth",
+  "crossing_depth": 24,
+  "depth12": {
+   "price_at_0.05AU_kg": 11.4,
+   "breakeven_kg": 45.8
+  },
+  "depth25": {
+   "price_at_0.05AU_kg": 38.6,
+   "breakeven_kg": 38.0
+  },
+  "depth48": {
+   "price_at_0.05AU_kg": 112.6,
+   "breakeven_kg": 29.2
+  }
+ },
+ "deepest_routes_headroom": {
+  "note": "six deepest routes in the corpus (41-48 fb): 153-177 unflown targets pass within 0.35 AU, nearest 0.007-0.011 AU",
+  "candidates_priced_under_breakeven": "0 of 153-177 on five of the six; 3 on the lightest (41 fb @918 kg)"
+ },
+ "overlap_then_prune": {
+  "deep1": {
+   "before_sum_J_i": 13.43,
+   "after": 12.541,
+   "flybys": "365->298",
+   "J": 14.541
+  },
+  "best10_efficient": {
+   "covered": 278,
+   "before": 13.459,
+   "after": 12.4,
+   "surplus_removed": 94,
+   "refund_J_per_removed_flyby": 0.0113
+  }
+ },
+ "resettle_cover_fleet_3x_iters": {
+  "sum_J_i": "12.3546 -> 12.3529"
+ },
+ "carrier_pricing_experiment": {
+  "tool": "tools/carrier_optw.py --weights",
+  "rare_over_popular_base_ratio": {
+   "generic": 0.45,
+   "priced": 1.08
+  },
+  "base_depth_median": {
+   "generic": 17,
+   "priced": 11
+  },
+  "route_J_per_flyby_median": {
+   "generic_farmA": 0.041,
+   "priced_farmR": 0.0486
+  }
+ },
+ "new_routes_this_run": {
+  "farmA_from_144_unfarmed_libopt_carriers": "see results/s11/farmA",
+  "farmR_from_160_rare_priced_carriers": "see results/s11/farmR",
+  "farmA_pairwise_disjoint_pairs": "0 of 153 (random null 0.028)",
+  "farmA_count": 30,
+  "farmR_count": 12
+ },
+ "what_J_lt_13_requires_perfect_partition": {
+  "N8": {
+   "depth": 37.2,
+   "max_tank_kg": 1007,
+   "best_tank_ever_at_that_depth": 793,
+   "per_route_feasible": true
+  },
+  "N9": {
+   "depth": 33.1,
+   "max_tank_kg": 862,
+   "best_tank_ever": 788,
+   "per_route_feasible": true
+  },
+  "N10": {
+   "depth": 29.8,
+   "max_tank_kg": 728,
+   "best_tank_ever": 761,
+   "per_route_feasible": false
+  }
+ },
+ "tools_built": [
+  "tools/cover_curve.py",
+  "tools/pack_limit.py",
+  "tools/carrier_capacity.py",
+  "tools/cap_greedy.py",
+  "tools/cap_scale.py",
+  "tools/cover_delta.py",
+  "tools/carrier_optw.py",
+  "tools/overlap_prune.py",
+  "tools/fleet_curve.py"
+ ],
+ "final_delta_test": {
+  "baseline_routes": 574,
+  "J": 14.355,
+  "LP": 14.355,
+  "plus_30_farmA_routes": {
+   "routes": 603,
+   "J": 14.355,
+   "LP": 14.355,
+   "max_disjoint_efficient": 4
+  },
+  "plus_12_farmR_routes": {
+   "routes": 615,
+   "J": 14.355,
+   "LP": 14.355,
+   "max_disjoint_efficient": 4
+  },
+  "conclusion": "42 genuinely new routes from 2 new carrier families moved J by exactly 0.000"
+ }
+}

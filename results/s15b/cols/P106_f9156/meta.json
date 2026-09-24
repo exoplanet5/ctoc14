@@ -1,0 +1,75 @@
+{
+ "job": {
+  "beam": 24,
+  "tries": 72,
+  "roots": 300,
+  "dv": 1.2,
+  "drmax": 0.15,
+  "mc": 60,
+  "k_epochs": 3,
+  "lin_cap": 3.0,
+  "res_max": 150000000.0,
+  "grid": "0,800,20",
+  "iters": 100,
+  "timeout": 240.0,
+  "p": 0.0,
+  "S": [],
+  "w_fuel": 1.5,
+  "w_t": null,
+  "cap": 1150.0,
+  "kappa": 90.0,
+  "w_iso": 1.0,
+  "steps": 1,
+  "nproc": 1,
+  "wall_budget": 28800.0,
+  "min_save": 28,
+  "save_cap": 1300.0,
+  "level_budget": null,
+  "tag": "P106_f9156",
+  "out": "results/s15b/cols/P106_f9156",
+  "fleet_pre": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+   "results/s13/gen/g02x/tailB55k4/lib/route_07_T6_26.npz",
+   "results/s15/cols/t03/TB5f/route_TB5fs1_22.npz",
+   "results/s15/cols/t03/TB5f/route_TB5fs2_14_1.npz"
+  ],
+  "replaced": "results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz",
+  "src_fleet": "results/s15/select/r03f/frontier.json:296",
+  "src_route": {
+   "n": 31,
+   "tank": 1005.98,
+   "kg_fb": 13.1
+  }
+ },
+ "kind": "twintail",
+ "pool_n": 31,
+ "chain": {
+  "steps": [
+   {
+    "k": 1,
+    "pool": 31,
+    "S": [],
+    "end": {
+     "kind": "no_children",
+     "depth": 22
+    },
+    "deepest": 22,
+    "settles": 509,
+    "settle_ok": 483,
+    "wall_s": 3212,
+    "ncols": 0,
+    "took": null
+   }
+  ],
+  "covered": [],
+  "cols": [],
+  "taken": []
+ },
+ "cols": [],
+ "covered": 0,
+ "wall_s": 3224
+}

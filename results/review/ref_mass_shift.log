@@ -1,0 +1,9 @@
+spacecraft: 1, m0 = [2000.0]
+covered 48, missed 252, J = 255.0000  (sum J_i = 3.0000)
+max errors: pos 2.8654e-03 km, vel 6.6274e-05 m/s, mass 2.0000e-02 kg, max |T| 0.48268 N
+ERROR: SC1 line 2598->2599: mass error 0.0200 kg > 0.01 kg
+ERROR: SC1 line 2599->2600: mass error 0.0200 kg > 0.01 kg
+RESULT: FAIL
+real 246.90
+user 157.82
+sys 0.88

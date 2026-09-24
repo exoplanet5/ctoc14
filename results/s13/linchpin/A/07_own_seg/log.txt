@@ -1,0 +1,14 @@
+[20:51:59] === 07 cond own builder seg: pool 27 = own 27 + extra 0 []; hard in pool 7; source route 27 fb @ 815.1 kg (7.97 kg/fb)
+[20:51:59]   skeleton: 7 waypoints 205@734 214@1785 203@1986 88@2503 15@3637 178@3791 36@4767; easy 20
+[20:52:44]     07 seg 1: 2 states reach waypoint 214 -- relaxed retry
+[20:52:51]     07 seg 2: 4 states reach waypoint 203 -- relaxed retry
+[20:52:53]     07 seg 3: 4 states reach waypoint 88 -- relaxed retry
+[20:52:55]     07 seg 4: 3 states reach waypoint 15 -- relaxed retry
+[20:53:00]     07 seg 6: 0 states reach waypoint 36 -- relaxed retry
+[20:53:01]     07 seg 6: 4 states reach waypoint 36 -- giving up
+[20:53:01]     07 segments: 0:205->10st/3fb 1:214->10st/7fb 2:203->4st/8fb 3:88->3st/10fb 4:15->14st/14fb 5:178->8st/15fb 6:36->3st/12fb 7:None->4st/13fb
+[20:53:01]   build 62 s: 4 states, deepest 13 of pool 27; Pareto 11:710 12:726 13:734
+[20:53:01]     13 pool fb (alt 0): settle FAILED (miss inf, 0 s)
+[20:53:16]     12 pool fb (alt 0): planner 726 -> twin 754.7 kg, 12.89 kg/fb, 0.742 km/s/fb, J_i 1.1227, own 12/27 extra 0/0 (miss 86 km, 14 s)
+[20:53:57]     11 pool fb (alt 0): planner 710 -> twin 684.0 kg, 7.63 kg/fb, 0.458 km/s/fb, J_i 1.0636, own 11/27 extra 0/0 (miss 12 km, 41 s)
+[20:53:57]   BEST 07: 12/27 pool targets @ 754.7 kg (12.89 kg/fb; source 27 @ 815.1 = 7.97 kg/fb); orphans [3, 13, 23, 43, 69, 87, 103, 106, 138, 170, 184, 241, 294, 296, 299]

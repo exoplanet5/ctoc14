@@ -1,0 +1,7 @@
+[16:18:31] 9 conversions (opt_iters 150) on 9 procs; 0 in index
+[16:26:03] 21ae69c35731_o150 41 fb: tank 908.90 -> m0 911.46 (+2.56 kg) miss 72 km valid True hs 0.1 n_opt 7 (452 s) results/s16/fleets/E/route_r2.npz
+[16:26:19] 6d4f27966a9b_o150 41 fb: tank 986.29 -> m0 989.35 (+3.06 kg) miss 37 km valid True hs 0.1 n_opt 8 (468 s) results/s16/fleets/E/route_r3.npz
+[16:26:25] 433974ce2693_o150 42 fb: tank 944.38 -> m0 948.66 (+4.28 kg) miss 24 km valid True hs 0.1 n_opt 10 (474 s) results/s16/fleets/E/route_r1.npz
+[16:26:27] a7a0989ecdc8_o150 24 fb: tank 927.23 -> m0 929.07 (+1.84 kg) miss 26 km valid True hs 0.1 n_opt 23 (476 s) results/s16/fleets/E/route_r8.npz
+[16:26:35] f941ab93ef93_o150 30 fb: tank 901.55 -> m0 903.00 (+1.45 kg) miss 30 km valid True hs 0.1 n_opt 7 (484 s) results/s16/fleets/E/route_r6.npz
+[16:26:44] dfd0bcca0110_o150 31 fb: tank 958.10 -> m0 959.70 (+1.61 kg) miss 94 km valid True hs 0.1 n_opt 15 (493 s) results/s16/fleets/E/route_r5.npz

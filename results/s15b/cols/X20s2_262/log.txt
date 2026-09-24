@@ -1,0 +1,6 @@
+[07:30:27] prefix results/s15b/seeds/X12L3_262.npz k=3: 3 flybys to 1137 d, tank 636.0 kg, miss 2 km (1 s)
+[07:30:27] twintail X20s2_262: pool 15, S [], p 0.0, steps 1, beam 24/72, nproc 1; resume at step 1
+[07:30:27]   RESUME level 3: beam 1, deepest 0
+[07:30:31]   depth  4: 1 parents -> 2 kids (2 uniq) -> tried 2, settled 2, kept 2; t_end 1548-1739 d, tank 666-700, max S 0 (4 s, gen 1 s)
+[07:31:13]   depth  5: 2 parents -> 11 kids (11 uniq) -> tried 11, settled 11, kept 10; t_end 1685-2170 d, tank 680-753, max S 0 (42 s, gen 2 s)
+[07:32:50]   depth  6: 10 parents -> 27 kids (26 uniq) -> tried 25, settled 24, kept 18; t_end 2018-2719 d, tank 702-820, max S 0 (97 s, gen 13 s)

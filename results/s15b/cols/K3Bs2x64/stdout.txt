@@ -1,0 +1,7 @@
+[02:22:21] twintail K3Bs2x64: pool 15, S [64], p 0.1, steps 1, beam 30/90, nproc 1; resume at step 1
+[02:22:32]   roots: 36 launch legs -> 10 kept; pool 15, S [64] p 0.1
+[02:22:59]   depth  2: 10 parents -> 12 kids (8 uniq) -> tried 8, settled 2, kept 2; t_end 563-575 d, tank 622-625, max S 0 (27 s, gen 5 s)
+[02:23:09]   depth  3: 2 parents -> 2 kids (2 uniq) -> tried 2, settled 0, kept 0 (11 s, gen 1 s)
+[02:23:09]   step 1: nothing under the cap -> chain ends
+[02:23:09] twintail K3Bs2x64 done: 0 columns, covered 0/15 (49 s)
+{"covered": 0, "cols": 0, "wall_s": 49}

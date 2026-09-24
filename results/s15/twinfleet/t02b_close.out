@@ -1,0 +1,11 @@
+[23:44:44] fleet TB1f: 9 craft, covered 293 (dup 0), sum J_i 11.8666; misses 5 [108, 139, 145, 219, 280]; h01:46@1004 h02:46@1029 h03:44@1045 h04:35@882 h05:32@968 h06:30@961 t1:27@1021 s1:22@844 s2:11@819
+[23:44:45] fleet TB1f: misses with an approach <= 0.25 AU: 5 of 5
+[23:44:45] 7 closer host jobs
+[23:45:14]   TB1f_h01: tried [219] got [] (+0.0 kg)
+[23:45:14]   TB1f_h03: tried [145] got [] (+0.0 kg)
+[23:45:14]   TB1f_h04: tried [280] got [] (+0.0 kg)
+[23:45:14]   TB1f_h05: tried [139] got [] (+0.0 kg)
+[23:45:14]   TB1f_h06: tried [145] got [145] (+75.4 kg)
+[23:45:14]   TB1f_t1: tried [139] got [139] (+107.9 kg)
+[23:45:14]   TB1f_s1: tried [280, 108] got [] (+0.0 kg)
+[23:45:14] fleet TB1f: 293 covered @ 11.8666; closer placed [139, 145]; never placed [108, 219, 280]

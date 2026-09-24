@@ -1,0 +1,9 @@
+[20:41:55]     absorb[P20/route_04]: 1 approaches of [157]; lintwin 157@4917d 0.022AU 0kg
+[20:42:09]     absorb[P20/route_04]: insert 157 at 4917 d (lintwin 0 kg) -> fail 346395.4200256725 (14 s)
+[20:42:09]     absorb[lib/route_04_H_31]: 1 approaches of [157]; lintwin 157@4903d 0.025AU 10kg
+[20:42:11]     absorb[lib/route_04_H_31]: insert 157 at 4903 d (lintwin 10 kg) -> OK tank 845 (+10.9 kg) (2 s)
+[20:42:12]     absorb[ifleet1/route_08]: 1 approaches of [157]; lintwin 157@1582d 0.017AU 0kg
+[20:42:15]     absorb[ifleet1/route_08]: insert 157 at 1582 d (lintwin 0 kg) -> OK tank 743 (+-0.3 kg) (3 s)
+[20:42:15]     absorb[ifleet0/route_08]: 1 approaches of [157]; lintwin 157@1576d 0.048AU 0kg
+[20:42:18]     absorb[ifleet0/route_08]: insert 157 at 1576 d (lintwin 0 kg) -> OK tank 755 (+0.8 kg) (3 s)
+[20:42:18] absorb A157 done: 3 columns from 4 items (24 s)

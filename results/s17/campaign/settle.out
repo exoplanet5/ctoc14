@@ -1,0 +1,5 @@
+{'i': 0, 'a': 79, 'b': 23, 'k': 190, 'L': 11, 'n': 47, 'tank_est': 1101.0, 'tank_raw': 1100.98, 'miss_raw_km': 53.1, 'over_cap_before': 1.06, 'tank_settled': 1086.25, 'miss_km': 68.0, 'over_cap_after': 0.999, 'sec': 8}
+{'i': 4, 'a': 291, 'b': 92, 'k': 500, 'L': 11, 'n': 33, 'tank_est': 1095.5, 'tank_raw': 1095.49, 'miss_raw_km': 75.6, 'over_cap_before': 0.98, 'tank_settled': 1093.46, 'miss_km': 76.7, 'over_cap_after': 0.999, 'sec': 3}
+{'i': 5, 'a': 428, 'b': 290, 'k': 76, 'L': 11, 'n': 33, 'tank_est': 1104.1, 'tank_raw': 1104.09, 'miss_raw_km': 35.7, 'over_cap_before': 1.25, 'tank_settled': 1103.53, 'miss_km': 67.1, 'over_cap_after': 0.998, 'sec': 4}
+{'i': 6, 'a': 308, 'b': 328, 'k': 170, 'L': 3, 'n': 32, 'tank_est': 1101.1, 'tank_raw': 1101.11, 'miss_raw_km': 70.0, 'over_cap_before': 1.13, 'tank_settled': 1101.95, 'miss_km': 39.2, 'over_cap_after': 0.999, 'sec': 5}
+{'i': 7, 'a': 584, 'b': 450, 'k': 23, 'L': 3, 'n': 28, 'tank_est': 1142.9, 'tank_raw': 1142.94, 'miss_raw_km': 54.3, 'over_cap_before': 1.18, 'tank_settled': 1143.69, 'miss_km': 45.3, 'over_cap_after': 0.998, 'sec': 8}

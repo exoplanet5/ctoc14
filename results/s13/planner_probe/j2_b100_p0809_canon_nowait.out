@@ -1,0 +1,14 @@
+depth   1:     58 children -> beam   39 (29 order-free distinct); n=1 fuel=0 per craft [1, 0]
+depth   2:   2184 children -> beam  100 (85 order-free distinct); n=2 fuel=0 per craft [1, 1]
+depth  10:    193 children -> beam  100 (91 order-free distinct); n=10 fuel=258 per craft [2, 8]
+depth  20:      9 children -> beam    5 (5 order-free distinct); n=20 fuel=489 per craft [2, 18]
+{"pool": "routes:08,09", "pool_size": 50, "K": 2, "beam": 100, "nproc": 1, "m0": 1600.0, "t_run_s": 63.5, "n_joint_states": 1407, "t10d_reference": {"08": [26, 870.6, 1.2307], "09": [24, 876.5, 1.2365]}, "t10d_sumJ": 2.4672, "max_covered": 21, "last_level": {"depth": 21, "n_states": 1, "distinct_splits": 1, "distinct_sets_per_craft": [1, 1]}, "settles": [], "canon": true, "wait_d": 100000.0, "perm_free_frac": {"mean": 0.931, "min": 0.744}}
+  covered 21: planner sum J_i 2.123, depths [6, 15], tanks [647, 714]
+  covered 20: planner sum J_i 2.108, depths [5, 15], tanks [628, 714]
+  covered 19: planner sum J_i 2.094, depths [5, 14], tanks [628, 697]
+  covered 18: planner sum J_i 2.083, depths [5, 13], tanks [628, 683]
+  covered 17: planner sum J_i 2.078, depths [5, 12], tanks [628, 676]
+  covered 16: planner sum J_i 2.074, depths [5, 11], tanks [628, 672]
+  waits per craft [0, 0]
+  settle {'craft': 0, 'n': 6, 'tank_planner': 647.0, 't_settle_s': 2.0, 'ok': True, 'tank_twin': 647.3, 'J_i': 1.0349, 'kg_per_fb': 7.89, 'dv_per_fb': 0.4799}
+  settle {'craft': 1, 'n': 15, 'tank_planner': 713.7, 't_settle_s': 11.8, 'ok': True, 'tank_twin': 723.8, 'J_i': 1.0963, 'kg_per_fb': 8.25, 'dv_per_fb': 0.4841}

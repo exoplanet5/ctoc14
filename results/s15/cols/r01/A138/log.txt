@@ -1,0 +1,8 @@
+[20:41:49]     absorb[lib/route_05_Hpre_16]: 1 approaches of [138]; lintwin 138@1435d 0.040AU 420kg
+[20:41:49]     absorb[lib/route_05_H_31]: 1 approaches of [138]; lintwin 138@1435d 0.041AU 363kg
+[20:41:49]     absorb[lib/route_05_H_32]: 1 approaches of [138]; lintwin 138@1443d 0.041AU 406kg
+[20:41:50]     absorb[lib/route_05_H_30]: 1 approaches of [138]; lintwin 138@1439d 0.041AU 288kg
+[20:41:50]     absorb[07_N30/route_07]: 1 approaches of [138]; lintwin 138@1440d 0.053AU 99kg
+[20:41:50]     absorb[lib/route_06_T2_32]: 1 approaches of [138]; lintwin 138@1442d 0.056AU 863kg
+[20:41:51]     absorb[lib/route_07_T3_24]: 1 approaches of [138]; lintwin 138@1435d 0.059AU 143kg
+[20:41:51] absorb A138 done: 0 columns from 7 items (2 s)

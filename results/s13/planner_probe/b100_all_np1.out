@@ -1,0 +1,4 @@
+[b100_all_np1] beam 100 nproc 1 pool 298 strict: 253 s, deepest 46 total / 46 pool; Pareto(pool) 38:849 39:874 40:900 41:909 42:916 43:925 44:935 45:937 46:956
+   settle {'k_pool': 46, 'n_tot': 46, 'tank_planner': 956.1, 't_settle_s': 13.0, 'ok': True, 'miss_km': 68.9, 'lag_d': 1.0, 'tank_twin': 1004.3, 'J_i': 1.3722, 'kg_per_fb': 8.79, 'dv_per_fb': 0.4372, 't_end_yr': 14.89, 't_launch_d': 0.0}
+   settle {'k_pool': 45, 'n_tot': 45, 'tank_planner': 936.6, 't_settle_s': 13.0, 'ok': True, 'miss_km': 72.8, 'lag_d': 1.0, 'tank_twin': 972.1, 'J_i': 1.3364, 'kg_per_fb': 8.27, 'dv_per_fb': 0.4184, 't_end_yr': 14.98, 't_launch_d': 0.0}
+   settle {'k_pool': 44, 'n_tot': 44, 'tank_planner': 935.4, 't_settle_s': 13.3, 'ok': True, 'miss_km': 73.6, 'lag_d': 1.0, 'tank_twin': 967.6, 'J_i': 1.3315, 'kg_per_fb': 8.35, 'dv_per_fb': 0.4238, 't_end_yr': 14.52, 't_launch_d': 0.0}

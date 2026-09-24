@@ -1,0 +1,4 @@
+[22:02:12] start 0: oft --cond pool --builder beam --beam 1000 --soft-prize 0 --nproc 1 > results/s13/linchpin/A2/06_pool_beam_soft.out 2>&1
+[22:02:12] start 1: oft --cond pool --builder beam --beam 1000 --soft-prize 0 --nproc 1 > results/s13/linchpin/A2/03_pool_beam_soft.out 2>&1
+[22:02:12] start 2: oft --cond pool --builder beam --beam 1000 --soft-prize 0 --nproc 1 > results/s13/linchpin/A2/07_pool_beam_soft.out 2>&1
+[22:02:12] start 3: oft --cond pool --builder beam --beam 1000 --soft-prize 0 --nproc 1 > results/s13/linchpin/A2/04_pool_beam_soft.out 2>&1

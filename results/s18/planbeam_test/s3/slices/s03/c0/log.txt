@@ -1,0 +1,42 @@
+[06:30:38] job s03_c0 (craft, craft 0, planbeam): T 1620 d H 540 L 360; plan horizon 3240 d; remaining 224; prize >1 on 44; width 150 npt 6 mc 150 dv 1.2 drmax 0.15 plan_wall 240 s; quota {'fil': 9, 'med': 16}
+[06:30:38] prefix slices/s03/in/craft_0.npz: 8 flybys, t_end 1363.3 d, tank 695.9 kg (planner view), miss 34.1 km, nreg 70
+[06:30:49] first level (both): 0 production + 26 relaxed (dv 2.5, 0.3 AU; 0.1 s) + 69 lintwin children -> 86 unique (11.2 s)
+[06:30:49] plan start: prefix 8 flybys, t_end 1363.3 d, planner mass 1383.0 kg (dv 5.717 km/s); 86 first-level states
+[06:31:47] plan: 1068 states, depth 9 new flybys, end plan_done (69 s); deepest 9 new to 3235 d at planner fuel 476 kg
+[06:31:47]   depth  1:   86 states (77 in H), t_end 1630-2278 d, fuel 218-316 kg
+[06:31:47]   depth  2:  150 states (109 in H), t_end 1738-2614 d, fuel 231-351 kg
+[06:31:47]   depth  3:  150 states (35 in H), t_end 1933-2895 d, fuel 244-387 kg
+[06:31:47]   depth  4:  150 states (2 in H), t_end 2069-3087 d, fuel 286-422 kg
+[06:31:47]   depth  5:  150 states (0 in H), t_end 2476-3237 d, fuel 324-456 kg
+[06:31:47]   depth  6:  150 states (0 in H), t_end 2695-3238 d, fuel 345-452 kg
+[06:31:47]   depth  7:  150 states (0 in H), t_end 2955-3237 d, fuel 396-475 kg
+[06:31:47]   depth  8:   73 states (0 in H), t_end 3089-3240 d, fuel 410-502 kg
+[06:31:47]   depth  9:    9 states (0 in H), t_end 3207-3236 d, fuel 476-535 kg
+[06:31:47] candidates: 152 distinct committed target sets (n_new 1-4, potential 0-2)
+[06:31:47] frontier: 16 candidates chosen: 1fb/218kg/p0, 1fb/223kg/p2, 1fb/237kg/p2, 1fb/237kg/p2, 1fb/241kg/p1, 1fb/243kg/p2, 1fb/250kg/p1, 1fb/256kg/p2, 1fb/257kg/p2, 2fb/253kg/p0, 2fb/254kg/p1, 2fb/260kg/p2, 3fb/276kg/p1, 3fb/299kg/p0, 3fb/313kg/p2, 4fb/348kg/p0
+[06:32:10]     settle  9:  44 @   2062 d -> ok lam tank 702.5 (+6.6) miss 29 km (22.8 s)
+[06:32:13]   regrid FAIL (1 fb: miss 10580 km, None) -> column dropped
+[06:32:32]     settle  9: 282 @   1983 d -> ok lam tank 715.1 (+19.3) miss 87 km (18.5 s)
+[06:32:37]   regrid FAIL (1 fb: miss 111435 km, None) -> column dropped
+[06:32:55]     settle  9:  92 @   2116 d -> FAIL [('lam', 4516322.4)] (17.6 s)
+[06:33:33]     settle  9: 120 @   1819 d -> FAIL [('lam', 55914.8)] (37.6 s)
+[06:33:40]     settle  9:  94 @   2117 d -> ok lam tank 716.2 (+20.3) miss 35 km (7.0 s)
+[06:33:43]   regrid FAIL (1 fb: miss 232682 km, None) -> column dropped
+[06:33:48]     settle  9: 151 @   1825 d -> ok lam tank 705.9 (+10.0) miss 29 km (5.0 s)
+[06:33:55]     settle  9: 268 @   1819 d -> ok lam tank 723.0 (+27.2) miss 96 km (5.9 s)
+[06:33:58]   regrid FAIL (1 fb: miss 50749 km, None) -> column dropped
+[06:34:05]     settle  9: 143 @   1745 d -> ok lam tank 1030.6 (+334.7) miss 10 km (7.1 s)
+[06:34:09]   regrid FAIL (1 fb: miss 14860 km, None) -> column dropped
+[06:34:14]     settle  9: 259 @   1696 d -> ok lin tank 727.5 (+31.6) miss 98 km (4.7 s)
+[06:34:18]   regrid FAIL (1 fb: miss 39716 km, None) -> column dropped
+[06:34:24]     settle 10:  60 @   2158 d -> ok lam tank 710.9 (+5.0) miss 74 km (5.8 s)
+[06:34:30]     settle 10: 282 @   1983 d -> FAIL [('lam', 32566936.6)] (5.6 s)
+[06:34:35]   regrid FAIL (1 fb: miss 14860 km, None) -> column dropped
+[06:34:44]     settle 10: 282 @   1984 d -> ok lam tank 754.3 (+48.5) miss 98 km (9.0 s)
+[06:34:50]     settle 11:  60 @   2158 d -> ok lam tank 771.1 (+16.8) miss 90 km (6.0 s)
+[06:34:56]   regrid FAIL (3 fb: miss 59352 km, None) -> column dropped
+[06:34:59]     settle  9: 112 @   1685 d -> ok lin tank 731.9 (+36.0) miss 99 km (3.4 s)
+[06:35:21]     settle 10: 117 @   1802 d -> FAIL [('lam', 189.8), ('lin', 120022.5)] (22.3 s)
+[06:35:26]   regrid FAIL (1 fb: miss 60057 km, None) -> column dropped
+[06:35:26]   14 candidates dropped (settle failure / duplicate after truncation)
+[06:35:26] RESULT s03_c0: 2 columns; frontier 1fb 10 kg p2/2 | 2fb 16 kg p0/0; settles 20 (11 ok), regrids 11 (2 ok); wall 288 s (plan 69, price 1, settle 219)

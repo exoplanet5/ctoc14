@@ -1,0 +1,14 @@
+[00:23:16] twintail TS1: pool 14, S [17, 64, 219], p 0.05, steps 1, beam 20/60, nproc 1; resume at step 1
+[00:23:29]   roots: 945 launch legs -> 204 kept; pool 14, S [17, 64, 219] p 0.05
+[00:32:14]   depth  2: 204 parents -> 2881 kids (2019 uniq) -> tried 26, settled 20, kept 15; t_end 788-1375 d, tank 602-662, max S 1 (525 s, gen 484 s)
+[00:34:22]   depth  3: 15 parents -> 245 kids (240 uniq) -> tried 23, settled 20, kept 20; t_end 1233-1776 d, tank 613-691, max S 1 (128 s, gen 65 s)
+[00:37:10]   depth  4: 20 parents -> 322 kids (314 uniq) -> tried 21, settled 20, kept 18; t_end 1336-1973 d, tank 623-682, max S 1 (168 s, gen 106 s)
+[00:40:24]   depth  5: 18 parents -> 252 kids (252 uniq) -> tried 22, settled 20, kept 20; t_end 1445-2531 d, tank 636-788, max S 1 (195 s, gen 116 s)
+[00:44:15]   depth  6: 20 parents -> 359 kids (356 uniq) -> tried 24, settled 20, kept 19; t_end 1659-2866 d, tank 645-766, max S 1 (231 s, gen 130 s)
+[00:48:48]   depth  7: 19 parents -> 342 kids (342 uniq) -> tried 25, settled 20, kept 19; t_end 1849-3174 d, tank 658-788, max S 2 (273 s, gen 133 s)
+[00:53:46]   depth  8: 19 parents -> 279 kids (279 uniq) -> tried 23, settled 20, kept 19; t_end 2504-3513 d, tank 733-876, max S 2 (297 s, gen 152 s)
+[00:59:17]   depth  9: 19 parents -> 279 kids (278 uniq) -> tried 24, settled 20, kept 17; t_end 2692-4175 d, tank 769-1095, max S 2 (331 s, gen 168 s)
+[01:06:21]   depth 10: 17 parents -> 253 kids (253 uniq) -> tried 28, settled 20, kept 20; t_end 2750-4133 d, tank 770-996, max S 2 (424 s, gen 178 s)
+[01:11:47]   depth 11: 20 parents -> 276 kids (275 uniq) -> tried 20, settled 20, kept 17; t_end 3151-4088 d, tank 779-976, max S 2 (326 s, gen 210 s)
+[01:17:01]   depth 12: 17 parents -> 211 kids (211 uniq) -> tried 20, settled 20, kept 20; t_end 3207-4485 d, tank 795-1042, max S 3 (314 s, gen 170 s)
+[01:22:46]   depth 13: 20 parents -> 170 kids (169 uniq) -> tried 20, settled 20, kept 20; t_end 3486-4460 d, tank 837-1087, max S 3 (345 s, gen 210 s)

@@ -1,0 +1,72 @@
+{
+ "pool": "pool77_minusA.json",
+ "pool_size": 51,
+ "mode": "strict",
+ "soft_prize": 0.0,
+ "beam": 100,
+ "nproc": 1,
+ "m0": 1600.0,
+ "t_beam_s": 83.9,
+ "cpu_beam_s": 57.6,
+ "n_expand": 1367,
+ "n_states": 305,
+ "deepest_total": 18,
+ "deepest_pool": 18,
+ "pareto_pool": {
+  "10": {
+   "n_tot": 10,
+   "fuel": 208.7,
+   "tank_planner": 662.5
+  },
+  "11": {
+   "n_tot": 11,
+   "fuel": 237.4,
+   "tank_planner": 671.8
+  },
+  "12": {
+   "n_tot": 12,
+   "fuel": 256.0,
+   "tank_planner": 677.9
+  },
+  "13": {
+   "n_tot": 13,
+   "fuel": 280.8,
+   "tank_planner": 686.3
+  },
+  "14": {
+   "n_tot": 14,
+   "fuel": 301.4,
+   "tank_planner": 693.5
+  },
+  "15": {
+   "n_tot": 15,
+   "fuel": 311.2,
+   "tank_planner": 696.9
+  },
+  "16": {
+   "n_tot": 16,
+   "fuel": 338.1,
+   "tank_planner": 706.5
+  },
+  "17": {
+   "n_tot": 17,
+   "fuel": 407.2,
+   "tank_planner": 732.5
+  },
+  "18": {
+   "n_tot": 18,
+   "fuel": 481.7,
+   "tank_planner": 762.8
+  }
+ },
+ "settles": [
+  {
+   "k_pool": 18,
+   "n_tot": 18,
+   "tank_planner": 762.8,
+   "t_settle_s": 107.7,
+   "ok": false,
+   "miss_km": 3281219.0759933833
+  }
+ ]
+}

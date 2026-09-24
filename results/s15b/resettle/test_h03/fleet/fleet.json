@@ -1,0 +1,13 @@
+{
+ "J": 257.41898720718126,
+ "n": 1,
+ "covered": 44,
+ "note": "re-settled results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+ "routes": {
+  "01": {
+   "tank": 1045.082934147228,
+   "J_i": 1.418987207181237,
+   "flybys": 44
+  }
+ }
+}

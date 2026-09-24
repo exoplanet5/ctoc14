@@ -1,0 +1,23 @@
+rarity weighting on: mean nan, hardest [ 10  66  29 260  86 213 125 236 147  31]
+SC1: 29 flybys, fuel 1276 kg, launch 20 d, 55 s
+SC2: 32 flybys, fuel 1259 kg, launch 100 d, 76 s
+SC3: 31 flybys, fuel 1294 kg, launch 0 d, 88 s
+SC4: 34 flybys, fuel 1297 kg, launch 300 d, 93 s
+SC5: 35 flybys, fuel 1297 kg, launch 40 d, 100 s
+SC6: 34 flybys, fuel 1267 kg, launch 0 d, 84 s
+SC7: 33 flybys, fuel 1295 kg, launch 0 d, 80 s
+SC8: 29 flybys, fuel 1272 kg, launch 120 d, 65 s
+SC9: 22 flybys, fuel 1267 kg, launch 60 d, 52 s
+SC10: 8 flybys, fuel 594 kg, launch 180 d, 26 s
+SC11: 4 flybys, fuel 335 kg, launch 720 d, 25 s
+SC12: 3 flybys, fuel 265 kg, launch 680 d, 24 s
+[sequential] 12 spacecraft, flybys [29, 32, 31, 34, 35, 34, 33, 29, 22, 8, 4, 3], covered 294, planned J = 42.00
+  round 1: SC11 4 -> 4 (24 s)
+  round 1: SC7 33 -> 33 (54 s)
+[improve round 1] 12 spacecraft, flybys [29, 32, 31, 34, 35, 34, 33, 29, 22, 8, 4, 3], covered 294, planned J = 42.00
+[improve round 2] 12 spacecraft, flybys [29, 32, 31, 34, 35, 34, 33, 29, 22, 8, 4, 3], covered 294, planned J = 42.00
+[elimination trial (removed SC12 with 3)] 11 spacecraft, flybys [29, 33, 31, 34, 35, 34, 33, 29, 22, 8, 4], covered 292, planned J = 41.00
+  -> accepted
+[elimination trial (removed SC11 with 4)] 10 spacecraft, flybys [29, 33, 31, 34, 35, 34, 33, 29, 22, 8], covered 288, planned J = 42.00
+  -> rejected
+FLEET: 11 spacecraft, covered 292, planned J = 41.00; leftovers [101, 107, 137, 148, 151, 271]

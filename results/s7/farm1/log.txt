@@ -1,0 +1,5 @@
+[00:20:19] 96 routes from 400 carriers, frac 0.6, max-tank 1100.0, step 45.0
+[00:23:56] [  1/96] carrier 243: 24 fb @    825 kg, 0.0494 J/fb  (217 s, total 217 s)
+[00:23:56] [  2/96] carrier 377: 23 fb @    765 kg, 0.0492 J/fb  (217 s, total 217 s)
+[00:24:55] [  3/96] carrier 306: 26 fb @    792 kg, 0.0444 J/fb  (276 s, total 276 s)
+[00:25:13] [  4/96] carrier 284: 29 fb @    857 kg, 0.0420 J/fb  (294 s, total 294 s)

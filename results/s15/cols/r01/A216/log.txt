@@ -1,0 +1,5 @@
+[20:41:58]     absorb[gc16/route_04]: 1 approaches of [216]; lintwin 216@2361d 0.029AU 12kg
+[20:42:03]     absorb[gc16/route_04]: insert 216 at 2361 d (lintwin 12 kg) -> OK tank 865 (+12.7 kg) (5 s)
+[20:42:03]     absorb[full5/route_08]: 1 approaches of [216]; lintwin 216@2375d 0.040AU 0kg
+[20:42:16]     absorb[full5/route_08]: insert 216 at 2375 d (lintwin 0 kg) -> OK tank 1059 (+-10.7 kg) (13 s)
+[20:42:16] absorb A216 done: 2 columns from 2 items (18 s)

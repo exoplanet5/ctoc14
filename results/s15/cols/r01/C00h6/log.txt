@@ -1,0 +1,39 @@
+[20:01:56] chain C00h6: pool 65, S [64, 119, 137, 138, 157, 158, 168, 216], p 0.02, steps 3, members ['H', 'T2']; resume at step 1
+[20:03:21]   step 1 plan T2: pool 65, S [64, 119, 137, 138, 157, 158, 168, 216], deepest 25 (with S 25); front 25:950** 24:917** 24:944**** 23:889**** 22:850** 22:899***** 21:836** 21:883***** (85 s)
+[20:05:02]   step 1 plan T3: pool 65, S [64, 119, 137, 138, 157, 158, 168, 216], deepest 27 (with S 27); front 27:1004** 26:932** 25:923** 25:1000*** 24:912** 24:916*** 23:898** 23:906*** (101 s)
+[20:06:58]   step 1 plan T6: pool 65, S [64, 119, 137, 138, 157, 158, 168, 216], deepest 28 (with S 28); front 28:1030**** 27:1017**** 27:1019****** 26:935** 26:993****** 25:920** 25:971****** 24:908** (117 s)
+[20:07:07]     settle T6 28 fb (S [119, 157, 158, 168]) planner 1030 -> twin 1019 miss 72 OK (8 s)
+[20:07:23]     settle T6 27 fb (S [119, 137, 157, 158, 168, 216]) planner 1019 -> twin 1021 miss 12 OK (16 s)
+[20:07:32]     settle T6 27 fb (S [119, 157, 158, 168]) planner 1017 -> twin 997 miss 2 OK (9 s)
+[20:08:18]     settle T6 24 fb (S [119, 137, 157, 158, 168, 216]) planner 956 -> twin 956 miss 76 OK (46 s)
+[20:09:36]     settle T6 21 fb (S [119, 137, 157, 158, 168, 216]) planner 877 -> twin - miss 56058646 no (78 s)
+[20:10:19]     settle T6 20 fb (S [119, 137, 157, 158, 168, 216]) planner 859 -> twin 856 miss 80 OK (43 s)
+[20:10:19]     absorb[s1]: no approach of [64, 138] within 0.2 AU
+[20:10:19]   step 1: TOOK {'member': 'T6', 'n': 27, 'tank': 1021.1, 's_taken': [119, 137, 157, 158, 168, 216]}; chain covered 27/65
+[20:11:10]   step 2 plan T2: pool 38, S [64, 138], deepest 14 (with S 8); front 14:740 13:712 12:711 11:696 10:686 9:677 8:667 8:685* (51 s)
+[20:12:11]   step 2 plan T3: pool 38, S [64, 138], deepest 19 (with S 18); front 19:823 18:807 18:875* 17:793 17:822* 16:789 16:802* 15:744 (60 s)
+[20:13:24]   step 2 plan T6: pool 38, S [64, 138], deepest 18 (with S 12); front 18:868 17:801 16:786 15:763 14:738 13:719 12:716 12:744* (74 s)
+[20:13:25]     settle T3 19 fb (S []) planner 823 -> twin - miss inf no (0 s)
+[20:15:02]     settle T3 18 fb (S [138]) planner 875 -> twin - miss 35132 no (98 s)
+[20:15:03]     settle T3 18 fb (S []) planner 807 -> twin - miss inf no (0 s)
+[20:15:03]     settle T6 18 fb (S []) planner 868 -> twin - miss inf no (0 s)
+[20:16:26]     settle T3 17 fb (S [138]) planner 822 -> twin - miss 181921771 no (83 s)
+[20:16:26]     settle T3 17 fb (S []) planner 793 -> twin - miss inf no (0 s)
+[20:16:35]     settle T6 17 fb (S []) planner 801 -> twin 770 miss 7 OK (9 s)
+[20:18:24]     settle T3 16 fb (S [138]) planner 802 -> twin - miss 248782967 no (109 s)
+[20:18:31]     settle T6 16 fb (S []) planner 786 -> twin 765 miss 5 OK (7 s)
+[20:18:31]     settle T3 16 fb (S []) planner 789 -> twin - miss inf no (0 s)
+[20:19:15]     settle T3 15 fb (S [138]) planner 783 -> twin 926 miss 13 no (44 s)
+[20:23:15]     settle T3 15 fb (S []) planner 744 -> twin - miss inf no (240 s)
+[20:23:15]     absorb[s2]: no approach of [64, 138] within 0.2 AU
+[20:23:15]   step 2: TOOK {'member': 'T6', 'n': 17, 'tank': 770.5, 's_taken': []}; chain covered 44/65
+[20:23:27]   step 3 plan T2: pool 21, S [64, 138], deepest 4 (with S 0); front 4:635 (12 s)
+[20:23:40]   step 3 plan T3: pool 21, S [64, 138], deepest 5 (with S 0); front 5:676 4:641 (13 s)
+[20:24:08]   step 3 plan T6: pool 21, S [64, 138], deepest 8 (with S 8); front 8:739 8:749* 7:712 6:694 5:675 4:635 (28 s)
+[20:24:13]     settle T6 8 fb (S [138]) planner 749 -> twin 715 miss 65 OK (5 s)
+[20:24:47]     settle T6 8 fb (S []) planner 739 -> twin - miss 12840393 no (34 s)
+[20:24:55]     settle T6 7 fb (S []) planner 712 -> twin 708 miss 2 OK (8 s)
+[20:25:03]     settle T6 6 fb (S []) planner 694 -> twin 680 miss 1 OK (7 s)
+[20:25:03]     absorb[s3]: no approach of [64] within 0.2 AU
+[20:25:03]   step 3: TOOK {'member': 'T6', 'n': 8, 'tank': 714.9, 's_taken': [138]}; chain covered 52/65
+[20:25:03] chain C00h6 done: 10 columns, covered 52/65 (1387 s)

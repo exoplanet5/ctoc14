@@ -1,0 +1,50 @@
+[
+ {
+  "f": "results/s13/seed_passes/N6a/route_01.npz",
+  "n": 48,
+  "tank": 1048.383,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/seed_passes/N6a/route_03.npz",
+  "n": 42,
+  "tank": 992.725,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/seed_passes/N6a/route_02.npz",
+  "n": 39,
+  "tank": 1038.129,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/seed_passes/N6a/route_04.npz",
+  "n": 36,
+  "tank": 929.655,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/seed_passes/N6a/route_05.npz",
+  "n": 34,
+  "tank": 880.164,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/seed_passes/N6a/route_06.npz",
+  "n": 26,
+  "tank": 835.41,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/seed_passes/N6a/route_07.npz",
+  "n": 23,
+  "tank": 847.211,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/seed_passes/N6a/route_08.npz",
+  "n": 15,
+  "tank": 698.175,
+  "resettled": true
+ }
+]

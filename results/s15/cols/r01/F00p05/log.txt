@@ -1,0 +1,11 @@
+[20:01:56] column F00p05: pool 298, S [137, 158, 216], p 0.005, member H, seed 100, absorb [64, 119, 137, 138, 157, 158, 168, 216]
+[20:06:26]   plan H: pool 298, S [137, 158, 216], deepest 48, deepest with S 39; front 48:984 47:953 46:928 45:926 44:921 43:909 42:902 41:898 40:889 39:883 (271 s)
+[20:06:38]     settle H 48 fb (S []) planner 984 -> twin 1048 miss 60 OK (12 s)
+[20:06:50]     settle H 47 fb (S []) planner 953 -> twin 1024 miss 1 OK (12 s)
+[20:06:59]     settle H 46 fb (S []) planner 928 -> twin 980 miss 76 OK (9 s)
+[20:07:05]     settle H 43 fb (S []) planner 909 -> twin 959 miss 65 OK (6 s)
+[20:07:11]     settle H 40 fb (S []) planner 889 -> twin 926 miss 66 OK (6 s)
+[20:07:15]     settle H 37 fb (S [137]) planner 873 -> twin 918 miss 66 OK (4 s)
+[20:07:15]     absorb[h48]: no approach of [64, 119, 137, 138, 157, 158, 168, 216] within 0.2 AU
+[20:07:15]     absorb[h47]: no approach of [64, 119, 137, 138, 157, 158, 168, 216] within 0.2 AU
+[20:07:15] column F00p05 done: 6 columns (0 absorbed); 319 s

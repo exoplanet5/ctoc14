@@ -1,0 +1,4 @@
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py free results/s14/A/s2/test/r06_L3_b20 --pool own:results/s12/cover_clean/fleet:06 --L 3 --beam 20 > results/s14/A/s2/test/r06_L3_b20.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py free results/s14/A/s2/test/r06_L4_b20 --pool own:results/s12/cover_clean/fleet:06 --L 4 --beam 20 > results/s14/A/s2/test/r06_L4_b20.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py free results/s14/A/s2/test/r06_L3_b60 --pool own:results/s12/cover_clean/fleet:06 --L 3 --beam 60 > results/s14/A/s2/test/r06_L3_b60.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py free results/s14/A/s2/test/r06_L2_b60 --pool own:results/s12/cover_clean/fleet:06 --L 2 --beam 60 > results/s14/A/s2/test/r06_L2_b60.out 2>&1

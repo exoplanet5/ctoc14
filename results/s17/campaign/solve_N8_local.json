@@ -1,0 +1,28 @@
+{
+ "N": 8,
+ "n_cols": 42650,
+ "incumbent": 286,
+ "local": {
+  "covered": 286,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent",
+   "parent",
+   "parent",
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "depths": [
+   47,
+   46,
+   44,
+   38,
+   31,
+   31,
+   29,
+   24
+  ]
+ }
+}

@@ -1,0 +1,2 @@
+[21:39:34]     absorb[route_03]+[]: 1 approaches of [287]; lintwin 287@5154d 0.016AU 68kg
+[21:39:34] grow G03 done: [{'f': 'results/s14/probe_cover/N9/fleet/route_03.npz', 'got': [], 'dkg': 0.0, 'tank0': 1045.1}] (0 s)

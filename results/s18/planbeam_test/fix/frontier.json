@@ -1,0 +1,124 @@
+{
+ "slice": 3,
+ "T_d": 1620.0,
+ "H_d": 540.0,
+ "L_d": 360.0,
+ "crafts": [
+  0,
+  4
+ ],
+ "rows": [
+  {
+   "craft": 0,
+   "ok": true,
+   "error": null,
+   "wall_s": 220.4,
+   "plan_s": 57.6,
+   "n_columns": 2,
+   "planbeam": [
+    {
+     "n_new": 1,
+     "dtank_min": 10.3,
+     "potential_of_cheapest": 2,
+     "potential_max": 2,
+     "n_cols": 1
+    },
+    {
+     "n_new": 2,
+     "dtank_min": 15.5,
+     "potential_of_cheapest": 0,
+     "potential_max": 0,
+     "n_cols": 1
+    }
+   ],
+   "segbeam": {
+    "1": {
+     "dtank_min": 9.750251266413443,
+     "potential_of_cheapest": 0,
+     "potential_max": 1,
+     "n_cols": 7
+    },
+    "2": {
+     "dtank_min": 60.429232341882425,
+     "potential_of_cheapest": 0,
+     "potential_max": 1,
+     "n_cols": 4
+    },
+    "3": {
+     "dtank_min": 82.83632952394862,
+     "potential_of_cheapest": 0,
+     "potential_max": 0,
+     "n_cols": 2
+    }
+   },
+   "seg_wall_s": 714.8
+  },
+  {
+   "craft": 4,
+   "ok": true,
+   "error": null,
+   "wall_s": 141.7,
+   "plan_s": 79.5,
+   "n_columns": 16,
+   "planbeam": [
+    {
+     "n_new": 1,
+     "dtank_min": 2.2,
+     "potential_of_cheapest": 2,
+     "potential_max": 3,
+     "n_cols": 7
+    },
+    {
+     "n_new": 2,
+     "dtank_min": 6.0,
+     "potential_of_cheapest": 0,
+     "potential_max": 3,
+     "n_cols": 3
+    },
+    {
+     "n_new": 3,
+     "dtank_min": 11.9,
+     "potential_of_cheapest": 0,
+     "potential_max": 3,
+     "n_cols": 3
+    },
+    {
+     "n_new": 4,
+     "dtank_min": 30.0,
+     "potential_of_cheapest": 1,
+     "potential_max": 1,
+     "n_cols": 3
+    }
+   ],
+   "segbeam": {
+    "1": {
+     "dtank_min": 2.58718854669371,
+     "potential_of_cheapest": 3,
+     "potential_max": 3,
+     "n_cols": 6
+    },
+    "2": {
+     "dtank_min": 16.085632226556186,
+     "potential_of_cheapest": 3,
+     "potential_max": 3,
+     "n_cols": 7
+    },
+    "3": {
+     "dtank_min": 57.624866440007395,
+     "potential_of_cheapest": 3,
+     "potential_max": 3,
+     "n_cols": 4
+    },
+    "4": {
+     "dtank_min": 184.0272384646729,
+     "potential_of_cheapest": 0,
+     "potential_max": 1,
+     "n_cols": 2
+    }
+   },
+   "seg_wall_s": 482.1
+  }
+ ],
+ "total_wall_s": 220.5,
+ "built": "2026-09-24 07:04:03"
+}

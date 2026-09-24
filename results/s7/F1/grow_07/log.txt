@@ -1,0 +1,7 @@
+[22:05:02] start c02: 10 flybys, tank 634 kg
+[22:05:30] round 1: 22/22 ok, singles 2 2 2 3 5 11 kg; +[84, 91, 187] -> 13 flybys, tank 644 kg (+10), 0.207 km/s/fb  (27 s)
+[22:05:52] round 2: 16/16 ok, singles 3 4 12 18 24 25 kg; +[300, 70, 148] -> 16 flybys, tank 673 kg (+28), 0.274 km/s/fb  (50 s)
+[22:06:17] round 3: 13/13 ok, singles 8 18 24 25 33 45 kg; +[80, 110, 170] -> 19 flybys, tank 744 kg (+72), 0.440 km/s/fb  (75 s)
+[22:06:43] round 4: 8/10 ok, singles 16 18 63 64 81 108 kg; +[88] -> 20 flybys, tank 761 kg (+16), 0.461 km/s/fb  (100 s)
+[22:07:00] round 5: 7 of 9 trials ok, none under 1100 kg / +45 kg
+[22:07:00] done: 20 flybys, tank 761 kg, J_i 1.128

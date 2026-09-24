@@ -1,0 +1,530 @@
+{
+ "n_samples": 1225,
+ "n_settled": 572,
+ "settle_rate": 0.4669,
+ "what": "real post-settle tank increase from inserting ONE target into a finished impulsive route (run_ialns.w_insert = globalopt.insert_homotopy + full restore/optimise/restore)",
+ "features": {
+  "d_au": "closest approach of the target to the host trajectory [AU] (run_ialns.w_cands)",
+  "depth": "flybys already on the host route",
+  "tank": "host tank [kg] before the insertion",
+  "margin_d": "days from the insertion epoch to the host's nearest existing flyby",
+  "local_n": "(variant) host flybys within +-200 d of the insertion epoch"
+ },
+ "cost": {
+  "A": 7.69179741976575e-21,
+  "B": 1202.6652621271674,
+  "N": 1.1279922536728995,
+  "P_tank": -0.12355730102565297,
+  "Q_depth": 0.9544015330011799,
+  "S_margin": 0.7437029811545806,
+  "formula": "kg = (0.0000 + 1202.6653*d**1.1280) * (tank/900.0)**-0.1236 * (depth/30.0)**0.9544 * (max(margin_d,3.0)/60.0)**-0.7437",
+  "r2_log": 0.6507,
+  "median_abs_error_kg": 18.45,
+  "mean_abs_error_kg": 33.52,
+  "p90_abs_error_kg": 82.0,
+  "median_rel_error": 0.494,
+  "min_kg_floor": 1.0,
+  "baseline_constant_median_abs_error_kg": 35.21,
+  "distance_only_r2_log": 0.3158,
+  "distance_only_median_abs_error_kg": 27.79,
+  "cv_median_abs_error_kg": 18.75,
+  "cv_r2_log": 0.6397
+ },
+ "cost_local_variant": {
+  "A": 2.6966325378543106e-14,
+  "B": 2358.1474681783347,
+  "N": 1.1469720066530482,
+  "P_tank": 1.1952050044379914,
+  "Q_local": 0.5871251213621593,
+  "S_margin": 0.6900250155247,
+  "formula": "kg = (0.0000 + 2358.1475*d**1.1470) * (tank/900.0)**1.1952 * (local_n/6.0)**0.5871 * (max(margin_d,3.0)/60.0)**-0.6900",
+  "r2_log": 0.6568,
+  "median_abs_error_kg": 19.63,
+  "local_ref": 6.0
+ },
+ "success": {
+  "w": [
+   -2.433267809412306,
+   -14.287984546527428,
+   -0.5411887832926665,
+   -1.7914507590633195,
+   4.298133280800367
+  ],
+  "formula": "p_ok = 1/(1+exp(-(-2.4333*1 + -14.2880*d + -0.5412*depth/10 + -1.7915*tank/1000 + 4.2981*log10(max(margin_d,1)))))",
+  "accuracy": 0.8294,
+  "brier": 0.1208,
+  "base_rate": 0.4669,
+  "terms": [
+   "1",
+   "d",
+   "depth/10",
+   "tank/1000",
+   "log10(max(margin_d,1))"
+  ],
+  "note": "every observed failure was an aim-point HOMOTOPY divergence (miss > 1e4 km); no insertion that reached the settle stage failed to settle",
+  "p_ok_along_ridge_d005": {
+   "12": 0.937,
+   "20": 0.886,
+   "30": 0.777,
+   "40": 0.609,
+   "46": 0.49
+  }
+ },
+ "depth_effect": {
+  "size_exponent_G": 0.9066027976779216,
+  "beta_dlogtank_dlogdepth": 0.3868548028038777,
+  "exponent_Q_at_fixed_tank": 0.9544015330011799,
+  "exponent_P_tank": -0.12355730102565297,
+  "ridge_tank_per_flyby": 14.758863365436454,
+  "ridge_tank_intercept": 462.4340059696225,
+  "ridge_cost_multiplier": {
+   "10->20": 1.875,
+   "15->30": 1.875,
+   "20->40": 1.875,
+   "30->45": 1.444,
+   "10->45": 3.91
+  },
+  "per_10_flybys": 1.369,
+  "median_kg_by_depth": {
+   "0-20": {
+    "n": 224,
+    "median_kg": 20.2
+   },
+   "20-30": {
+    "n": 150,
+    "median_kg": 43.1
+   },
+   "30-38": {
+    "n": 175,
+    "median_kg": 86.3
+   },
+   "38-60": {
+    "n": 23,
+    "median_kg": 84.0
+   }
+  },
+  "p_ok_by_depth": {
+   "0-20": {
+    "n": 302,
+    "p_ok": 0.742
+   },
+   "20-30": {
+    "n": 252,
+    "p_ok": 0.595
+   },
+   "30-38": {
+    "n": 562,
+    "p_ok": 0.311
+   },
+   "38-60": {
+    "n": 109,
+    "p_ok": 0.211
+   }
+  }
+ },
+ "freedom_premium": {
+  "breakeven_dJ_per_flyby": 0.0369,
+  "by_depth": {
+   "0-20": {
+    "n": 224,
+    "median_dJ": 0.016,
+    "frac_settled_under_breakeven": 0.714,
+    "frac_attempts_under_breakeven": 0.53,
+    "p_settle": 0.742
+   },
+   "20-30": {
+    "n": 150,
+    "median_dJ": 0.0387,
+    "frac_settled_under_breakeven": 0.48,
+    "frac_attempts_under_breakeven": 0.286,
+    "p_settle": 0.595
+   },
+   "30-38": {
+    "n": 175,
+    "median_dJ": 0.0971,
+    "frac_settled_under_breakeven": 0.189,
+    "frac_attempts_under_breakeven": 0.059,
+    "p_settle": 0.311
+   },
+   "38-60": {
+    "n": 23,
+    "median_dJ": 0.0974,
+    "frac_settled_under_breakeven": 0.043,
+    "frac_attempts_under_breakeven": 0.009,
+    "p_settle": 0.211
+   }
+  },
+  "median_dJ_all": 0.0411,
+  "note": "a target a route CHOOSES costs ~0.033-0.037 J; this table is what a target FORCED onto a finished route costs, by host depth"
+ },
+ "table_cost": {
+  "by_distance": {
+   "0.00-0.03": {
+    "n": 102,
+    "median_kg": 6.1,
+    "p25": 1.6,
+    "p75": 19.1,
+    "p90": 82.8
+   },
+   "0.03-0.06": {
+    "n": 166,
+    "median_kg": 35.3,
+    "p25": 16.4,
+    "p75": 65.6,
+    "p90": 104.9
+   },
+   "0.06-0.10": {
+    "n": 97,
+    "median_kg": 52.5,
+    "p25": 29.2,
+    "p75": 111.9,
+    "p90": 146.5
+   },
+   "0.10-0.15": {
+    "n": 85,
+    "median_kg": 74.1,
+    "p25": 25.4,
+    "p75": 132.1,
+    "p90": 203.4
+   },
+   "0.15-0.22": {
+    "n": 54,
+    "median_kg": 91.0,
+    "p25": 40.4,
+    "p75": 130.5,
+    "p90": 195.4
+   },
+   "0.22-0.35": {
+    "n": 68,
+    "median_kg": 93.6,
+    "p25": 48.5,
+    "p75": 176.9,
+    "p90": 255.4
+   }
+  },
+  "by_distance_depth": {
+   "0.00-0.03|0-20": {
+    "n": 48,
+    "median_kg": 3.8,
+    "p25": 1.0,
+    "p75": 7.9
+   },
+   "0.00-0.03|20-30": {
+    "n": 29,
+    "median_kg": 4.2,
+    "p25": 1.7,
+    "p75": 9.9
+   },
+   "0.00-0.03|30-38": {
+    "n": 21,
+    "median_kg": 42.9,
+    "p25": 17.2,
+    "p75": 102.2
+   },
+   "0.00-0.03|38-60": {
+    "n": 4,
+    "median_kg": 84.3,
+    "p25": 73.2,
+    "p75": 87.0
+   },
+   "0.03-0.06|0-20": {
+    "n": 49,
+    "median_kg": 15.4,
+    "p25": 7.0,
+    "p75": 23.9
+   },
+   "0.03-0.06|20-30": {
+    "n": 41,
+    "median_kg": 25.8,
+    "p25": 13.3,
+    "p75": 51.5
+   },
+   "0.03-0.06|30-38": {
+    "n": 66,
+    "median_kg": 65.2,
+    "p25": 40.2,
+    "p75": 97.7
+   },
+   "0.03-0.06|38-60": {
+    "n": 10,
+    "median_kg": 64.3,
+    "p25": 48.6,
+    "p75": 93.4
+   },
+   "0.06-0.10|0-20": {
+    "n": 42,
+    "median_kg": 36.0,
+    "p25": 13.0,
+    "p75": 64.7
+   },
+   "0.06-0.10|20-30": {
+    "n": 24,
+    "median_kg": 56.8,
+    "p25": 41.0,
+    "p75": 74.0
+   },
+   "0.06-0.10|30-38": {
+    "n": 27,
+    "median_kg": 111.9,
+    "p25": 47.7,
+    "p75": 155.1
+   },
+   "0.06-0.10|38-60": {
+    "n": 4,
+    "median_kg": 82.7,
+    "p25": 67.5,
+    "p75": 95.6
+   },
+   "0.10-0.15|0-20": {
+    "n": 27,
+    "median_kg": 22.1,
+    "p25": 12.1,
+    "p75": 48.0
+   },
+   "0.10-0.15|20-30": {
+    "n": 22,
+    "median_kg": 90.7,
+    "p25": 41.5,
+    "p75": 109.9
+   },
+   "0.10-0.15|30-38": {
+    "n": 33,
+    "median_kg": 118.5,
+    "p25": 75.8,
+    "p75": 181.0
+   },
+   "0.10-0.15|38-60": {
+    "n": 3,
+    "median_kg": 186.0,
+    "p25": 120.4,
+    "p75": 195.6
+   },
+   "0.15-0.22|0-20": {
+    "n": 21,
+    "median_kg": 43.9,
+    "p25": 21.8,
+    "p75": 97.7
+   },
+   "0.15-0.22|20-30": {
+    "n": 15,
+    "median_kg": 87.7,
+    "p25": 45.3,
+    "p75": 132.1
+   },
+   "0.15-0.22|30-38": {
+    "n": 16,
+    "median_kg": 108.3,
+    "p25": 90.4,
+    "p75": 141.7
+   },
+   "0.15-0.22|38-60": {
+    "n": 2,
+    "median_kg": 169.9,
+    "p25": 153.7,
+    "p75": 186.2
+   },
+   "0.22-0.35|0-20": {
+    "n": 37,
+    "median_kg": 74.9,
+    "p25": 36.5,
+    "p75": 122.1
+   },
+   "0.22-0.35|20-30": {
+    "n": 19,
+    "median_kg": 159.1,
+    "p25": 64.7,
+    "p75": 241.8
+   },
+   "0.22-0.35|30-38": {
+    "n": 12,
+    "median_kg": 143.9,
+    "p25": 87.8,
+    "p75": 191.6
+   }
+  }
+ },
+ "table_success": {
+  "by_distance": {
+   "0.00-0.03": {
+    "n": 143,
+    "p_ok": 0.713
+   },
+   "0.03-0.06": {
+    "n": 257,
+    "p_ok": 0.646
+   },
+   "0.06-0.10": {
+    "n": 201,
+    "p_ok": 0.483
+   },
+   "0.10-0.15": {
+    "n": 199,
+    "p_ok": 0.427
+   },
+   "0.15-0.22": {
+    "n": 180,
+    "p_ok": 0.3
+   },
+   "0.22-0.35": {
+    "n": 245,
+    "p_ok": 0.278
+   }
+  },
+  "by_distance_depth": {
+   "0.00-0.03|0-20": {
+    "n": 49,
+    "p_ok": 0.98
+   },
+   "0.00-0.03|20-30": {
+    "n": 33,
+    "p_ok": 0.879
+   },
+   "0.00-0.03|30-38": {
+    "n": 50,
+    "p_ok": 0.42
+   },
+   "0.00-0.03|38-60": {
+    "n": 11,
+    "p_ok": 0.364
+   },
+   "0.03-0.06|0-20": {
+    "n": 58,
+    "p_ok": 0.845
+   },
+   "0.03-0.06|20-30": {
+    "n": 54,
+    "p_ok": 0.759
+   },
+   "0.03-0.06|30-38": {
+    "n": 122,
+    "p_ok": 0.541
+   },
+   "0.03-0.06|38-60": {
+    "n": 23,
+    "p_ok": 0.435
+   },
+   "0.06-0.10|0-20": {
+    "n": 51,
+    "p_ok": 0.824
+   },
+   "0.06-0.10|20-30": {
+    "n": 41,
+    "p_ok": 0.585
+   },
+   "0.06-0.10|30-38": {
+    "n": 93,
+    "p_ok": 0.29
+   },
+   "0.06-0.10|38-60": {
+    "n": 16,
+    "p_ok": 0.25
+   },
+   "0.10-0.15|0-20": {
+    "n": 43,
+    "p_ok": 0.628
+   },
+   "0.10-0.15|20-30": {
+    "n": 42,
+    "p_ok": 0.524
+   },
+   "0.10-0.15|30-38": {
+    "n": 94,
+    "p_ok": 0.351
+   },
+   "0.10-0.15|38-60": {
+    "n": 20,
+    "p_ok": 0.15
+   },
+   "0.15-0.22|0-20": {
+    "n": 42,
+    "p_ok": 0.5
+   },
+   "0.15-0.22|20-30": {
+    "n": 33,
+    "p_ok": 0.455
+   },
+   "0.15-0.22|30-38": {
+    "n": 90,
+    "p_ok": 0.178
+   },
+   "0.15-0.22|38-60": {
+    "n": 15,
+    "p_ok": 0.133
+   },
+   "0.22-0.35|0-20": {
+    "n": 59,
+    "p_ok": 0.627
+   },
+   "0.22-0.35|20-30": {
+    "n": 49,
+    "p_ok": 0.388
+   },
+   "0.22-0.35|30-38": {
+    "n": 113,
+    "p_ok": 0.106
+   },
+   "0.22-0.35|38-60": {
+    "n": 24,
+    "p_ok": 0.0
+   }
+  }
+ },
+ "diagnostics": {
+  "d": {
+   "pearson_log_kg": 0.562,
+   "spearman_log_kg": 0.529
+  },
+  "dep": {
+   "pearson_log_kg": 0.394,
+   "spearman_log_kg": 0.449
+  },
+  "tk": {
+   "pearson_log_kg": 0.347,
+   "spearman_log_kg": 0.378
+  },
+  "mg": {
+   "pearson_log_kg": -0.338,
+   "spearman_log_kg": -0.378
+  },
+  "loc": {
+   "pearson_log_kg": 0.347,
+   "spearman_log_kg": 0.377
+  },
+  "gap": {
+   "pearson_log_kg": -0.358,
+   "spearman_log_kg": -0.42
+  },
+  "corr_depth_tank": 0.913,
+  "corr_depth_local": 0.583
+ },
+ "data": {
+  "dist_range": [
+   0.0041,
+   0.3478
+  ],
+  "depth_range": [
+   10,
+   48
+  ],
+  "tank_range": [
+   621.6,
+   1143.2
+  ],
+  "margin_range": [
+   3.0,
+   723.7
+  ],
+  "n_hosts": 55,
+  "host_dirs": [
+   "results/n8s6/H2",
+   "results/s7/F1/fleet",
+   "results/s7/base8",
+   "results/s7/deep1/fleet",
+   "results/s7/farmO",
+   "results/s8/J9base"
+  ],
+  "sources": [
+   "results/s10/insert/samples.jsonl"
+  ]
+ }
+}

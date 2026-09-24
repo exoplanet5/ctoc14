@@ -1,0 +1,29 @@
+targets (6): [15, 131, 137, 138, 144, 216]
+params: margin=0.0 kg eta=0.6 tstep=1.0 d delta=+-10.0 d step 2.5 d tof_min=15.0 d launch_gap=True u_max=1.0 grow_m0=False
+
+reconstruction check (dv vs stored dv_est):
+  tour_sc1     m0= 2000.0 n=49 fuel= 1383.7 kg (est  1383.7) max|ddv|=7.6e-11 km/s min_slack=+0.077 feasible=True budget(margin)=  +16.3 kg already_has=[]
+  tour_sc2     m0= 2000.0 n=48 fuel= 1396.2 kg (est  1396.2) max|ddv|=1.1e-14 km/s min_slack=+0.014 feasible=True budget(margin)=   +3.8 kg already_has=[]
+  tour_sc3     m0= 2000.0 n=44 fuel= 1347.6 kg (est  1347.6) max|ddv|=2.0e-14 km/s min_slack=+0.200 feasible=True budget(margin)=  +52.4 kg already_has=[]
+  tour_sc4     m0= 2000.0 n=39 fuel= 1364.8 kg (est  1364.8) max|ddv|=1.5e-14 km/s min_slack=+0.023 feasible=True budget(margin)=  +35.2 kg already_has=[]
+  tour_sc5     m0= 2000.0 n=36 fuel= 1373.1 kg (est  1373.1) max|ddv|=1.0e-14 km/s min_slack=+0.179 feasible=True budget(margin)=  +26.9 kg already_has=[]
+  tour_sc6     m0= 2000.0 n=29 fuel= 1377.0 kg (est  1377.0) max|ddv|=2.7e-10 km/s min_slack=+0.154 feasible=True budget(margin)=  +23.0 kg already_has=[]
+  tour_sc7     m0= 2000.0 n=25 fuel= 1397.7 kg (est  1397.7) max|ddv|=2.5e-11 km/s min_slack=+0.178 feasible=True budget(margin)=   +2.3 kg already_has=[15, 216]
+  tour_sc8     m0= 2000.0 n=19 fuel= 1363.5 kg (est  1363.5) max|ddv|=0.0e+00 km/s min_slack=+0.158 feasible=True budget(margin)=  +36.5 kg already_has=[]
+  tour_sc9     m0= 1000.0 n= 6 fuel=  342.1 kg (est   342.1) max|ddv|=7.0e-13 km/s min_slack=+4.356 feasible=True budget(margin)=  +57.9 kg already_has=[]
+  tour_sc10    m0=  850.0 n= 2 fuel=  159.6 kg (est   159.6) max|ddv|=0.0e+00 km/s min_slack=+2.128 feasible=True budget(margin)=  +90.4 kg already_has=[137, 138]
+skipping unreachable targets [131, 144]
+insert  137 into tour_sc4 after 300 before 274 at t= 4357.0 d delta= -5.0 d: extra  30.26 kg (dv 0.81/0.24/1.79 km/s, u=0.87); budget left     5.0 kg
+
+insertion finished in 13 s: 1 inserted, 3 remaining [15, 138, 216]
+
+inserted:
+  target tour          pos  after before   t_j[d]  delta[d]  extra[kg]   dvA   dvB   dvC   u   budget_after   m0    dJ
+    137  tour_sc4      30    300   274    4357.0    -5.0     30.26   0.81  0.24  1.79  0.87        5.0   2000.0  0.000
+
+remaining targets: cheapest leg-feasible candidate per tour ignoring the budget (extra kg needed vs budget):
+    15: tour_sc8 159.7 kg (budget +36.5) after 77 at 5262 d d=+0.0 dv 9.15/nan/0.00 u=0.80; tour_sc1 -- (no feasible detour); tour_sc2 -- (no feasible detour); tour_sc3 -- (no feasible detour)
+   138: tour_sc1 -- (no feasible detour); tour_sc2 -- (no feasible detour); tour_sc3 -- (no feasible detour); tour_sc4 -- (no feasible detour)
+   216: tour_sc1 -- (no feasible detour); tour_sc2 -- (no feasible detour); tour_sc3 -- (no feasible detour); tour_sc4 -- (no feasible detour)
+
+wrote 10 tours to results/insertion/test1_m0; sum J_i of these tours = 26.578; report results/insertion/test1_m0/insertion_test1_m0.json

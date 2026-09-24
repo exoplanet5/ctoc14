@@ -1,0 +1,7 @@
+[20:51:22] s13_master: 2001 route files from ['results/s12/cover_clean/fleet/route_*.npz', 'results/newgen/**/route_*.npz', 'results/s13/**/route_*.npz', 'results/s14/**/route_*.npz', 'results/s15/cols/**/route_*.npz'] (excluded ['*/relocated/*']); N 9; budgets -
+[20:51:45] 1245 distinct columns (load: {'ok': 2001}); depth 48..1; union covers 298 of 298
+[20:51:45] --- N <= 9
+[20:51:46]   LP value (sum y <= 9): J >= 13.9780
+[20:56:59]   MILP N<=9: Optimization terminated successfully. (H: 9 craft, 290 covered, sum J_i 11.7045, J 21.7045 (incl. 2 permanent misses)
+[20:56:59]   s13_master N<=9: saved 9 routes -> /Users/mickey/solarsystem/ctoc14/results/s15/master/r01_t3600/N9/fleet; covered 290, sum J_i 11.7045, J 21.7045; depths [46, 46, 44, 35, 32, 30, 22, 18, 17]
+[20:56:59] master done (336.8 s) -> /Users/mickey/solarsystem/ctoc14/results/s15/master/r01_t3600/master.json

@@ -1,0 +1,654 @@
+{
+ "mode": "guided",
+ "route": "09",
+ "L": 3,
+ "legs": 23,
+ "src_tank": 876.52,
+ "fails": [],
+ "skipped": [],
+ "planned_n": 24,
+ "planned_tank": 962.98,
+ "planned_miss": 37.7,
+ "wall_s": 1.2,
+ "steps": [
+  {
+   "k": 0,
+   "ast": 152,
+   "vinf": 1.806,
+   "miss": 0.0
+  },
+  {
+   "k": 1,
+   "ast": 16,
+   "t_src_d": 753.6,
+   "t_prev_d": 713.9,
+   "price_src": 0.4637,
+   "coast_au": 0.0253,
+   "price_best": 0.4335,
+   "best_dt_d": -2.5,
+   "used": "best",
+   "marg_ref": 0.4333,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 465534.869,
+     "miss": 0.0777,
+     "it": 2,
+     "marg": 0.4335,
+     "marg_ref": 0.4333,
+     "gain_opt": 0.0
+    }
+   ],
+   "tank": 608.18,
+   "miss_max": 0.1,
+   "wall_s": 0.03
+  },
+  {
+   "k": 2,
+   "ast": 289,
+   "t_src_d": 887.7,
+   "t_prev_d": 751.1,
+   "price_src": 1.1816,
+   "coast_au": 0.1493,
+   "price_best": 0.9737,
+   "best_dt_d": 5.0,
+   "used": "best",
+   "marg_ref": 0.9692,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 1046232.067,
+     "miss": 0.1864,
+     "it": 2,
+     "marg": 0.9737,
+     "marg_ref": 0.9692,
+     "gain_opt": 0.0
+    }
+   ],
+   "tank": 623.4,
+   "miss_max": 0.2,
+   "wall_s": 0.04
+  },
+  {
+   "k": 3,
+   "ast": 12,
+   "t_src_d": 1153.1,
+   "t_prev_d": 892.1,
+   "price_src": 0.6444,
+   "coast_au": 0.3178,
+   "price_best": 0.4498,
+   "best_dt_d": -15.0,
+   "used": "best",
+   "marg_ref": 0.3558,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 3175472.3271,
+     "miss": 6.0009,
+     "it": 2,
+     "marg": 0.4498,
+     "marg_ref": 0.3558,
+     "gain_opt": 0.0
+    }
+   ],
+   "tank": 629.08,
+   "miss_max": 6.0,
+   "wall_s": 0.03
+  },
+  {
+   "k": 4,
+   "ast": 141,
+   "t_src_d": 1253.9,
+   "t_prev_d": 1137.8,
+   "price_src": 0.446,
+   "coast_au": 0.1579,
+   "price_best": 0.2671,
+   "best_dt_d": -2.5,
+   "used": "best",
+   "marg_ref": 0.7335,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 4324322.4836,
+     "miss": 16.6556,
+     "it": 3,
+     "marg": 0.2671,
+     "marg_ref": 0.7335,
+     "gain_opt": 0.0
+    }
+   ],
+   "tank": 640.95,
+   "miss_max": 16.7,
+   "wall_s": 0.05
+  },
+  {
+   "k": 5,
+   "ast": 175,
+   "t_src_d": 1625.7,
+   "t_prev_d": 1255.5,
+   "price_src": 2.2979,
+   "coast_au": 0.6464,
+   "price_best": 2.2616,
+   "best_dt_d": -2.5,
+   "used": "best",
+   "marg_ref": 2.5803,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 54738933.8589,
+     "miss": 3.3211,
+     "it": 4,
+     "marg": 2.2616,
+     "marg_ref": 2.5803,
+     "gain_opt": 0.0
+    }
+   ],
+   "tank": 684.53,
+   "miss_max": 3.3,
+   "wall_s": 0.18
+  },
+  {
+   "k": 6,
+   "ast": 208,
+   "t_src_d": 2019.6,
+   "t_prev_d": 1628.5,
+   "price_src": -0.1515,
+   "coast_au": 0.5375,
+   "price_best": -0.1651,
+   "best_dt_d": 2.5,
+   "used": "best",
+   "marg_ref": -0.2631,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 38077884.2509,
+     "miss": 9.0289,
+     "it": 3,
+     "marg": -0.1651,
+     "marg_ref": -0.2631,
+     "gain_opt": 0.0
+    }
+   ],
+   "tank": 679.95,
+   "miss_max": 9.0,
+   "wall_s": 0.06
+  },
+  {
+   "k": 7,
+   "ast": 149,
+   "t_src_d": 2259.3,
+   "t_prev_d": 2015.6,
+   "price_src": 0.1141,
+   "coast_au": 0.1213,
+   "price_best": -0.135,
+   "best_dt_d": 7.5,
+   "used": "best",
+   "marg_ref": -0.1406,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 1475367.7315,
+     "miss": 0.0005,
+     "it": 4,
+     "marg": -0.135,
+     "marg_ref": -0.1406,
+     "gain_opt": 0.0044
+    }
+   ],
+   "tank": 677.52,
+   "miss_max": 0.3,
+   "wall_s": 0.11
+  },
+  {
+   "k": 8,
+   "ast": 107,
+   "t_src_d": 2355.5,
+   "t_prev_d": 2266.3,
+   "price_src": 1.2333,
+   "coast_au": 0.1805,
+   "price_best": 1.2333,
+   "best_dt_d": 0.0,
+   "used": "best",
+   "marg_ref": 1.2552,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 2076287.4203,
+     "miss": 65.3159,
+     "it": 3,
+     "marg": 1.2333,
+     "marg_ref": 1.2552,
+     "gain_opt": 0.027
+    }
+   ],
+   "tank": 699.55,
+   "miss_max": 65.3,
+   "wall_s": 0.06
+  },
+  {
+   "k": 9,
+   "ast": 224,
+   "t_src_d": 2463.2,
+   "t_prev_d": 2357.2,
+   "price_src": 0.3864,
+   "coast_au": 0.0419,
+   "price_best": 0.0678,
+   "best_dt_d": 2.5,
+   "used": "best",
+   "marg_ref": 0.0498,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 88026.4624,
+     "miss": 0.0003,
+     "it": 3,
+     "marg": 0.0678,
+     "marg_ref": 0.0498,
+     "gain_opt": 0.0189
+    }
+   ],
+   "tank": 700.44,
+   "miss_max": 37.7,
+   "wall_s": 0.04
+  },
+  {
+   "k": 10,
+   "ast": 85,
+   "t_src_d": 2519.0,
+   "t_prev_d": 2465.9,
+   "price_src": 0.4278,
+   "coast_au": 0.0418,
+   "price_best": 0.4278,
+   "best_dt_d": 0.0,
+   "used": "best",
+   "marg_ref": 0.3709,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 109518.4733,
+     "miss": 12.4852,
+     "it": 3,
+     "marg": 0.4278,
+     "marg_ref": 0.3709,
+     "gain_opt": 0.046
+    }
+   ],
+   "tank": 707.09,
+   "miss_max": 37.7,
+   "wall_s": 0.02
+  },
+  {
+   "k": 11,
+   "ast": 7,
+   "t_src_d": 2795.0,
+   "t_prev_d": 2519.1,
+   "price_src": 3.1994,
+   "coast_au": 0.4522,
+   "price_best": 3.1322,
+   "best_dt_d": 2.5,
+   "used": "best",
+   "marg_ref": 2.0969,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 13402152.1281,
+     "miss": 0.001,
+     "it": 5,
+     "marg": 3.1322,
+     "marg_ref": 2.0969,
+     "gain_opt": 0.1964
+    }
+   ],
+   "tank": 745.92,
+   "miss_max": 37.7,
+   "wall_s": 0.04
+  },
+  {
+   "k": 12,
+   "ast": 250,
+   "t_src_d": 2907.0,
+   "t_prev_d": 2797.2,
+   "price_src": 0.6517,
+   "coast_au": 0.0607,
+   "price_best": 0.6517,
+   "best_dt_d": 0.0,
+   "used": "best",
+   "marg_ref": 0.5824,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 2479506.9442,
+     "miss": 0.0004,
+     "it": 4,
+     "marg": 0.6517,
+     "marg_ref": 0.5824,
+     "gain_opt": 0.0342
+    }
+   ],
+   "tank": 757.08,
+   "miss_max": 37.7,
+   "wall_s": 0.04
+  },
+  {
+   "k": 13,
+   "ast": 75,
+   "t_src_d": 3058.5,
+   "t_prev_d": 2907.0,
+   "price_src": 0.3856,
+   "coast_au": 0.0539,
+   "price_best": 0.2766,
+   "best_dt_d": -2.5,
+   "used": "best",
+   "marg_ref": 0.2537,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 384486.1614,
+     "miss": 0.0001,
+     "it": 4,
+     "marg": 0.2766,
+     "marg_ref": 0.2537,
+     "gain_opt": 0.0294
+    }
+   ],
+   "tank": 761.99,
+   "miss_max": 37.7,
+   "wall_s": 0.05
+  },
+  {
+   "k": 14,
+   "ast": 117,
+   "t_src_d": 3237.1,
+   "t_prev_d": 3056.0,
+   "price_src": 0.714,
+   "coast_au": 0.2089,
+   "price_best": 0.3249,
+   "best_dt_d": 2.5,
+   "used": "best",
+   "marg_ref": 0.4737,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 2551008.6977,
+     "miss": 0.0004,
+     "it": 4,
+     "marg": 0.3249,
+     "marg_ref": 0.4737,
+     "gain_opt": 0.0473
+    }
+   ],
+   "tank": 771.25,
+   "miss_max": 37.7,
+   "wall_s": 0.04
+  },
+  {
+   "k": 15,
+   "ast": 171,
+   "t_src_d": 3486.2,
+   "t_prev_d": 3239.1,
+   "price_src": 0.9938,
+   "coast_au": 0.0612,
+   "price_best": 0.4561,
+   "best_dt_d": -5.0,
+   "used": "best",
+   "marg_ref": 0.4453,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 61461.6196,
+     "miss": 0.0,
+     "it": 2,
+     "marg": 0.4561,
+     "marg_ref": 0.4453,
+     "gain_opt": 0.0042
+    }
+   ],
+   "tank": 780.05,
+   "miss_max": 37.7,
+   "wall_s": 0.04
+  },
+  {
+   "k": 16,
+   "ast": 34,
+   "t_src_d": 3536.8,
+   "t_prev_d": 3481.2,
+   "price_src": 1.5686,
+   "coast_au": 0.1217,
+   "price_best": 1.5204,
+   "best_dt_d": -2.5,
+   "used": "best",
+   "marg_ref": 1.6114,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 1702950.6383,
+     "miss": 0.0004,
+     "it": 4,
+     "marg": 1.5204,
+     "marg_ref": 1.6114,
+     "gain_opt": 0.0194
+    }
+   ],
+   "tank": 812.76,
+   "miss_max": 37.7,
+   "wall_s": 0.05
+  },
+  {
+   "k": 17,
+   "ast": 240,
+   "t_src_d": 3850.9,
+   "t_prev_d": 3533.9,
+   "price_src": 0.5251,
+   "coast_au": 0.0723,
+   "price_best": 0.5251,
+   "best_dt_d": 0.0,
+   "used": "best",
+   "marg_ref": 0.5299,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 745407.9742,
+     "miss": 20.7915,
+     "it": 3,
+     "marg": 0.5251,
+     "marg_ref": 0.5299,
+     "gain_opt": 0.0138
+    }
+   ],
+   "tank": 823.82,
+   "miss_max": 37.7,
+   "wall_s": 0.04
+  },
+  {
+   "k": 18,
+   "ast": 83,
+   "t_src_d": 4024.7,
+   "t_prev_d": 3850.8,
+   "price_src": 1.1984,
+   "coast_au": 0.2192,
+   "price_best": 1.184,
+   "best_dt_d": 2.5,
+   "used": "best",
+   "marg_ref": 0.8454,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 3302859.6085,
+     "miss": 0.0008,
+     "it": 4,
+     "marg": 1.184,
+     "marg_ref": 0.8454,
+     "gain_opt": 0.0993
+    }
+   ],
+   "tank": 841.76,
+   "miss_max": 37.7,
+   "wall_s": 0.05
+  },
+  {
+   "k": 19,
+   "ast": 134,
+   "t_src_d": 4405.9,
+   "t_prev_d": 4026.7,
+   "price_src": 1.2154,
+   "coast_au": 0.1799,
+   "price_best": 0.3108,
+   "best_dt_d": -5.0,
+   "used": "best",
+   "marg_ref": 0.4139,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 1997942.6648,
+     "miss": 4.5677,
+     "it": 2,
+     "marg": 0.3108,
+     "marg_ref": 0.4139,
+     "gain_opt": 0.0
+    }
+   ],
+   "tank": 850.69,
+   "miss_max": 37.7,
+   "wall_s": 0.05
+  },
+  {
+   "k": 20,
+   "ast": 120,
+   "t_src_d": 4602.7,
+   "t_prev_d": 4401.0,
+   "price_src": 2.6493,
+   "coast_au": 0.513,
+   "price_best": 2.1229,
+   "best_dt_d": 10.0,
+   "used": "best",
+   "marg_ref": 2.852,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 17289688.0811,
+     "miss": 0.0014,
+     "it": 5,
+     "marg": 2.1229,
+     "marg_ref": 2.852,
+     "gain_opt": 0.0481
+    }
+   ],
+   "tank": 914.85,
+   "miss_max": 37.7,
+   "wall_s": 0.08
+  },
+  {
+   "k": 21,
+   "ast": 130,
+   "t_src_d": 4896.1,
+   "t_prev_d": 4601.4,
+   "price_src": 0.6389,
+   "coast_au": 0.0971,
+   "price_best": -0.0052,
+   "best_dt_d": -10.0,
+   "used": "best",
+   "marg_ref": 0.0514,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 1241021.2235,
+     "miss": 1.5633,
+     "it": 2,
+     "marg": -0.0052,
+     "marg_ref": 0.0514,
+     "gain_opt": 0.0
+    }
+   ],
+   "tank": 916.05,
+   "miss_max": 37.7,
+   "wall_s": 0.04
+  },
+  {
+   "k": 22,
+   "ast": 254,
+   "t_src_d": 5232.4,
+   "t_prev_d": 4886.3,
+   "price_src": 1.7241,
+   "coast_au": 0.1004,
+   "price_best": 1.4344,
+   "best_dt_d": -7.5,
+   "used": "best",
+   "marg_ref": 1.3462,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 2848075.795,
+     "miss": 0.0005,
+     "it": 4,
+     "marg": 1.4344,
+     "marg_ref": 1.3462,
+     "gain_opt": 0.037
+    }
+   ],
+   "tank": 948.03,
+   "miss_max": 37.7,
+   "wall_s": 0.05
+  },
+  {
+   "k": 23,
+   "ast": 27,
+   "t_src_d": 5360.0,
+   "t_prev_d": 5225.2,
+   "price_src": 0.6086,
+   "coast_au": 0.0793,
+   "price_best": 0.6086,
+   "best_dt_d": 0.0,
+   "used": "best",
+   "marg_ref": 0.6139,
+   "refine": [
+    {
+     "at": "best",
+     "ok": true,
+     "miss0": 637977.7497,
+     "miss": 0.0,
+     "it": 4,
+     "marg": 0.6086,
+     "marg_ref": 0.6139,
+     "gain_opt": 0.0141
+    }
+   ],
+   "tank": 962.98,
+   "miss_max": 37.7,
+   "wall_s": 0.05
+  }
+ ],
+ "adm_src_1.2": 16,
+ "adm_best_1.2": 17,
+ "adm_src_2.0": 20,
+ "adm_best_2.0": 20,
+ "adm_src_3.0": 22,
+ "adm_best_3.0": 22,
+ "settle": {
+  "ok": true,
+  "miss": 55.8,
+  "tank": 904.48,
+  "dt_s": 7.4
+ }
+}

@@ -1,0 +1,4 @@
+[21:08:48]     absorb[route_C03h5s1_30+[]]: 4 approaches of [53, 218, 254, 288]; lintwin 254@3702d 0.035AU 0kg, 288@2751d 0.076AU 68kg, 218@3680d 0.086AU 282kg, 53@1559d 0.167AU 1954kg
+[21:09:03]     absorb[route_C03h5s1_30+[]]: insert 254 at 3702 d (lintwin 0 kg) -> fail 345308.27052421536 (15 s)
+[21:09:20]     absorb[route_C03h5s1_30+[]]: insert 288 at 2751 d (lintwin 68 kg) -> fail 7846230.0256336015 (17 s)
+[21:09:20] close C03h5_s1 done: 0 columns (33 s)

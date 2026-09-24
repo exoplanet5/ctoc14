@@ -1,0 +1,51 @@
+{
+ "job": {
+  "pool": null,
+  "S": [],
+  "p": 0.01,
+  "seed": 0,
+  "beam": 100,
+  "member": "H",
+  "dvS": 2.0,
+  "jit": 0.001,
+  "front": 24,
+  "cap": 1100.0,
+  "save_cap": 1300.0,
+  "max_settles": 10,
+  "ok_target": 6,
+  "dense": 3,
+  "stride": 3,
+  "repair": true,
+  "repair_settles": 5,
+  "absorb": null,
+  "absorb_hosts": 2,
+  "absorb_trials": 4,
+  "absorb_dmax": 0.2,
+  "absorb_kg": 80.0,
+  "settle_timeout": 240.0,
+  "kappa": 90.0,
+  "wall_budget": 1500.0,
+  "kind": "grow",
+  "tag": "G01",
+  "out": "results/s15/cols/r02/grow/G01",
+  "grow_d": 0.05,
+  "grow_kg": 25.0,
+  "grow_n": 4,
+  "head": "01"
+ },
+ "kind": "grow",
+ "hosts": [
+  {
+   "f": "results/s14/probe_cover/N9/fleet/route_01.npz",
+   "got": [],
+   "dkg": 0.0,
+   "tank0": 1004.2
+  }
+ ],
+ "final": {
+  "results/s14/probe_cover/N9/fleet/route_01.npz": "results/s14/probe_cover/N9/fleet/route_01.npz"
+ },
+ "cols": [],
+ "wall_s": 0,
+ "done": "21:39:34"
+}

@@ -1,0 +1,10 @@
+[12:12:37] END p11_prizeG2: [12:11:56] [slice 9 T=4860 d] launched 8/8  covered 223  remaining 75  fuel 3204 kg  sumJi 10.9573  chosen: c0
+[12:12:37] START p13_claims_ttl4 --H 540 --L 360 --claims --claim-bonus 1.0 --claim-ttl 4 --seed 13
+[12:38:45] END p13_claims_ttl4: [12:38:45] [slice 9 T=4860 d] launched 8/8  covered 246  remaining 52  fuel 3123 kg  sumJi 10.8628  chosen: c0
+[12:39:06] START p14_claims_w300 --H 540 --L 360 --claims --claim-bonus 1.0 --claim-ttl 4 --seed 14 --job-grace 900
+[13:13:56] END p14_claims_w300: [13:13:56] [slice 9 T=4860 d] launched 8/8  covered 245  remaining 53  fuel 3207 kg  sumJi 10.9634  chosen: c0
+[13:14:14] START p15_claims_prize --H 540 --L 360 --claims --claim-bonus 1.0 --claim-ttl 4 --prize-json results/s18/prizes_p10.json --seed 15
+[13:50:36] END p15_claims_prize: [13:50:36] [slice 9 T=4860 d] launched 8/8  covered 200  remaining 98  fuel 3068 kg  sumJi 10.8191  chosen: c0
+[13:51:19] START p16_claims_ttl9 --H 540 --L 360 --claims --claim-bonus 1.5 --claim-ttl 9 --seed 16
+[14:19:41] END p16_claims_ttl9: [14:19:40] [slice 9 T=4860 d] launched 8/8  covered 240  remaining 58  fuel 3412 kg  sumJi 11.1897  chosen: c0
+[14:20:01] PORTFOLIO4 DONE

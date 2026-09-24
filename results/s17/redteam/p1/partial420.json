@@ -1,0 +1,14 @@
+[
+ {
+  "N": 8,
+  "K": 298,
+  "status": 2,
+  "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_s",
+  "sec": 0,
+  "dual_bound": null,
+  "nC": 427,
+  "nA": 3310,
+  "thr": 0.08,
+  "cap": 150.0
+ }
+]

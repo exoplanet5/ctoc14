@@ -1,0 +1,68 @@
+{
+ "fleet": "results/s15b/reloc_h2/fleet",
+ "sumJi": 11.83267,
+ "removals": 297,
+ "insertions": 29,
+ "positive": [
+  {
+   "kind": "ins",
+   "route": "h06",
+   "ast": 300,
+   "ok": true,
+   "dist": 0.029462664336027566,
+   "sec": 6.9,
+   "tank": 947.2403991026721,
+   "dJ": -0.003998855516416988,
+   "col": "results/s16/colgen/s15a/cols/route_h06x300_30.npz",
+   "gain": 0.011410801789297986
+  },
+  {
+   "kind": "ins",
+   "route": "h06",
+   "ast": 14,
+   "ok": true,
+   "dist": 0.03203600183840535,
+   "sec": 4.6,
+   "tank": 960.1337545994885,
+   "dJ": 0.009863962916483171,
+   "col": "results/s16/colgen/s15a/cols/route_h06x14_30.npz",
+   "gain": 0.009257608909976733
+  },
+  {
+   "kind": "ins",
+   "route": "h06",
+   "ast": 52,
+   "ok": true,
+   "dist": 0.05006839332890547,
+   "sec": 5.5,
+   "tank": 952.3498437762215,
+   "dJ": 0.001474481311702247,
+   "col": "results/s16/colgen/s15a/cols/route_h06x52_30.npz",
+   "gain": 0.006570059514293902
+  },
+  {
+   "kind": "ins",
+   "route": "s2",
+   "ast": 130,
+   "ok": true,
+   "dist": 0.05578409770384604,
+   "sec": 8.6,
+   "tank": 904.1664277077366,
+   "dJ": 0.022334039532286187,
+   "col": "results/s16/colgen/s15a/cols/route_s2x130_19.npz",
+   "gain": 0.0017825054730837842
+  },
+  {
+   "kind": "ins",
+   "route": "s2",
+   "ast": 208,
+   "ok": true,
+   "dist": 0.10779484353970234,
+   "sec": 6.7,
+   "tank": 887.3829354331016,
+   "dJ": 0.005280389863496104,
+   "col": "results/s16/colgen/s15a/cols/route_s2x208_19.npz",
+   "gain": 0.0004930887098435477
+  }
+ ]
+}

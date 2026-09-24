@@ -1,0 +1,30 @@
+{
+ "craft": 9,
+ "covered": 298,
+ "sumJi": 11.8326,
+ "sumJi0": 11.8205,
+ "misses": [],
+ "placed": [
+  {
+   "ast": 163,
+   "host": "04",
+   "dJ": 0.0121,
+   "dkg": 11.7,
+   "cap": 0.03,
+   "col": "results/s16/pipe/K297a2/close/cols/route_04x163_39.npz"
+  }
+ ],
+ "columns": 2,
+ "files": {
+  "01": "results/s16/honest/route_4cb881606e808dda.npz",
+  "02": "results/s16/honest/route_a5305159d6d369e1.npz",
+  "03": "results/s16/honest/route_7b7951b063bc8ba9.npz",
+  "04": "results/s16/pipe/K297a2/close/cols/route_04x163_39.npz",
+  "05": "results/s16/honest/route_007b9f038060badd.npz",
+  "06": "results/s16/honest/route_d2fa698f4c279994.npz",
+  "07": "results/s16/honest/route_36aff9c6b16669d0.npz",
+  "08": "results/s16/honest/route_520abde40c0a1cf1.npz",
+  "09": "results/s16/honest/route_1a94b0f150731242.npz"
+ },
+ "wall_s": 12
+}

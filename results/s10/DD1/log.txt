@@ -1,0 +1,3 @@
+[19:59:13] results/s7/deep1/fleet: 10 routes, 365 flybys, 298 covered (67 duplicate flybys), sum J_i 13.430, J 15.430, J/fb 0.0368
+[20:00:47] round 0: 58 duplicated targets, 125 removal trials, 106 profitable (94 s); best saves 49 kg
+[20:00:47]   accepted 10 removals -> 355 flybys, 298 covered, sum J_i 13.130, J 15.130, J/fb 0.0370

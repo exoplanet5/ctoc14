@@ -1,0 +1,76 @@
+{
+ "job": {
+  "beam": 20,
+  "tries": 60,
+  "roots": 300,
+  "dv": 1.2,
+  "drmax": 0.15,
+  "mc": 60,
+  "k_epochs": 3,
+  "lin_cap": 3.0,
+  "res_max": 150000000.0,
+  "grid": "0,800,20",
+  "iters": 100,
+  "timeout": 240.0,
+  "p": 0.06,
+  "S": [
+   33,
+   280
+  ],
+  "w_fuel": 1.5,
+  "w_t": null,
+  "cap": 1150.0,
+  "kappa": 90.0,
+  "w_iso": 1.0,
+  "steps": 1,
+  "nproc": 1,
+  "wall_budget": 28800.0,
+  "min_save": 26,
+  "save_cap": 1300.0,
+  "level_budget": null,
+  "tag": "EF296a_h05",
+  "out": "results/s15/cols/t05/EF296a_h05",
+  "fleet_pre": [
+   "results/s15/twinfleet/F296a/route_h01.npz",
+   "results/s15/twinfleet/F296a/route_h02.npz",
+   "results/s15/twinfleet/F296a/route_h03.npz",
+   "results/s15/twinfleet/F296a/route_h04.npz",
+   "results/s15/twinfleet/F296a/route_h06.npz",
+   "results/s15/twinfleet/F296a/route_s1.npz",
+   "results/s15/twinfleet/F296a/route_s2.npz",
+   "results/s15/twinfleet/F296a/route_t1.npz"
+  ],
+  "replaced": "results/s15/twinfleet/F296a/route_h05.npz",
+  "src_fleet": "results/s15/twinfleet/F296a"
+ },
+ "kind": "twintail",
+ "pool_n": 34,
+ "chain": {
+  "steps": [
+   {
+    "k": 1,
+    "pool": 34,
+    "S": [
+     33,
+     280
+    ],
+    "end": {
+     "kind": "settle_wall",
+     "depth": 24
+    },
+    "deepest": 24,
+    "settles": 479,
+    "settle_ok": 451,
+    "wall_s": 3042,
+    "ncols": 0,
+    "took": null
+   }
+  ],
+  "covered": [],
+  "cols": [],
+  "taken": []
+ },
+ "cols": [],
+ "covered": 0,
+ "wall_s": 3054
+}

@@ -1,0 +1,6 @@
+[11:34:46] 2 distinct seeds, 87 hard targets, sizes [55, 70], hard weights [1.0, 0.5]
+[11:34:47] neighbourhood ranking: 0 s; median reachable targets per seed 259
+[11:34:47] 8 beam runs (0 already done)
+[11:35:58] [   1/8] skel8/route_01:55:1.0: subset 55 (14 hard) -> best 36 flybys (9 hard, fuel 357 kg, launch 0 d, end 14.9 yr), kept 300 cols, 267 deep+hard  (71 s, 1 min total)
+[11:37:09] [   2/8] skel8/route_01:55:0.5: subset 55 (19 hard) -> best 36 flybys (9 hard, fuel 357 kg, launch 0 d, end 14.9 yr), kept 300 cols, 297 deep+hard  (71 s, 2 min total)
+[11:38:25] [   3/8] skel8/route_01:70:1.0: subset 70 (17 hard) -> best 35 flybys (11 hard, fuel 359 kg, launch 0 d, end 14.9 yr), kept 300 cols, 300 deep+hard  (76 s, 4 min total)

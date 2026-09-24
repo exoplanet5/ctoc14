@@ -1,0 +1,6 @@
+|S| 136, columns 1384, K 4
+status 0 Optimization terminated successfully. (HiGHS Status 7: Optimal); covered 116/136 with 4 routes; bound 115.99804905058025; 0 s
+   007b9f038060badd n 31 in S 31 tank 921
+   d2fa698f4c279994 n 30 in S 30 tank 1030
+   r5 n 31 in S 31 tank 0
+   r8 n 24 in S 24 tank 0

@@ -1,0 +1,16 @@
+{
+ "fleet": "results/s16/iter/A/it6/fleet",
+ "sumJi0": 11.75276,
+ "sumJi": 11.74831,
+ "chosen": {
+  "r1": "pT03b",
+  "r2": "orig",
+  "r3": "pT10g",
+  "r4": "pT03a",
+  "r5": "pT05h",
+  "r6": "orig",
+  "r7": "pT03a",
+  "r8": "pT10h",
+  "r9": "pT10g"
+ }
+}

@@ -1,0 +1,3 @@
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+{"pool": 35, "dv": 2.0, "dr": 0.25, "npt": 6, "mc": 150, "beam_s": 58, "front": {"4": 615, "5": 622, "6": 640, "7": 660, "8": 673, "9": 682, "10": 701, "11": 723, "12": 743, "13": 757, "14": 796, "15": 810, "16": 822, "17": 824, "18": 828, "19": 850, "20": 889, "21": 924}, "settled": {"21": null, "20": null, "19": null}}

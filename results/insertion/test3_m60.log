@@ -1,0 +1,54 @@
+converted bases (planner model of the converted flyby chain vs actual conversion):
+  tour_sc1     m0= 2000.0 n=46 (planned 49) fuel_model= 1464.1 kg fuel_actual= 1380.2 kg infeasible_legs=2 min_slack=-0.691 budget(margin)= -124.1 kg
+  tour_sc2     m0= 2000.0 n=48 (planned 48) fuel_model= 1390.1 kg fuel_actual= 1357.7 kg infeasible_legs=0 min_slack=+0.078 budget(margin)=  -50.1 kg
+  tour_sc3     m0= 1887.8 n=38 (planned 44) fuel_model= 1294.3 kg fuel_actual= 1180.6 kg infeasible_legs=3 min_slack=-1.051 budget(margin)=  -66.5 kg
+  tour_sc4     m0= 2000.0 n=39 (planned 39) fuel_model= 1513.3 kg fuel_actual= 1382.3 kg infeasible_legs=1 min_slack=-1.338 budget(margin)= -173.3 kg
+  tour_sc5     m0= 1966.1 n=36 (planned 36) fuel_model= 1437.7 kg fuel_actual= 1294.0 kg infeasible_legs=2 min_slack=-1.634 budget(margin)= -131.6 kg
+  tour_sc6     m0= 1972.6 n=29 (planned 29) fuel_model= 1426.1 kg fuel_actual= 1304.6 kg infeasible_legs=1 min_slack=-1.397 budget(margin)= -113.5 kg
+  tour_sc7     m0= 2000.0 n=22 (planned 25) fuel_model= 1988.5 kg fuel_actual= 1349.1 kg infeasible_legs=3 min_slack=-13.379 budget(margin)= -648.5 kg
+  tour_sc8     m0= 2000.0 n=15 (planned 19) fuel_model= 1833.8 kg fuel_actual= 1344.2 kg infeasible_legs=5 min_slack=-3.824 budget(margin)= -493.8 kg
+  tour_sc9     m0=  985.2 n= 3 (planned  6) fuel_model=  862.5 kg fuel_actual=  366.1 kg infeasible_legs=2 min_slack=-4.634 budget(margin)= -537.3 kg
+  tour_sc10    m0=  850.0 n= 1 (planned  2) fuel_model=  635.0 kg fuel_actual=   43.6 kg infeasible_legs=1 min_slack=-18.645 budget(margin)= -445.0 kg
+targets (22): [15, 21, 41, 50, 76, 77, 84, 96, 116, 138, 141, 160, 166, 183, 204, 212, 216, 229, 240, 268, 272, 285]
+params: margin=60.0 kg eta=0.6 tstep=1.0 d delta=+-10.0 d step 2.5 d tof_min=15.0 d launch_gap=True u_max=1.0 grow_m0=False
+
+base tours:
+  tour_sc1     m0= 2000.0 n=46 fuel_model= 1464.1 kg budget(margin)= -124.1 kg already_has=[]
+  tour_sc2     m0= 2000.0 n=48 fuel_model= 1390.1 kg budget(margin)=  -50.1 kg already_has=[]
+  tour_sc3     m0= 1887.8 n=38 fuel_model= 1294.3 kg budget(margin)=  -66.5 kg already_has=[141]
+  tour_sc4     m0= 2000.0 n=39 fuel_model= 1513.3 kg budget(margin)= -173.3 kg already_has=[]
+  tour_sc5     m0= 1966.1 n=36 fuel_model= 1437.7 kg budget(margin)= -131.6 kg already_has=[]
+  tour_sc6     m0= 1972.6 n=29 fuel_model= 1426.1 kg budget(margin)= -113.5 kg already_has=[]
+  tour_sc7     m0= 2000.0 n=22 fuel_model= 1988.5 kg budget(margin)= -648.5 kg already_has=[]
+  tour_sc8     m0= 2000.0 n=15 fuel_model= 1833.8 kg budget(margin)= -493.8 kg already_has=[]
+
+insertion finished in 85 s: 0 inserted, 22 remaining [15, 21, 41, 50, 76, 77, 84, 96, 116, 138, 141, 160, 166, 183, 204, 212, 216, 229, 240, 268, 272, 285]
+
+inserted:
+  target tour          pos  after before   t_j[d]  delta[d]  extra[kg]   dvA   dvB   dvC   u   budget_after   m0    dJ
+
+remaining targets: cheapest leg-feasible candidate per tour ignoring the budget (extra kg needed vs budget):
+    15: tour_sc7 1.1 kg (budget -648.5) after 196 at 5292 d d=+0.0 dv 3.84/nan/0.00 u=0.02; tour_sc8 65.0 kg (budget -493.8) after 221 at 4831 d d=+0.0 dv 17.92/nan/0.00 u=0.29; tour_sc3 253.4 kg (budget -66.5) after 141 at 5196 d d=+0.0 dv 16.92/nan/0.00 u=0.97; tour_sc1 -- (no feasible detour)
+    21: tour_sc7 -33.7 kg (budget -648.5) after 12 at 4283 d d=+10.0 dv 16.86/3.60/10.90 u=0.54; tour_sc8 19.2 kg (budget -493.8) after 90 at 3620 d d=-2.5 dv 8.57/0.35/13.81 u=0.35; tour_sc1 71.2 kg (budget -124.1) after 244 at 5258 d d=+0.0 dv 4.56/nan/0.00 u=0.76; tour_sc3 221.7 kg (budget -66.5) after 141 at 5173 d d=+0.0 dv 14.51/nan/0.00 u=0.88
+    41: tour_sc7 6.6 kg (budget -648.5) after 196 at 5474 d d=+0.0 dv 32.39/nan/0.00 u=0.06; tour_sc6 132.7 kg (budget -113.5) after 243 at 4155 d d=+2.5 dv 3.45/3.88/3.76 u=0.93; tour_sc8 134.7 kg (budget -493.8) after 221 at 4831 d d=+0.0 dv 52.10/nan/0.00 u=0.84; tour_sc1 -- (no feasible detour)
+    50: tour_sc7 1.8 kg (budget -648.5) after 101 at 3664 d d=+10.0 dv 4.69/6.21/1.86 u=0.57; tour_sc8 72.7 kg (budget -493.8) after 221 at 4636 d d=+0.0 dv 19.12/nan/0.00 u=0.60; tour_sc1 -- (no feasible detour); tour_sc2 -- (no feasible detour)
+    76: tour_sc7 -9.2 kg (budget -648.5) after 12 at 4234 d d=-10.0 dv 11.53/31.15/19.45 u=0.70; tour_sc1 12.1 kg (budget -124.1) after 244 at 5251 d d=+0.0 dv 0.86/nan/0.00 u=0.15; tour_sc5 53.4 kg (budget -131.6) after 143 at 2724 d d=+0.0 dv 1.74/2.22/1.99 u=0.92; tour_sc8 67.4 kg (budget -493.8) after 158 at 3241 d d=-5.0 dv 9.02/9.78/8.82 u=0.88
+    77: tour_sc7 2.4 kg (budget -648.5) after 199 at 1917 d d=-2.5 dv 4.68/6.44/2.53 u=0.65; tour_sc8 53.1 kg (budget -493.8) after 221 at 4785 d d=+0.0 dv 14.04/nan/0.00 u=0.25; tour_sc1 -- (no feasible detour); tour_sc2 -- (no feasible detour)
+    84: tour_sc7 -56.9 kg (budget -648.5) after 12 at 4285 d d=-10.0 dv 12.28/2.36/7.85 u=0.39; tour_sc1 93.2 kg (budget -124.1) after 244 at 5335 d d=+0.0 dv 6.28/nan/0.00 u=0.65; tour_sc8 95.4 kg (budget -493.8) after 221 at 4831 d d=+0.0 dv 29.31/nan/0.00 u=0.47; tour_sc6 201.1 kg (budget -113.5) after 52 at 5473 d d=+0.0 dv 13.87/nan/0.00 u=0.99
+    96: tour_sc7 -11.2 kg (budget -648.5) after 12 at 4312 d d=-10.0 dv 12.70/28.49/16.08 u=0.99; tour_sc8 83.3 kg (budget -493.8) after 221 at 4831 d d=+0.0 dv 24.39/nan/0.00 u=0.39; tour_sc1 -- (no feasible detour); tour_sc2 -- (no feasible detour)
+   116: tour_sc7 -86.8 kg (budget -648.5) after 12 at 4350 d d=-10.0 dv 4.09/1.45/4.17 u=0.12; tour_sc8 35.3 kg (budget -493.8) after 107 at 4344 d d=+10.0 dv 6.39/3.28/0.00 u=0.22; tour_sc1 154.0 kg (budget -124.1) after 244 at 5473 d d=+0.0 dv 11.05/nan/0.00 u=0.67; tour_sc2 -- (no feasible detour)
+   138: tour_sc7 7.4 kg (budget -648.5) after 196 at 5474 d d=+0.0 dv 39.15/nan/0.00 u=0.07; tour_sc8 34.7 kg (budget -493.8) after 221 at 4831 d d=+0.0 dv 8.80/nan/0.00 u=0.14; tour_sc1 -- (no feasible detour); tour_sc2 -- (no feasible detour)
+   141: tour_sc7 -65.8 kg (budget -648.5) after 12 at 4209 d d=+2.5 dv 5.40/5.36/4.29 u=0.27; tour_sc8 9.7 kg (budget -493.8) after 221 at 4770 d d=+0.0 dv 2.33/nan/0.00 u=0.04; tour_sc1 74.4 kg (budget -124.1) after 244 at 5356 d d=+0.0 dv 5.13/nan/0.00 u=0.48; tour_sc2 -- (no feasible detour)
+   160: tour_sc7 -12.6 kg (budget -648.5) after 12 at 4250 d d=+10.0 dv 25.94/15.14/9.83 u=0.99; tour_sc1 31.9 kg (budget -124.1) after 244 at 5380 d d=+0.0 dv 2.27/nan/0.00 u=0.19; tour_sc8 48.2 kg (budget -493.8) after 17 at 4008 d d=-10.0 dv 2.16/8.13/15.33 u=0.55; tour_sc6 182.5 kg (budget -113.5) after 52 at 5473 d d=+0.0 dv 12.56/nan/0.00 u=0.90
+   166: tour_sc7 4.7 kg (budget -648.5) after 252 at 1262 d d=-2.5 dv 8.41/10.56/8.30 u=1.00; tour_sc8 47.4 kg (budget -493.8) after 221 at 4831 d d=+0.0 dv 12.43/nan/0.00 u=0.20; tour_sc1 -- (no feasible detour); tour_sc2 -- (no feasible detour)
+   183: tour_sc7 -59.7 kg (budget -648.5) after 12 at 4353 d d=+2.5 dv 4.99/6.68/6.19 u=0.37; tour_sc8 33.1 kg (budget -493.8) after 221 at 4570 d d=+0.0 dv 7.86/nan/0.00 u=0.36; tour_sc3 52.5 kg (budget -66.5) after 141 at 5156 d d=+0.0 dv 3.41/nan/0.00 u=0.22; tour_sc1 119.7 kg (budget -124.1) after 244 at 5296 d d=+0.0 dv 7.67/nan/0.00 u=0.98
+   204: tour_sc7 6.6 kg (budget -648.5) after 196 at 5474 d d=+0.0 dv 33.02/nan/0.00 u=0.06; tour_sc8 26.8 kg (budget -493.8) after 221 at 4802 d d=+0.0 dv 6.67/nan/0.00 u=0.12; tour_sc3 72.6 kg (budget -66.5) after 141 at 5160 d d=+0.0 dv 4.70/nan/0.00 u=0.30; tour_sc1 -- (no feasible detour)
+   212: tour_sc8 -6.8 kg (budget -493.8) after 17 at 3883 d d=-10.0 dv 2.30/8.60/1.91 u=0.30; tour_sc7 5.5 kg (budget -648.5) after 252 at 1271 d d=+5.0 dv 9.06/16.00/4.45 u=0.99; tour_sc3 101.8 kg (budget -66.5) after 141 at 5155 d d=+0.0 dv 6.56/nan/0.00 u=0.42; tour_sc1 -- (no feasible detour)
+   216: tour_sc7 -90.1 kg (budget -648.5) after 12 at 4163 d d=-10.0 dv 2.82/1.78/3.77 u=0.21; tour_sc8 56.0 kg (budget -493.8) after 107 at 4274 d d=+10.0 dv 5.90/9.62/0.00 u=0.32; tour_sc1 -- (no feasible detour); tour_sc2 -- (no feasible detour)
+   229: tour_sc7 -61.9 kg (budget -648.5) after 12 at 4228 d d=-7.5 dv 6.96/2.50/9.95 u=0.30; tour_sc5 16.4 kg (budget -131.6) after 14 at 1236 d d=-2.5 dv 1.33/2.02/0.70 u=0.82; tour_sc8 23.3 kg (budget -493.8) after 221 at 4626 d d=+0.0 dv 5.61/nan/0.00 u=0.18; tour_sc1 31.3 kg (budget -124.1) after 244 at 5290 d d=+0.0 dv 2.17/nan/0.00 u=0.29
+   240: tour_sc7 -2.6 kg (budget -648.5) after 12 at 4322 d d=-10.0 dv 23.41/26.27/25.47 u=0.69; tour_sc3 42.7 kg (budget -66.5) after 141 at 5120 d d=+0.0 dv 2.76/nan/0.00 u=0.20; tour_sc8 49.7 kg (budget -493.8) after 22 at 2611 d d=-5.0 dv 4.87/7.18/4.04 u=0.73; tour_sc1 169.7 kg (budget -124.1) after 244 at 5420 d d=+0.0 dv 11.88/nan/0.00 u=0.86
+   268: tour_sc7 -89.8 kg (budget -648.5) after 12 at 4346 d d=-5.0 dv 3.12/1.57/2.46 u=0.14; tour_sc8 55.0 kg (budget -493.8) after 107 at 4315 d d=+10.0 dv 5.62/9.46/0.00 u=0.42; tour_sc1 -- (no feasible detour); tour_sc2 -- (no feasible detour)
+   272: tour_sc7 -61.8 kg (budget -648.5) after 12 at 4183 d d=-10.0 dv 10.94/1.28/6.90 u=0.67; tour_sc8 19.4 kg (budget -493.8) after 90 at 3479 d d=-5.0 dv 9.39/3.52/8.74 u=0.79; tour_sc6 32.3 kg (budget -113.5) after 52 at 5432 d d=+0.0 dv 2.26/nan/0.00 u=0.19; tour_sc2 73.8 kg (budget -50.1) after 85 at 5448 d d=+0.0 dv 4.37/nan/0.00 u=0.52
+   285: tour_sc7 -0.1 kg (budget -648.5) after 12 at 4286 d d=-10.0 dv 16.89/36.77/26.16 u=0.93; tour_sc2 14.5 kg (budget -50.1) after 85 at 5449 d d=+0.0 dv 0.91/nan/0.00 u=0.11; tour_sc6 37.1 kg (budget -113.5) after 52 at 5441 d d=+0.0 dv 2.60/nan/0.00 u=0.21; tour_sc8 88.8 kg (budget -493.8) after 221 at 4831 d d=+0.0 dv 26.57/nan/0.00 u=0.43
+
+wrote 8 tours to results/insertion/test3_m60; sum J_i of these tours = 23.636; report results/insertion/test3_m60/insertion_test3_m60.json

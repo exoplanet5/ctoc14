@@ -1,0 +1,1 @@
+~/.venvs/astro313/bin/python tools/validator2.py  --json  >  2>   34.68s user 0.16s system 99% cpu 34.990 total

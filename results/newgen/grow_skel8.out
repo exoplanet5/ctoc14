@@ -1,0 +1,32 @@
+[21:28:39] skeletons: 8 routes, covered 195, J 114.1969; 01:36@806 02:35@812 05:28@829 04:26@774 03:24@753 06:24@743 08:23@757 07:21@801
+[21:29:16]   dedupe 04: removed [227, 284, 6, 286, 70, 148, 3]: tank 773.9 -> 692.5
+[21:29:16]   dedupe 02: removed [284]: tank 812.4 -> 805.0
+[21:29:16]   dedupe 03: removed [127, 74]: tank 753.4 -> 744.7
+[21:29:16]   dedupe 08: removed [6, 12, 271, 152, 175]: tank 757.1 -> 725.6
+[21:29:16]   dedupe 07: removed [167]: tank 801.4 -> 777.1
+[21:29:16]   dedupe 05: removed [91, 162, 241, 240, 134]: tank 828.9 -> 773.9
+[21:29:16]   dedupe 06: removed [71]: tank 742.8 -> 738.8
+[21:29:16] after dedupe: 8 routes, covered 195, J 114.0103; 01:36@806 02:34@805 05:23@774 06:23@739 03:22@745 07:20@777 04:19@692 08:18@726
+[21:30:58]   hard round 0: 17 to place, 46 trials, 25 feasible, accepted 8: 125->02(+11kg) 158->05(+14kg) 26->07(+15kg) 212->08(+27kg) 255->04(+27kg) 62->06(+59kg) 136->01(+65kg) 145->03(+67kg); J 106.2669 (102 s)
+[21:31:55]   hard round 1: 9 to place, 25 trials, 11 feasible, accepted 4: 39->04(+25kg) 8->05(+26kg) 31->06(+120kg) 282->03(+184kg); J 102.6179 (57 s)
+[21:32:34]   hard round 2: 5 to place, 14 trials, 5 feasible, accepted 3: 86->05(+113kg) 159->06(+152kg) 54->04(+285kg); J 100.1863 (39 s)
+[21:32:53]   hard round 3: 2 to place, 5 trials, 0 feasible, accepted 0: ; J 100.1863 (20 s)
+[21:32:53]   hard: widening to 0.6 AU
+[21:33:13]   hard round 4: 2 to place, 6 trials, 1 feasible, accepted 1: 246->02(+273kg); J 99.4789 (20 s)
+[21:33:30]   hard round 5: 1 to place, 3 trials, 0 feasible, accepted 0: ; J 99.4789 (17 s)
+[21:33:30]   hard: stuck with 1 unplaced: [170]
+[21:41:24]   all round 0: 87 to place, 238 trials, 120 feasible, accepted 8: 87->08(+-2kg) 44->03(+-2kg) 244->04(+-0kg) 100->07(+1kg) 172->05(+2kg) 105->06(+5kg) 174->01(+13kg) 291->02(+14kg); J 91.5129 (474 s)
+[21:48:42]   all round 1: 79 to place, 215 trials, 97 feasible, accepted 8: 297->08(+0kg) 188->07(+4kg) 201->03(+5kg) 221->04(+5kg) 171->05(+10kg) 73->06(+14kg) 274->01(+26kg) 18->02(+42kg); J 83.6352 (438 s)
+[21:56:26]   all round 2: 71 to place, 192 trials, 78 feasible, accepted 8: 216->08(+2kg) 133->04(+6kg) 126->05(+10kg) 161->07(+13kg) 141->06(+18kg) 122->03(+19kg) 180->01(+21kg) 57->02(+55kg); J 75.8016 (464 s)
+[22:02:29]   all round 3: 63 to place, 153 trials, 54 feasible, accepted 7: 98->07(+14kg) 109->05(+16kg) 176->06(+18kg) 14->01(+25kg) 146->08(+28kg) 230->03(+30kg) 123->04(+88kg); J 69.0460 (363 s)
+[22:08:39]   all round 4: 56 to place, 134 trials, 34 feasible, accepted 6: 128->08(+16kg) 84->07(+25kg) 195->01(+32kg) 228->05(+51kg) 256->03(+70kg) 202->04(+116kg); J 63.4148 (369 s)
+[22:13:29]   all round 5: 50 to place, 104 trials, 21 feasible, accepted 5: 112->08(+38kg) 287->07(+60kg) 89->05(+60kg) 194->01(+73kg) 117->03(+106kg); J 58.8012 (291 s)
+[22:16:55]   all round 6: 45 to place, 77 trials, 13 feasible, accepted 4: 116->08(+16kg) 118->05(+31kg) 139->07(+54kg) 59->01(+84kg); J 55.0145 (206 s)
+[22:20:30]   all round 7: 41 to place, 73 trials, 11 feasible, accepted 4: 250->07(+39kg) 196->08(+51kg) 163->05(+124kg) 49->01(+128kg); J 51.4399 (214 s)
+[22:22:00]   all round 8: 37 to place, 29 trials, 4 feasible, accepted 2: 234->07(+95kg) 207->08(+283kg); J 49.8811 (90 s)
+[22:23:00]   all round 9: 35 to place, 17 trials, 3 feasible, accepted 2: 111->06(+110kg) 68->07(+136kg); J 48.2000 (60 s)
+[22:23:00]   all round 10: 33 to place, 0 trials, 0 feasible, accepted 0: ; J 48.2000 (0 s)
+[22:23:00]   all: widening to 0.6 AU
+[22:23:00]   all round 11: 33 to place, 0 trials, 0 feasible, accepted 0: ; J 48.2000 (0 s)
+[22:23:00]   all: stuck with 33 unplaced: [9, 17, 21, 24, 41, 52, 63, 66, 72, 77, 93, 114, 121, 137, 154, 165, 170, 187, 197, 199, 204, 210, 215, 232, 233, 236, 243, 245, 253, 260, 269, 280, 285]
+[22:23:00] final: 8 routes, covered 265, J 48.2000; 01:45@1273 02:39@1199 05:34@1230 06:31@1234 07:31@1235 03:30@1223 08:28@1184 04:27@1245

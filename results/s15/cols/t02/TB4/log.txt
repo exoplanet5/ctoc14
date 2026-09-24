@@ -1,0 +1,2 @@
+[22:35:46] twintail TB4: pool 43, S [64, 119, 137, 138, 157, 158, 168, 216], p 0.02, steps 2, beam 20/60, nproc 1; resume at step 1
+[22:35:58]   roots: 677 launch legs -> 144 kept; pool 43, S [64, 119, 137, 138, 157, 158, 168, 216] p 0.02

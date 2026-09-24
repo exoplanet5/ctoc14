@@ -1,0 +1,7 @@
+[02:23:15] close: 9 craft, covered 297, sum J_i 12.1063, misses [33]; caps [0.3, 0.45, 0.6] dmax 0.25
+[02:23:17]   cap 0.3 round 1: open [33]; 3 priced approaches, 1 attempts: 33->04 0.107AU lin 0.440
+[02:23:31]     33 -> 04 (0.107 AU, lin 0.440): fail 767638.2373079617 (15 s)
+[02:23:31]   cap 0.45 round 1: open [33]; 3 priced approaches, 0 attempts: 
+[02:23:31]   cap 0.6 round 1: open [33]; 3 priced approaches, 1 attempts: 33->03 0.190AU lin 0.929
+[02:24:04]     33 -> 03 (0.190 AU, lin 0.929): fail 21123405.669742633 (33 s)
+[02:24:04] close done: covered 297, sum J_i 12.1063 -> 12.1063, placed [], open [33] (49 s)

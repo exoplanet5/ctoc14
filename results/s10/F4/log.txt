@@ -1,0 +1,20 @@
+[17:14:02] 240 carriers; switch cost median 1.882 km/s, neighbourhood 1 median 0.000 km/s
+[17:14:02] pools built in 0 s: 1298 events each (median)
+[17:14:02] round 0: 12 routes, flybys 22 21 21 21 20 20 19 19 19 19 18 10; priced out 108 targets (0 s)
+[17:14:02] round 1: 1 routes, flybys 10; priced out 117 targets (0 s)
+[17:14:02] round 2: 0 routes, flybys ; priced out 117 targets (0 s)
+[17:14:02]   seed  24 rd 0: 22 flybys over 1 carriers (0 switches), model dv 3.90 phase + 2.84 gap + 0.00 switch km/s, value 18.04
+[17:14:02]   seed   0 rd 0: 21 flybys over 1 carriers (0 switches), model dv 3.15 phase + 2.77 gap + 0.00 switch km/s, value 19.41
+[17:14:02]   seed  34 rd 0: 21 flybys over 1 carriers (0 switches), model dv 3.71 phase + 2.18 gap + 0.00 switch km/s, value 17.57
+[17:14:02]   seed  36 rd 0: 21 flybys over 1 carriers (0 switches), model dv 4.16 phase + 3.01 gap + 0.00 switch km/s, value 17.43
+[17:14:02]   seed   2 rd 0: 20 flybys over 1 carriers (0 switches), model dv 4.25 phase + 2.79 gap + 0.00 switch km/s, value 19.13
+[17:14:02]   seed  13 rd 0: 20 flybys over 1 carriers (0 switches), model dv 3.81 phase + 2.99 gap + 0.00 switch km/s, value 18.68
+[17:14:02]   seed  12 rd 0: 19 flybys over 1 carriers (0 switches), model dv 3.97 phase + 2.31 gap + 0.00 switch km/s, value 18.58
+[17:14:02]   seed  18 rd 0: 19 flybys over 1 carriers (0 switches), model dv 3.68 phase + 1.75 gap + 0.00 switch km/s, value 18.40
+[17:14:02]   seed  25 rd 0: 19 flybys over 1 carriers (0 switches), model dv 3.41 phase + 2.44 gap + 0.00 switch km/s, value 18.08
+[17:14:02]   seed  29 rd 0: 19 flybys over 1 carriers (0 switches), model dv 3.36 phase + 2.35 gap + 0.00 switch km/s, value 17.86
+[17:14:02]   seed  37 rd 0: 18 flybys over 1 carriers (0 switches), model dv 3.17 phase + 1.21 gap + 0.00 switch km/s, value 17.54
+[17:14:02]   seed  14 rd 0: 10 flybys over 1 carriers (0 switches), model dv 1.26 phase + 1.00 gap + 0.00 switch km/s, value 19.19
+[17:14:02]   seed  34 rd 1: 10 flybys over 1 carriers (0 switches), model dv 2.78 phase + 1.65 gap + 0.00 switch km/s, value 5.47
+[17:14:02] 13 routes, union 117 of 298 targets
+[17:14:02] -> results/s10/F4/routes.json

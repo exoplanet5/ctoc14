@@ -1,0 +1,315 @@
+{
+ "steps": [
+  {
+   "k": 1,
+   "pool": 14,
+   "S": [
+    17,
+    64,
+    219
+   ],
+   "end": {
+    "kind": "no_children",
+    "depth": 11
+   },
+   "deepest": 11,
+   "settles": 202,
+   "settle_ok": 170,
+   "wall_s": 1111,
+   "ncols": 10,
+   "took": {
+    "f": "results/s15/cols/t04/ES296_09/route_ES296_09s1_10.npz",
+    "n": 10,
+    "tank": 775.74,
+    "iso": [
+     64
+    ],
+    "s_taken": [
+     17,
+     64
+    ]
+   },
+   "covered": 10
+  }
+ ],
+ "covered": [
+  17,
+  22,
+  64,
+  104,
+  120,
+  180,
+  199,
+  220,
+  262,
+  298
+ ],
+ "cols": [
+  {
+   "f": "results/s15/cols/t04/ES296_09/route_ES296_09s1_11.npz",
+   "n": 11,
+   "tank": 975.57,
+   "miss": 0.0,
+   "kind": "score",
+   "targets": [
+    17,
+    22,
+    104,
+    108,
+    180,
+    199,
+    220,
+    243,
+    247,
+    262,
+    298
+   ],
+   "iso": [],
+   "s_taken": [
+    17
+   ],
+   "t_end_d": 4088.0,
+   "t_launch_d": 180.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t04/ES296_09/route_ES296_09s1_10.npz",
+   "n": 10,
+   "tank": 775.74,
+   "miss": 77.1,
+   "kind": "score",
+   "targets": [
+    17,
+    22,
+    64,
+    104,
+    120,
+    180,
+    199,
+    220,
+    262,
+    298
+   ],
+   "iso": [
+    64
+   ],
+   "s_taken": [
+    17,
+    64
+   ],
+   "t_end_d": 3151.1,
+   "t_launch_d": 180.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t04/ES296_09/route_ES296_09s1_9.npz",
+   "n": 9,
+   "tank": 768.65,
+   "miss": 26.3,
+   "kind": "score",
+   "targets": [
+    17,
+    22,
+    64,
+    104,
+    180,
+    199,
+    220,
+    262,
+    298
+   ],
+   "iso": [
+    64
+   ],
+   "s_taken": [
+    17,
+    64
+   ],
+   "t_end_d": 2691.7,
+   "t_launch_d": 180.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t04/ES296_09/route_ES296_09s1_8.npz",
+   "n": 8,
+   "tank": 738.42,
+   "miss": 23.4,
+   "kind": "score",
+   "targets": [
+    17,
+    64,
+    104,
+    180,
+    199,
+    220,
+    262,
+    298
+   ],
+   "iso": [
+    64
+   ],
+   "s_taken": [
+    17,
+    64
+   ],
+   "t_end_d": 2692.4,
+   "t_launch_d": 180.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t04/ES296_09/route_ES296_09s1_8_1.npz",
+   "n": 8,
+   "tank": 733.12,
+   "miss": 14.4,
+   "kind": "light",
+   "targets": [
+    17,
+    22,
+    104,
+    180,
+    199,
+    220,
+    262,
+    298
+   ],
+   "iso": [],
+   "s_taken": [
+    17
+   ],
+   "t_end_d": 2526.1,
+   "t_launch_d": 180.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t04/ES296_09/route_ES296_09s1_7.npz",
+   "n": 7,
+   "tank": 696.57,
+   "miss": 89.3,
+   "kind": "score",
+   "targets": [
+    17,
+    22,
+    64,
+    104,
+    180,
+    199,
+    220
+   ],
+   "iso": [
+    64
+   ],
+   "s_taken": [
+    17,
+    64
+   ],
+   "t_end_d": 2692.0,
+   "t_launch_d": 180.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t04/ES296_09/route_ES296_09s1_7_1.npz",
+   "n": 7,
+   "tank": 658.0,
+   "miss": 5.8,
+   "kind": "light",
+   "targets": [
+    104,
+    180,
+    199,
+    220,
+    247,
+    262,
+    298
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 3028.5,
+   "t_launch_d": 180.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t04/ES296_09/route_ES296_09s1_6.npz",
+   "n": 6,
+   "tank": 675.36,
+   "miss": 56.8,
+   "kind": "score",
+   "targets": [
+    22,
+    104,
+    199,
+    220,
+    262,
+    298
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1658.6,
+   "t_launch_d": 180.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t04/ES296_09/route_ES296_09s1_6_1.npz",
+   "n": 6,
+   "tank": 645.23,
+   "miss": 49.2,
+   "kind": "light",
+   "targets": [
+    104,
+    199,
+    220,
+    247,
+    262,
+    298
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 2666.3,
+   "t_launch_d": 180.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t04/ES296_09/route_ES296_09s1_6_2.npz",
+   "n": 6,
+   "tank": 668.98,
+   "miss": 51.1,
+   "kind": "s",
+   "targets": [
+    22,
+    64,
+    104,
+    120,
+    199,
+    220
+   ],
+   "iso": [
+    64
+   ],
+   "s_taken": [
+    64
+   ],
+   "t_end_d": 2691.6,
+   "t_launch_d": 180.0,
+   "step": 1
+  }
+ ],
+ "taken": [
+  {
+   "k": 1,
+   "f": "results/s15/cols/t04/ES296_09/route_ES296_09s1_10.npz",
+   "n": 10,
+   "tank": 775.74,
+   "targets": [
+    17,
+    22,
+    64,
+    104,
+    120,
+    180,
+    199,
+    220,
+    262,
+    298
+   ]
+  }
+ ]
+}

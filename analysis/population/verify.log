@@ -1,0 +1,13 @@
+1. PDF sample: Earth(t0) err = 0.0005 km, v_inf = 4.000000 km/s, ast174 dist to sample flyby pos = 0.0095 km
+2. vs ctoc14.kepler (62 epochs x 300): max |dr| = 4.385e-05 km, max |dv| = 6.473e-11 km/s, Earth max |dr| = 1.716e-05 km
+3. Kepler residual max over 300 x 10958 = 8.88e-16 rad
+4. fine grid (0.1 d, 54789 samples): perihelion-count mismatches: []; crossing-count mismatches: []
+   r_min(grid)-r_min(analytic) in [-1.27e-11, 3.35e-06] AU (>=0 expected); r_max(analytic)-r_max(grid) in [-1.76e-11, 7.88e-08] AU
+   d_earth_min(grid)-d_earth_min(refined) in [-4.98e-13, 9.20e-06] AU; |t diff| max 0.050 d; totals grid: 2146 perihelia, 4293 crossings
+5. nodal table: 4293 rows, max |z| at crossing = 2.246e-01 km, max |r - r_node| = 9.11e-10 AU, all in window: True, asc vz>0: True, desc vz<0: True
+6. MOID brute force vs stored: max |diff| = 4.98e-14 AU (0.0 km); ids with |diff|>1e-6 AU: []; <0.05: 298, <0.02: 118, <0.01: 52; >=0.05 AU: [117, 280]; min 0.00011 AU (id 76)
+7. classes {'easy': 120, 'moderate': 74, 'hard': 104, 'very_hard': 0, 'unreachable': 2}; in-band crossings 2731 (per-year mean 182.1, std 4.2) from 292 asteroids; by class {'easy': 878, 'moderate': 693, 'hard': 1160}; near-1AU 1783; Earth CA <0.1/<0.05/<0.02: 86/33/3
+   id 131: r(AU) at ['2030-01-01', '2035-01-01', '2040-01-01', '2044-12-31'] = [10.711 15.331 16.069 13.313]; d_earth = [10.376 14.821 15.473 12.634]; fine-grid min d_earth 10.077 AU, min r 10.711 AU
+   id 144: r(AU) at ['2030-01-01', '2035-01-01', '2040-01-01', '2044-12-31'] = [33.819 34.592 34.58  33.784]; d_earth = [34.049 34.896 34.957 34.232]; fine-grid min d_earth 32.895 AU, min r 33.784 AU
+   atira ids [296, 297], retrograde [131], r_min>2.5 [131, 144], unreachable [131, 144], all q<=1.3: True, all cross annulus: True, n_rad_s column ok: True
+verify done in 86.2 s

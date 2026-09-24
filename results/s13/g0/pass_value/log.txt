@@ -1,0 +1,47 @@
+[10:55:02] pass start: {'out': 'results/s13/g0/pass_value', 'start': 'results/s13/seed_passes/N6a', 'keep': '01,02,03,04,05', 'prem': '', 'delta': 0.0, 'dvt': 1.8, 'beam': 100, 'npt': 6, 'mc': 150, 'tail_from': 6, 'members': 'T1,T2,T3,T5,T6,T7', 'kappa': 90.0, 'cap_head': 1050.0, 'cap_tail': 1080.0, 'grid': '0,800,20', 'pilot': 0, 'seed': 0, 'jitter': 0.0, 'nproc': 4, 'repair': True, 'n': 8, 'cache': 'results/s13/gen/cache', 'choice': 'value', 'settle_timeout': 240.0}; lambda {'n_prem': 0, 'n_pos': 0, 'n_neg': 0, 'mean': 0.0, 'max': 0.0, 'prize_min': 1.0, 'prize_max': 1.0, 'sha1': '97d55e5d2061', 'src': 'delta 0.0 on gc16 hard set', 'jitter': 0.0, 'seed': 0}; kept 5 routes, covered 199, J 107.7263; 01:48@1048 03:42@993 02:39@1039 04:36@930 05:34@881
+[10:55:02]   route 06 T1: pool 99, front 26:874 25:825 24:807 23:792 22:789 (94 s, cached)
+[10:55:02]   route 06 T2: pool 99, front 29:904 28:892 27:871 26:866 25:837 (113 s, cached)
+[10:55:02]   route 06 T3: pool 99, front 32:1008 31:922 30:908 29:886 28:881 (132 s, cached)
+[10:55:02]   route 06 T5: pool 99, front 30:945 29:932 28:869 27:839 26:820 (115 s, cached)
+[10:55:02]   route 06 T6: pool 99, front 31:995 30:975 29:961 28:889 27:850 (149 s, cached)
+[10:55:02]     T3 32 fb planner 1008 -> twin 1036 (miss 37) OK (71 s, cached)
+[10:55:02]     T3 31 fb planner 922 -> twin 938 (miss 66) OK (6 s, cached)
+[10:55:02]     T6 31 fb planner 995 -> twin None (miss 184598224) fail (104 s, cached)
+[10:55:02]     T3 30 fb planner 908 -> twin 912 (miss 38) OK (11 s, cached)
+[10:55:02]     T5 30 fb planner 945 -> twin 912 (miss 50) OK (15 s, cached)
+[10:55:02]     T6 30 fb planner 975 -> twin None (miss 161226203) fail (84 s, cached)
+[10:55:02] route 06: TOOK T3 31 fb @ 938 kg; covered 230, sum J_i 8.0262 (0 s)
+[10:58:55]   route 07 T1: pool 68, front 22:800 21:771 20:765 19:753 18:740 (76 s, cached)
+[10:58:55]   route 07 T2: pool 68, front 23:821 22:801 21:782 20:771 19:749 (115 s, cached)
+[10:58:55]   route 07 T3: pool 68, front 25:997 24:879 23:830 22:817 21:809 (112 s, cached)
+[10:58:55]   route 07 T5: pool 68, front 23:817 22:788 21:766 20:753 19:724 (116 s, cached)
+[10:58:55]   route 07 T6: pool 68, front 27:1015 26:954 25:945 24:935 23:911 (150 s, cached)
+[10:58:55]   route 07 T7 (joint K=2): pool 68, levels 34=16+18@774/821 33=16+17@774/803 32=14+18@764/795 (233 s)
+[11:00:13]     T6 27 fb planner 1015 -> twin 1067 (miss 2) OK (16 s)
+[11:00:13]     T6 26 fb planner 954 -> twin None (miss 100832881) fail (77 s)
+[11:00:13]     T6 25 fb planner 945 -> twin 949 (miss 34) OK (15 s)
+[11:00:13]     T3 25 fb planner 997 -> twin 1042 (miss 81) OK (13 s)
+[11:00:13]     T3 24 fb planner 879 -> twin 843 (miss 7) OK (11 s)
+[11:00:13]     T6 24 fb planner 935 -> twin 894 (miss 19) OK (25 s)
+[11:01:28]     T7 level 34 craft 0: 16 fb planner 774 -> twin 770 (miss 57) OK [wait]
+[11:01:28]     T7 level 34 craft 1: 18 fb planner 821 -> twin 758 (miss 32) OK [wait]
+[11:01:28]     T7 level 33 craft 0: 16 fb planner 774 -> twin 770 (miss 57) OK [wait]
+[11:01:28]     T7 level 33 craft 1: 17 fb planner 803 -> twin 857 (miss 78) OK [wait]
+[11:01:28]     T7 level 32 craft 0: 14 fb planner 764 -> twin 728 (miss 14) OK [wait]
+[11:01:28]     T7 level 32 craft 1: 18 fb planner 795 -> twin 750 (miss 40) OK [wait]
+[11:01:28]   T7 pair settled: 34 targets = 16+18 @ 770/758 kg
+[11:01:28] route 07: TOOK T6 27 fb @ 1067 kg; covered 257, sum J_i 9.4713 (310 s)
+[11:02:44]   route 08 T1: pool 41, front 5:634 4:627 (16 s)
+[11:02:44]   route 08 T2: pool 41, front 16:764 15:760 14:735 13:730 12:717 (40 s)
+[11:02:44]   route 08 T3: pool 41, front 18:905 17:816 16:794 15:751 14:745 (56 s)
+[11:02:44]   route 08 T5: pool 41, front 14:739 13:734 12:715 11:709 10:693 (43 s)
+[11:02:44]   route 08 T6: pool 41, front 18:846 17:838 16:793 15:761 14:755 (76 s)
+[11:04:25]     T6 18 fb planner 846 -> twin None (miss 114630024) fail (102 s)
+[11:04:25]     T3 18 fb planner 905 -> twin 825 (miss 6) OK (17 s)
+[11:04:25]     T3 17 fb planner 816 -> twin None (miss inf) fail (0 s)
+[11:04:25]     T6 17 fb planner 838 -> twin 806 (miss 21) OK (57 s)
+[11:04:25]     T2 16 fb planner 764 -> twin 813 (miss 36) OK (21 s)
+[11:04:25]     T6 16 fb planner 793 -> twin 1751 (miss 57) fail (33 s)
+[11:04:25] route 08: TOOK T3 18 fb @ 825 kg; covered 275, sum J_i 10.6583 (177 s)
+[11:04:25] T7 vs sequential routes 07+08: joint 34 (value 30.36) vs sequential 45 (value 37.30) -> keep sequential
+[11:04:25] PASS {"covered": 275, "sumJi": 10.6583, "J": 35.6583, "depths": [48, 39, 42, 36, 34, 31, 27, 18], "tanks": [1048, 1039, 993, 930, 881, 938, 1067, 825], "n_routes": 8, "wall_s": 563}

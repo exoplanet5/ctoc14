@@ -1,0 +1,544 @@
+{
+ "slice": 3,
+ "T_d": 1620.0,
+ "H_d": 540.0,
+ "L_d": 360.0,
+ "crafts": [
+  0,
+  1,
+  4,
+  7
+ ],
+ "rows": [
+  {
+   "craft": 0,
+   "ok": true,
+   "error": null,
+   "wall_s": 253.8,
+   "plan_s": 68.3,
+   "n_columns": 8,
+   "planbeam": [
+    {
+     "n_new": 1,
+     "dtank_min": 6.6,
+     "potential_of_cheapest": 0,
+     "potential_max": 2,
+     "n_cols": 7
+    },
+    {
+     "n_new": 3,
+     "dtank_min": 75.7,
+     "potential_of_cheapest": 2,
+     "potential_max": 2,
+     "n_cols": 1
+    }
+   ],
+   "segbeam": {
+    "1": {
+     "dtank_min": 9.750251266413443,
+     "potential_of_cheapest": 0,
+     "potential_max": 1,
+     "n_cols": 7
+    },
+    "2": {
+     "dtank_min": 60.429232341882425,
+     "potential_of_cheapest": 0,
+     "potential_max": 1,
+     "n_cols": 4
+    },
+    "3": {
+     "dtank_min": 82.83632952394862,
+     "potential_of_cheapest": 0,
+     "potential_max": 0,
+     "n_cols": 2
+    }
+   },
+   "seg_wall_s": 714.8,
+   "regrid": {
+    "s03_c0_k0": {
+     "ok": false,
+     "dtank": 72.7,
+     "miss": 60473.5,
+     "secs": 5.0,
+     "planner_dtank": 75.7
+    },
+    "s03_c0_k1": {
+     "ok": false,
+     "dtank": 7.0,
+     "miss": 10580.2,
+     "secs": 3.1,
+     "planner_dtank": 6.6
+    },
+    "s03_c0_k2": {
+     "ok": true,
+     "dtank": 10.3,
+     "miss": 98.9,
+     "secs": 0.5,
+     "planner_dtank": 10.0
+    },
+    "s03_c0_k3": {
+     "ok": true,
+     "dtank": 16.1,
+     "miss": 95.0,
+     "secs": 0.4,
+     "planner_dtank": 15.2
+    },
+    "s03_c0_k4": {
+     "ok": false,
+     "dtank": 19.3,
+     "miss": 111434.6,
+     "secs": 4.3,
+     "planner_dtank": 19.3
+    },
+    "s03_c0_k5": {
+     "ok": false,
+     "dtank": 31.3,
+     "miss": 39716.0,
+     "secs": 3.9,
+     "planner_dtank": 31.6
+    },
+    "s03_c0_k6": {
+     "ok": false,
+     "dtank": 35.7,
+     "miss": 60056.8,
+     "secs": 3.9,
+     "planner_dtank": 36.0
+    },
+    "s03_c0_k7": {
+     "ok": false,
+     "dtank": 334.3,
+     "miss": 14860.1,
+     "secs": 4.1,
+     "planner_dtank": 334.7
+    }
+   }
+  },
+  {
+   "craft": 1,
+   "ok": true,
+   "error": null,
+   "wall_s": 120.0,
+   "plan_s": 93.9,
+   "n_columns": 11,
+   "planbeam": [
+    {
+     "n_new": 1,
+     "dtank_min": 7.2,
+     "potential_of_cheapest": 0,
+     "potential_max": 3,
+     "n_cols": 7
+    },
+    {
+     "n_new": 2,
+     "dtank_min": 21.5,
+     "potential_of_cheapest": 0,
+     "potential_max": 3,
+     "n_cols": 3
+    },
+    {
+     "n_new": 3,
+     "dtank_min": 104.2,
+     "potential_of_cheapest": 2,
+     "potential_max": 2,
+     "n_cols": 1
+    }
+   ],
+   "segbeam": {
+    "1": {
+     "dtank_min": 20.907643274501424,
+     "potential_of_cheapest": 0,
+     "potential_max": 3,
+     "n_cols": 7
+    },
+    "2": {
+     "dtank_min": 36.98958788410357,
+     "potential_of_cheapest": 0,
+     "potential_max": 3,
+     "n_cols": 7
+    },
+    "3": {
+     "dtank_min": 72.60034199405197,
+     "potential_of_cheapest": 2,
+     "potential_max": 2,
+     "n_cols": 4
+    },
+    "4": {
+     "dtank_min": 90.48108568785369,
+     "potential_of_cheapest": 2,
+     "potential_max": 2,
+     "n_cols": 1
+    }
+   },
+   "seg_wall_s": 368.0,
+   "regrid": {
+    "s03_c1_k0": {
+     "ok": true,
+     "dtank": 104.1,
+     "miss": 68.7,
+     "secs": 0.9,
+     "planner_dtank": 104.2
+    },
+    "s03_c1_k1": {
+     "ok": true,
+     "dtank": 21.4,
+     "miss": 2.0,
+     "secs": 0.2,
+     "planner_dtank": 21.5
+    },
+    "s03_c1_k2": {
+     "ok": true,
+     "dtank": 34.0,
+     "miss": 0.7,
+     "secs": 0.2,
+     "planner_dtank": 34.2
+    },
+    "s03_c1_k3": {
+     "ok": true,
+     "dtank": 58.0,
+     "miss": 3.3,
+     "secs": 0.2,
+     "planner_dtank": 58.2
+    },
+    "s03_c1_k4": {
+     "ok": true,
+     "dtank": 7.1,
+     "miss": 3.5,
+     "secs": 0.2,
+     "planner_dtank": 7.2
+    },
+    "s03_c1_k5": {
+     "ok": true,
+     "dtank": 20.8,
+     "miss": 4.1,
+     "secs": 0.2,
+     "planner_dtank": 20.9
+    },
+    "s03_c1_k6": {
+     "ok": true,
+     "dtank": 21.3,
+     "miss": 1.6,
+     "secs": 0.2,
+     "planner_dtank": 21.4
+    },
+    "s03_c1_k7": {
+     "ok": true,
+     "dtank": 27.5,
+     "miss": 1.8,
+     "secs": 0.2,
+     "planner_dtank": 27.6
+    },
+    "s03_c1_k8": {
+     "ok": true,
+     "dtank": 34.2,
+     "miss": 4.4,
+     "secs": 0.2,
+     "planner_dtank": 34.4
+    },
+    "s03_c1_k9": {
+     "ok": true,
+     "dtank": 36.0,
+     "miss": 1.7,
+     "secs": 0.3,
+     "planner_dtank": 36.1
+    },
+    "s03_c1_k10": {
+     "ok": true,
+     "dtank": 38.6,
+     "miss": 72.0,
+     "secs": 1.3,
+     "planner_dtank": 38.7
+    }
+   }
+  },
+  {
+   "craft": 4,
+   "ok": true,
+   "error": null,
+   "wall_s": 129.9,
+   "plan_s": 86.4,
+   "n_columns": 12,
+   "planbeam": [
+    {
+     "n_new": 1,
+     "dtank_min": 1.2,
+     "potential_of_cheapest": 2,
+     "potential_max": 3,
+     "n_cols": 7
+    },
+    {
+     "n_new": 2,
+     "dtank_min": 6.0,
+     "potential_of_cheapest": 0,
+     "potential_max": 3,
+     "n_cols": 2
+    },
+    {
+     "n_new": 3,
+     "dtank_min": 11.9,
+     "potential_of_cheapest": 0,
+     "potential_max": 3,
+     "n_cols": 2
+    },
+    {
+     "n_new": 4,
+     "dtank_min": 71.9,
+     "potential_of_cheapest": 0,
+     "potential_max": 0,
+     "n_cols": 1
+    }
+   ],
+   "segbeam": {
+    "1": {
+     "dtank_min": 2.58718854669371,
+     "potential_of_cheapest": 3,
+     "potential_max": 3,
+     "n_cols": 6
+    },
+    "2": {
+     "dtank_min": 16.085632226556186,
+     "potential_of_cheapest": 3,
+     "potential_max": 3,
+     "n_cols": 7
+    },
+    "3": {
+     "dtank_min": 57.624866440007395,
+     "potential_of_cheapest": 3,
+     "potential_max": 3,
+     "n_cols": 4
+    },
+    "4": {
+     "dtank_min": 184.0272384646729,
+     "potential_of_cheapest": 0,
+     "potential_max": 1,
+     "n_cols": 2
+    }
+   },
+   "seg_wall_s": 482.1,
+   "regrid": {
+    "s03_c4_k0": {
+     "ok": true,
+     "dtank": 71.9,
+     "miss": 50.8,
+     "secs": 0.3,
+     "planner_dtank": 71.9
+    },
+    "s03_c4_k1": {
+     "ok": true,
+     "dtank": 11.9,
+     "miss": 18.9,
+     "secs": 0.2,
+     "planner_dtank": 11.9
+    },
+    "s03_c4_k2": {
+     "ok": true,
+     "dtank": 20.7,
+     "miss": 49.4,
+     "secs": 0.3,
+     "planner_dtank": 20.7
+    },
+    "s03_c4_k3": {
+     "ok": true,
+     "dtank": 6.0,
+     "miss": 22.0,
+     "secs": 0.3,
+     "planner_dtank": 6.0
+    },
+    "s03_c4_k4": {
+     "ok": true,
+     "dtank": 14.7,
+     "miss": 25.3,
+     "secs": 0.3,
+     "planner_dtank": 14.8
+    },
+    "s03_c4_k5": {
+     "ok": true,
+     "dtank": 1.1,
+     "miss": 2.7,
+     "secs": 0.2,
+     "planner_dtank": 1.2
+    },
+    "s03_c4_k6": {
+     "ok": true,
+     "dtank": 2.2,
+     "miss": 82.7,
+     "secs": 1.0,
+     "planner_dtank": 2.5
+    },
+    "s03_c4_k7": {
+     "ok": true,
+     "dtank": 2.3,
+     "miss": 75.3,
+     "secs": 0.9,
+     "planner_dtank": 2.9
+    },
+    "s03_c4_k8": {
+     "ok": true,
+     "dtank": 3.5,
+     "miss": 76.5,
+     "secs": 1.1,
+     "planner_dtank": 4.2
+    },
+    "s03_c4_k9": {
+     "ok": true,
+     "dtank": 4.1,
+     "miss": 44.1,
+     "secs": 0.2,
+     "planner_dtank": 4.2
+    },
+    "s03_c4_k10": {
+     "ok": true,
+     "dtank": 6.9,
+     "miss": 3.8,
+     "secs": 0.3,
+     "planner_dtank": 7.0
+    },
+    "s03_c4_k11": {
+     "ok": true,
+     "dtank": 17.4,
+     "miss": 61.1,
+     "secs": 2.3,
+     "planner_dtank": 19.4
+    }
+   }
+  },
+  {
+   "craft": 7,
+   "ok": true,
+   "error": null,
+   "wall_s": 97.4,
+   "plan_s": 78.2,
+   "n_columns": 11,
+   "planbeam": [
+    {
+     "n_new": 1,
+     "dtank_min": 1.8,
+     "potential_of_cheapest": 2,
+     "potential_max": 3,
+     "n_cols": 8
+    },
+    {
+     "n_new": 2,
+     "dtank_min": 18.0,
+     "potential_of_cheapest": 1,
+     "potential_max": 1,
+     "n_cols": 1
+    },
+    {
+     "n_new": 3,
+     "dtank_min": 25.9,
+     "potential_of_cheapest": 0,
+     "potential_max": 1,
+     "n_cols": 2
+    }
+   ],
+   "segbeam": {
+    "1": {
+     "dtank_min": 1.7845908351226853,
+     "potential_of_cheapest": 2,
+     "potential_max": 3,
+     "n_cols": 7
+    },
+    "2": {
+     "dtank_min": 23.153882640913707,
+     "potential_of_cheapest": 0,
+     "potential_max": 3,
+     "n_cols": 8
+    },
+    "3": {
+     "dtank_min": 96.094691902509,
+     "potential_of_cheapest": 2,
+     "potential_max": 2,
+     "n_cols": 1
+    },
+    "4": {
+     "dtank_min": 219.09705350354034,
+     "potential_of_cheapest": 0,
+     "potential_max": 0,
+     "n_cols": 1
+    }
+   },
+   "seg_wall_s": 377.0,
+   "regrid": {
+    "s03_c7_k0": {
+     "ok": true,
+     "dtank": 25.8,
+     "miss": 8.4,
+     "secs": 0.2,
+     "planner_dtank": 25.9
+    },
+    "s03_c7_k1": {
+     "ok": true,
+     "dtank": 32.1,
+     "miss": 30.7,
+     "secs": 0.3,
+     "planner_dtank": 32.3
+    },
+    "s03_c7_k2": {
+     "ok": true,
+     "dtank": 17.8,
+     "miss": 3.0,
+     "secs": 0.2,
+     "planner_dtank": 18.0
+    },
+    "s03_c7_k3": {
+     "ok": true,
+     "dtank": 1.7,
+     "miss": 14.3,
+     "secs": 0.2,
+     "planner_dtank": 1.8
+    },
+    "s03_c7_k4": {
+     "ok": true,
+     "dtank": 5.5,
+     "miss": 5.1,
+     "secs": 0.2,
+     "planner_dtank": 5.5
+    },
+    "s03_c7_k5": {
+     "ok": true,
+     "dtank": 8.6,
+     "miss": 31.1,
+     "secs": 0.1,
+     "planner_dtank": 8.7
+    },
+    "s03_c7_k6": {
+     "ok": true,
+     "dtank": 10.7,
+     "miss": 14.1,
+     "secs": 0.2,
+     "planner_dtank": 10.8
+    },
+    "s03_c7_k7": {
+     "ok": true,
+     "dtank": 11.1,
+     "miss": 15.4,
+     "secs": 0.2,
+     "planner_dtank": 11.2
+    },
+    "s03_c7_k8": {
+     "ok": true,
+     "dtank": 15.5,
+     "miss": 5.1,
+     "secs": 0.2,
+     "planner_dtank": 15.5
+    },
+    "s03_c7_k9": {
+     "ok": true,
+     "dtank": 38.3,
+     "miss": 71.6,
+     "secs": 2.0,
+     "planner_dtank": 36.0
+    },
+    "s03_c7_k10": {
+     "ok": true,
+     "dtank": 62.7,
+     "miss": 7.3,
+     "secs": 0.2,
+     "planner_dtank": 62.7
+    }
+   }
+  }
+ ],
+ "total_wall_s": 388.0,
+ "built": "2026-09-24 06:19:05"
+}

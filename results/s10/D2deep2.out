@@ -1,0 +1,5 @@
+[17:10:01] deepening 3 routes of results/s10/D2deep (J 224.901, covered 79)
+[17:16:47]   dd03: 34 -> 34 fb, 952 -> 952 kg, 0.0387 -> 0.0387 J/fb  (+[])  (406 s)
+[17:22:53]   dd05: 33 -> 34 fb, 922 -> 960 kg, 0.0389 -> 0.0389 J/fb  (+[293])  (772 s)
+[17:23:44]   dd15: 30 -> 32 fb, 942 -> 991 kg, 0.0435 -> 0.0424 J/fb  (+[13, 67])  (823 s)
+[17:23:44] deepened fleet: covered 80, sum J_i 3.996, total flybys 100 (surplus 20)

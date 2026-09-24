@@ -1,0 +1,15 @@
+[23:09:15] column F02p20: pool 298, S [15], p 0.02, member H, seed 221, absorb [15, 17, 20, 22, 33, 36, 53, 64, 71, 75, 90, 93, 108, 110, 118, 119, 132, 134, 137, 138, 139, 143, 157, 158, 168, 180, 216, 218, 219, 234, 243, 251, 254, 262, 288]
+[23:13:41]   plan H: pool 298, S [15], deepest 46, deepest with S 46; front 46:1012 46:1015* 45:980* 44:966 44:974* 43:958* 42:946 41:936 40:928 39:922 (266 s)
+[23:13:58]     settle H 46 fb (S [15]) planner 1015 -> twin 1081 miss 34 OK (16 s)
+[23:14:10]     settle H 46 fb (S []) planner 1012 -> twin 1087 miss 11 OK (12 s)
+[23:14:23]     settle H 45 fb (S [15]) planner 980 -> twin 1057 miss 3 OK (13 s)
+[23:14:35]     settle H 42 fb (S []) planner 946 -> twin 1011 miss 60 OK (12 s)
+[23:14:45]     settle H 39 fb (S []) planner 922 -> twin 971 miss 2 OK (10 s)
+[23:14:55]     settle H 36 fb (S []) planner 883 -> twin 921 miss 2 OK (10 s)
+[23:14:58]     absorb[h46]: 8 approaches of [33, 71, 118, 134, 139, 168, 288]; lintwin 71@4639d 0.086AU 27kg, 139@4235d 0.110AU 83kg, 288@258d 0.030AU 180kg, 134@4397d 0.188AU 221kg, 118@2548d 0.162AU 233kg, 134@2639d 0.047AU 247kg
+[23:15:11]     absorb[h46]: insert 71 at 4639 d (lintwin 27 kg) -> OK tank 1121 (+40.8 kg) (13 s)
+[23:15:14]     absorb[h46+71]: 7 approaches of [33, 118, 134, 139, 168, 288]; lintwin 134@2631d 0.048AU 139kg, 139@4235d 0.110AU 150kg, 134@4401d 0.188AU 207kg, 33@4556d 0.063AU 209kg, 288@254d 0.030AU 233kg, 118@2548d 0.162AU 375kg
+[23:15:17]     absorb[h46]: 9 approaches of [33, 71, 118, 134, 139, 168, 218, 288]; lintwin 71@4639d 0.088AU 35kg, 139@4239d 0.110AU 125kg, 134@2639d 0.048AU 151kg, 288@258d 0.030AU 157kg, 134@4393d 0.188AU 198kg, 218@5346d 0.183AU 212kg
+[23:15:21]     absorb[h46]: insert 71 at 4639 d (lintwin 35 kg) -> OK tank 1132 (+45.0 kg) (4 s)
+[23:15:24]     absorb[h46+71]: 8 approaches of [33, 118, 134, 139, 168, 218, 288]; lintwin 134@2639d 0.048AU 162kg, 139@4231d 0.110AU 171kg, 33@4560d 0.064AU 229kg, 288@262d 0.030AU 233kg, 134@4393d 0.188AU 236kg, 218@5354d 0.183AU 241kg
+[23:15:24] column F02p20 done: 8 columns (2 absorbed); 369 s

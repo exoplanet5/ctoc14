@@ -1,0 +1,1575 @@
+{
+ "steps": [
+  {
+   "k": 1,
+   "pool": 38,
+   "S": [
+    64,
+    138
+   ],
+   "end": {
+    "kind": "no_children",
+    "depth": 20
+   },
+   "deepest": 20,
+   "settles": 373,
+   "settle_ok": 363,
+   "wall_s": 2025,
+   "ncols": 39,
+   "took": {
+    "f": "results/s15/cols/t03/TB1g/route_TB1gs1_20.npz",
+    "n": 20,
+    "tank": 748.33,
+    "iso": [],
+    "s_taken": []
+   },
+   "covered": 20
+  },
+  {
+   "k": 2,
+   "pool": 18,
+   "S": [
+    64,
+    138
+   ],
+   "end": {
+    "kind": "no_children",
+    "depth": 12
+   },
+   "deepest": 12,
+   "settles": 223,
+   "settle_ok": 179,
+   "wall_s": 1345,
+   "ncols": 17,
+   "took": {
+    "f": "results/s15/cols/t03/TB1g/route_TB1gs2_12.npz",
+    "n": 12,
+    "tank": 827.29,
+    "iso": [
+     64
+    ],
+    "s_taken": [
+     64
+    ]
+   },
+   "covered": 32
+  }
+ ],
+ "covered": [
+  15,
+  20,
+  22,
+  33,
+  51,
+  58,
+  64,
+  71,
+  93,
+  95,
+  104,
+  108,
+  110,
+  132,
+  139,
+  145,
+  173,
+  175,
+  180,
+  199,
+  213,
+  220,
+  223,
+  234,
+  243,
+  246,
+  247,
+  249,
+  262,
+  283,
+  288,
+  298
+ ],
+ "cols": [
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_20.npz",
+   "n": 20,
+   "tank": 748.33,
+   "miss": 57.8,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    51,
+    58,
+    95,
+    104,
+    108,
+    132,
+    175,
+    180,
+    213,
+    223,
+    234,
+    246,
+    247,
+    249,
+    262,
+    283,
+    288,
+    298
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 5197.0,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_19.npz",
+   "n": 19,
+   "tank": 732.87,
+   "miss": 57.8,
+   "kind": "score",
+   "targets": [
+    15,
+    17,
+    20,
+    51,
+    58,
+    95,
+    104,
+    108,
+    132,
+    175,
+    180,
+    213,
+    223,
+    234,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 5094.5,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_19_1.npz",
+   "n": 19,
+   "tank": 729.5,
+   "miss": 53.1,
+   "kind": "light",
+   "targets": [
+    15,
+    17,
+    20,
+    51,
+    58,
+    95,
+    104,
+    108,
+    132,
+    175,
+    213,
+    223,
+    234,
+    246,
+    247,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 5193.0,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_18.npz",
+   "n": 18,
+   "tank": 720.77,
+   "miss": 23.0,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    51,
+    58,
+    95,
+    104,
+    108,
+    132,
+    175,
+    213,
+    223,
+    234,
+    246,
+    249,
+    262,
+    283,
+    288,
+    298
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 4856.6,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_18_1.npz",
+   "n": 18,
+   "tank": 714.96,
+   "miss": 44.8,
+   "kind": "light",
+   "targets": [
+    15,
+    17,
+    20,
+    51,
+    95,
+    104,
+    108,
+    132,
+    175,
+    213,
+    223,
+    234,
+    246,
+    247,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 5193.1,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_17.npz",
+   "n": 17,
+   "tank": 716.97,
+   "miss": 28.3,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    51,
+    58,
+    95,
+    104,
+    108,
+    132,
+    175,
+    213,
+    223,
+    234,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 4539.2,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_17_1.npz",
+   "n": 17,
+   "tank": 706.37,
+   "miss": 30.1,
+   "kind": "light",
+   "targets": [
+    15,
+    20,
+    51,
+    95,
+    104,
+    108,
+    132,
+    175,
+    213,
+    223,
+    234,
+    246,
+    249,
+    262,
+    283,
+    288,
+    298
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 4856.6,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_16.npz",
+   "n": 16,
+   "tank": 702.49,
+   "miss": 27.4,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    51,
+    95,
+    104,
+    108,
+    132,
+    175,
+    213,
+    223,
+    234,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 4539.2,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_15.npz",
+   "n": 15,
+   "tank": 705.64,
+   "miss": 28.0,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    58,
+    71,
+    95,
+    104,
+    132,
+    175,
+    234,
+    243,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 4058.3,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_15_1.npz",
+   "n": 15,
+   "tank": 699.68,
+   "miss": 17.0,
+   "kind": "light",
+   "targets": [
+    15,
+    20,
+    51,
+    95,
+    104,
+    132,
+    175,
+    223,
+    234,
+    243,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 4267.6,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_14.npz",
+   "n": 14,
+   "tank": 703.45,
+   "miss": 25.4,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    58,
+    95,
+    104,
+    132,
+    173,
+    175,
+    234,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 3674.0,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_14_1.npz",
+   "n": 14,
+   "tank": 691.61,
+   "miss": 67.6,
+   "kind": "light",
+   "targets": [
+    15,
+    20,
+    51,
+    95,
+    104,
+    132,
+    223,
+    234,
+    243,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 4267.8,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_13.npz",
+   "n": 13,
+   "tank": 686.65,
+   "miss": 54.2,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    58,
+    95,
+    104,
+    132,
+    175,
+    234,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 3405.0,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_13_1.npz",
+   "n": 13,
+   "tank": 686.2,
+   "miss": 35.4,
+   "kind": "light",
+   "targets": [
+    15,
+    20,
+    51,
+    95,
+    104,
+    132,
+    234,
+    243,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 4049.1,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_12.npz",
+   "n": 12,
+   "tank": 680.03,
+   "miss": 36.8,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    58,
+    95,
+    104,
+    132,
+    175,
+    234,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 3096.2,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_12_1.npz",
+   "n": 12,
+   "tank": 673.87,
+   "miss": 8.2,
+   "kind": "light",
+   "targets": [
+    15,
+    20,
+    95,
+    104,
+    132,
+    175,
+    234,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 3404.0,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_11.npz",
+   "n": 11,
+   "tank": 667.03,
+   "miss": 9.8,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    95,
+    104,
+    132,
+    175,
+    234,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 2869.1,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_11_1.npz",
+   "n": 11,
+   "tank": 666.62,
+   "miss": 0.9,
+   "kind": "light",
+   "targets": [
+    15,
+    20,
+    95,
+    104,
+    132,
+    234,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 3405.1,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_10.npz",
+   "n": 10,
+   "tank": 660.85,
+   "miss": 33.8,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    95,
+    104,
+    132,
+    175,
+    234,
+    249,
+    262,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 2868.4,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_10_1.npz",
+   "n": 10,
+   "tank": 656.99,
+   "miss": 34.9,
+   "kind": "light",
+   "targets": [
+    15,
+    20,
+    95,
+    104,
+    132,
+    175,
+    234,
+    246,
+    249,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 3414.1,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_10_2.npz",
+   "n": 10,
+   "tank": 690.06,
+   "miss": 20.5,
+   "kind": "s",
+   "targets": [
+    20,
+    95,
+    104,
+    120,
+    132,
+    138,
+    175,
+    199,
+    223,
+    249
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 2796.0,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_9.npz",
+   "n": 9,
+   "tank": 653.67,
+   "miss": 1.5,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    95,
+    104,
+    175,
+    234,
+    249,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 2518.8,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_9_1.npz",
+   "n": 9,
+   "tank": 645.1,
+   "miss": 46.1,
+   "kind": "light",
+   "targets": [
+    20,
+    95,
+    104,
+    220,
+    234,
+    247,
+    249,
+    262,
+    283
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 3061.6,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_9_2.npz",
+   "n": 9,
+   "tank": 679.4,
+   "miss": 14.4,
+   "kind": "s",
+   "targets": [
+    20,
+    95,
+    104,
+    120,
+    138,
+    175,
+    199,
+    223,
+    249
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 2231.7,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_8.npz",
+   "n": 8,
+   "tank": 672.01,
+   "miss": 36.7,
+   "kind": "score",
+   "targets": [
+    20,
+    95,
+    120,
+    138,
+    175,
+    199,
+    223,
+    249
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 1750.5,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_8_1.npz",
+   "n": 8,
+   "tank": 639.06,
+   "miss": 24.7,
+   "kind": "light",
+   "targets": [
+    20,
+    95,
+    104,
+    220,
+    234,
+    247,
+    249,
+    262
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 2865.7,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_7.npz",
+   "n": 7,
+   "tank": 659.8,
+   "miss": 14.1,
+   "kind": "score",
+   "targets": [
+    20,
+    95,
+    138,
+    175,
+    199,
+    223,
+    249
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 1439.0,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_7_1.npz",
+   "n": 7,
+   "tank": 625.78,
+   "miss": 10.9,
+   "kind": "light",
+   "targets": [
+    15,
+    20,
+    95,
+    104,
+    234,
+    246,
+    249
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 2205.7,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_6.npz",
+   "n": 6,
+   "tank": 648.44,
+   "miss": 3.1,
+   "kind": "score",
+   "targets": [
+    17,
+    95,
+    175,
+    199,
+    234,
+    249
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1309.9,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_6_1.npz",
+   "n": 6,
+   "tank": 623.39,
+   "miss": 3.9,
+   "kind": "light",
+   "targets": [
+    95,
+    175,
+    199,
+    220,
+    247,
+    249
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 2270.4,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_6_2.npz",
+   "n": 6,
+   "tank": 654.72,
+   "miss": 2.2,
+   "kind": "s",
+   "targets": [
+    20,
+    95,
+    138,
+    175,
+    199,
+    249
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 1438.0,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_5.npz",
+   "n": 5,
+   "tank": 625.95,
+   "miss": 6.5,
+   "kind": "score",
+   "targets": [
+    95,
+    138,
+    175,
+    223,
+    234
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 1439.8,
+   "t_launch_d": 580.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_5_1.npz",
+   "n": 5,
+   "tank": 619.78,
+   "miss": 0.3,
+   "kind": "light",
+   "targets": [
+    20,
+    95,
+    104,
+    234,
+    249
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1578.7,
+   "t_launch_d": 640.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_4.npz",
+   "n": 4,
+   "tank": 622.91,
+   "miss": 1.7,
+   "kind": "score",
+   "targets": [
+    95,
+    175,
+    199,
+    249
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 818.7,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_4_1.npz",
+   "n": 4,
+   "tank": 605.83,
+   "miss": 0.0,
+   "kind": "light",
+   "targets": [
+    110,
+    132,
+    173,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1498.6,
+   "t_launch_d": 340.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_4_2.npz",
+   "n": 4,
+   "tank": 619.18,
+   "miss": 1.9,
+   "kind": "s",
+   "targets": [
+    71,
+    110,
+    138,
+    173
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 1718.6,
+   "t_launch_d": 340.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_3.npz",
+   "n": 3,
+   "tank": 612.47,
+   "miss": 86.5,
+   "kind": "score",
+   "targets": [
+    95,
+    199,
+    249
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 815.4,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_3_1.npz",
+   "n": 3,
+   "tank": 604.94,
+   "miss": 0.1,
+   "kind": "light",
+   "targets": [
+    110,
+    132,
+    173
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1413.5,
+   "t_launch_d": 340.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_3_2.npz",
+   "n": 3,
+   "tank": 609.02,
+   "miss": 23.7,
+   "kind": "s",
+   "targets": [
+    110,
+    138,
+    173
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 1438.0,
+   "t_launch_d": 340.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_12.npz",
+   "n": 12,
+   "tank": 827.29,
+   "miss": 90.8,
+   "kind": "score",
+   "targets": [
+    22,
+    33,
+    64,
+    71,
+    93,
+    110,
+    139,
+    145,
+    173,
+    199,
+    220,
+    243
+   ],
+   "iso": [
+    64
+   ],
+   "s_taken": [
+    64
+   ],
+   "t_end_d": 5402.5,
+   "t_launch_d": 440.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_11.npz",
+   "n": 11,
+   "tank": 776.94,
+   "miss": 63.4,
+   "kind": "score",
+   "targets": [
+    22,
+    33,
+    64,
+    71,
+    120,
+    139,
+    145,
+    173,
+    199,
+    220,
+    243
+   ],
+   "iso": [
+    64
+   ],
+   "s_taken": [
+    64
+   ],
+   "t_end_d": 4643.1,
+   "t_launch_d": 440.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_11_1.npz",
+   "n": 11,
+   "tank": 761.51,
+   "miss": 83.7,
+   "kind": "light",
+   "targets": [
+    22,
+    33,
+    64,
+    71,
+    110,
+    139,
+    145,
+    173,
+    199,
+    220,
+    243
+   ],
+   "iso": [
+    64
+   ],
+   "s_taken": [
+    64
+   ],
+   "t_end_d": 5240.9,
+   "t_launch_d": 440.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_10.npz",
+   "n": 10,
+   "tank": 707.97,
+   "miss": 39.0,
+   "kind": "score",
+   "targets": [
+    22,
+    33,
+    64,
+    120,
+    139,
+    145,
+    173,
+    199,
+    220,
+    243
+   ],
+   "iso": [
+    64
+   ],
+   "s_taken": [
+    64
+   ],
+   "t_end_d": 4531.9,
+   "t_launch_d": 440.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_10_1.npz",
+   "n": 10,
+   "tank": 794.75,
+   "miss": 38.8,
+   "kind": "s",
+   "targets": [
+    22,
+    64,
+    71,
+    93,
+    110,
+    120,
+    138,
+    139,
+    173,
+    220
+   ],
+   "iso": [
+    64,
+    138
+   ],
+   "s_taken": [
+    64,
+    138
+   ],
+   "t_end_d": 4393.1,
+   "t_launch_d": 340.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_9.npz",
+   "n": 9,
+   "tank": 699.26,
+   "miss": 33.1,
+   "kind": "score",
+   "targets": [
+    22,
+    33,
+    64,
+    139,
+    145,
+    173,
+    199,
+    220,
+    243
+   ],
+   "iso": [
+    64
+   ],
+   "s_taken": [
+    64
+   ],
+   "t_end_d": 4168.4,
+   "t_launch_d": 440.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_9_1.npz",
+   "n": 9,
+   "tank": 738.64,
+   "miss": 2.2,
+   "kind": "s",
+   "targets": [
+    64,
+    71,
+    110,
+    120,
+    138,
+    173,
+    220,
+    243,
+    280
+   ],
+   "iso": [
+    64,
+    138
+   ],
+   "s_taken": [
+    64,
+    138
+   ],
+   "t_end_d": 3978.4,
+   "t_launch_d": 340.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_8.npz",
+   "n": 8,
+   "tank": 675.89,
+   "miss": 41.1,
+   "kind": "score",
+   "targets": [
+    22,
+    33,
+    64,
+    139,
+    145,
+    173,
+    199,
+    243
+   ],
+   "iso": [
+    64
+   ],
+   "s_taken": [
+    64
+   ],
+   "t_end_d": 3632.0,
+   "t_launch_d": 440.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_8_1.npz",
+   "n": 8,
+   "tank": 729.3,
+   "miss": 61.6,
+   "kind": "s",
+   "targets": [
+    64,
+    71,
+    110,
+    120,
+    138,
+    173,
+    220,
+    243
+   ],
+   "iso": [
+    64,
+    138
+   ],
+   "s_taken": [
+    64,
+    138
+   ],
+   "t_end_d": 3831.5,
+   "t_launch_d": 340.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_7.npz",
+   "n": 7,
+   "tank": 664.24,
+   "miss": 38.8,
+   "kind": "score",
+   "targets": [
+    33,
+    64,
+    139,
+    173,
+    199,
+    220,
+    243
+   ],
+   "iso": [
+    64
+   ],
+   "s_taken": [
+    64
+   ],
+   "t_end_d": 3213.6,
+   "t_launch_d": 440.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_7_1.npz",
+   "n": 7,
+   "tank": 682.69,
+   "miss": 48.1,
+   "kind": "s",
+   "targets": [
+    64,
+    71,
+    110,
+    120,
+    138,
+    173,
+    220
+   ],
+   "iso": [
+    64,
+    138
+   ],
+   "s_taken": [
+    64,
+    138
+   ],
+   "t_end_d": 3228.8,
+   "t_launch_d": 340.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_6.npz",
+   "n": 6,
+   "tank": 658.43,
+   "miss": 81.4,
+   "kind": "score",
+   "targets": [
+    64,
+    71,
+    110,
+    138,
+    173,
+    220
+   ],
+   "iso": [
+    64,
+    138
+   ],
+   "s_taken": [
+    64,
+    138
+   ],
+   "t_end_d": 2698.7,
+   "t_launch_d": 340.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_6_1.npz",
+   "n": 6,
+   "tank": 655.94,
+   "miss": 69.4,
+   "kind": "light",
+   "targets": [
+    33,
+    64,
+    139,
+    173,
+    199,
+    243
+   ],
+   "iso": [
+    64
+   ],
+   "s_taken": [
+    64
+   ],
+   "t_end_d": 2692.3,
+   "t_launch_d": 440.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_5.npz",
+   "n": 5,
+   "tank": 633.52,
+   "miss": 5.0,
+   "kind": "score",
+   "targets": [
+    22,
+    93,
+    120,
+    173,
+    220
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1765.6,
+   "t_launch_d": 160.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_5_1.npz",
+   "n": 5,
+   "tank": 662.08,
+   "miss": 67.0,
+   "kind": "s",
+   "targets": [
+    71,
+    110,
+    120,
+    138,
+    173
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 1919.4,
+   "t_launch_d": 340.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_4.npz",
+   "n": 4,
+   "tank": 619.18,
+   "miss": 1.9,
+   "kind": "score",
+   "targets": [
+    71,
+    110,
+    138,
+    173
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 1718.6,
+   "t_launch_d": 340.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_3.npz",
+   "n": 3,
+   "tank": 609.02,
+   "miss": 23.7,
+   "kind": "score",
+   "targets": [
+    110,
+    138,
+    173
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 1438.0,
+   "t_launch_d": 340.0,
+   "step": 2
+  }
+ ],
+ "taken": [
+  {
+   "k": 1,
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs1_20.npz",
+   "n": 20,
+   "tank": 748.33,
+   "targets": [
+    15,
+    20,
+    51,
+    58,
+    95,
+    104,
+    108,
+    132,
+    175,
+    180,
+    213,
+    223,
+    234,
+    246,
+    247,
+    249,
+    262,
+    283,
+    288,
+    298
+   ]
+  },
+  {
+   "k": 2,
+   "f": "results/s15/cols/t03/TB1g/route_TB1gs2_12.npz",
+   "n": 12,
+   "tank": 827.29,
+   "targets": [
+    22,
+    33,
+    64,
+    71,
+    93,
+    110,
+    139,
+    145,
+    173,
+    199,
+    220,
+    243
+   ]
+  }
+ ]
+}

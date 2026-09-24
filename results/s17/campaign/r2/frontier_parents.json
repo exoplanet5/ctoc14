@@ -1,0 +1,281 @@
+[
+ {
+  "N": 9,
+  "K": 298,
+  "msg": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "sec": 10,
+  "bound": 11.722740157581907,
+  "sumJi": 11.722740157582226,
+  "covered": 298,
+  "misses": [],
+  "picks": [
+   {
+    "kind": "parent",
+    "n": 42,
+    "tank": 944.4,
+    "f": "results/s16/polish/D/cols/route_r1_pT07a_42.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 41,
+    "tank": 908.9,
+    "f": "results/s16/polish/C/cols/route_r2_s0_41.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 41,
+    "tank": 986.3,
+    "f": "results/s16/polish/D/cols/route_r3_pT03e_41.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 38,
+    "tank": 913.1,
+    "f": "results/s16/polish/D/cols/route_r4_pT03e_38.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 31,
+    "tank": 958.1,
+    "f": "results/s16/polish/C/cols/route_r6_pT03c_31.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 30,
+    "tank": 901.5,
+    "f": "results/s16/polish/D/cols/route_r6_pT07b_30.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 30,
+    "tank": 1017.1,
+    "f": "results/s16/polish/D/cols/route_r7_pT03f_30.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 24,
+    "tank": 927.2,
+    "f": "results/s16/polish/D/cols/route_r8_pT03f_24.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 21,
+    "tank": 902.8,
+    "f": "results/s16/polish/D/cols/route_r9_pT03f_21.npz"
+   }
+  ]
+ },
+ {
+  "N": 9,
+  "K": 296,
+  "msg": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "sec": 43,
+  "bound": 11.655165511149518,
+  "sumJi": 11.655165511149612,
+  "covered": 296,
+  "misses": [
+   148,
+   212
+  ],
+  "picks": [
+   {
+    "kind": "parent",
+    "n": 42,
+    "tank": 944.4,
+    "f": "results/s16/polish/D/cols/route_r1_pT07a_42.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 41,
+    "tank": 908.9,
+    "f": "results/s16/polish/C/cols/route_r2_s0_41.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 41,
+    "tank": 986.3,
+    "f": "results/s16/polish/D/cols/route_r3_pT03e_41.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 38,
+    "tank": 913.1,
+    "f": "results/s16/polish/D/cols/route_r4_pT03e_38.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 31,
+    "tank": 958.1,
+    "f": "results/s16/polish/C/cols/route_r6_pT03c_31.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 30,
+    "tank": 901.5,
+    "f": "results/s16/polish/D/cols/route_r6_pT07b_30.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 30,
+    "tank": 1017.1,
+    "f": "results/s16/polish/D/cols/route_r7_pT03f_30.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 23,
+    "tank": 894.2,
+    "f": "results/s16/iter/B/cols/route_71319d8dm148_23.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 20,
+    "tank": 869.5,
+    "f": "results/s16/iter/B/cols/route_127fee72m212_20.npz"
+   }
+  ]
+ },
+ {
+  "N": 9,
+  "K": 294,
+  "msg": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+  "sec": 300,
+  "bound": 11.457366637167418,
+  "sumJi": 11.605189100380345,
+  "covered": 294,
+  "misses": [
+   106,
+   148,
+   212,
+   234
+  ],
+  "picks": [
+   {
+    "kind": "parent",
+    "n": 42,
+    "tank": 944.4,
+    "f": "results/s16/polish/D/cols/route_r1_pT07a_42.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 41,
+    "tank": 908.9,
+    "f": "results/s16/polish/C/cols/route_r2_s0_41.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 41,
+    "tank": 986.3,
+    "f": "results/s16/polish/D/cols/route_r3_pT03e_41.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 37,
+    "tank": 895.8,
+    "f": "results/s16/iter/A/cols/route_e793bd4dm106_37.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 31,
+    "tank": 958.1,
+    "f": "results/s16/polish/C/cols/route_r6_pT03c_31.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 30,
+    "tank": 901.5,
+    "f": "results/s16/polish/D/cols/route_r6_pT07b_30.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 29,
+    "tank": 988.5,
+    "f": "results/s16/iter/B/cols/route_9a55d20em234_29.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 23,
+    "tank": 894.2,
+    "f": "results/s16/iter/B/cols/route_71319d8dm148_23.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 20,
+    "tank": 869.5,
+    "f": "results/s16/iter/B/cols/route_127fee72m212_20.npz"
+   }
+  ]
+ },
+ {
+  "N": 8,
+  "K": 286,
+  "msg": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "sec": 73,
+  "bound": 11.183504537288266,
+  "sumJi": 11.183504537288254,
+  "covered": 286,
+  "misses": [
+   17,
+   36,
+   108,
+   118,
+   180,
+   216,
+   219,
+   220,
+   243,
+   247,
+   258,
+   288
+  ],
+  "picks": [
+   {
+    "kind": "parent",
+    "n": 47,
+    "tank": 1256.4,
+    "f": "results/s16/honest/route_b7c4e3c8faca3f12.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 46,
+    "tank": 1047.3,
+    "f": "results/s16/honest/route_be58d4e464bcde4e.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 44,
+    "tank": 1052.7,
+    "f": "results/s16/honest/route_bb728ee395551eda.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 38,
+    "tank": 947.0,
+    "f": "results/s16/swap/it7/cols/route_5f35d307m190x6_38.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 31,
+    "tank": 917.9,
+    "f": "results/s16/polish/C/cols/route_r5_pT05j_31.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 31,
+    "tank": 953.0,
+    "f": "results/s16/swap/it7/cols/route_598527ddm14x52_31.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 29,
+    "tank": 1014.8,
+    "f": "results/s16/iter/B/cols/route_9a55d20em182_29.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 24,
+    "tank": 991.3,
+    "f": "results/s16/iter/A/cols/route_99b5c346x75_24.npz"
+   }
+  ]
+ }
+]

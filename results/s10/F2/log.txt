@@ -1,0 +1,20 @@
+[16:02:06] 240 carriers; switch cost median 1.882 km/s, neighbourhood 1 median 0.000 km/s
+[16:02:06] pools built in 0 s: 1298 events each (median)
+[16:02:06] 16 routes in 0 s
+[16:02:06]   seed  24: 22 flybys over 1 carriers (0 switches), model dv 3.90 phase + 2.84 gap + 0.00 switch km/s, value 18.04
+[16:02:06]   seed   0: 21 flybys over 1 carriers (0 switches), model dv 3.15 phase + 2.77 gap + 0.00 switch km/s, value 19.41
+[16:02:06]   seed  34: 21 flybys over 1 carriers (0 switches), model dv 3.71 phase + 2.18 gap + 0.00 switch km/s, value 17.57
+[16:02:06]   seed  36: 21 flybys over 1 carriers (0 switches), model dv 4.16 phase + 3.01 gap + 0.00 switch km/s, value 17.43
+[16:02:06]   seed   2: 20 flybys over 1 carriers (0 switches), model dv 4.25 phase + 2.79 gap + 0.00 switch km/s, value 19.13
+[16:02:06]   seed  13: 20 flybys over 1 carriers (0 switches), model dv 3.81 phase + 2.99 gap + 0.00 switch km/s, value 18.68
+[16:02:06]   seed  51: 20 flybys over 1 carriers (0 switches), model dv 4.44 phase + 3.65 gap + 0.00 switch km/s, value 16.88
+[16:02:06]   seed  12: 19 flybys over 1 carriers (0 switches), model dv 3.97 phase + 2.31 gap + 0.00 switch km/s, value 18.58
+[16:02:06]   seed  18: 19 flybys over 1 carriers (0 switches), model dv 3.68 phase + 1.75 gap + 0.00 switch km/s, value 18.40
+[16:02:06]   seed  25: 19 flybys over 1 carriers (0 switches), model dv 3.41 phase + 2.44 gap + 0.00 switch km/s, value 18.08
+[16:02:06]   seed  29: 19 flybys over 1 carriers (0 switches), model dv 3.36 phase + 2.35 gap + 0.00 switch km/s, value 17.86
+[16:02:06]   seed  39: 19 flybys over 1 carriers (0 switches), model dv 4.29 phase + 2.77 gap + 0.00 switch km/s, value 17.34
+[16:02:06]   seed  37: 18 flybys over 1 carriers (0 switches), model dv 3.17 phase + 1.21 gap + 0.00 switch km/s, value 17.54
+[16:02:06]   seed  50: 18 flybys over 1 carriers (0 switches), model dv 2.73 phase + 1.54 gap + 0.00 switch km/s, value 16.92
+[16:02:06]   seed  49: 11 flybys over 1 carriers (0 switches), model dv 1.63 phase + 1.58 gap + 0.00 switch km/s, value 16.87
+[16:02:06]   seed  14: 10 flybys over 1 carriers (0 switches), model dv 1.26 phase + 1.00 gap + 0.00 switch km/s, value 19.19
+[16:02:06] -> results/s10/F2/routes.json

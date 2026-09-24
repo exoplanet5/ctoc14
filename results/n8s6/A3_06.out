@@ -1,0 +1,15 @@
+[09:49:06] skeletons: 8 routes, covered 67, J 241.4199; 05:9@670 09:9@734 13:9@668 01:8@647 03:8@642 06:8@678 10:8@653 12:8@664
+[09:49:06] start from results/n8/fill2: 8 routes, covered 241, J 69.2438; 05:36@998 09:36@1061 03:33@919 13:33@939 01:30@896 06:25@815 12:25@840 10:23@867
+[09:49:06] --- 06: pool 231 easy = 74 fresh + 157 stepping stones @ 0.001
+[09:50:14]     06 seg 7: 3 states reach waypoint 254 -- relaxed retry
+[09:50:16]     06 segments: 0:16->18st/4fb 1:108->77st/8fb 2:224->180st/12fb 3:34->298st/17fb 4:240->55st/19fb 5:145->78st/21fb 6:86->226st/25fb 7:254->8st/27fb 8:None->25st/28fb
+[09:50:16]   06: segmented beam 300 drmax 0.15 half 45: 25 final states, deepest 28  (70 s)
+[09:51:33]     06 segments: 0:16->19st/4fb 1:108->78st/7fb 2:224->160st/12fb 3:34->275st/18fb 4:240->64st/20fb 5:145->70st/22fb 6:86->194st/25fb 7:254->74st/27fb 8:None->59st/28fb
+[09:51:33]   06: segmented beam 300 drmax 0.15 half 90: 59 final states, deepest 28  (77 s)
+[09:51:33]   06: Pareto 23:846 24:836 25:879
+[09:51:43]     25 fb: planner 879 -> twin 849 kg (27 fb, 25 new), 0.500 km/s/fb, J_i 1.209, value -0.041 (10 s)
+[09:51:50]     24 fb: planner 836 -> twin 800 kg (24 fb, 24 new), 0.467 km/s/fb, J_i 1.163, value -0.037 (8 s)
+[09:51:59]     23 fb: planner 846 -> twin 786 kg (24 fb, 23 new), 0.437 km/s/fb, J_i 1.150, value 0.000 (8 s)
+[09:51:59] [06] refill REJECTED: 25 new vs 25 at tank 849 vs 815
+[09:51:59] FINAL: 8 routes, covered 241, J 69.2438; 05:36@998 09:36@1061 03:33@919 13:33@939 01:30@896 06:25@815 12:25@840 10:23@867; leftovers 57: [2, 5, 12, 17, 31, 32, 40, 41, 53, 57, 61, 64, 69, 75, 93, 94, 100, 104, 107, 110, 120, 124, 129, 130, 133, 134, 138, 140, 150, 152, 156, 159, 165, 167, 171, 172, 175, 177, 182, 198, 204, 209, 215, 223, 225, 234, 250, 253, 263, 266, 274, 275, 277, 283, 286, 287, 288]
+[09:51:59] sum J_i 10.244 -> J 12.244 if the leftovers insert for free, 69.244 as misses

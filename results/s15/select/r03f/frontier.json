@@ -1,0 +1,109 @@
+{
+ "292": {
+  "covered": 292,
+  "sumJi": 11.7824,
+  "picks": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_06.npz",
+   "results/s13/gen/g02x/tailB55k4/lib/route_07_T6_26.npz",
+   "results/s15/cols/t03/TB5f/route_TB5fs1_21_2.npz",
+   "results/s15/cols/t03/TB5f/route_TB5fs2_12_1.npz"
+  ],
+  "misses": [
+   104,
+   120,
+   139,
+   219,
+   234,
+   243
+  ]
+ },
+ "293": {
+  "covered": 293,
+  "sumJi": 11.8059,
+  "picks": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_06.npz",
+   "results/s13/gen/g02x/tailB55k4/lib/route_07_T6_26.npz",
+   "results/s15/cols/t03/TB5f/route_TB5fs1_21_2.npz",
+   "results/s15/cols/t03/TB5f/route_TB5fs2_13_1.npz"
+  ],
+  "misses": [
+   33,
+   110,
+   138,
+   243,
+   280
+  ]
+ },
+ "294": {
+  "covered": 294,
+  "sumJi": 11.8319,
+  "picks": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_06.npz",
+   "results/s13/gen/g02x/tailB55k4/lib/route_07_T6_26.npz",
+   "results/s15/cols/t03/TB5f/route_TB5fs1_21_2.npz",
+   "results/s15/cols/t03/TB5f/route_TB5fs2_14_1.npz"
+  ],
+  "misses": [
+   33,
+   110,
+   243,
+   280
+  ]
+ },
+ "295": {
+  "covered": 295,
+  "sumJi": 11.8697,
+  "picks": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_06.npz",
+   "results/s13/gen/g02x/tailB55k4/lib/route_07_T6_26.npz",
+   "results/s15/cols/t03/TB5f/route_TB5fs1_22.npz",
+   "results/s15/cols/t03/TB5f/route_TB5fs2_14_1.npz"
+  ],
+  "misses": [
+   33,
+   110,
+   280
+  ]
+ },
+ "296": {
+  "covered": 296,
+  "sumJi": 11.9197,
+  "picks": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+   "results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz",
+   "results/s13/gen/g02x/tailB55k4/lib/route_07_T6_26.npz",
+   "results/s15/cols/t03/TB5f/route_TB5fs1_22.npz",
+   "results/s15/cols/t03/TB5f/route_TB5fs2_14_1.npz"
+  ],
+  "misses": [
+   33,
+   280
+  ]
+ },
+ "297": null,
+ "298": null
+}

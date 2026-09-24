@@ -1,0 +1,17 @@
+[12:57:27] k=9 carriers, 200 subgradient iterations, step 0.06
+[12:57:27] [   1] distinct 130 (total 179, dup 49), per route [22, 22, 20, 20, 20, 19, 19, 19, 18]  <-- BEST
+[12:57:27] [   3] distinct 131 (total 174, dup 43), per route [22, 21, 20, 20, 19, 18, 18, 18, 18]  <-- BEST
+[12:57:28] [  25] distinct 116 (total 120, dup 4), step 0.0532, mu>0 65, max mu 0.95
+[12:57:34]        carriers re-optimised against prices (values [14.0, 12.0, 12.1, 11.2, 10.9, 13.0, 12.1, 12.0, 12.9])
+[12:57:34] [  50] distinct  83 (total 99, dup 16), step 0.0469, mu>0 104, max mu 0.95
+[12:57:35] [  75] distinct  95 (total 99, dup 4), step 0.0414, mu>0 113, max mu 0.95
+[12:57:38]        carriers re-optimised against prices (values [9.7, 11.3, 9.2, 11.5, 12.0, 10.5, 9.0, 9.6, 9.6])
+[12:57:39] [ 100] distinct 100 (total 103, dup 3), step 0.0365, mu>0 138, max mu 0.95
+[12:57:43]        carriers re-optimised against prices (values [10.0, 9.0, 8.5, 10.0, 9.4, 9.7, 8.8, 10.2, 9.9])
+[12:57:43] [ 125] distinct  90 (total 111, dup 21), step 0.0322, mu>0 155, max mu 0.95
+[12:57:44] [ 150] distinct  90 (total 92, dup 2), step 0.0284, mu>0 164, max mu 0.95
+[12:57:48]        carriers re-optimised against prices (values [7.7, 7.4, 8.9, 8.3, 9.1, 7.9, 8.8, 7.7, 9.6])
+[12:57:48] [ 175] distinct  85 (total 95, dup 10), step 0.0251, mu>0 179, max mu 0.95
+[12:57:49] [ 200] distinct  83 (total 87, dup 4), step 0.0221, mu>0 182, max mu 0.95
+[12:57:52]        carriers re-optimised against prices (values [8.5, 7.4, 6.8, 7.8, 8.9, 7.6, 7.8, 10.0, 8.1])
+[12:57:52] done: best distinct 131 of 298

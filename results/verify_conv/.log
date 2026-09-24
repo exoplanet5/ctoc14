@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/mickey/solarsystem/ctoc14/tools/convert_one.py", line 8, in <module>
+    tour = json.load(open(sys.argv[1])); out = sys.argv[2]
+                     ~~~~^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'results/plan_E1/tour_sc4.json e1sc4'
+

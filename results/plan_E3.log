@@ -1,0 +1,21 @@
+rarity weighting on: mean 0.11, hardest [131 144  10  66  29 260  86 213 125 236]
+SC1: 29 flybys, fuel 1286 kg, launch 80 d, 148 s
+SC2: 33 flybys, fuel 1296 kg, launch 40 d, 170 s
+SC3: 31 flybys, fuel 1291 kg, launch 300 d, 120 s
+SC4: 36 flybys, fuel 1282 kg, launch 100 d, 147 s
+SC5: 36 flybys, fuel 1298 kg, launch 40 d, 148 s
+SC6: 35 flybys, fuel 1297 kg, launch 30 d, 352 s
+SC7: 32 flybys, fuel 1294 kg, launch 60 d, 309 s
+SC8: 28 flybys, fuel 1216 kg, launch 150 d, 261 s
+SC9: 23 flybys, fuel 1292 kg, launch 180 d, 210 s
+SC10: 12 flybys, fuel 948 kg, launch 150 d, 150 s
+stopping sequential pass
+[sequential] 10 spacecraft, flybys [29, 33, 31, 36, 36, 35, 32, 28, 23, 12], covered 295, planned J = 35.00
+  round 1: SC1 29 -> 29 (53 s)
+  round 1: SC3 31 -> 31 (56 s)
+  round 1: SC6 35 -> 35 (228 s)
+  round 1: SC5 36 -> 36 (87 s)
+[improve round 1] 10 spacecraft, flybys [29, 33, 31, 36, 36, 35, 32, 28, 23, 12], covered 295, planned J = 35.00
+[elimination trial (removed SC10 with 12)] 9 spacecraft, flybys [29, 33, 31, 36, 36, 35, 32, 28, 23], covered 283, planned J = 44.00
+  -> rejected
+FLEET: 10 spacecraft, covered 295, planned J = 35.00; leftovers [244, 252, 276]

@@ -1,0 +1,101 @@
+{
+ "steps": [
+  {
+   "k": 1,
+   "pool": 15,
+   "S": [
+    212
+   ],
+   "end": {
+    "kind": "no_children",
+    "depth": 12
+   },
+   "deepest": 12,
+   "settles": 124,
+   "settle_ok": 124,
+   "wall_s": 601,
+   "ncols": 1,
+   "took": {
+    "f": "results/s15b/cols/X9s2k5/route_X9s2k5s1_12.npz",
+    "n": 12,
+    "tank": 822.63,
+    "iso": [
+     216
+    ],
+    "s_taken": [
+     212
+    ]
+   },
+   "covered": 12
+  }
+ ],
+ "covered": [
+  17,
+  36,
+  75,
+  118,
+  145,
+  180,
+  212,
+  216,
+  220,
+  243,
+  247,
+  288
+ ],
+ "cols": [
+  {
+   "f": "results/s15b/cols/X9s2k5/route_X9s2k5s1_12.npz",
+   "n": 12,
+   "n_real": 12,
+   "tank": 822.63,
+   "miss": 74.1,
+   "kind": "score",
+   "targets": [
+    17,
+    36,
+    75,
+    118,
+    145,
+    180,
+    212,
+    216,
+    220,
+    243,
+    247,
+    288
+   ],
+   "iso": [
+    216
+   ],
+   "s_taken": [
+    212
+   ],
+   "t_end_d": 5016.1,
+   "t_launch_d": 960.0,
+   "step": 1
+  }
+ ],
+ "taken": [
+  {
+   "k": 1,
+   "f": "results/s15b/cols/X9s2k5/route_X9s2k5s1_12.npz",
+   "n": 12,
+   "tank": 822.63,
+   "targets": [
+    17,
+    36,
+    75,
+    118,
+    145,
+    180,
+    212,
+    216,
+    220,
+    243,
+    247,
+    288
+   ]
+  }
+ ]
+}

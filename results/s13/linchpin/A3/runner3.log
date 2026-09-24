@@ -1,0 +1,13 @@
+[22:51:08] start 0: ond own --builder beam --beam 1000 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/06_own_beam_dv2.out 2>&1
+[22:51:08] start 1: ond own --builder beam --beam 1000 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/08_own_beam_dv2.out 2>&1
+[22:51:08] start 2: ond own --builder beam --beam 1000 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/04_own_beam_dv2.out 2>&1
+[22:57:21] done 1 rc 0 in 373 s
+[22:57:21] start 3: ond own --builder beam --beam 1000 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/05_own_beam_dv2.out 2>&1
+[23:01:38] done 0 rc 0 in 629 s
+[23:01:38] start 4: ond own --builder beam --beam 1000 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/09_own_beam_dv2.out 2>&1
+[23:08:14] done 4 rc 0 in 397 s
+[23:08:14] start 5: ond own --builder beam --beam 1000 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/07_own_beam_dv2.out 2>&1
+[23:16:35] done 3 rc 0 in 1154 s
+[23:22:46] done 5 rc 0 in 872 s
+[23:22:54] done 2 rc 0 in 1906 s
+[23:22:54] all done

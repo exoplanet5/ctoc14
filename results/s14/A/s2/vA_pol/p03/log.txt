@@ -1,0 +1,13 @@
+[18:09:29] === s14_lookback free 03: pool 38; L 3 beam 100 over 1.5 roots 300 dvcap 3.0 drmax 1.0 mcap 1100.0 (tcap 0.675) tofs 74 npt 2 mc 80 w_fuel 0.5197 ref 6/100.0/1000.0/rho 30.0
+[18:09:43] roots: 1683 launch legs -> 267 kept (max root miss 0.3 km)
+[18:09:57] depth  2: 267 parents -> 2600 children (1728 unique) -> refined 150, ok 139, kept 100; t_end 344-715 d, tank 602-654; best 2 @ 601.6 kg (price 6.2 s, refine 5.8 s)
+[18:10:09] depth  3: 100 parents -> 1210 children (1107 unique) -> refined 150, ok 150, kept 100; t_end 392-856 d, tank 608-670; best 3 @ 608.4 kg (price 2.7 s, refine 6.4 s)
+[18:10:22] depth  4: 100 parents -> 1223 children (1113 unique) -> refined 150, ok 150, kept 100; t_end 496-971 d, tank 612-698; best 4 @ 612.5 kg (price 3.0 s, refine 5.8 s)
+[18:10:35] depth  5: 100 parents -> 1109 children (1050 unique) -> refined 150, ok 148, kept 100; t_end 566-1001 d, tank 626-715; best 5 @ 626.4 kg (price 2.6 s, refine 5.8 s)
+[18:10:48] depth  6: 100 parents -> 1053 children (985 unique) -> refined 150, ok 147, kept 100; t_end 678-1166 d, tank 641-740; best 6 @ 640.6 kg (price 2.8 s, refine 5.9 s)
+[18:11:01] depth  7: 100 parents -> 1003 children (891 unique) -> refined 150, ok 149, kept 100; t_end 814-1294 d, tank 653-788; best 7 @ 653.2 kg (price 2.3 s, refine 6.4 s)
+[18:11:16] depth  8: 100 parents -> 941 children (883 unique) -> refined 150, ok 150, kept 100; t_end 947-1506 d, tank 660-815; best 8 @ 659.7 kg (price 2.7 s, refine 7.3 s)
+[18:11:31] depth  9: 100 parents -> 866 children (839 unique) -> refined 150, ok 150, kept 100; t_end 1159-1607 d, tank 666-808; best 9 @ 666.3 kg (price 2.4 s, refine 7.8 s)
+[18:11:45] depth 10: 100 parents -> 955 children (931 unique) -> refined 150, ok 150, kept 100; t_end 1299-1866 d, tank 676-803; best 10 @ 676.5 kg (price 2.4 s, refine 7.1 s)
+[18:12:02] depth 11: 100 parents -> 1075 children (1040 unique) -> refined 150, ok 150, kept 100; t_end 1465-2020 d, tank 681-853; best 11 @ 680.8 kg (price 2.6 s, refine 7.8 s)
+[18:12:17] depth 12: 100 parents -> 1256 children (1212 unique) -> refined 150, ok 149, kept 100; t_end 1524-2084 d, tank 698-869; best 12 @ 697.5 kg (price 3.1 s, refine 7.2 s)

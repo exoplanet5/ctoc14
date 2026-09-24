@@ -1,0 +1,17 @@
+Earth t0 pos err km 0.0005406458402775124
+vinf km/s 4.000000000020372
+ast174 err km 0.009473864149582647
+perihelia total 2146 crossings total 4293 in-band crossings 2731 from 292 asteroids
+in-band per year [185, 187, 181, 173, 188, 185, 178, 186, 184, 178, 180, 180, 187, 177, 182]
+q max 1.0449650939037802 q<1 271 all cross 0.7-1.5 True
+i<=10 120 10<i<=20 75 i>20 105 retro 1
+rmin>2.5 ids [131, 144] rmin values [10.71050369 33.78386671]
+n_peri==0 ids [131, 144]
+closest Earth approaches: [(243, np.float64(0.00542), np.float64(66552.7)), (65, np.float64(0.00589), np.float64(65065.4)), (102, np.float64(0.01446), np.float64(66773.8)), (226, np.float64(0.02178), np.float64(64748.7)), (174, np.float64(0.02307), np.float64(62598.2)), (20, np.float64(0.0265), np.float64(67497.3))]
+d_earth_min<0.1 asteroids 73 <0.05 32 <0.02 3
+131 r AU [10.711 15.331 16.069 13.313]
+144 r AU [33.819 34.592 34.58  33.784]
+csv rows 300 class counts {'easy': 120, 'hard': 104, 'moderate': 74, 'unreachable': 2}
+peri count diff ids [] cross count diff ids []
+max |dmin - csv| 9.200791135596277e-06 max |rmin-csv| 3.353748540046997e-06
+in-band crossing count per asteroid diff ids []

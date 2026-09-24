@@ -1,0 +1,44 @@
+[06:23:23] job s03_c4 (craft, craft 4, planbeam): T 1620 d H 540 L 360; plan horizon 3240 d; remaining 224; prize >1 on 44; width 150 npt 6 mc 150 dv 1.2 drmax 0.15 plan_wall 240 s; quota {'fil': 9, 'med': 16}
+[06:23:23] prefix slices/s03/in/craft_4.npz: 8 flybys, t_end 1438.1 d, tank 707.4 kg (planner view), miss 56.4 km, nreg 68
+[06:23:33] first level (both): 0 production + 50 relaxed (dv 2.5, 0.3 AU; 0.1 s) + 97 lintwin children -> 119 unique (10.3 s)
+[06:23:33] plan start: prefix 8 flybys, t_end 1438.1 d, planner mass 1360.5 kg (dv 6.360 km/s); 119 first-level states
+[06:24:55] plan: 1572 states, depth 12 new flybys, end plan_done (92 s); deepest 12 new to 3232 d at planner fuel 517 kg
+[06:24:55]   depth  1:  119 states (105 in H), t_end 1623-2265 d, fuel 244-338 kg
+[06:24:55]   depth  2:  150 states (119 in H), t_end 1755-2452 d, fuel 262-377 kg
+[06:24:55]   depth  3:  150 states (90 in H), t_end 1816-2768 d, fuel 279-408 kg
+[06:24:55]   depth  4:  150 states (7 in H), t_end 1999-3172 d, fuel 319-436 kg
+[06:24:55]   depth  5:  150 states (0 in H), t_end 2232-3054 d, fuel 343-441 kg
+[06:24:55]   depth  6:  150 states (0 in H), t_end 2401-3215 d, fuel 369-473 kg
+[06:24:55]   depth  7:  150 states (0 in H), t_end 2551-3238 d, fuel 395-497 kg
+[06:24:55]   depth  8:  150 states (0 in H), t_end 2656-3239 d, fuel 410-528 kg
+[06:24:55]   depth  9:  140 states (0 in H), t_end 2789-3240 d, fuel 434-556 kg
+[06:24:55]   depth 10:  150 states (0 in H), t_end 2961-3240 d, fuel 457-558 kg
+[06:24:55]   depth 11:   97 states (0 in H), t_end 3033-3237 d, fuel 496-556 kg
+[06:24:55]   depth 12:   16 states (0 in H), t_end 3193-3236 d, fuel 517-574 kg
+[06:24:55] candidates: 182 distinct committed target sets (n_new 1-4, potential 0-3)
+[06:24:55] frontier: 16 candidates chosen: 1fb/249kg/p0, 1fb/250kg/p0, 1fb/252kg/p3, 1fb/253kg/p2, 1fb/262kg/p2, 1fb/268kg/p2, 1fb/280kg/p2, 1fb/285kg/p2, 2fb/262kg/p0, 2fb/271kg/p0, 2fb/284kg/p3, 3fb/279kg/p0, 3fb/290kg/p0, 3fb/314kg/p3, 4fb/327kg/p0, 4fb/328kg/p1
+[06:24:58]     settle  9: 288 @   2102 d -> ok lintwin tank 714.4 (+7.0) miss 63 km (2.7 s)
+[06:25:00]     settle  9: 168 @   2037 d -> ok lintwin tank 710.7 (+3.3) miss 69 km (1.8 s)
+[06:25:03]     settle  9:  49 @   1627 d -> ok lintwin tank 711.5 (+4.2) miss 1 km (2.8 s)
+[06:25:07]     settle  9:  15 @   1982 d -> ok lintwin tank 711.5 (+4.2) miss 92 km (3.2 s)
+[06:25:11]     settle  9: 226 @   1681 d -> ok lintwin tank 726.8 (+19.4) miss 5 km (2.9 s)
+[06:25:16]     settle  9:  61 @   1808 d -> ok lintwin tank 709.9 (+2.5) miss 2 km (2.9 s)
+[06:25:19]     settle  9:  67 @   1768 d -> ok lintwin tank 708.6 (+1.2) miss 75 km (1.9 s)
+[06:25:22]     settle  9: 261 @   1768 d -> ok lintwin tank 710.3 (+2.9) miss 0 km (2.8 s)
+[06:25:26]     settle  9:  61 @   1818 d -> ok lintwin tank 710.0 (+2.6) miss 2 km (2.9 s)
+[06:25:27]     settle 10: 168 @   2038 d -> ok lintwin tank 713.4 (+3.4) miss 75 km (1.1 s)
+[06:25:28]     settle  9: 186 @   1667 d -> ok lintwin tank 719.6 (+12.3) miss 72 km (0.8 s)
+[06:25:31]     settle 10: 266 @   1766 d -> ok lintwin tank 730.9 (+11.3) miss 67 km (2.3 s)
+[06:25:34]     settle 10:  61 @   1817 d -> ok lintwin tank 722.2 (+10.6) miss 0 km (3.1 s)
+[06:25:37]     settle  9: 261 @   1765 d -> ok lintwin tank 709.9 (+2.6) miss 0 km (2.5 s)
+[06:25:38]     settle 10:  61 @   1822 d -> ok lintwin tank 711.5 (+1.6) miss 54 km (0.7 s)
+[06:25:41]     settle 11: 168 @   2038 d -> ok lintwin tank 719.3 (+7.8) miss 80 km (2.8 s)
+[06:25:43]     settle 11:  15 @   1975 d -> ok lintwin tank 746.1 (+15.1) miss 76 km (2.0 s)
+[06:25:47]     settle 11:  15 @   1975 d -> ok lintwin tank 728.0 (+5.9) miss 67 km (2.8 s)
+[06:25:50]     settle 10: 289 @   1755 d -> ok lintwin tank 751.7 (+25.0) miss 82 km (2.7 s)
+[06:25:53]     settle 11:  61 @   1849 d -> ok lintwin tank 761.1 (+9.4) miss 9 km (3.4 s)
+[06:25:56]     settle 12: 218 @   2001 d -> ok lintwin tank 783.6 (+22.5) miss 69 km (2.3 s)
+[06:25:57]     settle 10: 261 @   1763 d -> ok lintwin tank 714.3 (+2.8) miss 78 km (1.1 s)
+[06:25:57]     settle 11:  61 @   1816 d -> ok lintwin tank 725.3 (+11.0) miss 8 km (0.4 s)
+[06:25:59]     settle 12: 218 @   1999 d -> ok lintwin tank 737.6 (+12.2) miss 58 km (1.4 s)
+[06:25:59] RESULT s03_c4: 16 columns; frontier 1fb 1 kg p2/3 | 2fb 6 kg p0/3 | 3fb 12 kg p0/3 | 4fb 30 kg p1/1; settles 24 (24 ok), regrids 16 (16 ok); wall 156 s (plan 92, price 1, settle 64)

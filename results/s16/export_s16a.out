@@ -1,0 +1,28 @@
+[17:32:45] s16a export chain start (efleet reuse if SOURCE_MD5 matches best/fleet)
+best/fleet md5 4d9e3228ee24c5e8bb12354f80b810a6  efleet SOURCE_MD5 4d9e3228ee24c5e8bb12354f80b810a6
+1b33caa823a2bc158421b41c828e1650 results/s16/efleet/frags/frag_r1.txt
+f13f30bcc5708b6fb794911e1e45909a results/s16/efleet/frags/frag_r2.txt
+1ade4af88551c38880c74e13317d31fd results/s16/efleet/frags/frag_r3.txt
+f857c65c54e52cf206cea0fc3558ba3d results/s16/efleet/frags/frag_r4.txt
+083c00af59c5ac1e84668de8d7e45c98 results/s16/efleet/frags/frag_r5.txt
+59a816eab8832ce52146e25c4e01dbc4 results/s16/efleet/frags/frag_r6.txt
+46113280c518a08cb11ace31c084c5db results/s16/efleet/frags/frag_r7.txt
+0b41ec68a45a0694e324169301a6e75f results/s16/efleet/frags/frag_r8.txt
+a6a1c375b11d2107b1d372cef20f7687 results/s16/efleet/frags/frag_r9.txt
+wrote results/CTOC14_Result_s16a.txt with 47598 rows from 9 spacecraft
+spacecraft: 9, m0 = [948.034746094718, 910.8331312152637, 988.8930889797168, 915.5025472299479, 959.5685452243716, 902.2510761856423, 1018.8523654069166, 927.7174551305048, 903.9797687341097]
+covered 298, missed 2, J = 13.7399  (sum J_i = 11.7399)
+max errors: pos 3.0720e-08 km, vel 7.5561e-12 m/s, mass 1.1369e-13 kg, max |T| 0.46485 N
+RESULT: PASS
+[20:31:08] combined
+[20:32:30] validated
+   9  46513    371745430.834  216      115.094   21.921 COUNTED
+   9  46814    397630252.398  288      179.571    8.641 COUNTED
+   9  47128    424735320.985  208      166.061    7.531 COUNTED
+   9  47403    448379376.270  247      245.401   10.116 COUNTED
+   9  47596    464966020.938  142      192.941   13.253 COUNTED
+------------------------------------------------------------------------------
+N_covered = 298   N_miss = 2   sum J_i = 11.739947   J = 13.739947
+VERDICT: VALID
+[20:32:30] chain exit 0
+done

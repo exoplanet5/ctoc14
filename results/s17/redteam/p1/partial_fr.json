@@ -1,0 +1,38 @@
+[
+ {
+  "N": 8,
+  "K": 286,
+  "status": 2,
+  "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_s",
+  "sec": 29,
+  "dual_bound": null,
+  "nC": 431,
+  "nA": 3365,
+  "thr": 0.08,
+  "cap": 150.0
+ },
+ {
+  "N": 8,
+  "K": 290,
+  "status": 2,
+  "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_s",
+  "sec": 0,
+  "dual_bound": null,
+  "nC": 443,
+  "nA": 3543,
+  "thr": 0.08,
+  "cap": 150.0
+ },
+ {
+  "N": 8,
+  "K": 294,
+  "status": 2,
+  "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_s",
+  "sec": 0,
+  "dual_bound": null,
+  "nC": 443,
+  "nA": 3543,
+  "thr": 0.08,
+  "cap": 150.0
+ }
+]

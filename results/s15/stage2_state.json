@@ -1,0 +1,41 @@
+{
+ "updated": "09-23 00:42",
+ "note": "stage-15 stage-2 run state (resume: relaunch the queues below; twintail jobs resume from ckpt.pkl/chain.json, finished jobs have meta.json)",
+ "queues": [
+  {
+   "file": "results/s15/twin/round3_fuel.json",
+   "cmd": "python tools/s15_twintail.py batch results/s15/twin/round3_fuel.json --procs 8 --global-cap 8",
+   "what": "round 3: fuel-weighted (w_fuel 1.5/3.0) twin tails behind the 6 fixed heads; TB6f killed (near-duplicate of TB2f)"
+  },
+  {
+   "file": "results/s15/twin/round4_q2.json",
+   "cmd": "python tools/s15_twintail.py batch results/s15/twin/round4_q2.json --procs 8 --global-cap 8",
+   "what": "round 4: stepping-stone last-tail re-plans TS0/TS1 first, then exchange re-plans (ES296_*, ETB1f_*), TD0/1, TC1-3; ES296_09 started from round4_q.json"
+  },
+  {
+   "file": "results/s15/twin/tc_jobs.json",
+   "what": "TC0 runs standalone; TC1-3 moved into round4_q"
+  }
+ ],
+ "key_results": {
+  "TB1": "294 @ 12.236 (w_fuel 0.52)",
+  "TB1f": "293 @ 11.8666 (w_fuel 1.5: same 22-flyby tail at 844 kg instead of 1124)",
+  "select_r02": "N<=9 296 @ 12.4375 J 16.4375 LP 13.8528",
+  "frontier_r02": {
+   "291": 11.8015,
+   "292": 11.8092,
+   "293": 11.8666,
+   "294": 11.9485,
+   "295": 12.0779,
+   "296": 12.4375,
+   "297": "infeasible"
+  }
+ },
+ "next": "after round 3/4 jobs: s15_twinfleet on finished chains, s15_select N9 + --frontier 294..298 over all columns; iterate exchange re-plans on the best frontier fleets",
+ "queue_file": "results/s15/twin/queue_004246.json",
+ "queue_history": [
+  "results/s15/twin/queue_001342.json",
+  "results/s15/twin/queue_003108.json",
+  "results/s15/twin/queue_004246.json"
+ ]
+}

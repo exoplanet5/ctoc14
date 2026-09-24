@@ -1,0 +1,54 @@
+{
+ "name": "03",
+ "source_fb": 30,
+ "source_tank": 795.2607113481587,
+ "source_kg_per_fb": 6.509,
+ "inserted": 3,
+ "orphans": [
+  75,
+  213,
+  221,
+  149,
+  271
+ ],
+ "final_fb": 33,
+ "final_tank": 1111.23,
+ "final_kg_per_fb": 15.492,
+ "dkg_total": 315.97,
+ "dkg_per_inserted": 105.32,
+ "dJ_total": 0.33959,
+ "trials": 54,
+ "t_s": 945,
+ "steps": [
+  {
+   "ast": 188,
+   "t_d": 5124.7,
+   "dist_au": 0.2542,
+   "dkg": 20.63,
+   "dJ": 0.01906,
+   "depth_before": 30,
+   "tank_after": 815.89,
+   "miss_km": 24.8
+  },
+  {
+   "ast": 219,
+   "t_d": 1675.1,
+   "dist_au": 0.2489,
+   "dkg": 96.71,
+   "dJ": 0.09516,
+   "depth_before": 31,
+   "tank_after": 912.6,
+   "miss_km": 54.2
+  },
+  {
+   "ast": 224,
+   "t_d": 3983.4,
+   "dist_au": 0.1401,
+   "dkg": 198.63,
+   "dJ": 0.22537,
+   "depth_before": 32,
+   "tank_after": 1111.23,
+   "miss_km": 80.4
+  }
+ ]
+}

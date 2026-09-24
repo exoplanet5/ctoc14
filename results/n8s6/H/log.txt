@@ -1,0 +1,7 @@
+[11:37:11] skeletons: 8 routes, covered 67, J 241.4199; 05:9@670 09:9@734 13:9@668 01:8@647 03:8@642 06:8@678 10:8@653 12:8@664
+[11:37:11] easy prizes from results/n8s6/prizes_scarce.json: 228 targets above 1.0, max 2.00
+[11:40:01]     06 segments: 0:16->107st/5fb 1:108->177st/8fb 2:224->250st/14fb 3:34->278st/20fb 4:240->57st/22fb 5:145->119st/25fb 6:86->184st/30fb 7:254->5st/31fb 8:None->11st/32fb
+[11:40:01]   06: segmented beam 1000 drmax 0.15 half 45: 11 final states, deepest 32  (170 s)
+[11:40:01]   06: Pareto 30:1014 31:1020 32:1027
+[11:40:11]     32 fb: planner 1027 -> twin 1085 kg (32 fb, 32 new), 0.723 km/s/fb, J_i 1.466, value -11.334 (10 s)
+[11:40:33]     31 fb: planner 1020 -> twin 1263 kg (31 fb, 31 new), 0.938 km/s/fb, J_i 1.697, value -10.703 (22 s)

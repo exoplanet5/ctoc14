@@ -1,0 +1,15 @@
+[00:12:14] twintail TS0: pool 16, S [64, 108, 138, 139, 145, 219, 280], p 0.05, steps 1, beam 20/60, nproc 1; resume at step 1
+[00:12:27]   roots: 945 launch legs -> 204 kept; pool 16, S [64, 108, 138, 139, 145, 219, 280] p 0.05
+[00:21:55]   depth  2: 204 parents -> 2983 kids (2089 uniq) -> tried 34, settled 20, kept 15; t_end 386-1316 d, tank 602-641, max S 2 (567 s, gen 502 s)
+[00:24:38]   depth  3: 15 parents -> 272 kids (271 uniq) -> tried 32, settled 20, kept 17; t_end 863-1798 d, tank 609-777, max S 2 (163 s, gen 57 s)
+[00:28:16]   depth  4: 17 parents -> 286 kids (285 uniq) -> tried 27, settled 20, kept 20; t_end 1310-2029 d, tank 643-857, max S 2 (218 s, gen 91 s)
+[00:33:22]   depth  5: 20 parents -> 327 kids (327 uniq) -> tried 31, settled 20, kept 20; t_end 1520-2375 d, tank 634-850, max S 2 (306 s, gen 125 s)
+[00:39:32]   depth  6: 20 parents -> 329 kids (327 uniq) -> tried 30, settled 20, kept 20; t_end 1733-2730 d, tank 670-820, max S 3 (370 s, gen 155 s)
+[00:44:27]   depth  7: 20 parents -> 441 kids (438 uniq) -> tried 23, settled 20, kept 19; t_end 2348-3254 d, tank 673-856, max S 4 (295 s, gen 179 s)
+[00:51:42]   depth  8: 19 parents -> 354 kids (354 uniq) -> tried 33, settled 20, kept 20; t_end 2522-3548 d, tank 704-1054, max S 4 (436 s, gen 175 s)
+[00:56:19]   depth  9: 20 parents -> 352 kids (352 uniq) -> tried 21, settled 20, kept 20; t_end 2701-3706 d, tank 721-890, max S 5 (276 s, gen 190 s)
+[01:02:11]   depth 10: 20 parents -> 371 kids (367 uniq) -> tried 21, settled 20, kept 19; t_end 3331-4125 d, tank 756-914, max S 5 (353 s, gen 204 s)
+[01:08:19]   depth 11: 19 parents -> 340 kids (338 uniq) -> tried 21, settled 20, kept 16; t_end 3625-4282 d, tank 763-916, max S 5 (368 s, gen 232 s)
+[01:14:46]   depth 12: 16 parents -> 232 kids (232 uniq) -> tried 21, settled 20, kept 19; t_end 3843-4957 d, tank 769-1040, max S 5 (387 s, gen 208 s)
+[01:22:35]   depth 13: 19 parents -> 250 kids (249 uniq) -> tried 22, settled 20, kept 19; t_end 4128-5118 d, tank 798-1247, max S 6 (469 s, gen 251 s)
+[01:34:16]   depth 14: 19 parents -> 200 kids (199 uniq) -> tried 22, settled 20, kept 17; t_end 4590-5287 d, tank 915-1229, max S 5 (701 s, gen 243 s)

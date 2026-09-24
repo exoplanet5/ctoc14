@@ -1,0 +1,15 @@
+[14:41:36] 240 carriers x 8 segments of 685 d; drift cost median 1.53 km/s
+[14:41:37] route 0: 28 flybys over 8 carriers, drift dv 3.30 km/s, segments 3+4+4+5+2+3+4+3
+[14:41:39] route 1: 24 flybys over 7 carriers, drift dv 3.22 km/s, segments 3+3+5+3+3+1+3+3
+[14:41:40] route 2: 22 flybys over 6 carriers, drift dv 4.63 km/s, segments 4+3+2+3+3+3+2+2
+[14:41:42] route 3: 18 flybys over 7 carriers, drift dv 1.85 km/s, segments 2+2+2+2+3+2+2+3
+[14:41:42] fleet: 4 routes, 92 distinct targets
+[14:42:32] 240 carriers x 8 segments of 685 d; drift cost median 1.53 km/s
+[14:42:34] route 0: 28 flybys over 8 carriers, drift dv 3.30 km/s, segments 3+4+4+5+2+3+4+3
+[14:42:35] route 1: 24 flybys over 7 carriers, drift dv 3.22 km/s, segments 3+3+5+3+3+1+3+3
+[14:42:37] route 2: 22 flybys over 6 carriers, drift dv 4.63 km/s, segments 4+3+2+3+3+3+2+2
+[14:42:38] route 3: 18 flybys over 7 carriers, drift dv 1.85 km/s, segments 2+2+2+2+3+2+2+3
+[14:42:39] route 4: 17 flybys over 8 carriers, drift dv 1.98 km/s, segments 2+2+2+2+2+3+2+2
+[14:42:41] route 5: 17 flybys over 7 carriers, drift dv 2.86 km/s, segments 1+3+2+3+2+2+3+1
+[14:42:41] fleet: 6 routes, 126 distinct targets
+[14:42:41] -> results/s10/D1/routes.json

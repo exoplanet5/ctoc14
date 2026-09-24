@@ -1,0 +1,131 @@
+{
+ "pool": "routes:08,09",
+ "pool_size": 50,
+ "K": 2,
+ "beam": 100,
+ "nproc": 1,
+ "m0": 1600.0,
+ "t_run_s": 258.6,
+ "n_joint_states": 2670,
+ "t10d_reference": {
+  "08": [
+   26,
+   870.6,
+   1.2307
+  ],
+  "09": [
+   24,
+   876.5,
+   1.2365
+  ]
+ },
+ "t10d_sumJ": 2.4672,
+ "max_covered": 30,
+ "front": {
+  "24": {
+   "sumJ_planner": 2.1388,
+   "depths": [
+    12,
+    12
+   ],
+   "tanks_planner": [
+    706,
+    676
+   ]
+  },
+  "25": {
+   "sumJ_planner": 2.1455,
+   "depths": [
+    12,
+    13
+   ],
+   "tanks_planner": [
+    706,
+    685
+   ]
+  },
+  "26": {
+   "sumJ_planner": 2.1498,
+   "depths": [
+    13,
+    13
+   ],
+   "tanks_planner": [
+    711,
+    685
+   ]
+  },
+  "27": {
+   "sumJ_planner": 2.1597,
+   "depths": [
+    13,
+    14
+   ],
+   "tanks_planner": [
+    711,
+    697
+   ]
+  },
+  "28": {
+   "sumJ_planner": 2.1676,
+   "depths": [
+    13,
+    15
+   ],
+   "tanks_planner": [
+    711,
+    707
+   ]
+  },
+  "29": {
+   "sumJ_planner": 2.1757,
+   "depths": [
+    14,
+    15
+   ],
+   "tanks_planner": [
+    721,
+    707
+   ]
+  },
+  "30": {
+   "sumJ_planner": 2.197,
+   "depths": [
+    14,
+    16
+   ],
+   "tanks_planner": [
+    728,
+    725
+   ]
+  }
+ },
+ "last_level": {
+  "depth": 30,
+  "n_states": 1,
+  "distinct_splits": 1,
+  "distinct_sets_per_craft": [
+   1,
+   1
+  ]
+ },
+ "settles": [
+  {
+   "craft": 0,
+   "n": 14,
+   "tank_planner": 728.0,
+   "error": "TimeoutError",
+   "t_settle_s": 240.0,
+   "ok": false,
+   "miss_km": null
+  },
+  {
+   "craft": 1,
+   "n": 16,
+   "tank_planner": 725.0,
+   "t_settle_s": 0.3,
+   "ok": false,
+   "miss_km": null
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+legs 59655
+deep >=38
+   n_ev [ 0, 3): legs    921  med leg_d   112  med dv 0.543  mean dv 0.574
+   n_ev [ 3, 5): legs   2202  med leg_d   124  med dv 0.404  mean dv 0.514
+   n_ev [ 5, 7): legs   3485  med leg_d   113  med dv 0.374  mean dv 0.445
+   n_ev [ 7,10): legs   2412  med leg_d   123  med dv 0.460  mean dv 0.511
+   n_ev [10,99): legs   7005  med leg_d   104  med dv 0.408  mean dv 0.501
+mid 30-37
+   n_ev [ 0, 3): legs   1000  med leg_d   147  med dv 0.531  mean dv 0.600
+   n_ev [ 3, 5): legs   3730  med leg_d   160  med dv 0.463  mean dv 0.580
+   n_ev [ 5, 7): legs   3780  med leg_d   149  med dv 0.457  mean dv 0.540
+   n_ev [ 7,10): legs   3144  med leg_d   147  med dv 0.454  mean dv 0.519
+   n_ev [10,99): legs   5008  med leg_d   134  med dv 0.414  mean dv 0.506
+shallow <30
+   n_ev [ 0, 3): legs   2244  med leg_d   213  med dv 0.590  mean dv 0.715
+   n_ev [ 3, 5): legs   8976  med leg_d   232  med dv 0.591  mean dv 0.706
+   n_ev [ 5, 7): legs   7553  med leg_d   231  med dv 0.500  mean dv 0.670
+   n_ev [ 7,10): legs   4580  med leg_d   219  med dv 0.512  mean dv 0.614
+   n_ev [10,99): legs   3615  med leg_d   190  med dv 0.473  mean dv 0.581
+route depth band: mean # rare(<=4 ev) targets, max # rare, med kg/fb
+   0-4: routes   67  rare mean   1.5  max   4  kg/fb   6.0
+   5-9: routes  255  rare mean   3.1  max   6  kg/fb   9.8
+  10-14: routes  318  rare mean   5.2  max  10  kg/fb  11.6
+  15-19: routes  357  rare mean   7.6  max  14  kg/fb  11.4
+  20-24: routes  306  rare mean   9.3  max  16  kg/fb  12.6
+  25-29: routes  306  rare mean  10.2  max  17  kg/fb  12.8
+  30-34: routes  349  rare mean  10.0  max  18  kg/fb  10.7
+  35-39: routes  234  rare mean   8.2  max  14  kg/fb   9.6
+  40-44: routes  182  rare mean   8.4  max  14  kg/fb  10.1
+  45-49: routes  116  rare mean   8.0  max  12  kg/fb  10.2
+total targets with <=4 events: 95

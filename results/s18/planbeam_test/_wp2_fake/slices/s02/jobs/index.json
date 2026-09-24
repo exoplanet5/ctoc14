@@ -1,0 +1,13 @@
+{
+ "jobs": [
+  "s02_c0",
+  "s02_c1",
+  "s02_c2"
+ ],
+ "T_d": 1080.0,
+ "H_eff_d": 540.0,
+ "n_launched": 3,
+ "n_unlaunched": 0,
+ "quota_active": true,
+ "lam_dual": 1.5
+}

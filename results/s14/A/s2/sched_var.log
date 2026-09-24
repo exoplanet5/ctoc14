@@ -1,0 +1,24 @@
+[18:09:27] start results/s14/A/s2/free298/L3_b100
+[18:09:29] start results/s14/A/s2/vA_pol/p03
+[18:09:31] start results/s14/A/s2/vA_pol/p07
+[18:09:33] start results/s14/A/s2/vA_pol/p08
+[18:12:18] start results/s14/A/s2/vB_b300/p03
+[18:12:20] start results/s14/A/s2/vB_b300/p07
+[18:12:23] start results/s14/A/s2/vB_b300/p08
+[18:12:25] start results/s14/A/s2/vC_L4/p03
+[18:12:27] start results/s14/A/s2/vC_L4/p07
+[18:12:29] start results/s14/A/s2/vC_L4/p08
+[19:11:28] start results/s14/A/s2/vD_wf1/p03
+[19:11:38] start results/s14/A/s2/vD_wf1/p07
+[19:11:47] start results/s14/A/s2/vD_wf1/p08
+[19:11:49] skip (done) results/s14/A/s2/rf_L2_b100/r00
+[19:11:49] skip (done) results/s14/A/s2/rf_L2_b100/r01
+[19:11:50] skip (done) results/s14/A/s2/rf_L2_b100/r02
+[19:11:50] skip (done) results/s14/A/s2/rf_L2_b100/r03
+[19:11:51] skip (done) results/s14/A/s2/rf_L2_b100/r04
+[19:11:51] skip (done) results/s14/A/s2/rf_L2_b100/r05
+[19:11:52] skip (done) results/s14/A/s2/rf_L2_b100/r06
+[19:11:52] skip (done) results/s14/A/s2/rf_L2_b100/r07
+[19:11:53] skip (done) results/s14/A/s2/rf_L2_b100/r08
+[19:11:53] skip (done) results/s14/A/s2/rf_L2_b100/r09
+[19:31:17] all jobs done

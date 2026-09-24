@@ -1,0 +1,9 @@
+h01 results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz
+h02 results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz
+h03 results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz
+h04 results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz
+h05 results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz
+h06 results/s15b/close/G5/cols/route_h06x145_31.npz
+t1 results/s15/cols/r01/C00h6/route_C00h6s1_28.npz
+s1 results/s15b/close/G1/cols/route_s1x204_22.npz
+s2 results/s15b/cols/X9s2k4/route_X9s2k4s1_14.npz

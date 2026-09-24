@@ -1,0 +1,5 @@
+# fleet_aco 2026-09-21 16:11:00  carriers 240, targets 298
+# model F0 +200.8 KB 2.59 KX 1.81 QD 3.01 sel(-3.93,-1.54)  (calib rmse 54 kg, R2 0.47)
+# alpha 1.0 beta 2.0 rho 0.1 ants 64 gens 200 nmax 12 depth 40 breakeven 0.0369
+gen   0  best  67.997  eliteMean  89.759  ever  67.997 (6 craft, 240/298 cov, sumJi 7.997)  [33 s]
+gen   1  best  68.003  eliteMean  84.937  ever  67.997 (6 craft, 240/298 cov, sumJi 7.997)  [65 s]

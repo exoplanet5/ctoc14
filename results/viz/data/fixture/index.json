@@ -1,0 +1,16 @@
+{
+ "fleets": [
+  {
+   "key": "demo",
+   "file": "fleets/demo.json",
+   "title": "demo fixture: 2 craft, 3 flybys, 200 d (synthetic Lambert arcs)",
+   "n_craft": 2,
+   "covered": 3,
+   "J_raw": 4.5525,
+   "shown": null,
+   "submitted": null,
+   "kind": "fixture",
+   "note": "Synthetic fixture for the viewer (not a contest result). Real data: results/viz/data/index.json."
+  }
+ ]
+}

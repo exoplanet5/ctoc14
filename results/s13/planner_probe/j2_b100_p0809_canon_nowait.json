@@ -1,0 +1,274 @@
+{
+ "pool": "routes:08,09",
+ "pool_size": 50,
+ "K": 2,
+ "beam": 100,
+ "nproc": 1,
+ "m0": 1600.0,
+ "t_run_s": 63.5,
+ "n_joint_states": 1407,
+ "t10d_reference": {
+  "08": [
+   26,
+   870.6,
+   1.2307
+  ],
+  "09": [
+   24,
+   876.5,
+   1.2365
+  ]
+ },
+ "t10d_sumJ": 2.4672,
+ "max_covered": 21,
+ "front": {
+  "15": {
+   "sumJ_planner": 2.0684,
+   "depths": [
+    5,
+    10
+   ],
+   "tanks_planner": [
+    628,
+    665
+   ]
+  },
+  "16": {
+   "sumJ_planner": 2.0738,
+   "depths": [
+    5,
+    11
+   ],
+   "tanks_planner": [
+    628,
+    672
+   ]
+  },
+  "17": {
+   "sumJ_planner": 2.0776,
+   "depths": [
+    5,
+    12
+   ],
+   "tanks_planner": [
+    628,
+    676
+   ]
+  },
+  "18": {
+   "sumJ_planner": 2.0829,
+   "depths": [
+    5,
+    13
+   ],
+   "tanks_planner": [
+    628,
+    683
+   ]
+  },
+  "19": {
+   "sumJ_planner": 2.0938,
+   "depths": [
+    5,
+    14
+   ],
+   "tanks_planner": [
+    628,
+    697
+   ]
+  },
+  "20": {
+   "sumJ_planner": 2.1079,
+   "depths": [
+    5,
+    15
+   ],
+   "tanks_planner": [
+    628,
+    714
+   ]
+  },
+  "21": {
+   "sumJ_planner": 2.1225,
+   "depths": [
+    6,
+    15
+   ],
+   "tanks_planner": [
+    647,
+    714
+   ]
+  }
+ },
+ "last_level": {
+  "depth": 21,
+  "n_states": 1,
+  "distinct_splits": 1,
+  "distinct_sets_per_craft": [
+   1,
+   1
+  ]
+ },
+ "settles": [
+  {
+   "craft": 0,
+   "n": 6,
+   "tank_planner": 647.0,
+   "t_settle_s": 2.0,
+   "ok": true,
+   "tank_twin": 647.3,
+   "J_i": 1.0349,
+   "kg_per_fb": 7.89,
+   "dv_per_fb": 0.4799
+  },
+  {
+   "craft": 1,
+   "n": 15,
+   "tank_planner": 713.7,
+   "t_settle_s": 11.8,
+   "ok": true,
+   "tank_twin": 723.8,
+   "J_i": 1.0963,
+   "kg_per_fb": 8.25,
+   "dv_per_fb": 0.4841
+  }
+ ],
+ "canon": true,
+ "wait_d": 100000.0,
+ "perm_free_frac": {
+  "mean": 0.931,
+  "min": 0.744
+ },
+ "levels": [
+  {
+   "depth": 1,
+   "children": 58,
+   "kept": 39,
+   "perm_free": 29
+  },
+  {
+   "depth": 2,
+   "children": 2184,
+   "kept": 100,
+   "perm_free": 85
+  },
+  {
+   "depth": 3,
+   "children": 254,
+   "kept": 100,
+   "perm_free": 96
+  },
+  {
+   "depth": 4,
+   "children": 209,
+   "kept": 100,
+   "perm_free": 97
+  },
+  {
+   "depth": 5,
+   "children": 141,
+   "kept": 82,
+   "perm_free": 79
+  },
+  {
+   "depth": 6,
+   "children": 122,
+   "kept": 79,
+   "perm_free": 75
+  },
+  {
+   "depth": 7,
+   "children": 116,
+   "kept": 81,
+   "perm_free": 77
+  },
+  {
+   "depth": 8,
+   "children": 156,
+   "kept": 96,
+   "perm_free": 88
+  },
+  {
+   "depth": 9,
+   "children": 178,
+   "kept": 100,
+   "perm_free": 93
+  },
+  {
+   "depth": 10,
+   "children": 193,
+   "kept": 100,
+   "perm_free": 91
+  },
+  {
+   "depth": 11,
+   "children": 179,
+   "kept": 100,
+   "perm_free": 92
+  },
+  {
+   "depth": 12,
+   "children": 168,
+   "kept": 100,
+   "perm_free": 89
+  },
+  {
+   "depth": 13,
+   "children": 157,
+   "kept": 91,
+   "perm_free": 83
+  },
+  {
+   "depth": 14,
+   "children": 139,
+   "kept": 78,
+   "perm_free": 76
+  },
+  {
+   "depth": 15,
+   "children": 92,
+   "kept": 59,
+   "perm_free": 55
+  },
+  {
+   "depth": 16,
+   "children": 60,
+   "kept": 34,
+   "perm_free": 33
+  },
+  {
+   "depth": 17,
+   "children": 35,
+   "kept": 23,
+   "perm_free": 22
+  },
+  {
+   "depth": 18,
+   "children": 34,
+   "kept": 21,
+   "perm_free": 19
+  },
+  {
+   "depth": 19,
+   "children": 34,
+   "kept": 17,
+   "perm_free": 16
+  },
+  {
+   "depth": 20,
+   "children": 9,
+   "kept": 5,
+   "perm_free": 5
+  },
+  {
+   "depth": 21,
+   "children": 1,
+   "kept": 1,
+   "perm_free": 1
+  }
+ ],
+ "waits_per_craft": [
+  0,
+  0
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "rows": [
+  {
+   "route": "00",
+   "pool": 38,
+   "planned": 36,
+   "planned_tank": 1236.92,
+   "flown": 36,
+   "tank": 1063.58,
+   "kg_fb": 12.877,
+   "J_i": 1.44077,
+   "wall": 312.1
+  },
+  {
+   "route": "01",
+   "pool": 38,
+   "planned": 35,
+   "planned_tank": 1026.5,
+   "flown": 35,
+   "tank": 938.55,
+   "kg_fb": 9.673,
+   "J_i": 1.3003,
+   "wall": 291.0
+  },
+  {
+   "route": "02",
+   "pool": 38,
+   "planned": 35,
+   "planned_tank": 1145.35,
+   "flown": 35,
+   "tank": 957.64,
+   "kg_fb": 10.218,
+   "J_i": 1.32072,
+   "wall": 288.3
+  },
+  {
+   "route": "03",
+   "pool": 38,
+   "planned": 32,
+   "planned_tank": 1246.65,
+   "flown": 32,
+   "tank": 1097.68,
+   "kg_fb": 15.553,
+   "J_i": 1.48186,
+   "wall": 333.5
+  },
+  {
+   "route": "04",
+   "pool": 38,
+   "planned": 33,
+   "planned_tank": 1156.74,
+   "flown": 33,
+   "tank": 1037.42,
+   "kg_fb": 13.255,
+   "J_i": 1.41007,
+   "wall": 291.0
+  },
+  {
+   "route": "06",
+   "pool": 38,
+   "planned": 32,
+   "planned_tank": 1149.12,
+   "flown": 32,
+   "tank": 1049.12,
+   "kg_fb": 14.035,
+   "J_i": 1.42372,
+   "wall": 298.9
+  },
+  {
+   "route": "07",
+   "pool": 36,
+   "planned": 29,
+   "planned_tank": 1326.94,
+   "flown": 29,
+   "tank": 1202.0,
+   "kg_fb": 20.758,
+   "J_i": 1.61489,
+   "wall": 300.2
+  },
+  {
+   "route": "08",
+   "pool": 34,
+   "planned": 28,
+   "planned_tank": 1382.47,
+   "flown": 28,
+   "tank": 1214.51,
+   "kg_fb": 21.947,
+   "J_i": 1.6316,
+   "wall": 268.6
+  }
+ ],
+ "total": {
+  "routes": 8,
+  "covered": 260,
+  "sum_Ji": 11.6239,
+  "J": 51.6239,
+  "mean_flown": 32.5,
+  "kg_per_fb": 14.463,
+  "cpu_s": 2383.6
+ }
+}

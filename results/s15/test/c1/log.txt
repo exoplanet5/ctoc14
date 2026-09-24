@@ -1,0 +1,7 @@
+[19:56:26] chain c1: pool 65, S [64, 119, 137, 138, 157, 158, 168, 216], p 0.02, steps 1, members ['T2']; resume at step 1
+[19:56:51]   step 1 plan T2: pool 65, S [64, 119, 137, 138, 157, 158, 168, 216], deepest 23 (with S 23); front 23:902** 22:885** 22:896**** 21:830*** 21:843**** 20:819**** 19:801*** 18:793*** (25 s)
+[19:57:03]     settle T2 23 fb (S [157, 158]) planner 902 -> twin 905 miss 94 OK (11 s)
+[19:57:12]     settle T2 22 fb (S [157, 158, 168, 216]) planner 896 -> twin 891 miss 98 OK (10 s)
+[19:57:13]     absorb[s1]: 3 approaches of [119, 168]; lintwin 119@1676d 0.182AU 106kg, 168@558d 0.109AU 965kg, 168@2043d 0.140AU 3323kg
+[19:57:13]   step 1: TOOK {'member': 'T2', 'n': 23, 'tank': 905.0, 's_taken': [157, 158]}; chain covered 23/65
+[19:57:13] chain c1 done: 2 columns, covered 23/65 (48 s)

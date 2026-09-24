@@ -1,0 +1,80 @@
+{
+ "file": "results/test_example_submission.txt",
+ "errors": [],
+ "warnings": [],
+ "spacecraft": [
+  {
+   "sc": 1,
+   "rows": 45,
+   "errors_before": 0,
+   "t_launch": 0.0,
+   "launch_pos_err_km": 0.0005411126571427241,
+   "v_inf_kms": 4.0000000000203935,
+   "m0": 2000.0,
+   "J_i": 3.0,
+   "m_final": 1971.9563789232047,
+   "min_row_mass": 1971.9563789232047,
+   "arcs": 1,
+   "samples": 41,
+   "min_integrated_mass": 1971.956378923204,
+   "max_pos_err_km": 4.624711918207806e-05,
+   "max_vel_err_kms": 1.1493974031774186e-11,
+   "max_mass_err_kg": 1.1368683772161603e-12,
+   "max_T_sample": 0.5,
+   "max_T_interp": 0.5,
+   "flyby_rows": 1,
+   "t_end": 24696489.152000003
+  }
+ ],
+ "flybys": [
+  {
+   "sc": 1,
+   "line": 2,
+   "t": 10008479.152,
+   "asteroid": 174,
+   "d_km": 0.008407591780294193,
+   "vrel_kms": 11.779617109065837,
+   "status": "COUNTED"
+  }
+ ],
+ "crosscheck_rk4_max_km": 4.776840551902871e-07,
+ "n_rows": 45,
+ "n_segments": 44,
+ "runtime_s": 1.3224687576293945,
+ "N_covered": 1,
+ "N_miss": 299,
+ "sum_Ji": 3.0,
+ "J": 302.0,
+ "max_pos_err_km": 4.624711918207806e-05,
+ "max_pos_err_at": [
+  1,
+  1,
+  2
+ ],
+ "max_vel_err_kms": 1.1493974031774186e-11,
+ "max_vel_err_at": [
+  1,
+  1,
+  2
+ ],
+ "max_mass_err_kg": 1.1368683772161603e-12,
+ "max_mass_err_at": [
+  1,
+  30,
+  31
+ ],
+ "max_T_sample": 0.5,
+ "max_T_sample_at": [
+  1,
+  23
+ ],
+ "max_T_interp": 0.5,
+ "max_T_interp_at": [
+  1,
+  22,
+  11736489.152
+ ],
+ "coast_kepler_xcheck_km": 4.6233971453734786e-05,
+ "lagrange_poly_xcheck_N": 1.2719202621569003e-16,
+ "verdict": "VALID"
+}

@@ -1,0 +1,14 @@
+[22:16:39] === 00 cond pool builder beam: pool 38 = own 37 + extra 1 [39]; hard in pool 7; source route 37 fb @ 918.2 kg (8.60 kg/fb)
+[22:38:47]   build 1328 s: 20122 states, deepest 31 of pool 38; Pareto 21:764 22:773 23:778 24:787 25:797 26:808 27:821 28:832 29:841 30:866 31:912
+[22:39:23]     31 pool fb (alt 0): planner 912 -> twin 908.4 kg, 9.95 kg/fb, 0.522 km/s/fb, J_i 1.2688, own 31/37 extra 0/1 (miss 49 km, 36 s)
+[22:40:57]     30 pool fb (alt 0): settle FAILED (miss 296718463.42227215, 93 s)
+[22:42:12]     30 pool fb (alt 1): settle FAILED (miss 325289162.6331449, 75 s)
+[22:43:27]     29 pool fb (alt 0): settle FAILED (miss 179286258.85491312, 75 s)
+[22:44:42]     29 pool fb (alt 1): settle FAILED (miss 405670831.0311904, 75 s)
+[22:45:40]     28 pool fb (alt 0): settle FAILED (miss 185252359.28173563, 58 s)
+[22:47:00]     28 pool fb (alt 1): settle FAILED (miss 157165571.19419563, 80 s)
+[22:48:16]     27 pool fb (alt 0): settle FAILED (miss 338015179.5414211, 76 s)
+[22:49:32]     27 pool fb (alt 1): settle FAILED (miss 419265853.95156574, 76 s)
+[22:50:13]     26 pool fb (alt 0): settle FAILED (miss 125521066.32619299, 42 s)
+[22:50:25]     26 pool fb (alt 1): planner 810 -> twin 778.1 kg, 6.85 kg/fb, 0.388 km/s/fb, J_i 1.1434, own 26/37 extra 0/1 (miss 30 km, 12 s)
+[22:50:25]   BEST 00: 31/38 pool targets @ 908.4 kg (9.95 kg/fb; source 37 @ 918.2 = 8.60 kg/fb); orphans [11, 24, 39, 139, 222, 228, 275]

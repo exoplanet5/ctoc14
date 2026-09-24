@@ -1,0 +1,10 @@
+[07:10:09] prefix results/s15/cols/r01/C00h6/route_C00h6s1_28.npz k=25: 25 flybys to 4769 d, tank 965.6 kg, miss 73 km (5 s)
+[07:10:09] twintail X14t1k25: pool 29, S [172], p 0.5, steps 1, beam 24/72, nproc 1; resume at step 1
+[07:10:09]   RESUME level 25: beam 1, deepest 0
+[07:10:42]   depth 26: 1 parents -> 5 kids (5 uniq) -> tried 5, settled 5, kept 4; t_end 4986-5411 d, tank 974-996, max S 1 (32 s, gen 1 s)
+[07:11:18]   depth 27: 4 parents -> 4 kids (4 uniq) -> tried 4, settled 3, kept 3; t_end 5044-5123 d, tank 1012-1054, max S 1 (37 s, gen 2 s)
+[07:11:35]   depth 28: 3 parents -> 3 kids (3 uniq) -> tried 3, settled 3, kept 3; t_end 5411-5417 d, tank 1022-1116, max S 1 (16 s, gen 1 s)
+[07:11:35]   depth 29: 3 parents -> 0 kids (0 uniq) -> tried 0, settled 0, kept 0 (0 s, gen 0 s)
+[07:11:35]   step 1: pool 29 deepest 28 ({'kind': 'no_children', 'depth': 28}); TOOK 28 fb @ 1022 kg iso [119, 157, 158, 168]; chain covered 28/29 (86 s)
+[07:11:35] twintail X14t1k25 done: 5 columns, covered 28/29 (86 s)
+{"covered": 28, "cols": 5, "wall_s": 86}

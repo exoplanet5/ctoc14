@@ -1,0 +1,2 @@
+[00:42:04]     absorb[route_04+[]]: 3 approaches of [33, 280]; lintwin 280@4963d 0.066AU 162kg, 33@2530d 0.107AU 370kg, 280@1643d 0.163AU 1388kg
+[00:42:04] close TB5f_h04 done: 0 columns (1 s)

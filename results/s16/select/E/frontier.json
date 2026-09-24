@@ -1,0 +1,131 @@
+{
+ "N9K298": {
+  "N": 9,
+  "K": 298,
+  "i": 0,
+  "covered": 298,
+  "sumJi": 11.72274,
+  "misses": [],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/polish/D/cols/route_r1_pT07a_42.npz",
+   "results/s16/polish/C/cols/route_r2_s0_41.npz",
+   "results/s16/polish/D/cols/route_r3_pT03e_41.npz",
+   "results/s16/polish/D/cols/route_r4_pT03e_38.npz",
+   "results/s16/polish/C/cols/route_r6_pT03c_31.npz",
+   "results/s16/polish/D/cols/route_r6_pT07b_30.npz",
+   "results/s16/polish/D/cols/route_r7_pT03f_30.npz",
+   "results/s16/polish/D/cols/route_r8_pT03f_24.npz",
+   "results/s16/polish/D/cols/route_r9_pT03f_21.npz"
+  ],
+  "depths": [
+   42,
+   41,
+   41,
+   38,
+   31,
+   30,
+   30,
+   24,
+   21
+  ],
+  "tanks": [
+   944.38,
+   908.9,
+   986.29,
+   913.12,
+   958.1,
+   901.55,
+   1017.13,
+   927.23,
+   902.83
+  ],
+  "sec": 9
+ },
+ "N9K298a1": {
+  "N": 9,
+  "K": 298,
+  "i": 1,
+  "covered": 298,
+  "sumJi": 11.72751,
+  "misses": [],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/iter/A/cols/route_751c2b37x195_42.npz",
+   "results/s16/iter/B/cols/route_6d73a7f1m195_41.npz",
+   "results/s16/polish/D/cols/route_r3_pT03e_41.npz",
+   "results/s16/polish/D/cols/route_r4_pT03e_38.npz",
+   "results/s16/polish/C/cols/route_r6_pT03c_31.npz",
+   "results/s16/polish/D/cols/route_r6_pT07b_30.npz",
+   "results/s16/polish/D/cols/route_r7_pT03f_30.npz",
+   "results/s16/polish/D/cols/route_r8_pT03f_24.npz",
+   "results/s16/polish/D/cols/route_r9_pT03f_21.npz"
+  ],
+  "depths": [
+   42,
+   41,
+   41,
+   38,
+   31,
+   30,
+   30,
+   24,
+   21
+  ],
+  "tanks": [
+   915.32,
+   942.64,
+   986.29,
+   913.12,
+   958.1,
+   901.55,
+   1017.13,
+   927.23,
+   902.83
+  ],
+  "sec": 18
+ },
+ "N9K298a2": {
+  "N": 9,
+  "K": 298,
+  "i": 2,
+  "covered": 298,
+  "sumJi": 11.72901,
+  "misses": [],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/polish/D/cols/route_r1_pT07a_42.npz",
+   "results/s16/polish/D/cols/route_r3_pT03e_41.npz",
+   "results/s16/iter/B/cols/route_21ae69c3m54_40.npz",
+   "results/s16/iter/A/cols/route_e793bd4dx54_39.npz",
+   "results/s16/polish/C/cols/route_r6_pT03c_31.npz",
+   "results/s16/polish/D/cols/route_r6_pT07b_30.npz",
+   "results/s16/polish/D/cols/route_r7_pT03f_30.npz",
+   "results/s16/polish/D/cols/route_r8_pT03f_24.npz",
+   "results/s16/polish/D/cols/route_r9_pT03f_21.npz"
+  ],
+  "depths": [
+   42,
+   41,
+   40,
+   39,
+   31,
+   30,
+   30,
+   24,
+   21
+  ],
+  "tanks": [
+   944.38,
+   986.29,
+   902.45,
+   925.5,
+   958.1,
+   901.55,
+   1017.13,
+   927.23,
+   902.83
+  ],
+  "sec": 29
+ }
+}

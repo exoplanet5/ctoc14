@@ -1,0 +1,6 @@
+[06:26:09] prefix results/s15/cols/t03/TB2f/route_TB2fs1_21.npz k=21: 21 flybys to 5097 d, tank 878.8 kg, miss 42 km (1 s)
+[06:26:09] twintail X5s1k21: pool 22, S [212], p 0.5, steps 1, beam 24/72, nproc 1; resume at step 1
+[06:26:09]   RESUME level 21: beam 1, deepest 0
+[06:26:09]   depth 22: 1 parents -> 0 kids (0 uniq) -> tried 0, settled 0, kept 0 (0 s, gen 0 s)
+[06:26:09]   step 1: nothing under the cap -> chain ends
+[06:26:09] twintail X5s1k21 done: 0 columns, covered 0/22 (0 s)

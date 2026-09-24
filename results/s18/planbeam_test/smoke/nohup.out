@@ -1,0 +1,16 @@
+[2026-09-24 06:04:27] test-slice 3: T 1620 d H 540 L 360; crafts [0]; nproc 1
+[06:04:27] job s03_c0 (craft, craft 0, planbeam): T 1620 d H 540 L 360; plan horizon 3240 d; remaining 224; prize >1 on 44; width 30 npt 6 mc 150 dv 1.2 drmax 0.15 plan_wall 90 s; quota {'fil': 9, 'med': 16}
+[06:04:27] prefix slices/s03/in/craft_0.npz: 8 flybys, t_end 1363.3 d, tank 695.9 kg (planner view), miss 34.1 km, nreg 70
+[06:04:27] plan start: prefix 8 flybys, t_end 1363.3 d, planner mass 1383.0 kg (dv 5.717 km/s)
+[06:04:28] plan: 1 states, depth 0 new flybys, end plan_done (0 s); deepest 0 new to 1363 d at planner fuel 217 kg
+[06:04:28]   depth  0:    1 states (1 in H), t_end 1363-1363 d, fuel 217-217 kg
+[06:04:28] candidates: 0 distinct committed target sets (n_new -, potential -)
+[06:04:28] frontier: 0 candidates chosen: 
+[06:04:28] RESULT s03_c0: 0 columns; frontier ; settles 0 (0 ok); wall 0 s (plan 0, price 0, settle 0)
+frontier (slice 3, T 1620 d, commit (T, T+H] = (1620, 2160] d): cheapest dtank [kg] per n_new, potential (of the cheapest / max); planbeam vs segbeam
+  craft n_new | planbeam dtank  pot(cheap/max) ncol | segbeam dtank  pot(cheap/max) ncol
+  c0     1   |        -             -    -   |      9.8   0/1     7
+  c0     2   |        -             -    -   |     60.4   0/1     4
+  c0     3   |        -             -    -   |     82.8   0/0     2
+  c0 wall: planbeam 0.1 s (plan 0.0 s, 0 columns, ok True); segbeam 714.8 s
+[2026-09-24 06:04:28] test-slice done: total 0 s; /Users/mickey/solarsystem/ctoc14/results/s18/planbeam_test/smoke/frontier.json

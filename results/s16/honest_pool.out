@@ -1,0 +1,56 @@
+3904 files -> 2652 distinct routes; 0 already done; 2652 to do on 10 procs
+[13:08:35] 50/2652 (1 min, eta 29 min) {'regridded': 48, 'rejected': 2}
+[13:09:10] 100/2652 (1 min, eta 29 min) {'regridded': 94, 'rejected': 6}
+[13:09:43] 150/2652 (2 min, eta 28 min) {'regridded': 143, 'rejected': 7}
+[13:10:22] 200/2652 (2 min, eta 29 min) {'regridded': 187, 'rejected': 13}
+[13:10:57] 250/2652 (3 min, eta 28 min) {'regridded': 231, 'rejected': 19}
+[13:11:42] 300/2652 (4 min, eta 29 min) {'regridded': 273, 'rejected': 27}
+[13:12:20] 350/2652 (4 min, eta 28 min) {'regridded': 315, 'rejected': 35}
+[13:12:58] 400/2652 (5 min, eta 28 min) {'regridded': 360, 'rejected': 40}
+[13:13:36] 450/2652 (6 min, eta 27 min) {'regridded': 409, 'rejected': 41}
+[13:14:13] 500/2652 (6 min, eta 27 min) {'regridded': 456, 'rejected': 44}
+[13:14:54] 550/2652 (7 min, eta 26 min) {'regridded': 501, 'rejected': 49}
+[13:15:41] 600/2652 (8 min, eta 26 min) {'regridded': 544, 'rejected': 56}
+[13:16:28] 650/2652 (8 min, eta 26 min) {'regridded': 588, 'rejected': 62}
+[13:17:17] 700/2652 (9 min, eta 26 min) {'regridded': 627, 'rejected': 73}
+[13:17:58] 750/2652 (10 min, eta 25 min) {'regridded': 673, 'rejected': 77}
+[13:18:45] 800/2652 (11 min, eta 25 min) {'regridded': 717, 'rejected': 83}
+[13:19:23] 850/2652 (11 min, eta 24 min) {'regridded': 760, 'rejected': 90}
+[13:20:10] 900/2652 (12 min, eta 24 min) {'regridded': 803, 'rejected': 97}
+[13:20:55] 950/2652 (13 min, eta 23 min) {'regridded': 846, 'rejected': 104}
+[13:21:39] 1000/2652 (14 min, eta 22 min) {'regridded': 888, 'rejected': 112}
+[13:22:22] 1050/2652 (14 min, eta 22 min) {'regridded': 936, 'rejected': 114}
+[13:23:04] 1100/2652 (15 min, eta 21 min) {'regridded': 983, 'rejected': 117}
+[13:23:44] 1150/2652 (16 min, eta 20 min) {'regridded': 1028, 'rejected': 122}
+[13:24:20] 1200/2652 (16 min, eta 20 min) {'regridded': 1073, 'rejected': 127}
+[13:24:47] 1250/2652 (17 min, eta 19 min) {'regridded': 1104, 'rejected': 133, 'regular': 13}
+[13:25:02] 1300/2652 (17 min, eta 18 min) {'regridded': 1129, 'rejected': 133, 'regular': 38}
+[13:25:24] 1350/2652 (17 min, eta 17 min) {'regridded': 1152, 'rejected': 134, 'regular': 64}
+[13:25:30] 1400/2652 (17 min, eta 16 min) {'regridded': 1161, 'rejected': 137, 'regular': 102}
+[13:25:52] 1450/2652 (18 min, eta 15 min) {'regridded': 1190, 'rejected': 139, 'regular': 121}
+[13:26:03] 1500/2652 (18 min, eta 14 min) {'regridded': 1218, 'rejected': 139, 'regular': 143}
+[13:26:20] 1550/2652 (18 min, eta 13 min) {'regridded': 1240, 'rejected': 141, 'regular': 169}
+[13:26:34] 1600/2652 (19 min, eta 12 min) {'regridded': 1267, 'rejected': 143, 'regular': 190}
+[13:26:45] 1650/2652 (19 min, eta 11 min) {'regridded': 1295, 'rejected': 144, 'regular': 211}
+[13:26:57] 1700/2652 (19 min, eta 11 min) {'regridded': 1319, 'rejected': 144, 'regular': 237}
+[13:27:10] 1750/2652 (19 min, eta 10 min) {'regridded': 1352, 'rejected': 145, 'regular': 253}
+[13:27:15] 1800/2652 (19 min, eta 9 min) {'regridded': 1368, 'rejected': 145, 'regular': 287}
+[13:27:24] 1850/2652 (19 min, eta 8 min) {'regridded': 1395, 'rejected': 147, 'regular': 308}
+[13:27:30] 1900/2652 (19 min, eta 8 min) {'regridded': 1414, 'rejected': 147, 'regular': 339}
+[13:27:38] 1950/2652 (20 min, eta 7 min) {'regridded': 1431, 'rejected': 148, 'regular': 371}
+[13:27:41] 2000/2652 (20 min, eta 6 min) {'regridded': 1449, 'rejected': 149, 'regular': 402}
+[13:27:43] 2050/2652 (20 min, eta 6 min) {'regridded': 1462, 'rejected': 150, 'regular': 438}
+[13:27:46] 2100/2652 (20 min, eta 5 min) {'regridded': 1482, 'rejected': 151, 'regular': 467}
+[13:27:48] 2150/2652 (20 min, eta 5 min) {'regridded': 1502, 'rejected': 151, 'regular': 497}
+[13:27:51] 2200/2652 (20 min, eta 4 min) {'regridded': 1518, 'rejected': 151, 'regular': 531}
+[13:27:52] 2250/2652 (20 min, eta 4 min) {'regridded': 1533, 'rejected': 154, 'regular': 563}
+[13:27:54] 2300/2652 (20 min, eta 3 min) {'regridded': 1549, 'rejected': 154, 'regular': 597}
+[13:27:55] 2350/2652 (20 min, eta 3 min) {'regridded': 1572, 'rejected': 154, 'regular': 624}
+[13:27:57] 2400/2652 (20 min, eta 2 min) {'regridded': 1587, 'rejected': 154, 'regular': 659}
+[13:27:59] 2450/2652 (20 min, eta 2 min) {'regridded': 1607, 'rejected': 154, 'regular': 689}
+[13:28:01] 2500/2652 (20 min, eta 1 min) {'regridded': 1622, 'rejected': 155, 'regular': 723}
+[13:28:04] 2550/2652 (20 min, eta 1 min) {'regridded': 1642, 'rejected': 156, 'regular': 752}
+[13:28:06] 2600/2652 (20 min, eta 0 min) {'regridded': 1662, 'rejected': 159, 'regular': 779}
+[13:28:08] 2650/2652 (20 min, eta 0 min) {'regridded': 1682, 'rejected': 160, 'regular': 808}
+[13:28:08] 2652/2652 (20 min, eta 0 min) {'regridded': 1682, 'rejected': 162, 'regular': 808}
+done {'regridded': 1682, 'rejected': 162, 'regular': 808}

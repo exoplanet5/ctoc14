@@ -1,0 +1,15 @@
+[16:28:20] load: 6404 files (0 new; {'ok': 6395, 'tank': 9}), 3585 distinct, 238 dominated -> 3347 columns
+[16:41:15]   N<=9 K>=298 alt 0: 9 craft 298 covered sum J_i 11.7227 (Optimization terminated , 229 s); misses []; depths [42, 41, 41, 38, 31, 30, 30, 24, 21]
+[16:41:15]   N<=9 K>=298 alt 1: 9 craft 298 covered sum J_i 11.7275 (Optimization terminated , 468 s); misses []; depths [42, 41, 41, 38, 31, 30, 30, 24, 21]
+[16:41:15]   N<=9 K>=298 alt 2: 9 craft 298 covered sum J_i 11.7290 (Optimization terminated , 656 s); misses []; depths [42, 41, 40, 39, 31, 30, 30, 24, 21]
+[16:41:15]   N<=9 K>=298 alt 3: 9 craft 298 covered sum J_i 11.7292 (Optimization terminated , 664 s); misses []; depths [42, 42, 41, 38, 30, 30, 30, 24, 21]
+[16:41:15]   N<=9 K>=298 alt 4: 9 craft 298 covered sum J_i 11.7294 (Optimization terminated , 677 s); misses []; depths [42, 42, 41, 38, 31, 30, 30, 24, 21]
+[16:41:15]   N<=9 K>=298 alt 5: 9 craft 298 covered sum J_i 11.7294 (Optimization terminated , 690 s); misses []; depths [42, 41, 40, 38, 31, 31, 30, 24, 21]
+[16:41:15]   N<=9 K>=298 alt 6: 9 craft 298 covered sum J_i 11.7295 (Optimization terminated , 703 s); misses []; depths [42, 42, 41, 37, 31, 30, 30, 24, 21]
+[16:41:15]   N<=9 K>=298 alt 7: 9 craft 298 covered sum J_i 11.7297 (Optimization terminated , 714 s); misses []; depths [42, 41, 41, 38, 31, 30, 30, 24, 21]
+[16:41:15]   N<=9 K>=298 alt 8: 9 craft 298 covered sum J_i 11.7297 (Optimization terminated , 732 s); misses []; depths [42, 41, 41, 39, 31, 30, 30, 24, 21]
+[16:41:15]   N<=9 K>=298 alt 9: 9 craft 298 covered sum J_i 11.7312 (Optimization terminated , 743 s); misses []; depths [42, 41, 41, 39, 30, 30, 30, 24, 21]
+[16:41:15]   N<=9 K>=298 alt 10: 9 craft 298 covered sum J_i 11.7313 (Optimization terminated , 754 s); misses []; depths [42, 41, 40, 39, 31, 30, 30, 24, 21]
+[16:41:15]   N<=9 K>=298 alt 11: 9 craft 298 covered sum J_i 11.7316 (Optimization terminated , 765 s); misses []; depths [42, 42, 41, 37, 31, 30, 30, 24, 21]
+[16:41:15]   N<=9 K>=298 alt 12: 9 craft 298 covered sum J_i 11.7317 (Optimization terminated , 775 s); misses []; depths [42, 41, 41, 38, 31, 31, 30, 24, 21]
+[16:41:15] ranking by est closed: N9K298a0 11.7227->None | N9K298a1 11.7275->None | N9K298a2 11.7290->None | N9K298a3 11.7292->None | N9K298a4 11.7294->None | N9K298a5 11.7294->None | N9K298a6 11.7295->None | N9K298a7 11.7297->None | N9K298a8 11.7297->None | N9K298a9 11.7312->None | N9K298a10 11.7313->None | N9K298a11 11.7316->None | N9K298a12 11.7317->None (775 s)

@@ -1,0 +1,9 @@
+[06:21:07] prefix results/s15/cols/r01/C00h6/route_C00h6s1_28.npz k=11: 11 flybys to 2149 d, tank 710.9 kg, miss 50 km (1 s)
+[06:21:07] twintail X3t1k11: pool 29, S [64], p 0.5, steps 1, beam 24/72, nproc 1; resume at step 1
+[06:21:07]   RESUME level 11: beam 1, deepest 0
+[06:21:27]   depth 12: 1 parents -> 7 kids (7 uniq) -> tried 7, settled 7, kept 6; t_end 2336-2815 d, tank 714-753, max S 0 (20 s, gen 2 s)
+[06:22:53]   depth 13: 6 parents -> 36 kids (36 uniq) -> tried 24, settled 24, kept 20; t_end 2530-3136 d, tank 720-804, max S 1 (86 s, gen 16 s)
+[06:24:58]   depth 14: 20 parents -> 110 kids (110 uniq) -> tried 24, settled 24, kept 19; t_end 2674-3404 d, tank 728-943, max S 0 (125 s, gen 53 s)
+[06:27:51]   depth 15: 19 parents -> 102 kids (102 uniq) -> tried 26, settled 24, kept 22; t_end 2831-3715 d, tank 733-992, max S 0 (172 s, gen 48 s)
+[06:30:18]   depth 16: 22 parents -> 111 kids (111 uniq) -> tried 25, settled 24, kept 19; t_end 3112-3879 d, tank 733-855, max S 0 (148 s, gen 56 s)
+[06:32:11]   depth 17: 19 parents -> 66 kids (65 uniq) -> tried 24, settled 24, kept 19; t_end 3338-4143 d, tank 772-848, max S 0 (112 s, gen 47 s)

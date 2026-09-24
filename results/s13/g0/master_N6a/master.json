@@ -1,0 +1,136 @@
+{
+ "files": 8,
+ "load": {
+  "ok": 8
+ },
+ "columns": 8,
+ "union": 263,
+ "N": {
+  "8": {
+   "craft": 8,
+   "covered": 263,
+   "sumJi": 10.2032,
+   "J": 47.2032,
+   "status": "Optimization terminated successfully. (HiGHS Status 7: Optim",
+   "picks": [
+    {
+     "f": "results/s13/seed_passes/N6a/route_01.npz",
+     "n": 48,
+     "tank": 1048.383,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/seed_passes/N6a/route_03.npz",
+     "n": 42,
+     "tank": 992.725,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/seed_passes/N6a/route_02.npz",
+     "n": 39,
+     "tank": 1038.129,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/seed_passes/N6a/route_04.npz",
+     "n": 36,
+     "tank": 929.655,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/seed_passes/N6a/route_05.npz",
+     "n": 34,
+     "tank": 880.164,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/seed_passes/N6a/route_06.npz",
+     "n": 26,
+     "tank": 835.41,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/seed_passes/N6a/route_07.npz",
+     "n": 23,
+     "tank": 847.211,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/seed_passes/N6a/route_08.npz",
+     "n": 15,
+     "tank": 698.175,
+     "resettled": true
+    }
+   ],
+   "dup_targets": [],
+   "strip": null,
+   "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/g0/master_N6a/N8/fleet",
+   "lp": 47.2068,
+   "dropped": []
+  },
+  "9": {
+   "craft": 8,
+   "covered": 263,
+   "sumJi": 10.2032,
+   "J": 47.2032,
+   "status": "Optimization terminated successfully. (HiGHS Status 7: Optim",
+   "picks": [
+    {
+     "f": "results/s13/seed_passes/N6a/route_01.npz",
+     "n": 48,
+     "tank": 1048.383,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/seed_passes/N6a/route_03.npz",
+     "n": 42,
+     "tank": 992.725,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/seed_passes/N6a/route_02.npz",
+     "n": 39,
+     "tank": 1038.129,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/seed_passes/N6a/route_04.npz",
+     "n": 36,
+     "tank": 929.655,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/seed_passes/N6a/route_05.npz",
+     "n": 34,
+     "tank": 880.164,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/seed_passes/N6a/route_06.npz",
+     "n": 26,
+     "tank": 835.41,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/seed_passes/N6a/route_07.npz",
+     "n": 23,
+     "tank": 847.211,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/seed_passes/N6a/route_08.npz",
+     "n": 15,
+     "tank": 698.175,
+     "resettled": true
+    }
+   ],
+   "dup_targets": [],
+   "strip": null,
+   "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/g0/master_N6a/N9/fleet",
+   "lp": 47.2068,
+   "dropped": []
+  }
+ },
+ "frontier": {},
+ "wall_s": 26.0
+}

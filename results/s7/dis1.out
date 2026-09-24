@@ -1,0 +1,14 @@
+[03:22:45] results/s7/deep1/fleet: 10 craft, covered 298, J 15.430
+[03:22:45]   dissolve 09: saves J_i 1.322, must place 19 targets (budget 0.070 J each)
+[04:49:51]     over budget after 10 of 19 (spent 1.483 >= 1.322)
+[04:49:51]   (5226 s)
+[04:49:51]   dissolve 05: saves J_i 1.406, must place 24 targets (budget 0.059 J each)
+[06:25:16]     over budget after 14 of 24 (spent 1.697 >= 1.406)
+[06:25:16]   (5724 s)
+[06:25:16]   dissolve 07: saves J_i 1.270, must place 21 targets (budget 0.060 J each)
+[07:20:52]     nothing insertable, 9 left: [3, 15, 19, 69, 88, 106, 119, 138, 203]
+[07:20:52]   (3337 s)
+[07:20:52]   dissolve 08: saves J_i 1.368, must place 25 targets (budget 0.055 J each)
+[09:30:10]     over budget after 12 of 25 (spent 1.385 >= 1.368)
+[09:30:10]   (7758 s)
+[09:30:10]   dissolve 04: saves J_i 1.282, must place 24 targets (budget 0.053 J each)

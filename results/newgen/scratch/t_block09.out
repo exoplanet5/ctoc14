@@ -1,0 +1,44 @@
+victim 09: cost 1.3410, 28 targets from 1.9 to 14.9 yr
+block 0 (5 targets [271, 42, 270, 8, 39] at 1.9-3.0 yr): closest hosts 03 0.474 AU, 02 0.755 AU, 12 0.796 AU, 13 0.857 AU
+block 1 (5 targets [49, 251, 292, 273, 165] at 4.5-5.5 yr): closest hosts 02 0.617 AU, 05 1.048 AU, 03 1.352 AU, 12 1.465 AU
+block 2 (5 targets [118, 150, 68, 260, 272] at 7.0-7.8 yr): closest hosts 02 0.210 AU, 05 0.842 AU, 03 1.332 AU, 06 1.445 AU
+block 3 (5 targets [213, 267, 51, 248, 168] at 9.3-10.6 yr): closest hosts 05 0.348 AU, 12 0.493 AU, 06 0.526 AU, 02 0.715 AU
+block 4 (5 targets [124, 71, 2, 157, 6] at 12.4-13.0 yr): closest hosts 06 0.187 AU, 12 0.424 AU, 05 0.489 AU, 01 0.545 AU
+block 5 (3 targets [188, 219, 221] at 14.0-14.5 yr): closest hosts 12 0.240 AU, 01 0.337 AU, 06 0.434 AU, 05 0.612 AU
+36 block trials
+{'tag': 'b0', 'host': '03', 'n': 5, 'eject': 0, 'ok': False, 'miss': 147912219, 'dJ': np.float64(0.0), 'per': np.float64(0.0), 'tank': '815->815', 'sec': 6, 'ejected': []}
+{'tag': 'b1E', 'host': '02', 'n': 5, 'eject': 5, 'ok': False, 'miss': 143638036, 'dJ': np.float64(0.0), 'per': np.float64(0.0), 'tank': '904->904', 'sec': 6, 'ejected': [55, 97, 190, 29, 189]}
+{'tag': 'b0', 'host': '02', 'n': 5, 'eject': 0, 'ok': False, 'miss': 145631534, 'dJ': np.float64(0.0), 'per': np.float64(0.0), 'tank': '904->904', 'sec': 6, 'ejected': []}
+{'tag': 'b1', 'host': '02', 'n': 5, 'eject': 0, 'ok': False, 'miss': 143638036, 'dJ': np.float64(0.0), 'per': np.float64(0.0), 'tank': '904->904', 'sec': 6, 'ejected': []}
+{'tag': 'b0', 'host': '12', 'n': 5, 'eject': 0, 'ok': False, 'miss': 166149317, 'dJ': np.float64(0.1256), 'per': np.float64(0.0251), 'tank': '795->924', 'sec': 8, 'ejected': []}
+{'tag': 'b0E', 'host': '12', 'n': 5, 'eject': 5, 'ok': False, 'miss': 130538706, 'dJ': np.float64(0.4055), 'per': np.float64(0.0811), 'tank': '795->1163', 'sec': 10, 'ejected': [74, 99, 204, 113, 105]}
+{'tag': 'b1E', 'host': '03', 'n': 5, 'eject': 4, 'ok': False, 'miss': 240311312, 'dJ': np.float64(0.0), 'per': np.float64(0.0), 'tank': '815->815', 'sec': 5, 'ejected': [214, 203, 201, 19]}
+{'tag': 'b1', 'host': '03', 'n': 5, 'eject': 0, 'ok': False, 'miss': 240311312, 'dJ': np.float64(0.0), 'per': np.float64(0.0), 'tank': '815->815', 'sec': 5, 'ejected': []}
+{'tag': 'b1', 'host': '05', 'n': 5, 'eject': 0, 'ok': False, 'miss': 188602195, 'dJ': np.float64(0.0), 'per': np.float64(0.0), 'tank': '905->905', 'sec': 6, 'ejected': []}
+{'tag': 'b0E', 'host': '02', 'n': 5, 'eject': 8, 'ok': False, 'miss': 82120534, 'dJ': np.float64(0.596), 'per': np.float64(0.1192), 'tank': '904->1375', 'sec': 12, 'ejected': [217, 104, 264, 164, 231, 258, 76, 135]}
+{'tag': 'b0E', 'host': '03', 'n': 5, 'eject': 4, 'ok': False, 'miss': 29100301, 'dJ': np.float64(0.4528), 'per': np.float64(0.0906), 'tank': '815->1213', 'sec': 13, 'ejected': [205, 181, 103, 138]}
+{'tag': 'b2', 'host': '02', 'n': 5, 'eject': 0, 'ok': False, 'miss': 45787985, 'dJ': np.float64(0.0), 'per': np.float64(0.0), 'tank': '904->904', 'sec': 6, 'ejected': []}
+{'tag': 'b2', 'host': '03', 'n': 5, 'eject': 0, 'ok': False, 'miss': 226618131, 'dJ': np.float64(0.0), 'per': np.float64(0.0), 'tank': '815->815', 'sec': 5, 'ejected': []}
+{'tag': 'b2', 'host': '05', 'n': 5, 'eject': 0, 'ok': False, 'miss': 161085365, 'dJ': np.float64(0.0), 'per': np.float64(0.0), 'tank': '905->905', 'sec': 6, 'ejected': []}
+{'tag': 'b1E', 'host': '05', 'n': 5, 'eject': 6, 'ok': False, 'miss': 149302639, 'dJ': np.float64(0.3829), 'per': np.float64(0.0766), 'tank': '905->1227', 'sec': 11, 'ejected': [182, 61, 45, 220, 284, 229]}
+{'tag': 'b2E', 'host': '05', 'n': 5, 'eject': 5, 'ok': False, 'miss': 156647251, 'dJ': np.float64(0.0644), 'per': np.float64(0.0129), 'tank': '905->966', 'sec': 8, 'ejected': [41, 132, 262, 5, 67]}
+{'tag': 'b2E', 'host': '03', 'n': 5, 'eject': 3, 'ok': False, 'miss': 189867695, 'dJ': np.float64(0.5463), 'per': np.float64(0.1093), 'tank': '815->1281', 'sec': 8, 'ejected': [69, 299, 106]}
+{'tag': 'b2E', 'host': '02', 'n': 5, 'eject': 5, 'ok': True, 'miss': 44, 'dJ': np.float64(0.2591), 'per': np.float64(0.0518), 'tank': '904->1131', 'sec': 10, 'ejected': [32, 142, 183, 60, 82]}
+{'tag': 'b3', 'host': '05', 'n': 5, 'eject': 0, 'ok': False, 'miss': 85782006, 'dJ': np.float64(0.2728), 'per': np.float64(0.0546), 'tank': '905->1143', 'sec': 9, 'ejected': []}
+{'tag': 'b3', 'host': '12', 'n': 5, 'eject': 0, 'ok': False, 'miss': 110397510, 'dJ': np.float64(0.0), 'per': np.float64(0.0), 'tank': '795->795', 'sec': 7, 'ejected': []}
+{'tag': 'b3', 'host': '06', 'n': 5, 'eject': 0, 'ok': False, 'miss': 138876614, 'dJ': np.float64(0.3149), 'per': np.float64(0.063), 'tank': '878->1154', 'sec': 8, 'ejected': []}
+{'tag': 'b4', 'host': '06', 'n': 5, 'eject': 0, 'ok': False, 'miss': 40965853, 'dJ': np.float64(0.133), 'per': np.float64(0.0266), 'tank': '878->1003', 'sec': 7, 'ejected': []}
+{'tag': 'b3E', 'host': '12', 'n': 5, 'eject': 6, 'ok': True, 'miss': 2, 'dJ': np.float64(0.3304), 'per': np.float64(0.0661), 'tank': '795->1104', 'sec': 11, 'ejected': [143, 26, 133, 256, 89, 54]}
+{'tag': 'b4', 'host': '12', 'n': 5, 'eject': 0, 'ok': False, 'miss': 79588974, 'dJ': np.float64(0.0), 'per': np.float64(0.0), 'tank': '795->795', 'sec': 6, 'ejected': []}
+{'tag': 'b3E', 'host': '05', 'n': 5, 'eject': 5, 'ok': False, 'miss': 7580101, 'dJ': np.float64(0.8682), 'per': np.float64(0.1736), 'tank': '905->1547', 'sec': 16, 'ejected': [147, 266, 238, 288, 263]}
+{'tag': 'b3E', 'host': '06', 'n': 5, 'eject': 4, 'ok': False, 'miss': 100519560, 'dJ': np.float64(0.5379), 'per': np.float64(0.1076), 'tank': '878->1318', 'sec': 10, 'ejected': [171, 34, 240, 83]}
+{'tag': 'b4E', 'host': '06', 'n': 5, 'eject': 2, 'ok': True, 'miss': 14, 'dJ': np.float64(0.5572), 'per': np.float64(0.1114), 'tank': '878->1331', 'sec': 10, 'ejected': [120, 130]}
+{'tag': 'b4', 'host': '05', 'n': 5, 'eject': 0, 'ok': False, 'miss': 101518809, 'dJ': np.float64(0.0), 'per': np.float64(0.0), 'tank': '905->905', 'sec': 6, 'ejected': []}
+{'tag': 'b5E', 'host': '01', 'n': 3, 'eject': 3, 'ok': True, 'miss': 13, 'dJ': np.float64(0.1831), 'per': np.float64(0.061), 'tank': '919->1082', 'sec': 3, 'ejected': [109, 195, 194]}
+{'tag': 'b5E', 'host': '12', 'n': 3, 'eject': 2, 'ok': True, 'miss': 83, 'dJ': np.float64(0.0402), 'per': np.float64(0.0134), 'tank': '795->838', 'sec': 4, 'ejected': [79, 243]}
+{'tag': 'b5', 'host': '01', 'n': 3, 'eject': 0, 'ok': False, 'miss': 82567676, 'dJ': np.float64(0.0), 'per': np.float64(0.0), 'tank': '919->919', 'sec': 4, 'ejected': []}
+{'tag': 'b4E', 'host': '05', 'n': 5, 'eject': 3, 'ok': False, 'miss': 101518809, 'dJ': np.float64(0.0), 'per': np.float64(0.0), 'tank': '905->905', 'sec': 5, 'ejected': [179, 37, 281]}
+{'tag': 'b4E', 'host': '12', 'n': 5, 'eject': 3, 'ok': False, 'miss': 59053910, 'dJ': np.float64(0.5039), 'per': np.float64(0.1008), 'tank': '795->1238', 'sec': 11, 'ejected': [90, 259, 151]}
+{'tag': 'b5E', 'host': '06', 'n': 3, 'eject': 2, 'ok': True, 'miss': 47, 'dJ': np.float64(0.1281), 'per': np.float64(0.0427), 'tank': '878->999', 'sec': 6, 'ejected': [254, 27]}
+{'tag': 'b5', 'host': '12', 'n': 3, 'eject': 0, 'ok': False, 'miss': 30771807, 'dJ': np.float64(0.1719), 'per': np.float64(0.0573), 'tank': '795->967', 'sec': 9, 'ejected': []}
+{'tag': 'b5', 'host': '06', 'n': 3, 'eject': 0, 'ok': False, 'miss': 80015964, 'dJ': np.float64(0.3132), 'per': np.float64(0.1044), 'tank': '878->1153', 'sec': 9, 'ejected': []}

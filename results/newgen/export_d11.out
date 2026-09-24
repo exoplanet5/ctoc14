@@ -1,0 +1,26 @@
+[23:13:35]   02: impulsive tank 787.8 -> exact m0 789.3 (miss 103 km)
+[23:13:46]   01: impulsive tank 813.2 -> exact m0 814.3 (miss 99 km)
+[23:15:36]   03: impulsive tank 743.7 -> exact m0 744.5 (miss 59 km)
+[23:16:52]   05: impulsive tank 806.4 -> exact m0 807.6 (miss 68 km)
+[23:18:20]   06: impulsive tank 722.4 -> exact m0 723.2 (miss 128 km)
+[23:19:49]   07: impulsive tank 897.1 -> exact m0 900.1 (miss 105 km)
+[23:22:10]   08: impulsive tank 742.8 -> exact m0 744.1 (miss 119 km)
+[23:23:07]   09: impulsive tank 727.6 -> exact m0 728.4 (miss 146 km)
+[23:23:51]   04: impulsive tank 863.6 -> exact m0 875.1 (miss 92 km)
+[23:25:24]   12: impulsive tank 794.1 -> exact m0 795.1 (miss 92 km)
+[23:26:24]   13: impulsive tank 765.3 -> exact m0 766.5 (miss 57 km)
+[23:27:46]   10: impulsive tank 727.3 -> exact m0 727.7 (miss 90 km)
+[23:27:46] 12 craft, covered 298, J 15.8104; 01:37/37@814 05:35/35@808 02:33/33@789 12:31/31@795 07:25/25@900 04:23/23@875 13:23/23@767 03:20/20@744 10:20/20@728 09:18/18@728 06:17/17@723 08:16/16@744
+01: ok=False errors=['SC1 line 3410: flyby distance to asteroid 253 is 1131.6 km > 1000 km', 'SC1 line 3482: flyby distance to asteroid 77 is 1004.7 km > 1000 km'] flybys=35 fuel=213.46 peak=0.383
+02: ok=True errors=[] flybys=33 fuel=188.17 peak=0.353
+03: ok=False errors=['SC1 line 4443: flyby distance to asteroid 23 is 1035.8 km > 1000 km', 'SC1 line 4727: flyby distance to asteroid 13 is 1291.8 km > 1000 km', 'SC1 line 4895: flyby distance to asteroid 184 is 1258.2 km > 1000 km'] flybys=17 fuel=143.25 peak=0.231
+04: ok=False errors=['SC1 line 3224: flyby distance to asteroid 286 is 1308.3 km > 1000 km', 'SC1 line 3885: flyby distance to asteroid 1 is 3592.8 km > 1000 km', 'SC1 line 4239: flyby distance to asteroid 96 is 4745.3 km > 1000 km'] flybys=13 fuel=274.00 peak=0.396
+05: ok=True errors=[] flybys=35 fuel=206.48 peak=0.457
+06: ok=True errors=[] flybys=17 fuel=121.95 peak=0.389
+07: ok=False errors=['SC1 line 4467: flyby distance to asteroid 198 is 1484.8 km > 1000 km', 'SC1 line 4877: flyby distance to asteroid 196 is 2126.5 km > 1000 km', 'SC1 line 5016: flyby distance to asteroid 27 is 1876.4 km > 1000 km'] flybys=22 fuel=299.15 peak=0.429
+08: ok=True errors=[] flybys=16 fuel=142.89 peak=0.360
+09: ok=True errors=[] flybys=18 fuel=127.20 peak=0.399
+10: ok=True errors=[] flybys=20 fuel=126.27 peak=0.126
+12: ok=False errors=['SC1 line 3205: flyby distance to asteroid 300 is 1172.0 km > 1000 km', 'SC1 line 3393: flyby distance to asteroid 143 is 1419.2 km > 1000 km', 'SC1 line 3527: flyby distance to asteroid 26 is 1511.5 km > 1000 km'] flybys=19 fuel=194.14 peak=0.310
+13: ok=True errors=[] flybys=23 fuel=165.21 peak=0.238
+some craft failed validation; not combining

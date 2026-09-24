@@ -1,0 +1,342 @@
+{
+ "targets": [
+  15,
+  131,
+  137,
+  138,
+  144,
+  216
+ ],
+ "inserted": [
+  138
+ ],
+ "remaining": [
+  15,
+  137,
+  216
+ ],
+ "history": [
+  {
+   "phase": "budget",
+   "target": 138,
+   "tour": "tour_sc10",
+   "k": -1,
+   "pos": 0,
+   "after_ast": 0,
+   "before_ast": 137,
+   "t_j": 124502400.0,
+   "t_j_d": 1441.0,
+   "delta_d": -5.0,
+   "extra_kg": -481.596542236176,
+   "fuel_new": 153.427453674263,
+   "dvA": 4.310104278366479,
+   "dvB": 2.346185840604208,
+   "dvC": NaN,
+   "dvD": NaN,
+   "tofA_d": 211.0,
+   "tofB_d": 165.84345696174748,
+   "u_mod": 0.6698680293377194,
+   "budget_before": -445.023995910439,
+   "budget_after": 36.572546325736994,
+   "fuel_before": 635.023995910439,
+   "n_before": 1,
+   "n_after": 2,
+   "m0": 850.0,
+   "dJ": 0.0
+  }
+ ],
+ "remaining_table": [
+  {
+   "target": 15,
+   "options": [
+    {
+     "tour": "tour_sc9",
+     "extra_kg": -154.93932431089513,
+     "note": "after 225 at 1178 d d=+10.0 dv 15.65/11.28/0.00 u=0.62",
+     "budget": -537.3282827337738
+    },
+    {
+     "tour": "tour_sc7",
+     "extra_kg": 1.0843553934080319,
+     "note": "after 196 at 5292 d d=+0.0 dv 3.84/nan/0.00 u=0.02",
+     "budget": -648.4554217971038
+    },
+    {
+     "tour": "tour_sc8",
+     "extra_kg": 65.03644867027378,
+     "note": "after 221 at 4831 d d=+0.0 dv 17.92/nan/0.00 u=0.29",
+     "budget": -493.7513707927328
+    },
+    {
+     "tour": "tour_sc3",
+     "extra_kg": 253.40818752245536,
+     "note": "after 141 at 5196 d d=+0.0 dv 16.92/nan/0.00 u=0.97",
+     "budget": -66.51356849747162
+    },
+    {
+     "tour": "tour_sc1",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": -124.14903902389119
+    },
+    {
+     "tour": "tour_sc2",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": -50.11436148311623
+    },
+    {
+     "tour": "tour_sc4",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": -173.27468849919933
+    },
+    {
+     "tour": "tour_sc5",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": -131.62756188489493
+    },
+    {
+     "tour": "tour_sc6",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": -113.49393096987251
+    },
+    {
+     "tour": "tour_sc10",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": 36.572546325736994
+    }
+   ]
+  },
+  {
+   "target": 137,
+   "options": [
+    {
+     "tour": "tour_sc9",
+     "extra_kg": -297.01439935322526,
+     "note": "after 225 at 1261 d d=+10.0 dv 9.82/3.67/0.00 u=0.34",
+     "budget": -537.3282827337738
+    },
+    {
+     "tour": "tour_sc7",
+     "extra_kg": -75.88975997788361,
+     "note": "after 12 at 4360 d d=-2.5 dv 5.27/5.20/1.27 u=0.32",
+     "budget": -648.4554217971038
+    },
+    {
+     "tour": "tour_sc4",
+     "extra_kg": 2.963942851635011,
+     "note": "after 300 at 4357 d d=-2.5 dv 0.71/0.39/1.31 u=0.58",
+     "budget": -173.27468849919933
+    },
+    {
+     "tour": "tour_sc8",
+     "extra_kg": 41.28242488241585,
+     "note": "after 107 at 4344 d d=+10.0 dv 4.99/6.16/0.00 u=0.37",
+     "budget": -493.7513707927328
+    },
+    {
+     "tour": "tour_sc1",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": -124.14903902389119
+    },
+    {
+     "tour": "tour_sc2",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": -50.11436148311623
+    },
+    {
+     "tour": "tour_sc3",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": -66.51356849747162
+    },
+    {
+     "tour": "tour_sc5",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": -131.62756188489493
+    },
+    {
+     "tour": "tour_sc6",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": -113.49393096987251
+    },
+    {
+     "tour": "tour_sc10",
+     "extra_kg": null,
+     "note": "already in tour",
+     "budget": 36.572546325736994
+    }
+   ]
+  },
+  {
+   "target": 216,
+   "options": [
+    {
+     "tour": "tour_sc7",
+     "extra_kg": -90.13035819709671,
+     "note": "after 12 at 4163 d d=-10.0 dv 2.82/1.78/3.77 u=0.21",
+     "budget": -648.4554217971038
+    },
+    {
+     "tour": "tour_sc8",
+     "extra_kg": 55.98473469762121,
+     "note": "after 107 at 4274 d d=+10.0 dv 5.90/9.62/0.00 u=0.32",
+     "budget": -493.7513707927328
+    },
+    {
+     "tour": "tour_sc9",
+     "extra_kg": 108.49084517427423,
+     "note": "after 75 at 2120 d d=+0.0 dv 68.15/nan/0.00 u=0.81",
+     "budget": -537.3282827337738
+    },
+    {
+     "tour": "tour_sc1",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": -124.14903902389119
+    },
+    {
+     "tour": "tour_sc2",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": -50.11436148311623
+    },
+    {
+     "tour": "tour_sc3",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": -66.51356849747162
+    },
+    {
+     "tour": "tour_sc4",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": -173.27468849919933
+    },
+    {
+     "tour": "tour_sc5",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": -131.62756188489493
+    },
+    {
+     "tour": "tour_sc6",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": -113.49393096987251
+    },
+    {
+     "tour": "tour_sc10",
+     "extra_kg": null,
+     "note": "no feasible detour",
+     "budget": 36.572546325736994
+    }
+   ]
+  }
+ ],
+ "params": {
+  "margin": 60.0,
+  "eta": 0.6,
+  "tstep": 1.0,
+  "delta_max": 10.0,
+  "delta_step": 2.5,
+  "tof_min": 15.0,
+  "tof_max_last": 400.0,
+  "launch_gap": true,
+  "u_max": 1.0,
+  "grow_m0": false
+ },
+ "tours": {
+  "tour_sc1": {
+   "m0": 2000.0,
+   "n": 46,
+   "fuel": 1464.1490390238912,
+   "budget": -124.14903902389119,
+   "t_end_d": 5134.414510432336,
+   "inserted": []
+  },
+  "tour_sc2": {
+   "m0": 2000.0,
+   "n": 48,
+   "fuel": 1390.1143614831162,
+   "budget": -50.11436148311623,
+   "t_end_d": 5249.925256942086,
+   "inserted": []
+  },
+  "tour_sc3": {
+   "m0": 1887.7812963697716,
+   "n": 38,
+   "fuel": 1294.2948648672432,
+   "budget": -66.51356849747162,
+   "t_end_d": 4796.124112693139,
+   "inserted": []
+  },
+  "tour_sc4": {
+   "m0": 2000.0,
+   "n": 39,
+   "fuel": 1513.2746884991993,
+   "budget": -173.27468849919933,
+   "t_end_d": 5435.421195421163,
+   "inserted": []
+  },
+  "tour_sc5": {
+   "m0": 1966.0814834973426,
+   "n": 36,
+   "fuel": 1437.7090453822375,
+   "budget": -131.62756188489493,
+   "t_end_d": 5443.371874078235,
+   "inserted": []
+  },
+  "tour_sc6": {
+   "m0": 1972.6361427443808,
+   "n": 29,
+   "fuel": 1426.1300737142533,
+   "budget": -113.49393096987251,
+   "t_end_d": 5178.047275784222,
+   "inserted": []
+  },
+  "tour_sc7": {
+   "m0": 2000.0,
+   "n": 22,
+   "fuel": 1988.4554217971038,
+   "budget": -648.4554217971038,
+   "t_end_d": 5216.636102406326,
+   "inserted": []
+  },
+  "tour_sc8": {
+   "m0": 2000.0,
+   "n": 15,
+   "fuel": 1833.7513707927328,
+   "budget": -493.7513707927328,
+   "t_end_d": 4430.850110345921,
+   "inserted": []
+  },
+  "tour_sc9": {
+   "m0": 985.1729988193849,
+   "n": 3,
+   "fuel": 862.5012815531587,
+   "budget": -537.3282827337738,
+   "t_end_d": 1719.5370875502265,
+   "inserted": []
+  },
+  "tour_sc10": {
+   "m0": 850.0,
+   "n": 2,
+   "fuel": 153.427453674263,
+   "budget": 36.572546325736994,
+   "t_end_d": 1606.8434569617475,
+   "inserted": [
+    138
+   ]
+  }
+ },
+ "sum_J_i": 26.19688173276787
+}

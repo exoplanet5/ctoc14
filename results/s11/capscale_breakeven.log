@@ -1,0 +1,11 @@
+680 carriers
+ dmax 0.037: cand median 25, union 298
+   K=8 cap=45 n_carriers  120: covered [175]
+   K=8 cap=45 n_carriers  680: covered [185]
+   K=10 cap=45 n_carriers  120: covered [197]
+   K=10 cap=45 n_carriers  680: covered [210]
+ dmax 0.05: cand median 32, union 298
+   K=8 cap=45 n_carriers  120: covered [200]
+   K=8 cap=45 n_carriers  680: covered [209]
+   K=10 cap=45 n_carriers  120: covered [222]
+   K=10 cap=45 n_carriers  680: covered [233]

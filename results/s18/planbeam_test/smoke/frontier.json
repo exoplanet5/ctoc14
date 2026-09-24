@@ -1,0 +1,43 @@
+{
+ "slice": 3,
+ "T_d": 1620.0,
+ "H_d": 540.0,
+ "L_d": 360.0,
+ "crafts": [
+  0
+ ],
+ "rows": [
+  {
+   "craft": 0,
+   "ok": true,
+   "error": null,
+   "wall_s": 0.1,
+   "plan_s": 0.0,
+   "n_columns": 0,
+   "planbeam": [],
+   "segbeam": {
+    "1": {
+     "dtank_min": 9.750251266413443,
+     "potential_of_cheapest": 0,
+     "potential_max": 1,
+     "n_cols": 7
+    },
+    "2": {
+     "dtank_min": 60.429232341882425,
+     "potential_of_cheapest": 0,
+     "potential_max": 1,
+     "n_cols": 4
+    },
+    "3": {
+     "dtank_min": 82.83632952394862,
+     "potential_of_cheapest": 0,
+     "potential_max": 0,
+     "n_cols": 2
+    }
+   },
+   "seg_wall_s": 714.8
+  }
+ ],
+ "total_wall_s": 0.1,
+ "built": "2026-09-24 06:04:28"
+}

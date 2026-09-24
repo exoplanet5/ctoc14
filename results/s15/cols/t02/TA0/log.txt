@@ -1,0 +1,2 @@
+[21:43:25] twintail TA0: pool 65, S [64, 119, 137, 138, 157, 158, 168, 216], p 0.02, steps 3, beam 20/60, nproc 2; resume at step 1
+[21:43:39]   roots: 945 launch legs -> 204 kept; pool 65, S [64, 119, 137, 138, 157, 158, 168, 216] p 0.02

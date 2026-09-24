@@ -1,0 +1,18 @@
+[06:07:11] job s03_c0 (craft, craft 0, planbeam): T 1620 d H 540 L 360; plan horizon 3240 d; remaining 224; prize >1 on 44; width 150 npt 6 mc 150 dv 1.2 drmax 0.15 plan_wall 240 s; quota {'fil': 9, 'med': 16}
+[06:07:11] prefix slices/s03/in/craft_0.npz: 8 flybys, t_end 1363.3 d, tank 695.9 kg (planner view), miss 34.1 km, nreg 70
+[06:07:21] first level (both): 0 production + 26 relaxed (dv 2.5, 0.3 AU; 0.1 s) + 69 lintwin children -> 86 unique (10.3 s)
+[06:07:21] plan start: prefix 8 flybys, t_end 1363.3 d, planner mass 1383.0 kg (dv 5.717 km/s); 86 first-level states
+[06:08:08] plan: 1062 states, depth 9 new flybys, end plan_done (57 s); deepest 9 new to 3235 d at planner fuel 476 kg
+[06:08:08]   depth  1:   86 states (77 in H), t_end 1630-2278 d, fuel 218-316 kg
+[06:08:08]   depth  2:  150 states (108 in H), t_end 1697-2698 d, fuel 231-349 kg
+[06:08:08]   depth  3:  150 states (39 in H), t_end 1831-2913 d, fuel 244-387 kg
+[06:08:08]   depth  4:  150 states (2 in H), t_end 2069-3091 d, fuel 286-422 kg
+[06:08:08]   depth  5:  150 states (0 in H), t_end 2476-3238 d, fuel 325-456 kg
+[06:08:08]   depth  6:  150 states (0 in H), t_end 2695-3238 d, fuel 344-441 kg
+[06:08:08]   depth  7:  150 states (0 in H), t_end 2955-3240 d, fuel 387-469 kg
+[06:08:08]   depth  8:   67 states (0 in H), t_end 3089-3240 d, fuel 408-502 kg
+[06:08:08]   depth  9:    9 states (0 in H), t_end 3207-3236 d, fuel 476-535 kg
+[06:08:08] candidates: 161 distinct committed target sets (n_new 1-4, potential 0-2)
+[06:08:08] frontier: 12 candidates chosen: 1fb/218kg/p0, 1fb/223kg/p2, 1fb/237kg/p2, 1fb/237kg/p2, 1fb/243kg/p2, 1fb/256kg/p2, 1fb/257kg/p2, 2fb/243kg/p0, 2fb/254kg/p2, 3fb/276kg/p1, 3fb/313kg/p2, 4fb/348kg/p0
+[06:10:56]   4 candidates dropped (settle failure / duplicate after truncation)
+[06:10:56] RESULT s03_c0: 8 columns; frontier 1fb 7 kg p0/2 | 3fb 76 kg p2/2; settles 19 (9 ok); wall 225 s (plan 57, price 1, settle 169)

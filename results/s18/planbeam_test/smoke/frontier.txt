@@ -1,0 +1,6 @@
+frontier (slice 3, T 1620 d, commit (T, T+H] = (1620, 2160] d): cheapest dtank [kg] per n_new, potential (of the cheapest / max); planbeam vs segbeam
+  craft n_new | planbeam dtank  pot(cheap/max) ncol | segbeam dtank  pot(cheap/max) ncol
+  c0     1   |        -             -    -   |      9.8   0/1     7
+  c0     2   |        -             -    -   |     60.4   0/1     4
+  c0     3   |        -             -    -   |     82.8   0/0     2
+  c0 wall: planbeam 0.1 s (plan 0.0 s, 0 columns, ok True); segbeam 714.8 s

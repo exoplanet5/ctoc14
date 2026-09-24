@@ -1,0 +1,9 @@
+[06:37:13] prefix results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz k=32: 32 flybys to 5070 d, tank 862.9 kg, miss 6 km (1 s)
+[06:37:13] twintail X5h04k32: pool 36, S [212], p 0.5, steps 1, beam 24/72, nproc 1; resume at step 1
+[06:37:13]   RESUME level 32: beam 1, deepest 0
+[06:37:31]   depth 33: 1 parents -> 4 kids (4 uniq) -> tried 4, settled 4, kept 4; t_end 5338-5473 d, tank 867-897, max S 0 (19 s, gen 1 s)
+[06:38:13]   depth 34: 4 parents -> 4 kids (4 uniq) -> tried 4, settled 3, kept 3; t_end 5401-5476 d, tank 874-878, max S 0 (42 s, gen 1 s)
+[06:38:14]   depth 35: 3 parents -> 1 kids (1 uniq) -> tried 1, settled 1, kept 1; t_end 5474-5474 d, tank 883-883, max S 0 (1 s, gen 0 s)
+[06:38:14]   depth 36: 1 parents -> 0 kids (0 uniq) -> tried 0, settled 0, kept 0 (0 s, gen 0 s)
+[06:38:14]   step 1: pool 36 deepest 35 ({'kind': 'no_children', 'depth': 35}); TOOK 35 fb @ 883 kg iso []; chain covered 35/36 (61 s)
+[06:38:14] twintail X5h04k32 done: 5 columns, covered 35/36 (61 s)

@@ -1,0 +1,102 @@
+{
+ "job": {
+  "pool": null,
+  "S": [],
+  "p": 0.01,
+  "seed": 0,
+  "beam": 100,
+  "member": "H",
+  "dvS": 2.0,
+  "jit": 0.001,
+  "front": 24,
+  "cap": 1100.0,
+  "save_cap": 1300.0,
+  "max_settles": 10,
+  "ok_target": 6,
+  "dense": 3,
+  "stride": 3,
+  "repair": true,
+  "repair_settles": 5,
+  "absorb": null,
+  "absorb_hosts": 2,
+  "absorb_trials": 4,
+  "absorb_dmax": 0.2,
+  "absorb_kg": 150.0,
+  "settle_timeout": 240.0,
+  "kappa": 90.0,
+  "wall_budget": 2400.0,
+  "kind": "close",
+  "tag": "C01h6_h5",
+  "out": "results/s15/cols/r01/fclose/C01h6_h5",
+  "item_trials": 3,
+  "max_abs": 4
+ },
+ "kind": "close",
+ "hosts": [
+  {
+   "f": "results/s14/probe_cover/N9/fleet/route_05.npz",
+   "tried": [
+    223,
+    22,
+    243
+   ],
+   "got": [
+    223
+   ],
+   "dkg": 130.9
+  }
+ ],
+ "cols": [
+  {
+   "kind": "closed",
+   "src": "results/s14/probe_cover/N9/fleet/route_05.npz",
+   "ast": [
+    223
+   ],
+   "host_tank": 968.36,
+   "dkg": 130.9,
+   "tank": 1099.27,
+   "miss": 55.9,
+   "f": "results/s15/cols/r01/fclose/C01h6_h5/route_C01h6_h505x223_33.npz",
+   "n": 33,
+   "targets": [
+    4,
+    7,
+    16,
+    23,
+    25,
+    34,
+    40,
+    50,
+    53,
+    79,
+    89,
+    98,
+    99,
+    100,
+    134,
+    143,
+    154,
+    166,
+    169,
+    170,
+    177,
+    208,
+    217,
+    218,
+    223,
+    228,
+    231,
+    241,
+    256,
+    257,
+    263,
+    264,
+    267
+   ],
+   "iso": []
+  }
+ ],
+ "wall_s": 56,
+ "done": "21:09:32"
+}

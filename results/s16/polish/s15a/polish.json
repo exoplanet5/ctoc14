@@ -1,0 +1,16 @@
+{
+ "fleet": "results/s15b/reloc_h2/fleet",
+ "sumJi0": 11.83267,
+ "sumJi": 11.80859,
+ "chosen": {
+  "h01": "pT10a",
+  "h02": "tLwp",
+  "h03": "tLp3",
+  "h04": "pT10a",
+  "h05": "s0",
+  "h06": "pT10a",
+  "s1": "tLwm",
+  "s2": "tLwm",
+  "t1": "pT10a"
+ }
+}

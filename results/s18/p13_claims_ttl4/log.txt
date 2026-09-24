@@ -1,0 +1,228 @@
+[12:12:37] new run p13_claims_ttl4: N 8 H 540.0 d L 360.0 d proposer planbeam commit regrid nproc 9 stop_T None claims on (bonus 1.0, ttl 4)
+[12:12:37] [slice 0] claims in force: -  (0 targets; claim_bonus 1.0, ttl 4)
+[12:12:37] [slice 0 T=0 d] propose: 9 jobs (0 craft, 9 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 1.0
+[12:12:39]   job s00_r8 root  columns   0  levels 0  settles 0/0  end no_children  wall 1.9 s
+[12:13:32]   job s00_r7 root  columns   3  levels 11  settles 3/3  end plan_done  wall 53.5 s
+[12:13:44]   job s00_r6 root  columns   9  levels 10  settles 9/9  end plan_done  wall 65.3 s
+[12:13:50]   job s00_r5 root  columns  15  levels 12  settles 17/17  end plan_done  wall 71.7 s
+[12:13:56]   job s00_r4 root  columns  15  levels 12  settles 19/19  end plan_done  wall 77.4 s
+[12:14:00]   job s00_r0 root  columns  16  levels 11  settles 23/23  end plan_done  wall 80.5 s
+[12:14:02]   job s00_r3 root  columns  16  levels 12  settles 21/21  end plan_done  wall 82.4 s
+[12:14:06]   job s00_r2 root  columns  15  levels 12  settles 21/21  end plan_done  wall 87.4 s
+[12:14:22]   job s00_r1 root  columns  15  levels 14  settles 23/23  end plan_done  wall 102.4 s
+[12:14:22] [slice 0] propose: 104 columns (0 bad dropped) in 104.2 s
+[12:14:22] [slice 0] auction: 104 columns, kept 104, dropped {}; lam 1.00 H_eff 540 d fuel budget 482 kg quota on
+[12:14:22] [slice 0] auction: status optimal objective 31.108 vars 104 rows 40 chosen 8 fuel 127/482 kg (0.014 s)
+[12:14:24] [slice 0] claims: c1:1 c2:5 c3:1 c4:2 c5:5 c6:2 c7:1  (17 targets: 0 kept, 17 new; 0 released, 0 expired (ttl 4), 1 conflicts)
+[12:14:24] [slice 0 T=0 d] launched 8/8  covered 26  remaining 272  fuel 139 kg  sumJi 8.1009  chosen: r->c0:4(+24) r->c1:4(+35) r->c2:3(+18) r->c3:4(+29) r->c4:3(+3) r->c5:2(+0) r->c6:3(+6) r->c7:3(+11)  rejected: -  (wall 106 s)
+[12:14:24] [slice 1] claims in force: c1:1 c2:5 c3:1 c4:2 c5:5 c6:2 c7:1  (17 targets; claim_bonus 1.0, ttl 4)
+[12:14:24]   c0: claims: 0 own (prized +1.0), 17 claimed by others withheld
+[12:14:24]   c1: claims: 1 own (prized +1.0), 16 claimed by others withheld
+[12:14:24]   c2: claims: 5 own (prized +1.0), 12 claimed by others withheld
+[12:14:24]   c3: claims: 1 own (prized +1.0), 16 claimed by others withheld
+[12:14:24]   c4: claims: 2 own (prized +1.0), 15 claimed by others withheld
+[12:14:24]   c5: claims: 5 own (prized +1.0), 12 claimed by others withheld
+[12:14:24]   c6: claims: 2 own (prized +1.0), 15 claimed by others withheld
+[12:14:24]   c7: claims: 1 own (prized +1.0), 16 claimed by others withheld
+[12:14:24] [slice 1 T=540 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 1.0
+[12:15:46]   job s01_c3 craft columns  16  levels 11  settles 19/19  end plan_done  wall 81.0 s
+[12:15:46]   job s01_c7 craft columns  15  levels 11  settles 17/19  end plan_done  wall 81.3 s
+[12:15:54]   job s01_c5 craft columns  16  levels 13  settles 21/21  end plan_done  wall 89.2 s
+[12:15:58]   job s01_c2 craft columns  16  levels 13  settles 23/23  end plan_done  wall 93.7 s
+[12:15:58]   job s01_c6 craft columns  16  levels 14  settles 18/18  end plan_done  wall 94.2 s
+[12:16:00]   job s01_c1 craft columns  16  levels 12  settles 19/19  end plan_done  wall 95.4 s
+[12:16:02]   job s01_c0 craft columns  16  levels 13  settles 25/25  end plan_done  wall 98.2 s
+[12:16:04]   job s01_c4 craft columns  12  levels 13  settles 16/18  end plan_done  wall 99.4 s
+[12:16:04] [slice 1] propose: 123 columns (0 bad dropped) in 100.3 s
+[12:16:04] [slice 1] auction: 123 columns, kept 123, dropped {}; lam 1.00 H_eff 540 d fuel budget 482 kg quota on
+[12:16:04] [slice 1] auction: status optimal objective 34.089 vars 123 rows 67 chosen 8 fuel 376/482 kg (0.007 s)
+[12:16:06] [slice 1] claims: c0:2 c1:2 c2:3 c4:2 c5:2 c6:3 c7:3  (17 targets: 1 kept, 16 new; 16 released, 0 expired (ttl 4), 0 conflicts)
+[12:16:06] [slice 1 T=540 d] launched 8/8  covered 58  remaining 240  fuel 515 kg  sumJi 8.3873  chosen: c0:5(+74) c1:4(+71) c2:4(+31) c3:3(+46) c4:5(+50) c5:4(+29) c6:4(+52) c7:3(+23)  rejected: -  (wall 102 s)
+[12:16:06] [slice 2] claims in force: c0:2 c1:2 c2:3 c4:2 c5:2 c6:3 c7:3  (17 targets; claim_bonus 1.0, ttl 4)
+[12:16:06]   c0: claims: 2 own (prized +1.0), 15 claimed by others withheld
+[12:16:06]   c1: claims: 2 own (prized +1.0), 15 claimed by others withheld
+[12:16:06]   c2: claims: 3 own (prized +1.0), 14 claimed by others withheld
+[12:16:06]   c3: claims: 0 own (prized +1.0), 17 claimed by others withheld
+[12:16:06]   c4: claims: 2 own (prized +1.0), 15 claimed by others withheld
+[12:16:06]   c5: claims: 2 own (prized +1.0), 15 claimed by others withheld
+[12:16:06]   c6: claims: 3 own (prized +1.0), 14 claimed by others withheld
+[12:16:06]   c7: claims: 3 own (prized +1.0), 14 claimed by others withheld
+[12:16:06] [slice 2 T=1080 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 1.0
+[12:17:21]   job s02_c4 craft columns  15  levels 10  settles 19/19  end plan_done  wall 73.5 s
+[12:17:25]   job s02_c2 craft columns  16  levels 11  settles 21/21  end plan_done  wall 77.2 s
+[12:17:25]   job s02_c6 craft columns  16  levels 11  settles 23/23  end plan_done  wall 77.6 s
+[12:17:35]   job s02_c3 craft columns  16  levels 10  settles 20/20  end plan_done  wall 86.7 s
+[12:17:37]   job s02_c0 craft columns  16  levels 11  settles 23/23  end plan_done  wall 89.1 s
+[12:17:43]   job s02_c1 craft columns  13  levels 9  settles 16/17  end plan_done  wall 95.5 s
+[12:17:45]   job s02_c5 craft columns  16  levels 12  settles 18/18  end plan_done  wall 97.1 s
+[12:18:05]   job s02_c7 craft columns  13  levels 12  settles 17/22  end plan_done  wall 118.4 s
+[12:18:05] [slice 2] propose: 121 columns (0 bad dropped) in 118.5 s
+[12:18:05] [slice 2] auction: 121 columns, kept 121, dropped {}; lam 1.00 H_eff 540 d fuel budget 482 kg quota on
+[12:18:05] [slice 2] auction: status optimal objective 32.914 vars 121 rows 67 chosen 8 fuel 326/482 kg (0.01 s)
+[12:18:07] [slice 2] claims: c1:3 c2:2 c4:1 c6:2 c7:2  (10 targets: 0 kept, 10 new; 17 released, 0 expired (ttl 4), 1 conflicts)
+[12:18:07] [slice 2 T=1080 d] launched 8/8  covered 89  remaining 209  fuel 841 kg  sumJi 8.6489  chosen: c0:5(+61) c1:3(+13) c2:3(+23) c3:4(+54) c4:4(+20) c5:4(+67) c6:4(+47) c7:4(+41)  rejected: -  (wall 121 s)
+[12:18:07] [slice 3] claims in force: c1:3 c2:2 c4:1 c6:2 c7:2  (10 targets; claim_bonus 1.0, ttl 4)
+[12:18:07]   c0: claims: 0 own (prized +1.0), 10 claimed by others withheld
+[12:18:07]   c1: claims: 3 own (prized +1.0), 7 claimed by others withheld
+[12:18:07]   c2: claims: 2 own (prized +1.0), 8 claimed by others withheld
+[12:18:07]   c3: claims: 0 own (prized +1.0), 10 claimed by others withheld
+[12:18:07]   c4: claims: 1 own (prized +1.0), 9 claimed by others withheld
+[12:18:07]   c5: claims: 0 own (prized +1.0), 10 claimed by others withheld
+[12:18:07]   c6: claims: 2 own (prized +1.0), 8 claimed by others withheld
+[12:18:07]   c7: claims: 2 own (prized +1.0), 8 claimed by others withheld
+[12:18:07] [slice 3 T=1620 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 1.0
+[12:19:33]   job s03_c0 craft columns  16  levels 8  settles 17/17  end plan_done  wall 84.6 s
+[12:19:33]   job s03_c4 craft columns  16  levels 11  settles 21/21  end plan_done  wall 86.2 s
+[12:19:35]   job s03_c3 craft columns  16  levels 8  settles 21/21  end plan_done  wall 88.0 s
+[12:19:37]   job s03_c6 craft columns  16  levels 10  settles 20/20  end plan_done  wall 89.8 s
+[12:19:47]   job s03_c2 craft columns  16  levels 11  settles 17/17  end plan_done  wall 100.3 s
+[12:19:51]   job s03_c7 craft columns  16  levels 12  settles 19/19  end plan_done  wall 102.7 s
+[12:19:55]   job s03_c1 craft columns  16  levels 8  settles 17/17  end plan_done  wall 106.8 s
+[12:20:27]   job s03_c5 craft columns  15  levels 11  settles 19/21  end plan_done  wall 140.6 s
+[12:20:27] [slice 3] propose: 127 columns (0 bad dropped) in 140.6 s
+[12:20:27] [slice 3] auction: 127 columns, kept 127, dropped {}; lam 1.00 H_eff 540 d fuel budget 482 kg quota on
+[12:20:27] [slice 3] auction: status optimal objective 31.470 vars 127 rows 63 chosen 8 fuel 296/482 kg (0.007 s)
+[12:20:29] [slice 3] claims: c1:1 c2:3 c4:1 c6:2 c7:1  (8 targets: 0 kept, 8 new; 10 released, 0 expired (ttl 4), 1 conflicts)
+[12:20:29] [slice 3 T=1620 d] launched 8/8  covered 116  remaining 182  fuel 1136 kg  sumJi 8.8969  chosen: c0:2(+6) c1:3(+25) c2:3(+34) c3:3(+48) c4:3(+22) c5:4(+49) c6:4(+64) c7:5(+47)  rejected: -  (wall 143 s)
+[12:20:29] [slice 4] claims in force: c1:1 c2:3 c4:1 c6:2 c7:1  (8 targets; claim_bonus 1.0, ttl 4)
+[12:20:29]   c0: claims: 0 own (prized +1.0), 8 claimed by others withheld
+[12:20:29]   c1: claims: 1 own (prized +1.0), 7 claimed by others withheld
+[12:20:29]   c2: claims: 3 own (prized +1.0), 5 claimed by others withheld
+[12:20:29]   c3: claims: 0 own (prized +1.0), 8 claimed by others withheld
+[12:20:29]   c4: claims: 1 own (prized +1.0), 7 claimed by others withheld
+[12:20:29]   c5: claims: 0 own (prized +1.0), 8 claimed by others withheld
+[12:20:29]   c6: claims: 2 own (prized +1.0), 6 claimed by others withheld
+[12:20:29]   c7: claims: 1 own (prized +1.0), 7 claimed by others withheld
+[12:20:29] [slice 4 T=2160 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 1.0
+[12:21:48]   job s04_c4 craft columns  16  levels 9  settles 18/18  end plan_done  wall 78.2 s
+[12:22:10]   job s04_c2 craft columns  15  levels 11  settles 19/19  end plan_done  wall 98.8 s
+[12:22:28]   job s04_c6 craft columns  16  levels 9  settles 18/18  end plan_done  wall 117.8 s
+[12:22:32]   job s04_c3 craft columns  15  levels 9  settles 21/22  end plan_done  wall 122.2 s
+[12:22:34]   job s04_c0 craft columns  14  levels 10  settles 20/20  end plan_done  wall 123.4 s
+[12:22:34]   job s04_c1 craft columns  16  levels 9  settles 21/21  end plan_done  wall 124.3 s
+[12:22:42]   job s04_c7 craft columns  16  levels 11  settles 20/20  end plan_done  wall 131.1 s
+[12:23:12]   job s04_c5 craft columns  15  levels 8  settles 20/22  end plan_done  wall 162.4 s
+[12:23:12] [slice 4] propose: 123 columns (0 bad dropped) in 162.7 s
+[12:23:12] [slice 4] auction: 123 columns, kept 121, dropped {'ramp': 2}; lam 1.00 H_eff 540 d fuel budget 482 kg quota on
+[12:23:12] [slice 4] auction: status optimal objective 32.994 vars 121 rows 55 chosen 8 fuel 338/482 kg (0.018 s)
+[12:23:14] [slice 4] claims: c0:3 c1:3 c2:2 c7:1  (9 targets: 0 kept, 9 new; 8 released, 0 expired (ttl 4), 6 conflicts)
+[12:23:14] [slice 4 T=2160 d] launched 8/8  covered 140  remaining 158  fuel 1474 kg  sumJi 9.1998  chosen: c0:3(+73) c1:2(+12) c2:4(+29) c3:3(+56) c4:2(+4) c5:3(+58) c6:3(+41) c7:4(+65)  rejected: -  (wall 165 s)
+[12:23:14] [slice 5] claims in force: c0:3 c1:3 c2:2 c7:1  (9 targets; claim_bonus 1.0, ttl 4)
+[12:23:14]   c0: claims: 3 own (prized +1.0), 6 claimed by others withheld
+[12:23:14]   c1: claims: 3 own (prized +1.0), 6 claimed by others withheld
+[12:23:14]   c2: claims: 2 own (prized +1.0), 7 claimed by others withheld
+[12:23:14]   c3: claims: 0 own (prized +1.0), 9 claimed by others withheld
+[12:23:14]   c4: claims: 0 own (prized +1.0), 9 claimed by others withheld
+[12:23:14]   c5: claims: 0 own (prized +1.0), 9 claimed by others withheld
+[12:23:14]   c6: claims: 0 own (prized +1.0), 9 claimed by others withheld
+[12:23:14]   c7: claims: 1 own (prized +1.0), 8 claimed by others withheld
+[12:23:14] [slice 5 T=2700 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 1.0
+[12:24:45]   job s05_c2 craft columns  16  levels 11  settles 16/16  end plan_done  wall 89.5 s
+[12:24:49]   job s05_c4 craft columns  16  levels 9  settles 18/18  end plan_done  wall 93.0 s
+[12:25:03]   job s05_c7 craft columns  16  levels 10  settles 18/18  end plan_done  wall 108.0 s
+[12:25:05]   job s05_c3 craft columns  16  levels 8  settles 17/17  end plan_done  wall 109.3 s
+[12:25:13]   job s05_c0 craft columns  16  levels 10  settles 18/18  end plan_done  wall 117.4 s
+[12:25:19]   job s05_c6 craft columns  13  levels 9  settles 18/18  end plan_done  wall 123.2 s
+[12:25:49]   job s05_c1 craft columns  16  levels 8  settles 18/19  end plan_done  wall 154.5 s
+[12:25:55]   job s05_c5 craft columns  15  levels 9  settles 17/17  end plan_done  wall 160.0 s
+[12:25:55] [slice 5] propose: 124 columns (0 bad dropped) in 160.7 s
+[12:25:55] [slice 5] auction: 124 columns, kept 123, dropped {'ramp': 1}; lam 1.00 H_eff 540 d fuel budget 482 kg quota on
+[12:25:55] [slice 5] auction: status optimal objective 33.853 vars 123 rows 58 chosen 8 fuel 310/482 kg (0.01 s)
+[12:25:57] [slice 5] claims: c0:3 c2:2 c3:1 c5:2 c6:3 c7:1  (12 targets: 0 kept, 12 new; 9 released, 0 expired (ttl 4), 1 conflicts)
+[12:25:57] [slice 5 T=2700 d] launched 8/8  covered 163  remaining 135  fuel 1783 kg  sumJi 9.4860  chosen: c0:3(+26) c1:3(+55) c2:3(+31) c3:2(+25) c4:3(+27) c5:3(+58) c6:2(+12) c7:4(+75)  rejected: -  (wall 163 s)
+[12:25:57] [slice 6] claims in force: c0:3 c2:2 c3:1 c5:2 c6:3 c7:1  (12 targets; claim_bonus 1.0, ttl 4)
+[12:25:57]   c0: claims: 3 own (prized +1.0), 9 claimed by others withheld
+[12:25:57]   c1: claims: 0 own (prized +1.0), 12 claimed by others withheld
+[12:25:57]   c2: claims: 2 own (prized +1.0), 10 claimed by others withheld
+[12:25:57]   c3: claims: 1 own (prized +1.0), 11 claimed by others withheld
+[12:25:57]   c4: claims: 0 own (prized +1.0), 12 claimed by others withheld
+[12:25:57]   c5: claims: 2 own (prized +1.0), 10 claimed by others withheld
+[12:25:57]   c6: claims: 3 own (prized +1.0), 9 claimed by others withheld
+[12:25:57]   c7: claims: 1 own (prized +1.0), 11 claimed by others withheld
+[12:25:57] [slice 6 T=3240 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 1.0
+[12:27:45]   job s06_c0 craft columns  16  levels 9  settles 17/17  end plan_done  wall 107.9 s
+[12:27:45]   job s06_c4 craft columns  16  levels 10  settles 18/18  end plan_done  wall 107.5 s
+[12:27:52]   job s06_c2 craft columns  16  levels 8  settles 20/20  end plan_done  wall 112.7 s
+[12:27:54]   job s06_c3 craft columns  15  levels 8  settles 16/16  end plan_done  wall 114.8 s
+[12:27:58]   job s06_c1 craft columns  15  levels 7  settles 16/17  end plan_done  wall 119.5 s
+[12:28:06]   job s06_c7 craft columns  16  levels 9  settles 19/19  end plan_done  wall 128.2 s
+[12:28:14]   job s06_c6 craft columns  16  levels 9  settles 19/19  end plan_done  wall 134.7 s
+[12:28:16]   job s06_c5 craft columns  16  levels 9  settles 19/19  end plan_done  wall 137.3 s
+[12:28:16] [slice 6] propose: 126 columns (0 bad dropped) in 138.5 s
+[12:28:16] [slice 6] auction: 126 columns, kept 124, dropped {'ramp': 2}; lam 1.00 H_eff 540 d fuel budget 482 kg quota on
+[12:28:16] [slice 6] auction: status optimal objective 36.592 vars 124 rows 58 chosen 8 fuel 428/482 kg (0.02 s)
+[12:28:18] [slice 6] claims: c0:2 c1:2 c2:2 c3:2 c4:2 c5:2 c6:1  (13 targets: 0 kept, 13 new; 12 released, 0 expired (ttl 4), 1 conflicts)
+[12:28:18] [slice 6 T=3240 d] launched 8/8  covered 187  remaining 111  fuel 2211 kg  sumJi 9.8987  chosen: c0:3(+26) c1:2(+88) c2:3(+52) c3:2(+53) c4:4(+92) c5:2(+2) c6:4(+32) c7:4(+84)  rejected: -  (wall 141 s)
+[12:28:18] [slice 7] claims in force: c0:2 c1:2 c2:2 c3:2 c4:2 c5:2 c6:1  (13 targets; claim_bonus 1.0, ttl 4)
+[12:28:18]   c0: claims: 2 own (prized +1.0), 11 claimed by others withheld
+[12:28:18]   c1: claims: 2 own (prized +1.0), 11 claimed by others withheld
+[12:28:18]   c2: claims: 2 own (prized +1.0), 11 claimed by others withheld
+[12:28:18]   c3: claims: 2 own (prized +1.0), 11 claimed by others withheld
+[12:28:18]   c4: claims: 2 own (prized +1.0), 11 claimed by others withheld
+[12:28:18]   c5: claims: 2 own (prized +1.0), 11 claimed by others withheld
+[12:28:18]   c6: claims: 1 own (prized +1.0), 12 claimed by others withheld
+[12:28:18]   c7: claims: 0 own (prized +1.0), 13 claimed by others withheld
+[12:28:18] [slice 7 T=3780 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 1.0
+[12:29:48]   job s07_c2 craft columns  16  levels 8  settles 18/18  end plan_done  wall 88.4 s
+[12:30:22]   job s07_c3 craft columns  15  levels 7  settles 15/16  end plan_done  wall 123.6 s
+[12:30:22]   job s07_c4 craft columns  16  levels 8  settles 19/19  end plan_done  wall 123.2 s
+[12:30:24]   job s07_c6 craft columns  16  levels 7  settles 17/17  end plan_done  wall 126.3 s
+[12:30:56]   job s07_c7 craft columns  14  levels 8  settles 18/20  end plan_done  wall 158.1 s
+[12:31:16]   job s07_c5 craft columns  16  levels 10  settles 20/20  end plan_done  wall 178.0 s
+[12:31:29]   job s07_c0 craft columns  15  levels 8  settles 18/20  end plan_done  wall 189.4 s
+[12:31:41]   job s07_c1 craft columns  15  levels 8  settles 17/17  end plan_done  wall 201.6 s
+[12:31:41] [slice 7] propose: 123 columns (0 bad dropped) in 202.8 s
+[12:31:41] [slice 7] auction: 123 columns, kept 117, dropped {'ramp': 3, 'fuel': 3}; lam 1.00 H_eff 540 d fuel budget 482 kg quota OFF
+[12:31:41] [slice 7] auction: status optimal objective 39.037 vars 117 rows 54 chosen 8 fuel 346/482 kg (0.021 s)
+[12:31:43] [slice 7] claims: c0:1 c1:2 c3:1 c5:2 c6:2  (8 targets: 1 kept, 7 new; 12 released, 0 expired (ttl 4), 1 conflicts)
+[12:31:43] [slice 7 T=3780 d] launched 8/8  covered 210  remaining 88  fuel 2557 kg  sumJi 10.2536  chosen: c0:3(+45) c1:3(+35) c2:4(+68) c3:2(+14) c4:3(+24) c5:3(+66) c6:2(+21) c7:3(+73)  rejected: -  (wall 205 s)
+[12:31:43] [slice 8] claims in force: c0:1 c1:2 c3:1 c5:2 c6:2  (8 targets; claim_bonus 1.0, ttl 4)
+[12:31:43]   c0: claims: 1 own (prized +1.0), 7 claimed by others withheld
+[12:31:43]   c1: claims: 2 own (prized +1.0), 6 claimed by others withheld
+[12:31:43]   c2: claims: 0 own (prized +1.0), 8 claimed by others withheld
+[12:31:43]   c3: claims: 1 own (prized +1.0), 7 claimed by others withheld
+[12:31:43]   c4: claims: 0 own (prized +1.0), 8 claimed by others withheld
+[12:31:43]   c5: claims: 2 own (prized +1.0), 6 claimed by others withheld
+[12:31:43]   c6: claims: 2 own (prized +1.0), 6 claimed by others withheld
+[12:31:43]   c7: claims: 0 own (prized +1.0), 8 claimed by others withheld
+[12:31:43] [slice 8 T=4320 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 1.0
+[12:33:17]   job s08_c7 craft columns   9  levels 5  settles 10/10  end plan_done  wall 93.3 s
+[12:33:43]   job s08_c2 craft columns  16  levels 3  settles 16/16  end plan_done  wall 120.1 s
+[12:33:57]   job s08_c6 craft columns  16  levels 6  settles 20/20  end plan_done  wall 133.8 s
+[12:33:59]   job s08_c0 craft columns  16  levels 6  settles 17/17  end plan_done  wall 134.8 s
+[12:34:03]   job s08_c4 craft columns  16  levels 4  settles 16/16  end plan_done  wall 139.6 s
+[12:34:25]   job s08_c5 craft columns  12  levels 6  settles 15/17  end plan_done  wall 162.0 s
+[12:34:59]   job s08_c1 craft columns  16  levels 5  settles 17/17  end plan_done  wall 196.1 s
+[12:34:59]   job s08_c3 craft columns  13  levels 5  settles 16/19  end plan_done  wall 196.5 s
+[12:34:59] [slice 8] propose: 114 columns (0 bad dropped) in 196.8 s
+[12:34:59] [slice 8] auction: 114 columns, kept 106, dropped {'fuel': 8}; lam 1.00 H_eff 540 d fuel budget 482 kg quota OFF
+[12:35:00] [slice 8] auction: status optimal objective 38.258 vars 106 rows 50 chosen 8 fuel 297/482 kg (0.019 s)
+[12:35:02] [slice 8] claims: c0:2 c1:1 c2:1 c3:2 c4:1 c5:1 c6:1  (9 targets: 0 kept, 9 new; 8 released, 0 expired (ttl 4), 3 conflicts)
+[12:35:02] [slice 8 T=4320 d] launched 8/8  covered 227  remaining 71  fuel 2853 kg  sumJi 10.5660  chosen: c0:2(+31) c1:3(+46) c2:1(+46) c3:2(+22) c4:2(+43) c5:2(+11) c6:3(+60) c7:2(+37)  rejected: -  (wall 199 s)
+[12:35:02] [slice 9] effective horizon 616.8 d (the last slice absorbs the mission tail; H 540.0)
+[12:35:02] [slice 9] claims in force: c0:2 c1:1 c2:1 c3:2 c4:1 c5:1 c6:1  (9 targets; claim_bonus 1.0, ttl 4)
+[12:35:02]   c0: claims: 2 own (prized +1.0), 7 claimed by others withheld
+[12:35:02]   c1: claims: 1 own (prized +1.0), 8 claimed by others withheld
+[12:35:02]   c2: claims: 1 own (prized +1.0), 8 claimed by others withheld
+[12:35:02]   c3: claims: 2 own (prized +1.0), 7 claimed by others withheld
+[12:35:02]   c4: claims: 1 own (prized +1.0), 8 claimed by others withheld
+[12:35:02]   c5: claims: 1 own (prized +1.0), 8 claimed by others withheld
+[12:35:02]   c6: claims: 1 own (prized +1.0), 8 claimed by others withheld
+[12:35:02]   c7: claims: 0 own (prized +1.0), 9 claimed by others withheld
+[12:35:02] [slice 9 T=4860 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 617 d, lam 1.0
+[12:37:16]   job s09_c5 craft columns  16  levels 3  settles 18/18  end plan_done  wall 133.1 s
+[12:37:18]   job s09_c6 craft columns  16  levels 3  settles 19/19  end plan_done  wall 134.5 s
+[12:37:32]   job s09_c0 craft columns  15  levels 4  settles 15/17  end plan_done  wall 148.7 s
+[12:37:48]   job s09_c7 craft columns  14  levels 3  settles 15/17  end plan_done  wall 166.3 s
+[12:37:56]   job s09_c2 craft columns  13  levels 3  settles 13/16  end plan_done  wall 173.8 s
+[12:38:02]   job s09_c4 craft columns  15  levels 3  settles 17/19  end plan_done  wall 180.7 s
+[12:38:24]   job s09_c3 craft columns  15  levels 3  settles 16/18  end plan_done  wall 202.6 s
+[12:38:42]   job s09_c1 craft columns  13  levels 3  settles 13/16  end plan_done  wall 220.2 s
+[12:38:42] [slice 9] propose: 117 columns (0 bad dropped) in 220.9 s
+[12:38:42] [slice 9] auction: 117 columns, kept 96, dropped {'fuel': 21}; lam 1.00 H_eff 617 d fuel budget 551 kg quota OFF
+[12:38:43] [slice 9] auction: status optimal objective 44.787 vars 96 rows 46 chosen 8 fuel 271/551 kg (0.019 s)
+[12:38:45] [slice 9] claims: -  (0 targets: 0 kept, 0 new; 9 released, 0 expired (ttl 4), 0 conflicts)
+[12:38:45] [slice 9 T=4860 d] launched 8/8  covered 246  remaining 52  fuel 3123 kg  sumJi 10.8628  chosen: c0:4(+60) c1:2(+34) c2:2(+20) c3:3(+74) c4:2(+18) c5:3(+43) c6:2(+13) c7:1(+9)  rejected: -  (wall 223 s)
+[12:38:45] stop: horizon at T=5477 d (slice 10)
+[12:38:45] finalize: fleet/ 8 routes  covered 246  misses 52  fuel 3123 kg  sumJi 10.8628  J 64.8628  honest True
+[12:38:45] p13_claims_ttl4: slice 10 phase propose T=5477 d  launched 8/8  covered 246  remaining 52  fuel 3123 kg  sumJi 10.8628  done True (horizon)

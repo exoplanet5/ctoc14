@@ -1,0 +1,2 @@
+[00:42:11]     absorb[route_07_T6_26+[]]: 1 approaches of [280]; lintwin 280@2974d 0.112AU 303kg
+[00:42:11] close TB5f_t1 done: 0 columns (0 s)

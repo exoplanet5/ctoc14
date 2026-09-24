@@ -1,0 +1,24 @@
+{
+ "steps": [
+  {
+   "k": 1,
+   "pool": 15,
+   "S": [
+    212
+   ],
+   "end": {
+    "kind": "no_children",
+    "depth": 14
+   },
+   "deepest": 0,
+   "settles": 0,
+   "settle_ok": 0,
+   "wall_s": 0,
+   "ncols": 0,
+   "took": null
+  }
+ ],
+ "covered": [],
+ "cols": [],
+ "taken": []
+}

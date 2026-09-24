@@ -1,0 +1,93 @@
+{
+ "name": "06",
+ "source_fb": 27,
+ "source_tank": 791.9264330506631,
+ "source_kg_per_fb": 7.108,
+ "inserted": 7,
+ "orphans": [
+  51,
+  289,
+  267,
+  270
+ ],
+ "final_fb": 34,
+ "final_tank": 1247.28,
+ "final_kg_per_fb": 19.038,
+ "dkg_total": 455.36,
+ "dkg_per_inserted": 65.05,
+ "dJ_total": 0.52023,
+ "trials": 133,
+ "t_s": 1697,
+ "steps": [
+  {
+   "ast": 85,
+   "t_d": 3426.5,
+   "dist_au": 0.0223,
+   "dkg": 17.3,
+   "dJ": 0.0159,
+   "depth_before": 27,
+   "tank_after": 809.23,
+   "miss_km": 65.1
+  },
+  {
+   "ast": 16,
+   "t_d": 1993.6,
+   "dist_au": 0.0176,
+   "dkg": 27.11,
+   "dJ": 0.02553,
+   "depth_before": 28,
+   "tank_after": 836.34,
+   "miss_km": 64.6
+  },
+  {
+   "ast": 157,
+   "t_d": 3251.3,
+   "dist_au": 0.1579,
+   "dkg": 24.28,
+   "dJ": 0.0235,
+   "depth_before": 29,
+   "tank_after": 860.62,
+   "miss_km": 86.3
+  },
+  {
+   "ast": 107,
+   "t_d": 1599.6,
+   "dist_au": 0.0434,
+   "dkg": 36.57,
+   "dJ": 0.03653,
+   "depth_before": 30,
+   "tank_after": 897.19,
+   "miss_km": 2.8
+  },
+  {
+   "ast": 130,
+   "t_d": 3931.2,
+   "dist_au": 0.066,
+   "dkg": 72.34,
+   "dJ": 0.07628,
+   "depth_before": 31,
+   "tank_after": 969.54,
+   "miss_km": 67.8
+  },
+  {
+   "ast": 165,
+   "t_d": 2912.5,
+   "dist_au": 0.0801,
+   "dkg": 64.02,
+   "dJ": 0.07196,
+   "depth_before": 32,
+   "tank_after": 1033.56,
+   "miss_km": 2.0
+  },
+  {
+   "ast": 248,
+   "t_d": 3077.7,
+   "dist_au": 0.3383,
+   "dkg": 213.73,
+   "dJ": 0.27052,
+   "depth_before": 33,
+   "tank_after": 1247.28,
+   "miss_km": 48.5
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+[21:50:18] start 0: d pool --builder beam --beam 1000 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/03_pool_beam_dv2.out 2>&1
+[21:50:18] start 1: d pool --builder beam --beam 1000 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/07_pool_beam_dv2.out 2>&1
+[21:50:18] start 2: d pool --builder beam --beam 1000 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/02_pool_beam_dv2.out 2>&1
+[22:16:27] done 0 rc 0 in 1569 s
+[22:16:27] start 3: d pool --builder beam --beam 1000 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/01_pool_beam_dv2.out 2>&1
+[22:16:39] done 2 rc 0 in 1581 s
+[22:16:39] start 4: d pool --builder beam --beam 1000 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/00_pool_beam_dv2.out 2>&1
+[22:34:11] done 1 rc 0 in 2633 s
+[22:34:11] start 5: builder seg --beam 1000 --seg-k 50 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/06_pool_seg_dv2.out 2>&1
+[22:35:41] done 3 rc 0 in 1154 s
+[22:35:41] start 6: builder seg --beam 1000 --seg-k 50 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/08_pool_seg_dv2.out 2>&1
+[22:35:49] done 5 rc 0 in 98 s
+[22:35:49] start 7: builder seg --beam 1000 --seg-k 50 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/04_pool_seg_dv2.out 2>&1
+[22:38:12] done 7 rc 0 in 142 s
+[22:38:12] start 8: builder seg --beam 1000 --seg-k 50 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/03_pool_seg_dv2.out 2>&1
+[22:45:01] done 8 rc 0 in 409 s
+[22:45:01] start 9: builder seg --beam 1000 --seg-k 50 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/07_pool_seg_dv2.out 2>&1
+[22:45:13] done 6 rc 0 in 571 s
+[22:45:13] start 10: builder seg --beam 1000 --seg-k 50 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/02_pool_seg_dv2.out 2>&1
+[22:50:25] done 4 rc 0 in 2026 s
+[22:50:25] start 11: builder seg --beam 1000 --seg-k 50 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/01_pool_seg_dv2.out 2>&1
+[22:53:16] done 9 rc 0 in 495 s
+[22:53:16] start 12: builder seg --beam 1000 --seg-k 50 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/00_pool_seg_dv2.out 2>&1
+[22:55:20] done 10 rc 0 in 607 s
+[22:58:28] done 11 rc 0 in 483 s
+[22:59:26] done 12 rc 0 in 371 s
+[22:59:26] all done

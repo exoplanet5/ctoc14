@@ -1,0 +1,50 @@
+[
+ {
+  "f": "results/s13/gen/g01/master/N8_B10.55/fleet/route_01.npz",
+  "n": 46,
+  "tank": 1004.209,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/gen/g01/master/N8_B10.55/fleet/route_02.npz",
+  "n": 46,
+  "tank": 1029.034,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/gen/g01/master/N8_B10.55/fleet/route_03.npz",
+  "n": 44,
+  "tank": 1045.112,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/gen/g01/master/N8_B10.55/fleet/route_04.npz",
+  "n": 35,
+  "tank": 881.644,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/gen/g01/master/N8_B10.55/fleet/route_05.npz",
+  "n": 31,
+  "tank": 908.385,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/gen/g01/master/N8_B10.55/fleet/route_06.npz",
+  "n": 30,
+  "tank": 994.604,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/gen/g01/master/N8_B10.55/fleet/route_07.npz",
+  "n": 25,
+  "tank": 911.683,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/gen/g01/master/N8_B10.55/fleet/route_08.npz",
+  "n": 19,
+  "tank": 804.455,
+  "resettled": true
+ }
+]

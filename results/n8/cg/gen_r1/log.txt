@@ -1,0 +1,50 @@
+[04:49:27] skeletons: 8 routes, covered 67, J 241.4199; 05:9@670 09:9@734 13:9@668 01:8@647 03:8@642 06:8@678 10:8@653 12:8@664
+[04:49:27] easy prizes from results/n8/cg/prizes_r1.json: 0 targets above 1.0, max 1.00
+[04:50:05]     05 seg 4: 1 states reach waypoint 262 -- relaxed retry
+[04:50:06]     05 seg 4: 2 states reach waypoint 262 -- giving up
+[04:50:06]     05 seg 5: 1 states reach waypoint 58 -- relaxed retry
+[04:50:06]     05 seg 5: 2 states reach waypoint 58 -- giving up
+[04:50:07]     05 seg 6: 3 states reach waypoint 147 -- relaxed retry
+[04:50:25]     05 segments: 0:192->23st/4fb 1:101->8st/6fb 2:96->179st/13fb 3:132->111st/17fb 4:262->1st/17fb 5:58->1st/18fb 6:147->5st/20fb 7:179->103st/26fb 8:200->106st/30fb 9:None->65st/31fb
+[04:51:12]     05 seg 4: 2 states reach waypoint 262 -- relaxed retry
+[04:51:13]     05 seg 4: 4 states reach waypoint 262 -- giving up
+[04:51:14]     05 seg 5: 2 states reach waypoint 58 -- relaxed retry
+[04:51:17]     05 seg 5: 4 states reach waypoint 58 -- giving up
+[04:51:37]     05 segments: 0:192->25st/5fb 1:101->6st/6fb 2:96->129st/13fb 3:132->64st/16fb 4:262->2st/16fb 5:58->2st/17fb 6:147->8st/20fb 7:179->104st/26fb 8:200->99st/31fb 9:None->66st/32fb
+[04:51:37]   05 col 0: Pareto 27:913 28:901 29:905 30:926 31:974 32:984; 23 new easy of 23 in the deepest
+[04:51:37] [05] 1 columns, 23 distinct easy targets used  (131 s)
+[04:52:10]     09 seg 1: 4 states reach waypoint 39 -- relaxed retry
+[04:52:38]     09 seg 4: 4 states reach waypoint 217 -- relaxed retry
+[04:52:48]     09 segments: 0:8->122st/8fb 1:39->4st/8fb 2:251->6st/10fb 3:51->35st/22fb 4:217->6st/22fb 5:168->6st/23fb 6:33->16st/25fb 7:157->38st/28fb 8:219->74st/30fb 9:None->43st/30fb
+[04:53:51]     09 seg 4: 4 states reach waypoint 217 -- relaxed retry
+[04:54:02]     09 segments: 0:8->104st/8fb 1:39->7st/8fb 2:251->12st/10fb 3:51->28st/21fb 4:217->6st/22fb 5:168->6st/23fb 6:33->16st/25fb 7:157->38st/28fb 8:219->72st/30fb 9:None->43st/30fb
+[04:54:02]   09 col 0: Pareto 27:944 28:988 29:992 30:999; 21 new easy of 21 in the deepest
+[04:54:02] [09] 1 columns, 21 distinct easy targets used  (144 s)
+[04:55:15]     13 segments: 0:161->25st/4fb 1:50->156st/11fb 2:92->41st/13fb 3:123->118st/15fb 4:158->130st/19fb 5:236->72st/23fb 6:22->8st/21fb 7:216->35st/25fb 8:232->94st/27fb 9:None->1178st/33fb
+[04:56:26]     13 segments: 0:161->37st/4fb 1:50->20st/9fb 2:92->20st/10fb 3:123->87st/13fb 4:158->38st/16fb 5:236->55st/18fb 6:22->6st/19fb 7:216->20st/21fb 8:232->84st/24fb 9:None->1198st/30fb
+[04:56:26]   13 col 0: Pareto 20:814 21:820 22:831 23:844 24:838 25:842 26:853 27:866 28:872 29:877 30:884 31:903 32:970 33:1002; 24 new easy of 24 in the deepest
+[04:56:26] [13] 1 columns, 24 distinct easy targets used  (144 s)
+[04:56:50]     01 seg 1: 2 states reach waypoint 114 -- relaxed retry
+[04:57:46]     01 segments: 0:111->4st/3fb 1:114->7st/6fb 2:193->5st/7fb 3:139->159st/13fb 4:122->57st/15fb 5:137->58st/17fb 6:265->407st/27fb 7:196->49st/30fb 8:None->130st/31fb
+[04:58:11]     01 seg 1: 2 states reach waypoint 114 -- relaxed retry
+[04:59:09]     01 segments: 0:111->4st/3fb 1:114->7st/6fb 2:193->5st/7fb 3:139->139st/13fb 4:122->57st/15fb 5:137->58st/17fb 6:265->359st/27fb 7:196->43st/30fb 8:None->143st/31fb
+[04:59:09]   01 col 0: Pareto 27:880 28:884 29:886 30:887 31:922; 23 new easy of 23 in the deepest
+[04:59:09] [01] 1 columns, 23 distinct easy targets used  (164 s)
+[05:00:23]     03 segments: 0:205->30st/5fb 1:214->115st/11fb 2:203->20st/12fb 3:88->109st/15fb 4:135->121st/18fb 5:15->147st/21fb 6:178->6st/21fb 7:36->69st/27fb 8:None->810st/32fb
+[05:01:43]     03 segments: 0:205->31st/5fb 1:214->106st/11fb 2:203->24st/12fb 3:88->118st/15fb 4:135->117st/18fb 5:15->134st/21fb 6:178->5st/21fb 7:36->76st/27fb 8:None->842st/32fb
+[05:01:43]   03 col 0: Pareto 24:877 25:866 26:875 27:883 28:890 29:898 30:907 31:921 32:942; 24 new easy of 24 in the deepest
+[05:01:43] [03] 1 columns, 24 distinct easy targets used  (154 s)
+[05:02:53]     06 segments: 0:16->31st/4fb 1:108->59st/7fb 2:224->17st/12fb 3:34->125st/17fb 4:240->18st/19fb 5:145->17st/21fb 6:86->77st/25fb 7:254->64st/27fb 8:None->69st/28fb
+[05:04:08]     06 segments: 0:16->24st/4fb 1:108->52st/6fb 2:224->43st/11fb 3:34->90st/16fb 4:240->13st/17fb 5:145->7st/19fb 6:86->69st/24fb 7:254->80st/27fb 8:None->71st/27fb
+[05:04:08]   06 col 0: Pareto 23:900 24:909 25:932 26:946 27:965 28:979; 20 new easy of 20 in the deepest
+[05:04:08] [06] 1 columns, 20 distinct easy targets used  (144 s)
+[05:05:25]     10 segments: 0:169->18st/3fb 1:166->57st/8fb 2:199->90st/11fb 3:62->22st/13fb 4:116->61st/16fb 5:18->113st/20fb 6:282->11st/20fb 7:25->4st/26fb 8:None->9st/27fb
+[05:06:46]     10 seg 7: 3 states reach waypoint 25 -- relaxed retry
+[05:07:21]     10 segments: 0:169->15st/3fb 1:166->53st/8fb 2:199->80st/11fb 3:62->18st/13fb 4:116->46st/15fb 5:18->109st/20fb 6:282->13st/20fb 7:25->14st/25fb 8:None->36st/26fb
+[05:07:21]   10 col 0: Pareto 23:906 24:898 25:910 26:946 27:1009; 19 new easy of 19 in the deepest
+[05:07:21] [10] 1 columns, 19 distinct easy targets used  (193 s)
+[05:08:38]     12 segments: 0:99->47st/6fb 1:105->120st/9fb 2:206->17st/10fb 3:246->137st/14fb 4:252->202st/17fb 5:84->140st/20fb 6:151->133st/30fb 7:243->99st/32fb 8:None->30st/32fb
+[05:10:01]     12 segments: 0:99->39st/6fb 1:105->111st/9fb 2:206->15st/10fb 3:246->127st/14fb 4:252->191st/17fb 5:84->134st/20fb 6:151->119st/30fb 7:243->95st/33fb 8:None->30st/33fb
+[05:10:01]   12 col 0: Pareto 30:953 31:947 32:958 33:973; 25 new easy of 25 in the deepest
+[05:10:01] [12] 1 columns, 25 distinct easy targets used  (160 s)
+[05:10:01] 53 columns written to results/n8/columns.jsonl

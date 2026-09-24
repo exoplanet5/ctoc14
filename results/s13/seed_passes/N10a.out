@@ -1,0 +1,13 @@
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+{"k": 1, "relaxed": false, "n": 48, "hard": 6, "planner": 984, "twin": 1048, "covered": 48, "beam_s": 262, "settle_s": 11}
+{"k": 2, "relaxed": false, "n": 39, "hard": 9, "planner": 979, "twin": 1037, "covered": 87, "beam_s": 228, "settle_s": 8}
+{"k": 3, "relaxed": false, "n": 40, "hard": 5, "planner": 959, "twin": 1001, "covered": 127, "beam_s": 179, "settle_s": 6}
+{"k": 4, "relaxed": false, "n": 36, "hard": 6, "planner": 930, "twin": 969, "covered": 163, "beam_s": 149, "settle_s": 8}
+{"k": 5, "relaxed": false, "n": 30, "hard": 5, "planner": 850, "twin": 859, "covered": 193, "beam_s": 119, "settle_s": 8}
+/Users/mickey/solarsystem/ctoc14/ctoc14/globalopt.py:258: RuntimeWarning: overflow encountered in multiply
+  lam = y * sc
+{"k": 6, "relaxed": false, "n": 30, "hard": 3, "planner": 927, "twin": null, "covered": 223, "beam_s": 104, "settle_s": 240}
+{"k": 7, "relaxed": false, "n": 23, "hard": 2, "planner": 834, "twin": 795, "covered": 246, "beam_s": 77, "settle_s": 6}
+{"k": 8, "relaxed": false, "n": 16, "hard": 2, "planner": 760, "twin": 778, "covered": 262, "beam_s": 39, "settle_s": 9}
+PASS {"covered": 262, "hard_left": 7, "sumJi": 10.362, "depths": [48, 39, 40, 36, 30, 30, 23, 16], "tanks": [1048, 1037, 1001, 969, 859, 927, 795, 778]}

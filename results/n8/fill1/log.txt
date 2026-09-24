@@ -1,0 +1,14 @@
+[01:37:44] skeletons: 8 routes, covered 67, J 241.4199; 05:9@670 09:9@734 13:9@668 01:8@647 03:8@642 06:8@678 10:8@653 12:8@664
+[01:40:07]   05: beam 1000 drmax 0.15 half 45: 3203 full states, deepest 26  (143 s)
+[01:42:25]   05: beam 1000 drmax 0.15 half 90: 3282 full states, deepest 25  (137 s)
+[01:44:34]   05: beam 1000 drmax 0.20 half 60: 2615 full states, deepest 25  (129 s)
+[01:44:34]   05: Pareto 16:782 17:765 18:765 19:762 20:764 21:762 22:767 23:778 24:790 25:813 26:862
+[01:44:47]     26 fb: planner 862 -> twin 860 kg, 0.539 km/s/fb, J_i 1.220, value -0.080 (13 s)
+[01:45:08]     25 fb: planner 813 -> twin 791 kg, 0.429 km/s/fb, J_i 1.155, value -0.095 (22 s)
+[01:45:18]     24 fb: planner 790 -> twin 743 kg, 0.344 km/s/fb, J_i 1.112, value -0.088 (10 s)
+[01:45:28]     23 fb: planner 778 -> twin 745 kg, 0.366 km/s/fb, J_i 1.115, value -0.035 (10 s)
+[01:45:28] [05] 9 waypoints -> 25 flybys, tank 791, J_i 1.155; fleet covered 25, easy left 215  (464 s)
+[01:48:46]   09: beam 1000 drmax 0.15 half 45: 1649 full states, deepest 31  (197 s)
+[01:52:57]   09: beam 1000 drmax 0.15 half 90: 1913 full states, deepest 31  (252 s)
+[01:57:06]   09: beam 1000 drmax 0.20 half 60: 629 full states, deepest 27  (249 s)
+[01:57:06]   09: Pareto 23:834 24:831 25:839 26:859 27:882 28:889 29:898 30:903 31:925

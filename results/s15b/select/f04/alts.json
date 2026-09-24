@@ -1,0 +1,100 @@
+{
+ "298": [],
+ "297": [
+  {
+   "covered": 297,
+   "sumJi": 11.954,
+   "misses": [
+    64
+   ],
+   "picks": [
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+    "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+    "results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz",
+    "results/s15/cols/r01/C00h6/route_C00h6s1_28.npz",
+    "results/s15/cols/t03/TB2f/route_TB2fs1_21.npz",
+    "results/s15/cols/t04/TB2fS/route_TB2fSs1_14_1.npz"
+   ]
+  },
+  {
+   "covered": 297,
+   "sumJi": 12.0991,
+   "misses": [
+    33
+   ],
+   "picks": [
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+    "results/s15b/cols/X2h04k30/route_X2h04k30s1_34_2.npz",
+    "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+    "results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz",
+    "results/s15b/close/A1/cols/route_07x112_27.npz",
+    "results/s15b/close/A1/cols/route_08x37_23.npz",
+    "results/s15/cols/t03/TB5f/route_TB5fs2_14_1.npz"
+   ]
+  }
+ ],
+ "296": [
+  {
+   "covered": 296,
+   "sumJi": 11.9041,
+   "misses": [
+    64,
+    110
+   ],
+   "picks": [
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+    "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+    "results/s13/gen/g02/master/N8_B10.6/fleet/route_06.npz",
+    "results/s15/cols/r01/C00h6/route_C00h6s1_28.npz",
+    "results/s15/cols/t03/TB2f/route_TB2fs1_21.npz",
+    "results/s15/cols/t04/TB2fS/route_TB2fSs1_14_1.npz"
+   ]
+  },
+  {
+   "covered": 296,
+   "sumJi": 11.9197,
+   "misses": [
+    33,
+    280
+   ],
+   "picks": [
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+    "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+    "results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz",
+    "results/s13/gen/g02x/tailB55k4/lib/route_07_T6_26.npz",
+    "results/s15/cols/t03/TB5f/route_TB5fs1_22.npz",
+    "results/s15/cols/t03/TB5f/route_TB5fs2_14_1.npz"
+   ]
+  },
+  {
+   "covered": 296,
+   "sumJi": 11.9223,
+   "misses": [
+    64,
+    172
+   ],
+   "picks": [
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+    "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+    "results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz",
+    "results/s15/cols/r01/C00h6/route_C00h6s1_28.npz",
+    "results/s15b/cols/X1s1k19/route_X1s1k19s1_20.npz",
+    "results/s15/cols/t04/TB2fS/route_TB2fSs1_14_1.npz"
+   ]
+  }
+ ]
+}

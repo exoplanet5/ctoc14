@@ -1,0 +1,125 @@
+{
+ "regrid_r9": {
+  "n": 21,
+  "tank_in": 902.83,
+  "tank_out": 902.83,
+  "miss": 31.6,
+  "ok": true,
+  "secs": 0.6,
+  "honest_in": {
+   "n": 21,
+   "irregular": 0,
+   "max_imp_cap": 0.9979,
+   "max_window_cap": 0.9979,
+   "miss_km": 64.0,
+   "tank": 902.8308305092615,
+   "dv": 15.930261916182062,
+   "ok": true
+  },
+  "honest_out": {
+   "n": 21,
+   "irregular": 0,
+   "max_imp_cap": 0.9979,
+   "max_window_cap": 0.9979,
+   "miss_km": 31.6,
+   "tank": 902.830452052146,
+   "dv": 15.930245472803641,
+   "ok": true
+  }
+ },
+ "regrid_r1": {
+  "n": 42,
+  "tank_in": 944.38,
+  "tank_out": 944.38,
+  "miss": 35.5,
+  "ok": true,
+  "secs": 0.7,
+  "honest_in": {
+   "n": 42,
+   "irregular": 0,
+   "max_imp_cap": 0.9782,
+   "max_window_cap": 0.9782,
+   "miss_km": 58.5,
+   "tank": 944.3802538593361,
+   "dv": 17.695211870697683,
+   "ok": true
+  },
+  "honest_out": {
+   "n": 42,
+   "irregular": 0,
+   "max_imp_cap": 0.9785,
+   "max_window_cap": 0.9785,
+   "miss_km": 35.5,
+   "tank": 944.3768738451513,
+   "dv": 17.69507147523606,
+   "ok": true
+  }
+ },
+ "truncate_r1_540": {
+  "n_kept": 4,
+  "tank": 620.83,
+  "miss": 3.6,
+  "ok": true,
+  "secs": 0.1
+ },
+ "epoch_candidates": {
+  "n_remaining": 294,
+  "n_cands": 872,
+  "n_in_HL": 866,
+  "n_in_H": 866,
+  "secs": 0.4
+ },
+ "lin_price": {
+  "n": 40,
+  "secs": 0.6,
+  "per_call_ms": 14.8,
+  "dv_marg_sorted": [
+   0.112,
+   0.14,
+   0.256,
+   0.283,
+   0.318,
+   0.379,
+   0.468,
+   0.589
+  ]
+ },
+ "settle_child": [
+  {
+   "ast": 67,
+   "t_d": 1034.5,
+   "dv_lin": 0.112,
+   "ok": true,
+   "tank": 624.7,
+   "dtank": 3.8,
+   "secs": 0.4,
+   "tries": [
+    [
+     "lintwin",
+     44.5
+    ]
+   ]
+  },
+  {
+   "ast": 202,
+   "t_d": 824.5,
+   "dv_lin": 0.14,
+   "ok": true,
+   "tank": 622.7,
+   "dtank": 1.9,
+   "secs": 0.2,
+   "tries": [
+    [
+     "lintwin",
+     2.7
+    ]
+   ]
+  }
+ ],
+ "roots": {
+  "n_launch_dates": 54,
+  "n_roots": 13189,
+  "secs": 14.2
+ },
+ "root_state_secs": 0.0
+}

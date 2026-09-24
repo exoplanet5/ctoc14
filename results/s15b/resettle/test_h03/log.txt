@@ -1,0 +1,2 @@
+[01:53:59]   01: 44 fb, stored tank 1045.11 (miss 2 km) -> re-settled 1045.08 (miss 1 km) OK (1 s)
+[01:53:59] resettle: 1 craft, covered 44, sum J_i stored 1.4190 -> re-settled 1.4190; all settled: True

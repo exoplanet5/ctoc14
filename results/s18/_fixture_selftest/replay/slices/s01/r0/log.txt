@@ -1,0 +1,5 @@
+[01:09:59] fixture fixture_replay job s01_r0 kind root T 540 d H 540 d remaining 298
+[01:09:59]   root: replaying r9 (launch 944 d in (540, 1080])
+[01:09:59]   r9: no new flyby in (540, 1080] d -> no column
+[01:09:59]   root: no route launches in (540, 1080] d with a flyby before 1080 d -> empty result
+[01:09:59] done: ok True columns 0 wall 0.0 s

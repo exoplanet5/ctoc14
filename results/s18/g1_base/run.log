@@ -1,0 +1,1204 @@
+[05:21:04] new run g1_base: N 8 H 540.0 d L 360.0 d proposer segbeam commit regrid nproc 8 stop_T None
+[05:21:04] [slice 0 T=0 d] propose: 8 jobs (0 craft, 8 root) on 8 workers, proposer segbeam, H_eff 540 d, lam 1.0
+[05:21:04] job s00_r0 (root, craft None): T 0 d H 540 L 360; remaining 298; prize >1 on 6, tank_prev 601.5
+[05:21:04] job s00_r3 (root, craft None): T 0 d H 540 L 360; remaining 298; prize >1 on 6, tank_prev 601.5
+[05:21:04] job s00_r1 (root, craft None): T 0 d H 540 L 360; remaining 298; prize >1 on 6, tank_prev 601.5
+[05:21:04] job s00_r2 (root, craft None): T 0 d H 540 L 360; remaining 298; prize >1 on 6, tank_prev 601.5
+[05:21:04] job s00_r5 (root, craft None): T 0 d H 540 L 360; remaining 298; prize >1 on 6, tank_prev 601.5
+[05:21:04] job s00_r4 (root, craft None): T 0 d H 540 L 360; remaining 298; prize >1 on 6, tank_prev 601.5
+[05:21:04] job s00_r6 (root, craft None): T 0 d H 540 L 360; remaining 298; prize >1 on 6, tank_prev 601.5
+[05:21:04] job s00_r7 (root, craft None): T 0 d H 540 L 360; remaining 298; prize >1 on 6, tank_prev 601.5
+[05:21:06] roots: grid (140, 200] step 10 d -> 10 launch legs kept (1.7 s); launch 150-200 d, first flyby 270-285 d
+[05:21:06] quota head-room {'fil': 12, 'med': 18} (targets of a full class are excluded from a parent that filled it)
+[05:21:06] start: 10 root state(s), remaining 298, horizon (0, 540] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:21:06] roots: grid (340, 400] step 10 d -> 10 launch legs kept (1.7 s); launch 350-400 d, first flyby 440-490 d
+[05:21:06] quota head-room {'fil': 12, 'med': 18} (targets of a full class are excluded from a parent that filled it)
+[05:21:06] start: 10 root state(s), remaining 298, horizon (0, 540] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:21:06] roots: grid (400, 470] step 10 d -> 10 launch legs kept (1.9 s); launch 410-460 d, first flyby 475-525 d
+[05:21:06] quota head-room {'fil': 12, 'med': 18} (targets of a full class are excluded from a parent that filled it)
+[05:21:06] start: 10 root state(s), remaining 298, horizon (0, 540] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:21:06] roots: grid (200, 270] step 10 d -> 10 launch legs kept (2.0 s); launch 210-260 d, first flyby 285-310 d
+[05:21:06] roots: grid (270, 340] step 10 d -> 10 launch legs kept (2.0 s); launch 280-320 d, first flyby 305-425 d
+[05:21:06] quota head-room {'fil': 12, 'med': 18} (targets of a full class are excluded from a parent that filled it)
+[05:21:06] quota head-room {'fil': 12, 'med': 18} (targets of a full class are excluded from a parent that filled it)
+[05:21:06] start: 10 root state(s), remaining 298, horizon (0, 540] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:21:06] start: 10 root state(s), remaining 298, horizon (0, 540] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:21:06] roots: grid (470, 540] step 10 d -> 10 launch legs kept (2.0 s); launch 480-520 d, first flyby 570-605 d
+[05:21:06] quota head-room {'fil': 12, 'med': 18} (targets of a full class are excluded from a parent that filled it)
+[05:21:06] roots: grid (70, 140] step 10 d -> 10 launch legs kept (2.0 s); launch 80-140 d, first flyby 95-215 d
+[05:21:06] quota head-room {'fil': 12, 'med': 18} (targets of a full class are excluded from a parent that filled it)
+[05:21:06] start: 10 root state(s), remaining 298, horizon (0, 540] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:21:06] start: 10 root state(s), remaining 298, horizon (0, 540] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:21:06] roots: grid (-10, 70] step 10 d -> 10 launch legs kept (2.3 s); launch 0-60 d, first flyby 70-365 d
+[05:21:06] quota head-room {'fil': 12, 'med': 18} (targets of a full class are excluded from a parent that filled it)
+[05:21:06] start: 10 root state(s), remaining 298, horizon (0, 540] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:21:24]   price_cap: 2500 of 4929 horizon candidates priced (10 parents)
+[05:21:27]   price_cap: 2500 of 7639 horizon candidates priced (10 parents)
+[05:21:29]   price_cap: 2500 of 7719 horizon candidates priced (10 parents)
+[05:21:30]   price_cap: 2500 of 8149 horizon candidates priced (10 parents)
+[05:21:31] depth  2: 10/10 parents -> 378 children (286 unique) -> tried 13, settled 8 (0 in H), kept 7 (5 branches); t_end 657-752 d, tank 604-664 (25 s: price 19, settle 7)
+[05:21:31]   price_cap: 2500 of 8468 horizon candidates priced (10 parents)
+[05:21:32]   price_cap: 2500 of 8853 horizon candidates priced (10 parents)
+[05:21:33] depth  2: 10/10 parents -> 575 children (452 unique) -> tried 10, settled 8 (8 in H), kept 7 (5 branches); t_end 492-540 d, tank 607-625 (27 s: price 23, settle 4)
+[05:21:33]   price_cap: 2500 of 8779 horizon candidates priced (10 parents)
+[05:21:33] depth  2: 10/10 parents -> 945 children (818 unique) -> tried 9, settled 8 (8 in H), kept 5 (4 branches); t_end 328-409 d, tank 602-642 (27 s: price 25, settle 2)
+[05:21:33] depth  2: 10/10 parents -> 732 children (670 unique) -> tried 11, settled 8 (8 in H), kept 8 (5 branches); t_end 441-521 d, tank 602-622 (27 s: price 24, settle 4)
+[05:21:34] depth  2: 10/10 parents -> 542 children (453 unique) -> tried 13, settled 8 (2 in H), kept 7 (6 branches); t_end 492-662 d, tank 603-618 (28 s: price 21, settle 7)
+[05:21:34] depth  2: 10/10 parents -> 924 children (859 unique) -> tried 8, settled 8 (8 in H), kept 8 (6 branches); t_end 202-316 d, tank 602-617 (28 s: price 26, settle 2)
+[05:21:34]   price_cap: 2500 of 8585 horizon candidates priced (10 parents)
+[05:21:36] depth  2: 10/10 parents -> 959 children (641 unique) -> tried 8, settled 8 (8 in H), kept 6 (3 branches); t_end 320-405 d, tank 602-648 (30 s: price 27, settle 3)
+[05:21:38] depth  2: 10/10 parents -> 988 children (876 unique) -> tried 8, settled 8 (8 in H), kept 6 (3 branches); t_end 174-446 d, tank 602-620 (32 s: price 28, settle 4)
+[05:21:44]   price_cap: 1590 of 1880 horizon candidates priced (7 parents)
+[05:21:46] depth  3: 7/7 parents -> 172 children (172 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 672-841 d, tank 609-632 (15 s: price 13, settle 2)
+[05:21:46] beam end {'kind': 'lookahead', 'depth': 3, 'n_noH': 2}: 26 settled states, 21 settles (16 ok), wall 40 s (price 31, settle 9)
+[05:21:46] RESULT s00_r7: 0 columns (n_new -, potential -), 26 states, end lookahead, wall 42 s
+[05:21:46]   job s00_r7 root  columns   0  levels 2  settles 16/21  end lookahead  wall 42.1 s
+[05:21:46]   price_cap: 1250 of 4203 horizon candidates priced (5 parents)
+[05:21:48] depth  3: 5/5 parents -> 367 children (367 unique) -> tried 8, settled 8 (7 in H), kept 8 (3 branches); t_end 397-542 d, tank 612-660 (15 s: price 13, settle 2)
+[05:21:49]   price_cap: 1750 of 4540 horizon candidates priced (7 parents)
+[05:21:50]   price_cap: 1750 of 3827 horizon candidates priced (7 parents)
+[05:21:54] depth  3: 7/7 parents -> 267 children (267 unique) -> tried 10, settled 8 (0 in H), kept 8 (4 branches); t_end 659-820 d, tank 619-636 (20 s: price 16, settle 4)
+[05:21:54]   price_cap: 2000 of 5813 horizon candidates priced (8 parents)
+[05:21:54]   price_cap: 1500 of 5059 horizon candidates priced (6 parents)
+[05:21:55] depth  3: 7/7 parents -> 298 children (291 unique) -> tried 10, settled 8 (0 in H), kept 8 (4 branches); t_end 587-739 d, tank 615-658 (22 s: price 17, settle 6)
+[05:21:55] depth  3: 8/8 parents -> 401 children (401 unique) -> tried 8, settled 8 (0 in H), kept 8 (4 branches); t_end 551-604 d, tank 605-636 (22 s: price 21, settle 1)
+[05:21:58]   price_cap: 2000 of 7025 horizon candidates priced (8 parents)
+[05:21:59] depth  3: 6/6 parents -> 477 children (477 unique) -> tried 10, settled 8 (7 in H), kept 8 (3 branches); t_end 407-572 d, tank 606-675 (23 s: price 18, settle 5)
+[05:21:59]   price_cap: 1500 of 4634 horizon candidates priced (6 parents)
+[05:22:01] depth  3: 6/6 parents -> 445 children (445 unique) -> tried 8, settled 8 (8 in H), kept 8 (3 branches); t_end 275-484 d, tank 612-640 (23 s: price 21, settle 2)
+[05:22:03] depth  3: 8/8 parents -> 749 children (749 unique) -> tried 10, settled 8 (8 in H), kept 8 (4 branches); t_end 317-406 d, tank 613-627 (29 s: price 24, settle 4)
+[05:22:11]   price_cap: 1711 of 2202 horizon candidates priced (8 parents)
+[05:22:12]   price_cap: 2000 of 5421 horizon candidates priced (8 parents)
+[05:22:13] depth  4: 8/8 parents -> 126 children (126 unique) -> tried 8, settled 8 (0 in H), kept 8 (4 branches); t_end 672-847 d, tank 623-647 (19 s: price 17, settle 2)
+[05:22:13] beam end {'kind': 'lookahead', 'depth': 4, 'n_noH': 2}: 34 settled states, 31 settles (24 ok), wall 67 s (price 54, settle 13)
+[05:22:13] RESULT s00_r6: 7 columns (n_new 1-2, potential 0-3), 34 states, end lookahead, wall 69 s
+[05:22:14]   job s00_r6 root  columns   7  levels 3  settles 24/31  end lookahead  wall 68.6 s
+[05:22:16]   price_cap: 1945 of 3021 horizon candidates priced (8 parents)
+[05:22:17]   price_cap: 2000 of 3943 horizon candidates priced (8 parents)
+[05:22:18] depth  4: 8/8 parents -> 356 children (356 unique) -> tried 10, settled 8 (2 in H), kept 8 (3 branches); t_end 497-658 d, tank 619-661 (29 s: price 23, settle 6)
+[05:22:19] depth  4: 8/8 parents -> 251 children (251 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 581-732 d, tank 619-673 (24 s: price 22, settle 2)
+[05:22:19] beam end {'kind': 'lookahead', 'depth': 4, 'n_noH': 2}: 34 settled states, 27 settles (24 ok), wall 73 s (price 67, settle 7)
+[05:22:19] RESULT s00_r4: 14 columns (n_new 1-2, potential 0-2), 34 states, end lookahead, wall 75 s
+[05:22:20]   job s00_r4 root  columns  14  levels 3  settles 24/27  end lookahead  wall 75.1 s
+[05:22:26]   price_cap: 2000 of 5890 horizon candidates priced (8 parents)
+[05:22:28] depth  4: 8/8 parents -> 424 children (424 unique) -> tried 8, settled 8 (2 in H), kept 8 (3 branches); t_end 497-722 d, tank 609-674 (29 s: price 27, settle 2)
+[05:22:29]   price_cap: 2000 of 6724 horizon candidates priced (8 parents)
+[05:22:31] depth  4: 8/8 parents -> 602 children (602 unique) -> tried 8, settled 8 (8 in H), kept 8 (4 branches); t_end 330-511 d, tank 617-675 (28 s: price 27, settle 1)
+[05:22:32]   price_cap: 2000 of 5960 horizon candidates priced (8 parents)
+[05:22:32] depth  4: 8/8 parents -> 221 children (221 unique) -> tried 12, settled 8 (0 in H), kept 8 (3 branches); t_end 655-861 d, tank 621-700 (37 s: price 21, settle 16)
+[05:22:32] beam end {'kind': 'lookahead', 'depth': 4, 'n_noH': 2}: 34 settled states, 32 settles (24 ok), wall 86 s (price 60, settle 26)
+[05:22:32] RESULT s00_r5: 11 columns (n_new 1-2, potential 0-3), 34 states, end lookahead, wall 88 s
+[05:22:32]   job s00_r5 root  columns  11  levels 3  settles 24/32  end lookahead  wall 87.7 s
+[05:22:36] depth  4: 8/8 parents -> 534 children (534 unique) -> tried 8, settled 8 (7 in H), kept 8 (3 branches); t_end 297-545 d, tank 622-685 (35 s: price 31, settle 4)
+[05:22:42]   price_cap: 2000 of 3897 horizon candidates priced (8 parents)
+[05:22:46] depth  5: 8/8 parents -> 313 children (313 unique) -> tried 9, settled 8 (0 in H), kept 8 (3 branches); t_end 573-804 d, tank 627-646 (28 s: price 24, settle 4)
+[05:22:56]   price_cap: 1989 of 4225 horizon candidates priced (8 parents)
+[05:22:58] depth  5: 8/8 parents -> 219 children (219 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 636-834 d, tank 612-690 (31 s: price 28, settle 3)
+[05:22:58]   price_cap: 2000 of 6144 horizon candidates priced (8 parents)
+[05:23:06] depth  5: 8/8 parents -> 452 children (452 unique) -> tried 10, settled 8 (5 in H), kept 8 (4 branches); t_end 477-683 d, tank 623-681 (35 s: price 28, settle 7)
+[05:23:08]   price_cap: 2000 of 5357 horizon candidates priced (8 parents)
+[05:23:08]   price_cap: 1774 of 2400 horizon candidates priced (8 parents)
+[05:23:14] depth  6: 8/8 parents -> 141 children (141 unique) -> tried 9, settled 8 (0 in H), kept 8 (3 branches); t_end 671-880 d, tank 642-690 (28 s: price 22, settle 5)
+[05:23:14] beam end {'kind': 'lookahead', 'depth': 6, 'n_noH': 2}: 50 settled states, 45 settles (40 ok), wall 128 s (price 109, settle 19)
+[05:23:14] RESULT s00_r3: 18 columns (n_new 1-4, potential 0-4), 50 states, end lookahead, wall 130 s
+[05:23:15]   job s00_r3 root  columns  18  levels 5  settles 40/45  end lookahead  wall 129.6 s
+[05:23:16] depth  5: 8/8 parents -> 453 children (453 unique) -> tried 10, settled 8 (3 in H), kept 8 (3 branches); t_end 361-780 d, tank 627-771 (41 s: price 32, settle 9)
+[05:23:18]   price_cap: 1374 of 1930 horizon candidates priced (8 parents)
+[05:23:29] depth  6: 8/8 parents -> 89 children (89 unique) -> tried 10, settled 8 (0 in H), kept 8 (3 branches); t_end 698-900 d, tank 630-696 (30 s: price 20, settle 10)
+[05:23:29] beam end {'kind': 'lookahead', 'depth': 6, 'n_noH': 2}: 50 settled states, 44 settles (40 ok), wall 143 s (price 121, settle 22)
+[05:23:29] RESULT s00_r2: 19 columns (n_new 1-4, potential 0-4), 50 states, end lookahead, wall 145 s
+[05:23:31]   job s00_r2 root  columns  19  levels 5  settles 40/44  end lookahead  wall 144.7 s
+[05:23:34]   price_cap: 2000 of 4576 horizon candidates priced (8 parents)
+[05:23:38] depth  6: 8/8 parents -> 300 children (300 unique) -> tried 8, settled 8 (1 in H), kept 8 (3 branches); t_end 532-866 d, tank 637-669 (32 s: price 29, settle 4)
+[05:23:46]   price_cap: 1854 of 3987 horizon candidates priced (8 parents)
+[05:23:54] depth  6: 8/8 parents -> 306 children (306 unique) -> tried 9, settled 8 (3 in H, 1 drifted out), kept 8 (3 branches); t_end 437-818 d, tank 649-766 (38 s: price 30, settle 8)
+[05:24:00]   price_cap: 1515 of 2870 horizon candidates priced (8 parents)
+[05:24:05] depth  7: 8/8 parents -> 213 children (213 unique) -> tried 9, settled 8 (0 in H), kept 7 (2 branches); t_end 607-735 d, tank 654-690 (27 s: price 22, settle 5)
+[05:24:12]   price_cap: 1133 of 2586 horizon candidates priced (8 parents)
+[05:24:32]   price_cap: 1750 of 2502 horizon candidates priced (7 parents)
+[05:24:35] depth  8: 7/7 parents -> 130 children (130 unique) -> tried 9, settled 8 (0 in H, 1 drifted out), kept 8 (2 branches); t_end 675-799 d, tank 655-715 (30 s: price 27, settle 4)
+[05:24:35] beam end {'kind': 'lookahead', 'depth': 8, 'n_noH': 2}: 66 settled states, 62 settles (56 ok), wall 209 s (price 182, settle 27)
+[05:24:35] RESULT s00_r1: 36 columns (n_new 1-6, potential 0-3), 66 states, end lookahead, wall 211 s
+[05:24:37] depth  7: 8/8 parents -> 172 children (172 unique) -> tried 12, settled 8 (0 in H), kept 8 (3 branches); t_end 583-895 d, tank 666-714 (43 s: price 18, settle 24)
+[05:24:37]   job s00_r1 root  columns  36  levels 7  settles 56/62  end lookahead  wall 211.0 s
+[05:24:45]   price_cap: 531 of 1000 horizon candidates priced (7 parents)
+[05:24:50] depth  8: 7/8 parents -> 58 children (58 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 660-866 d, tank 667-746 (14 s: price 9, settle 5)
+[05:24:50] beam end {'kind': 'lookahead', 'depth': 8, 'n_noH': 2}: 66 settled states, 63 settles (56 ok), wall 224 s (price 169, settle 56)
+[05:24:50] RESULT s00_r0: 31 columns (n_new 1-6, potential 0-4), 66 states, end lookahead, wall 226 s
+[05:24:51]   job s00_r0 root  columns  31  levels 7  settles 56/63  end lookahead  wall 226.3 s
+[05:24:51] [slice 0] propose: 136 columns (0 bad dropped) in 227.0 s
+[05:24:51] [slice 0] auction: 136 columns, kept 136, dropped {}; lam 1.00 H_eff 540 d fuel budget 482 kg quota on
+[05:24:51] [slice 0] auction: status optimal objective 35.938 vars 136 rows 47 chosen 8 fuel 244/482 kg (0.017 s)
+[05:24:53] [slice 0 T=0 d] launched 8/8  covered 32  remaining 266  fuel 256 kg  sumJi 8.1878  chosen: r->c0:4(+40) r->c1:4(+23) r->c2:6(+68) r->c3:4(+16) r->c4:5(+34) r->c5:3(+12) r->c6:4(+32) r->c7:2(+20)  rejected: -  (wall 229 s)
+[05:24:53] [slice 1 T=540 d] propose: 8 jobs (8 craft, 0 root) on 8 workers, proposer segbeam, H_eff 540 d, lam 1.0
+[05:24:53] job s01_c0 (craft, craft 0): T 540 d H 540 L 360; remaining 266; prize >1 on 18, tank_prev 641.2
+[05:24:53] job s01_c2 (craft, craft 2): T 540 d H 540 L 360; remaining 266; prize >1 on 18, tank_prev 669.1
+[05:24:53] job s01_c1 (craft, craft 1): T 540 d H 540 L 360; remaining 266; prize >1 on 18, tank_prev 624.7
+[05:24:53] job s01_c3 (craft, craft 3): T 540 d H 540 L 360; remaining 266; prize >1 on 18, tank_prev 617.4
+[05:24:53] job s01_c5 (craft, craft 5): T 540 d H 540 L 360; remaining 266; prize >1 on 18, tank_prev 613.2
+[05:24:53] job s01_c4 (craft, craft 4): T 540 d H 540 L 360; remaining 266; prize >1 on 18, tank_prev 635.3
+[05:24:53] job s01_c7 (craft, craft 7): T 540 d H 540 L 360; remaining 266; prize >1 on 18, tank_prev 621.3
+[05:24:53] job s01_c6 (craft, craft 6): T 540 d H 540 L 360; remaining 266; prize >1 on 18, tank_prev 633.4
+[05:24:53] prefix slices/s01/in/craft_7.npz: 2 flybys, t_end 518.9 d, tank 621.3 kg (planner view), miss 96.3 km, nreg 10
+[05:24:53] quota head-room {'fil': 10, 'med': 18} (targets of a full class are excluded from a parent that filled it)
+[05:24:53] start: 1 craft state(s), remaining 266, horizon (540, 1080] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:24:53] prefix slices/s01/in/craft_6.npz: 4 flybys, t_end 496.8 d, tank 633.4 kg (planner view), miss 0.0 km, nreg 14
+[05:24:53] quota head-room {'fil': 11, 'med': 17} (targets of a full class are excluded from a parent that filled it)
+[05:24:53] start: 1 craft state(s), remaining 266, horizon (540, 1080] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:24:53] prefix slices/s01/in/craft_1.npz: 4 flybys, t_end 323.5 d, tank 624.7 kg (planner view), miss 0.0 km, nreg 18
+[05:24:53] prefix slices/s01/in/craft_5.npz: 3 flybys, t_end 526.2 d, tank 613.2 kg (planner view), miss 0.1 km, nreg 17
+[05:24:53] quota head-room {'fil': 10, 'med': 16} (targets of a full class are excluded from a parent that filled it)
+[05:24:53] quota head-room {'fil': 9, 'med': 18} (targets of a full class are excluded from a parent that filled it)
+[05:24:53] start: 1 craft state(s), remaining 266, horizon (540, 1080] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:24:53] start: 1 craft state(s), remaining 266, horizon (540, 1080] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:24:53] prefix slices/s01/in/craft_3.npz: 4 flybys, t_end 511.1 d, tank 617.4 kg (planner view), miss 0.2 km, nreg 23
+[05:24:53] prefix slices/s01/in/craft_2.npz: 6 flybys, t_end 532.4 d, tank 669.1 kg (planner view), miss 47.5 km, nreg 24
+[05:24:53] quota head-room {'fil': 10, 'med': 16} (targets of a full class are excluded from a parent that filled it)
+[05:24:53] quota head-room {'fil': 9, 'med': 17} (targets of a full class are excluded from a parent that filled it)
+[05:24:53] prefix slices/s01/in/craft_0.npz: 4 flybys, t_end 443.9 d, tank 641.2 kg (planner view), miss 20.9 km, nreg 24
+[05:24:53] quota head-room {'fil': 10, 'med': 17} (targets of a full class are excluded from a parent that filled it)
+[05:24:53] start: 1 craft state(s), remaining 266, horizon (540, 1080] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:24:53] prefix slices/s01/in/craft_4.npz: 5 flybys, t_end 504.2 d, tank 635.3 kg (planner view), miss 2.6 km, nreg 22
+[05:24:53] start: 1 craft state(s), remaining 266, horizon (540, 1080] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:24:53] quota head-room {'fil': 9, 'med': 16} (targets of a full class are excluded from a parent that filled it)
+[05:24:53] start: 1 craft state(s), remaining 266, horizon (540, 1080] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:24:53] start: 1 craft state(s), remaining 266, horizon (540, 1080] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:24:56]   price_cap: 250 of 795 horizon candidates priced (1 parents)
+[05:24:57]   price_cap: 250 of 782 horizon candidates priced (1 parents)
+[05:24:57]   price_cap: 250 of 798 horizon candidates priced (1 parents)
+[05:24:57]   price_cap: 250 of 793 horizon candidates priced (1 parents)
+[05:24:57]   price_cap: 250 of 792 horizon candidates priced (1 parents)
+[05:24:57]   price_cap: 250 of 797 horizon candidates priced (1 parents)
+[05:24:58]   price_cap: 250 of 794 horizon candidates priced (1 parents)
+[05:24:58]   price_cap: 250 of 769 horizon candidates priced (1 parents)
+[05:25:00] depth  2: 1/1 parents -> 84 children (84 unique) -> tried 8, settled 8 (8 in H), kept 7 (6 branches); t_end 573-1040 d, tank 635-700 (7 s: price 3, settle 4)
+[05:25:01] depth  2: 1/1 parents -> 107 children (107 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 550-932 d, tank 637-664 (8 s: price 4, settle 3)
+[05:25:01] depth  2: 1/1 parents -> 89 children (89 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 589-940 d, tank 652-771 (8 s: price 5, settle 3)
+[05:25:01] depth  2: 1/1 parents -> 78 children (78 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 554-1030 d, tank 642-687 (8 s: price 4, settle 4)
+[05:25:03] depth  2: 1/1 parents -> 103 children (103 unique) -> tried 8, settled 8 (8 in H), kept 7 (6 branches); t_end 565-927 d, tank 623-732 (10 s: price 4, settle 6)
+[05:25:03] depth  2: 1/1 parents -> 77 children (77 unique) -> tried 8, settled 8 (8 in H), kept 7 (7 branches); t_end 607-1025 d, tank 686-724 (10 s: price 4, settle 6)
+[05:25:08] depth  2: 1/1 parents -> 78 children (78 unique) -> tried 10, settled 8 (8 in H), kept 7 (7 branches); t_end 662-1030 d, tank 619-666 (15 s: price 4, settle 11)
+[05:25:09] depth  2: 1/1 parents -> 77 children (77 unique) -> tried 10, settled 8 (8 in H), kept 6 (5 branches); t_end 679-986 d, tank 624-663 (16 s: price 3, settle 13)
+[05:25:33]   price_cap: 1750 of 5051 horizon candidates priced (7 parents)
+[05:25:34]   price_cap: 1500 of 4522 horizon candidates priced (6 parents)
+[05:25:39]   price_cap: 1750 of 5434 horizon candidates priced (7 parents)
+[05:25:39] depth  3: 7/7 parents -> 449 children (449 unique) -> tried 8, settled 8 (7 in H), kept 8 (4 branches); t_end 751-1438 d, tank 659-714 (38 s: price 32, settle 6)
+[05:25:39]   price_cap: 1750 of 5302 horizon candidates priced (7 parents)
+[05:25:42]   price_cap: 2000 of 6258 horizon candidates priced (8 parents)
+[05:25:42]   price_cap: 2000 of 6265 horizon candidates priced (8 parents)
+[05:25:42]   price_cap: 1750 of 5483 horizon candidates priced (7 parents)
+[05:25:44] depth  3: 6/6 parents -> 408 children (403 unique) -> tried 9, settled 8 (7 in H), kept 8 (4 branches); t_end 856-1433 d, tank 639-759 (35 s: price 25, settle 10)
+[05:25:45]   price_cap: 2000 of 6013 horizon candidates priced (8 parents)
+[05:25:46] depth  3: 7/7 parents -> 522 children (522 unique) -> tried 8, settled 8 (6 in H), kept 8 (6 branches); t_end 976-1101 d, tank 693-732 (43 s: price 36, settle 7)
+[05:25:50] depth  3: 8/8 parents -> 734 children (734 unique) -> tried 8, settled 8 (8 in H), kept 8 (5 branches); t_end 639-907 d, tank 653-711 (49 s: price 41, settle 8)
+[05:25:52] depth  3: 8/8 parents -> 542 children (542 unique) -> tried 9, settled 8 (8 in H), kept 7 (5 branches); t_end 756-922 d, tank 663-713 (51 s: price 40, settle 10)
+[05:25:56] depth  3: 7/7 parents -> 537 children (537 unique) -> tried 9, settled 8 (7 in H), kept 8 (4 branches); t_end 855-1437 d, tank 642-712 (48 s: price 34, settle 14)
+[05:26:00] depth  3: 7/7 parents -> 568 children (553 unique) -> tried 11, settled 8 (8 in H, 1 drifted out), kept 8 (5 branches); t_end 854-942 d, tank 648-867 (57 s: price 36, settle 22)
+[05:26:15]   price_cap: 1750 of 4560 horizon candidates priced (7 parents)
+[05:26:17]   price_cap: 1750 of 4713 horizon candidates priced (7 parents)
+[05:26:23] depth  4: 7/8 parents -> 322 children (322 unique) -> tried 9, settled 8 (4 in H, 1 drifted out), kept 8 (3 branches); t_end 932-1437 d, tank 668-747 (44 s: price 36, settle 8)
+[05:26:29] depth  3: 8/8 parents -> 617 children (617 unique) -> tried 12, settled 8 (8 in H), kept 8 (6 branches); t_end 933-1014 d, tank 676-715 (88 s: price 44, settle 44)
+[05:26:31]   price_cap: 1750 of 5297 horizon candidates priced (7 parents)
+[05:26:33]   price_cap: 2000 of 4942 horizon candidates priced (8 parents)
+[05:26:34]   price_cap: 1750 of 5283 horizon candidates priced (7 parents)
+[05:26:37]   price_cap: 2000 of 6177 horizon candidates priced (8 parents)
+[05:26:38] depth  4: 7/7 parents -> 549 children (549 unique) -> tried 8, settled 8 (7 in H), kept 8 (4 branches); t_end 902-1086 d, tank 685-712 (46 s: price 39, settle 6)
+[05:26:40] depth  4: 8/8 parents -> 342 children (342 unique) -> tried 8, settled 8 (0 in H), kept 8 (4 branches); t_end 1100-1438 d, tank 698-723 (54 s: price 47, settle 7)
+[05:26:42] depth  4: 7/8 parents -> 480 children (480 unique) -> tried 8, settled 8 (5 in H), kept 8 (3 branches); t_end 943-1436 d, tank 649-729 (46 s: price 38, settle 8)
+[05:26:46]   price_cap: 2000 of 5985 horizon candidates priced (8 parents)
+[05:26:46] depth  4: 8/8 parents -> 658 children (647 unique) -> tried 8, settled 8 (6 in H), kept 8 (4 branches); t_end 859-1437 d, tank 671-746 (56 s: price 47, settle 9)
+[05:26:57] depth  4: 7/8 parents -> 422 children (419 unique) -> tried 15, settled 8 (4 in H), kept 8 (4 branches); t_end 1003-1433 d, tank 661-802 (73 s: price 33, settle 40)
+[05:26:58]   price_cap: 1655 of 3343 horizon candidates priced (7 parents)
+[05:27:06] depth  5: 7/8 parents -> 175 children (175 unique) -> tried 9, settled 8 (2 in H, 1 drifted out), kept 8 (3 branches); t_end 1013-1437 d, tank 674-778 (43 s: price 35, settle 8)
+[05:27:15]   price_cap: 1500 of 4076 horizon candidates priced (6 parents)
+[05:27:16] depth  4: 8/8 parents -> 609 children (605 unique) -> tried 12, settled 8 (5 in H, 2 drifted out), kept 8 (4 branches); t_end 922-1438 d, tank 652-916 (76 s: price 46, settle 30)
+[05:27:19]   price_cap: 2000 of 5206 horizon candidates priced (8 parents)
+[05:27:23]   price_cap: 1750 of 2915 horizon candidates priced (7 parents)
+[05:27:23]   price_cap: 1500 of 4494 horizon candidates priced (6 parents)
+[05:27:24]   price_cap: 2000 of 5399 horizon candidates priced (8 parents)
+[05:27:26] depth  5: 6/8 parents -> 237 children (237 unique) -> tried 8, settled 8 (2 in H), kept 8 (3 branches); t_end 1055-1435 d, tank 685-805 (44 s: price 34, settle 11)
+[05:27:31] depth  5: 7/8 parents -> 189 children (189 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 1157-1251 d, tank 708-786 (50 s: price 43, settle 8)
+[05:27:31] beam end {'kind': 'lookahead', 'depth': 5, 'n_noH': 2}: 33 settled states, 32 settles (32 ok), wall 158 s (price 130, settle 28)
+[05:27:31] RESULT s01_c2: 13 columns (n_new 1-2, potential 0-2), 33 states, end lookahead, wall 158 s
+[05:27:31]   price_cap: 1682 of 3308 horizon candidates priced (7 parents)
+[05:27:32]   job s01_c2 craft columns  13  levels 4  settles 32/32  end lookahead  wall 157.7 s
+[05:27:32] depth  5: 6/8 parents -> 370 children (370 unique) -> tried 8, settled 8 (6 in H), kept 8 (3 branches); t_end 919-1120 d, tank 684-890 (46 s: price 37, settle 9)
+[05:27:39] depth  5: 8/8 parents -> 399 children (399 unique) -> tried 9, settled 8 (5 in H), kept 8 (4 branches); t_end 1031-1406 d, tank 691-889 (61 s: price 47, settle 15)
+[05:27:41]   price_cap: 1584 of 2561 horizon candidates priced (7 parents)
+[05:27:43] depth  5: 7/8 parents -> 232 children (232 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 1170-1434 d, tank 664-711 (46 s: price 34, settle 13)
+[05:27:46] depth  6: 7/8 parents -> 114 children (114 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 1171-1437 d, tank 681-803 (40 s: price 35, settle 5)
+[05:27:52]   price_cap: 1500 of 3822 horizon candidates priced (6 parents)
+[05:28:00] depth  4: 8/8 parents -> 573 children (565 unique) -> tried 12, settled 8 (6 in H), kept 8 (5 branches); t_end 962-1383 d, tank 677-805 (92 s: price 51, settle 41)
+[05:28:05]   price_cap: 1685 of 3416 horizon candidates priced (7 parents)
+[05:28:13]   price_cap: 1464 of 1614 horizon candidates priced (7 parents)
+[05:28:14]   price_cap: 1184 of 1217 horizon candidates priced (7 parents)
+[05:28:18] depth  6: 7/8 parents -> 119 children (119 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 1109-1430 d, tank 715-864 (51 s: price 39, settle 12)
+[05:28:22]   price_cap: 1753 of 3959 horizon candidates priced (8 parents)
+[05:28:24]   price_cap: 2000 of 4979 horizon candidates priced (8 parents)
+[05:28:31] depth  7: 7/8 parents -> 13 children (13 unique) -> tried 11, settled 8 (0 in H, 3 drifted out), kept 8 (2 branches); t_end 1311-1438 d, tank 723-897 (45 s: price 28, settle 17)
+[05:28:31] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 53 settles (48 ok), wall 218 s (price 171, settle 47)
+[05:28:31] RESULT s01_c6: 19 columns (n_new 1-4, potential 0-3), 49 states, end lookahead, wall 218 s
+[05:28:32]   job s01_c6 craft columns  19  levels 6  settles 48/53  end lookahead  wall 218.0 s
+[05:28:41] depth  6: 7/8 parents -> 113 children (113 unique) -> tried 11, settled 8 (0 in H), kept 7 (2 branches); t_end 1239-1334 d, tank 682-708 (58 s: price 30, settle 28)
+[05:28:41] beam end {'kind': 'lookahead', 'depth': 6, 'n_noH': 2}: 41 settled states, 53 settles (40 ok), wall 228 s (price 124, settle 104)
+[05:28:41] RESULT s01_c7: 15 columns (n_new 1-3, potential 0-2), 41 states, end lookahead, wall 228 s
+[05:28:42] depth  6: 8/8 parents -> 240 children (240 unique) -> tried 10, settled 8 (0 in H), kept 8 (4 branches); t_end 1134-1288 d, tank 708-746 (63 s: price 43, settle 20)
+[05:28:42]   job s01_c7 craft columns  15  levels 5  settles 40/53  end lookahead  wall 228.2 s
+[05:28:44]   price_cap: 1125 of 1750 horizon candidates priced (7 parents)
+[05:28:46]   price_cap: 1752 of 4157 horizon candidates priced (8 parents)
+[05:28:49] depth  6: 8/8 parents -> 313 children (313 unique) -> tried 10, settled 8 (1 in H), kept 8 (3 branches); t_end 1033-1265 d, tank 692-945 (76 s: price 51, settle 25)
+[05:28:51] depth  5: 6/8 parents -> 208 children (208 unique) -> tried 16, settled 7 (3 in H, 1 drifted out), kept 7 (3 branches); t_end 958-1156 d, tank 660-1086 (95 s: price 36, settle 59)
+[05:29:01] depth  7: 7/8 parents -> 56 children (56 unique) -> tried 9, settled 8 (0 in H), kept 8 (2 branches); t_end 1184-1416 d, tank 725-764 (44 s: price 27, settle 17)
+[05:29:01] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 52 settles (48 ok), wall 248 s (price 175, settle 73)
+[05:29:01] RESULT s01_c5: 21 columns (n_new 1-4, potential 0-3), 49 states, end lookahead, wall 248 s
+[05:29:02]   job s01_c5 craft columns  21  levels 6  settles 48/52  end lookahead  wall 248.0 s
+[05:29:26]   price_cap: 1812 of 2802 horizon candidates priced (8 parents)
+[05:29:34]   price_cap: 1750 of 3424 horizon candidates priced (7 parents)
+[05:29:36] depth  7: 8/8 parents -> 148 children (148 unique) -> tried 8, settled 8 (0 in H), kept 8 (4 branches); t_end 1219-1414 d, tank 718-801 (54 s: price 44, settle 10)
+[05:29:36] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 52 settles (48 ok), wall 283 s (price 219, settle 64)
+[05:29:36] RESULT s01_c4: 27 columns (n_new 1-4, potential 0-3), 49 states, end lookahead, wall 283 s
+[05:29:36]   price_cap: 1797 of 3134 horizon candidates priced (8 parents)
+[05:29:36]   job s01_c4 craft columns  27  levels 6  settles 48/52  end lookahead  wall 282.9 s
+[05:29:45] depth  5: 8/8 parents -> 286 children (286 unique) -> tried 15, settled 8 (1 in H), kept 8 (4 branches); t_end 1020-1363 d, tank 686-786 (105 s: price 46, settle 59)
+[05:30:07] depth  7: 8/8 parents -> 140 children (140 unique) -> tried 10, settled 8 (0 in H), kept 8 (3 branches); t_end 1166-1429 d, tank 707-1075 (78 s: price 47, settle 31)
+[05:30:25]   price_cap: 1500 of 2237 horizon candidates priced (8 parents)
+[05:30:41]   price_cap: 1262 of 1371 horizon candidates priced (7 parents)
+[05:31:02] depth  6: 7/7 parents -> 233 children (233 unique) -> tried 16, settled 7 (0 in H), kept 7 (3 branches); t_end 1083-1373 d, tank 668-980 (131 s: price 43, settle 88)
+[05:31:17] depth  6: 8/8 parents -> 152 children (152 unique) -> tried 12, settled 8 (0 in H), kept 8 (4 branches); t_end 1164-1410 d, tank 709-813 (91 s: price 40, settle 52)
+[05:31:20] depth  8: 7/8 parents -> 89 children (89 unique) -> tried 12, settled 8 (0 in H), kept 8 (2 branches); t_end 1308-1434 d, tank 716-864 (73 s: price 34, settle 39)
+[05:31:20] beam end {'kind': 'lookahead', 'depth': 8, 'n_noH': 2}: 57 settled states, 64 settles (56 ok), wall 387 s (price 262, settle 125)
+[05:31:20] RESULT s01_c1: 28 columns (n_new 1-5, potential 0-4), 57 states, end lookahead, wall 387 s
+[05:31:21]   job s01_c1 craft columns  28  levels 7  settles 56/64  end lookahead  wall 386.5 s
+[05:31:34]   price_cap: 1315 of 1801 horizon candidates priced (7 parents)
+[05:31:36]   price_cap: 707 of 778 horizon candidates priced (8 parents)
+[05:31:53] depth  7: 7/7 parents -> 128 children (128 unique) -> tried 11, settled 8 (0 in H, 1 drifted out), kept 8 (2 branches); t_end 1141-1412 d, tank 675-741 (51 s: price 32, settle 19)
+[05:31:53] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 47 settled states, 74 settles (46 ok), wall 419 s (price 196, settle 223)
+[05:31:53] RESULT s01_c3: 21 columns (n_new 1-4, potential 0-3), 47 states, end lookahead, wall 419 s
+[05:31:53]   job s01_c3 craft columns  21  levels 6  settles 46/74  end lookahead  wall 419.5 s
+[05:33:31] depth  7: 8/8 parents -> 74 children (74 unique) -> tried 16, settled 4 (0 in H, 1 drifted out), kept 4 (2 branches); t_end 1234-1438 d, tank 779-862 (134 s: price 20, settle 114)
+[05:33:31] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 45 settled states, 75 settles (44 ok), wall 517 s (price 205, settle 312)
+[05:33:31] RESULT s01_c0: 22 columns (n_new 1-4, potential 0-3), 45 states, end lookahead, wall 518 s
+[05:33:31]   job s01_c0 craft columns  22  levels 6  settles 44/75  end lookahead  wall 517.5 s
+[05:33:31] [slice 1] propose: 166 columns (0 bad dropped) in 518.2 s
+[05:33:31] [slice 1] auction: 166 columns, kept 157, dropped {'ramp': 9}; lam 1.00 H_eff 540 d fuel budget 482 kg quota on
+[05:33:31] [slice 1] auction: status optimal objective 25.517 vars 157 rows 51 chosen 8 fuel 418/482 kg (0.029 s)
+[05:33:33] [slice 1] commit: c0 column s01_c0_k0 REJECTED: regrid_settle failed (miss 103308 km / cap 0.764)  (targets stay in remaining)
+[05:33:33] [slice 1] retry 1 auction: 21 columns, kept 12, dropped {'stale': 8, 'ramp': 1}; lam 1.00 H_eff 540 d fuel budget 182 kg quota on
+[05:33:33] [slice 1] retry 1 auction: status optimal objective 3.492 vars 12 rows 7 chosen 1 fuel 48/182 kg (0.011 s)
+[05:33:35] [slice 1 T=540 d] launched 8/8  covered 52  remaining 246  fuel 604 kg  sumJi 8.4570  chosen: c1:4(+61) c2:2(+26) c3:3(+37) c4:1(+7) c5:2(+75) c6:3(+73) c7:2(+21) c0:3(+48)[retry 1]  rejected: -  recovered by retry: c0  (wall 522 s)
+[05:33:35] [slice 2 T=1080 d] propose: 8 jobs (8 craft, 0 root) on 8 workers, proposer segbeam, H_eff 540 d, lam 1.0
+[05:33:35] job s02_c0 (craft, craft 0): T 1080 d H 540 L 360; remaining 246; prize >1 on 26, tank_prev 689.5
+[05:33:35] job s02_c1 (craft, craft 1): T 1080 d H 540 L 360; remaining 246; prize >1 on 26, tank_prev 686.1
+[05:33:35] job s02_c2 (craft, craft 2): T 1080 d H 540 L 360; remaining 246; prize >1 on 26, tank_prev 694.9
+[05:33:35] job s02_c3 (craft, craft 3): T 1080 d H 540 L 360; remaining 246; prize >1 on 26, tank_prev 654.9
+[05:33:35] job s02_c4 (craft, craft 4): T 1080 d H 540 L 360; remaining 246; prize >1 on 26, tank_prev 642.2
+[05:33:35] job s02_c5 (craft, craft 5): T 1080 d H 540 L 360; remaining 246; prize >1 on 26, tank_prev 688.5
+[05:33:35] job s02_c6 (craft, craft 6): T 1080 d H 540 L 360; remaining 246; prize >1 on 26, tank_prev 706.0
+[05:33:35] job s02_c7 (craft, craft 7): T 1080 d H 540 L 360; remaining 246; prize >1 on 26, tank_prev 642.0
+[05:33:35] prefix slices/s02/in/craft_4.npz: 6 flybys, t_end 693.7 d, tank 642.2 kg (planner view), miss 0.1 km, nreg 31
+[05:33:35] quota head-room {'fil': 9, 'med': 16} (targets of a full class are excluded from a parent that filled it)
+[05:33:35] prefix slices/s02/in/craft_7.npz: 4 flybys, t_end 983.8 d, tank 642.0 kg (planner view), miss 6.5 km, nreg 33
+[05:33:35] quota head-room {'fil': 10, 'med': 17} (targets of a full class are excluded from a parent that filled it)
+[05:33:35] start: 1 craft state(s), remaining 246, horizon (1080, 1620] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:33:35] start: 1 craft state(s), remaining 246, horizon (1080, 1620] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:33:35] prefix slices/s02/in/craft_5.npz: 5 flybys, t_end 949.8 d, tank 688.5 kg (planner view), miss 38.2 km, nreg 38
+[05:33:35] quota head-room {'fil': 8, 'med': 18} (targets of a full class are excluded from a parent that filled it)
+[05:33:35] start: 1 craft state(s), remaining 246, horizon (1080, 1620] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:33:35] prefix slices/s02/in/craft_6.npz: 7 flybys, t_end 1050.1 d, tank 706.0 kg (planner view), miss 1.1 km, nreg 42
+[05:33:35] quota head-room {'fil': 10, 'med': 17} (targets of a full class are excluded from a parent that filled it)
+[05:33:35] prefix slices/s02/in/craft_2.npz: 8 flybys, t_end 1024.8 d, tank 694.9 kg (planner view), miss 36.6 km, nreg 49
+[05:33:35] quota head-room {'fil': 9, 'med': 16} (targets of a full class are excluded from a parent that filled it)
+[05:33:35] start: 1 craft state(s), remaining 246, horizon (1080, 1620] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:33:35] start: 1 craft state(s), remaining 246, horizon (1080, 1620] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:33:35] prefix slices/s02/in/craft_3.npz: 7 flybys, t_end 1027.7 d, tank 654.9 kg (planner view), miss 0.7 km, nreg 49
+[05:33:35] quota head-room {'fil': 8, 'med': 16} (targets of a full class are excluded from a parent that filled it)
+[05:33:35] start: 1 craft state(s), remaining 246, horizon (1080, 1620] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:33:35] prefix slices/s02/in/craft_1.npz: 8 flybys, t_end 1078.1 d, tank 686.1 kg (planner view), miss 1.6 km, nreg 55
+[05:33:35] quota head-room {'fil': 9, 'med': 14} (targets of a full class are excluded from a parent that filled it)
+[05:33:35] prefix slices/s02/in/craft_0.npz: 7 flybys, t_end 1060.6 d, tank 689.5 kg (planner view), miss 67.1 km, nreg 55
+[05:33:35] quota head-room {'fil': 9, 'med': 17} (targets of a full class are excluded from a parent that filled it)
+[05:33:35] start: 1 craft state(s), remaining 246, horizon (1080, 1620] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:33:35] start: 1 craft state(s), remaining 246, horizon (1080, 1620] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:33:41]   price_cap: 250 of 734 horizon candidates priced (1 parents)
+[05:33:42]   price_cap: 250 of 733 horizon candidates priced (1 parents)
+[05:33:42]   price_cap: 250 of 738 horizon candidates priced (1 parents)
+[05:33:42]   price_cap: 250 of 735 horizon candidates priced (1 parents)
+[05:33:42]   price_cap: 250 of 735 horizon candidates priced (1 parents)
+[05:33:42]   price_cap: 250 of 728 horizon candidates priced (1 parents)
+[05:33:42]   price_cap: 250 of 730 horizon candidates priced (1 parents)
+[05:33:43]   price_cap: 250 of 732 horizon candidates priced (1 parents)
+[05:33:46] depth  2: 1/1 parents -> 73 children (73 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 1146-1325 d, tank 687-727 (10 s: price 7, settle 3)
+[05:33:47] depth  2: 1/1 parents -> 92 children (92 unique) -> tried 8, settled 8 (8 in H), kept 8 (7 branches); t_end 1105-1611 d, tank 643-706 (12 s: price 5, settle 6)
+[05:33:51] depth  2: 1/1 parents -> 87 children (87 unique) -> tried 8, settled 8 (8 in H), kept 7 (7 branches); t_end 1230-1490 d, tank 660-712 (16 s: price 7, settle 9)
+[05:33:51] depth  2: 1/1 parents -> 86 children (86 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 1102-1612 d, tank 696-735 (16 s: price 6, settle 9)
+[05:33:51] depth  2: 1/1 parents -> 69 children (69 unique) -> tried 8, settled 8 (7 in H), kept 8 (8 branches); t_end 1132-1622 d, tank 708-775 (16 s: price 6, settle 10)
+[05:33:52] depth  2: 1/1 parents -> 106 children (106 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 1125-1490 d, tank 655-691 (17 s: price 7, settle 10)
+[05:33:57] depth  2: 1/1 parents -> 98 children (98 unique) -> tried 9, settled 8 (8 in H), kept 8 (8 branches); t_end 1130-1402 d, tank 690-728 (22 s: price 6, settle 15)
+[05:34:05] depth  2: 1/1 parents -> 67 children (67 unique) -> tried 9, settled 8 (8 in H), kept 8 (6 branches); t_end 1267-1603 d, tank 696-1120 (30 s: price 7, settle 23)
+[05:34:37]   price_cap: 2000 of 5251 horizon candidates priced (8 parents)
+[05:34:45] depth  3: 8/8 parents -> 622 children (622 unique) -> tried 8, settled 8 (7 in H), kept 8 (4 branches); t_end 1436-1872 d, tank 654-719 (58 s: price 49, settle 9)
+[05:34:46]   price_cap: 1750 of 5021 horizon candidates priced (7 parents)
+[05:34:48]   price_cap: 2000 of 5854 horizon candidates priced (8 parents)
+[05:34:48]   price_cap: 2000 of 5469 horizon candidates priced (8 parents)
+[05:34:48]   price_cap: 2000 of 5351 horizon candidates priced (8 parents)
+[05:34:51]   price_cap: 2000 of 5715 horizon candidates priced (8 parents)
+[05:34:53]   price_cap: 2000 of 5875 horizon candidates priced (8 parents)
+[05:34:55] depth  3: 7/7 parents -> 561 children (561 unique) -> tried 8, settled 8 (8 in H), kept 8 (4 branches); t_end 1336-1536 d, tank 677-745 (64 s: price 55, settle 10)
+[05:34:56] depth  3: 8/8 parents -> 666 children (666 unique) -> tried 8, settled 8 (8 in H), kept 8 (5 branches); t_end 1250-1415 d, tank 708-838 (71 s: price 62, settle 9)
+[05:34:57] depth  3: 8/8 parents -> 496 children (496 unique) -> tried 8, settled 8 (6 in H), kept 8 (5 branches); t_end 1303-1865 d, tank 731-772 (66 s: price 57, settle 8)
+[05:35:01] depth  3: 8/8 parents -> 516 children (516 unique) -> tried 8, settled 8 (6 in H), kept 8 (7 branches); t_end 1472-1865 d, tank 714-766 (70 s: price 57, settle 13)
+[05:35:07] depth  3: 8/8 parents -> 709 children (709 unique) -> tried 8, settled 8 (7 in H), kept 8 (5 branches); t_end 1362-1873 d, tank 690-788 (75 s: price 59, settle 16)
+[05:35:11] depth  3: 8/8 parents -> 499 children (499 unique) -> tried 8, settled 8 (7 in H), kept 7 (4 branches); t_end 1375-1922 d, tank 708-838 (74 s: price 56, settle 18)
+[05:35:12]   price_cap: 2000 of 5523 horizon candidates priced (8 parents)
+[05:35:35]   price_cap: 1803 of 4084 horizon candidates priced (8 parents)
+[05:35:52]   price_cap: 1818 of 4454 horizon candidates priced (8 parents)
+[05:35:55] depth  4: 8/8 parents -> 423 children (423 unique) -> tried 10, settled 8 (3 in H), kept 8 (4 branches); t_end 1475-1951 d, tank 655-729 (70 s: price 49, settle 20)
+[05:35:56]   price_cap: 1678 of 3811 horizon candidates priced (8 parents)
+[05:35:58]   price_cap: 1501 of 4311 horizon candidates priced (7 parents)
+[05:36:00]   price_cap: 2000 of 5580 horizon candidates priced (8 parents)
+[05:36:02]   price_cap: 2000 of 5662 horizon candidates priced (8 parents)
+[05:36:04]   price_cap: 1804 of 4978 horizon candidates priced (8 parents)
+[05:36:07] depth  4: 8/8 parents -> 388 children (388 unique) -> tried 8, settled 8 (4 in H), kept 8 (4 branches); t_end 1478-1866 d, tank 753-784 (70 s: price 56, settle 15)
+[05:36:12] depth  4: 8/8 parents -> 527 children (527 unique) -> tried 8, settled 8 (2 in H), kept 8 (4 branches); t_end 1464-1865 d, tank 686-799 (77 s: price 65, settle 12)
+[05:36:16] depth  4: 8/8 parents -> 516 children (516 unique) -> tried 9, settled 8 (8 in H), kept 8 (3 branches); t_end 1409-1529 d, tank 712-832 (80 s: price 65, settle 15)
+[05:36:19] depth  4: 8/8 parents -> 314 children (314 unique) -> tried 9, settled 8 (3 in H), kept 8 (6 branches); t_end 1590-1954 d, tank 718-767 (78 s: price 55, settle 23)
+[05:36:24] depth  4: 8/8 parents -> 511 children (507 unique) -> tried 8, settled 8 (3 in H), kept 8 (3 branches); t_end 1535-1875 d, tank 695-930 (76 s: price 57, settle 19)
+[05:36:33] depth  3: 8/8 parents -> 582 children (579 unique) -> tried 13, settled 8 (8 in H), kept 8 (4 branches); t_end 1392-1536 d, tank 734-1175 (148 s: price 67, settle 82)
+[05:36:35] depth  4: 7/7 parents -> 313 children (313 unique) -> tried 9, settled 8 (6 in H), kept 8 (3 branches); t_end 1490-1766 d, tank 741-863 (84 s: price 47, settle 37)
+[05:36:37]   price_cap: 1501 of 2416 horizon candidates priced (8 parents)
+[05:36:55]   price_cap: 1251 of 2363 horizon candidates priced (8 parents)
+[05:36:59] depth  5: 8/8 parents -> 207 children (207 unique) -> tried 10, settled 8 (1 in H), kept 8 (3 branches); t_end 1596-1976 d, tank 667-720 (64 s: price 42, settle 22)
+[05:37:02]   price_cap: 1758 of 3402 horizon candidates priced (8 parents)
+[05:37:11]   price_cap: 1574 of 2790 horizon candidates priced (8 parents)
+[05:37:16]   price_cap: 1543 of 3105 horizon candidates priced (8 parents)
+[05:37:18] depth  5: 8/8 parents -> 196 children (196 unique) -> tried 8, settled 8 (2 in H), kept 8 (3 branches); t_end 1585-1816 d, tank 762-822 (71 s: price 55, settle 16)
+[05:37:19] depth  5: 8/8 parents -> 169 children (169 unique) -> tried 9, settled 8 (4 in H), kept 7 (4 branches); t_end 1564-1877 d, tank 714-884 (66 s: price 42, settle 24)
+[05:37:24]   price_cap: 2000 of 5449 horizon candidates priced (8 parents)
+[05:37:27]   price_cap: 968 of 1240 horizon candidates priced (6 parents)
+[05:37:34] depth  5: 8/8 parents -> 403 children (403 unique) -> tried 8, settled 8 (7 in H), kept 8 (3 branches); t_end 1486-1671 d, tank 730-848 (78 s: price 68, settle 10)
+[05:37:35] depth  5: 8/8 parents -> 191 children (191 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 1663-1781 d, tank 742-847 (71 s: price 52, settle 19)
+[05:37:41]   price_cap: 2000 of 5128 horizon candidates priced (8 parents)
+[05:37:44]   price_cap: 2000 of 4813 horizon candidates priced (8 parents)
+[05:37:49] depth  6: 6/8 parents -> 98 children (98 unique) -> tried 9, settled 8 (0 in H), kept 8 (3 branches); t_end 1725-1973 d, tank 719-887 (50 s: price 28, settle 22)
+[05:37:59]   price_cap: 1205 of 2701 horizon candidates priced (7 parents)
+[05:38:01] depth  5: 8/8 parents -> 136 children (129 unique) -> tried 11, settled 8 (0 in H), kept 8 (4 branches); t_end 1692-1954 d, tank 733-781 (102 s: price 52, settle 50)
+[05:38:10] depth  5: 8/8 parents -> 234 children (234 unique) -> tried 9, settled 8 (3 in H), kept 8 (3 branches); t_end 1562-1780 d, tank 749-870 (95 s: price 66, settle 29)
+[05:38:12]   price_cap: 773 of 937 horizon candidates priced (7 parents)
+[05:38:21]   price_cap: 1936 of 2935 horizon candidates priced (8 parents)
+[05:38:32] depth  6: 8/8 parents -> 149 children (149 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 1660-1930 d, tank 769-832 (74 s: price 62, settle 11)
+[05:38:41]   price_cap: 1922 of 2633 horizon candidates priced (8 parents)
+[05:38:41] depth  7: 7/8 parents -> 45 children (45 unique) -> tried 10, settled 8 (0 in H), kept 7 (1 branches); t_end 1787-1937 d, tank 740-752 (52 s: price 23, settle 30)
+[05:38:41] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 55 settles (48 ok), wall 306 s (price 197, settle 109)
+[05:38:41] RESULT s02_c7: 18 columns (n_new 1-4, potential 0-3), 49 states, end lookahead, wall 306 s
+[05:38:42]   job s02_c7 craft columns  18  levels 6  settles 48/55  end lookahead  wall 305.9 s
+[05:38:43]   price_cap: 2000 of 4932 horizon candidates priced (8 parents)
+[05:38:53]   price_cap: 1544 of 2219 horizon candidates priced (8 parents)
+[05:39:00] depth  6: 8/8 parents -> 148 children (148 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 1730-1816 d, tank 764-997 (85 s: price 66, settle 19)
+[05:39:00] beam end {'kind': 'lookahead', 'depth': 6, 'n_noH': 2}: 41 settled states, 40 settles (40 ok), wall 325 s (price 241, settle 84)
+[05:39:00] RESULT s02_c4: 17 columns (n_new 1-3, potential 0-3), 41 states, end lookahead, wall 325 s
+[05:39:01]   job s02_c4 craft columns  17  levels 5  settles 40/40  end lookahead  wall 325.0 s
+[05:39:02] depth  6: 8/8 parents -> 259 children (259 unique) -> tried 9, settled 8 (1 in H), kept 8 (3 branches); t_end 1619-1920 d, tank 740-923 (88 s: price 69, settle 19)
+[05:39:09] depth  6: 8/8 parents -> 113 children (113 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 1725-1875 d, tank 776-817 (68 s: price 52, settle 16)
+[05:39:09] beam end {'kind': 'lookahead', 'depth': 6, 'n_noH': 2}: 41 settled states, 44 settles (40 ok), wall 333 s (price 222, settle 111)
+[05:39:09] RESULT s02_c2: 17 columns (n_new 1-3, potential 0-2), 41 states, end lookahead, wall 333 s
+[05:39:11]   job s02_c2 craft columns  17  levels 5  settles 40/44  end lookahead  wall 333.5 s
+[05:39:16] depth  6: 7/7 parents -> 126 children (126 unique) -> tried 14, settled 8 (0 in H), kept 8 (2 branches); t_end 1631-1973 d, tank 735-865 (118 s: price 41, settle 77)
+[05:39:18]   price_cap: 2000 of 4242 horizon candidates priced (8 parents)
+[05:39:19]   price_cap: 1459 of 1826 horizon candidates priced (8 parents)
+[05:39:25] depth  4: 8/8 parents -> 403 children (403 unique) -> tried 16, settled 8 (3 in H), kept 8 (3 branches); t_end 1535-1887 d, tank 760-1215 (172 s: price 70, settle 101)
+[05:39:39] depth  6: 8/8 parents -> 119 children (119 unique) -> tried 8, settled 8 (0 in H), kept 6 (3 branches); t_end 1677-1850 d, tank 773-825 (89 s: price 67, settle 21)
+[05:39:53] depth  7: 8/8 parents -> 57 children (57 unique) -> tried 10, settled 8 (0 in H), kept 8 (3 branches); t_end 1777-1959 d, tank 812-925 (81 s: price 47, settle 34)
+[05:39:53] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 50 settles (48 ok), wall 377 s (price 284, settle 94)
+[05:39:53] RESULT s02_c6: 19 columns (n_new 1-4, potential 0-3), 49 states, end lookahead, wall 377 s
+[05:39:55]   job s02_c6 craft columns  19  levels 6  settles 48/50  end lookahead  wall 377.5 s
+[05:39:58]   price_cap: 1255 of 1876 horizon candidates priced (7 parents)
+[05:40:03]   price_cap: 1755 of 2938 horizon candidates priced (8 parents)
+[05:40:17]   price_cap: 1470 of 2571 horizon candidates priced (8 parents)
+[05:40:24]   price_cap: 1328 of 1578 horizon candidates priced (6 parents)
+[05:40:31] depth  7: 8/8 parents -> 174 children (174 unique) -> tried 10, settled 8 (0 in H, 1 drifted out), kept 8 (3 branches); t_end 1673-1849 d, tank 828-957 (88 s: price 60, settle 28)
+[05:40:42] depth  7: 7/8 parents -> 63 children (63 unique) -> tried 11, settled 8 (0 in H, 1 drifted out), kept 8 (2 branches); t_end 1772-1972 d, tank 754-900 (86 s: price 42, settle 44)
+[05:40:42] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 58 settles (48 ok), wall 427 s (price 251, settle 175)
+[05:40:42] RESULT s02_c3: 21 columns (n_new 1-4, potential 0-3), 49 states, end lookahead, wall 427 s
+[05:40:43]   job s02_c3 craft columns  21  levels 6  settles 48/58  end lookahead  wall 426.7 s
+[05:40:56] depth  7: 6/6 parents -> 33 children (33 unique) -> tried 9, settled 8 (0 in H), kept 8 (3 branches); t_end 1771-1979 d, tank 804-1058 (77 s: price 45, settle 32)
+[05:40:56] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 52 settles (48 ok), wall 440 s (price 288, settle 152)
+[05:40:56] RESULT s02_c5: 23 columns (n_new 1-4, potential 0-3), 49 states, end lookahead, wall 440 s
+[05:40:57]   job s02_c5 craft columns  23  levels 6  settles 48/52  end lookahead  wall 440.5 s
+[05:41:28]   price_cap: 1628 of 1955 horizon candidates priced (8 parents)
+[05:42:14] depth  8: 8/8 parents -> 60 children (60 unique) -> tried 11, settled 8 (0 in H, 1 drifted out), kept 8 (3 branches); t_end 1776-1908 d, tank 830-980 (103 s: price 57, settle 46)
+[05:42:14] beam end {'kind': 'lookahead', 'depth': 8, 'n_noH': 2}: 57 settled states, 63 settles (56 ok), wall 519 s (price 389, settle 130)
+[05:42:14] RESULT s02_c1: 32 columns (n_new 1-5, potential 0-3), 57 states, end lookahead, wall 519 s
+[05:42:15]   job s02_c1 craft columns  32  levels 7  settles 56/63  end lookahead  wall 518.6 s
+[05:42:52] depth  5: 8/8 parents -> 165 children (165 unique) -> tried 16, settled 3 (0 in H, 2 drifted out), kept 3 (1 branches); t_end 1885-1966 d, tank 790-951 (207 s: price 52, settle 155)
+[05:42:55]   settle cap 8: last level settled 3/16
+[05:43:17] depth  6: 2/3 parents -> 2 children (2 unique) -> tried 2, settled 0 (0 in H, 1 drifted out), kept 0 (0 branches) (25 s: price 3, settle 22)
+[05:43:17] beam end {'kind': 'settle_wall', 'depth': 5, 'tried': 2}: 28 settled states, 56 settles (27 ok), wall 582 s (price 199, settle 383)
+[05:43:17] RESULT s02_c0: 17 columns (n_new 1-3, potential 0-2), 28 states, end settle_wall, wall 582 s
+[05:43:18]   job s02_c0 craft columns  17  levels 4  settles 27/56  end settle_wall  wall 582.0 s
+[05:43:18] [slice 2] propose: 164 columns (0 bad dropped) in 582.3 s
+[05:43:18] [slice 2] auction: 164 columns, kept 148, dropped {'ramp': 14, 'fuel': 2}; lam 1.00 H_eff 540 d fuel budget 482 kg quota on
+[05:43:18] [slice 2] auction: status optimal objective 26.795 vars 148 rows 49 chosen 8 fuel 458/482 kg (0.021 s)
+[05:43:20] [slice 2 T=1080 d] launched 8/8  covered 74  remaining 224  fuel 1061 kg  sumJi 8.8356  chosen: c0:1(+6) c1:5(+60) c2:2(+21) c3:4(+157) c4:2(+65) c5:1(+11) c6:3(+61) c7:4(+75)  rejected: -  (wall 584 s)
+[05:43:20] [slice 3 T=1620 d] propose: 8 jobs (8 craft, 0 root) on 8 workers, proposer segbeam, H_eff 540 d, lam 1.0
+[05:43:20] job s03_c2 (craft, craft 2): T 1620 d H 540 L 360; remaining 224; prize >1 on 44, tank_prev 716.3
+[05:43:20] job s03_c0 (craft, craft 0): T 1620 d H 540 L 360; remaining 224; prize >1 on 44, tank_prev 695.9
+[05:43:20] job s03_c1 (craft, craft 1): T 1620 d H 540 L 360; remaining 224; prize >1 on 44, tank_prev 746.2
+[05:43:20] job s03_c3 (craft, craft 3): T 1620 d H 540 L 360; remaining 224; prize >1 on 44, tank_prev 812.0
+[05:43:20] job s03_c4 (craft, craft 4): T 1620 d H 540 L 360; remaining 224; prize >1 on 44, tank_prev 707.4
+[05:43:20] job s03_c5 (craft, craft 5): T 1620 d H 540 L 360; remaining 224; prize >1 on 44, tank_prev 699.9
+[05:43:20] job s03_c6 (craft, craft 6): T 1620 d H 540 L 360; remaining 224; prize >1 on 44, tank_prev 766.6
+[05:43:20] job s03_c7 (craft, craft 7): T 1620 d H 540 L 360; remaining 224; prize >1 on 44, tank_prev 717.1
+[05:43:20] prefix slices/s03/in/craft_5.npz: 6 flybys, t_end 1129.7 d, tank 699.9 kg (planner view), miss 0.7 km, nreg 47
+[05:43:20] quota head-room {'fil': 8, 'med': 17} (targets of a full class are excluded from a parent that filled it)
+[05:43:20] start: 1 craft state(s), remaining 224, horizon (1620, 2160] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:43:20] prefix slices/s03/in/craft_7.npz: 8 flybys, t_end 1596.3 d, tank 717.1 kg (planner view), miss 2.9 km, nreg 64
+[05:43:20] quota head-room {'fil': 10, 'med': 15} (targets of a full class are excluded from a parent that filled it)
+[05:43:20] start: 1 craft state(s), remaining 224, horizon (1620, 2160] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:43:20] prefix slices/s03/in/craft_4.npz: 8 flybys, t_end 1438.1 d, tank 707.4 kg (planner view), miss 56.4 km, nreg 68
+[05:43:20] quota head-room {'fil': 9, 'med': 16} (targets of a full class are excluded from a parent that filled it)
+[05:43:20] start: 1 craft state(s), remaining 224, horizon (1620, 2160] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:43:20] prefix slices/s03/in/craft_0.npz: 8 flybys, t_end 1363.3 d, tank 695.9 kg (planner view), miss 34.1 km, nreg 70
+[05:43:20] prefix slices/s03/in/craft_6.npz: 10 flybys, t_end 1582.1 d, tank 766.6 kg (planner view), miss 82.1 km, nreg 69
+[05:43:20] quota head-room {'fil': 9, 'med': 16} (targets of a full class are excluded from a parent that filled it)
+[05:43:20] quota head-room {'fil': 10, 'med': 17} (targets of a full class are excluded from a parent that filled it)
+[05:43:20] start: 1 craft state(s), remaining 224, horizon (1620, 2160] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:43:20] start: 1 craft state(s), remaining 224, horizon (1620, 2160] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:43:20] prefix slices/s03/in/craft_2.npz: 10 flybys, t_end 1610.9 d, tank 716.3 kg (planner view), miss 6.9 km, nreg 78
+[05:43:20] quota head-room {'fil': 9, 'med': 15} (targets of a full class are excluded from a parent that filled it)
+[05:43:20] prefix slices/s03/in/craft_3.npz: 11 flybys, t_end 1564.3 d, tank 812.0 kg (planner view), miss 56.4 km, nreg 76
+[05:43:20] quota head-room {'fil': 7, 'med': 16} (targets of a full class are excluded from a parent that filled it)
+[05:43:20] start: 1 craft state(s), remaining 224, horizon (1620, 2160] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:43:20] start: 1 craft state(s), remaining 224, horizon (1620, 2160] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:43:20] prefix slices/s03/in/craft_1.npz: 13 flybys, t_end 1619.4 d, tank 746.2 kg (planner view), miss 1.7 km, nreg 82
+[05:43:20] quota head-room {'fil': 8, 'med': 12} (targets of a full class are excluded from a parent that filled it)
+[05:43:20] start: 1 craft state(s), remaining 224, horizon (1620, 2160] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:43:28]   price_cap: 250 of 657 horizon candidates priced (1 parents)
+[05:43:28]   price_cap: 250 of 670 horizon candidates priced (1 parents)
+[05:43:29]   price_cap: 250 of 670 horizon candidates priced (1 parents)
+[05:43:29]   price_cap: 250 of 664 horizon candidates priced (1 parents)
+[05:43:29]   price_cap: 250 of 670 horizon candidates priced (1 parents)
+[05:43:29]   price_cap: 250 of 670 horizon candidates priced (1 parents)
+[05:43:29]   price_cap: 250 of 659 horizon candidates priced (1 parents)
+[05:43:29]   price_cap: 250 of 668 horizon candidates priced (1 parents)
+[05:43:40] depth  2: 1/1 parents -> 59 children (59 unique) -> tried 8, settled 8 (8 in H), kept 7 (7 branches); t_end 1779-2074 d, tank 767-785 (20 s: price 9, settle 10)
+[05:43:40] depth  2: 1/1 parents -> 70 children (70 unique) -> tried 8, settled 8 (8 in H), kept 8 (7 branches); t_end 1889-2129 d, tank 719-759 (20 s: price 8, settle 13)
+[05:43:42] depth  2: 1/1 parents -> 76 children (76 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 1863-2125 d, tank 718-747 (22 s: price 9, settle 13)
+[05:43:46] depth  2: 1/1 parents -> 66 children (66 unique) -> tried 8, settled 8 (8 in H), kept 7 (7 branches); t_end 1693-2048 d, tank 783-828 (26 s: price 9, settle 17)
+[05:43:49] depth  2: 1/1 parents -> 99 children (99 unique) -> tried 8, settled 8 (8 in H), kept 7 (6 branches); t_end 1683-1982 d, tank 710-769 (30 s: price 9, settle 21)
+[05:43:50] depth  2: 1/1 parents -> 73 children (73 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 1694-2058 d, tank 714-1023 (30 s: price 9, settle 21)
+[05:43:53] depth  2: 1/1 parents -> 43 children (43 unique) -> tried 8, settled 8 (7 in H), kept 8 (7 branches); t_end 2003-2221 d, tank 825-949 (34 s: price 9, settle 24)
+[05:44:52]   price_cap: 1750 of 4498 horizon candidates priced (7 parents)
+[05:44:52]   price_cap: 1750 of 4607 horizon candidates priced (7 parents)
+[05:44:53]   price_cap: 2000 of 4413 horizon candidates priced (8 parents)
+[05:44:55] depth  2: 1/1 parents -> 70 children (70 unique) -> tried 12, settled 8 (8 in H), kept 8 (7 branches); t_end 1633-1882 d, tank 706-801 (95 s: price 9, settle 86)
+[05:44:58]   price_cap: 1750 of 4627 horizon candidates priced (7 parents)
+[05:45:00]   price_cap: 2000 of 4862 horizon candidates priced (8 parents)
+[05:45:03] depth  3: 7/7 parents -> 426 children (426 unique) -> tried 8, settled 8 (7 in H), kept 8 (4 branches); t_end 1866-2495 d, tank 783-810 (84 s: price 72, settle 11)
+[05:45:06] depth  3: 7/7 parents -> 449 children (449 unique) -> tried 8, settled 8 (8 in H), kept 8 (5 branches); t_end 1856-2008 d, tank 796-962 (80 s: price 66, settle 13)
+[05:45:06]   price_cap: 2000 of 5275 horizon candidates priced (8 parents)
+[05:45:10] depth  3: 8/8 parents -> 529 children (529 unique) -> tried 8, settled 8 (8 in H), kept 8 (4 branches); t_end 1927-2127 d, tank 724-838 (88 s: price 78, settle 10)
+[05:45:13] depth  3: 8/8 parents -> 462 children (445 unique) -> tried 8, settled 8 (8 in H), kept 8 (4 branches); t_end 2000-2129 d, tank 740-778 (93 s: price 73, settle 20)
+[05:45:18]   price_cap: 2000 of 4621 horizon candidates priced (8 parents)
+[05:45:19] depth  3: 7/7 parents -> 507 children (507 unique) -> tried 8, settled 8 (8 in H), kept 8 (3 branches); t_end 1799-2064 d, tank 723-884 (90 s: price 68, settle 22)
+[05:45:37] depth  3: 8/8 parents -> 385 children (385 unique) -> tried 8, settled 8 (8 in H), kept 8 (4 branches); t_end 1834-2027 d, tank 741-1012 (107 s: price 77, settle 31)
+[05:45:42] depth  3: 8/8 parents -> 277 children (272 unique) -> tried 8, settled 8 (3 in H), kept 6 (4 branches); t_end 2115-2221 d, tank 857-920 (109 s: price 84, settle 25)
+[05:46:17]   price_cap: 1750 of 4137 horizon candidates priced (8 parents)
+[05:46:24]   price_cap: 2000 of 5120 horizon candidates priced (8 parents)
+[05:46:25]   price_cap: 2000 of 5314 horizon candidates priced (8 parents)
+[05:46:27]   price_cap: 2000 of 4221 horizon candidates priced (8 parents)
+[05:46:29]   price_cap: 2000 of 4523 horizon candidates priced (8 parents)
+[05:46:35] depth  4: 8/8 parents -> 364 children (364 unique) -> tried 8, settled 8 (5 in H), kept 7 (4 branches); t_end 1999-2396 d, tank 819-946 (91 s: price 74, settle 18)
+[05:46:40]   price_cap: 2000 of 5021 horizon candidates priced (8 parents)
+[05:46:41] depth  4: 8/8 parents -> 337 children (337 unique) -> tried 8, settled 8 (1 in H), kept 8 (4 branches); t_end 2103-2370 d, tank 746-813 (88 s: price 74, settle 13)
+[05:46:43] depth  4: 8/8 parents -> 384 children (384 unique) -> tried 8, settled 8 (5 in H), kept 8 (4 branches); t_end 2006-2309 d, tank 757-861 (93 s: price 79, settle 14)
+[05:46:47]   price_cap: 1500 of 2668 horizon candidates priced (6 parents)
+[05:46:57]   price_cap: 2000 of 4926 horizon candidates priced (8 parents)
+[05:47:06] depth  4: 8/8 parents -> 371 children (371 unique) -> tried 10, settled 8 (7 in H), kept 8 (4 branches); t_end 2002-2372 d, tank 813-999 (121 s: price 78, settle 42)
+[05:47:14] depth  4: 8/8 parents -> 378 children (375 unique) -> tried 9, settled 8 (5 in H), kept 7 (3 branches); t_end 1964-2433 d, tank 765-920 (115 s: price 81, settle 34)
+[05:47:34]   price_cap: 1398 of 1765 horizon candidates priced (8 parents)
+[05:47:35]   price_cap: 1374 of 2228 horizon candidates priced (7 parents)
+[05:47:41] depth  4: 6/6 parents -> 133 children (133 unique) -> tried 10, settled 8 (0 in H), kept 8 (4 branches); t_end 2177-2357 d, tank 871-987 (119 s: price 64, settle 55)
+[05:47:52] depth  4: 8/8 parents -> 270 children (270 unique) -> tried 9, settled 8 (4 in H), kept 7 (3 branches); t_end 1932-2306 d, tank 748-1016 (135 s: price 81, settle 54)
+[05:47:55] depth  5: 7/7 parents -> 171 children (171 unique) -> tried 8, settled 8 (2 in H), kept 6 (3 branches); t_end 2142-2437 d, tank 837-881 (80 s: price 60, settle 20)
+[05:48:05]   price_cap: 1976 of 3490 horizon candidates priced (8 parents)
+[05:48:17]   price_cap: 1495 of 3000 horizon candidates priced (7 parents)
+[05:48:21]   price_cap: 1841 of 4287 horizon candidates priced (8 parents)
+[05:48:21] depth  5: 8/8 parents -> 254 children (254 unique) -> tried 8, settled 8 (0 in H), kept 7 (3 branches); t_end 2161-2352 d, tank 766-886 (98 s: price 81, settle 17)
+[05:48:22]   price_cap: 615 of 795 horizon candidates priced (6 parents)
+[05:48:24] depth  5: 8/8 parents -> 100 children (96 unique) -> tried 12, settled 8 (1 in H, 2 drifted out), kept 8 (4 branches); t_end 2144-2512 d, tank 784-936 (104 s: price 54, settle 50)
+[05:48:40] depth  5: 8/8 parents -> 249 children (249 unique) -> tried 8, settled 8 (2 in H), kept 8 (4 branches); t_end 2127-2438 d, tank 829-937 (94 s: price 75, settle 19)
+[05:48:42] depth  6: 6/6 parents -> 55 children (55 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 2400-2516 d, tank 848-909 (47 s: price 27, settle 19)
+[05:48:45] depth  5: 7/7 parents -> 153 children (153 unique) -> tried 8, settled 8 (2 in H), kept 8 (3 branches); t_end 2110-2318 d, tank 770-975 (91 s: price 63, settle 28)
+[05:48:47]   price_cap: 599 of 684 horizon candidates priced (7 parents)
+[05:48:58]   price_cap: 1765 of 2369 horizon candidates priced (8 parents)
+[05:49:05]   price_cap: 1727 of 3589 horizon candidates priced (7 parents)
+[05:49:22] depth  5: 8/8 parents -> 66 children (66 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 2259-2476 d, tank 876-975 (101 s: price 76, settle 24)
+[05:49:22] beam end {'kind': 'lookahead', 'depth': 5, 'n_noH': 2}: 33 settled states, 34 settles (32 ok), wall 362 s (price 234, settle 128)
+[05:49:22] RESULT s03_c3: 9 columns (n_new 1-2, potential 0-3), 33 states, end lookahead, wall 362 s
+[05:49:23]   job s03_c3 craft columns   9  levels 4  settles 32/34  end lookahead  wall 362.4 s
+[05:49:28] depth  7: 6/8 parents -> 10 children (10 unique) -> tried 10, settled 7 (0 in H, 2 drifted out), kept 7 (1 branches); t_end 2478-2516 d, tank 879-1013 (46 s: price 6, settle 41)
+[05:49:28] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 48 settled states, 50 settles (47 ok), wall 368 s (price 248, settle 119)
+[05:49:28] RESULT s03_c1: 19 columns (n_new 1-4, potential 0-3), 48 states, end lookahead, wall 368 s
+[05:49:29]   price_cap: 1599 of 1836 horizon candidates priced (7 parents)
+[05:49:29]   job s03_c1 craft columns  19  levels 6  settles 47/50  end lookahead  wall 368.0 s
+[05:49:36] depth  6: 7/8 parents -> 81 children (81 unique) -> tried 10, settled 8 (0 in H), kept 8 (2 branches); t_end 2451-2491 d, tank 820-917 (72 s: price 23, settle 49)
+[05:49:37] depth  7: 8/8 parents -> 0 children (0 unique) -> tried 0, settled 0 (0 in H), kept 0 (0 branches) (1 s: price 1, settle 0)
+[05:49:37] beam end {'kind': 'no_children', 'depth': 6, 'tried': 0}: 41 settled states, 46 settles (40 ok), wall 377 s (price 233, settle 145)
+[05:49:37] RESULT s03_c7: 17 columns (n_new 1-4, potential 0-3), 41 states, end no_children, wall 377 s
+[05:49:37]   job s03_c7 craft columns  17  levels 5  settles 40/46  end no_children  wall 377.0 s
+[05:49:45] depth  5: 7/7 parents -> 115 children (115 unique) -> tried 9, settled 8 (2 in H), kept 7 (2 branches); t_end 2135-2504 d, tank 766-885 (113 s: price 74, settle 40)
+[05:49:46]   price_cap: 1610 of 2062 horizon candidates priced (8 parents)
+[05:49:48] depth  3: 8/8 parents -> 655 children (637 unique) -> tried 16, settled 4 (4 in H), kept 4 (3 branches); t_end 1707-2081 d, tank 756-815 (293 s: price 91, settle 202)
+[05:49:49] depth  6: 7/7 parents -> 100 children (100 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 2332-2476 d, tank 777-1166 (87 s: price 67, settle 20)
+[05:49:49] beam end {'kind': 'lookahead', 'depth': 6, 'n_noH': 2}: 41 settled states, 40 settles (40 ok), wall 389 s (price 315, settle 74)
+[05:49:49] RESULT s03_c2: 21 columns (n_new 1-3, potential 0-3), 41 states, end lookahead, wall 389 s
+[05:49:49]   job s03_c2 craft columns  21  levels 5  settles 40/40  end lookahead  wall 389.1 s
+[05:50:08]   price_cap: 1961 of 2604 horizon candidates priced (8 parents)
+[05:50:30]   price_cap: 1000 of 2433 horizon candidates priced (4 parents)
+[05:50:30]   settle cap 8: last level settled 4/16
+[05:50:39] depth  6: 8/8 parents -> 116 children (116 unique) -> tried 10, settled 8 (0 in H), kept 7 (4 branches); t_end 2244-2502 d, tank 862-993 (119 s: price 66, settle 53)
+[05:50:48]   price_cap: 1500 of 2693 horizon candidates priced (7 parents)
+[05:50:54] depth  6: 8/8 parents -> 108 children (108 unique) -> tried 11, settled 8 (0 in H, 2 drifted out), kept 7 (3 branches); t_end 2386-2489 d, tank 773-1043 (129 s: price 83, settle 45)
+[05:51:05]   price_cap: 622 of 673 horizon candidates priced (7 parents)
+[05:51:15] depth  6: 7/7 parents -> 78 children (78 unique) -> tried 8, settled 8 (0 in H), kept 8 (2 branches); t_end 2247-2513 d, tank 788-821 (90 s: price 64, settle 27)
+[05:51:22] depth  7: 7/7 parents -> 6 children (6 unique) -> tried 6, settled 5 (0 in H, 1 drifted out), kept 5 (2 branches); t_end 2490-2516 d, tank 866-924 (28 s: price 7, settle 21)
+[05:51:22] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 46 settled states, 50 settles (45 ok), wall 482 s (price 311, settle 171)
+[05:51:22] RESULT s03_c4: 19 columns (n_new 1-4, potential 0-3), 46 states, end lookahead, wall 482 s
+[05:51:24]   job s03_c4 craft columns  19  levels 6  settles 45/50  end lookahead  wall 482.1 s
+[05:51:44] depth  4: 4/4 parents -> 303 children (303 unique) -> tried 8, settled 3 (2 in H), kept 3 (2 branches); t_end 1829-2330 d, tank 779-814 (116 s: price 42, settle 74)
+[05:51:47] depth  7: 7/7 parents -> 19 children (19 unique) -> tried 9, settled 8 (0 in H), kept 8 (2 branches); t_end 2411-2513 d, tank 885-1058 (68 s: price 26, settle 42)
+[05:51:47] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 53 settles (48 ok), wall 507 s (price 320, settle 187)
+[05:51:47] RESULT s03_c6: 24 columns (n_new 1-4, potential 0-2), 49 states, end lookahead, wall 507 s
+[05:51:48]   job s03_c6 craft columns  24  levels 6  settles 48/53  end lookahead  wall 507.2 s
+[05:52:11]   price_cap: 642 of 1353 horizon candidates priced (3 parents)
+[05:52:17]   price_cap: 1463 of 1744 horizon candidates priced (7 parents)
+[05:52:47] depth  7: 7/8 parents -> 52 children (52 unique) -> tried 8, settled 8 (0 in H), kept 7 (2 branches); t_end 2342-2513 d, tank 805-843 (92 s: price 62, settle 30)
+[05:52:47] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 50 settles (48 ok), wall 568 s (price 365, settle 202)
+[05:52:47] RESULT s03_c5: 22 columns (n_new 1-4, potential 0-4), 49 states, end lookahead, wall 568 s
+[05:52:48]   job s03_c5 craft columns  22  levels 6  settles 48/50  end lookahead  wall 567.6 s
+[05:55:15] depth  5: 3/3 parents -> 149 children (149 unique) -> tried 16, settled 0 (0 in H), kept 0 (0 branches) (210 s: price 27, settle 184)
+[05:55:15] beam end {'kind': 'settle_wall', 'depth': 4, 'tried': 16}: 16 settled states, 52 settles (15 ok), wall 715 s (price 169, settle 546)
+[05:55:15] RESULT s03_c0: 13 columns (n_new 1-3, potential 0-1), 16 states, end settle_wall, wall 715 s
+[05:55:15]   job s03_c0 craft columns  13  levels 3  settles 15/52  end settle_wall  wall 714.8 s
+[05:55:15] [slice 3] propose: 144 columns (0 bad dropped) in 714.8 s
+[05:55:15] [slice 3] auction: 144 columns, kept 119, dropped {'ramp': 25}; lam 1.00 H_eff 540 d fuel budget 482 kg quota on
+[05:55:15] [slice 3] auction: status optimal objective 28.871 vars 119 rows 35 chosen 8 fuel 410/482 kg (0.013 s)
+[05:55:17] [slice 3 T=1620 d] launched 8/8  covered 94  remaining 204  fuel 1471 kg  sumJi 9.1965  chosen: c0:3(+83) c1:4(+90) c2:3(+52) c3:1(+40) c4:2(+16) c5:2(+41) c6:3(+46) c7:2(+41)  rejected: -  (wall 717 s)
+[05:55:17] [slice 4 T=2160 d] propose: 8 jobs (8 craft, 0 root) on 8 workers, proposer segbeam, H_eff 540 d, lam 1.0
+[05:55:17] job s04_c0 (craft, craft 0): T 2160 d H 540 L 360; remaining 204; prize >1 on 54, tank_prev 778.9
+[05:55:17] job s04_c4 (craft, craft 4): T 2160 d H 540 L 360; remaining 204; prize >1 on 54, tank_prev 723.4
+[05:55:17] job s04_c2 (craft, craft 2): T 2160 d H 540 L 360; remaining 204; prize >1 on 54, tank_prev 768.4
+[05:55:17] job s04_c3 (craft, craft 3): T 2160 d H 540 L 360; remaining 204; prize >1 on 54, tank_prev 851.9
+[05:55:17] job s04_c1 (craft, craft 1): T 2160 d H 540 L 360; remaining 204; prize >1 on 54, tank_prev 836.6
+[05:55:17] job s04_c5 (craft, craft 5): T 2160 d H 540 L 360; remaining 204; prize >1 on 54, tank_prev 740.9
+[05:55:17] job s04_c6 (craft, craft 6): T 2160 d H 540 L 360; remaining 204; prize >1 on 54, tank_prev 812.8
+[05:55:17] job s04_c7 (craft, craft 7): T 2160 d H 540 L 360; remaining 204; prize >1 on 54, tank_prev 758.3
+[05:55:17] prefix slices/s04/in/craft_5.npz: 8 flybys, t_end 1834.5 d, tank 740.9 kg (planner view), miss 40.6 km, nreg 82
+[05:55:17] prefix slices/s04/in/craft_7.npz: 10 flybys, t_end 2127.6 d, tank 758.3 kg (planner view), miss 13.7 km, nreg 90
+[05:55:17] quota head-room {'fil': 8, 'med': 17} (targets of a full class are excluded from a parent that filled it)
+[05:55:17] quota head-room {'fil': 10, 'med': 15} (targets of a full class are excluded from a parent that filled it)
+[05:55:17] start: 1 craft state(s), remaining 204, horizon (2160, 2700] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:55:17] start: 1 craft state(s), remaining 204, horizon (2160, 2700] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:55:17] prefix slices/s04/in/craft_6.npz: 13 flybys, t_end 2002.0 d, tank 812.8 kg (planner view), miss 7.1 km, nreg 90
+[05:55:17] quota head-room {'fil': 10, 'med': 17} (targets of a full class are excluded from a parent that filled it)
+[05:55:17] prefix slices/s04/in/craft_0.npz: 11 flybys, t_end 1828.8 d, tank 778.9 kg (planner view), miss 1.1 km, nreg 93
+[05:55:17] quota head-room {'fil': 9, 'med': 15} (targets of a full class are excluded from a parent that filled it)
+[05:55:17] start: 1 craft state(s), remaining 204, horizon (2160, 2700] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:55:17] prefix slices/s04/in/craft_2.npz: 13 flybys, t_end 2132.8 d, tank 768.4 kg (planner view), miss 10.8 km, nreg 104
+[05:55:17] quota head-room {'fil': 9, 'med': 15} (targets of a full class are excluded from a parent that filled it)
+[05:55:17] prefix slices/s04/in/craft_4.npz: 10 flybys, t_end 1975.7 d, tank 723.4 kg (planner view), miss 26.1 km, nreg 95
+[05:55:17] quota head-room {'fil': 9, 'med': 16} (targets of a full class are excluded from a parent that filled it)
+[05:55:17] start: 1 craft state(s), remaining 204, horizon (2160, 2700] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:55:17] start: 1 craft state(s), remaining 204, horizon (2160, 2700] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:55:17] start: 1 craft state(s), remaining 204, horizon (2160, 2700] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:55:17] prefix slices/s04/in/craft_3.npz: 12 flybys, t_end 2060.6 d, tank 851.9 kg (planner view), miss 15.2 km, nreg 101
+[05:55:17] quota head-room {'fil': 7, 'med': 16} (targets of a full class are excluded from a parent that filled it)
+[05:55:17] start: 1 craft state(s), remaining 204, horizon (2160, 2700] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:55:17] prefix slices/s04/in/craft_1.npz: 17 flybys, t_end 2142.2 d, tank 836.6 kg (planner view), miss 20.6 km, nreg 110
+[05:55:17] quota head-room {'fil': 8, 'med': 12} (targets of a full class are excluded from a parent that filled it)
+[05:55:17] start: 1 craft state(s), remaining 204, horizon (2160, 2700] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[05:55:27]   price_cap: 250 of 600 horizon candidates priced (1 parents)
+[05:55:27]   price_cap: 250 of 608 horizon candidates priced (1 parents)
+[05:55:27]   price_cap: 250 of 605 horizon candidates priced (1 parents)
+[05:55:28]   price_cap: 250 of 607 horizon candidates priced (1 parents)
+[05:55:28]   price_cap: 250 of 610 horizon candidates priced (1 parents)
+[05:55:28]   price_cap: 250 of 612 horizon candidates priced (1 parents)
+[05:55:28]   price_cap: 250 of 609 horizon candidates priced (1 parents)
+[05:55:28]   price_cap: 250 of 603 horizon candidates priced (1 parents)
+[05:55:45] depth  2: 1/1 parents -> 76 children (76 unique) -> tried 8, settled 8 (8 in H), kept 8 (7 branches); t_end 2197-2505 d, tank 823-950 (28 s: price 11, settle 18)
+[05:55:46] depth  2: 1/1 parents -> 76 children (76 unique) -> tried 8, settled 8 (8 in H), kept 7 (5 branches); t_end 2319-2505 d, tank 760-822 (29 s: price 10, settle 19)
+[05:55:47] depth  2: 1/1 parents -> 77 children (77 unique) -> tried 8, settled 8 (8 in H), kept 7 (6 branches); t_end 2307-2471 d, tank 771-829 (30 s: price 11, settle 20)
+[05:55:48] depth  2: 1/1 parents -> 77 children (77 unique) -> tried 8, settled 8 (8 in H), kept 7 (6 branches); t_end 2321-2506 d, tank 846-994 (31 s: price 11, settle 20)
+[05:55:52] depth  2: 1/1 parents -> 69 children (69 unique) -> tried 8, settled 8 (8 in H), kept 8 (7 branches); t_end 2272-2692 d, tank 862-895 (35 s: price 11, settle 24)
+[05:55:57] depth  2: 1/1 parents -> 77 children (77 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 2193-2693 d, tank 726-847 (40 s: price 11, settle 29)
+[05:55:57] depth  2: 1/1 parents -> 83 children (83 unique) -> tried 8, settled 8 (8 in H), kept 7 (6 branches); t_end 2299-2634 d, tank 740-997 (41 s: price 11, settle 30)
+[05:57:01]   price_cap: 1750 of 4132 horizon candidates priced (7 parents)
+[05:57:09]   price_cap: 1750 of 4099 horizon candidates priced (7 parents)
+[05:57:15]   price_cap: 1750 of 4070 horizon candidates priced (7 parents)
+[05:57:19]   price_cap: 2000 of 4826 horizon candidates priced (8 parents)
+[05:57:24] depth  3: 7/7 parents -> 422 children (422 unique) -> tried 8, settled 8 (8 in H), kept 8 (4 branches); t_end 2426-2565 d, tank 790-827 (97 s: price 82, settle 15)
+[05:57:24]   price_cap: 1750 of 4221 horizon candidates priced (7 parents)
+[05:57:31]   price_cap: 2000 of 4401 horizon candidates priced (8 parents)
+[05:57:32] depth  3: 7/7 parents -> 495 children (493 unique) -> tried 9, settled 8 (8 in H), kept 7 (4 branches); t_end 2499-2694 d, tank 777-817 (106 s: price 76, settle 30)
+[05:57:33] depth  3: 7/7 parents -> 415 children (415 unique) -> tried 8, settled 8 (8 in H), kept 8 (3 branches); t_end 2391-2654 d, tank 856-926 (106 s: price 88, settle 18)
+[05:57:35]   price_cap: 2000 of 4556 horizon candidates priced (8 parents)
+[05:57:36] depth  3: 8/8 parents -> 494 children (492 unique) -> tried 8, settled 8 (8 in H), kept 8 (5 branches); t_end 2370-2518 d, tank 853-1086 (111 s: price 94, settle 17)
+[05:57:54] depth  3: 8/8 parents -> 423 children (423 unique) -> tried 8, settled 8 (8 in H), kept 8 (5 branches); t_end 2311-2692 d, tank 730-891 (117 s: price 98, settle 19)
+[05:57:57] depth  3: 7/7 parents -> 285 children (282 unique) -> tried 8, settled 8 (5 in H), kept 8 (5 branches); t_end 2504-3017 d, tank 757-981 (120 s: price 87, settle 33)
+[05:58:00] depth  3: 8/8 parents -> 331 children (329 unique) -> tried 8, settled 8 (8 in H), kept 8 (4 branches); t_end 2462-2691 d, tank 887-925 (128 s: price 99, settle 29)
+[05:58:38] depth  2: 1/1 parents -> 97 children (97 unique) -> tried 16, settled 0 (0 in H), kept 0 (0 branches) (202 s: price 12, settle 190)
+[05:58:38] beam end {'kind': 'settle_wall', 'depth': 1, 'tried': 16}: 1 settled states, 16 settles (0 ok), wall 202 s (price 12, settle 190)
+[05:58:38] RESULT s04_c0: 0 columns (n_new -, potential -), 1 states, end settle_wall, wall 202 s
+[05:58:39]   job s04_c0 craft columns   0  levels 0  settles 0/16  end settle_wall  wall 201.7 s
+[05:58:51]   price_cap: 1750 of 3740 horizon candidates priced (7 parents)
+[05:59:00]   price_cap: 2000 of 4393 horizon candidates priced (8 parents)
+[05:59:13]   price_cap: 2000 of 4671 horizon candidates priced (8 parents)
+[05:59:15]   price_cap: 2000 of 4400 horizon candidates priced (8 parents)
+[05:59:15] depth  4: 7/7 parents -> 284 children (284 unique) -> tried 8, settled 8 (7 in H), kept 8 (3 branches); t_end 2533-3008 d, tank 804-967 (103 s: price 79, settle 24)
+[05:59:17] depth  4: 8/8 parents -> 432 children (431 unique) -> tried 8, settled 8 (7 in H), kept 8 (4 branches); t_end 2534-2700 d, tank 800-836 (114 s: price 96, settle 17)
+[05:59:27]   price_cap: 1752 of 3881 horizon candidates priced (8 parents)
+[05:59:34]   price_cap: 2000 of 4351 horizon candidates priced (8 parents)
+[05:59:34] depth  4: 8/8 parents -> 299 children (299 unique) -> tried 8, settled 8 (8 in H), kept 8 (3 branches); t_end 2503-2691 d, tank 876-1115 (121 s: price 102, settle 20)
+[05:59:38] depth  4: 8/8 parents -> 404 children (404 unique) -> tried 8, settled 8 (6 in H), kept 8 (4 branches); t_end 2515-2719 d, tank 859-943 (122 s: price 97, settle 25)
+[05:59:41]   price_cap: 2000 of 4256 horizon candidates priced (8 parents)
+[06:00:00] depth  4: 8/8 parents -> 227 children (227 unique) -> tried 8, settled 8 (3 in H), kept 7 (3 branches); t_end 2527-3020 d, tank 786-1027 (123 s: price 90, settle 33)
+[06:00:09] depth  4: 8/8 parents -> 262 children (262 unique) -> tried 8, settled 8 (8 in H), kept 8 (3 branches); t_end 2553-2693 d, tank 908-1091 (129 s: price 101, settle 28)
+[06:00:16] depth  4: 8/8 parents -> 356 children (356 unique) -> tried 9, settled 8 (8 in H), kept 8 (3 branches); t_end 2620-2696 d, tank 739-832 (142 s: price 100, settle 42)
+[06:00:35]   price_cap: 1754 of 3456 horizon candidates priced (8 parents)
+[06:00:55]   price_cap: 2000 of 3916 horizon candidates priced (8 parents)
+[06:01:06]   price_cap: 1255 of 2613 horizon candidates priced (7 parents)
+[06:01:13] depth  5: 8/8 parents -> 174 children (174 unique) -> tried 9, settled 8 (3 in H), kept 7 (3 branches); t_end 2611-3032 d, tank 813-915 (118 s: price 80, settle 38)
+[06:01:14] depth  5: 8/8 parents -> 275 children (275 unique) -> tried 8, settled 8 (6 in H), kept 8 (4 branches); t_end 2619-2816 d, tank 816-918 (117 s: price 98, settle 19)
+[06:01:17]   price_cap: 2000 of 3965 horizon candidates priced (8 parents)
+[06:01:18]   price_cap: 2000 of 4037 horizon candidates priced (8 parents)
+[06:01:51]   price_cap: 2000 of 4173 horizon candidates priced (8 parents)
+[06:01:58]   price_cap: 2000 of 3691 horizon candidates priced (8 parents)
+[06:02:05] depth  5: 8/8 parents -> 174 children (174 unique) -> tried 9, settled 8 (2 in H), kept 6 (3 branches); t_end 2588-2834 d, tank 912-979 (150 s: price 102, settle 48)
+[06:02:13]   price_cap: 1303 of 2230 horizon candidates priced (7 parents)
+[06:02:39] depth  5: 8/8 parents -> 190 children (190 unique) -> tried 12, settled 8 (4 in H), kept 8 (4 branches); t_end 2631-2773 d, tank 906-1087 (180 s: price 100, settle 80)
+[06:02:50] depth  5: 7/7 parents -> 58 children (58 unique) -> tried 12, settled 8 (2 in H), kept 8 (3 branches); t_end 2648-3028 d, tank 788-1080 (170 s: price 65, settle 104)
+[06:02:54]   price_cap: 2000 of 2904 horizon candidates priced (8 parents)
+[06:03:07] depth  6: 7/7 parents -> 127 children (127 unique) -> tried 11, settled 8 (0 in H, 1 drifted out), kept 8 (3 branches); t_end 2703-3002 d, tank 820-940 (114 s: price 60, settle 54)
+[06:03:19]   price_cap: 1439 of 2111 horizon candidates priced (6 parents)
+[06:03:23] depth  5: 8/8 parents -> 217 children (217 unique) -> tried 12, settled 8 (3 in H), kept 8 (3 branches); t_end 2675-2914 d, tank 756-1043 (188 s: price 102, settle 86)
+[06:03:27] depth  5: 8/8 parents -> 121 children (121 unique) -> tried 12, settled 8 (3 in H), kept 8 (3 branches); t_end 2634-2954 d, tank 930-1021 (198 s: price 102, settle 96)
+[06:03:45] depth  6: 8/8 parents -> 132 children (132 unique) -> tried 10, settled 8 (2 in H), kept 8 (4 branches); t_end 2691-3029 d, tank 857-927 (151 s: price 100, settle 52)
+[06:04:05]   price_cap: 1221 of 1499 horizon candidates priced (8 parents)
+[06:04:10]   price_cap: 1513 of 2759 horizon candidates priced (8 parents)
+[06:04:19]   price_cap: 2000 of 3248 horizon candidates priced (8 parents)
+[06:04:28] depth  6: 6/6 parents -> 93 children (93 unique) -> tried 11, settled 8 (0 in H, 1 drifted out), kept 8 (3 branches); t_end 2756-2959 d, tank 931-1022 (144 s: price 74, settle 69)
+[06:04:51]   price_cap: 1306 of 1512 horizon candidates priced (8 parents)
+[06:04:54]   price_cap: 1750 of 2463 horizon candidates priced (8 parents)
+[06:04:59]   price_cap: 1777 of 2609 horizon candidates priced (8 parents)
+[06:05:07] depth  7: 8/8 parents -> 82 children (82 unique) -> tried 12, settled 8 (0 in H, 1 drifted out), kept 8 (3 branches); t_end 2772-3044 d, tank 825-973 (119 s: price 58, settle 62)
+[06:05:07] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 57 settles (48 ok), wall 590 s (price 363, settle 227)
+[06:05:07] RESULT s04_c7: 22 columns (n_new 1-4, potential 0-3), 49 states, end lookahead, wall 590 s
+[06:05:07]   job s04_c7 craft columns  22  levels 6  settles 48/57  end lookahead  wall 589.9 s
+[06:05:27] depth  6: 8/8 parents -> 78 children (78 unique) -> tried 11, settled 8 (0 in H, 2 drifted out), kept 8 (3 branches); t_end 2745-3050 d, tank 858-994 (157 s: price 80, settle 77)
+[06:05:38]   price_cap: 1313 of 1398 horizon candidates priced (8 parents)
+[06:05:38] depth  6: 8/8 parents -> 110 children (110 unique) -> tried 12, settled 8 (1 in H), kept 8 (4 branches); t_end 2654-2853 d, tank 932-1028 (179 s: price 101, settle 79)
+[06:05:50] depth  6: 8/8 parents -> 78 children (78 unique) -> tried 10, settled 8 (0 in H, 1 drifted out), kept 8 (3 branches); t_end 2816-3033 d, tank 937-1041 (143 s: price 93, settle 50)
+[06:06:09]   price_cap: 756 of 1413 horizon candidates priced (6 parents)
+[06:06:11] depth  6: 8/8 parents -> 175 children (175 unique) -> tried 11, settled 8 (0 in H), kept 7 (3 branches); t_end 2777-2922 d, tank 781-878 (168 s: price 90, settle 78)
+[06:06:21] depth  7: 8/8 parents -> 53 children (53 unique) -> tried 10, settled 8 (0 in H, 1 drifted out), kept 8 (3 branches); t_end 2827-3034 d, tank 939-1075 (112 s: price 69, settle 43)
+[06:06:21] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 54 settles (48 ok), wall 664 s (price 447, settle 217)
+[06:06:21] RESULT s04_c1: 24 columns (n_new 1-4, potential 0-3), 49 states, end lookahead, wall 664 s
+[06:06:21]   job s04_c1 craft columns  24  levels 6  settles 48/54  end lookahead  wall 663.9 s
+[06:06:36] depth  7: 8/8 parents -> 39 children (39 unique) -> tried 14, settled 8 (0 in H, 3 drifted out), kept 7 (3 branches); t_end 2836-3043 d, tank 875-942 (171 s: price 66, settle 105)
+[06:06:52] depth  7: 6/8 parents -> 8 children (8 unique) -> tried 8, settled 8 (0 in H), kept 7 (1 branches); t_end 2873-3050 d, tank 884-992 (85 s: price 42, settle 43)
+[06:06:52] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 55 settles (48 ok), wall 695 s (price 376, settle 319)
+[06:06:52] RESULT s04_c5: 16 columns (n_new 1-4, potential 0-3), 49 states, end lookahead, wall 695 s
+[06:06:53]   job s04_c5 craft columns  16  levels 6  settles 48/55  end lookahead  wall 695.5 s
+[06:07:05]   price_cap: 1749 of 2001 horizon candidates priced (8 parents)
+[06:07:24]   price_cap: 1399 of 1473 horizon candidates priced (7 parents)
+[06:07:31] depth  7: 8/8 parents -> 65 children (65 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 2824-2961 d, tank 944-1076 (113 s: price 87, settle 26)
+[06:07:49] depth  8: 7/7 parents -> 9 children (9 unique) -> tried 9, settled 4 (0 in H, 5 drifted out), kept 4 (1 branches); t_end 3024-3050 d, tank 911-970 (73 s: price 29, settle 44)
+[06:07:49] beam end {'kind': 'lookahead', 'depth': 8, 'n_noH': 2}: 53 settled states, 65 settles (52 ok), wall 753 s (price 480, settle 272)
+[06:07:49] RESULT s04_c2: 28 columns (n_new 1-5, potential 0-3), 53 states, end lookahead, wall 753 s
+[06:07:50]   job s04_c2 craft columns  28  levels 7  settles 52/65  end lookahead  wall 752.8 s
+[06:08:27] depth  7: 7/7 parents -> 66 children (66 unique) -> tried 11, settled 8 (0 in H), kept 8 (3 branches); t_end 2843-3042 d, tank 789-888 (136 s: price 73, settle 64)
+[06:08:27] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 59 settles (48 ok), wall 791 s (price 473, settle 318)
+[06:08:27] RESULT s04_c4: 27 columns (n_new 1-4, potential 0-3), 49 states, end lookahead, wall 791 s
+[06:08:28]   job s04_c4 craft columns  27  levels 6  settles 48/59  end lookahead  wall 790.8 s
+[06:08:38] depth  7: 8/8 parents -> 25 children (25 unique) -> tried 11, settled 8 (0 in H), kept 8 (3 branches); t_end 2798-3042 d, tank 968-1155 (168 s: price 67, settle 101)
+[06:08:38] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 57 settles (48 ok), wall 801 s (price 473, settle 328)
+[06:08:38] RESULT s04_c3: 26 columns (n_new 1-4, potential 0-3), 49 states, end lookahead, wall 801 s
+[06:08:38]   job s04_c3 craft columns  26  levels 6  settles 48/57  end lookahead  wall 801.0 s
+[06:08:54] depth  8: 8/8 parents -> 15 children (15 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 2896-3031 d, tank 963-1046 (82 s: price 56, settle 26)
+[06:08:54] beam end {'kind': 'lookahead', 'depth': 8, 'n_noH': 2}: 57 settled states, 64 settles (56 ok), wall 817 s (price 546, settle 272)
+[06:08:54] RESULT s04_c6: 26 columns (n_new 1-5, potential 0-4), 57 states, end lookahead, wall 817 s
+[06:08:54]   job s04_c6 craft columns  26  levels 7  settles 56/64  end lookahead  wall 817.1 s
+[06:08:54] [slice 4] propose: 169 columns (0 bad dropped) in 817.3 s
+[06:08:54] [slice 4] auction: 169 columns, kept 135, dropped {'ramp': 31, 'fuel': 3}; lam 1.00 H_eff 540 d fuel budget 482 kg quota on
+[06:08:54] [slice 4] auction: status optimal objective 31.719 vars 135 rows 39 chosen 7 fuel 458/482 kg (0.013 s)
+[06:08:58] [slice 4 T=2160 d] launched 8/8  covered 115  remaining 183  fuel 1924 kg  sumJi 9.6255  chosen: c1:2(+54) c2:5(+101) c3:3(+56) c4:3(+15) c5:2(+37) c6:3(+93) c7:3(+95)  rejected: -  (wall 821 s)
+[06:08:58] [slice 5 T=2700 d] propose: 8 jobs (8 craft, 0 root) on 8 workers, proposer segbeam, H_eff 540 d, lam 1.0
+[06:08:58] job s05_c2 (craft, craft 2): T 2700 d H 540 L 360; remaining 183; prize >1 on 68, tank_prev 869.7
+[06:08:58] job s05_c3 (craft, craft 3): T 2700 d H 540 L 360; remaining 183; prize >1 on 68, tank_prev 908.0
+[06:08:58] job s05_c0 (craft, craft 0): T 2700 d H 540 L 360; remaining 183; prize >1 on 68, tank_prev 778.9
+[06:08:58] job s05_c5 (craft, craft 5): T 2700 d H 540 L 360; remaining 183; prize >1 on 68, tank_prev 778.1
+[06:08:58] job s05_c1 (craft, craft 1): T 2700 d H 540 L 360; remaining 183; prize >1 on 68, tank_prev 890.2
+[06:08:58] job s05_c6 (craft, craft 6): T 2700 d H 540 L 360; remaining 183; prize >1 on 68, tank_prev 906.3
+[06:08:58] job s05_c7 (craft, craft 7): T 2700 d H 540 L 360; remaining 183; prize >1 on 68, tank_prev 853.6
+[06:08:58] job s05_c4 (craft, craft 4): T 2700 d H 540 L 360; remaining 183; prize >1 on 68, tank_prev 738.7
+[06:08:58] prefix slices/s05/in/craft_0.npz: 11 flybys, t_end 1828.8 d, tank 778.9 kg (planner view), miss 1.1 km, nreg 93
+[06:08:58] quota head-room {'fil': 9, 'med': 15} (targets of a full class are excluded from a parent that filled it)
+[06:08:58] start: 1 craft state(s), remaining 183, horizon (2700, 3240] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:08:58] prefix slices/s05/in/craft_1.npz: 19 flybys, t_end 2391.0 d, tank 890.2 kg (planner view), miss 0.8 km, nreg 121
+[06:08:58] quota head-room {'fil': 8, 'med': 11} (targets of a full class are excluded from a parent that filled it)
+[06:08:58] start: 1 craft state(s), remaining 183, horizon (2700, 3240] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:08:58] prefix slices/s05/in/craft_6.npz: 16 flybys, t_end 2560.6 d, tank 906.3 kg (planner view), miss 32.2 km, nreg 120
+[06:08:58] quota head-room {'fil': 10, 'med': 16} (targets of a full class are excluded from a parent that filled it)
+[06:08:58] start: 1 craft state(s), remaining 183, horizon (2700, 3240] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:08:58] prefix slices/s05/in/craft_4.npz: 13 flybys, t_end 2624.4 d, tank 738.7 kg (planner view), miss 80.4 km, nreg 128
+[06:08:58] quota head-room {'fil': 9, 'med': 16} (targets of a full class are excluded from a parent that filled it)
+[06:08:58] start: 1 craft state(s), remaining 183, horizon (2700, 3240] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:08:58] prefix slices/s05/in/craft_2.npz: 18 flybys, t_end 2690.6 d, tank 869.7 kg (planner view), miss 70.6 km, nreg 132
+[06:08:58] quota head-room {'fil': 9, 'med': 12} (targets of a full class are excluded from a parent that filled it)
+[06:08:58] start: 1 craft state(s), remaining 183, horizon (2700, 3240] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:08:58] prefix slices/s05/in/craft_7.npz: 13 flybys, t_end 2692.8 d, tank 853.6 kg (planner view), miss 16.0 km, nreg 124
+[06:08:58] quota head-room {'fil': 10, 'med': 14} (targets of a full class are excluded from a parent that filled it)
+[06:08:58] prefix slices/s05/in/craft_3.npz: 15 flybys, t_end 2552.9 d, tank 908.0 kg (planner view), miss 9.6 km, nreg 125
+[06:08:58] quota head-room {'fil': 7, 'med': 14} (targets of a full class are excluded from a parent that filled it)
+[06:08:58] start: 1 craft state(s), remaining 183, horizon (2700, 3240] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:08:58] start: 1 craft state(s), remaining 183, horizon (2700, 3240] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:08:58] prefix slices/s05/in/craft_5.npz: 10 flybys, t_end 2504.0 d, tank 778.1 kg (planner view), miss 8.5 km, nreg 116
+[06:08:58] quota head-room {'fil': 8, 'med': 15} (targets of a full class are excluded from a parent that filled it)
+[06:08:58] start: 1 craft state(s), remaining 183, horizon (2700, 3240] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:09:11]   price_cap: 250 of 537 horizon candidates priced (1 parents)
+[06:09:12]   price_cap: 250 of 533 horizon candidates priced (1 parents)
+[06:09:13]   price_cap: 250 of 539 horizon candidates priced (1 parents)
+[06:09:13]   price_cap: 250 of 547 horizon candidates priced (1 parents)
+[06:09:13]   price_cap: 250 of 546 horizon candidates priced (1 parents)
+[06:09:13]   price_cap: 250 of 543 horizon candidates priced (1 parents)
+[06:09:13]   price_cap: 250 of 549 horizon candidates priced (1 parents)
+[06:09:14]   price_cap: 250 of 500 horizon candidates priced (1 parents)
+[06:09:40] depth  2: 1/1 parents -> 41 children (41 unique) -> tried 8, settled 8 (7 in H), kept 8 (7 branches); t_end 2833-3283 d, tank 881-1093 (42 s: price 15, settle 27)
+[06:09:45] depth  2: 1/1 parents -> 54 children (54 unique) -> tried 8, settled 8 (8 in H), kept 7 (6 branches); t_end 2898-3170 d, tank 876-915 (46 s: price 13, settle 33)
+[06:09:46] depth  2: 1/1 parents -> 67 children (67 unique) -> tried 8, settled 8 (7 in H), kept 8 (7 branches); t_end 2727-3286 d, tank 895-980 (48 s: price 14, settle 34)
+[06:09:46] depth  2: 1/1 parents -> 67 children (67 unique) -> tried 8, settled 8 (8 in H), kept 8 (7 branches); t_end 2803-3195 d, tank 750-833 (48 s: price 15, settle 33)
+[06:09:50] depth  2: 1/1 parents -> 67 children (67 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 2737-3201 d, tank 908-1039 (52 s: price 15, settle 37)
+[06:09:51] depth  2: 1/1 parents -> 42 children (42 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 2734-3227 d, tank 918-982 (53 s: price 15, settle 38)
+[06:10:04] depth  2: 1/1 parents -> 63 children (63 unique) -> tried 8, settled 8 (8 in H), kept 8 (7 branches); t_end 2703-3217 d, tank 784-981 (66 s: price 15, settle 51)
+[06:11:23]   price_cap: 1750 of 3499 horizon candidates priced (7 parents)
+[06:11:43]   price_cap: 2000 of 3610 horizon candidates priced (8 parents)
+[06:11:46]   price_cap: 2000 of 3890 horizon candidates priced (8 parents)
+[06:11:48] depth  3: 7/7 parents -> 348 children (348 unique) -> tried 8, settled 8 (8 in H), kept 8 (5 branches); t_end 3052-3202 d, tank 905-1007 (124 s: price 98, settle 26)
+[06:11:49]   price_cap: 2000 of 4030 horizon candidates priced (8 parents)
+[06:11:49]   price_cap: 2000 of 4223 horizon candidates priced (8 parents)
+[06:11:53]   price_cap: 2000 of 3872 horizon candidates priced (8 parents)
+[06:12:05]   price_cap: 2000 of 4231 horizon candidates priced (8 parents)
+[06:12:15] depth  3: 8/8 parents -> 315 children (315 unique) -> tried 8, settled 8 (5 in H), kept 8 (4 branches); t_end 3169-3317 d, tank 890-1025 (155 s: price 122, settle 33)
+[06:12:18] depth  3: 8/8 parents -> 443 children (442 unique) -> tried 8, settled 8 (8 in H), kept 7 (5 branches); t_end 3003-3170 d, tank 935-984 (152 s: price 120, settle 32)
+[06:12:27] depth  3: 8/8 parents -> 383 children (383 unique) -> tried 8, settled 8 (7 in H), kept 8 (5 branches); t_end 3181-3291 d, tank 951-1012 (157 s: price 119, settle 38)
+[06:12:34] depth  3: 8/8 parents -> 259 children (259 unique) -> tried 8, settled 8 (8 in H), kept 8 (3 branches); t_end 3101-3216 d, tank 934-1029 (162 s: price 122, settle 40)
+[06:12:54] depth  3: 8/8 parents -> 443 children (441 unique) -> tried 9, settled 8 (4 in H), kept 8 (4 branches); t_end 3130-3523 d, tank 769-865 (188 s: price 123, settle 64)
+[06:12:55] depth  3: 8/8 parents -> 272 children (272 unique) -> tried 9, settled 8 (7 in H, 1 drifted out), kept 8 (5 branches); t_end 3075-3342 d, tank 831-1044 (171 s: price 121, settle 49)
+[06:12:59] depth  2: 1/1 parents -> 105 children (105 unique) -> tried 16, settled 1 (1 in H), kept 1 (1 branches); t_end 2950-2950 d, tank 799-799 (241 s: price 15, settle 225)
+[06:13:17]   price_cap: 250 of 541 horizon candidates priced (1 parents)
+[06:13:17]   settle cap 8: last level settled 1/16
+[06:13:47]   price_cap: 2000 of 3438 horizon candidates priced (8 parents)
+[06:14:16]   price_cap: 1750 of 3218 horizon candidates priced (7 parents)
+[06:14:28]   price_cap: 1955 of 2502 horizon candidates priced (8 parents)
+[06:14:37] depth  4: 8/8 parents -> 298 children (298 unique) -> tried 8, settled 8 (4 in H), kept 8 (3 branches); t_end 3107-3494 d, tank 916-1002 (168 s: price 119, settle 49)
+[06:14:44]   price_cap: 1548 of 2146 horizon candidates priced (8 parents)
+[06:14:46]   price_cap: 2000 of 3086 horizon candidates priced (8 parents)
+[06:14:56]   price_cap: 2000 of 3628 horizon candidates priced (8 parents)
+[06:15:18]   price_cap: 2000 of 3956 horizon candidates priced (8 parents)
+[06:15:19] depth  4: 7/7 parents -> 314 children (312 unique) -> tried 9, settled 8 (6 in H), kept 7 (5 branches); t_end 3040-3257 d, tank 982-1158 (181 s: price 119, settle 62)
+[06:15:33] depth  3: 1/1 parents -> 85 children (85 unique) -> tried 8, settled 2 (0 in H), kept 2 (1 branches); t_end 3240-3353 d, tank 817-925 (154 s: price 18, settle 136)
+[06:15:36] depth  4: 8/8 parents -> 131 children (129 unique) -> tried 9, settled 8 (0 in H), kept 8 (4 branches); t_end 3285-3570 d, tank 924-1025 (200 s: price 133, settle 68)
+[06:15:45] depth  4: 8/8 parents -> 228 children (228 unique) -> tried 8, settled 8 (2 in H), kept 8 (3 branches); t_end 3106-3569 d, tank 971-1068 (192 s: price 142, settle 49)
+[06:15:55] depth  4: 8/8 parents -> 268 children (259 unique) -> tried 9, settled 8 (1 in H), kept 8 (4 branches); t_end 3231-3404 d, tank 990-1144 (209 s: price 139, settle 69)
+[06:16:07]   price_cap: 470 of 587 horizon candidates priced (2 parents)
+[06:16:07]   settle cap 8: last level settled 2/8
+[06:16:21]   price_cap: 1601 of 2341 horizon candidates priced (8 parents)
+[06:16:36] depth  4: 8/8 parents -> 225 children (222 unique) -> tried 11, settled 8 (3 in H), kept 7 (4 branches); t_end 3231-3566 d, tank 772-1024 (222 s: price 110, settle 112)
+[06:16:43] depth  4: 8/8 parents -> 121 children (121 unique) -> tried 10, settled 8 (1 in H, 1 drifted out), kept 7 (4 branches); t_end 3174-3600 d, tank 825-970 (228 s: price 143, settle 85)
+[06:17:11]   price_cap: 1197 of 1619 horizon candidates priced (8 parents)
+[06:17:18]   price_cap: 1750 of 2441 horizon candidates priced (7 parents)
+[06:17:35]   price_cap: 760 of 1176 horizon candidates priced (5 parents)
+[06:17:54] depth  5: 8/8 parents -> 68 children (68 unique) -> tried 8, settled 8 (1 in H), kept 8 (3 branches); t_end 3185-3598 d, tank 977-1327 (129 s: price 86, settle 43)
+[06:17:54]   price_cap: 1729 of 1795 horizon candidates priced (8 parents)
+[06:17:59] depth  5: 8/8 parents -> 189 children (189 unique) -> tried 12, settled 8 (0 in H, 2 drifted out), kept 8 (3 branches); t_end 3253-3575 d, tank 928-1055 (202 s: price 105, settle 98)
+[06:18:09] depth  5: 7/7 parents -> 149 children (149 unique) -> tried 8, settled 8 (1 in H), kept 8 (4 branches); t_end 3146-3557 d, tank 989-1192 (170 s: price 120, settle 50)
+[06:18:13]   price_cap: 1446 of 1563 horizon candidates priced (7 parents)
+[06:18:28] depth  5: 8/8 parents -> 20 children (20 unique) -> tried 11, settled 8 (0 in H, 1 drifted out), kept 8 (4 branches); t_end 3446-3568 d, tank 941-1105 (172 s: price 78, settle 94)
+[06:18:28] beam end {'kind': 'lookahead', 'depth': 5, 'n_noH': 2}: 33 settled states, 36 settles (32 ok), wall 570 s (price 348, settle 222)
+[06:18:28] RESULT s05_c2: 11 columns (n_new 1-2, potential 0-3), 33 states, end lookahead, wall 570 s
+[06:18:28]   job s05_c2 craft columns  11  levels 4  settles 32/36  end lookahead  wall 569.7 s
+[06:18:37]   price_cap: 447 of 641 horizon candidates priced (8 parents)
+[06:18:42] depth  4: 2/2 parents -> 48 children (48 unique) -> tried 8, settled 0 (0 in H), kept 0 (0 branches) (189 s: price 35, settle 154)
+[06:18:42] beam end {'kind': 'settle_wall', 'depth': 3, 'tried': 8}: 4 settled states, 32 settles (3 ok), wall 584 s (price 68, settle 516)
+[06:18:42] RESULT s05_c0: 1 columns (n_new 1-1, potential 1-1), 4 states, end settle_wall, wall 584 s
+[06:18:42]   job s05_c0 craft columns   1  levels 2  settles 3/32  end settle_wall  wall 584.0 s
+[06:18:50]   price_cap: 844 of 1069 horizon candidates priced (6 parents)
+[06:18:54]   price_cap: 930 of 1041 horizon candidates priced (8 parents)
+[06:19:06] depth  5: 8/8 parents -> 108 children (108 unique) -> tried 9, settled 8 (0 in H), kept 8 (4 branches); t_end 3472-3546 d, tank 1019-1263 (190 s: price 119, settle 71)
+[06:19:12] depth  6: 8/8 parents -> 32 children (32 unique) -> tried 8, settled 8 (1 in H), kept 8 (4 branches); t_end 3233-3564 d, tank 1014-1060 (63 s: price 28, settle 34)
+[06:19:14] depth  5: 5/7 parents -> 19 children (19 unique) -> tried 10, settled 8 (0 in H), kept 8 (3 branches); t_end 3358-3564 d, tank 825-1005 (151 s: price 52, settle 99)
+[06:19:18] depth  5: 7/7 parents -> 100 children (100 unique) -> tried 9, settled 8 (0 in H), kept 8 (3 branches); t_end 3464-3591 d, tank 820-864 (162 s: price 98, settle 64)
+[06:19:30]   price_cap: 309 of 413 horizon candidates priced (8 parents)
+[06:19:33] depth  6: 8/8 parents -> 66 children (66 unique) -> tried 8, settled 8 (0 in H), kept 7 (3 branches); t_end 3416-3569 d, tank 985-1145 (94 s: price 55, settle 39)
+[06:19:33] beam end {'kind': 'lookahead', 'depth': 6, 'n_noH': 2}: 41 settled states, 44 settles (40 ok), wall 635 s (price 389, settle 245)
+[06:19:33] RESULT s05_c7: 18 columns (n_new 1-3, potential 0-3), 41 states, end lookahead, wall 635 s
+[06:19:34]   job s05_c7 craft columns  18  levels 5  settles 40/44  end lookahead  wall 634.8 s
+[06:20:02]   price_cap: 767 of 859 horizon candidates priced (8 parents)
+[06:20:04] depth  6: 8/8 parents -> 6 children (6 unique) -> tried 6, settled 6 (0 in H), kept 6 (2 branches); t_end 3493-3568 d, tank 1050-1599 (59 s: price 20, settle 39)
+[06:20:04] beam end {'kind': 'lookahead', 'depth': 6, 'n_noH': 2}: 39 settled states, 40 settles (38 ok), wall 666 s (price 412, settle 254)
+[06:20:04] RESULT s05_c6: 15 columns (n_new 1-3, potential 0-3), 39 states, end lookahead, wall 666 s
+[06:20:05]   job s05_c6 craft columns  15  levels 5  settles 38/40  end lookahead  wall 666.2 s
+[06:20:11] depth  6: 6/8 parents -> 8 children (8 unique) -> tried 8, settled 8 (0 in H), kept 8 (2 branches); t_end 3498-3596 d, tank 868-1032 (54 s: price 17, settle 37)
+[06:20:11] beam end {'kind': 'lookahead', 'depth': 6, 'n_noH': 2}: 41 settled states, 45 settles (40 ok), wall 673 s (price 362, settle 311)
+[06:20:11] RESULT s05_c4: 13 columns (n_new 1-3, potential 0-3), 41 states, end lookahead, wall 673 s
+[06:20:13]   job s05_c4 craft columns  13  levels 5  settles 40/45  end lookahead  wall 673.4 s
+[06:20:41] depth  7: 8/8 parents -> 15 children (15 unique) -> tried 10, settled 8 (0 in H), kept 7 (1 branches); t_end 3411-3545 d, tank 1051-1099 (89 s: price 19, settle 70)
+[06:21:51] depth  6: 6/8 parents -> 40 children (40 unique) -> tried 16, settled 8 (0 in H, 3 drifted out), kept 8 (2 branches); t_end 3393-3591 d, tank 1065-1581 (237 s: price 56, settle 181)
+[06:21:52] depth  8: 7/7 parents -> 10 children (10 unique) -> tried 9, settled 8 (0 in H, 1 drifted out), kept 8 (1 branches); t_end 3486-3569 d, tank 1068-1120 (72 s: price 36, settle 36)
+[06:21:52] beam end {'kind': 'lookahead', 'depth': 8, 'n_noH': 2}: 57 settled states, 60 settles (56 ok), wall 774 s (price 456, settle 318)
+[06:21:52] RESULT s05_c1: 20 columns (n_new 1-5, potential 0-3), 57 states, end lookahead, wall 774 s
+[06:21:53]   job s05_c1 craft columns  20  levels 7  settles 56/60  end lookahead  wall 774.3 s
+[06:22:02] depth  6: 8/8 parents -> 14 children (14 unique) -> tried 11, settled 8 (0 in H), kept 8 (2 branches); t_end 3378-3567 d, tank 910-1078 (168 s: price 48, settle 120)
+[06:22:02] beam end {'kind': 'lookahead', 'depth': 6, 'n_noH': 2}: 41 settled states, 48 settles (40 ok), wall 784 s (price 380, settle 404)
+[06:22:02] RESULT s05_c5: 14 columns (n_new 1-3, potential 0-3), 41 states, end lookahead, wall 784 s
+[06:22:03]   job s05_c5 craft columns  14  levels 5  settles 40/48  end lookahead  wall 784.3 s
+[06:23:37] depth  7: 7/8 parents -> 25 children (25 unique) -> tried 12, settled 8 (0 in H, 3 drifted out), kept 7 (1 branches); t_end 3501-3594 d, tank 1078-1111 (106 s: price 28, settle 78)
+[06:23:37] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 60 settles (48 ok), wall 879 s (price 449, settle 430)
+[06:23:37] RESULT s05_c3: 19 columns (n_new 1-4, potential 0-3), 49 states, end lookahead, wall 879 s
+[06:23:37]   job s05_c3 craft columns  19  levels 6  settles 48/60  end lookahead  wall 878.8 s
+[06:23:37] [slice 5] propose: 111 columns (0 bad dropped) in 879.3 s
+[06:23:37] [slice 5] auction: 111 columns, kept 63, dropped {'ramp': 45, 'fuel': 3}; lam 1.00 H_eff 540 d fuel budget 482 kg quota on
+[06:23:37] [slice 5] auction: status optimal objective 22.707 vars 63 rows 29 chosen 8 fuel 329/482 kg (0.006 s)
+[06:23:43] [slice 5] commit: c0 column s05_c0_k0 REJECTED: regrid_settle failed (miss 4989 km / cap 1.000)  (targets stay in remaining)
+[06:23:43] [slice 5] commit retry 1: no columns left for craft [0]
+[06:23:43] [slice 5] fuel dual: lam 1.000 -> 1.500 (chosen 329 / budget 482 kg, ramp drops 45 of 108)
+[06:23:43] [slice 5 T=2700 d] launched 8/8  covered 128  remaining 170  fuel 2232 kg  sumJi 9.9369  chosen: c1:2(+63) c2:2(+77) c3:2(+25) c4:2(+35) c5:1(+6) c6:1(+33) c7:3(+70)  rejected: c0 (regrid_settle failed (miss 4989 km / cap 1.000))  (wall 885 s)
+[06:23:43] [slice 6 T=3240 d] propose: 8 jobs (8 craft, 0 root) on 8 workers, proposer segbeam, H_eff 540 d, lam 1.5
+[06:23:43] job s06_c0 (craft, craft 0): T 3240 d H 540 L 360; remaining 170; prize >1 on 94, tank_prev 778.9
+[06:23:43] job s06_c1 (craft, craft 1): T 3240 d H 540 L 360; remaining 170; prize >1 on 94, tank_prev 953.2
+[06:23:43] job s06_c3 (craft, craft 3): T 3240 d H 540 L 360; remaining 170; prize >1 on 94, tank_prev 933.4
+[06:23:43] job s06_c2 (craft, craft 2): T 3240 d H 540 L 360; remaining 170; prize >1 on 94, tank_prev 946.5
+[06:23:43] job s06_c4 (craft, craft 4): T 3240 d H 540 L 360; remaining 170; prize >1 on 94, tank_prev 773.5
+[06:23:43] job s06_c6 (craft, craft 6): T 3240 d H 540 L 360; remaining 170; prize >1 on 94, tank_prev 938.8
+[06:23:43] job s06_c5 (craft, craft 5): T 3240 d H 540 L 360; remaining 170; prize >1 on 94, tank_prev 784.2
+[06:23:43] job s06_c7 (craft, craft 7): T 3240 d H 540 L 360; remaining 170; prize >1 on 94, tank_prev 923.5
+[06:23:43] prefix slices/s06/in/craft_0.npz: 11 flybys, t_end 1828.8 d, tank 778.9 kg (planner view), miss 1.1 km, nreg 93
+[06:23:43] quota head-room {'fil': 9, 'med': 15} (targets of a full class are excluded from a parent that filled it)
+[06:23:43] start: 1 craft state(s), remaining 170, horizon (3240, 3780] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:23:43] prefix slices/s06/in/craft_5.npz: 11 flybys, t_end 2936.5 d, tank 784.2 kg (planner view), miss 43.8 km, nreg 137
+[06:23:43] quota head-room {'fil': 8, 'med': 14} (targets of a full class are excluded from a parent that filled it)
+[06:23:43] start: 1 craft state(s), remaining 170, horizon (3240, 3780] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:23:43] prefix slices/s06/in/craft_1.npz: 21 flybys, t_end 3002.7 d, tank 953.2 kg (planner view), miss 23.8 km, nreg 152
+[06:23:43] quota head-room {'fil': 8, 'med': 10} (targets of a full class are excluded from a parent that filled it)
+[06:23:43] start: 1 craft state(s), remaining 170, horizon (3240, 3780] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:23:43] prefix slices/s06/in/craft_7.npz: 16 flybys, t_end 3203.7 d, tank 923.5 kg (planner view), miss 18.5 km, nreg 144
+[06:23:43] quota head-room {'fil': 10, 'med': 13} (targets of a full class are excluded from a parent that filled it)
+[06:23:43] start: 1 craft state(s), remaining 170, horizon (3240, 3780] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:23:43] prefix slices/s06/in/craft_2.npz: 20 flybys, t_end 3188.6 d, tank 946.5 kg (planner view), miss 26.2 km, nreg 157
+[06:23:43] quota head-room {'fil': 9, 'med': 11} (targets of a full class are excluded from a parent that filled it)
+[06:23:43] start: 1 craft state(s), remaining 170, horizon (3240, 3780] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:23:43] prefix slices/s06/in/craft_6.npz: 17 flybys, t_end 2898.8 d, tank 938.8 kg (planner view), miss 4.9 km, nreg 134
+[06:23:43] quota head-room {'fil': 10, 'med': 16} (targets of a full class are excluded from a parent that filled it)
+[06:23:43] prefix slices/s06/in/craft_3.npz: 17 flybys, t_end 3216.5 d, tank 933.4 kg (planner view), miss 22.3 km, nreg 158
+[06:23:43] quota head-room {'fil': 7, 'med': 13} (targets of a full class are excluded from a parent that filled it)
+[06:23:43] start: 1 craft state(s), remaining 170, horizon (3240, 3780] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:23:43] start: 1 craft state(s), remaining 170, horizon (3240, 3780] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:23:43] prefix slices/s06/in/craft_4.npz: 15 flybys, t_end 3204.4 d, tank 773.5 kg (planner view), miss 52.9 km, nreg 157
+[06:23:43] quota head-room {'fil': 9, 'med': 15} (targets of a full class are excluded from a parent that filled it)
+[06:23:43] start: 1 craft state(s), remaining 170, horizon (3240, 3780] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:24:00]   price_cap: 250 of 495 horizon candidates priced (1 parents)
+[06:24:01]   price_cap: 250 of 488 horizon candidates priced (1 parents)
+[06:24:01]   price_cap: 250 of 507 horizon candidates priced (1 parents)
+[06:24:01]   price_cap: 250 of 485 horizon candidates priced (1 parents)
+[06:24:01]   price_cap: 250 of 500 horizon candidates priced (1 parents)
+[06:24:02]   price_cap: 250 of 510 horizon candidates priced (1 parents)
+[06:24:02]   price_cap: 250 of 498 horizon candidates priced (1 parents)
+[06:24:03]   price_cap: 250 of 436 horizon candidates priced (1 parents)
+[06:24:43] depth  2: 1/1 parents -> 50 children (50 unique) -> tried 8, settled 8 (7 in H), kept 8 (7 branches); t_end 3276-3796 d, tank 942-1113 (59 s: price 17, settle 43)
+[06:24:45] depth  2: 1/1 parents -> 69 children (69 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 3382-3716 d, tank 955-1002 (62 s: price 18, settle 43)
+[06:24:48] depth  2: 1/1 parents -> 70 children (70 unique) -> tried 9, settled 8 (8 in H, 1 drifted out), kept 7 (7 branches); t_end 3255-3715 d, tank 955-980 (65 s: price 18, settle 47)
+[06:24:54] depth  2: 1/1 parents -> 67 children (67 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 3267-3680 d, tank 795-924 (70 s: price 18, settle 52)
+[06:24:55] depth  2: 1/1 parents -> 83 children (83 unique) -> tried 10, settled 8 (8 in H, 2 drifted out), kept 8 (7 branches); t_end 3250-3719 d, tank 943-1005 (71 s: price 18, settle 54)
+[06:24:57] depth  2: 1/1 parents -> 33 children (33 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 3425-3778 d, tank 940-1087 (74 s: price 19, settle 55)
+[06:25:21] depth  2: 1/1 parents -> 64 children (64 unique) -> tried 9, settled 8 (8 in H), kept 8 (8 branches); t_end 3295-3674 d, tank 779-857 (98 s: price 18, settle 80)
+[06:26:56]   price_cap: 1878 of 3395 horizon candidates priced (8 parents)
+[06:27:01]   price_cap: 1750 of 3315 horizon candidates priced (7 parents)
+[06:27:16]   price_cap: 2000 of 3905 horizon candidates priced (8 parents)
+[06:27:23]   price_cap: 2000 of 3808 horizon candidates priced (8 parents)
+[06:27:29]   price_cap: 2000 of 4036 horizon candidates priced (8 parents)
+[06:27:34]   price_cap: 2000 of 3561 horizon candidates priced (8 parents)
+[06:27:41] depth  3: 8/8 parents -> 317 children (317 unique) -> tried 8, settled 8 (8 in H), kept 8 (4 branches); t_end 3567-3740 d, tank 981-1162 (178 s: price 134, settle 44)
+[06:27:42] depth  3: 7/7 parents -> 408 children (408 unique) -> tried 8, settled 8 (6 in H), kept 8 (6 branches); t_end 3532-4122 d, tank 969-1061 (174 s: price 132, settle 42)
+[06:27:57]   price_cap: 2000 of 3842 horizon candidates priced (8 parents)
+[06:28:00] depth  3: 8/8 parents -> 420 children (420 unique) -> tried 8, settled 8 (8 in H), kept 8 (3 branches); t_end 3539-3722 d, tank 959-1193 (195 s: price 151, settle 44)
+[06:28:15] depth  3: 8/8 parents -> 486 children (486 unique) -> tried 8, settled 8 (8 in H), kept 7 (3 branches); t_end 3513-3766 d, tank 979-1016 (200 s: price 148, settle 52)
+[06:28:27] depth  3: 8/8 parents -> 323 children (323 unique) -> tried 8, settled 8 (8 in H), kept 8 (4 branches); t_end 3492-3677 d, tank 824-1001 (214 s: price 155, settle 58)
+[06:28:30] depth  3: 8/8 parents -> 286 children (286 unique) -> tried 8, settled 8 (5 in H), kept 8 (5 branches); t_end 3610-4052 d, tank 980-1144 (213 s: price 157, settle 56)
+[06:28:43] depth  3: 8/8 parents -> 433 children (433 unique) -> tried 8, settled 8 (8 in H), kept 8 (4 branches); t_end 3477-3679 d, tank 799-838 (201 s: price 156, settle 46)
+[06:28:52] depth  2: 1/1 parents -> 84 children (84 unique) -> tried 16, settled 0 (0 in H), kept 0 (0 branches) (308 s: price 20, settle 289)
+[06:28:52] beam end {'kind': 'settle_wall', 'depth': 1, 'tried': 16}: 1 settled states, 16 settles (0 ok), wall 308 s (price 20, settle 289)
+[06:28:52] RESULT s06_c0: 0 columns (n_new -, potential -), 1 states, end settle_wall, wall 308 s
+[06:28:53]   job s06_c0 craft columns   0  levels 0  settles 0/16  end settle_wall  wall 308.2 s
+[06:29:36]   price_cap: 1500 of 2693 horizon candidates priced (8 parents)
+[06:30:01]   price_cap: 2000 of 3482 horizon candidates priced (8 parents)
+[06:30:21]   price_cap: 1750 of 3097 horizon candidates priced (7 parents)
+[06:30:23]   price_cap: 2000 of 3689 horizon candidates priced (8 parents)
+[06:30:26]   price_cap: 1582 of 2362 horizon candidates priced (8 parents)
+[06:30:29] depth  4: 8/8 parents -> 265 children (265 unique) -> tried 9, settled 8 (5 in H), kept 8 (3 branches); t_end 3675-4124 d, tank 985-1274 (167 s: price 114, settle 53)
+[06:30:52]   price_cap: 2000 of 3960 horizon candidates priced (8 parents)
+[06:31:06]   price_cap: 2000 of 3781 horizon candidates priced (8 parents)
+[06:31:15] depth  4: 8/8 parents -> 226 children (226 unique) -> tried 9, settled 8 (4 in H, 1 drifted out), kept 8 (3 branches); t_end 3617-4111 d, tank 979-1027 (194 s: price 143, settle 52)
+[06:31:22] depth  4: 8/8 parents -> 116 children (116 unique) -> tried 8, settled 8 (2 in H), kept 8 (3 branches); t_end 3712-4112 d, tank 987-1143 (171 s: price 115, settle 56)
+[06:31:37] depth  4: 7/7 parents -> 301 children (294 unique) -> tried 9, settled 8 (7 in H), kept 6 (3 branches); t_end 3595-3955 d, tank 1014-1195 (201 s: price 126, settle 76)
+[06:31:54] depth  4: 8/8 parents -> 119 children (119 unique) -> tried 8, settled 8 (3 in H), kept 8 (4 branches); t_end 3671-4125 d, tank 848-1049 (207 s: price 145, settle 62)
+[06:31:55] depth  4: 8/8 parents -> 322 children (322 unique) -> tried 8, settled 8 (5 in H), kept 8 (4 branches); t_end 3603-3929 d, tank 812-978 (192 s: price 143, settle 49)
+[06:32:03] depth  4: 8/8 parents -> 258 children (258 unique) -> tried 10, settled 8 (2 in H, 1 drifted out), kept 8 (4 branches); t_end 3738-4102 d, tank 1005-1216 (262 s: price 140, settle 122)
+[06:32:28]   price_cap: 775 of 963 horizon candidates priced (8 parents)
+[06:32:33]   price_cap: 1492 of 2011 horizon candidates priced (8 parents)
+[06:32:36]   price_cap: 1000 of 1777 horizon candidates priced (8 parents)
+[06:33:13]   price_cap: 889 of 1177 horizon candidates priced (8 parents)
+[06:33:13] depth  5: 8/8 parents -> 141 children (141 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 3796-4117 d, tank 1005-1068 (164 s: price 123, settle 40)
+[06:33:19] depth  5: 8/8 parents -> 89 children (89 unique) -> tried 8, settled 8 (1 in H), kept 8 (3 branches); t_end 3632-4112 d, tank 989-1052 (124 s: price 81, settle 43)
+[06:33:26]   price_cap: 1346 of 2093 horizon candidates priced (6 parents)
+[06:33:40] depth  5: 8/8 parents -> 22 children (22 unique) -> tried 9, settled 8 (0 in H, 1 drifted out), kept 8 (3 branches); t_end 3811-4137 d, tank 1021-1221 (138 s: price 66, settle 72)
+[06:33:56]   price_cap: 1500 of 2289 horizon candidates priced (7 parents)
+[06:34:22]   price_cap: 1820 of 2854 horizon candidates priced (8 parents)
+[06:34:36]   price_cap: 706 of 748 horizon candidates priced (7 parents)
+[06:34:51] depth  5: 8/8 parents -> 51 children (51 unique) -> tried 9, settled 8 (0 in H), kept 8 (3 branches); t_end 3856-4096 d, tank 1029-1255 (168 s: price 70, settle 98)
+[06:34:56] depth  5: 7/8 parents -> 50 children (50 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 3856-4056 d, tank 854-982 (182 s: price 122, settle 60)
+[06:35:02]   price_cap: 1368 of 1587 horizon candidates priced (8 parents)
+[06:35:05] depth  5: 8/8 parents -> 228 children (228 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 3881-3968 d, tank 836-920 (190 s: price 146, settle 44)
+[06:35:22] depth  5: 6/6 parents -> 85 children (85 unique) -> tried 10, settled 8 (1 in H), kept 7 (2 branches); t_end 3762-4081 d, tank 1016-1270 (225 s: price 109, settle 116)
+[06:35:34] depth  6: 8/8 parents -> 69 children (69 unique) -> tried 8, settled 8 (0 in H), kept 7 (3 branches); t_end 3898-4122 d, tank 1019-1106 (141 s: price 96, settle 45)
+[06:35:34] beam end {'kind': 'lookahead', 'depth': 6, 'n_noH': 2}: 41 settled states, 42 settles (40 ok), wall 710 s (price 483, settle 227)
+[06:35:34] RESULT s06_c1: 17 columns (n_new 1-3, potential 0-3), 41 states, end lookahead, wall 710 s
+[06:35:34]   job s06_c1 craft columns  17  levels 5  settles 40/42  end lookahead  wall 710.2 s
+[06:35:43] depth  6: 8/8 parents -> 61 children (61 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 3862-4130 d, tank 1005-1137 (145 s: price 103, settle 42)
+[06:36:04]   price_cap: 898 of 939 horizon candidates priced (8 parents)
+[06:36:20]   price_cap: 517 of 530 horizon candidates priced (7 parents)
+[06:36:30] depth  6: 7/8 parents -> 21 children (21 unique) -> tried 10, settled 8 (0 in H, 1 drifted out), kept 7 (1 branches); t_end 3953-4069 d, tank 1073-1947 (170 s: price 56, settle 114)
+[06:36:30] beam end {'kind': 'lookahead', 'depth': 6, 'n_noH': 2}: 41 settled states, 43 settles (40 ok), wall 766 s (price 413, settle 354)
+[06:36:30] RESULT s06_c3: 15 columns (n_new 1-3, potential 0-2), 41 states, end lookahead, wall 766 s
+[06:36:30]   job s06_c3 craft columns  15  levels 5  settles 40/43  end lookahead  wall 766.4 s
+[06:36:54] depth  6: 8/8 parents -> 6 children (6 unique) -> tried 6, settled 5 (0 in H), kept 5 (2 branches); t_end 4058-4134 d, tank 888-968 (118 s: price 68, settle 50)
+[06:36:54] beam end {'kind': 'lookahead', 'depth': 6, 'n_noH': 2}: 38 settled states, 38 settles (37 ok), wall 790 s (price 508, settle 282)
+[06:36:54] RESULT s06_c5: 18 columns (n_new 1-3, potential 0-3), 38 states, end lookahead, wall 790 s
+[06:36:54]   job s06_c5 craft columns  18  levels 5  settles 37/38  end lookahead  wall 790.5 s
+[06:37:02] depth  6: 7/7 parents -> 31 children (31 unique) -> tried 8, settled 8 (0 in H), kept 8 (2 branches); t_end 4033-4140 d, tank 1065-1412 (100 s: price 47, settle 53)
+[06:37:06] depth  7: 7/8 parents -> 18 children (18 unique) -> tried 9, settled 8 (0 in H, 1 drifted out), kept 8 (2 branches); t_end 3898-4126 d, tank 1028-1218 (82 s: price 36, settle 46)
+[06:37:06] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 50 settles (48 ok), wall 802 s (price 533, settle 269)
+[06:37:06] RESULT s06_c2: 21 columns (n_new 1-4, potential 0-3), 49 states, end lookahead, wall 802 s
+[06:37:06]   job s06_c2 craft columns  21  levels 6  settles 48/50  end lookahead  wall 802.1 s
+[06:37:10] depth  6: 8/8 parents -> 23 children (23 unique) -> tried 9, settled 8 (0 in H), kept 7 (2 branches); t_end 4052-4136 d, tank 1058-1156 (139 s: price 57, settle 82)
+[06:37:10] beam end {'kind': 'lookahead', 'depth': 6, 'n_noH': 2}: 41 settled states, 44 settles (40 ok), wall 807 s (price 418, settle 389)
+[06:37:10] RESULT s06_c7: 17 columns (n_new 1-3, potential 0-2), 41 states, end lookahead, wall 807 s
+[06:37:10]   job s06_c7 craft columns  17  levels 5  settles 40/44  end lookahead  wall 806.7 s
+[06:37:18] depth  7: 7/8 parents -> 1 children (1 unique) -> tried 1, settled 1 (0 in H), kept 1 (1 branches); t_end 4095-4095 d, tank 1111-1111 (16 s: price 9, settle 7)
+[06:37:18] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 42 settled states, 46 settles (41 ok), wall 814 s (price 457, settle 357)
+[06:37:18] RESULT s06_c6: 18 columns (n_new 1-4, potential 0-3), 42 states, end lookahead, wall 814 s
+[06:37:19]   job s06_c6 craft columns  18  levels 6  settles 41/46  end lookahead  wall 814.3 s
+[06:37:38] depth  6: 8/8 parents -> 149 children (149 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 3965-4130 d, tank 843-1039 (152 s: price 109, settle 43)
+[06:37:38] beam end {'kind': 'lookahead', 'depth': 6, 'n_noH': 2}: 41 settled states, 41 settles (40 ok), wall 834 s (price 572, settle 262)
+[06:37:38] RESULT s06_c4: 21 columns (n_new 1-3, potential 0-2), 41 states, end lookahead, wall 834 s
+[06:37:39]   job s06_c4 craft columns  21  levels 5  settles 40/41  end lookahead  wall 834.3 s
+[06:37:39] [slice 6] propose: 127 columns (0 bad dropped) in 835.2 s
+[06:37:39] [slice 6] auction: 127 columns, kept 88, dropped {'ramp': 27, 'fuel': 12}; lam 1.50 H_eff 540 d fuel budget 482 kg quota on
+[06:37:39] [slice 6] auction: status optimal objective 25.853 vars 88 rows 34 chosen 7 fuel 293/482 kg (0.006 s)
+[06:37:43] [slice 6] fuel dual: lam 1.500 -> 2.250 (chosen 293 / budget 482 kg, ramp drops 27 of 115)
+[06:37:43] [slice 6 T=3240 d] launched 8/8  covered 144  remaining 154  fuel 2520 kg  sumJi 10.2273  chosen: c1:2(+17) c2:3(+32) c3:1(+5) c4:3(+75) c5:3(+61) c6:2(+40) c7:2(+57)  rejected: -  (wall 839 s)
+[06:37:43] [slice 7 T=3780 d] propose: 8 jobs (8 craft, 0 root) on 8 workers, proposer segbeam, H_eff 540 d, lam 2.25
+[06:37:43] job s07_c1 (craft, craft 1): T 3780 d H 540 L 360; remaining 154; prize >1 on 114, tank_prev 970.3
+[06:37:43] job s07_c2 (craft, craft 2): T 3780 d H 540 L 360; remaining 154; prize >1 on 114, tank_prev 978.8
+[06:37:43] job s07_c5 (craft, craft 5): T 3780 d H 540 L 360; remaining 154; prize >1 on 114, tank_prev 845.4
+[06:37:43] job s07_c6 (craft, craft 6): T 3780 d H 540 L 360; remaining 154; prize >1 on 114, tank_prev 978.7
+[06:37:43] job s07_c4 (craft, craft 4): T 3780 d H 540 L 360; remaining 154; prize >1 on 114, tank_prev 848.7
+[06:37:43] job s07_c7 (craft, craft 7): T 3780 d H 540 L 360; remaining 154; prize >1 on 114, tank_prev 980.3
+[06:37:43] job s07_c0 (craft, craft 0): T 3780 d H 540 L 360; remaining 154; prize >1 on 114, tank_prev 778.9
+[06:37:43] job s07_c3 (craft, craft 3): T 3780 d H 540 L 360; remaining 154; prize >1 on 114, tank_prev 938.9
+[06:37:43] prefix slices/s07/in/craft_0.npz: 11 flybys, t_end 1828.8 d, tank 778.9 kg (planner view), miss 1.1 km, nreg 93
+[06:37:43] start: 1 craft state(s), remaining 154, horizon (3780, 4320] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:37:43] prefix slices/s07/in/craft_7.npz: 18 flybys, t_end 3739.6 d, tank 980.3 kg (planner view), miss 36.6 km, nreg 170
+[06:37:43] prefix slices/s07/in/craft_1.npz: 23 flybys, t_end 3560.5 d, tank 970.3 kg (planner view), miss 12.0 km, nreg 180
+[06:37:43] prefix slices/s07/in/craft_2.npz: 23 flybys, t_end 3631.7 d, tank 978.8 kg (planner view), miss 17.7 km, nreg 179
+[06:37:43] start: 1 craft state(s), remaining 154, horizon (3780, 4320] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:37:43] start: 1 craft state(s), remaining 154, horizon (3780, 4320] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:37:43] start: 1 craft state(s), remaining 154, horizon (3780, 4320] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:37:43] prefix slices/s07/in/craft_5.npz: 14 flybys, t_end 3742.8 d, tank 845.4 kg (planner view), miss 71.8 km, nreg 178
+[06:37:43] start: 1 craft state(s), remaining 154, horizon (3780, 4320] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:37:43] prefix slices/s07/in/craft_6.npz: 19 flybys, t_end 3570.0 d, tank 978.7 kg (planner view), miss 1.8 km, nreg 168
+[06:37:43] start: 1 craft state(s), remaining 154, horizon (3780, 4320] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:37:43] prefix slices/s07/in/craft_3.npz: 18 flybys, t_end 3426.3 d, tank 938.9 kg (planner view), miss 43.9 km, nreg 169
+[06:37:43] start: 1 craft state(s), remaining 154, horizon (3780, 4320] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:37:43] prefix slices/s07/in/craft_4.npz: 18 flybys, t_end 3655.8 d, tank 848.7 kg (planner view), miss 62.2 km, nreg 180
+[06:37:43] start: 1 craft state(s), remaining 154, horizon (3780, 4320] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:38:02]   price_cap: 250 of 462 horizon candidates priced (1 parents)
+[06:38:03]   price_cap: 250 of 455 horizon candidates priced (1 parents)
+[06:38:04]   price_cap: 250 of 456 horizon candidates priced (1 parents)
+[06:38:04]   price_cap: 250 of 454 horizon candidates priced (1 parents)
+[06:38:04]   price_cap: 250 of 447 horizon candidates priced (1 parents)
+[06:38:04]   price_cap: 250 of 450 horizon candidates priced (1 parents)
+[06:38:04]   price_cap: 250 of 462 horizon candidates priced (1 parents)
+[06:38:05]   price_cap: 250 of 434 horizon candidates priced (1 parents)
+[06:38:54] depth  2: 1/1 parents -> 67 children (67 unique) -> tried 8, settled 8 (8 in H), kept 8 (7 branches); t_end 3864-4117 d, tank 986-1037 (72 s: price 21, settle 50)
+[06:38:55] depth  2: 1/1 parents -> 17 children (17 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 3792-4253 d, tank 987-1039 (72 s: price 21, settle 51)
+[06:38:59] depth  2: 1/1 parents -> 63 children (63 unique) -> tried 8, settled 8 (8 in H), kept 8 (6 branches); t_end 3884-4109 d, tank 862-981 (76 s: price 21, settle 55)
+[06:39:01] depth  2: 1/1 parents -> 73 children (73 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 3972-4213 d, tank 1002-1077 (78 s: price 21, settle 57)
+[06:39:01] depth  2: 1/1 parents -> 60 children (60 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 3811-4070 d, tank 950-989 (78 s: price 21, settle 57)
+[06:39:03] depth  2: 1/1 parents -> 56 children (56 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 3858-4128 d, tank 844-929 (81 s: price 22, settle 59)
+[06:39:20] depth  2: 1/1 parents -> 58 children (58 unique) -> tried 8, settled 8 (8 in H), kept 8 (7 branches); t_end 3890-4085 d, tank 979-1074 (97 s: price 20, settle 78)
+[06:41:37]   price_cap: 2000 of 3566 horizon candidates priced (8 parents)
+[06:41:37]   price_cap: 2000 of 3485 horizon candidates priced (8 parents)
+[06:41:39]   price_cap: 2000 of 3640 horizon candidates priced (8 parents)
+[06:41:41]   price_cap: 2000 of 3612 horizon candidates priced (8 parents)
+[06:41:45]   price_cap: 2000 of 3453 horizon candidates priced (8 parents)
+[06:41:50]   price_cap: 2000 of 3636 horizon candidates priced (8 parents)
+[06:41:53]   price_cap: 2000 of 3615 horizon candidates priced (8 parents)
+[06:42:24] depth  3: 8/8 parents -> 191 children (191 unique) -> tried 8, settled 8 (8 in H), kept 8 (5 branches); t_end 4057-4307 d, tank 1017-1101 (209 s: price 162, settle 47)
+[06:42:25] depth  3: 8/8 parents -> 429 children (427 unique) -> tried 8, settled 8 (8 in H), kept 8 (6 branches); t_end 3965-4310 d, tank 1012-1216 (211 s: price 163, settle 48)
+[06:42:28] depth  3: 8/8 parents -> 470 children (430 unique) -> tried 8, settled 8 (8 in H), kept 8 (4 branches); t_end 3965-4142 d, tank 879-1081 (209 s: price 161, settle 48)
+[06:42:28] depth  3: 8/8 parents -> 446 children (446 unique) -> tried 8, settled 8 (8 in H), kept 8 (4 branches); t_end 4037-4206 d, tank 1036-1066 (207 s: price 164, settle 43)
+[06:42:30] depth  3: 8/8 parents -> 224 children (224 unique) -> tried 8, settled 8 (8 in H), kept 8 (3 branches); t_end 3961-4078 d, tank 977-1016 (210 s: price 160, settle 49)
+[06:42:42] depth  3: 8/8 parents -> 182 children (182 unique) -> tried 8, settled 8 (8 in H), kept 8 (5 branches); t_end 4078-4166 d, tank 876-915 (218 s: price 166, settle 52)
+[06:43:19] depth  2: 1/1 parents -> 87 children (87 unique) -> tried 16, settled 0 (0 in H), kept 0 (0 branches) (336 s: price 22, settle 314)
+[06:43:19] beam end {'kind': 'settle_wall', 'depth': 1, 'tried': 16}: 1 settled states, 16 settles (0 ok), wall 336 s (price 22, settle 314)
+[06:43:19] RESULT s07_c0: 0 columns (n_new -, potential -), 1 states, end settle_wall, wall 336 s
+[06:43:20]   job s07_c0 craft columns   0  levels 0  settles 0/16  end settle_wall  wall 336.3 s
+[06:43:44] depth  3: 8/8 parents -> 327 children (324 unique) -> tried 10, settled 8 (8 in H), kept 8 (4 branches); t_end 4009-4218 d, tank 1006-1245 (264 s: price 153, settle 111)
+[06:44:59]   price_cap: 2000 of 3289 horizon candidates priced (8 parents)
+[06:45:02]   price_cap: 2000 of 3187 horizon candidates priced (8 parents)
+[06:45:03]   price_cap: 2000 of 3555 horizon candidates priced (8 parents)
+[06:45:03]   price_cap: 2000 of 3324 horizon candidates priced (8 parents)
+[06:45:06]   price_cap: 2000 of 3588 horizon candidates priced (8 parents)
+[06:45:22]   price_cap: 2000 of 3619 horizon candidates priced (8 parents)
+[06:45:58] depth  4: 8/8 parents -> 364 children (364 unique) -> tried 8, settled 8 (8 in H), kept 8 (3 branches); t_end 4068-4195 d, tank 1002-1084 (208 s: price 155, settle 52)
+[06:46:02] depth  4: 8/8 parents -> 320 children (319 unique) -> tried 8, settled 8 (8 in H), kept 8 (4 branches); t_end 4059-4320 d, tank 906-1148 (214 s: price 155, settle 59)
+[06:46:12]   price_cap: 2000 of 3371 horizon candidates priced (8 parents)
+[06:46:19] depth  4: 8/8 parents -> 250 children (250 unique) -> tried 9, settled 8 (7 in H), kept 8 (4 branches); t_end 4135-4320 d, tank 1048-1140 (231 s: price 155, settle 75)
+[06:46:48] depth  4: 8/8 parents -> 102 children (102 unique) -> tried 9, settled 8 (4 in H), kept 8 (3 branches); t_end 4105-4469 d, tank 910-1068 (246 s: price 160, settle 86)
+[06:47:15] depth  4: 8/8 parents -> 194 children (194 unique) -> tried 11, settled 8 (4 in H, 1 drifted out), kept 8 (4 branches); t_end 4124-4501 d, tank 1028-1325 (290 s: price 155, settle 135)
+[06:47:38] depth  4: 8/8 parents -> 226 children (226 unique) -> tried 12, settled 8 (5 in H), kept 8 (4 branches); t_end 4024-4567 d, tank 1053-1311 (313 s: price 157, settle 156)
+[06:48:13] depth  4: 8/8 parents -> 230 children (230 unique) -> tried 10, settled 8 (4 in H), kept 8 (3 branches); t_end 4211-4598 d, tank 1024-1140 (269 s: price 148, settle 121)
+[06:48:36]   price_cap: 2000 of 3413 horizon candidates priced (8 parents)
+[06:48:40]   price_cap: 2000 of 3213 horizon candidates priced (8 parents)
+[06:48:57]   price_cap: 2000 of 2858 horizon candidates priced (8 parents)
+[06:49:19]   price_cap: 1578 of 2260 horizon candidates priced (8 parents)
+[06:49:20]   price_cap: 1854 of 2862 horizon candidates priced (8 parents)
+[06:49:32] depth  5: 8/8 parents -> 221 children (221 unique) -> tried 8, settled 8 (7 in H), kept 8 (3 branches); t_end 4088-4334 d, tank 1045-1230 (214 s: price 158, settle 56)
+[06:49:52]   price_cap: 1679 of 2483 horizon candidates priced (8 parents)
+[06:49:59] depth  5: 8/8 parents -> 185 children (185 unique) -> tried 9, settled 8 (3 in H, 1 drifted out), kept 8 (4 branches); t_end 4232-4594 d, tank 1063-1177 (220 s: price 158, settle 62)
+[06:50:01]   price_cap: 1441 of 1885 horizon candidates priced (8 parents)
+[06:50:21] depth  5: 8/8 parents -> 247 children (247 unique) -> tried 10, settled 8 (6 in H), kept 7 (4 branches); t_end 4090-4610 d, tank 933-1174 (259 s: price 158, settle 101)
+[06:50:48] depth  5: 8/8 parents -> 116 children (116 unique) -> tried 8, settled 8 (2 in H), kept 8 (3 branches); t_end 4193-4600 d, tank 1058-1115 (213 s: price 124, settle 89)
+[06:50:48] depth  5: 8/8 parents -> 16 children (16 unique) -> tried 9, settled 8 (0 in H), kept 8 (3 branches); t_end 4361-4657 d, tank 922-1198 (241 s: price 153, settle 88)
+[06:50:59] depth  5: 8/8 parents -> 141 children (141 unique) -> tried 9, settled 8 (5 in H), kept 8 (3 branches); t_end 4193-4621 d, tank 1067-1150 (201 s: price 134, settle 67)
+[06:50:59] depth  5: 8/8 parents -> 131 children (131 unique) -> tried 8, settled 8 (1 in H), kept 8 (3 branches); t_end 4299-4673 d, tank 1060-1264 (167 s: price 108, settle 59)
+[06:51:49]   price_cap: 1410 of 1729 horizon candidates priced (8 parents)
+[06:52:00]   price_cap: 1271 of 2044 horizon candidates priced (7 parents)
+[06:52:05]   price_cap: 1936 of 3002 horizon candidates priced (8 parents)
+[06:52:13]   price_cap: 975 of 1075 horizon candidates priced (7 parents)
+[06:52:29]   price_cap: 1219 of 1380 horizon candidates priced (8 parents)
+[06:52:34]   price_cap: 1352 of 1693 horizon candidates priced (8 parents)
+[06:52:52]   price_cap: 1430 of 2036 horizon candidates priced (8 parents)
+[06:53:26] depth  6: 8/8 parents -> 62 children (62 unique) -> tried 10, settled 8 (0 in H, 1 drifted out), kept 8 (3 branches); t_end 4345-4671 d, tank 1074-1244 (207 s: price 110, settle 97)
+[06:53:33] depth  6: 8/8 parents -> 89 children (89 unique) -> tried 9, settled 8 (0 in H, 1 drifted out), kept 8 (3 branches); t_end 4376-4636 d, tank 1098-1203 (165 s: price 106, settle 59)
+[06:53:34] depth  6: 8/8 parents -> 162 children (162 unique) -> tried 9, settled 8 (3 in H), kept 8 (3 branches); t_end 4195-4604 d, tank 1049-1140 (242 s: price 153, settle 90)
+[06:53:37] depth  6: 7/7 parents -> 111 children (111 unique) -> tried 10, settled 8 (3 in H), kept 8 (3 branches); t_end 4194-4632 d, tank 980-1036 (196 s: price 99, settle 97)
+[06:54:08] depth  6: 7/8 parents -> 51 children (51 unique) -> tried 9, settled 8 (0 in H), kept 8 (2 branches); t_end 4463-4617 d, tank 1132-1192 (189 s: price 74, settle 115)
+[06:54:30]   price_cap: 809 of 822 horizon candidates priced (6 parents)
+[06:54:34] depth  6: 8/8 parents -> 52 children (52 unique) -> tried 11, settled 8 (0 in H, 1 drifted out), kept 8 (3 branches); t_end 4335-4632 d, tank 1089-1261 (215 s: price 114, settle 102)
+[06:54:41]   price_cap: 852 of 1165 horizon candidates priced (8 parents)
+[06:55:01]   price_cap: 1072 of 1475 horizon candidates priced (8 parents)
+[06:55:03] depth  6: 8/8 parents -> 21 children (21 unique) -> tried 12, settled 8 (0 in H, 1 drifted out), kept 8 (2 branches); t_end 4445-4663 d, tank 997-1187 (255 s: price 100, settle 154)
+[06:55:03] beam end {'kind': 'lookahead', 'depth': 6, 'n_noH': 2}: 41 settled states, 46 settles (40 ok), wall 1040 s (price 601, settle 439)
+[06:55:03] RESULT s07_c5: 20 columns (n_new 1-3, potential 0-3), 41 states, end lookahead, wall 1040 s
+[06:55:05]   job s07_c5 craft columns  20  levels 5  settles 40/46  end lookahead  wall 1040.3 s
+[06:55:15]   price_cap: 502 of 550 horizon candidates priced (8 parents)
+[06:55:42] depth  7: 8/8 parents -> 36 children (36 unique) -> tried 8, settled 8 (0 in H), kept 8 (1 branches); t_end 4485-4674 d, tank 1128-1346 (129 s: price 73, settle 56)
+[06:55:42] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 52 settles (48 ok), wall 1079 s (price 642, settle 437)
+[06:55:42] RESULT s07_c2: 22 columns (n_new 1-4, potential 0-3), 49 states, end lookahead, wall 1079 s
+[06:55:43]   job s07_c2 craft columns  22  levels 6  settles 48/52  end lookahead  wall 1079.3 s
+[06:56:05] depth  7: 8/8 parents -> 3 children (3 unique) -> tried 3, settled 2 (0 in H), kept 2 (2 branches); t_end 4598-4624 d, tank 1182-1249 (91 s: price 41, settle 51)
+[06:56:05] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 43 settled states, 51 settles (42 ok), wall 1103 s (price 629, settle 474)
+[06:56:05] RESULT s07_c1: 25 columns (n_new 1-4, potential 0-3), 43 states, end lookahead, wall 1103 s
+[06:56:07]   job s07_c1 craft columns  25  levels 6  settles 42/51  end lookahead  wall 1102.7 s
+[06:56:07] depth  7: 6/8 parents -> 14 children (14 unique) -> tried 8, settled 8 (0 in H), kept 8 (2 branches); t_end 4484-4652 d, tank 1104-1292 (161 s: price 64, settle 97)
+[06:56:07] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 52 settles (48 ok), wall 1105 s (price 673, settle 432)
+[06:56:07] RESULT s07_c6: 26 columns (n_new 1-4, potential 0-3), 49 states, end lookahead, wall 1105 s
+[06:56:09]   job s07_c6 craft columns  26  levels 6  settles 48/52  end lookahead  wall 1104.8 s
+[06:56:11] depth  7: 8/8 parents -> 78 children (78 unique) -> tried 9, settled 8 (0 in H), kept 8 (3 branches); t_end 4415-4659 d, tank 1096-1327 (157 s: price 67, settle 89)
+[06:56:11] depth  7: 8/8 parents -> 70 children (70 unique) -> tried 9, settled 8 (0 in H), kept 8 (3 branches); t_end 4568-4679 d, tank 993-1108 (154 s: price 85, settle 70)
+[06:56:45] depth  7: 8/8 parents -> 26 children (26 unique) -> tried 11, settled 8 (0 in H, 2 drifted out), kept 8 (2 branches); t_end 4587-4676 d, tank 1152-1300 (157 s: price 39, settle 118)
+[06:56:45] beam end {'kind': 'lookahead', 'depth': 7, 'n_noH': 2}: 49 settled states, 56 settles (48 ok), wall 1143 s (price 541, settle 601)
+[06:56:45] RESULT s07_c7: 20 columns (n_new 1-4, potential 0-3), 49 states, end lookahead, wall 1143 s
+[06:56:47]   job s07_c7 craft columns  20  levels 6  settles 48/56  end lookahead  wall 1142.7 s
+[06:57:57] depth  8: 7/8 parents -> 6 children (6 unique) -> tried 6, settled 2 (0 in H, 1 drifted out), kept 2 (2 branches); t_end 4625-4677 d, tank 1077-1194 (105 s: price 10, settle 95)
+[06:57:57] beam end {'kind': 'lookahead', 'depth': 8, 'n_noH': 2}: 51 settled states, 59 settles (50 ok), wall 1214 s (price 689, settle 525)
+[06:57:57] RESULT s07_c4: 29 columns (n_new 1-5, potential 0-3), 51 states, end lookahead, wall 1214 s
+[06:57:58]   job s07_c4 craft columns  29  levels 7  settles 50/59  end lookahead  wall 1213.9 s
+[06:59:26] depth  8: 8/8 parents -> 7 children (7 unique) -> tried 7, settled 1 (0 in H), kept 1 (1 branches); t_end 4486-4486 d, tank 1340-1340 (195 s: price 25, settle 170)
+[06:59:26] beam end {'kind': 'lookahead', 'depth': 8, 'n_noH': 2}: 50 settled states, 57 settles (49 ok), wall 1303 s (price 740, settle 563)
+[06:59:26] RESULT s07_c3: 34 columns (n_new 1-5, potential 0-2), 50 states, end lookahead, wall 1303 s
+[06:59:26]   job s07_c3 craft columns  34  levels 7  settles 49/57  end lookahead  wall 1303.1 s
+[06:59:26] [slice 7] propose: 176 columns (0 bad dropped) in 1303.3 s
+[06:59:26] [slice 7] auction: 176 columns, kept 111, dropped {'ramp': 24, 'fuel': 41}; lam 2.25 H_eff 540 d fuel budget 482 kg quota OFF
+[06:59:26] [slice 7] auction: status optimal objective 28.206 vars 111 rows 36 chosen 7 fuel 455/482 kg (0.01 s)
+[06:59:30] [slice 7 T=3780 d] launched 8/8  covered 164  remaining 134  fuel 2967 kg  sumJi 10.7062  chosen: c1:2(+42) c2:3(+45) c3:2(+46) c4:5(+132) c5:3(+83) c6:2(+58) c7:3(+41)  rejected: -  (wall 1307 s)
+[06:59:30] [slice 8 T=4320 d] propose: 8 jobs (8 craft, 0 root) on 8 workers, proposer segbeam, H_eff 540 d, lam 2.25
+[06:59:30] job s08_c0 (craft, craft 0): T 4320 d H 540 L 360; remaining 134; prize >1 on 130, tank_prev 778.9
+[06:59:30] job s08_c1 (craft, craft 1): T 4320 d H 540 L 360; remaining 134; prize >1 on 130, tank_prev 1012.3
+[06:59:30] job s08_c2 (craft, craft 2): T 4320 d H 540 L 360; remaining 134; prize >1 on 130, tank_prev 1023.6
+[06:59:30] job s08_c4 (craft, craft 4): T 4320 d H 540 L 360; remaining 134; prize >1 on 130, tank_prev 980.2
+[06:59:30] job s08_c3 (craft, craft 3): T 4320 d H 540 L 360; remaining 134; prize >1 on 130, tank_prev 985.3
+[06:59:30] job s08_c5 (craft, craft 5): T 4320 d H 540 L 360; remaining 134; prize >1 on 130, tank_prev 928.4
+[06:59:30] job s08_c6 (craft, craft 6): T 4320 d H 540 L 360; remaining 134; prize >1 on 130, tank_prev 1037.1
+[06:59:30] job s08_c7 (craft, craft 7): T 4320 d H 540 L 360; remaining 134; prize >1 on 130, tank_prev 1021.0
+[06:59:30] prefix slices/s08/in/craft_0.npz: 11 flybys, t_end 1828.8 d, tank 778.9 kg (planner view), miss 1.1 km, nreg 93
+[06:59:30] start: 1 craft state(s), remaining 134, horizon (4320, 4860] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:59:30] prefix slices/s08/in/craft_7.npz: 21 flybys, t_end 4297.4 d, tank 1021.0 kg (planner view), miss 12.7 km, nreg 198
+[06:59:30] prefix slices/s08/in/craft_3.npz: 20 flybys, t_end 4070.7 d, tank 985.3 kg (planner view), miss 19.1 km, nreg 201
+[06:59:30] start: 1 craft state(s), remaining 134, horizon (4320, 4860] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:59:30] start: 1 craft state(s), remaining 134, horizon (4320, 4860] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:59:30] prefix slices/s08/in/craft_2.npz: 26 flybys, t_end 4210.8 d, tank 1023.6 kg (planner view), miss 63.4 km, nreg 208
+[06:59:30] start: 1 craft state(s), remaining 134, horizon (4320, 4860] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:59:30] prefix slices/s08/in/craft_1.npz: 25 flybys, t_end 4246.7 d, tank 1012.3 kg (planner view), miss 12.7 km, nreg 214
+[06:59:30] start: 1 craft state(s), remaining 134, horizon (4320, 4860] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:59:30] prefix slices/s08/in/craft_4.npz: 23 flybys, t_end 4279.6 d, tank 980.2 kg (planner view), miss 77.2 km, nreg 211
+[06:59:30] prefix slices/s08/in/craft_6.npz: 21 flybys, t_end 4134.8 d, tank 1037.1 kg (planner view), miss 24.6 km, nreg 196
+[06:59:30] start: 1 craft state(s), remaining 134, horizon (4320, 4860] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:59:30] start: 1 craft state(s), remaining 134, horizon (4320, 4860] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:59:30] prefix slices/s08/in/craft_5.npz: 17 flybys, t_end 4139.1 d, tank 928.4 kg (planner view), miss 38.8 km, nreg 201
+[06:59:30] start: 1 craft state(s), remaining 134, horizon (4320, 4860] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[06:59:50]   price_cap: 250 of 402 horizon candidates priced (1 parents)
+[06:59:50]   price_cap: 250 of 394 horizon candidates priced (1 parents)
+[06:59:50]   price_cap: 250 of 387 horizon candidates priced (1 parents)
+[06:59:50]   price_cap: 250 of 399 horizon candidates priced (1 parents)
+[06:59:51]   price_cap: 250 of 401 horizon candidates priced (1 parents)
+[06:59:51]   price_cap: 250 of 401 horizon candidates priced (1 parents)
+[06:59:51]   price_cap: 250 of 402 horizon candidates priced (1 parents)
+[06:59:51]   price_cap: 250 of 364 horizon candidates priced (1 parents)
+[07:00:00] depth  2: 1/1 parents -> 1 children (1 unique) -> tried 1, settled 1 (1 in H), kept 1 (1 branches); t_end 4569-4569 d, tank 1026-1026 (30 s: price 21, settle 8)
+[07:00:22]   price_cap: 250 of 399 horizon candidates priced (1 parents)
+[07:00:22] depth  3: 1/1 parents -> 0 children (0 unique) -> tried 0, settled 0 (0 in H), kept 0 (0 branches) (22 s: price 23, settle 0)
+[07:00:22] beam end {'kind': 'no_children', 'depth': 2, 'tried': 0}: 2 settled states, 1 settles (1 ok), wall 52 s (price 44, settle 8)
+[07:00:22] RESULT s08_c5: 1 columns (n_new 1-1, potential 0-0), 2 states, end no_children, wall 52 s
+[07:00:22]   job s08_c5 craft columns   1  levels 1  settles 1/1  end no_children  wall 52.1 s
+[07:00:42] depth  2: 1/1 parents -> 66 children (66 unique) -> tried 8, settled 8 (8 in H), kept 8 (7 branches); t_end 4460-4697 d, tank 990-1072 (72 s: price 21, settle 52)
+[07:00:43] depth  2: 1/1 parents -> 45 children (45 unique) -> tried 8, settled 8 (8 in H), kept 7 (6 branches); t_end 4379-4791 d, tank 1034-1076 (73 s: price 20, settle 52)
+[07:00:45] depth  2: 1/1 parents -> 54 children (54 unique) -> tried 8, settled 8 (8 in H), kept 7 (6 branches); t_end 4457-4811 d, tank 1041-1075 (75 s: price 20, settle 55)
+[07:00:50] depth  2: 1/1 parents -> 49 children (49 unique) -> tried 8, settled 8 (8 in H), kept 8 (7 branches); t_end 4402-4829 d, tank 1025-1096 (80 s: price 21, settle 60)
+[07:00:57] depth  2: 1/1 parents -> 45 children (45 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 4537-4840 d, tank 999-1067 (87 s: price 20, settle 67)
+[07:02:30] depth  2: 1/1 parents -> 35 children (35 unique) -> tried 8, settled 8 (8 in H), kept 8 (8 branches); t_end 4475-4764 d, tank 1041-1726 (180 s: price 20, settle 160)
+[07:03:17]   price_cap: 1750 of 2598 horizon candidates priced (7 parents)
+[07:03:21]   price_cap: 1750 of 2741 horizon candidates priced (7 parents)
+[07:03:38]   price_cap: 2000 of 3072 horizon candidates priced (8 parents)
+[07:03:50]   price_cap: 2000 of 2914 horizon candidates priced (8 parents)
+[07:03:54]   price_cap: 1987 of 2919 horizon candidates priced (8 parents)
+[07:04:16] depth  3: 7/7 parents -> 221 children (221 unique) -> tried 8, settled 8 (8 in H), kept 7 (3 branches); t_end 4587-4811 d, tank 1059-1882 (211 s: price 152, settle 59)
+[07:04:50] depth  3: 8/8 parents -> 234 children (234 unique) -> tried 8, settled 8 (6 in H), kept 7 (4 branches); t_end 4580-4967 d, tank 1051-1161 (240 s: price 180, settle 60)
+[07:04:54] depth  3: 8/8 parents -> 267 children (267 unique) -> tried 8, settled 8 (8 in H), kept 7 (4 branches); t_end 4589-4814 d, tank 1030-1110 (237 s: price 177, settle 60)
+[07:05:09] depth  3: 8/8 parents -> 381 children (381 unique) -> tried 9, settled 8 (8 in H), kept 8 (5 branches); t_end 4588-4841 d, tank 1027-1080 (267 s: price 176, settle 91)
+[07:05:17]   price_cap: 2000 of 3071 horizon candidates priced (8 parents)
+[07:05:17] depth  3: 7/7 parents -> 240 children (240 unique) -> tried 8, settled 8 (8 in H), kept 7 (3 branches); t_end 4498-4784 d, tank 1060-1109 (275 s: price 159, settle 116)
+[07:06:34] depth  3: 8/8 parents -> 272 children (272 unique) -> tried 8, settled 8 (8 in H), kept 7 (4 branches); t_end 4586-4805 d, tank 1089-1169 (244 s: price 168, settle 77)
+[07:06:45]   price_cap: 1750 of 2548 horizon candidates priced (7 parents)
+[07:07:01] interrupted (Interrupted): slice 8 -- phase files on disk are the resume point

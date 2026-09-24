@@ -1,0 +1,8 @@
+[03:05:22] load: 2975 files (26 new; {'ok': 2975}), 2108 distinct, 48 dominated -> 2060 columns
+[03:05:59]   K>=298 force [] alt 0: The problem is infeasible. (HiGHS Status 8: model_status is 
+[03:06:25]   K>=297 force [] alt 0: 297 covered sum J_i 11.9540; misses [64]; depths [46, 46, 44, 35, 32, 31, 28, 21, 14]
+[03:07:23]   K>=297 force [] alt 1: 297 covered sum J_i 12.0991; misses [33]; depths [46, 46, 44, 34, 32, 31, 27, 23, 14]
+[03:08:39]   K>=297 force [] alt 2: The problem is infeasible. (HiGHS Status 8: model_status is 
+[03:09:05]   K>=296 force [] alt 0: 296 covered sum J_i 11.9041; misses [64, 110]; depths [46, 46, 44, 35, 32, 30, 28, 21, 14]
+[03:10:05]   K>=296 force [] alt 1: 296 covered sum J_i 11.9197; misses [33, 280]; depths [46, 46, 44, 35, 32, 31, 26, 22, 14]
+[03:11:06]   K>=296 force [] alt 2: 296 covered sum J_i 11.9223; misses [64, 172]; depths [46, 46, 44, 35, 32, 31, 28, 20, 14]

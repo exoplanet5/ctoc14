@@ -1,0 +1,47 @@
+[2026-09-24 01:08:12] prefix: route_r1.npz truncated at 540 d -> 4 flybys, honest tank 620.8 kg, miss 3.6 km, honest True (MEASURED 0.1 s)
+[01:08:12] job s00_c0 (craft, craft 0): T 540 d H 540 L 360; remaining 294; prize >1 on 0, tank_prev 620.8
+[01:08:12] prefix craft_0.npz: 4 flybys, t_end 464.5 d, tank 620.8 kg (planner view), miss 3.6 km, nreg 23
+[01:08:12] start: 1 craft state(s), remaining 294, horizon (540, 1080] + L 360 d, B 3 tries 4 k_epochs 3 price_cap 250 max_levels 8 wall 2400 s
+[01:08:17]   price_cap: 250 of 868 horizon candidates priced (1 parents)
+[01:08:17] depth  2: 1/1 parents -> 90 children (90 unique) -> tried 3, settled 3 (3 in H), kept 3; t_end 567-647 d, tank 626-648 (5 s: price 4, settle 1)
+[01:08:32]   price_cap: 750 of 2627 horizon candidates priced (3 parents)
+[01:08:32] depth  3: 3/3 parents -> 266 children (266 unique) -> tried 3, settled 3 (3 in H), kept 3; t_end 605-765 d, tank 626-654 (15 s: price 14, settle 0)
+[01:08:48]   price_cap: 750 of 2608 horizon candidates priced (3 parents)
+[01:08:49] depth  4: 3/3 parents -> 248 children (248 unique) -> tried 3, settled 3 (3 in H), kept 3; t_end 824-835 d, tank 627-646 (16 s: price 16, settle 1)
+[01:09:06]   price_cap: 750 of 2591 horizon candidates priced (3 parents)
+[01:09:07] depth  5: 3/3 parents -> 239 children (239 unique) -> tried 3, settled 3 (3 in H), kept 3; t_end 893-948 d, tank 635-648 (18 s: price 18, settle 1)
+[01:09:25]   price_cap: 750 of 2388 horizon candidates priced (3 parents)
+[01:09:25] depth  6: 3/3 parents -> 183 children (183 unique) -> tried 3, settled 3 (2 in H), kept 3; t_end 907-1103 d, tank 641-674 (18 s: price 17, settle 1)
+[01:09:43]   price_cap: 750 of 2055 horizon candidates priced (3 parents)
+[01:09:44] depth  7: 3/3 parents -> 140 children (140 unique) -> tried 3, settled 3 (0 in H), kept 3; t_end 1106-1168 d, tank 646-650 (19 s: price 18, settle 1)
+[01:10:03]   price_cap: 750 of 1188 horizon candidates priced (3 parents)
+[01:10:04] depth  8: 3/3 parents -> 86 children (86 unique) -> tried 3, settled 3 (0 in H), kept 3; t_end 1156-1249 d, tank 658-664 (19 s: price 18, settle 1)
+[01:10:21]   price_cap: 721 of 966 horizon candidates priced (3 parents)
+[01:10:22] depth  9: 3/3 parents -> 64 children (64 unique) -> tried 3, settled 3 (0 in H), kept 3; t_end 1249-1337 d, tank 664-676 (18 s: price 18, settle 1)
+[01:10:22] beam end {'kind': 'max_levels', 'depth': 9}: 25 settled states, 24 settles (24 ok), wall 130 s (price 124, settle 6)
+[01:10:22] RESULT s00_c0: 14 columns (n_new 1-5, potential 0-3), 25 states, end max_levels, wall 130 s
+[2026-09-24 01:10:22] test-craft: 14 columns, n_new 1-5, 5 with potential > 0; stats {"levels": 8, "n_states": 25, "n_columns": 14, "settles": 24, "settle_ok": 24, "price_s": 123.9, "settle_s": 5.8, "wall_s": 129.6, "end": {"kind": "max_levels", "depth": 9}}
+  k  id                n_new  depth  pot   tank    dtank   miss  t_launch  t_end   classes         targets @ epochs [d]
+           s00_c0_k0      5      6    3   641.0    20.2    4.0      41.0  1034.9  p1/m0/f4  1@647 292@767 202@826 42@893 67@1035
+           s00_c0_k1      5      6    0   673.9    53.1   67.3      41.0   907.3  p1/m1/f3  1@647 292@767 202@826 42@887 181@907
+           s00_c0_k2      4      5    3   635.5    14.6    1.2      41.0   893.1  p1/m0/f3  1@647 292@767 202@826 42@893
+           s00_c0_k3      4      5    0   643.1    22.2    4.9      41.0   948.1  p1/m1/f2  1@647 292@766 59@831 67@948
+           s00_c0_k4      4      5    0   648.3    27.5    6.7      41.0   945.5  p1/m0/f3  1@647 292@767 202@823 67@946
+           s00_c0_k5      3      4    0   627.4     6.6    0.9      41.0   828.9  p1/m1/f1  1@647 292@766 59@829
+           s00_c0_k6      3      4    3   629.7     8.9    1.2      41.0   824.4  p1/m0/f2  1@647 292@767 202@824
+           s00_c0_k7      3      4    0   645.6    24.8    5.8      41.0   835.4  p1/m1/f1  1@652 292@763 125@835
+           s00_c0_k8      2      3    3   626.1     5.3    0.6      41.0   765.3  p1/m0/f1  1@647 292@765
+           s00_c0_k9      2      3    0   647.9    27.1    8.0      41.0   675.2  p1/m1/f0  48@566 45@675
+          s00_c0_k10      2      3    0   653.8    32.9    0.3      41.0   604.6  p1/m0/f1  268@581 68@605
+          s00_c0_k11      1      2    3   625.7     4.8   25.9      41.0   647.5  p1/m0/f0  1@647
+          s00_c0_k12      1      2    0   637.9    17.0   53.5      41.0   567.5  p1/m0/f0  48@567
+          s00_c0_k13      1      2    0   648.1    27.3   69.7      41.0   575.3  p1/m0/f0  268@575
+  level {'depth': 2, 'parents': 1, 'children': 90, 'unique': 90, 'tried': 3, 'settled': 3, 'kept': 3, 'in_H': 3, 'wall_s': 4.9, 'price_s': 4.2, 'settle_s': 0.7, 'n_epochs': 868, 'n_priced': 250, 'drift': 0}
+  level {'depth': 3, 'parents': 3, 'children': 266, 'unique': 266, 'tried': 3, 'settled': 3, 'kept': 3, 'in_H': 3, 'wall_s': 15.0, 'price_s': 14.5, 'settle_s': 0.5, 'n_epochs': 2627, 'n_priced': 750, 'drift': 0}
+  level {'depth': 4, 'parents': 3, 'children': 248, 'unique': 248, 'tried': 3, 'settled': 3, 'kept': 3, 'in_H': 3, 'wall_s': 16.3, 'price_s': 15.8, 'settle_s': 0.6, 'n_epochs': 2608, 'n_priced': 750, 'drift': 0}
+  level {'depth': 5, 'parents': 3, 'children': 239, 'unique': 239, 'tried': 3, 'settled': 3, 'kept': 3, 'in_H': 3, 'wall_s': 18.5, 'price_s': 17.8, 'settle_s': 0.7, 'n_epochs': 2591, 'n_priced': 750, 'drift': 0}
+  level {'depth': 6, 'parents': 3, 'children': 183, 'unique': 183, 'tried': 3, 'settled': 3, 'kept': 3, 'in_H': 2, 'wall_s': 18.3, 'price_s': 17.5, 'settle_s': 0.8, 'n_epochs': 2388, 'n_priced': 750, 'drift': 0}
+  level {'depth': 7, 'parents': 3, 'children': 140, 'unique': 140, 'tried': 3, 'settled': 3, 'kept': 3, 'in_H': 0, 'wall_s': 19.0, 'price_s': 18.1, 'settle_s': 0.9, 'n_epochs': 2055, 'n_priced': 750, 'drift': 0}
+  level {'depth': 8, 'parents': 3, 'children': 86, 'unique': 86, 'tried': 3, 'settled': 3, 'kept': 3, 'in_H': 0, 'wall_s': 19.2, 'price_s': 18.3, 'settle_s': 1.0, 'n_epochs': 1188, 'n_priced': 750, 'drift': 0}
+  level {'depth': 9, 'parents': 3, 'children': 64, 'unique': 64, 'tried': 3, 'settled': 3, 'kept': 3, 'in_H': 0, 'wall_s': 18.4, 'price_s': 17.8, 'settle_s': 0.6, 'n_epochs': 966, 'n_priced': 721, 'drift': 0}
+[2026-09-24 01:10:22] test-craft PASS: run_job MEASURED 129.6 s (cached call 0.00 s); total 129.9 s; result /Users/mickey/solarsystem/ctoc14/results/s18/_wp1_craft_L8/slices/s00/c0/result.json

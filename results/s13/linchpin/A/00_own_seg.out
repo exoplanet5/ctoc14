@@ -1,0 +1,11 @@
+[21:04:22] === 00 cond own builder seg: pool 37 = own 37 + extra 0 []; hard in pool 6; source route 37 fb @ 918.2 kg (8.60 kg/fb)
+[21:04:22]   skeleton: 6 waypoints 111@603 114@1184 193@1426 139@2298 122@2658 265@4893; easy 31
+[21:07:34]     00 segments: 0:111->8st/3fb 1:114->22st/7fb 2:193->44st/9fb 3:139->131st/12fb 4:122->55st/14fb 5:265->364st/25fb 6:None->176st/28fb
+[21:07:34]   build 192 s: 176 states, deepest 28 of pool 37; Pareto 23:797 24:805 25:820 26:824 27:844 28:873
+[21:08:04]     28 pool fb (alt 0): planner 873 -> twin 824.9 kg, 8.03 kg/fb, 0.443 km/s/fb, J_i 1.1865, own 28/37 extra 0/0 (miss 23 km, 31 s)
+[21:08:09]     27 pool fb (alt 0): planner 844 -> twin 774.5 kg, 6.46 kg/fb, 0.367 km/s/fb, J_i 1.1402, own 27/37 extra 0/0 (miss 52 km, 5 s)
+[21:08:14]     26 pool fb (alt 0): planner 824 -> twin 764.7 kg, 6.34 kg/fb, 0.362 km/s/fb, J_i 1.1315, own 26/37 extra 0/0 (miss 57 km, 5 s)
+[21:08:20]     25 pool fb (alt 0): planner 820 -> twin 761.2 kg, 6.45 kg/fb, 0.369 km/s/fb, J_i 1.1284, own 25/37 extra 0/0 (miss 51 km, 6 s)
+[21:08:24]     24 pool fb (alt 0): planner 805 -> twin 755.1 kg, 6.46 kg/fb, 0.372 km/s/fb, J_i 1.1231, own 24/37 extra 0/0 (miss 69 km, 5 s)
+[21:08:28]     23 pool fb (alt 0): planner 797 -> twin 749.3 kg, 6.49 kg/fb, 0.375 km/s/fb, J_i 1.1180, own 23/37 extra 0/0 (miss 39 km, 4 s)
+[21:08:28]   BEST 00: 28/37 pool targets @ 824.9 kg (8.03 kg/fb; source 37 @ 918.2 = 8.60 kg/fb); orphans [11, 73, 112, 163, 197, 222, 228, 245, 275]

@@ -1,0 +1,16 @@
+[11:16:11] s13_master: 16 route files from ['results/s13/plan13/tail_N6a_k5/fleet/route_*.npz', 'results/s13/seed_passes/N6a/route_*.npz'] (excluded ['*/relocated/*']); N 8; budgets 10.55,10.6,10.75
+[11:16:11] 11 distinct columns (load: {'ok': 16}); depth 48..15; union covers 287 of 298
+[11:16:11] --- N <= 8
+[11:16:11]   LP value (sum y <= 8): J >= 37.4757
+[11:16:11]   MILP N<=8: Optimization terminated successfully. (H: 8 craft, 273 covered, sum J_i 10.4757, J 37.4757 (incl. 2 permanent misses)
+[11:16:11]   exact: re-settling 8 picks
+[11:16:21]   exact: results/s13/plan13/tail_N6a_k5/fleet/route_08.npz: tank 771.8 -> 766.1 kg
+[11:16:21]   MILP N<=8: Optimization terminated successfully. (H: 8 craft, 273 covered, sum J_i 10.4667, J 37.4667 (incl. 2 permanent misses)
+[11:16:21]   s13_master N<=8: saved 8 routes -> /Users/mickey/solarsystem/ctoc14/results/s13/gen/g00/master/N8/fleet; covered 273, sum J_i 10.4667, J 37.4667; depths [48, 42, 39, 36, 34, 31, 25, 18]
+[11:16:21]   MILP N<=8, sum J_i<=10.55: Optimization terminated succes: 8 craft, 273 covered, sum J_i 10.4667
+[11:16:21]   s13_master N<=8 sum J_i<=10.55: saved 8 routes -> /Users/mickey/solarsystem/ctoc14/results/s13/gen/g00/master/N8_B10.55/fleet; covered 273, sum J_i 10.4667, J 37.4667; depths [48, 42, 39, 36, 34, 31, 25, 18]
+[11:16:21]   MILP N<=8, sum J_i<=10.6: Optimization terminated succes: 8 craft, 273 covered, sum J_i 10.4667
+[11:16:21]   s13_master N<=8 sum J_i<=10.6: saved 8 routes -> /Users/mickey/solarsystem/ctoc14/results/s13/gen/g00/master/N8_B10.6/fleet; covered 273, sum J_i 10.4667, J 37.4667; depths [48, 42, 39, 36, 34, 31, 25, 18]
+[11:16:21]   MILP N<=8, sum J_i<=10.75: Optimization terminated succes: 8 craft, 273 covered, sum J_i 10.4667
+[11:16:21]   s13_master N<=8 sum J_i<=10.75: saved 8 routes -> /Users/mickey/solarsystem/ctoc14/results/s13/gen/g00/master/N8_B10.75/fleet; covered 273, sum J_i 10.4667, J 37.4667; depths [48, 42, 39, 36, 34, 31, 25, 18]
+[11:16:21] master done (10.3 s) -> /Users/mickey/solarsystem/ctoc14/results/s13/gen/g00/master/master.json

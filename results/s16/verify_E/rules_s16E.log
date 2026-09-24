@@ -1,0 +1,54 @@
+token-count histogram over data lines: {15: 47598}
+data lines 47598; Line col == 1..N: True; Line>0: True
+SC_IDs: [1, 2, 3, 4, 5, 6, 7, 8, 9]  sorted ascending: True
+Event histogram: {0: 9, 1: 47282, 3: 298, 4: 9}
+Time range: [np.float64(0.0), np.float64(473040060.0)] (window [0, 473364000.0])
+non-Event1 lines with any nonzero thrust component: 0
+max sample |T| on Event=1 lines: np.float64(0.44107330443138276) N; count > 0.5: 0
+arcs: 9 (per craft {np.int64(1): 1, np.int64(2): 1, np.int64(3): 1, np.int64(4): 1, np.int64(5): 1, np.int64(6): 1, np.int64(7): 1, np.int64(8): 1, np.int64(9): 1}); samples/arc min 4438 max 5475
+min Event=1 spacing inside arcs: np.float64(86400.0) s ; min gap last-sample->first-sample across an arc boundary: inf s (0 < 8640)
+Event=1 spacing inside arcs: distinct values (rounded 1e-6) [86400.0]
+
+Launch:
+  SC 1: t=3542400.0s |dr|=0.0000 m (alt 0.0004 m) v_inf=2.544455152722 (alt 2.544455152722) km/s m0=948.66217321326735 ok
+  SC 2: t=0.0s |dr|=0.0001 m (alt 0.0001 m) v_inf=2.459775824401 (alt 2.459775824401) km/s m0=911.46294765533219 ok
+  SC 3: t=7603200.0s |dr|=0.0000 m (alt 0.0007 m) v_inf=3.493985318538 (alt 3.493985318538) km/s m0=989.34884788477962 ok
+  SC 4: t=0.0s |dr|=0.0001 m (alt 0.0001 m) v_inf=3.838458594782 (alt 3.838458594782) km/s m0=916.54954890865667 ok
+  SC 5: t=6912000.0s |dr|=0.0000 m (alt 0.0004 m) v_inf=2.899107984341 (alt 2.899107984341) km/s m0=959.70321903968261 ok
+  SC 6: t=0.0s |dr|=0.0001 m (alt 0.0001 m) v_inf=3.943444826562 (alt 3.943444826562) km/s m0=902.9980973101616 ok
+  SC 7: t=1296000.0s |dr|=0.0000 m (alt 0.0001 m) v_inf=2.481916138990 (alt 2.481916138990) km/s m0=1019.5404980878105 ok
+  SC 8: t=1641600.0s |dr|=0.0000 m (alt 0.0005 m) v_inf=3.435549550166 (alt 3.435549550166) km/s m0=929.07325948902383 ok
+  SC 9: t=81561600.0s |dr|=0.0000 m (alt 0.0005 m) v_inf=2.266800917439 (alt 2.266800917439) km/s m0=904.62075530671939 ok
+
+thrust segments 47571; exact max interpolated |T| = 0.459718681 N at file line 11021 (window n=4); dense-401 max = 0.459718646 N; #segments > 0.5: 0
+  top-5 segments: 0.459719@11021(SC3), 0.441270@11017(SC3), 0.441237@11018(SC3), 0.441073@11019(SC3), 0.440932@11016(SC3)
+
+coast segments 18: max|dr| 2.107e-08 km, max|dv| 5.044e-12 m/s, max|dm| 0.000e+00 kg
+thrust segments 47571: max|dr| 4.772e-07 km, max|dv| 3.376e-09 m/s, max|dm| 3.457e-06 kg; longest 1.0000 d; min integrated end mass 600.162583 kg
+  SC 1: lines 5441, t_end 469843260.0 s, final mass np.float64(600.4060461009029)
+  SC 2: lines 5378, t_end 460944060.0 s, final mass np.float64(600.1625829092771)
+  SC 3: lines 5401, t_end 470534460.0 s, final mass np.float64(600.4958872386545)
+  SC 4: lines 5515, t_end 473040060.0 s, final mass np.float64(600.8206572348981)
+  SC 5: lines 5415, t_end 471916860.0 s, final mass np.float64(600.9476210440978)
+  SC 6: lines 5454, t_end 468460860.0 s, final mass np.float64(600.7797900811654)
+  SC 7: lines 5433, t_end 467942460.0 s, final mass np.float64(600.2998740864704)
+  SC 8: lines 5100, t_end 440035260.0 s, final mass np.float64(600.7752107764218)
+  SC 9: lines 4461, t_end 465004860.0 s, final mass np.float64(600.853482531881)
+
+Event=3 lines: 298
+  distance max 700.843118 km (bisection 700.843118, f&g 700.843118); max |d1-d2| 2.570e-06 km; #>1000: 0; #>900: 0; rel-speed 5.508..42.888 km/s
+  distinct covered 298; repeat/uncounted Event=3 lines 0; missing [131, 144]
+  SC 1: Event=3 42, first-detections 42, max d 700.843 km
+  SC 2: Event=3 41, first-detections 41, max d 455.507 km
+  SC 3: Event=3 41, first-detections 41, max d 259.753 km
+  SC 4: Event=3 38, first-detections 38, max d 86.014 km
+  SC 5: Event=3 31, first-detections 31, max d 89.148 km
+  SC 6: Event=3 30, first-detections 30, max d 258.761 km
+  SC 7: Event=3 30, first-detections 30, max d 88.300 km
+  SC 8: Event=3 24, first-detections 24, max d 304.774 km
+  SC 9: Event=3 21, first-detections 21, max d 312.015 km
+
+N=9 sum J_i = 11.746635308 (exact-decimal 11.746635308000); N_miss=2; J = 13.746635308 (exact 13.746635308000)
+
+VIOLATIONS: 0  by kind {}
+~/.venvs/astro313/bin/python results/s16/verify_E/rules_indep_check.py   9.99s user 0.11s system 98% cpu 10.217 total

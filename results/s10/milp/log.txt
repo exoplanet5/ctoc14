@@ -1,0 +1,200 @@
+[15:52:34] settling 240 carrier bases (dmax 0.25 AU)
+[15:53:12]   20 settled, 0 failed (38 s)
+[15:53:54]   40 settled, 0 failed (80 s)
+[15:54:31]   60 settled, 0 failed (117 s)
+[15:55:16]   80 settled, 0 failed (161 s)
+[15:55:58]   100 settled, 0 failed (204 s)
+[15:56:55]   120 settled, 0 failed (261 s)
+[15:57:31]   140 settled, 0 failed (297 s)
+[15:58:10]   160 settled, 0 failed (336 s)
+[15:58:50]   180 settled, 0 failed (376 s)
+[15:59:25]   200 settled, 0 failed (410 s)
+[16:00:14]   220 settled, 0 failed (460 s)
+[16:02:09] 239 bases settled, 1 failed in 575 s
+[16:02:09]   base depth 5-22 (median 17); base tank 618-944 kg (median 686); union of bases covers 273 targets
+[16:02:09] -> results/s10/milp/bases.json
+[16:02:45] === MILP over 239 carriers, dmax 0.08 AU, pmin 0.25, band 4, max_added 32, risk False
+[16:02:45]   65556 (carrier,target,band) columns, 8 bands; 8890 distinct (carrier,target) pairs; reachable targets 297/298
+[16:02:46]   MILP 66332 vars (239 y, 65556 x, 298 z, 239 J), 5317 rows, 995467 nnz
+[16:03:12]   LP bound  sum J_i 9.7056  -> J 11.7056   (27 s)
+[16:03:13]   MILP 66332 vars (239 y, 65556 x, 298 z, 239 J), 5317 rows, 995467 nnz
+[16:18:14]   MILP Time limit reached. (HiGHS Status 13: Time limit reached): 29 craft, 297 covered, predicted sum J_i 31.8488, J 34.8488  (HiGHS obj 32.8438, dual bound 12.6301)   (901 s)
+[16:18:14]    carrier   36: base 21 @ 765 kg +  5 assigned = 26 fb, predicted tank 815 kg, J_i 1.1775 (0.0453 J/fb); kg 3 8 10 26 3
+[16:18:14]    carrier  153: base 19 @ 729 kg +  7 assigned = 26 fb, predicted tank 867 kg, J_i 1.2270 (0.0472 J/fb); kg 39 20 28 21 7 10 15
+[16:18:14]    carrier  108: base 19 @ 690 kg +  6 assigned = 25 fb, predicted tank 756 kg, J_i 1.1237 (0.0449 J/fb); kg 8 9 8 5 16 20
+[16:18:14]    carrier   78: base 20 @ 694 kg +  4 assigned = 24 fb, predicted tank 800 kg, J_i 1.1629 (0.0485 J/fb); kg 7 14 42 43
+[16:18:14]    carrier   66: base 19 @ 681 kg +  4 assigned = 23 fb, predicted tank 714 kg, J_i 1.0881 (0.0473 J/fb); kg 6 3 9 15
+[16:18:14]    carrier   74: base 19 @ 685 kg +  4 assigned = 23 fb, predicted tank 736 kg, J_i 1.1067 (0.0481 J/fb); kg 18 15 6 12
+[16:18:14]    carrier   75: base 17 @ 653 kg +  6 assigned = 23 fb, predicted tank 703 kg, J_i 1.0790 (0.0469 J/fb); kg 9 6 8 10 9 9
+[16:18:14]    carrier   96: base 18 @ 698 kg +  5 assigned = 23 fb, predicted tank 727 kg, J_i 1.0991 (0.0478 J/fb); kg 3 9 7 7 3
+[16:18:14]    carrier  103: base 20 @ 692 kg +  3 assigned = 23 fb, predicted tank 731 kg, J_i 1.1025 (0.0479 J/fb); kg 6 7 27
+[16:18:14]    carrier  173: base 16 @ 705 kg +  5 assigned = 21 fb, predicted tank 818 kg, J_i 1.1803 (0.0562 J/fb); kg 10 9 8 78 8
+[16:18:14]    carrier   22: base 17 @ 747 kg +  3 assigned = 20 fb, predicted tank 777 kg, J_i 1.1425 (0.0571 J/fb); kg 4 9 17
+[16:18:14]    carrier  167: base 16 @ 644 kg +  4 assigned = 20 fb, predicted tank 682 kg, J_i 1.0620 (0.0531 J/fb); kg 7 21 4 6
+[16:18:14]    carrier  188: base 15 @ 659 kg +  5 assigned = 20 fb, predicted tank 706 kg, J_i 1.0817 (0.0541 J/fb); kg 7 3 22 11 4
+[16:18:14]    carrier  194: base 17 @ 683 kg +  3 assigned = 20 fb, predicted tank 708 kg, J_i 1.0835 (0.0542 J/fb); kg 4 10 12
+[16:18:14]    carrier  206: base 14 @ 651 kg +  6 assigned = 20 fb, predicted tank 753 kg, J_i 1.1215 (0.0561 J/fb); kg 48 23 4 11 6 11
+[16:18:14]    carrier  216: base 15 @ 672 kg +  5 assigned = 20 fb, predicted tank 726 kg, J_i 1.0977 (0.0549 J/fb); kg 5 20 14 9 5
+[16:18:14]    carrier   95: base 18 @ 688 kg +  1 assigned = 19 fb, predicted tank 692 kg, J_i 1.0701 (0.0563 J/fb); kg 4
+[16:18:14]    carrier  165: base 16 @ 715 kg +  3 assigned = 19 fb, predicted tank 752 kg, J_i 1.1200 (0.0589 J/fb); kg 8 25 3
+[16:18:14]    carrier  171: base 13 @ 698 kg +  6 assigned = 19 fb, predicted tank 731 kg, J_i 1.1026 (0.0580 J/fb); kg 3 7 3 3 14 4
+[16:18:14]    carrier  232: base 16 @ 660 kg +  2 assigned = 18 fb, predicted tank 694 kg, J_i 1.0713 (0.0595 J/fb); kg 22 12
+[16:18:14]    carrier  191: base 15 @ 657 kg +  2 assigned = 17 fb, predicted tank 685 kg, J_i 1.0645 (0.0626 J/fb); kg 13 15
+[16:18:14]    carrier  205: base 12 @ 634 kg +  5 assigned = 17 fb, predicted tank 676 kg, J_i 1.0572 (0.0622 J/fb); kg 5 9 9 9 9
+[16:18:14]    carrier  218: base 15 @ 664 kg +  2 assigned = 17 fb, predicted tank 672 kg, J_i 1.0540 (0.0620 J/fb); kg 5 3
+[16:18:14]    carrier  164: base 10 @ 624 kg +  6 assigned = 16 fb, predicted tank 662 kg, J_i 1.0462 (0.0654 J/fb); kg 4 11 5 10 6 3
+[16:18:14]    carrier  229: base 14 @ 748 kg +  2 assigned = 16 fb, predicted tank 762 kg, J_i 1.1289 (0.0706 J/fb); kg 5 9
+[16:18:14]    carrier  222: base 14 @ 643 kg +  1 assigned = 15 fb, predicted tank 648 kg, J_i 1.0355 (0.0690 J/fb); kg 5
+[16:18:14]    carrier   49: base 11 @ 685 kg +  3 assigned = 14 fb, predicted tank 712 kg, J_i 1.0865 (0.0776 J/fb); kg 6 14 7
+[16:18:14]    carrier  235: base  9 @ 642 kg +  3 assigned = 12 fb, predicted tank 669 kg, J_i 1.0515 (0.0876 J/fb); kg 13 6 8
+[16:18:14]    carrier  239: base  9 @ 622 kg +  3 assigned = 12 fb, predicted tank 634 kg, J_i 1.0248 (0.0854 J/fb); kg 4 5 3
+[16:18:14]    missed: [110]
+[16:18:14] -> results/s10/milp/plan_d08.json
+[16:43:58] === BUILD 10 routes, predicted sum J_i 15.5319
+[16:53:55]   carrier   90: 12/15 inserted -> 29 fb @ 1298 kg (predicted 1154), J_i 1.7472 (0.0602 J/fb), failed [156, 23, 107]  (597 s)
+[16:53:55]         24 d 0.048 AU: predicted   15.1 kg, real   63.5 kg
+[16:53:55]        209 d 0.108 AU: predicted   18.9 kg, real   20.2 kg
+[16:53:55]        101 d 0.112 AU: predicted   25.7 kg, real   96.3 kg
+[16:53:55]        132 d 0.091 AU: predicted   31.3 kg, real   24.2 kg
+[16:53:55]        213 d 0.079 AU: predicted   21.5 kg, real   14.7 kg
+[16:53:55]        223 d 0.038 AU: predicted    8.9 kg, real   19.9 kg
+[16:53:55]         10 d 0.099 AU: predicted   32.2 kg, real   15.7 kg
+[16:53:55]        290 d 0.080 AU: predicted   56.1 kg, real   35.9 kg
+[16:53:55]        274 d 0.076 AU: predicted   25.1 kg, real  110.1 kg
+[16:53:55]        203 d 0.103 AU: predicted   45.4 kg, real   47.2 kg
+[16:53:55]         98 d 0.094 AU: predicted   31.3 kg, real  147.8 kg
+[16:53:55]        146 d 0.107 AU: predicted   29.7 kg, real   18.8 kg
+[16:57:13]   carrier  159: 12/14 inserted -> 28 fb @ 1294 kg (predicted 959), J_i 1.7420 (0.0622 J/fb), failed [34, 9]  (795 s)
+[16:57:13]        275 d 0.033 AU: predicted    6.5 kg, real   12.0 kg
+[16:57:13]        147 d 0.069 AU: predicted   10.7 kg, real   -0.1 kg
+[16:57:13]        192 d 0.116 AU: predicted   29.0 kg, real   84.5 kg
+[16:57:13]         58 d 0.082 AU: predicted   13.8 kg, real   57.5 kg
+[16:57:13]        184 d 0.054 AU: predicted   10.2 kg, real    2.8 kg
+[16:57:13]         32 d 0.029 AU: predicted   19.0 kg, real   28.4 kg
+[16:57:13]         51 d 0.025 AU: predicted    3.6 kg, real   11.8 kg
+[16:57:13]        126 d 0.082 AU: predicted   35.3 kg, real   40.8 kg
+[16:57:13]        118 d 0.062 AU: predicted   12.9 kg, real  141.2 kg
+[16:57:13]         81 d 0.119 AU: predicted   28.2 kg, real  185.2 kg
+[16:57:13]        215 d 0.074 AU: predicted   14.6 kg, real   46.6 kg
+[16:57:13]         43 d 0.119 AU: predicted   73.7 kg, real   -0.7 kg
+[16:58:48]   carrier  153: 13/17 inserted -> 32 fb @ 1431 kg (predicted 1391), J_i 1.9454 (0.0608 J/fb), failed [282, 138, 231, 158]  (890 s)
+[16:58:48]        133 d 0.035 AU: predicted    9.6 kg, real    6.7 kg
+[16:58:48]         86 d 0.043 AU: predicted   16.9 kg, real   23.0 kg
+[16:58:48]         62 d 0.061 AU: predicted   19.7 kg, real   18.3 kg
+[16:58:48]        166 d 0.042 AU: predicted   20.8 kg, real   47.3 kg
+[16:58:48]          4 d 0.031 AU: predicted   24.1 kg, real    7.0 kg
+[16:58:48]        206 d 0.103 AU: predicted   27.8 kg, real   36.4 kg
+[16:58:48]        187 d 0.111 AU: predicted   33.6 kg, real   82.9 kg
+[16:58:48]        258 d 0.099 AU: predicted   52.5 kg, real  119.3 kg
+[16:58:48]        167 d 0.109 AU: predicted   73.4 kg, real   34.4 kg
+[16:58:48]         40 d 0.111 AU: predicted  122.7 kg, real  176.3 kg
+[16:58:48]         59 d 0.028 AU: predicted   11.4 kg, real   38.3 kg
+[16:58:48]        169 d 0.038 AU: predicted   18.9 kg, real   29.5 kg
+[16:58:48]        228 d 0.007 AU: predicted    9.2 kg, real   82.7 kg
+[16:59:07]   carrier  173: 13/17 inserted -> 29 fb @ 1379 kg (predicted 1208), J_i 1.8655 (0.0643 J/fb), failed [234, 165, 26, 266]  (909 s)
+[16:59:07]        160 d 0.043 AU: predicted    8.5 kg, real   28.9 kg
+[16:59:07]         82 d 0.064 AU: predicted   32.2 kg, real   44.0 kg
+[16:59:07]        216 d 0.073 AU: predicted   41.1 kg, real   86.7 kg
+[16:59:07]        248 d 0.117 AU: predicted   48.1 kg, real    1.9 kg
+[16:59:07]         22 d 0.062 AU: predicted   91.0 kg, real  128.2 kg
+[16:59:07]         50 d 0.103 AU: predicted   20.9 kg, real   39.0 kg
+[16:59:07]         66 d 0.101 AU: predicted   22.3 kg, real   62.6 kg
+[16:59:07]        236 d 0.099 AU: predicted   32.7 kg, real   79.8 kg
+[16:59:07]         91 d 0.048 AU: predicted   10.5 kg, real   67.6 kg
+[16:59:07]        221 d 0.037 AU: predicted   14.6 kg, real   49.5 kg
+[16:59:07]         65 d 0.060 AU: predicted   21.1 kg, real   41.3 kg
+[16:59:07]        116 d 0.044 AU: predicted   12.7 kg, real    3.5 kg
+[16:59:07]        286 d 0.086 AU: predicted   35.0 kg, real   40.5 kg
+[16:59:13]   carrier  205: 18/20 inserted -> 30 fb @ 1448 kg (predicted 1011), J_i 1.9727 (0.0658 J/fb), failed [142, 242]  (915 s)
+[16:59:13]         92 d 0.046 AU: predicted    6.4 kg, real   15.9 kg
+[16:59:13]        124 d 0.051 AU: predicted    8.8 kg, real   16.3 kg
+[16:59:13]        207 d 0.068 AU: predicted   15.8 kg, real   91.7 kg
+[16:59:13]        208 d 0.105 AU: predicted   16.5 kg, real   18.3 kg
+[16:59:13]        104 d 0.060 AU: predicted   14.7 kg, real   82.8 kg
+[16:59:13]        120 d 0.079 AU: predicted   11.7 kg, real   61.0 kg
+[16:59:13]        259 d 0.038 AU: predicted   28.5 kg, real   17.7 kg
+[16:59:13]         12 d 0.015 AU: predicted    3.1 kg, real    5.0 kg
+[16:59:13]        238 d 0.077 AU: predicted   17.8 kg, real   -1.2 kg
+[16:59:13]        260 d 0.067 AU: predicted   19.6 kg, real   80.7 kg
+[16:59:13]        159 d 0.060 AU: predicted   53.1 kg, real   11.9 kg
+[16:59:13]        254 d 0.073 AU: predicted   15.2 kg, real   50.2 kg
+[16:59:13]         67 d 0.057 AU: predicted   21.0 kg, real  112.6 kg
+[16:59:13]         93 d 0.091 AU: predicted   50.5 kg, real    6.5 kg
+[16:59:13]         13 d 0.053 AU: predicted   18.3 kg, real   71.8 kg
+[16:59:13]        291 d 0.026 AU: predicted    4.2 kg, real   14.7 kg
+[16:59:13]        299 d 0.065 AU: predicted   12.5 kg, real   65.0 kg
+[16:59:13]         88 d 0.036 AU: predicted   24.6 kg, real   93.5 kg
+[16:59:19]   carrier  232: 13/15 inserted -> 29 fb @ 1212 kg (predicted 1102), J_i 1.6286 (0.0562 J/fb), failed [140, 295]  (921 s)
+[16:59:19]        161 d 0.092 AU: predicted   11.3 kg, real   35.4 kg
+[16:59:19]         96 d 0.043 AU: predicted   21.5 kg, real   10.5 kg
+[16:59:19]        288 d 0.031 AU: predicted   34.2 kg, real   67.9 kg
+[16:59:19]        110 d 0.105 AU: predicted   42.8 kg, real   35.7 kg
+[16:59:19]         94 d 0.116 AU: predicted   45.6 kg, real   12.2 kg
+[16:59:19]         75 d 0.099 AU: predicted   49.8 kg, real   67.4 kg
+[16:59:19]         39 d 0.076 AU: predicted   69.8 kg, real  -20.9 kg
+[16:59:19]        212 d 0.053 AU: predicted   15.5 kg, real    4.8 kg
+[16:59:19]        225 d 0.056 AU: predicted   12.4 kg, real   99.9 kg
+[16:59:19]         77 d 0.043 AU: predicted   47.1 kg, real   42.0 kg
+[16:59:19]        179 d 0.079 AU: predicted   19.3 kg, real   41.6 kg
+[16:59:19]        284 d 0.072 AU: predicted   22.4 kg, real   73.9 kg
+[16:59:19]         15 d 0.088 AU: predicted   26.1 kg, real   82.4 kg
+[17:00:43]   carrier  112: 11/18 inserted -> 29 fb @ 1447 kg (predicted 1273), J_i 1.9707 (0.0680 J/fb), failed [14, 218, 182, 174, 8, 220, 127]  (1005 s)
+[17:00:43]        246 d 0.032 AU: predicted    7.0 kg, real    2.6 kg
+[17:00:43]        145 d 0.070 AU: predicted   11.8 kg, real    1.1 kg
+[17:00:43]        176 d 0.009 AU: predicted   17.6 kg, real    0.9 kg
+[17:00:43]        278 d 0.048 AU: predicted   38.0 kg, real   23.0 kg
+[17:00:43]        224 d 0.077 AU: predicted   59.0 kg, real   20.3 kg
+[17:00:43]         90 d 0.088 AU: predicted   78.8 kg, real   76.7 kg
+[17:00:43]        211 d 0.056 AU: predicted   11.6 kg, real   77.5 kg
+[17:00:43]         79 d 0.051 AU: predicted   34.3 kg, real  346.1 kg
+[17:00:43]         85 d 0.058 AU: predicted   17.3 kg, real   41.0 kg
+[17:00:43]        197 d 0.034 AU: predicted   13.5 kg, real   36.9 kg
+[17:00:43]        292 d 0.013 AU: predicted    3.9 kg, real    2.0 kg
+[17:00:55]   carrier  122: 15/21 inserted -> 29 fb @ 1318 kg (predicted 1236), J_i 1.7758 (0.0612 J/fb), failed [95, 178, 135, 47, 283, 171]  (1017 s)
+[17:00:55]        264 d 0.017 AU: predicted    2.7 kg, real    5.7 kg
+[17:00:55]         74 d 0.040 AU: predicted    8.7 kg, real   35.2 kg
+[17:00:55]         84 d 0.087 AU: predicted   11.2 kg, real   29.3 kg
+[17:00:55]        219 d 0.098 AU: predicted   27.3 kg, real   36.2 kg
+[17:00:55]        200 d 0.080 AU: predicted   33.5 kg, real   35.2 kg
+[17:00:55]        100 d 0.119 AU: predicted   43.6 kg, real   10.9 kg
+[17:00:55]          7 d 0.045 AU: predicted   89.5 kg, real  206.4 kg
+[17:00:55]        249 d 0.064 AU: predicted  113.2 kg, real   -8.9 kg
+[17:00:55]        173 d 0.012 AU: predicted   24.1 kg, real   63.2 kg
+[17:00:55]        279 d 0.074 AU: predicted   12.4 kg, real  148.8 kg
+[17:00:55]         41 d 0.043 AU: predicted   18.4 kg, real    6.2 kg
+[17:00:55]        188 d 0.108 AU: predicted   26.1 kg, real   63.5 kg
+[17:00:55]        298 d 0.074 AU: predicted   23.8 kg, real   14.4 kg
+[17:00:55]        281 d 0.041 AU: predicted    9.9 kg, real   -0.3 kg
+[17:00:55]         19 d 0.030 AU: predicted    7.0 kg, real   31.7 kg
+[17:01:10]   carrier   82: 11/16 inserted -> 21 fb @ 1222 kg (predicted 953), J_i 1.6414 (0.0782 J/fb), failed [38, 113, 27, 61, 293]  (1032 s)
+[17:01:10]        143 d 0.037 AU: predicted    4.9 kg, real    6.8 kg
+[17:01:10]          3 d 0.075 AU: predicted    6.4 kg, real   36.9 kg
+[17:01:10]         87 d 0.105 AU: predicted   15.7 kg, real   10.4 kg
+[17:01:10]        152 d 0.069 AU: predicted   66.7 kg, real  143.3 kg
+[17:01:10]        235 d 0.043 AU: predicted    4.3 kg, real   17.5 kg
+[17:01:10]        262 d 0.057 AU: predicted    8.3 kg, real   10.3 kg
+[17:01:10]        175 d 0.070 AU: predicted   11.3 kg, real    5.4 kg
+[17:01:10]        255 d 0.050 AU: predicted    6.8 kg, real   29.2 kg
+[17:01:10]        270 d 0.090 AU: predicted   15.8 kg, real   83.8 kg
+[17:01:10]        237 d 0.049 AU: predicted   17.5 kg, real  140.4 kg
+[17:01:10]         44 d 0.038 AU: predicted    6.0 kg, real   56.9 kg
+[17:01:49]   carrier  216: 16/24 inserted -> 31 fb @ 1376 kg (predicted 1187), J_i 1.8622 (0.0601 J/fb), failed [78, 232, 18, 130, 177, 296, 149, 1]  (1072 s)
+[17:01:49]        114 d 0.074 AU: predicted    8.4 kg, real    3.3 kg
+[17:01:49]        201 d 0.093 AU: predicted   11.4 kg, real   48.2 kg
+[17:01:49]        287 d 0.068 AU: predicted   14.3 kg, real    7.7 kg
+[17:01:49]        280 d 0.054 AU: predicted   17.9 kg, real    3.9 kg
+[17:01:49]        123 d 0.084 AU: predicted   22.4 kg, real    5.0 kg
+[17:01:49]        137 d 0.102 AU: predicted   23.5 kg, real    9.2 kg
+[17:01:49]        151 d 0.085 AU: predicted   38.7 kg, real  160.7 kg
+[17:01:49]        153 d 0.051 AU: predicted   12.1 kg, real   85.4 kg
+[17:01:49]         21 d 0.074 AU: predicted   17.2 kg, real   37.7 kg
+[17:01:49]        300 d 0.040 AU: predicted    6.9 kg, real   44.3 kg
+[17:01:49]        289 d 0.113 AU: predicted   23.7 kg, real   18.3 kg
+[17:01:49]        141 d 0.019 AU: predicted    9.1 kg, real    5.0 kg
+[17:01:49]         30 d 0.019 AU: predicted   11.0 kg, real   84.7 kg
+[17:01:49]        106 d 0.064 AU: predicted   14.9 kg, real   35.2 kg
+[17:01:49]         89 d 0.046 AU: predicted   12.5 kg, real   66.1 kg
+[17:01:49]        256 d 0.068 AU: predicted   20.6 kg, real   90.2 kg
+[17:01:49] BUILT: 10 craft, covered 244/298, settled sum J_i 18.1516, J 74.1516  (MILP predicted sum J_i 15.5319, gap +2.6197)
+[17:01:49]   uncovered 54: [1, 8, 9, 11, 14, 18, 23, 26, 27, 34, 38, 47, 61, 64, 78, 95, 107, 108, 113, 119, 127, 130, 135, 138, 139, 140, 142, 149, 156, 157, 158, 165, 171, 174, 177, 178, 180, 182, 185, 218, 220, 231, 232, 233, 234, 242, 243, 266, 276, 282, 283, 293, 295, 296]
+[17:01:49]   -> results/s10/milp/fleet, results/s10/milp/routes/route_*.npz

@@ -1,0 +1,5 @@
+[14:20:35] START p17_claims_relax --H 540 --L 360 --claims --claim-bonus 1.0 --claim-ttl 4 --seed 17 --job-grace 900
+[14:59:44] END p17_claims_relax: [14:59:43] [slice 9 T=4860 d] launched 8/8  covered 237  remaining 61  fuel 3480 kg  sumJi 11.2608  chosen: c0
+[15:00:04] START p18_claims_relax_lam05 --H 540 --L 360 --claims --claim-bonus 1.0 --claim-ttl 4 --lam 0.5 --seed 18 --job-grace 900
+[15:00:22] END p18_claims_relax_lam05: [15:00:04] [slice 0 T=0 d] propose: 9 jobs (0 craft, 9 root) on 9 workers, proposer planbeam, H_eff 540 d, lam
+[15:00:22] PORTFOLIO5 DONE

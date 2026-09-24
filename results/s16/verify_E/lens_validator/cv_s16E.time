@@ -1,0 +1,1 @@
+~/.venvs/astro313/bin/python -m ctoc14.validator  >  2>&1  1311.85s user 4.43s system 96% cpu 22:43.60 total

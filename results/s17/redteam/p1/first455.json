@@ -1,0 +1,357 @@
+[
+ {
+  "maxcov": false,
+  "N": 9,
+  "K": 298,
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "sec": 0,
+  "dual_bound": 11.7227,
+  "nC": 455,
+  "nA": 3671,
+  "obj": 11.7227,
+  "covered": 298,
+  "base_sumJi": 11.7227,
+  "arcs_dJ": 0,
+  "convex_sumJi": 11.7227,
+  "misses": [],
+  "columns": [
+   {
+    "key": "fleet_r6",
+    "file": "results/s16/best/fleet/route_r6.npz",
+    "n": 30,
+    "tank": 901.5,
+    "J_i": 1.2618,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r9",
+    "file": "results/s16/best/fleet/route_r9.npz",
+    "n": 21,
+    "tank": 902.8,
+    "J_i": 1.2631,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r2",
+    "file": "results/s16/best/fleet/route_r2.npz",
+    "n": 41,
+    "tank": 908.9,
+    "J_i": 1.2693,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r4",
+    "file": "results/s16/best/fleet/route_r4.npz",
+    "n": 38,
+    "tank": 913.1,
+    "J_i": 1.2737,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r8",
+    "file": "results/s16/best/fleet/route_r8.npz",
+    "n": 24,
+    "tank": 927.2,
+    "J_i": 1.2884,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r1",
+    "file": "results/s16/best/fleet/route_r1.npz",
+    "n": 42,
+    "tank": 944.4,
+    "J_i": 1.3065,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r5",
+    "file": "results/s16/best/fleet/route_r5.npz",
+    "n": 31,
+    "tank": 958.1,
+    "J_i": 1.3212,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r3",
+    "file": "results/s16/best/fleet/route_r3.npz",
+    "n": 41,
+    "tank": 986.3,
+    "J_i": 1.3521,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r7",
+    "file": "results/s16/best/fleet/route_r7.npz",
+    "n": 30,
+    "tank": 1017.1,
+    "J_i": 1.3867,
+    "add_kg": 0.0
+   }
+  ],
+  "arcs": [],
+  "overlap": 0,
+  "thr": 0.08,
+  "cap": 150.0,
+  "nfirst": 455
+ },
+ {
+  "maxcov": false,
+  "N": 9,
+  "K": 298,
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "sec": 0,
+  "dual_bound": 11.7227,
+  "nC": 455,
+  "nA": 4467,
+  "obj": 11.7227,
+  "covered": 298,
+  "base_sumJi": 11.7227,
+  "arcs_dJ": 0,
+  "convex_sumJi": 11.7227,
+  "misses": [],
+  "columns": [
+   {
+    "key": "fleet_r6",
+    "file": "results/s16/best/fleet/route_r6.npz",
+    "n": 30,
+    "tank": 901.5,
+    "J_i": 1.2618,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r9",
+    "file": "results/s16/best/fleet/route_r9.npz",
+    "n": 21,
+    "tank": 902.8,
+    "J_i": 1.2631,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r2",
+    "file": "results/s16/best/fleet/route_r2.npz",
+    "n": 41,
+    "tank": 908.9,
+    "J_i": 1.2693,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r4",
+    "file": "results/s16/best/fleet/route_r4.npz",
+    "n": 38,
+    "tank": 913.1,
+    "J_i": 1.2737,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r8",
+    "file": "results/s16/best/fleet/route_r8.npz",
+    "n": 24,
+    "tank": 927.2,
+    "J_i": 1.2884,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r1",
+    "file": "results/s16/best/fleet/route_r1.npz",
+    "n": 42,
+    "tank": 944.4,
+    "J_i": 1.3065,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r5",
+    "file": "results/s16/best/fleet/route_r5.npz",
+    "n": 31,
+    "tank": 958.1,
+    "J_i": 1.3212,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r3",
+    "file": "results/s16/best/fleet/route_r3.npz",
+    "n": 41,
+    "tank": 986.3,
+    "J_i": 1.3521,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r7",
+    "file": "results/s16/best/fleet/route_r7.npz",
+    "n": 30,
+    "tank": 1017.1,
+    "J_i": 1.3867,
+    "add_kg": 0.0
+   }
+  ],
+  "arcs": [],
+  "overlap": 0,
+  "thr": 0.15,
+  "cap": 150.0,
+  "nfirst": 455
+ },
+ {
+  "maxcov": true,
+  "N": 8,
+  "K": 0,
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "sec": 89,
+  "dual_bound": -285.0063,
+  "nC": 455,
+  "nA": 4467,
+  "obj": 11.0072,
+  "covered": 285,
+  "base_sumJi": 10.8874,
+  "arcs_dJ": 0.1198,
+  "convex_sumJi": 11.0082,
+  "misses": [
+   17,
+   36,
+   75,
+   108,
+   118,
+   180,
+   216,
+   219,
+   220,
+   243,
+   247,
+   258,
+   288
+  ],
+  "columns": [
+   {
+    "key": "85a70b7f6a3b1af0",
+    "file": "results/s16/honest/route_85a70b7f6a3b1af0.npz",
+    "n": 36,
+    "tank": 894.8,
+    "J_i": 1.2549,
+    "add_kg": 5.3
+   },
+   {
+    "key": "fleet_r6",
+    "file": "results/s16/best/fleet/route_r6.npz",
+    "n": 30,
+    "tank": 901.5,
+    "J_i": 1.2618,
+    "add_kg": 51.5
+   },
+   {
+    "key": "fleet_r8",
+    "file": "results/s16/best/fleet/route_r8.npz",
+    "n": 24,
+    "tank": 927.2,
+    "J_i": 1.2884,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r5",
+    "file": "results/s16/best/fleet/route_r5.npz",
+    "n": 31,
+    "tank": 958.1,
+    "J_i": 1.3212,
+    "add_kg": 0.0
+   },
+   {
+    "key": "a5305159d6d369e1",
+    "file": "results/s16/honest/route_a5305159d6d369e1.npz",
+    "n": 43,
+    "tank": 969.6,
+    "J_i": 1.3337,
+    "add_kg": 37.5
+   },
+   {
+    "key": "fleet_r3",
+    "file": "results/s16/best/fleet/route_r3.npz",
+    "n": 41,
+    "tank": 986.3,
+    "J_i": 1.3521,
+    "add_kg": 17.6
+   },
+   {
+    "key": "fleet_r7",
+    "file": "results/s16/best/fleet/route_r7.npz",
+    "n": 30,
+    "tank": 1017.1,
+    "J_i": 1.3867,
+    "add_kg": 0.0
+   },
+   {
+    "key": "b7c4e3c8faca3f12",
+    "file": "results/s16/honest/route_b7c4e3c8faca3f12.npz",
+    "n": 47,
+    "tank": 1256.4,
+    "J_i": 1.6887,
+    "add_kg": 0.0
+   }
+  ],
+  "arcs": [
+   {
+    "host": "fleet_r6",
+    "ast": 6,
+    "t_day": 1325.34,
+    "dist": 0.048,
+    "lin_kg": 29.48,
+    "lin_dJ": 0.03057,
+    "res_km": 29768094,
+    "untrusted": false
+   },
+   {
+    "host": "a5305159d6d369e1",
+    "ast": 184,
+    "t_day": 3997.51,
+    "dist": 0.038,
+    "lin_kg": 23.8,
+    "lin_dJ": 0.02626,
+    "res_km": 15048590,
+    "untrusted": false
+   },
+   {
+    "host": "fleet_r6",
+    "ast": 208,
+    "t_day": 4333.44,
+    "dist": 0.0409,
+    "lin_kg": 22.06,
+    "lin_dJ": 0.0228,
+    "res_km": 5405193,
+    "untrusted": false
+   },
+   {
+    "host": "fleet_r3",
+    "ast": 176,
+    "t_day": 3748.31,
+    "dist": 0.0261,
+    "lin_kg": 17.59,
+    "lin_dJ": 0.01966,
+    "res_km": 1876566,
+    "untrusted": false
+   },
+   {
+    "host": "a5305159d6d369e1",
+    "ast": 142,
+    "t_day": 4541.87,
+    "dist": 0.0086,
+    "lin_kg": 13.72,
+    "lin_dJ": 0.01507,
+    "res_km": 15148302,
+    "untrusted": false
+   },
+   {
+    "host": "85a70b7f6a3b1af0",
+    "ast": 190,
+    "t_day": 2654.17,
+    "dist": 0.0057,
+    "lin_kg": 5.32,
+    "lin_dJ": 0.00542,
+    "res_km": 416247,
+    "untrusted": false
+   }
+  ],
+  "overlap": 3,
+  "thr": 0.15,
+  "cap": 150.0,
+  "nfirst": 455
+ }
+]

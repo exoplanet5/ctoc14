@@ -1,0 +1,119 @@
+{
+ "note": "stage 15 stage 2: N<=9 trajectory (twin sum J_i; J = sum J_i + misses of 298 + 2)",
+ "rounds": [
+  {
+   "round": 1,
+   "when": "09-22 20:02-20:57",
+   "columns": 1218,
+   "what": "round 1 (stage-1 gate): 32 steered heads, 2 pure, 6 production chains, 8 archive-absorb",
+   "N9": {
+    "covered": 290,
+    "sumJi": 11.7045,
+    "J": 21.7045,
+    "misses": [
+     64,
+     119,
+     137,
+     138,
+     157,
+     158,
+     168,
+     216
+    ],
+    "fleet": "results/s15/master/r01/N9/fleet"
+   },
+   "LP": 13.978,
+   "frontier": {
+    "291": "infeasible"
+   }
+  },
+  {
+   "round": 2,
+   "when": "09-22 21:39-23:50",
+   "columns": 1588,
+   "what": "loop round 2 (16 of 60 jobs: 7 production chains incl. step-grow, 7 steered heads; grow phase found no <=0.05 AU residual approach) + twin tails TB1 (w_fuel 0.52) and TB1f (w_fuel 1.5) behind the fixed 6 heads + closers",
+   "N9": {
+    "covered": 296,
+    "sumJi": 12.4375,
+    "J": 16.4375,
+    "misses": [
+     17,
+     219
+    ],
+    "fleet": "results/s15/select/r02/N9/fleet"
+   },
+   "LP": 13.8528,
+   "fleets": {
+    "TB1 (6 heads + tail1 + twin 22@1124 + 12@881)": {
+     "covered": 294,
+     "sumJi": 12.236,
+     "misses": [
+      17,
+      110,
+      219,
+      223
+     ]
+    },
+    "TB1f (6 heads + tail1 + twin 22@844 + 11@819)": {
+     "covered": 293,
+     "sumJi": 11.8666,
+     "misses": [
+      108,
+      139,
+      145,
+      219,
+      280
+     ]
+    }
+   },
+   "frontier": {
+    "290": 11.7045,
+    "291": 11.8015,
+    "292": 11.8092,
+    "293": 11.8666,
+    "294": 11.9485,
+    "295": 12.0779,
+    "296": 12.4375,
+    "297": "infeasible"
+   },
+   "frontier_src": "results/s15/select/r02f (s15_select --frontier, HiGHS optimal per K, 1588 columns)"
+  },
+  {
+   "round": 3,
+   "when": "09-22 23:18 - 09-23 00:45",
+   "what": "fuel-weighted twin tails (w_fuel 1.5 / 3.0) behind the 6 fixed heads, tail-1 variants TB7f/TB2f/TB3f/TB5f/TB1g, step-2 alternative TC0, exchange ES296_09",
+   "fleets": {
+    "TB5f (t1 route_07_T6_26 26@928 + twin 22@953 [7 iso] + twin 14@813)": {
+     "covered": 295,
+     "sumJi": 11.8697,
+     "misses": [
+      33,
+      110,
+      280
+     ]
+    },
+    "F296a = TB5f + 110 closed into h06 (+46 kg)": {
+     "covered": 296,
+     "sumJi": 11.9208,
+     "misses": [
+      33,
+      280
+     ],
+     "fleet": "results/s15/twinfleet/F296a"
+    },
+    "TB1g (w_fuel 3.0)": {
+     "covered": 292,
+     "sumJi": 11.7867
+    },
+    "TB7f": {
+     "covered": 294,
+     "sumJi": 11.9927
+    },
+    "TB3f": {
+     "covered": 295,
+     "sumJi": 12.1573
+    }
+   }
+  }
+ ]
+}

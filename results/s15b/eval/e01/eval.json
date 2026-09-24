@@ -1,0 +1,172 @@
+[
+ {
+  "K": 297,
+  "i": 1,
+  "covered": 297,
+  "sumJi": 12.1063,
+  "misses": [
+   33
+  ],
+  "picks": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+   "results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz",
+   "results/s15b/close/test_A296/cols/route_07x280_27.npz",
+   "results/s15/cols/t03/TB5f/route_TB5fs1_22.npz",
+   "results/s15/cols/t03/TB5f/route_TB5fs2_14_1.npz"
+  ],
+  "est": 12.5467,
+  "plan": [
+   [
+    33,
+    "04",
+    0.4404
+   ]
+  ],
+  "priced": [
+   {
+    "ast": 33,
+    "host": "04",
+    "dist": 0.107,
+    "lin_dJ": 0.4404
+   },
+   {
+    "ast": 33,
+    "host": "03",
+    "dist": 0.19,
+    "lin_dJ": 0.9288
+   }
+  ],
+  "dir": "results/s15b/eval/e01/fleets/297_1"
+ },
+ {
+  "K": 296,
+  "i": 1,
+  "covered": 296,
+  "sumJi": 12.4375,
+  "misses": [
+   17,
+   219
+  ],
+  "picks": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s15/cols/r01/fclose/C01h6_h5/route_C01h6_h505x223_33.npz",
+   "results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz",
+   "results/s15/cols/r01/C00h6/route_C00h6s1_27.npz",
+   "results/s15/cols/t02/TB1/route_TB1s1_22.npz",
+   "results/s15/cols/t02/TB1/route_TB1s2_12.npz"
+  ],
+  "est": 13.6007,
+  "plan": [
+   [
+    17,
+    "07",
+    0.4771
+   ],
+   [
+    219,
+    "08",
+    0.6861
+   ]
+  ],
+  "priced": [
+   {
+    "ast": 17,
+    "host": "07",
+    "dist": 0.099,
+    "lin_dJ": 0.4771
+   },
+   {
+    "ast": 17,
+    "host": "02",
+    "dist": 0.111,
+    "lin_dJ": 0.5864
+   },
+   {
+    "ast": 219,
+    "host": "08",
+    "dist": 0.146,
+    "lin_dJ": 0.6861
+   },
+   {
+    "ast": 219,
+    "host": "01",
+    "dist": 0.175,
+    "lin_dJ": 1.5835
+   }
+  ],
+  "dir": "results/s15b/eval/e01/fleets/296_1"
+ },
+ {
+  "K": 297,
+  "i": 0,
+  "covered": 297,
+  "sumJi": 11.954,
+  "misses": [
+   64
+  ],
+  "picks": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+   "results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz",
+   "results/s15/cols/r01/C00h6/route_C00h6s1_28.npz",
+   "results/s15/cols/t03/TB2f/route_TB2fs1_21.npz",
+   "results/s15/cols/t04/TB2fS/route_TB2fSs1_14_1.npz"
+  ],
+  "est": null,
+  "plan": [
+   [
+    64,
+    null,
+    null
+   ]
+  ],
+  "priced": [],
+  "dir": "results/s15b/eval/e01/fleets/297_0"
+ },
+ {
+  "K": 296,
+  "i": 0,
+  "covered": 296,
+  "sumJi": 12.3088,
+  "misses": [
+   108,
+   132
+  ],
+  "picks": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s15/cols/r01/fclose/C01h6_h5/route_C01h6_h505x223_33.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_06.npz",
+   "results/s13/gen/g02x/tailB55k4/lib/route_07_T3_27.npz",
+   "results/s15/cols/t03/TB3f/route_TB3fs1_24.npz",
+   "results/s15/cols/t03/TB3f/route_TB3fs2_11.npz"
+  ],
+  "est": null,
+  "plan": [
+   [
+    108,
+    null,
+    null
+   ],
+   [
+    132,
+    null,
+    null
+   ]
+  ],
+  "priced": [],
+  "dir": "results/s15b/eval/e01/fleets/296_0"
+ }
+]

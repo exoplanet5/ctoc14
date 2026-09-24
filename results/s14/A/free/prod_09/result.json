@@ -1,0 +1,242 @@
+{
+ "mode": "free",
+ "route": "09",
+ "pool_size": 24,
+ "dv": 1.2,
+ "drmax": 0.15,
+ "beam": 20,
+ "tries": 40,
+ "reflown": 5,
+ "frac": 0.2083,
+ "tank": 625.25,
+ "src_tank": 876.52,
+ "miss_km": 36.0,
+ "t_launch_d": 80.0,
+ "t_end_d": 1870.0,
+ "src_t_end_d": 5360.0,
+ "pace_d_per_fb": 358.0,
+ "src_pace_d_per_fb": 209.2,
+ "missing": [
+  7,
+  12,
+  16,
+  34,
+  75,
+  85,
+  107,
+  117,
+  120,
+  130,
+  134,
+  149,
+  152,
+  208,
+  224,
+  240,
+  250,
+  254,
+  289
+ ],
+ "order": [
+  171,
+  175,
+  27,
+  141,
+  83
+ ],
+ "epochs_d": [
+  216.2,
+  753.8,
+  1031.6,
+  1369.7,
+  1870.0
+ ],
+ "src_epochs_d": [
+  713.9,
+  753.6,
+  887.7,
+  1153.1,
+  1253.9,
+  1625.7,
+  2019.6,
+  2259.3,
+  2355.5,
+  2463.2,
+  2519.0,
+  2795.0,
+  2907.0,
+  3058.5,
+  3237.1,
+  3486.2,
+  3536.8,
+  3850.9,
+  4024.7,
+  4405.9,
+  4602.7,
+  4896.1,
+  5232.4,
+  5360.0
+ ],
+ "end": {
+  "kind": "no_children",
+  "depth": 5,
+  "time_left_d": 3608.7
+ },
+ "settles": 27,
+ "settle_ok": 25,
+ "settle_cpu_s": 26.9,
+ "wall_s": 30.8,
+ "hist": [
+  {
+   "depth": 2,
+   "parents": 113,
+   "children": 119,
+   "unique": 58,
+   "tried": 21,
+   "settled": 20,
+   "kept": 17,
+   "wall_s": 20.6,
+   "parent_t_end_d": [
+    205.0,
+    1165.0
+   ],
+   "fails": [
+    {
+     "ast": 289,
+     "t": 64087200.0,
+     "seeds": [
+      [
+       "lam",
+       1.112
+      ]
+     ],
+     "tries": [
+      [
+       "lam",
+       1426564.0
+      ]
+     ],
+     "ok": false,
+     "dt_s": 1.6,
+     "parent": 19,
+     "score_leg": -1.84699,
+     "dv_leg": 1.095
+    }
+   ],
+   "t_end_d": [
+    752.4,
+    1092.8
+   ],
+   "tank": [
+    602.7,
+    616.2
+   ]
+  },
+  {
+   "depth": 3,
+   "parents": 17,
+   "children": 5,
+   "unique": 3,
+   "tried": 3,
+   "settled": 2,
+   "kept": 2,
+   "wall_s": 5.6,
+   "parent_t_end_d": [
+    752.4,
+    1092.8
+   ],
+   "fails": [
+    {
+     "ast": 149,
+     "t": 105694469.33267693,
+     "seeds": [
+      [
+       "lam",
+       1.187
+      ]
+     ],
+     "tries": [
+      [
+       "lam",
+       2578976.1
+      ]
+     ],
+     "ok": false,
+     "dt_s": 2.9,
+     "parent": 4,
+     "score_leg": -2.75102,
+     "dv_leg": 1.186
+    }
+   ],
+   "t_end_d": [
+    1030.7,
+    1275.7
+   ],
+   "tank": [
+    608.4,
+    618.5
+   ]
+  },
+  {
+   "depth": 4,
+   "parents": 2,
+   "children": 4,
+   "unique": 2,
+   "tried": 2,
+   "settled": 2,
+   "kept": 2,
+   "wall_s": 2.1,
+   "parent_t_end_d": [
+    1030.7,
+    1275.7
+   ],
+   "fails": [],
+   "t_end_d": [
+    1311.0,
+    1372.3
+   ],
+   "tank": [
+    620.1,
+    622.5
+   ]
+  },
+  {
+   "depth": 5,
+   "parents": 2,
+   "children": 1,
+   "unique": 1,
+   "tried": 1,
+   "settled": 1,
+   "kept": 1,
+   "wall_s": 2.5,
+   "parent_t_end_d": [
+    1311.0,
+    1372.3
+   ],
+   "fails": [],
+   "t_end_d": [
+    1870.0,
+    1870.0
+   ],
+   "tank": [
+    625.2,
+    625.2
+   ]
+  },
+  {
+   "depth": 6,
+   "parents": 1,
+   "children": 0,
+   "unique": 0,
+   "tried": 0,
+   "settled": 0,
+   "kept": 0,
+   "wall_s": 0.0,
+   "parent_t_end_d": [
+    1870.0,
+    1870.0
+   ],
+   "fails": []
+  }
+ ]
+}

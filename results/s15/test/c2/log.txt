@@ -1,0 +1,24 @@
+[21:15:09] chain c2: pool 65, S [64, 119, 137, 138, 157, 158, 168, 216], p 0.02, steps 2, members ['T2']; resume at step 1
+[21:15:57]   joint K=2: pool 65, levels 37=19+18@855/844 36=19+17@835/833 35=19+16@835/813 (48 s)
+[21:16:05]     joint level 37: 19 fb planner 855 -> twin 792 miss 89 OK
+[21:19:27]     joint level 37: 18 fb planner 844 -> twin - miss 365 no
+[21:19:34]     joint level 36: 19 fb planner 835 -> twin 765 miss 77 OK
+[21:21:29]     joint level 36: 17 fb planner 833 -> twin 1746 miss 62 no
+[21:21:36]     joint level 35: 19 fb planner 835 -> twin 765 miss 77 OK
+[21:24:02]     joint level 35: 16 fb planner 813 -> twin 810 miss 94 OK
+[21:24:26]   step 1 plan T2: pool 65, S [64, 119, 137, 138, 157, 158, 168, 216], deepest 23 (with S 23); front 23:902** 22:885** 22:896**** 21:830*** 21:843**** 20:819**** 19:801*** 18:793*** (25 s)
+[21:24:38]     settle T2 23 fb (S [157, 158]) planner 902 -> twin 905 miss 94 OK (11 s)
+[21:24:47]     settle T2 22 fb (S [157, 158, 168, 216]) planner 896 -> twin 891 miss 98 OK (10 s)
+[21:24:48]     absorb[s1]: 1 approaches of [119]; lintwin 119@1677d 0.181AU 105kg
+[21:24:48]     absorb[s1 grow]+[]: no approach of [6, 17, 20, 22, 32, 33, 36, 58, 64, 93, 95, 104, 108, 110, 118, 119, 124, 132, 137, 138, 139, 141, 145, 147, 150, 165, 172, 180, 199, 213, 219, 220, 223, 234, 240, 242, 243, 246, 251, 262, 280, 283, 287] within 0.05 AU
+[21:24:48]   step 1: TOOK {'member': 'T2', 'n': 22, 'tank': 890.5, 's_taken': [157, 158, 168, 216]}; chain covered 22/65
+[21:25:09]   step 2 plan T2: pool 43, S [64, 119, 137, 138], deepest 18 (with S 18); front 18:789 18:808* 17:783 17:799* 16:772 16:786* 15:766 15:769* (21 s)
+[21:25:15]     settle T2 18 fb (S [137]) planner 808 -> twin 787 miss 54 OK (7 s)
+[21:25:27]     settle T2 18 fb (S []) planner 789 -> twin 736 miss 22 OK (12 s)
+[21:25:27]     absorb[s2]: no approach of [64, 119, 138] within 0.2 AU
+[21:25:28]     absorb[s2 grow]+[]: 2 approaches of [150, 234]; lintwin 150@1650d 0.018AU 9kg, 234@1013d 0.026AU 23kg
+[21:25:33]     absorb[s2 grow]+[]: insert 150 at 1650 d (lintwin 9 kg) -> OK tank 798 (+11.0 kg) (5 s)
+[21:25:41]     absorb[s2 grow]+[]: insert 234 at 1013 d (lintwin 23 kg) -> OK tank 801 (+14.0 kg) (8 s)
+[21:25:41]     absorb[s2 grow]+[150]: 1 approaches of [234]; lintwin 234@1005d 0.028AU 31kg
+[21:25:41]   step 2: TOOK {'member': 'T2', 'n': 18, 'tank': 797.8, 's_taken': [137], 'grown': [150]}; chain covered 41/65
+[21:25:41] chain c2 done: 7 columns, covered 41/65 (632 s)

@@ -1,0 +1,260 @@
+{
+ "headline": "phase-continuous drifting (drift_dp) beats a fixed carrier at the BASE route but the advantage vanishes after deepening; the binding constraint is candidate density inside the affordable insertion radius, which drifting does not change",
+ "bars": {
+  "best_fixed_deep_route_Jfb": 0.0339,
+  "fleet_target_Jfb": 0.0369,
+  "banked_t10d_J": 14.366,
+  "banked_sum_Ji": 12.366
+ },
+ "base_settled": {
+  "drift_D3s": {
+   "n": 12,
+   "depth_med": 24.0,
+   "depth_max": 28,
+   "tank_med": 843.0674541221613,
+   "Jfb_best": 0.04363594639990489,
+   "Jfb_med": 0.05141901628450034,
+   "covered": 90,
+   "sum_Ji": 14.751407742079309
+  },
+  "fixed_F3s": {
+   "n": 16,
+   "depth_med": 19.0,
+   "depth_max": 21,
+   "tank_med": 764.152640634019,
+   "Jfb_best": 0.0512924779962556,
+   "Jfb_med": 0.0589975302311922,
+   "covered": 120,
+   "sum_Ji": 18.66070846763266
+  },
+  "drift_D4s": {
+   "n": 18,
+   "depth_med": 17.5,
+   "depth_max": 26,
+   "tank_med": 800.2520678313842,
+   "Jfb_best": 0.04780444376119707,
+   "Jfb_med": 0.06886047386014915,
+   "covered": 140,
+   "sum_Ji": 21.406669893066503
+  }
+ },
+ "guided_deepened": {
+  "drift_D3g": {
+   "n": 12,
+   "depth_med": 33.0,
+   "depth_max": 35,
+   "tank_med": 960.7574481363921,
+   "Jfb_best": 0.03754733181904955,
+   "Jfb_med": 0.040649791652735315,
+   "covered": 120,
+   "sum_Ji": 16.11099961106622
+  },
+  "fixed_F3g": {
+   "n": 16,
+   "depth_med": 34.0,
+   "depth_max": 38,
+   "tank_med": 969.2533735885169,
+   "Jfb_best": 0.03700496128553784,
+   "Jfb_med": 0.03987317759463088,
+   "covered": 183,
+   "sum_Ji": 21.412555671395715
+  }
+ },
+ "old_deepener": {
+  "drift_D2deep2": {
+   "n": 3,
+   "depth_med": 34.0,
+   "depth_max": 34,
+   "tank_med": 960.4720458826736,
+   "Jfb_best": 0.03867518850347282,
+   "Jfb_med": 0.03893458823677346,
+   "covered": 80,
+   "sum_Ji": 3.996095515777564
+  },
+  "fixed_F2deep2": {
+   "n": 4,
+   "depth_med": 34.5,
+   "depth_max": 37,
+   "tank_med": 966.7513352229936,
+   "Jfb_best": 0.03522634029158291,
+   "Jfb_med": 0.038845230595205386,
+   "covered": 98,
+   "sum_Ji": 5.306099335585471
+  }
+ },
+ "partition_P9": {
+  "n": 9,
+  "depth_med": 25.0,
+  "depth_max": 31,
+  "tank_med": 842.5931636782528,
+  "Jfb_best": 0.04213652866306221,
+  "Jfb_med": 0.047942922755871434,
+  "covered": 188,
+  "sum_Ji": 10.803312257193431
+ },
+ "paired_test": {
+  "n_carriers": 12,
+  "drift_median_Jfb": 0.0406,
+  "fixed_median_Jfb": 0.04,
+  "drift_better": 6,
+  "wilcoxon_p": 0.85
+ },
+ "candidate_density": {
+  "note": "median targets within a distance of the SETTLED trajectory, at matched depth 19-24",
+  "drift_D3s": {
+   "depth": 24.0,
+   "lt0035": 7.0,
+   "lt006": 21.5,
+   "affordable": 25.0
+  },
+  "fixed_F3s": {
+   "depth": 19.0,
+   "lt0035": 8.0,
+   "lt006": 21.5,
+   "affordable": 39.5
+  },
+  "matched_depth_20": {
+   "drift": "3/11/21/51 at d<.02/.035/.06/.10",
+   "fixed": "0-2/8-12/22-27/48-56"
+  }
+ },
+ "partition_wall": {
+  "base_trajectories": 36,
+  "targets_on_no_base_route": 124,
+  "dist_to_nearest_trajectory": {
+   "lt002": 9,
+   "b002_0035": 29,
+   "b0035_006": 34,
+   "b006_010": 29,
+   "b010_020": 16,
+   "b020_036": 5
+  },
+  "affordable_at_depth30_tank950": 50,
+  "unaffordable": 74,
+  "sum_dJ_forced": 7.33,
+  "sum_dJ_if_free": 2.73,
+  "surcharge_J": 4.6
+ },
+ "deepener_speed": {
+  "old_fleet_deepen_s_per_route": [
+   1245,
+   1449
+  ],
+  "guided_s_per_route": [
+   49,
+   189
+  ],
+  "old_settle_rate": 0.47,
+  "guided_settle_rate": 0.89,
+  "surrogate_median_abs_err_kg": 10.5
+ },
+ "set_cover": {
+  "before": {
+   "routes": 681,
+   "craft": 10,
+   "sum_Ji": 12.355,
+   "J": 14.355,
+   "LP": 14.355
+  },
+  "after": {
+   "routes": 733,
+   "craft": 10,
+   "sum_Ji": 12.355,
+   "J": 14.355,
+   "LP": 14.355
+  },
+  "note": "52 new guided-deepened routes changed nothing; LP bound = MIP optimum, pool-limited"
+ },
+ "duals_carry_no_geometry": {
+  "pearson_r": 0.133,
+  "spearman": 0.056,
+  "note": "LP duals do not correlate with distance to the nearest trajectory -> they cannot steer a generator (consistent with the known degeneracy)"
+ },
+ "redundancy_strip": {
+  "tool": "tools/fleet_dedupe.py --bulk",
+  "deep1_before": {
+   "routes": 10,
+   "flybys": 365,
+   "covered": 298,
+   "duplicates": 67,
+   "sum_Ji": 13.43,
+   "J": 15.43,
+   "Jfb": 0.0368
+  },
+  "after_pass1": {
+   "flybys": 305,
+   "covered": 298,
+   "sum_Ji": 12.612,
+   "J": 14.612,
+   "seconds": 88
+  },
+  "after_pass2": {
+   "flybys": 298,
+   "covered": 298,
+   "duplicates": 0,
+   "sum_Ji": 12.445,
+   "J": 14.445,
+   "Jfb": 0.0418,
+   "seconds": 7
+  },
+  "note": "a removal is a cheaper column for the same coverage and needs no pricing problem; it converges to 12.445, within 0.09 J of the set-cover optimum 12.355 reached from a completely different direction"
+ },
+ "saturation": {
+  "note": "candidate density left on a 34-36 flyby route at ~970 kg, measured by tools/cand_density.py",
+  "F3g_guided": {
+   "depth": 34,
+   "tank": 969,
+   "lt0035": 3.5,
+   "affordable": 2.5,
+   "Jfb": 0.0399
+  },
+  "deep1_record": {
+   "depth": 35.5,
+   "tank": 977,
+   "lt0035": 3.5,
+   "affordable": 1.5,
+   "Jfb": 0.0366
+  },
+  "farmO": {
+   "depth": 34,
+   "tank": 968,
+   "lt0035": 2.0,
+   "affordable": 2.0,
+   "Jfb": 0.0395
+  },
+  "conclusion": "every construction saturates at the same place: ~34-36 flybys, ~970 kg, 1.5-2.5 affordable targets left"
+ },
+ "the_two_properties": {
+  "disjoint_but_dear": {
+   "name": "set-cover optimum",
+   "routes": 10,
+   "flybys": 298,
+   "overlap": 0,
+   "Jfb": 0.0415,
+   "sum_Ji": 12.355,
+   "J": 14.355
+  },
+  "cheap_but_redundant": {
+   "name": "deep1",
+   "routes": 10,
+   "flybys": 365,
+   "overlap": 67,
+   "Jfb": 0.0368,
+   "sum_Ji": 13.43,
+   "J": 15.43
+  },
+  "target": {
+   "Jfb": 0.0369,
+   "overlap": 0,
+   "sum_Ji": "<11.0",
+   "J": "<13.0"
+  },
+  "note": "J<13 needs 0.0369 J/flyby AND zero overlap simultaneously; each construction delivers one"
+ },
+ "tools_built": [
+  "tools/deep_guided.py",
+  "tools/cand_density.py",
+  "tools/fleet_partition.py",
+  "tools/fleet_dedupe.py"
+ ]
+}

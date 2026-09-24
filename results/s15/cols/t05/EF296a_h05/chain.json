@@ -1,0 +1,25 @@
+{
+ "steps": [
+  {
+   "k": 1,
+   "pool": 34,
+   "S": [
+    33,
+    280
+   ],
+   "end": {
+    "kind": "settle_wall",
+    "depth": 24
+   },
+   "deepest": 24,
+   "settles": 479,
+   "settle_ok": 451,
+   "wall_s": 3042,
+   "ncols": 0,
+   "took": null
+  }
+ ],
+ "covered": [],
+ "cols": [],
+ "taken": []
+}

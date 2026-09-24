@@ -1,0 +1,4 @@
+[20:49:36] === 06 cond own builder beam: pool 27 = own 27 + extra 0 []; hard in pool 7; source route 27 fb @ 791.9 kg (7.11 kg/fb)
+[20:50:09]   build 33 s: 13 states, deepest 8 of pool 27; Pareto 8:639
+[20:50:12]     8 pool fb (alt 0): planner 639 -> twin 639.0 kg, 4.88 kg/fb, 0.297 km/s/fb, J_i 1.0287, own 8/27 extra 0/0 (miss 7 km, 3 s)
+[20:50:12]   BEST 06: 8/27 pool targets @ 639.0 kg (4.88 kg/fb; source 27 @ 791.9 = 7.11 kg/fb); orphans [31, 56, 62, 94, 116, 121, 146, 166, 167, 172, 199, 207, 218, 230, 233, 234, 255, 282, 290]

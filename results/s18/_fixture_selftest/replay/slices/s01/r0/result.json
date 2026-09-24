@@ -1,0 +1,24 @@
+{
+ "job_id": "s01_r0",
+ "kind": "root",
+ "craft": null,
+ "ok": true,
+ "error": null,
+ "columns": [],
+ "stats": {
+  "levels": 1,
+  "n_states": 0,
+  "n_columns": 0,
+  "settles": 0,
+  "settle_ok": 0,
+  "price_s": 0.0,
+  "settle_s": 0.0,
+  "wall_s": 0.0,
+  "end": {
+   "kind": "fixture",
+   "depth": 0
+  },
+  "hist": [],
+  "note": ""
+ }
+}

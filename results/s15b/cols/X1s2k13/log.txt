@@ -1,0 +1,10 @@
+[02:50:44] prefix results/s15/cols/t04/TB2fS/route_TB2fSs1_14_1.npz k=13: 13 flybys to 4602 d, tank 814.3 kg, miss 51 km (1 s)
+[02:50:44] twintail X1s2k13: pool 15, S [64], p 0.1, steps 1, beam 24/72, nproc 1; resume at step 1
+[02:50:44]   RESUME level 13: beam 1, deepest 0
+[02:52:06]   depth 14: 1 parents -> 14 kids (14 uniq) -> tried 14, settled 14, kept 14; t_end 4598-5203 d, tank 818-908, max S 0 (82 s, gen 10 s)
+[02:58:00]   depth 15: 14 parents -> 99 kids (99 uniq) -> tried 27, settled 24, kept 21; t_end 4738-5461 d, tank 838-1096, max S 0 (354 s, gen 114 s)
+[03:06:27]   depth 16: 21 parents -> 51 kids (50 uniq) -> tried 34, settled 24, kept 19; t_end 5156-5471 d, tank 890-1270, max S 0 (507 s, gen 103 s)
+[03:09:22]   depth 17: 19 parents -> 9 kids (9 uniq) -> tried 9, settled 6, kept 6; t_end 5289-5459 d, tank 1016-1132, max S 0 (175 s, gen 54 s)
+[03:09:30]   depth 18: 6 parents -> 0 kids (0 uniq) -> tried 0, settled 0, kept 0 (8 s, gen 8 s)
+[03:09:30]   step 1: pool 15 deepest 14 ({'kind': 'no_children', 'depth': 17}); TOOK 14 fb @ 825 kg iso [216]; chain covered 14/15 (1126 s)
+[03:09:30] twintail X1s2k13 done: 3 columns, covered 14/15 (1126 s)

@@ -1,0 +1,125 @@
+[13:17:41] skeletons: 8 routes, covered 67, J 241.4199; 05:9@670 06:9@678 09:9@734 13:9@668 01:8@647 10:8@653 12:8@664 03:7@642
+[13:17:41] start from results/n8s6/PART/fill_cur/snap_03: 4 routes, covered 119, J 186.3021; 05:37@1061 09:37@1036 01:36@1034 13:9@668
+[13:18:30]     03 segments: 0:205->86st/5fb 1:214->108st/10fb 2:203->27st/12fb 3:88->8st/13fb 4:135->73st/18fb 5:15->120st/20fb 6:178->15st/21fb 7:None->2510st/32fb
+[13:18:30]   03: segmented beam 300 drmax 0.15 half 45: 2510 final states, deepest 32  (49 s)
+[13:18:30]   03: Pareto 20:808 21:815 22:823 23:868 24:874 25:885 26:893 27:903 28:908 29:915 30:922 31:938 32:949
+[13:18:57]     32 fb: planner 949 -> twin 1992 kg (32 fb, 32 new), 1.468 km/s/fb, J_i 2.982, value -9.818 (27 s)
+[13:19:07]     31 fb: planner 938 -> twin 942 kg (31 fb, 31 new), 0.568 km/s/fb, J_i 1.304, value -11.096 (10 s)
+[13:19:59]     30 fb: settle failed (miss 4191385, 52 s)
+[13:19:59] [03] 7 waypoints -> 31 flybys (31 new), tank 942, J_i 1.304; fleet covered 150, uncovered 148, fleet J 156.606  (138 s)
+[13:20:36]     06 seg 6: 0 states reach waypoint 36 -- relaxed retry
+[13:20:38]     06 seg 7: 0 states reach waypoint 86 -- relaxed retry
+[13:20:38]     06 seg 7: 0 states reach waypoint 86 -- giving up
+[13:20:38]     06 seg 7: DROPPING waypoint 86 ([4812,4902] d unreachable); it goes to the leftovers
+[13:20:39]     06 seg 8: 0 states reach waypoint 254 -- relaxed retry
+[13:20:40]     06 seg 8: 0 states reach waypoint 254 -- giving up
+[13:20:40]     06 seg 8: DROPPING waypoint 254 ([5178,5268] d unreachable); it goes to the leftovers
+[13:20:40]     06 segments: 0:16->31st/4fb 1:108->31st/6fb 2:224->150st/12fb 3:34->189st/17fb 4:240->21st/18fb 5:145->6st/19fb 6:36->5st/21fb 7:86->0st/0fb 8:254->0st/0fb 9:None->15st/23fb
+[13:20:40]   06: segmented beam 300 drmax 0.15 half 45: 15 final states, deepest 23  (41 s)
+[13:20:40]   06: Pareto 20:842 21:856 22:878 23:885
+[13:20:50]     23 fb: planner 885 -> twin 865 kg (23 fb, 23 new), 0.620 km/s/fb, J_i 1.225, value -7.975 (10 s)
+[13:20:58]     22 fb: planner 878 -> twin 862 kg (22 fb, 22 new), 0.641 km/s/fb, J_i 1.222, value -7.578 (8 s)
+[13:21:09]     21 fb: planner 856 -> twin 818 kg (21 fb, 21 new), 0.574 km/s/fb, J_i 1.180, value -7.220 (11 s)
+[13:21:09] [06] 9 waypoints -> 23 flybys (23 new), tank 865, J_i 1.225; fleet covered 173, uncovered 125, fleet J 134.832  (70 s)
+[13:21:29]     10 seg 3: 0 states reach waypoint 62 -- relaxed retry
+[13:21:32]     10 seg 3: 3 states reach waypoint 62 -- giving up
+[13:21:32]     10 seg 4: 2 states reach waypoint 116 -- relaxed retry
+[13:21:34]     10 seg 6: 0 states reach waypoint 282 -- relaxed retry
+[13:21:35]     10 seg 6: 3 states reach waypoint 282 -- giving up
+[13:21:39]     10 segments: 0:169->17st/3fb 1:166->11st/5fb 2:199->14st/8fb 3:62->2st/9fb 4:116->2st/11fb 5:18->4st/13fb 6:282->3st/14fb 7:25->11st/21fb 8:None->20st/22fb
+[13:21:39]   10: segmented beam 300 drmax 0.15 half 45: 20 final states, deepest 22  (30 s)
+[13:21:39]   10: Pareto 18:813 19:817 20:855 21:858 22:871
+[13:22:42]     22 fb: settle failed (miss 319, 62 s)
+[13:23:20]     21 fb: planner 858 -> twin 943 kg (21 fb, 21 new), 0.840 km/s/fb, J_i 1.305, value -7.095 (38 s)
+[13:23:30]     20 fb: planner 855 -> twin 831 kg (20 fb, 20 new), 0.634 km/s/fb, J_i 1.192, value -6.808 (10 s)
+[13:23:30] [10] 8 waypoints -> 21 flybys (21 new), tank 943, J_i 1.305; fleet covered 194, uncovered 104, fleet J 115.137  (141 s)
+[13:24:04]     12 segments: 0:99->19st/4fb 1:105->21st/6fb 2:206->11st/7fb 3:246->15st/11fb 4:252->38st/13fb 5:84->43st/15fb 6:151->298st/25fb 7:243->64st/27fb 8:None->32st/28fb
+[13:24:04]   12: segmented beam 300 drmax 0.15 half 45: 32 final states, deepest 28  (34 s)
+[13:24:04]   12: Pareto 26:796 27:812 28:864
+[13:24:27]     28 fb: planner 864 -> twin 899 kg (28 fb, 28 new), 0.562 km/s/fb, J_i 1.259, value -9.941 (23 s)
+[13:25:19]     27 fb: planner 812 -> twin 826 kg (27 fb, 27 new), 0.460 km/s/fb, J_i 1.187, value -9.613 (52 s)
+[13:25:41]     26 fb: planner 796 -> twin 818 kg (26 fb, 26 new), 0.464 km/s/fb, J_i 1.180, value -9.220 (22 s)
+[13:25:41] [12] 8 waypoints -> 28 flybys (28 new), tank 899, J_i 1.259; fleet covered 222, uncovered 76, fleet J 88.395  (131 s)
+[13:25:41] FINAL: 8 routes, covered 222, J 88.3954; 05:37@1061 09:37@1036 01:36@1034 03:31@942 12:28@899 06:23@865 10:21@943 13:9@668; leftovers 76: [2, 11, 13, 20, 23, 29, 37, 38, 40, 43, 45, 46, 56, 64, 71, 73, 75, 76, 78, 86, 89, 94, 95, 97, 110, 118, 119, 120, 124, 125, 133, 136, 138, 140, 143, 150, 152, 156, 159, 160, 163, 164, 173, 176, 177, 184, 189, 197, 207, 208, 209, 215, 217, 218, 223, 227, 230, 234, 235, 242, 244, 247, 253, 254, 258, 264, 266, 267, 268, 274, 276, 281, 285, 287, 288, 295]
+[13:25:41] sum J_i 10.395 -> J 12.395 if the leftovers insert for free, 88.395 as misses
+[13:25:41] skeletons: 8 routes, covered 67, J 241.4199; 06:9@678 09:9@734 13:9@668 01:8@647 03:8@642 05:8@670 10:8@653 12:8@664
+[13:26:30]     05 seg 4: 2 states reach waypoint 262 -- relaxed retry
+[13:26:33]     05 seg 4: 4 states reach waypoint 262 -- giving up
+[13:26:33]     05 seg 5: 1 states reach waypoint 58 -- relaxed retry
+[13:26:35]     05 seg 5: 3 states reach waypoint 58 -- giving up
+[13:26:58]     05 segments: 0:192->106st/5fb 1:101->16st/7fb 2:96->437st/16fb 3:132->111st/21fb 4:262->2st/20fb 5:58->2st/21fb 6:147->11st/24fb 7:200->264st/37fb 8:None->86st/38fb
+[13:26:58]   05: segmented beam 300 drmax 0.15 half 45: 86 final states, deepest 38  (77 s)
+[13:26:58]   05: Pareto 35:965 36:965 37:980 38:1031
+[13:27:23]     38 fb: planner 1031 -> twin 1079 kg (38 fb, 38 new), 0.604 km/s/fb, J_i 1.460, value -13.740 (25 s)
+[13:28:01]     37 fb: planner 980 -> twin 973 kg (37 fb, 37 new), 0.510 km/s/fb, J_i 1.338, value -13.462 (38 s)
+[13:29:05]     36 fb: planner 965 -> twin 1039 kg (36 fb, 36 new), 0.595 km/s/fb, J_i 1.412, value -12.988 (64 s)
+[13:29:05] [05] 8 waypoints -> 38 flybys (38 new), tank 1079, J_i 1.460; fleet covered 38, uncovered 260, fleet J 263.460  (204 s)
+[13:30:19]     09 seg 4: 0 states reach waypoint 217 -- relaxed retry
+[13:30:20]     09 seg 4: 0 states reach waypoint 217 -- giving up
+[13:30:20]     09 seg 4: DROPPING waypoint 217 ([3926,4016] d unreachable); it goes to the leftovers
+[13:30:25]     09 segments: 0:8->207st/10fb 1:39->27st/11fb 2:251->23st/13fb 3:51->334st/28fb 4:217->0st/0fb 5:168->38st/30fb 6:33->39st/32fb 7:157->4st/33fb 8:219->10st/35fb 9:None->19st/36fb
+[13:30:25]   09: segmented beam 300 drmax 0.15 half 45: 19 final states, deepest 36  (80 s)
+[13:30:25]   09: Pareto 32:913 33:924 34:937 35:955 36:966
+[13:30:35]     36 fb: planner 966 -> twin 967 kg (36 fb, 36 new), 0.518 km/s/fb, J_i 1.331, value -13.069 (9 s)
+[13:30:40]     35 fb: planner 955 -> twin 941 kg (35 fb, 35 new), 0.502 km/s/fb, J_i 1.303, value -12.697 (5 s)
+[13:30:47]     34 fb: planner 937 -> twin 918 kg (34 fb, 34 new), 0.488 km/s/fb, J_i 1.279, value -12.321 (7 s)
+[13:30:47] [09] 9 waypoints -> 36 flybys (36 new), tank 967, J_i 1.331; fleet covered 74, uncovered 224, fleet J 228.791  (102 s)
+[13:31:43]     13 segments: 0:161->94st/5fb 1:50->74st/11fb 2:92->32st/12fb 3:123->78st/15fb 4:158->75st/18fb 5:236->97st/21fb 6:22->26st/22fb 7:216->114st/26fb 8:232->71st/28fb 9:None->1441st/34fb
+[13:31:43]   13: segmented beam 300 drmax 0.15 half 45: 1441 final states, deepest 34  (56 s)
+[13:31:43]   13: Pareto 26:872 27:875 28:892 29:900 30:906 31:912 32:921 33:929 34:958
+[13:31:49]     34 fb: planner 958 -> twin 944 kg (34 fb, 34 new), 0.520 km/s/fb, J_i 1.306, value -12.294 (6 s)
+[13:31:58]     33 fb: planner 929 -> twin 931 kg (33 fb, 33 new), 0.519 km/s/fb, J_i 1.292, value -11.908 (10 s)
+[13:32:09]     32 fb: planner 921 -> twin 920 kg (32 fb, 32 new), 0.521 km/s/fb, J_i 1.281, value -11.519 (10 s)
+[13:32:09] [13] 9 waypoints -> 34 flybys (34 new), tank 944, J_i 1.306; fleet covered 108, uncovered 190, fleet J 196.097  (81 s)
+[13:33:03]     01 segments: 0:111->36st/4fb 1:114->88st/8fb 2:193->86st/11fb 3:139->100st/16fb 4:122->41st/18fb 5:137->11st/19fb 6:265->257st/30fb 7:196->40st/32fb 8:None->91st/34fb
+[13:33:03]   01: segmented beam 300 drmax 0.15 half 45: 91 final states, deepest 34  (54 s)
+[13:33:03]   01: Pareto 30:872 31:882 32:909 33:923 34:981
+[13:33:36]     34 fb: planner 981 -> twin 1979 kg (34 fb, 34 new), 1.374 km/s/fb, J_i 2.956, value -10.644 (34 s)
+[13:33:47]     33 fb: planner 923 -> twin 897 kg (33 fb, 33 new), 0.475 km/s/fb, J_i 1.257, value -11.943 (10 s)
+[13:33:55]     32 fb: planner 909 -> twin 868 kg (32 fb, 32 new), 0.449 km/s/fb, J_i 1.228, value -11.572 (9 s)
+[13:33:56] [01] 8 waypoints -> 33 flybys (33 new), tank 897, J_i 1.257; fleet covered 141, uncovered 157, fleet J 164.354  (107 s)
+[13:34:33]     03 seg 7: 0 states reach waypoint 179 -- relaxed retry
+[13:34:43]     03 seg 7: 2 states reach waypoint 179 -- giving up
+[13:34:44]     03 segments: 0:205->72st/4fb 1:214->145st/10fb 2:203->14st/11fb 3:88->9st/12fb 4:135->61st/16fb 5:15->42st/18fb 6:178->19st/19fb 7:179->2st/21fb 8:None->29st/25fb
+[13:34:44]   03: segmented beam 300 drmax 0.15 half 45: 29 final states, deepest 25  (49 s)
+[13:34:44]   03: Pareto 21:898 22:908 23:916 24:930 25:952
+[13:34:54]     25 fb: planner 952 -> twin 982 kg (25 fb, 25 new), 0.768 km/s/fb, J_i 1.347, value -8.653 (9 s)
+[13:35:02]     24 fb: planner 930 -> twin 960 kg (24 fb, 24 new), 0.764 km/s/fb, J_i 1.323, value -8.277 (8 s)
+[13:35:10]     23 fb: planner 916 -> twin 938 kg (23 fb, 23 new), 0.758 km/s/fb, J_i 1.300, value -7.900 (8 s)
+[13:35:10] [03] 8 waypoints -> 25 flybys (25 new), tank 982, J_i 1.347; fleet covered 166, uncovered 132, fleet J 140.701  (74 s)
+[13:35:40]     06 seg 7: 0 states reach waypoint 86 -- relaxed retry
+[13:35:40]     06 seg 7: 0 states reach waypoint 86 -- giving up
+[13:35:40]     06 seg 7: DROPPING waypoint 86 ([4812,4902] d unreachable); it goes to the leftovers
+[13:35:41]     06 seg 8: 0 states reach waypoint 254 -- relaxed retry
+[13:35:42]     06 seg 8: 0 states reach waypoint 254 -- giving up
+[13:35:42]     06 seg 8: DROPPING waypoint 254 ([5178,5268] d unreachable); it goes to the leftovers
+[13:35:43]     06 segments: 0:16->21st/4fb 1:108->13st/5fb 2:224->103st/11fb 3:34->116st/16fb 4:240->19st/17fb 5:145->18st/18fb 6:36->6st/21fb 7:86->0st/0fb 8:254->0st/0fb 9:None->34st/24fb
+[13:35:43]   06: segmented beam 300 drmax 0.15 half 45: 34 final states, deepest 24  (33 s)
+[13:35:43]   06: Pareto 20:814 21:823 22:829 23:840 24:861
+[13:35:53]     24 fb: planner 861 -> twin 867 kg (24 fb, 24 new), 0.598 km/s/fb, J_i 1.227, value -8.373 (10 s)
+[13:36:01]     23 fb: planner 840 -> twin 848 kg (23 fb, 23 new), 0.586 km/s/fb, J_i 1.209, value -7.991 (9 s)
+[13:36:09]     22 fb: planner 829 -> twin 814 kg (22 fb, 22 new), 0.538 km/s/fb, J_i 1.176, value -7.624 (7 s)
+[13:36:09] [06] 9 waypoints -> 24 flybys (24 new), tank 867, J_i 1.227; fleet covered 190, uncovered 108, fleet J 117.928  (59 s)
+[13:36:26]     10 seg 1: 2 states reach waypoint 166 -- relaxed retry
+[13:36:28]     10 seg 2: 3 states reach waypoint 199 -- relaxed retry
+[13:36:30]     10 seg 3: 0 states reach waypoint 62 -- relaxed retry
+[13:36:32]     10 seg 3: 2 states reach waypoint 62 -- giving up
+[13:36:32]     10 seg 4: 4 states reach waypoint 116 -- relaxed retry
+[13:36:36]     10 seg 6: 3 states reach waypoint 282 -- relaxed retry
+[13:36:39]     10 segments: 0:169->10st/2fb 1:166->5st/5fb 2:199->4st/7fb 3:62->2st/10fb 4:116->5st/13fb 5:18->5st/16fb 6:282->4st/17fb 7:25->12st/22fb 8:None->28st/23fb
+[13:36:39]   10: segmented beam 300 drmax 0.15 half 45: 28 final states, deepest 23  (30 s)
+[13:36:39]   10: Pareto 19:872 20:878 21:884 22:904 23:928
+[13:36:46]     23 fb: planner 928 -> twin 954 kg (23 fb, 23 new), 0.787 km/s/fb, J_i 1.317, value -7.883 (7 s)
+[13:36:55]     22 fb: planner 904 -> twin 907 kg (22 fb, 22 new), 0.733 km/s/fb, J_i 1.268, value -7.532 (9 s)
+[13:37:03]     21 fb: planner 884 -> twin 894 kg (21 fb, 21 new), 0.741 km/s/fb, J_i 1.254, value -7.146 (9 s)
+[13:37:03] [10] 8 waypoints -> 23 flybys (23 new), tank 954, J_i 1.317; fleet covered 213, uncovered 85, fleet J 96.245  (55 s)
+[13:37:26]     12 seg 6: 1 states reach waypoint 151 -- relaxed retry
+[13:37:31]     12 segments: 0:99->27st/5fb 1:105->23st/7fb 2:206->23st/8fb 3:246->20st/11fb 4:252->72st/13fb 5:84->56st/16fb 6:151->31st/19fb 7:243->5st/21fb 8:None->5st/21fb
+[13:37:31]   12: segmented beam 300 drmax 0.15 half 45: 5 final states, deepest 21  (28 s)
+[13:37:31]   12: Pareto 19:842 20:815 21:824
+[13:37:39]     21 fb: planner 824 -> twin 818 kg (21 fb, 21 new), 0.574 km/s/fb, J_i 1.180, value -7.220 (8 s)
+[13:37:47]     20 fb: planner 815 -> twin 806 kg (20 fb, 20 new), 0.575 km/s/fb, J_i 1.169, value -6.831 (8 s)
+[13:37:57]     19 fb: planner 842 -> twin 797 kg (19 fb, 19 new), 0.582 km/s/fb, J_i 1.161, value -6.439 (10 s)
+[13:37:57] [12] 8 waypoints -> 21 flybys (21 new), tank 818, J_i 1.180; fleet covered 234, uncovered 64, fleet J 76.425  (54 s)
+[13:37:57] FINAL: 8 routes, covered 234, J 76.4250; 05:38@1079 09:36@967 13:34@944 01:33@897 03:25@982 06:24@867 10:23@954 12:21@818; leftovers 64: [2, 4, 12, 20, 21, 24, 29, 31, 32, 41, 43, 52, 53, 55, 57, 64, 70, 71, 75, 77, 78, 86, 90, 91, 94, 95, 110, 115, 119, 120, 124, 129, 130, 138, 142, 148, 150, 152, 154, 156, 175, 177, 180, 184, 201, 204, 209, 213, 217, 218, 223, 227, 233, 234, 247, 253, 254, 268, 270, 275, 277, 280, 285, 300]
+[13:37:57] sum J_i 10.425 -> J 12.425 if the leftovers insert for free, 76.425 as misses

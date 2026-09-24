@@ -1,0 +1,170 @@
+{
+ "steps": [
+  {
+   "k": 1,
+   "pool": 15,
+   "S": [
+    212
+   ],
+   "end": {
+    "kind": "no_children",
+    "depth": 14
+   },
+   "deepest": 14,
+   "settles": 188,
+   "settle_ok": 184,
+   "wall_s": 898,
+   "ncols": 3,
+   "took": {
+    "f": "results/s15b/cols/X9s2k4/route_X9s2k4s1_14.npz",
+    "n": 14,
+    "tank": 862.69,
+    "iso": [
+     216
+    ],
+    "s_taken": [
+     212
+    ]
+   },
+   "covered": 14
+  }
+ ],
+ "covered": [
+  6,
+  17,
+  36,
+  75,
+  108,
+  118,
+  180,
+  212,
+  216,
+  219,
+  220,
+  243,
+  247,
+  288
+ ],
+ "cols": [
+  {
+   "f": "results/s15b/cols/X9s2k4/route_X9s2k4s1_14.npz",
+   "n": 14,
+   "n_real": 14,
+   "tank": 862.69,
+   "miss": 96.7,
+   "kind": "score",
+   "targets": [
+    6,
+    17,
+    36,
+    75,
+    108,
+    118,
+    180,
+    212,
+    216,
+    219,
+    220,
+    243,
+    247,
+    288
+   ],
+   "iso": [
+    216
+   ],
+   "s_taken": [
+    212
+   ],
+   "t_end_d": 5189.2,
+   "t_launch_d": 960.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/X9s2k4/route_X9s2k4s1_13.npz",
+   "n": 13,
+   "n_real": 13,
+   "tank": 848.78,
+   "miss": 71.1,
+   "kind": "score",
+   "targets": [
+    6,
+    17,
+    36,
+    75,
+    108,
+    118,
+    180,
+    212,
+    216,
+    219,
+    220,
+    243,
+    288
+   ],
+   "iso": [
+    216
+   ],
+   "s_taken": [
+    212
+   ],
+   "t_end_d": 4602.4,
+   "t_launch_d": 960.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/X9s2k4/route_X9s2k4s1_12.npz",
+   "n": 12,
+   "n_real": 12,
+   "tank": 831.37,
+   "miss": 76.9,
+   "kind": "score",
+   "targets": [
+    6,
+    17,
+    36,
+    75,
+    108,
+    118,
+    180,
+    212,
+    216,
+    219,
+    220,
+    243
+   ],
+   "iso": [
+    216
+   ],
+   "s_taken": [
+    212
+   ],
+   "t_end_d": 4298.0,
+   "t_launch_d": 960.0,
+   "step": 1
+  }
+ ],
+ "taken": [
+  {
+   "k": 1,
+   "f": "results/s15b/cols/X9s2k4/route_X9s2k4s1_14.npz",
+   "n": 14,
+   "tank": 862.69,
+   "targets": [
+    6,
+    17,
+    36,
+    75,
+    108,
+    118,
+    180,
+    212,
+    216,
+    219,
+    220,
+    243,
+    247,
+    288
+   ]
+  }
+ ]
+}

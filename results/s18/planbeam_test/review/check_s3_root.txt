@@ -1,0 +1,74 @@
+== results/s18/planbeam_test/s3 s03_c0 kind craft ok True columns 2 retried False wall 287.7 end {'kind': 'plan_done', 'depth': 9} error ''
+  BAD s03_c0_k0    n 2 dtank   15.5 pot 0 miss  99.5 epochs [1825, 2158] tL 0 d  t_end 186465348.11875615 != last epoch
+  BAD s03_c0_k1    n 1 dtank   10.3 pot 2 miss  98.9 epochs [1825] tL 0 d  t_end 157650899.05705932 != last epoch
+== results/s18/planbeam_test/s3 s03_c1 kind craft ok True columns 15 retried False wall 138.4 end {'kind': 'plan_done', 'depth': 12} error ''
+  BAD s03_c1_k0    n 3 dtank   48.5 pot 1 miss   1.4 epochs [1802, 2018, 2139] tL 0 d  t_end 184825750.84833008 != last epoch
+  BAD s03_c1_k1    n 3 dtank  104.1 pot 2 miss  68.7 epochs [1994, 2072, 2123] tL 0 d  t_end 183432702.60621402 != last epoch
+  BAD s03_c1_k2    n 2 dtank   21.4 pot 0 miss   2.0 epochs [1789, 2018] tL 0 d  t_end 174320182.95438668 != last epoch
+  BAD s03_c1_k3    n 2 dtank   34.0 pot 2 miss   0.7 epochs [1872, 2121] tL 0 d  t_end 183222030.53463006 != last epoch
+  BAD s03_c1_k4    n 2 dtank   58.0 pot 3 miss   3.3 epochs [1864, 1996] tL 0 d  t_end 172444039.43376073 != last epoch
+  BAD s03_c1_k5    n 2 dtank   64.9 pot 0 miss   1.5 epochs [1927, 2122] tL 0 d  t_end 183312450.84835452 != last epoch
+  BAD s03_c1_k6    n 1 dtank    7.1 pot 0 miss   3.5 epochs [2073] tL 0 d  t_end 179121872.43295974 != last epoch
+  BAD s03_c1_k7    n 1 dtank   20.8 pot 1 miss   4.1 epochs [2074] tL 0 d  t_end 179200941.63115516 != last epoch
+  BAD s03_c1_k8    n 1 dtank   21.3 pot 3 miss   1.6 epochs [1872] tL 0 d  t_end 161736071.35772097 != last epoch
+  BAD s03_c1_k9    n 1 dtank   21.6 pot 0 miss   2.3 epochs [2155] tL 0 d  t_end 186153742.67859092 != last epoch
+  BAD s03_c1_k10   n 1 dtank   27.5 pot 1 miss   1.8 epochs [1894] tL 0 d  t_end 163678688.19267505 != last epoch
+  BAD s03_c1_k11   n 1 dtank   34.2 pot 1 miss   2.7 epochs [1924] tL 0 d  t_end 166273277.31389347 != last epoch
+  BAD s03_c1_k12   n 1 dtank   34.2 pot 2 miss   4.4 epochs [1992] tL 0 d  t_end 172113194.92957324 != last epoch
+  BAD s03_c1_k13   n 1 dtank   36.0 pot 2 miss   1.7 epochs [2017] tL 0 d  t_end 174236423.6730729 != last epoch
+  BAD s03_c1_k14   n 1 dtank   38.6 pot 2 miss  72.0 epochs [1930] tL 0 d  t_end 166723044.67950916 != last epoch
+== results/s18/planbeam_test/s3 s03_c4 kind craft ok True columns 16 retried False wall 61.9 end {'kind': 'plan_done', 'depth': 12} error ''
+  BAD s03_c4_k0    n 4 dtank   30.0 pot 1 miss  82.1 epochs [1626, 1764, 1820, 1998] tL 100 d  t_end 172631387.90408647 != last epoch
+  BAD s03_c4_k1    n 4 dtank   76.2 pot 0 miss  41.6 epochs [1681, 1755, 1852, 2001] tL 100 d  t_end 172887782.77841693 != last epoch
+  BAD s03_c4_k2    n 3 dtank   11.9 pot 0 miss  18.9 epochs [1764, 1830, 2038] tL 100 d  t_end 176040754.96622252 != last epoch
+  BAD s03_c4_k3    n 3 dtank   20.7 pot 3 miss  49.4 epochs [1627, 1814, 1976] tL 100 d  t_end 170725208.34776863 != last epoch
+  BAD s03_c4_k4    n 3 dtank   38.2 pot 0 miss  62.9 epochs [1663, 1756, 1980] tL 100 d  t_end 171058219.630883 != last epoch
+  BAD s03_c4_k5    n 2 dtank    6.0 pot 0 miss  22.0 epochs [1815, 2038] tL 100 d  t_end 176071702.72153026 != last epoch
+  BAD s03_c4_k6    n 2 dtank   14.7 pot 3 miss  25.3 epochs [1627, 1817] tL 100 d  t_end 156990707.33458245 != last epoch
+  BAD s03_c4_k7    n 2 dtank   23.6 pot 0 miss  49.3 epochs [1660, 1759] tL 100 d  t_end 151973144.15843296 != last epoch
+  BAD s03_c4_k8    n 1 dtank    1.1 pot 2 miss   2.7 epochs [1778] tL 100 d  t_end 153656116.75298616 != last epoch
+  BAD s03_c4_k9    n 1 dtank    2.2 pot 2 miss  82.7 epochs [1822] tL 100 d  t_end 157386471.0378124 != last epoch
+  BAD s03_c4_k10   n 1 dtank    2.5 pot 2 miss  91.9 epochs [1765] tL 100 d  t_end 152458327.28429112 != last epoch
+  BAD s03_c4_k11   n 1 dtank    3.2 pot 0 miss  11.8 epochs [2037] tL 100 d  t_end 176037704.98622516 != last epoch
+  BAD s03_c4_k12   n 1 dtank    3.5 pot 3 miss  76.5 epochs [1627] tL 100 d  t_end 140531618.52124375 != last epoch
+  BAD s03_c4_k13   n 1 dtank    4.1 pot 2 miss  44.1 epochs [1982] tL 100 d  t_end 171276993.17494655 != last epoch
+  BAD s03_c4_k14   n 1 dtank    6.9 pot 0 miss   3.8 epochs [2099] tL 100 d  t_end 181366827.24197376 != last epoch
+  BAD s03_c4_k15   n 1 dtank   17.4 pot 2 miss  61.1 epochs [1681] tL 100 d  t_end 145270838.01805252 != last epoch
+== results/s18/planbeam_test/s3 s03_c7 kind craft ok True columns 16 retried False wall 110.9 end {'kind': 'plan_done', 'depth': 10} error ''
+  BAD s03_c7_k0    n 3 dtank   25.8 pot 0 miss   8.4 epochs [1746, 1936, 2090] tL 360 d  t_end 180537489.28860128 != last epoch
+  BAD s03_c7_k1    n 3 dtank   28.2 pot 0 miss   1.9 epochs [1747, 1936, 2055] tL 360 d  t_end 177523006.51468432 != last epoch
+  BAD s03_c7_k2    n 3 dtank   32.1 pot 1 miss  30.7 epochs [1929, 2031, 2127] tL 360 d  t_end 183796049.72641724 != last epoch
+  BAD s03_c7_k3    n 2 dtank   17.8 pot 1 miss   3.0 epochs [1801, 2130] tL 360 d  t_end 184013690.9098698 != last epoch
+  BAD s03_c7_k4    n 2 dtank   26.9 pot 0 miss   6.5 epochs [1839, 2090] tL 360 d  t_end 180607217.64468575 != last epoch
+  BAD s03_c7_k5    n 2 dtank  174.5 pot 3 miss  62.8 epochs [1776, 2000] tL 360 d  t_end 172804221.17826033 != last epoch
+  BAD s03_c7_k6    n 1 dtank    1.0 pot 0 miss   9.2 epochs [1890] tL 360 d  t_end 163293550.8193941 != last epoch
+  BAD s03_c7_k7    n 1 dtank    1.7 pot 2 miss  14.3 epochs [1983] tL 360 d  t_end 171327845.98572007 != last epoch
+  BAD s03_c7_k8    n 1 dtank    5.5 pot 1 miss   5.1 epochs [1891] tL 360 d  t_end 163368300.9509593 != last epoch
+  BAD s03_c7_k9    n 1 dtank    8.6 pot 1 miss  31.1 epochs [1799] tL 360 d  t_end 155391026.4885167 != last epoch
+  BAD s03_c7_k10   n 1 dtank   10.7 pot 1 miss  14.1 epochs [2084] tL 360 d  t_end 180077088.02454463 != last epoch
+  BAD s03_c7_k11   n 1 dtank   13.9 pot 1 miss  86.4 epochs [2012] tL 360 d  t_end 173822349.9969753 != last epoch
+  BAD s03_c7_k12   n 1 dtank   15.5 pot 2 miss   5.1 epochs [2000] tL 360 d  t_end 172802852.26684883 != last epoch
+  BAD s03_c7_k13   n 1 dtank   21.7 pot 1 miss   7.2 epochs [1937] tL 360 d  t_end 167321862.96353483 != last epoch
+  BAD s03_c7_k14   n 1 dtank   38.3 pot 3 miss  71.6 epochs [2009] tL 360 d  t_end 173538496.0559973 != last epoch
+  BAD s03_c7_k15   n 1 dtank   62.7 pot 2 miss   7.3 epochs [2067] tL 360 d  t_end 178617169.96141455 != last epoch
+== results/s18/planbeam_test/root s00_r0 kind root ok True columns 16 retried False wall 82.3 end {'kind': 'plan_done', 'depth': 11} error ''
+  OK  s00_r0_k0    n 4 dtank   23.5 pot 0 miss   0.5 epochs [72, 235, 334, 413] tL 0 d
+  BAD s00_r0_k1    n 4 dtank   31.3 pot 2 miss   0.0 epochs [75, 195, 370, 456] tL 0 d  t_end 39358550.60165481 != last epoch
+  BAD s00_r0_k2    n 4 dtank   35.0 pot 1 miss   0.2 epochs [75, 196, 368, 500] tL 0 d  t_end 43184501.805278584 != last epoch
+  BAD s00_r0_k3    n 3 dtank    3.6 pot 0 miss   0.1 epochs [90, 331, 442] tL 60 d  t_end 38147429.08157564 != last epoch
+  BAD s00_r0_k4    n 3 dtank    5.2 pot 0 miss   0.0 epochs [90, 300, 440] tL 60 d  t_end 38033719.588814825 != last epoch
+  BAD s00_r0_k5    n 3 dtank   26.1 pot 3 miss   0.0 epochs [75, 195, 370] tL 0 d  t_end 31925738.981335048 != last epoch
+  OK  s00_r0_k6    n 2 dtank    0.0 pot 0 miss   0.0 epochs [305, 357] tL 50 d
+  BAD s00_r0_k7    n 2 dtank    7.9 pot 2 miss  63.1 epochs [361, 449] tL 0 d  t_end 38797657.48870883 != last epoch
+  BAD s00_r0_k8    n 2 dtank   12.0 pot 0 miss   0.0 epochs [188, 338] tL 20 d  t_end 29215209.248397406 != last epoch
+  BAD s00_r0_k9    n 2 dtank   14.1 pot 3 miss   0.0 epochs [74, 191] tL 0 d  t_end 16497313.20940345 != last epoch
+  OK  s00_r0_k10   n 1 dtank    0.0 pot 3 miss   0.0 epochs [75] tL 0 d
+  OK  s00_r0_k11   n 1 dtank    0.0 pot 2 miss   0.0 epochs [365] tL 0 d
+  OK  s00_r0_k12   n 1 dtank    0.0 pot 0 miss   0.0 epochs [70] tL 0 d
+  OK  s00_r0_k13   n 1 dtank    0.0 pot 0 miss   0.0 epochs [140] tL 0 d
+  OK  s00_r0_k14   n 1 dtank    0.0 pot 0 miss   0.0 epochs [160] tL 50 d
+  OK  s00_r0_k15   n 1 dtank    0.0 pot 0 miss   0.0 epochs [165] tL 30 d
+SUMMARY: 65 columns, 57 with violations
+REGRID s03_c4_k0 n 4: column tank 737.43 -> honest 737.41 (delta -0.02 kg), ok True miss 26.0 km irregular 0 cap 0.9998 (0.3 s)
+REGRID s03_c4_k2 n 3: column tank 719.24 -> honest 719.20 (delta -0.04 kg), ok True miss 8.7 km irregular 0 cap 0.9435 (0.2 s)
+REGRID s03_c4_k5 n 2: column tank 713.34 -> honest 713.34 (delta -0.00 kg), ok True miss 94.0 km irregular 0 cap 0.9997 (0.4 s)

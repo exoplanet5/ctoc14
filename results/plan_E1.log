@@ -1,0 +1,17 @@
+SC1: 47 flybys, fuel 1297 kg, launch 0 d, 97 s
+SC2: 46 flybys, fuel 1298 kg, launch 60 d, 99 s
+SC3: 40 flybys, fuel 1213 kg, launch 20 d, 75 s
+SC4: 38 flybys, fuel 1295 kg, launch 0 d, 66 s
+SC5: 35 flybys, fuel 1257 kg, launch 60 d, 64 s
+SC6: 29 flybys, fuel 1250 kg, launch 60 d, 49 s
+SC7: 25 flybys, fuel 1173 kg, launch 0 d, 41 s
+SC8: 16 flybys, fuel 1068 kg, launch 860 d, 27 s
+SC9: 4 flybys, fuel 167 kg, launch 500 d, 24 s
+stopping sequential pass
+[sequential] 9 spacecraft, flybys [47, 46, 40, 38, 35, 29, 25, 16, 4], covered 280, planned J = 47.00
+  round 1: SC7 25 -> 25 (48 s)
+[improve round 1] 9 spacecraft, flybys [47, 46, 40, 38, 35, 29, 25, 16, 4], covered 280, planned J = 47.00
+[improve round 2] 9 spacecraft, flybys [47, 46, 40, 38, 35, 29, 25, 16, 4], covered 280, planned J = 47.00
+[elimination trial (removed SC9 with 4)] 8 spacecraft, flybys [47, 46, 40, 38, 35, 29, 25, 16], covered 276, planned J = 48.00
+  -> rejected
+FLEET: 9 spacecraft, covered 280, planned J = 47.00; leftovers [16, 23, 31, 41, 77, 85, 88, 114, 129, 138, 166, 175, 180, 219, 232, 236, 246, 282]

@@ -1,0 +1,5 @@
+spacecraft: 1, m0 = [2000.0]
+covered 1, missed 299, J = 302.0000  (sum J_i = 3.0000)
+max errors: pos 2.7838e-07 km, vel 5.2252e-11 m/s, mass 0.0000e+00 kg, max |T| 0.50000 N
+RESULT: PASS
+wall=5.345430000 s

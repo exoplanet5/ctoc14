@@ -1,0 +1,21 @@
+{
+ "pair_overlaps": 1603629,
+ "frac_same_encounter_lt60d": 0.2683,
+ "dt_days_pct": [
+  1,
+  18,
+  1243,
+  2289,
+  3310
+ ],
+ "encounter_windows_per_target_pct": [
+  3,
+  4,
+  6,
+  11,
+  14
+ ],
+ "targets_with_1_window": 0,
+ "targets_with_le2_windows": 5,
+ "n_targets": 298
+}

@@ -1,0 +1,23 @@
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py free results/s14/A/s2/free298/L3_b100 --pool all --name all --L 3 --beam 100 > results/s14/A/s2/free298/L3_b100.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py free results/s14/A/s2/vA_pol/p03 --pool pools:results/s13/linchpin/pools_A_c38.json:03 --L 3 --beam 100 --polish-L 5 --cap-frac 0.85 > results/s14/A/s2/vA_pol/p03.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py free results/s14/A/s2/vA_pol/p07 --pool pools:results/s13/linchpin/pools_A_c38.json:07 --L 3 --beam 100 --polish-L 5 --cap-frac 0.85 > results/s14/A/s2/vA_pol/p07.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py free results/s14/A/s2/vA_pol/p08 --pool pools:results/s13/linchpin/pools_A_c38.json:08 --L 3 --beam 100 --polish-L 5 --cap-frac 0.85 > results/s14/A/s2/vA_pol/p08.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py free results/s14/A/s2/vB_b300/p03 --pool pools:results/s13/linchpin/pools_A_c38.json:03 --L 3 --beam 300 > results/s14/A/s2/vB_b300/p03.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py free results/s14/A/s2/vB_b300/p07 --pool pools:results/s13/linchpin/pools_A_c38.json:07 --L 3 --beam 300 > results/s14/A/s2/vB_b300/p07.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py free results/s14/A/s2/vB_b300/p08 --pool pools:results/s13/linchpin/pools_A_c38.json:08 --L 3 --beam 300 > results/s14/A/s2/vB_b300/p08.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py free results/s14/A/s2/vC_L4/p03 --pool pools:results/s13/linchpin/pools_A_c38.json:03 --L 4 --beam 100 > results/s14/A/s2/vC_L4/p03.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py free results/s14/A/s2/vC_L4/p07 --pool pools:results/s13/linchpin/pools_A_c38.json:07 --L 4 --beam 100 > results/s14/A/s2/vC_L4/p07.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py free results/s14/A/s2/vC_L4/p08 --pool pools:results/s13/linchpin/pools_A_c38.json:08 --L 4 --beam 100 > results/s14/A/s2/vC_L4/p08.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py free results/s14/A/s2/vD_wf1/p03 --pool pools:results/s13/linchpin/pools_A_c38.json:03 --L 3 --beam 100 --w-fuel 1.0 > results/s14/A/s2/vD_wf1/p03.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py free results/s14/A/s2/vD_wf1/p07 --pool pools:results/s13/linchpin/pools_A_c38.json:07 --L 3 --beam 100 --w-fuel 1.0 > results/s14/A/s2/vD_wf1/p07.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py free results/s14/A/s2/vD_wf1/p08 --pool pools:results/s13/linchpin/pools_A_c38.json:08 --L 3 --beam 100 --w-fuel 1.0 > results/s14/A/s2/vD_wf1/p08.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py resettle results/s14/A/s2/rf_L2_b100/r00 > results/s14/A/s2/rf_L2_b100/r00.resettle.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py resettle results/s14/A/s2/rf_L2_b100/r01 > results/s14/A/s2/rf_L2_b100/r01.resettle.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py resettle results/s14/A/s2/rf_L2_b100/r02 > results/s14/A/s2/rf_L2_b100/r02.resettle.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py resettle results/s14/A/s2/rf_L2_b100/r03 > results/s14/A/s2/rf_L2_b100/r03.resettle.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py resettle results/s14/A/s2/rf_L2_b100/r04 > results/s14/A/s2/rf_L2_b100/r04.resettle.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py resettle results/s14/A/s2/rf_L2_b100/r05 > results/s14/A/s2/rf_L2_b100/r05.resettle.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py resettle results/s14/A/s2/rf_L2_b100/r06 > results/s14/A/s2/rf_L2_b100/r06.resettle.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py resettle results/s14/A/s2/rf_L2_b100/r07 > results/s14/A/s2/rf_L2_b100/r07.resettle.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py resettle results/s14/A/s2/rf_L2_b100/r08 > results/s14/A/s2/rf_L2_b100/r08.resettle.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_lookback.py resettle results/s14/A/s2/rf_L2_b100/r09 > results/s14/A/s2/rf_L2_b100/r09.resettle.out 2>&1

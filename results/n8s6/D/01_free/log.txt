@@ -1,0 +1,14 @@
+[10:41:36] skeletons: 8 routes, covered 67, J 241.4199; 05:9@670 09:9@734 13:9@668 01:8@647 03:8@642 06:8@678 10:8@653 12:8@664
+[10:46:44] skeletons: 8 routes, covered 67, J 241.4199; 05:9@670 09:9@734 13:9@668 01:8@647 03:8@642 06:8@678 10:8@653 12:8@664
+[10:46:44]   01: dropping waypoints [111, 114, 193, 139, 122, 137, 265, 196] -> 0 left
+[10:46:44]   03: dropping waypoints [205, 214, 203, 88, 135, 15, 178, 36] -> 0 left
+[10:46:44]   05: dropping waypoints [192, 101, 96, 132, 262, 58, 147, 179, 200] -> 0 left
+[10:46:44]   06: dropping waypoints [16, 108, 224, 34, 240, 145, 86, 254] -> 0 left
+[10:46:44]   09: dropping waypoints [8, 39, 251, 51, 217, 168, 33, 157, 219] -> 0 left
+[10:46:44]   10: dropping waypoints [169, 166, 199, 62, 116, 18, 282, 25] -> 0 left
+[10:46:44]   12: dropping waypoints [99, 105, 206, 246, 252, 84, 151, 243] -> 0 left
+[10:46:44]   13: dropping waypoints [161, 50, 92, 123, 158, 236, 22, 216, 232] -> 0 left
+[10:52:46]     01 segments: 0:None->5331st/20fb
+[10:52:46]   01 f1.00/s0 half45: pool 298, +291 columns (deepest 20), 291 distinct
+[10:52:46] [01] 291 columns, depth 20-20, 151 distinct easy targets reached (363 s)
+[10:52:46] 291 columns written to results/n8s6/D/c_01_free.jsonl

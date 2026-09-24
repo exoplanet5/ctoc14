@@ -1,0 +1,290 @@
+{
+ "job_id": "s03_c0",
+ "kind": "craft",
+ "craft": 0,
+ "ok": true,
+ "error": null,
+ "columns": [
+  {
+   "id": "s03_c0_k0",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    151,
+    60
+   ],
+   "epochs": [
+    157649833.86512232,
+    186468994.56435078
+   ],
+   "all_targets": [
+    139,
+    141,
+    164,
+    115,
+    273,
+    264,
+    66,
+    123,
+    151,
+    60
+   ],
+   "n_new": 2,
+   "npz": "slices/s03/c0/col_0.npz",
+   "tank": 711.3737458760631,
+   "tank_prev": 695.870056842526,
+   "dtank": 15.50368903353717,
+   "miss": 99.48846956405042,
+   "t_launch": 0.0,
+   "t_end": 186465348.11875615,
+   "potential": 0,
+   "counts": {
+    "pin": 1,
+    "med": 0,
+    "fil": 1
+   },
+   "depth": 10,
+   "score": -1.099458830404052,
+   "job_id": "s03_c0"
+  },
+  {
+   "id": "s03_c0_k1",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    151
+   ],
+   "epochs": [
+    157648767.2840473
+   ],
+   "all_targets": [
+    139,
+    141,
+    164,
+    115,
+    273,
+    264,
+    66,
+    123,
+    151
+   ],
+   "n_new": 1,
+   "npz": "slices/s03/c0/col_1.npz",
+   "tank": 706.1577894182763,
+   "tank_prev": 695.870056842526,
+   "dtank": 10.287732575750283,
+   "miss": 98.89242783007496,
+   "t_launch": 0.0,
+   "t_end": 157650899.05705932,
+   "potential": 2,
+   "counts": {
+    "pin": 1,
+    "med": 0,
+    "fil": 0
+   },
+   "depth": 9,
+   "score": -3.665596863734481,
+   "job_id": "s03_c0"
+  }
+ ],
+ "stats": {
+  "levels": 9,
+  "n_states": 1068,
+  "n_columns": 2,
+  "settles": 20,
+  "settle_ok": 11,
+  "regrids": 11,
+  "regrid_ok": 2,
+  "honest": true,
+  "price_s": 0.6,
+  "settle_s": 219.1,
+  "plan_s": 68.5,
+  "wall_s": 287.7,
+  "end": {
+   "kind": "plan_done",
+   "depth": 9
+  },
+  "hist": [
+   {
+    "depth": 1,
+    "kept": 86,
+    "in_H": 77,
+    "t_end_d": [
+     1630.0,
+     2278.0
+    ],
+    "fuel_kg": [
+     218.0,
+     316.0
+    ]
+   },
+   {
+    "depth": 2,
+    "kept": 150,
+    "in_H": 109,
+    "t_end_d": [
+     1738.0,
+     2614.0
+    ],
+    "fuel_kg": [
+     231.0,
+     351.0
+    ]
+   },
+   {
+    "depth": 3,
+    "kept": 150,
+    "in_H": 35,
+    "t_end_d": [
+     1933.0,
+     2895.0
+    ],
+    "fuel_kg": [
+     244.0,
+     387.0
+    ]
+   },
+   {
+    "depth": 4,
+    "kept": 150,
+    "in_H": 2,
+    "t_end_d": [
+     2069.0,
+     3087.0
+    ],
+    "fuel_kg": [
+     286.0,
+     422.0
+    ]
+   },
+   {
+    "depth": 5,
+    "kept": 150,
+    "in_H": 0,
+    "t_end_d": [
+     2476.0,
+     3237.0
+    ],
+    "fuel_kg": [
+     324.0,
+     456.0
+    ]
+   },
+   {
+    "depth": 6,
+    "kept": 150,
+    "in_H": 0,
+    "t_end_d": [
+     2695.0,
+     3238.0
+    ],
+    "fuel_kg": [
+     345.0,
+     452.0
+    ]
+   },
+   {
+    "depth": 7,
+    "kept": 150,
+    "in_H": 0,
+    "t_end_d": [
+     2955.0,
+     3237.0
+    ],
+    "fuel_kg": [
+     396.0,
+     475.0
+    ]
+   },
+   {
+    "depth": 8,
+    "kept": 73,
+    "in_H": 0,
+    "t_end_d": [
+     3089.0,
+     3240.0
+    ],
+    "fuel_kg": [
+     410.0,
+     502.0
+    ]
+   },
+   {
+    "depth": 9,
+    "kept": 9,
+    "in_H": 0,
+    "t_end_d": [
+     3207.0,
+     3236.0
+    ],
+    "fuel_kg": [
+     476.0,
+     535.0
+    ]
+   }
+  ],
+  "plan": {
+   "s03_c0_k0": {
+    "plan_n": 2,
+    "plan_fuel_kg": 252.7,
+    "plan_t_end_d": 2158.2,
+    "commit_fuel_kg": 252.7,
+    "cut": false
+   },
+   "s03_c0_k1": {
+    "plan_n": 4,
+    "plan_fuel_kg": 332.0,
+    "plan_t_end_d": 2440.2,
+    "commit_fuel_kg": 243.0,
+    "cut": false
+   }
+  },
+  "frontier": [
+   {
+    "n_new": 1,
+    "dtank_min": 10.3,
+    "potential_of_cheapest": 2,
+    "potential_max": 2,
+    "n_cols": 1
+   },
+   {
+    "n_new": 2,
+    "dtank_min": 15.5,
+    "potential_of_cheapest": 0,
+    "potential_max": 0,
+    "n_cols": 1
+   }
+  ],
+  "n_candidates": 152,
+  "params": {
+   "width": 150,
+   "npt": 6,
+   "mc": 150,
+   "dv": 1.2,
+   "drmax": 0.15,
+   "w_t": 3.0,
+   "w_fuel": null,
+   "plan_wall": 240.0,
+   "plan_extra_d": 720.0,
+   "max_depth": 40,
+   "max_cols": 16,
+   "max_depth_col": 8,
+   "per_depth": 3,
+   "regrid_cols": 1,
+   "iters": 100,
+   "timeout": 240.0,
+   "settle_wall": 480.0,
+   "lin_seed": 1,
+   "first_leg": "both",
+   "dv1": 2.5,
+   "drmax1": 0.3,
+   "k_epochs": 3,
+   "lin_cap": 3.0,
+   "res_max": 150000000.0,
+   "price_cap": 250,
+   "root_dedup_d": 20.0,
+   "roots_max": 600
+  }
+ },
+ "retried": false
+}

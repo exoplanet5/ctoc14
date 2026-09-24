@@ -1,0 +1,17 @@
+[01:28:56] twintail P108_2e031: pool 22, S [], p 0.0, steps 1, beam 24/72, nproc 1; resume at step 1
+[01:29:08]   roots: 393 launch legs -> 77 kept; pool 22, S [] p 0.0
+[01:30:36]   depth  2: 77 parents -> 378 kids (258 uniq) -> tried 28, settled 24, kept 19; t_end 392-1175 d, tank 602-634, max S 0 (88 s, gen 60 s)
+[01:31:16]   depth  3: 19 parents -> 83 kids (80 uniq) -> tried 24, settled 24, kept 22; t_end 729-1583 d, tank 605-741, max S 0 (40 s, gen 20 s)
+[01:32:26]   depth  4: 22 parents -> 92 kids (91 uniq) -> tried 27, settled 24, kept 20; t_end 1290-1950 d, tank 611-715, max S 0 (70 s, gen 28 s)
+[01:33:40]   depth  5: 20 parents -> 95 kids (93 uniq) -> tried 25, settled 24, kept 24; t_end 1469-1999 d, tank 621-691, max S 0 (74 s, gen 30 s)
+[01:35:15]   depth  6: 24 parents -> 79 kids (79 uniq) -> tried 25, settled 24, kept 24; t_end 1689-2634 d, tank 639-754, max S 0 (95 s, gen 40 s)
+[01:36:42]   depth  7: 24 parents -> 85 kids (85 uniq) -> tried 24, settled 24, kept 22; t_end 1835-3009 d, tank 644-703, max S 0 (86 s, gen 41 s)
+[01:38:21]   depth  8: 22 parents -> 109 kids (109 uniq) -> tried 24, settled 24, kept 21; t_end 1993-3011 d, tank 647-713, max S 0 (100 s, gen 41 s)
+[01:39:43]   depth  9: 21 parents -> 96 kids (96 uniq) -> tried 24, settled 24, kept 22; t_end 2572-3304 d, tank 662-689, max S 0 (82 s, gen 42 s)
+[01:41:30]   depth 10: 22 parents -> 68 kids (68 uniq) -> tried 24, settled 24, kept 22; t_end 2740-3635 d, tank 671-868, max S 0 (107 s, gen 48 s)
+[01:43:14]   depth 11: 22 parents -> 66 kids (66 uniq) -> tried 24, settled 24, kept 24; t_end 2919-3840 d, tank 683-722, max S 0 (104 s, gen 44 s)
+[01:44:50]   depth 12: 24 parents -> 88 kids (87 uniq) -> tried 24, settled 24, kept 23; t_end 3409-3978 d, tank 690-714, max S 0 (96 s, gen 48 s)
+[01:46:20]   depth 13: 23 parents -> 73 kids (73 uniq) -> tried 24, settled 24, kept 21; t_end 3591-4352 d, tank 697-718, max S 0 (90 s, gen 44 s)
+[01:48:38]   depth 14: 21 parents -> 40 kids (39 uniq) -> tried 24, settled 24, kept 23; t_end 3835-4361 d, tank 710-784, max S 0 (138 s, gen 37 s)
+[01:50:59]   depth 15: 23 parents -> 47 kids (47 uniq) -> tried 24, settled 24, kept 24; t_end 3968-4765 d, tank 733-801, max S 0 (141 s, gen 38 s)
+[01:53:01]   depth 16: 24 parents -> 59 kids (59 uniq) -> tried 24, settled 24, kept 23; t_end 4340-5136 d, tank 753-810, max S 0 (123 s, gen 37 s)

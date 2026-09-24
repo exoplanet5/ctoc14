@@ -1,0 +1,114 @@
+{
+ "pool": "routes:08,09",
+ "pool_size": 50,
+ "mode": "strict",
+ "soft_prize": 0.0,
+ "beam": 300,
+ "nproc": 1,
+ "m0": 1600.0,
+ "t_beam_s": 180.6,
+ "cpu_beam_s": 156.7,
+ "n_expand": 5090,
+ "n_states": 2544,
+ "deepest_total": 22,
+ "deepest_pool": 22,
+ "pareto_pool": {
+  "10": {
+   "n_tot": 10,
+   "fuel": 208.7,
+   "tank_planner": 662.5
+  },
+  "11": {
+   "n_tot": 11,
+   "fuel": 228.7,
+   "tank_planner": 668.9
+  },
+  "12": {
+   "n_tot": 12,
+   "fuel": 252.6,
+   "tank_planner": 676.8
+  },
+  "13": {
+   "n_tot": 13,
+   "fuel": 276.6,
+   "tank_planner": 684.9
+  },
+  "14": {
+   "n_tot": 14,
+   "fuel": 280.0,
+   "tank_planner": 686.0
+  },
+  "15": {
+   "n_tot": 15,
+   "fuel": 305.2,
+   "tank_planner": 694.8
+  },
+  "16": {
+   "n_tot": 16,
+   "fuel": 325.8,
+   "tank_planner": 702.1
+  },
+  "17": {
+   "n_tot": 17,
+   "fuel": 343.2,
+   "tank_planner": 708.3
+  },
+  "18": {
+   "n_tot": 18,
+   "fuel": 396.1,
+   "tank_planner": 728.2
+  },
+  "19": {
+   "n_tot": 19,
+   "fuel": 443.9,
+   "tank_planner": 747.1
+  },
+  "20": {
+   "n_tot": 20,
+   "fuel": 470.0,
+   "tank_planner": 757.8
+  },
+  "21": {
+   "n_tot": 21,
+   "fuel": 483.7,
+   "tank_planner": 763.6
+  },
+  "22": {
+   "n_tot": 22,
+   "fuel": 509.2,
+   "tank_planner": 774.6
+  }
+ },
+ "settles": [
+  {
+   "k_pool": 22,
+   "n_tot": 22,
+   "tank_planner": 774.6,
+   "t_settle_s": 15.7,
+   "ok": true,
+   "miss_km": 5.1,
+   "lag_d": 1.0,
+   "tank_twin": 788.7,
+   "J_i": 1.1529,
+   "kg_per_fb": 8.58,
+   "dv_per_fb": 0.4831,
+   "t_end_yr": 14.37,
+   "t_launch_d": 260.0
+  },
+  {
+   "k_pool": 21,
+   "n_tot": 21,
+   "tank_planner": 763.6,
+   "t_settle_s": 15.8,
+   "ok": true,
+   "miss_km": 2.5,
+   "lag_d": 1.0,
+   "tank_twin": 764.4,
+   "J_i": 1.1312,
+   "kg_per_fb": 7.83,
+   "dv_per_fb": 0.4478,
+   "t_end_yr": 14.02,
+   "t_launch_d": 260.0
+  }
+ ]
+}

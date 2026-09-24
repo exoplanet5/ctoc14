@@ -1,0 +1,2 @@
+[21:08:35]     absorb[route_04+[]]: 2 approaches of [33, 71]; lintwin 33@2530d 0.107AU 370kg, 71@2607d 0.107AU 725kg
+[21:08:35] close C00h6_h4 done: 0 columns (1 s)

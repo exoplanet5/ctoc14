@@ -1,0 +1,16 @@
+[00:04:23] twintail ES296_09: pool 14, S [17, 64, 219], p 0.05, steps 1, beam 20/60, nproc 1; resume at step 1
+[00:04:35]   roots: 112 launch legs -> 33 kept; pool 14, S [17, 64, 219] p 0.05
+[00:05:32]   depth  2: 33 parents -> 74 kids (54 uniq) -> tried 26, settled 20, kept 15; t_end 788-1375 d, tank 602-662, max S 1 (57 s, gen 18 s)
+[00:06:43]   depth  3: 15 parents -> 52 kids (50 uniq) -> tried 23, settled 20, kept 20; t_end 1233-1776 d, tank 613-691, max S 1 (71 s, gen 11 s)
+[00:07:59]   depth  4: 20 parents -> 52 kids (51 uniq) -> tried 21, settled 20, kept 18; t_end 1336-1973 d, tank 623-682, max S 1 (76 s, gen 19 s)
+[00:09:31]   depth  5: 18 parents -> 37 kids (37 uniq) -> tried 22, settled 20, kept 20; t_end 1445-2531 d, tank 636-788, max S 1 (92 s, gen 18 s)
+[00:11:44]   depth  6: 20 parents -> 36 kids (35 uniq) -> tried 24, settled 20, kept 19; t_end 1659-2866 d, tank 645-766, max S 1 (134 s, gen 22 s)
+[00:14:35]   depth  7: 19 parents -> 34 kids (34 uniq) -> tried 25, settled 20, kept 19; t_end 1849-3174 d, tank 658-788, max S 2 (171 s, gen 20 s)
+[00:17:28]   depth  8: 19 parents -> 25 kids (25 uniq) -> tried 23, settled 20, kept 19; t_end 2504-3513 d, tank 733-876, max S 2 (173 s, gen 21 s)
+[00:20:24]   depth  9: 19 parents -> 23 kids (23 uniq) -> tried 23, settled 19, kept 16; t_end 2692-4175 d, tank 769-1095, max S 2 (176 s, gen 19 s)
+[00:22:33]   depth 10: 16 parents -> 12 kids (12 uniq) -> tried 12, settled 8, kept 8; t_end 3148-4133 d, tank 776-996, max S 2 (128 s, gen 15 s)
+[00:23:05]   depth 11: 8 parents -> 3 kids (3 uniq) -> tried 3, settled 3, kept 1; t_end 4088-4088 d, tank 976-976, max S 1 (32 s, gen 6 s)
+[00:23:06]   depth 12: 1 parents -> 0 kids (0 uniq) -> tried 0, settled 0, kept 0 (1 s, gen 1 s)
+[00:23:06]   step 1: pool 14 deepest 11 ({'kind': 'no_children', 'depth': 11}); TOOK 10 fb @ 776 kg iso [64]; chain covered 10/14 (1111 s)
+[00:23:06] twintail ES296_09 done: 10 columns, covered 10/14 (1123 s)
+{"covered": 10, "cols": 10, "wall_s": 1123}

@@ -1,0 +1,15 @@
+[20:02:02] results/s7/deep1/fleet: 10 routes, 365 flybys, 298 covered (67 duplicate flybys), sum J_i 13.430, J 15.430, J/fb 0.0368
+[20:03:17] bulk: 58 duplicated targets, 125 trials, 125 settled (75 s)
+[20:03:17]   drops per route: 00:4 01:13 02:4 03:3 04:6 05:7 06:8 07:7 08:8 09:7
+[20:03:29]   00: -4 flybys, tank 999 -> 945 kg
+[20:03:29]   01: -13 flybys, tank 1143 -> 950 kg
+[20:03:29]   02: -4 flybys, tank 994 -> 956 kg
+[20:03:29]   03: -3 flybys, tank 845 -> 801 kg
+[20:03:29]   04: -6 flybys, tank 921 -> 892 kg
+[20:03:29]   05: -7 flybys, tank 1034 -> 982 kg
+[20:03:29]   06: -8 flybys, tank 948 -> 817 kg
+[20:03:29]   07: -7 flybys, tank 910 -> 809 kg
+[20:03:29]   08: -8 flybys, tank 1001 -> 877 kg
+[20:03:29]   09: bulk removal of 7 targets did NOT settle -- kept as is
+[20:03:29] bulk pass (13 s): 305 flybys, 298 covered, sum J_i 12.612, J 14.612, J/fb 0.0414
+[20:03:29] FINAL: 10 routes, 305 flybys, 298 covered, sum J_i 12.612, J 14.612, J/fb 0.0414

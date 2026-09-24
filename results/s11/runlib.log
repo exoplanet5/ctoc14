@@ -1,0 +1,4 @@
+60000 samples scored in 212 s: best 16.53, median 7.00
+optimised 220 carriers in 800 s: value 19.47 (was 16.53), base flybys best 24, median 16
+-> results/s11/lib_a.pkl (220 carriers, base median 16)
+60000 samples scored in 515 s: best 19.26, median 8.86

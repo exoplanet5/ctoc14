@@ -1,0 +1,32 @@
+fleet /Users/mickey/solarsystem/ctoc14/results/s18/p3_wide
+route      n     tank     J_i  launch_d    end_d  cad_d  kg/fb pin/med/fil irreg winCap   miss honest
+0         29   1056.9  1.4328       0.0   5220.4  180.0  15.75  11/  8/ 10     0  0.999    2.2 ok
+1         29   1055.1  1.4307      70.0   5344.2  181.9  15.69  11/ 10/  8     0  0.999    9.0 ok
+2         25   1056.7  1.4326      80.0   5216.1  205.4  18.27   8/ 11/  6     0  0.999   11.5 ok
+3         31   1050.5  1.4253     130.0   5465.0  172.1  14.53   8/ 11/ 12     0  1.000   15.1 ok
+4         28    914.9  1.2755     160.0   5418.8  187.8  11.25  10/ 11/  7     0  1.000   10.7 ok
+5         27   1066.0  1.4437     190.0   5203.4  185.7  17.26   6/ 13/  8     0  0.999   19.6 ok
+6         29    979.8  1.3449     220.0   5406.1  178.8  13.10  11/ 12/  6     0  0.998   30.5 ok
+7         31   1060.1  1.4367     260.0   5445.8  167.3  14.84  10/ 14/  7     0  0.998   21.7 ok
+covered 229  misses 69 {'pin': 20, 'med': 33, 'fil': 16}  n_craft 8  sumJi 11.2222  fuel 3440.0 kg  J_raw 82.2222  honest_all True
+misses: [2, 6, 7, 17, 21, 22, 23, 25, 27, 33, 35, 40, 50, 52, 54, 55, 58, 64, 66, 70, 71, 75, 76, 85, 88, 98, 109, 118, 121, 125, 135, 136, 145, 148, 151, 154, 156, 165, 171, 172] ... (+29 more)
+flybys_by_1461d 61  mean_fuel_by_1461d 165.12 kg over 8 launched (MEASURED from the impulses before day 1461); from state history 71.01 kg
+run /Users/mickey/solarsystem/ctoc14/results/s18/p3_wide: N 8 slice 10 phase propose T 5476.8 d launched 8 remaining 69 done True commit regrid source fleet
+slices: s0@0.0d cov 23 fuel 112.2  s1@540.0d cov 47 fuel 568.1  s2@1080.0d cov 73 fuel 865.0  s3@1620.0d cov 99 fuel 1287.3  s4@2160.0d cov 123 fuel 1623.6  s5@2700.0d cov 147 fuel 2092.9  s6@3240.0d cov 170 fuel 2440.3  s7@3780.0d cov 193 fuel 2894.1  s8@4320.0d cov 210 fuel 3148.8  s9@4860.0d cov 229 fuel 3440.0
+G2 closure ESTIMATE: dJ_lin 0.2651 + 61 unplaced = dJ_total 61.2651 (calibrated 61.2651; screen = every miss at its cheapest host 30.2597, 5 without a host within 0.2 AU); sumJi + closure = 72.4873; 8 placed, 241 priced approaches, 33.9 s
+  ESTIMATE (lin price via s15b_close._price_host, greedy one miss per host, cheapest first; true/lin ~1.0 below 0.06 J and 0.73 above 0.2 J per docs/stage17/R1_redteam.md; an unplaced miss counts 1.0)
+  ESTIMATE place  21 -> 5      lin dJ 0.0326 (27.1 kg) at 5155 d, 0.142 AU
+  ESTIMATE place  76 -> 6      lin dJ 0.0197 (17.8 kg) at 749 d, 0.123 AU
+  ESTIMATE place  98 -> 1      lin dJ 0.0207 (17.4 kg) at 3504 d, 0.021 AU
+  ESTIMATE place 109 -> 2      lin dJ 0.0323 (27.0 kg) at 882 d, 0.062 AU
+  ESTIMATE place 135 -> 7      lin dJ 0.0143 (12.0 kg) at 1471 d, 0.071 AU
+  ESTIMATE place 136 -> 4      lin dJ 0.0672 (62.9 kg) at 5330 d, 0.189 AU
+  ESTIMATE place 154 -> 0      lin dJ 0.0342 (28.6 kg) at 5460 d, 0.142 AU
+  ESTIMATE place 237 -> 3      lin dJ 0.0441 (36.9 kg) at 627 d, 0.039 AU
+  ESTIMATE unplaced (1.0 each): [2, 6, 7, 17, 22, 23, 25, 27, 33, 35, 40, 50, 52, 54, 55, 58, 64, 66, 70, 71, 75, 85, 88, 118, 121, 125, 145, 148, 151, 156, 165, 171, 172, 179, 186, 188, 191, 194, 199, 200] ... (+21 more)
+GATES  G0b WEAK  G1 KILL  G2 NO
+  G0b WEAK: flybys_by_1461d 61 (>= 72 PASS, <= 60 KILL), mean fuel 165.12 kg (<= 160)
+  G1 KILL: covered 229 (>= 268 PASS, 250-267 ROUND, < 250 KILL), fuel 3440 kg (<= 3900)
+  G2 NO: covered 229 < 292 (sumJi 11.2222, 69 misses)
+written /Users/mickey/solarsystem/ctoc14/results/s18/p3_wide/eval.json
+[2026-09-24 09:39:37] eval wall 34.3 s (MEASURED)

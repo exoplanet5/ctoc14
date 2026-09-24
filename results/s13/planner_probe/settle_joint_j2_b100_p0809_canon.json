@@ -1,0 +1,52 @@
+[
+ {
+  "stem": "j2_b100_p0809_canon",
+  "craft": 0,
+  "n": 18,
+  "waits": 4,
+  "seed": "stock",
+  "seed_tank": 1164.1,
+  "t_s": 113.2,
+  "ok": false,
+  "miss_km": 39091852.19628227
+ },
+ {
+  "stem": "j2_b100_p0809_canon",
+  "craft": 0,
+  "n": 18,
+  "waits": 4,
+  "seed": "wait-aware",
+  "seed_tank": 842.9,
+  "t_s": 12.2,
+  "ok": true,
+  "tank_twin": 816.4,
+  "kg_per_fb": 12.02,
+  "dv_per_fb": 0.6658,
+  "planner_fuel": 478.9
+ },
+ {
+  "stem": "j2_b100_p0809_canon",
+  "craft": 1,
+  "n": 15,
+  "waits": 3,
+  "seed": "stock",
+  "seed_tank": 2954.6,
+  "t_s": 0.3,
+  "ok": false,
+  "miss_km": null
+ },
+ {
+  "stem": "j2_b100_p0809_canon",
+  "craft": 1,
+  "n": 15,
+  "waits": 3,
+  "seed": "wait-aware",
+  "seed_tank": 872.0,
+  "t_s": 15.6,
+  "ok": true,
+  "tank_twin": 713.3,
+  "kg_per_fb": 7.55,
+  "dv_per_fb": 0.4459,
+  "planner_fuel": 378.6
+ }
+]

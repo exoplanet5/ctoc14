@@ -1,0 +1,103 @@
+{
+ "fleet": "/Users/mickey/solarsystem/ctoc14/results/s16/fleets/E",
+ "craft": 9,
+ "covered": 298,
+ "misses": [],
+ "sumJi": 11.72274,
+ "honest": true,
+ "routes": [
+  {
+   "name": "r1",
+   "n": 42,
+   "irregular": 0,
+   "max_imp_cap": 0.9782,
+   "max_window_cap": 0.9782,
+   "miss_km": 58.5,
+   "tank": 944.38,
+   "Ji": 1.30649
+  },
+  {
+   "name": "r2",
+   "n": 41,
+   "irregular": 0,
+   "max_imp_cap": 0.933,
+   "max_window_cap": 0.933,
+   "miss_km": 28.7,
+   "tank": 908.901,
+   "Ji": 1.26933
+  },
+  {
+   "name": "r3",
+   "n": 41,
+   "irregular": 0,
+   "max_imp_cap": 0.9879,
+   "max_window_cap": 0.9879,
+   "miss_km": 58.2,
+   "tank": 986.287,
+   "Ji": 1.35205
+  },
+  {
+   "name": "r4",
+   "n": 38,
+   "irregular": 0,
+   "max_imp_cap": 0.9609,
+   "max_window_cap": 0.9609,
+   "miss_km": 63.9,
+   "tank": 913.117,
+   "Ji": 1.27368
+  },
+  {
+   "name": "r5",
+   "n": 31,
+   "irregular": 0,
+   "max_imp_cap": 0.9946,
+   "max_window_cap": 0.9946,
+   "miss_km": 22.0,
+   "tank": 958.097,
+   "Ji": 1.32121
+  },
+  {
+   "name": "r6",
+   "n": 30,
+   "irregular": 0,
+   "max_imp_cap": 0.9611,
+   "max_window_cap": 0.9611,
+   "miss_km": 36.3,
+   "tank": 901.548,
+   "Ji": 1.26178
+  },
+  {
+   "name": "r7",
+   "n": 30,
+   "irregular": 0,
+   "max_imp_cap": 0.9803,
+   "max_window_cap": 0.9803,
+   "miss_km": 67.0,
+   "tank": 1017.135,
+   "Ji": 1.38673
+  },
+  {
+   "name": "r8",
+   "n": 24,
+   "irregular": 0,
+   "max_imp_cap": 0.997,
+   "max_window_cap": 0.997,
+   "miss_km": 33.2,
+   "tank": 927.233,
+   "Ji": 1.28837
+  },
+  {
+   "name": "r9",
+   "n": 21,
+   "irregular": 0,
+   "max_imp_cap": 0.9979,
+   "max_window_cap": 0.9979,
+   "miss_km": 64.0,
+   "tank": 902.831,
+   "Ji": 1.2631
+  }
+ ],
+ "source": "results/s16/fleets/E",
+ "note": "select E (final loop: moves + exchanges + polish)",
+ "when": "09-23 14:59"
+}

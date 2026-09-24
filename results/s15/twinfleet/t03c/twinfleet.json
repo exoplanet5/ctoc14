@@ -1,0 +1,46 @@
+{
+ "fleets": {
+  "TB5f": {
+   "files": {
+    "h01": "results/s14/probe_cover/N9/fleet/route_01.npz",
+    "h02": "results/s14/probe_cover/N9/fleet/route_02.npz",
+    "h03": "results/s14/probe_cover/N9/fleet/route_03.npz",
+    "h04": "results/s14/probe_cover/N9/fleet/route_04.npz",
+    "h05": "results/s14/probe_cover/N9/fleet/route_05.npz",
+    "h06": "results/s14/probe_cover/N9/fleet/route_06.npz",
+    "t1": "results/s13/gen/g02x/tailB55k4/lib/route_07_T6_26.npz",
+    "s1": "results/s15/cols/t03/TB5f/route_TB5fs1_22.npz",
+    "s2": "results/s15/cols/t03/TB5f/route_TB5fs2_14_1.npz"
+   },
+   "covered": 295,
+   "sumJi": 11.8697,
+   "misses": [
+    33,
+    110,
+    280
+   ],
+   "craft": 9
+  },
+  "TB3f": {
+   "files": {
+    "h01": "results/s14/probe_cover/N9/fleet/route_01.npz",
+    "h02": "results/s14/probe_cover/N9/fleet/route_02.npz",
+    "h03": "results/s14/probe_cover/N9/fleet/route_03.npz",
+    "h04": "results/s14/probe_cover/N9/fleet/route_04.npz",
+    "h05": "results/s14/probe_cover/N9/fleet/route_05.npz",
+    "h06": "results/s14/probe_cover/N9/fleet/route_06.npz",
+    "t1": "results/s13/gen/g02x/tailB55k4/lib/route_07_T3_27.npz",
+    "s1": "results/s15/cols/t03/TB3f/route_TB3fs1_24.npz",
+    "s2": "results/s15/cols/t03/TB3f/route_TB3fs2_11.npz"
+   },
+   "covered": 295,
+   "sumJi": 12.1573,
+   "misses": [
+    108,
+    132,
+    223
+   ],
+   "craft": 9
+  }
+ }
+}

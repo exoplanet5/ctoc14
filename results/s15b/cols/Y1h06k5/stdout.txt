@@ -1,0 +1,10 @@
+[07:21:24] prefix results/s15b/close/G5/cols/route_h06x145_31.npz k=5: 5 flybys to 881 d, tank 670.0 kg, miss 74 km (1 s)
+[07:21:24] twintail Y1h06k5: pool 31, S [], p 0.0, steps 1, beam 24/72, nproc 1; resume at step 1
+[07:21:24]   RESUME level 5: beam 1, deepest 0
+[07:21:39]   depth  6: 1 parents -> 10 kids (10 uniq) -> tried 10, settled 10, kept 10; t_end 1001-1472 d, tank 672-713, max S 0 (15 s, gen 2 s)
+[07:22:42]   depth  7: 10 parents -> 80 kids (80 uniq) -> tried 24, settled 24, kept 23; t_end 1115-1837 d, tank 682-766, max S 0 (63 s, gen 22 s)
+[07:24:18]   depth  8: 23 parents -> 160 kids (160 uniq) -> tried 24, settled 24, kept 23; t_end 1389-2342 d, tank 687-754, max S 0 (96 s, gen 53 s)
+[07:26:06]   depth  9: 23 parents -> 145 kids (145 uniq) -> tried 24, settled 24, kept 24; t_end 1565-2459 d, tank 692-767, max S 0 (108 s, gen 60 s)
+[07:27:58]   depth 10: 24 parents -> 189 kids (189 uniq) -> tried 24, settled 24, kept 24; t_end 1688-2900 d, tank 705-764, max S 0 (112 s, gen 65 s)
+[07:30:04]   depth 11: 24 parents -> 175 kids (171 uniq) -> tried 24, settled 24, kept 24; t_end 1744-2936 d, tank 717-792, max S 0 (126 s, gen 69 s)
+[07:32:14]   depth 12: 24 parents -> 159 kids (158 uniq) -> tried 24, settled 24, kept 24; t_end 1892-3225 d, tank 730-923, max S 0 (129 s, gen 67 s)

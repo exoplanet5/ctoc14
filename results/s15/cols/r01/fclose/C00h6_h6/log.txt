@@ -1,0 +1,3 @@
+[21:08:34]     absorb[route_06+[]]: 1 approaches of [145]; lintwin 145@662d 0.084AU 76kg
+[21:08:47]     absorb[route_06+[]]: insert 145 at 662 d (lintwin 76 kg) -> OK tank 1034 (+73.1 kg) (13 s)
+[21:08:47] close C00h6_h6 done: 1 columns (13 s)

@@ -1,0 +1,28 @@
+per-route lag curve (flyby lag deg vs t):
+r1: n42 t    86- 5438 L start    -0.9 end   -10.3 range   -62.0..   53.1  total|dL|    543 deg  mean slope   -0.6 deg/yr
+    L: -1 -31 -36 -9 -39 -27 -17 -28 -20 -14 -23 -10 -2 -9 -11 -2 -22 -28 -34 -37 -23 -22 -28 -26 24 22 40 53 34 36 44 43 31 4 -40 -37 -41 -62 -26 -37 -13 -10
+r2: n41 t   170- 5334 L start    19.7 end    55.1 range    19.7..  123.6  total|dL|    312 deg  mean slope    2.5 deg/yr
+    L: 20 21 20 32 52 65 58 57 48 48 49 52 74 85 88 86 98 97 104 108 75 86 93 87 91 110 106 104 124 120 113 103 103 100 87 88 90 82 77 66 55
+r3: n41 t   196- 5446 L start    22.8 end   318.8 range    22.8..  318.8  total|dL|    686 deg  mean slope   20.6 deg/yr
+    L: 23 44 40 97 97 121 130 133 136 139 157 177 203 233 226 232 231 212 226 205 223 228 170 187 203 202 183 180 183 217 191 218 213 198 280 269 270 310 304 314 319
+r4: n38 t   237- 5475 L start   -36.9 end  -125.6 range  -161.5..  -32.6  total|dL|    354 deg  mean slope   -6.2 deg/yr
+    L: -37 -33 -64 -65 -71 -81 -77 -90 -98 -116 -118 -127 -120 -97 -110 -110 -108 -113 -114 -106 -110 -114 -109 -109 -140 -153 -149 -161 -145 -161 -160 -141 -132 -138 -127 -144 -134 -126
+r5: n31 t   319- 5461 L start   -64.3 end  -170.9 range  -231.3..  -64.3  total|dL|    423 deg  mean slope   -7.6 deg/yr
+    L: -64 -153 -152 -218 -228 -231 -226 -206 -199 -202 -181 -167 -169 -172 -173 -179 -198 -194 -206 -203 -206 -204 -192 -183 -155 -157 -175 -184 -199 -204 -171
+r6: n30 t   325- 5421 L start   -61.7 end   -81.1 range  -148.6..   58.6  total|dL|    546 deg  mean slope   -1.4 deg/yr
+    L: -62 -60 -59 -61 -66 -56 -72 -93 -116 -144 -141 -149 -138 -93 -26 -17 8 37 37 27 59 40 46 14 9 34 -15 -21 -57 -81
+r7: n30 t   383- 5416 L start    53.8 end  -141.5 range  -141.5..  103.2  total|dL|    490 deg  mean slope  -14.2 deg/yr
+    L: 54 60 60 62 77 74 103 99 84 86 50 55 59 26 -28 -55 -122 -124 -121 -119 -117 -113 -96 -76 -95 -79 -100 -87 -81 -141
+r8: n24 t   251- 5092 L start   -30.7 end   257.9 range   -48.2..  266.1  total|dL|    593 deg  mean slope   21.8 deg/yr
+    L: -31 -17 9 14 17 16 31 19 31 18 33 23 23 -19 -26 -48 3 53 102 92 169 143 266 258
+r9: n21 t  1090- 5382 L start   -19.0 end  -820.1 range  -820.1..  -14.9  total|dL|   1019 deg  mean slope  -68.2 deg/yr
+    L: -19 -40 -50 -60 -18 -77 -15 -46 -40 -95 -112 -159 -198 -281 -285 -377 -466 -572 -697 -761 -820
+
+dmax 0.05: group  n_events(med)  lag concentration R (med)   frac R>0.8
+   deep: 162 tg  events med 7.0 (IQR 5-13)  R med 0.16  R>0.8 0.09  zero-ev 0.06
+   tail: 136 tg  events med 5.0 (IQR 4-8)  R med 0.20  R>0.8 0.13  zero-ev 0.07
+dmax 0.1: group  n_events(med)  lag concentration R (med)   frac R>0.8
+   deep: 162 tg  events med 8.0 (IQR 6-14)  R med 0.14  R>0.8 0.09  zero-ev 0.00
+   tail: 136 tg  events med 5.5 (IQR 4-9)  R med 0.19  R>0.8 0.12  zero-ev 0.00
+least-deep-wanted 99: cnt_deep med 25; ev<0.1 med 4, ev<0.05 med 4; R med 0.23; a 2.30 e 0.63 i 16.2; vrel 17.1; frac in s16a tails 0.83
+most-deep-wanted 99: cnt_deep med 107; ev<0.1 med 12, ev<0.05 med 11; R med 0.12; a 1.59 e 0.54 i 9.1; vrel 14.0; frac in s16a tails 0.17

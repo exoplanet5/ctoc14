@@ -1,0 +1,32 @@
+[07:50:19] new run _opt_fake_ml1: N 3 H 540.0 d L 360.0 d proposer fixture_fake commit none nproc 2 stop_T 1620.0 max_launch 1
+[07:50:19] [slice 0 T=0 d] propose: 2 jobs (0 craft, 2 root) on 2 workers, proposer fixture_fake, H_eff 540 d, lam 1.0
+[07:50:21]   job s00_r0 root  columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[07:50:21]   job s00_r1 root  columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[07:50:21] [slice 0] propose: 12 columns (0 bad dropped) in 2.0 s
+[07:50:21] [slice 0] auction: 12 columns, kept 8, dropped {'ramp': 2, 'fuel': 2}; lam 1.00 H_eff 540 d fuel budget 482 kg quota on launch cap 1 of 3 unlaunched (max_launch 1, used 0)
+[07:50:21] [slice 0] auction: status optimal objective 6.559 vars 8 rows 12 chosen 1 fuel 72/482 kg (0.009 s)
+[07:50:23] [slice 0] fuel dual: lam 1.000 -> 1.500 (chosen 72 / budget 482 kg, ramp drops 2 of 10)
+[07:50:23] [slice 0 T=0 d] launched 1/3  covered 6  remaining 292  fuel 73 kg  sumJi 1.0549  chosen: r->c0:6(+72)  rejected: -  (wall 4 s)
+[07:50:23] [slice 1 T=540 d] propose: 2 jobs (1 craft, 1 root) on 2 workers, proposer fixture_fake, H_eff 540 d, lam 1.5
+[07:50:25]   job s01_c0 craft columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[07:50:25]   job s01_r0 root  columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[07:50:25] [slice 1] propose: 12 columns (0 bad dropped) in 2.0 s
+[07:50:25] [slice 1] auction: 12 columns, kept 9, dropped {'ramp': 1, 'fuel': 2}; lam 1.50 H_eff 540 d fuel budget 482 kg quota on launch cap 1 of 2 unlaunched (max_launch 1, used 0)
+[07:50:25] [slice 1] auction: status optimal objective 12.901 vars 9 rows 12 chosen 2 fuel 180/482 kg (0.007 s)
+[07:50:27] [slice 1 T=540 d] launched 2/3  covered 21  remaining 277  fuel 255 kg  sumJi 2.1984  chosen: c0:4(+48) r->c1:11(+132)  rejected: -  (wall 4 s)
+[07:50:27] [slice 2 T=1080 d] propose: 3 jobs (2 craft, 1 root) on 2 workers, proposer fixture_fake, H_eff 540 d, lam 1.5
+[07:50:29]   job s02_c0 craft columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[07:50:29]   job s02_c1 craft columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[07:50:29]   job s02_r0 root  columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[07:50:29] [slice 2] propose: 18 columns (0 bad dropped) in 2.0 s
+[07:50:29] [slice 2] auction: 18 columns, kept 12, dropped {'quota': 3, 'fuel': 3}; lam 1.50 H_eff 540 d fuel budget 482 kg quota on
+[07:50:29] [slice 2] auction: status optimal objective 21.018 vars 12 rows 13 chosen 3 fuel 272/482 kg (0.006 s)
+[07:50:31] [slice 2 T=1080 d] launched 3/3  covered 44  remaining 254  fuel 528 kg  sumJi 3.4263  chosen: c0:6(+70) c1:6(+73) r->c2:11(+129)  rejected: -  (wall 4 s)
+[07:50:31] stop: stop_T at T=1620 d (slice 3)
+[07:50:31] finalize: fleet/ 3 routes  covered 44  misses 254  fuel 528 kg  sumJi 3.4263  J 259.4263  honest False
+[07:50:31] _opt_fake_ml1: slice 3 phase propose T=1620 d  launched 3/3  covered 44  remaining 254  fuel 528 kg  sumJi 3.4263  done True (stop_T)
+[07:57:48] resume: CLI --max-launch 2 ignored (frozen 1)
+[07:57:48] resume _opt_fake_ml1: slice 3 phase propose T=1620 d done=True
+[07:57:48] stop: stop_T at T=1620 d (slice 3)
+[07:57:48] finalize: fleet/ 3 routes  covered 44  misses 254  fuel 528 kg  sumJi 3.4263  J 259.4263  honest False
+[07:57:48] _opt_fake_ml1: slice 3 phase propose T=1620 d  launched 3/3  covered 44  remaining 254  fuel 528 kg  sumJi 3.4263  done True (stop_T)

@@ -1,0 +1,12 @@
+max tail-target count in one pool route: [(34, 35, 1129, 'results/s15/cols/r02/C04h4/route_C04h4s1_35.npz'), (34, 35, 1120, 'results/s15/cols/r01/C04h4/route_C04h4s1_35.npz'), (34, 34, 1100, 'results/s15/cols/r02/C03h5/route_C03h5s1a180_34.npz'), (33, 34, 1139, 'results/s15/cols/r01/C04h4/route_C04h4s1_34.npz'), (33, 33, 1037, 'results/s15/cols/r02/C03h5/route_C03h5s1_33.npz'), (32, 36, 1124, 'results/s15/cols/r01/C05h3/route_C05h3s1_36.npz'), (32, 33, 1104, '15/cols/r01/fclose/C01h6_h5/route_C01h6_h505x223_33.npz'), (32, 33, 1082, 'results/s15/cols/r02/C04h4/route_C04h4s1_33.npz')]
+hist tail-count [(0, 155), (5, 461), (10, 762), (15, 645), (20, 304), (25, 123), (30, 40)]
+routes with >=90% tail and n>=20: [(35, 1129), (35, 1120), (34, 1139), (34, 1100), (33, 1104), (33, 1082), (33, 1037), (32, 1111)]
+tail targets with any deep-host approach <=0.3AU: 124 of 136
+  deep-host lin dJ <= 0.02: 5, sum 0.077
+  deep-host lin dJ <= 0.03: 9, sum 0.187
+  deep-host lin dJ <= 0.045: 15, sum 0.395
+  deep-host lin dJ <= 0.06: 18, sum 0.560
+  deep-host lin dJ <= 0.1: 27, sum 1.271
+greedy convex deep absorb at <=0.06 each: 17 targets, dJ 0.523 {'r1': 117.16327263701413, 'r2': 115.98191150027051, 'r3': 165.36354673934332, 'r4': 63.10287112904054}
+[(4, 'r6', 'r3', 0.013), (300, 'r5', 'r4', 0.013), (265, 'r9', 'r2', 0.013), (142, 'r9', 'r2', 0.019), (176, 'r9', 'r3', 0.02), (14, 'r5', 'r3', 0.026), (182, 'r7', 'r2', 0.028), (130, 'r9', 'r1', 0.028), (39, 'r7', 'r2', 0.031), (184, 'r9', 'r1', 0.033), (213, 'r8', 'r1', 0.034), (18, 'r5', 'r2', 0.036), (230, 'r5', 'r1', 0.036), (56, 'r8', 'r3', 0.039), (242, 'r7', 'r3', 0.043), (26, 'r5', 'r3', 0.057), (6, 'r9', 'r4', 0.054)]
+by tail owner: Counter({'r9': 6, 'r5': 5, 'r7': 3, 'r8': 2, 'r6': 1})

@@ -1,0 +1,378 @@
+{
+ "N": 300,
+ "window": {
+  "t0_mjd": 62502.0,
+  "tend_mjd": 67980.75,
+  "days": 5478.75,
+  "grid_step_d": 0.5
+ },
+ "thresholds": {
+  "BAND_LO": 0.8,
+  "BAND_HI": 1.6,
+  "ANNULUS_LO": 0.7,
+  "ANNULUS_HI": 1.5,
+  "Z_ACCESS": 0.1,
+  "R_UNREACH": 2.5,
+  "I_EASY": 10.0,
+  "I_MOD": 20.0,
+  "Q_EASY": 1.3,
+  "CLOSE_APPROACH_MAX": 0.3
+ },
+ "classes": {
+  "easy": 120,
+  "moderate": 74,
+  "hard": 104,
+  "very_hard": 0,
+  "unreachable": 2
+ },
+ "class_ids": {
+  "very_hard": [],
+  "unreachable": [
+   131,
+   144
+  ]
+ },
+ "elements": {
+  "a": {
+   "min": 0.6352314,
+   "median": 1.9008823000000001,
+   "max": 17.8136156
+  },
+  "e": {
+   "min": 0.0739217,
+   "median": 0.5858698,
+   "max": 0.9469937
+  },
+  "i": {
+   "min": 0.44808,
+   "median": 13.53136,
+   "max": 133.99961
+  },
+  "q": {
+   "min": 0.14027776494942004,
+   "median": 0.8516132019524101,
+   "max": 1.0449650939037802
+  },
+  "Q": {
+   "min": 0.95905064350106,
+   "median": 3.030946489357415,
+   "max": 34.68299734742172
+  },
+  "period_yr": {
+   "min": 0.5062979145413548,
+   "median": 2.620843319948704,
+   "max": 75.18588514997568
+  }
+ },
+ "counts": {
+  "q_lt_1": 271,
+  "q_lt_1p3": 300,
+  "Q_gt_1": 298,
+  "a_lt_1": 17,
+  "atens": 15,
+  "apollos": 264,
+  "amors": 19,
+  "atiras": 2,
+  "other": 0,
+  "i_le_5": 42,
+  "i_le_10": 120,
+  "i_le_15": 160,
+  "i_le_20": 195,
+  "i_le_30": 242,
+  "i_gt_30": 58,
+  "i_gt_45": 23,
+  "retrograde": 1,
+  "a_gt_3": 10,
+  "a_gt_5": 2,
+  "crosses_annulus_0p7_1p5": 300,
+  "crosses_band_0p8_1p6": 300,
+  "ever_in_band_window": 298,
+  "ever_accessible_window": 298,
+  "r_min_window_gt_2p5": 2,
+  "r_min_window_gt_1p6": 2,
+  "n_peri_0": 2,
+  "n_peri_ge_5": 207,
+  "n_peri_ge_10": 59,
+  "moid_lt_0p05": 298,
+  "moid_lt_0p02": 118,
+  "moid_lt_0p01": 52,
+  "d_earth_min_lt_0p1": 73,
+  "d_earth_min_lt_0p05": 32,
+  "d_earth_min_lt_0p02": 3,
+  "d_earth_min_lt_0p01": 2,
+  "node_band_ge_1": 292,
+  "node_band_0": 8
+ },
+ "totals": {
+  "perihelion_passages": 2146,
+  "ecliptic_crossings": 4293,
+  "ecliptic_crossings_in_band": 2731,
+  "ecliptic_crossings_in_band_per_year": 182.06666666666666,
+  "ecliptic_crossings_in_band_highinc": 1160,
+  "ecliptic_crossings_0p6_2p0": 3222,
+  "access_windows": 3220,
+  "access_window_median_days": 38.5,
+  "earth_approaches_lt_0p1": 86,
+  "earth_approaches_lt_0p05": 33,
+  "earth_approaches_lt_0p02": 3,
+  "asteroid_days_in_band": 498464.76389269094,
+  "asteroid_days_accessible": 173570.23952915415,
+  "mean_asteroids_in_band_at_any_time": 90.98147641208139,
+  "mean_asteroids_accessible_at_any_time": 31.680627794506798
+ },
+ "per_year": {
+  "years": [
+   2030,
+   2031,
+   2032,
+   2033,
+   2034,
+   2035,
+   2036,
+   2037,
+   2038,
+   2039,
+   2040,
+   2041,
+   2042,
+   2043,
+   2044
+  ],
+  "node_crossings_in_band": [
+   185,
+   187,
+   181,
+   173,
+   188,
+   185,
+   178,
+   186,
+   184,
+   178,
+   180,
+   180,
+   187,
+   177,
+   182
+  ],
+  "node_crossings_in_band_inc_gt_20": [
+   87,
+   75,
+   74,
+   79,
+   72,
+   81,
+   79,
+   72,
+   82,
+   80,
+   68,
+   79,
+   76,
+   83,
+   73
+  ],
+  "node_crossings_all": [
+   290,
+   291,
+   291,
+   275,
+   295,
+   281,
+   287,
+   290,
+   290,
+   278,
+   275,
+   298,
+   286,
+   283,
+   283
+  ],
+  "access_window_starts": [
+   252,
+   213,
+   215,
+   199,
+   221,
+   209,
+   220,
+   206,
+   218,
+   217,
+   204,
+   213,
+   217,
+   211,
+   205
+  ],
+  "earth_approaches_lt_0p1": [
+   5,
+   3,
+   8,
+   4,
+   6,
+   3,
+   12,
+   6,
+   5,
+   4,
+   9,
+   4,
+   6,
+   7,
+   4
+  ],
+  "earth_approaches_lt_0p05": [
+   1,
+   0,
+   3,
+   2,
+   2,
+   2,
+   4,
+   5,
+   1,
+   0,
+   5,
+   2,
+   2,
+   3,
+   1
+  ]
+ },
+ "near_1au_nodes": {
+  "total": 1783,
+  "per_year": 118.86666666666666,
+  "asteroids": 227,
+  "highinc_total": 894,
+  "highinc_asteroids": 99
+ },
+ "node_r_split": {
+  "r_lt_0p8": 716,
+  "in_band": 2731,
+  "r_gt_1p6": 846
+ },
+ "in_band_node_vrel_earth_kms": {
+  "q10": 15.068328305647526,
+  "median": 43.273299820051925,
+  "q90": 61.58039763451099
+ },
+ "in_band_node_abs_vz_kms": {
+  "q25": 4.319634934066956,
+  "median": 8.09369291327148,
+  "q75": 12.81577882810867
+ },
+ "access_windows_by_class": {
+  "easy": {
+   "n": 1250,
+   "median_days": 81.5
+  },
+  "moderate": {
+   "n": 763,
+   "median_days": 42.5
+  },
+  "hard": {
+   "n": 1207,
+   "median_days": 23.5
+  }
+ },
+ "n_access_windows_quantiles": {
+  "0": 0.0,
+  "0.1": 4.0,
+  "0.25": 5.0,
+  "0.5": 8.0,
+  "0.75": 15.0,
+  "0.9": 23.0,
+  "1": 34.0
+ },
+ "asteroids_with_ge3_windows": 296,
+ "asteroids_with_ge5_windows": 232,
+ "asteroids_with_earth_approach_lt_0p1": 73,
+ "asteroids_with_earth_approach_lt_0p05": 32,
+ "earth_approach_lt_0p1_vrel_kms": {
+  "min": 6.532744477606435,
+  "median": 13.300930237932414,
+  "max": 31.795546157877332,
+  "n_lt_10kms": 23
+ },
+ "class_stats": {
+  "easy": {
+   "n": 120,
+   "i_median": 5.917395,
+   "q_median": 0.8004720052522498,
+   "node_band_total": 878,
+   "days_access_median": 715.1521010128662
+  },
+  "moderate": {
+   "n": 74,
+   "i_median": 14.014205,
+   "q_median": 0.88082072985556,
+   "node_band_total": 693,
+   "days_access_median": 262.9640021899808
+  },
+  "hard": {
+   "n": 104,
+   "i_median": 32.444024999999996,
+   "q_median": 0.878501742997795,
+   "node_band_total": 1160,
+   "days_access_median": 166.47721051190803
+  },
+  "very_hard": {
+   "n": 0,
+   "i_median": null,
+   "q_median": null,
+   "node_band_total": 0,
+   "days_access_median": null
+  },
+  "unreachable": {
+   "n": 2,
+   "i_median": 76.78291999999999,
+   "q_median": 0.9767234757554446,
+   "node_band_total": 0,
+   "days_access_median": 0.0
+  }
+ },
+ "special": {
+  "131": {
+   "a": 8.6053869,
+   "e": 0.8827231,
+   "i": 133.99961,
+   "q": 1.00921309893261,
+   "Q": 16.20156070106739,
+   "period_yr": 25.24432739418454,
+   "r_t0": 10.710503691587332,
+   "r_min_window": 10.710503691587332,
+   "date_r_min": "2030-01-01",
+   "r_max_window": 16.20156070106739,
+   "M_at_t0_deg": 57.49352537119262,
+   "M_at_tend_deg": 271.4029679037745,
+   "last_peri_mjd": 61029.448585728314,
+   "next_peri_mjd": 70249.93916645422,
+   "d_earth_min": 10.077373191372477,
+   "cls": "unreachable",
+   "last_peri_date": "2025-12-20",
+   "next_peri_date": "2051-03-19"
+  },
+  "144": {
+   "a": 17.8136156,
+   "e": 0.9469937,
+   "i": 19.56623,
+   "q": 0.9442338525782791,
+   "Q": 34.68299734742172,
+   "period_yr": 75.18588514997568,
+   "r_t0": 33.819254857052776,
+   "r_min_window": 33.783866707199785,
+   "date_r_min": "2044-12-31",
+   "r_max_window": 34.682997347421725,
+   "M_at_t0_deg": 144.44647935631932,
+   "M_at_tend_deg": 216.26847080096942,
+   "last_peri_mjd": 51483.283686859075,
+   "next_peri_mjd": 78944.92823788768,
+   "d_earth_min": 32.895024721849175,
+   "cls": "unreachable",
+   "last_peri_date": "1999-11-01",
+   "next_peri_date": "2075-01-07"
+  }
+ }
+}

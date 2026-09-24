@@ -1,0 +1,27 @@
+[15:48:49] search start: 10 routes, covered 298, J 14.3574; 01:37@919 05:36@905 02:33@904 12:30@795 13:30@887 09:28@976 03:27@815 10:27@792 04:26@871 06:24@878
+[15:48:49] LNS dissolve 09 (cost 1.3410, 28 targets); target J < 14.3574
+[15:50:06]   round 0: 06 += [124, 71, 2, 157, 6] -= [120, 130] dJ +0.5572 score -2.4428; unplaced 25, spent 0.557, J 38.5736
+[15:50:06]   abort: placements 0.557 + unplaced 25 > victim cost 1.341 + anneal 1.0 + slack 0.1
+[15:50:06] no improving move
+[15:50:06] search done: 10 routes, covered 298, J 14.3574; 01:37@919 05:36@905 02:33@904 12:30@795 13:30@887 09:28@976 03:27@815 10:27@792 04:26@871 06:24@878
+[15:51:04] search start: 10 routes, covered 298, J 14.3574; 01:37@919 05:36@905 02:33@904 12:30@795 13:30@887 09:28@976 03:27@815 10:27@792 04:26@871 06:24@878
+[15:51:04] LNS dissolve 09 (cost 1.3410, 28 targets); target J < 14.3574
+[15:52:21]   round 0: 12 += [188, 219, 221] -= [79, 243] dJ +0.0402 (0.040/target, lam 0.048); unplaced 27, spent 0.040/2.441, J 40.0567
+[15:53:38]   round 1: no move under the price; lam -> 0.062
+[15:53:38]   round 1: no move under the price; lam -> 0.081
+[15:53:38]   round 1: no move under the price; lam -> 0.105
+[15:53:38]   round 1: no move under the price; lam -> 0.137
+[15:53:38]   round 1: 02 += [118, 150] -= [32] dJ +0.1060 (0.106/target, lam 0.137); unplaced 26, spent 0.146/2.441, J 39.1627
+[15:54:59]   round 2: 06 += [267, 51, 248, 168, 124] -= [240, 83, 134] dJ +0.2716 (0.136/target, lam 0.137); unplaced 24, spent 0.418/2.441, J 37.4343
+[15:56:01]   round 3: 06 += [157, 6, 79, 243] -= [130, 254, 27] dJ +0.0367 (0.037/target, lam 0.137); unplaced 23, spent 0.454/2.441, J 36.4709
+[15:57:03]   round 4: no move under the price; lam -> 0.178
+[15:57:03]   round 4: 03 += [270, 8, 39] -= [103, 138] dJ +0.1650 (0.165/target, lam 0.178); unplaced 22, spent 0.619/2.441, J 35.6359
+[15:58:03]   round 5: no move under the price; lam -> 0.231
+[15:58:03]   round 5: 12 += [240, 83] -= [256] dJ +0.2187 (0.219/target, lam 0.231); unplaced 21, spent 0.838/2.441, J 34.8546
+[15:59:10]   round 6: 12 += [27] -= [] dJ +0.1918 (0.192/target, lam 0.231); unplaced 20, spent 1.030/2.441, J 34.0464
+[16:00:17]   round 7: 05 += [134, 71] -= [179] dJ +0.2110 (0.211/target, lam 0.231); unplaced 19, spent 1.241/2.441, J 33.2574
+[16:01:21]   round 8: no move under the price; lam -> 0.250
+[16:01:21]   round 8: no move below lam 0.250 among 46 trials (3 feasible); cheapest ; 19 targets stay unplaced
+[16:01:21] LNS dissolve 09: J 14.3574 -> 33.2574 (misses included) with 19 unplaced [2, 32, 42, 49, 68, 103, 130, 138, 165, 179, 213, 251, 254, 256, 260, 271, 272, 273, 292]
+[16:01:21] no improving move
+[16:01:21] search done: 10 routes, covered 298, J 14.3574; 01:37@919 05:36@905 02:33@904 12:30@795 13:30@887 09:28@976 03:27@815 10:27@792 04:26@871 06:24@878

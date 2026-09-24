@@ -1,0 +1,12 @@
+87 hard targets, 211 easy
+1396 distinct twin-costed columns with states
+MIP status 0: 8 skeletons, cover hard 71/87, easy 130/211, overlapping targets 32, sum J_i 9.178
+  skel 1: 36 targets (9 hard), tank 815, J_i 1.177, src inline
+  skel 2: 29 targets (15 hard), tank 790, J_i 1.154, src npz
+  skel 3: 27 targets (5 hard), tank 771, J_i 1.137, src npz
+  skel 4: 28 targets (9 hard), tank 763, J_i 1.130, src npz
+  skel 5: 30 targets (10 hard), tank 761, J_i 1.128, src npz
+  skel 6: 28 targets (10 hard), tank 770, J_i 1.136, src npz
+  skel 7: 26 targets (6 hard), tank 780, J_i 1.145, src npz
+  skel 8: 30 targets (7 hard), tank 808, J_i 1.170, src npz
+uncovered hard: [36, 43, 56, 62, 88, 90, 96, 107, 110, 136, 179, 184, 192, 209, 259, 282]

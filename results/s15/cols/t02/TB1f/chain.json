@@ -1,0 +1,1615 @@
+{
+ "steps": [
+  {
+   "k": 1,
+   "pool": 38,
+   "S": [
+    64,
+    138
+   ],
+   "end": {
+    "kind": "no_children",
+    "depth": 22
+   },
+   "deepest": 22,
+   "settles": 420,
+   "settle_ok": 410,
+   "wall_s": 2396,
+   "ncols": 40,
+   "took": {
+    "f": "results/s15/cols/t02/TB1f/route_TB1fs1_22.npz",
+    "n": 22,
+    "tank": 844.25,
+    "iso": [],
+    "s_taken": []
+   },
+   "covered": 22
+  },
+  {
+   "k": 2,
+   "pool": 16,
+   "S": [
+    64,
+    138
+   ],
+   "end": {
+    "kind": "settle_wall",
+    "depth": 11
+   },
+   "deepest": 11,
+   "settles": 247,
+   "settle_ok": 168,
+   "wall_s": 1682,
+   "ncols": 17,
+   "took": {
+    "f": "results/s15/cols/t02/TB1f/route_TB1fs2_11_1.npz",
+    "n": 11,
+    "tank": 818.99,
+    "iso": [
+     64,
+     138
+    ],
+    "s_taken": [
+     64,
+     138
+    ]
+   },
+   "covered": 33
+  }
+ ],
+ "covered": [
+  15,
+  17,
+  20,
+  22,
+  33,
+  51,
+  58,
+  64,
+  71,
+  75,
+  93,
+  95,
+  104,
+  110,
+  120,
+  132,
+  138,
+  173,
+  175,
+  180,
+  199,
+  213,
+  220,
+  223,
+  234,
+  243,
+  246,
+  247,
+  249,
+  262,
+  283,
+  288,
+  298
+ ],
+ "cols": [
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_22.npz",
+   "n": 22,
+   "tank": 844.25,
+   "miss": 69.9,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    51,
+    58,
+    71,
+    95,
+    104,
+    132,
+    175,
+    180,
+    199,
+    213,
+    223,
+    234,
+    243,
+    246,
+    247,
+    249,
+    262,
+    283,
+    288,
+    298
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 5204.9,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_21.npz",
+   "n": 21,
+   "tank": 782.69,
+   "miss": 63.9,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    51,
+    58,
+    95,
+    104,
+    108,
+    132,
+    175,
+    180,
+    199,
+    213,
+    223,
+    234,
+    246,
+    247,
+    249,
+    262,
+    283,
+    288,
+    298
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 5196.8,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_20.npz",
+   "n": 20,
+   "tank": 766.75,
+   "miss": 52.0,
+   "kind": "score",
+   "targets": [
+    15,
+    17,
+    20,
+    51,
+    58,
+    95,
+    104,
+    108,
+    132,
+    175,
+    180,
+    199,
+    213,
+    223,
+    234,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 5094.5,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_20_1.npz",
+   "n": 20,
+   "tank": 763.14,
+   "miss": 4.3,
+   "kind": "light",
+   "targets": [
+    15,
+    17,
+    20,
+    51,
+    58,
+    95,
+    104,
+    108,
+    132,
+    175,
+    199,
+    213,
+    223,
+    234,
+    246,
+    247,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 5193.0,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_19.npz",
+   "n": 19,
+   "tank": 753.91,
+   "miss": 53.1,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    51,
+    58,
+    95,
+    104,
+    108,
+    132,
+    175,
+    199,
+    213,
+    223,
+    234,
+    246,
+    249,
+    262,
+    283,
+    288,
+    298
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 4856.6,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_18.npz",
+   "n": 18,
+   "tank": 749.89,
+   "miss": 53.0,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    51,
+    58,
+    95,
+    104,
+    108,
+    132,
+    175,
+    199,
+    213,
+    223,
+    234,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 4539.2,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_18_1.npz",
+   "n": 18,
+   "tank": 745.38,
+   "miss": 57.1,
+   "kind": "light",
+   "targets": [
+    15,
+    20,
+    51,
+    58,
+    95,
+    104,
+    132,
+    175,
+    199,
+    213,
+    223,
+    234,
+    246,
+    249,
+    262,
+    283,
+    288,
+    298
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 4856.5,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_17.npz",
+   "n": 17,
+   "tank": 768.98,
+   "miss": 27.1,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    51,
+    58,
+    71,
+    95,
+    104,
+    132,
+    175,
+    199,
+    234,
+    243,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 4060.1,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_17_1.npz",
+   "n": 17,
+   "tank": 741.83,
+   "miss": 30.4,
+   "kind": "light",
+   "targets": [
+    15,
+    20,
+    58,
+    71,
+    95,
+    104,
+    120,
+    132,
+    175,
+    199,
+    234,
+    243,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 4536.8,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_16.npz",
+   "n": 16,
+   "tank": 738.64,
+   "miss": 62.2,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    58,
+    71,
+    95,
+    104,
+    132,
+    175,
+    199,
+    234,
+    243,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 4057.9,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_16_1.npz",
+   "n": 16,
+   "tank": 735.28,
+   "miss": 39.0,
+   "kind": "light",
+   "targets": [
+    15,
+    20,
+    51,
+    95,
+    104,
+    132,
+    175,
+    199,
+    223,
+    234,
+    243,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 4267.8,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_15.npz",
+   "n": 15,
+   "tank": 735.36,
+   "miss": 48.5,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    58,
+    95,
+    104,
+    132,
+    173,
+    175,
+    199,
+    234,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 3674.0,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_15_1.npz",
+   "n": 15,
+   "tank": 729.16,
+   "miss": 34.8,
+   "kind": "light",
+   "targets": [
+    15,
+    20,
+    51,
+    95,
+    104,
+    132,
+    175,
+    199,
+    234,
+    243,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 4049.0,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_14.npz",
+   "n": 14,
+   "tank": 718.15,
+   "miss": 24.0,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    58,
+    95,
+    104,
+    132,
+    175,
+    199,
+    234,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 3404.6,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_13.npz",
+   "n": 13,
+   "tank": 712.25,
+   "miss": 59.3,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    58,
+    95,
+    104,
+    132,
+    175,
+    199,
+    234,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 3096.9,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_13_1.npz",
+   "n": 13,
+   "tank": 708.71,
+   "miss": 78.7,
+   "kind": "light",
+   "targets": [
+    15,
+    20,
+    95,
+    104,
+    132,
+    175,
+    199,
+    234,
+    246,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 3405.0,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_12.npz",
+   "n": 12,
+   "tank": 704.21,
+   "miss": 68.3,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    95,
+    104,
+    132,
+    175,
+    199,
+    234,
+    249,
+    262,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 2869.5,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_12_1.npz",
+   "n": 12,
+   "tank": 725.21,
+   "miss": 82.6,
+   "kind": "s",
+   "targets": [
+    20,
+    93,
+    95,
+    104,
+    120,
+    132,
+    138,
+    175,
+    199,
+    223,
+    249,
+    262
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 3127.3,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_11.npz",
+   "n": 11,
+   "tank": 733.87,
+   "miss": 63.5,
+   "kind": "score",
+   "targets": [
+    20,
+    51,
+    93,
+    95,
+    132,
+    145,
+    175,
+    234,
+    249,
+    280,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 2376.8,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_11_1.npz",
+   "n": 11,
+   "tank": 687.18,
+   "miss": 23.4,
+   "kind": "light",
+   "targets": [
+    20,
+    95,
+    104,
+    175,
+    199,
+    220,
+    234,
+    247,
+    249,
+    262,
+    283
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 3061.4,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_11_2.npz",
+   "n": 11,
+   "tank": 710.22,
+   "miss": 33.5,
+   "kind": "s",
+   "targets": [
+    20,
+    95,
+    104,
+    120,
+    132,
+    138,
+    175,
+    199,
+    223,
+    249,
+    262
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 2878.5,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_10.npz",
+   "n": 10,
+   "tank": 690.93,
+   "miss": 53.5,
+   "kind": "score",
+   "targets": [
+    15,
+    20,
+    95,
+    104,
+    175,
+    199,
+    234,
+    249,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 2329.3,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_10_1.npz",
+   "n": 10,
+   "tank": 680.12,
+   "miss": 17.2,
+   "kind": "light",
+   "targets": [
+    20,
+    95,
+    104,
+    175,
+    199,
+    220,
+    234,
+    247,
+    249,
+    262
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 2865.9,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_10_2.npz",
+   "n": 10,
+   "tank": 718.12,
+   "miss": 54.5,
+   "kind": "s",
+   "targets": [
+    20,
+    95,
+    104,
+    120,
+    138,
+    175,
+    199,
+    213,
+    223,
+    249
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 2430.7,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_9.npz",
+   "n": 9,
+   "tank": 700.64,
+   "miss": 72.5,
+   "kind": "score",
+   "targets": [
+    20,
+    51,
+    93,
+    95,
+    132,
+    175,
+    234,
+    249,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1758.4,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_9_1.npz",
+   "n": 9,
+   "tank": 665.03,
+   "miss": 9.8,
+   "kind": "light",
+   "targets": [
+    15,
+    20,
+    95,
+    104,
+    175,
+    199,
+    234,
+    246,
+    249
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 2202.6,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_9_2.npz",
+   "n": 9,
+   "tank": 679.4,
+   "miss": 14.4,
+   "kind": "s",
+   "targets": [
+    20,
+    95,
+    104,
+    120,
+    138,
+    175,
+    199,
+    223,
+    249
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 2231.7,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_8.npz",
+   "n": 8,
+   "tank": 672.01,
+   "miss": 36.7,
+   "kind": "score",
+   "targets": [
+    20,
+    95,
+    120,
+    138,
+    175,
+    199,
+    223,
+    249
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 1750.5,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_8_1.npz",
+   "n": 8,
+   "tank": 665.02,
+   "miss": 67.8,
+   "kind": "light",
+   "targets": [
+    15,
+    20,
+    95,
+    104,
+    175,
+    199,
+    234,
+    249
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1983.7,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_7.npz",
+   "n": 7,
+   "tank": 659.8,
+   "miss": 14.1,
+   "kind": "score",
+   "targets": [
+    20,
+    95,
+    138,
+    175,
+    199,
+    223,
+    249
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 1439.0,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_7_1.npz",
+   "n": 7,
+   "tank": 652.62,
+   "miss": 55.5,
+   "kind": "light",
+   "targets": [
+    51,
+    95,
+    132,
+    175,
+    199,
+    234,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1741.6,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_6.npz",
+   "n": 6,
+   "tank": 664.43,
+   "miss": 42.0,
+   "kind": "score",
+   "targets": [
+    20,
+    95,
+    175,
+    199,
+    234,
+    249
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1004.5,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_6_1.npz",
+   "n": 6,
+   "tank": 641.68,
+   "miss": 47.7,
+   "kind": "light",
+   "targets": [
+    95,
+    132,
+    175,
+    199,
+    234,
+    288
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1496.4,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_6_2.npz",
+   "n": 6,
+   "tank": 654.72,
+   "miss": 2.2,
+   "kind": "s",
+   "targets": [
+    20,
+    95,
+    138,
+    175,
+    199,
+    249
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 1438.0,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_5.npz",
+   "n": 5,
+   "tank": 638.54,
+   "miss": 9.0,
+   "kind": "score",
+   "targets": [
+    95,
+    175,
+    199,
+    234,
+    249
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1008.1,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_5_1.npz",
+   "n": 5,
+   "tank": 627.97,
+   "miss": 20.3,
+   "kind": "light",
+   "targets": [
+    93,
+    95,
+    199,
+    213,
+    249
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1506.9,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_4.npz",
+   "n": 4,
+   "tank": 622.09,
+   "miss": 1.4,
+   "kind": "score",
+   "targets": [
+    93,
+    95,
+    175,
+    249
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 815.5,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_4_1.npz",
+   "n": 4,
+   "tank": 618.14,
+   "miss": 1.4,
+   "kind": "light",
+   "targets": [
+    95,
+    175,
+    199,
+    249
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1310.3,
+   "t_launch_d": 380.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_3.npz",
+   "n": 3,
+   "tank": 612.47,
+   "miss": 86.5,
+   "kind": "score",
+   "targets": [
+    95,
+    199,
+    249
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 815.4,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_3_1.npz",
+   "n": 3,
+   "tank": 610.93,
+   "miss": 63.5,
+   "kind": "light",
+   "targets": [
+    95,
+    175,
+    234
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1007.1,
+   "t_launch_d": 580.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_11.npz",
+   "n": 11,
+   "tank": 849.21,
+   "miss": 27.7,
+   "kind": "score",
+   "targets": [
+    22,
+    75,
+    93,
+    108,
+    110,
+    138,
+    139,
+    173,
+    219,
+    220,
+    280
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 4240.9,
+   "t_launch_d": 160.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_11_1.npz",
+   "n": 11,
+   "tank": 818.99,
+   "miss": 68.7,
+   "kind": "light",
+   "targets": [
+    17,
+    22,
+    33,
+    64,
+    75,
+    93,
+    110,
+    120,
+    138,
+    173,
+    220
+   ],
+   "iso": [
+    64,
+    138
+   ],
+   "s_taken": [
+    64,
+    138
+   ],
+   "t_end_d": 5253.0,
+   "t_launch_d": 340.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_10.npz",
+   "n": 10,
+   "tank": 762.72,
+   "miss": 64.6,
+   "kind": "score",
+   "targets": [
+    22,
+    75,
+    93,
+    108,
+    110,
+    138,
+    173,
+    219,
+    220,
+    280
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 4124.6,
+   "t_launch_d": 160.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_9.npz",
+   "n": 9,
+   "tank": 755.28,
+   "miss": 9.5,
+   "kind": "score",
+   "targets": [
+    22,
+    33,
+    64,
+    75,
+    93,
+    138,
+    173,
+    220,
+    280
+   ],
+   "iso": [
+    64,
+    138
+   ],
+   "s_taken": [
+    64,
+    138
+   ],
+   "t_end_d": 3543.3,
+   "t_launch_d": 160.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_9_1.npz",
+   "n": 9,
+   "tank": 752.67,
+   "miss": 62.5,
+   "kind": "light",
+   "targets": [
+    22,
+    75,
+    93,
+    110,
+    138,
+    173,
+    219,
+    220,
+    280
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 3498.9,
+   "t_launch_d": 160.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_8.npz",
+   "n": 8,
+   "tank": 714.64,
+   "miss": 82.5,
+   "kind": "score",
+   "targets": [
+    33,
+    75,
+    108,
+    110,
+    120,
+    138,
+    173,
+    220
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 3065.3,
+   "t_launch_d": 340.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_8_1.npz",
+   "n": 8,
+   "tank": 734.73,
+   "miss": 73.8,
+   "kind": "s",
+   "targets": [
+    22,
+    64,
+    75,
+    93,
+    138,
+    173,
+    220,
+    280
+   ],
+   "iso": [
+    64,
+    138
+   ],
+   "s_taken": [
+    64,
+    138
+   ],
+   "t_end_d": 3163.0,
+   "t_launch_d": 160.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_7.npz",
+   "n": 7,
+   "tank": 672.99,
+   "miss": 76.2,
+   "kind": "score",
+   "targets": [
+    33,
+    108,
+    110,
+    120,
+    138,
+    173,
+    220
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 2682.2,
+   "t_launch_d": 340.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_7_1.npz",
+   "n": 7,
+   "tank": 718.06,
+   "miss": 61.9,
+   "kind": "s",
+   "targets": [
+    22,
+    64,
+    93,
+    138,
+    173,
+    220,
+    280
+   ],
+   "iso": [
+    64,
+    138
+   ],
+   "s_taken": [
+    64,
+    138
+   ],
+   "t_end_d": 2687.9,
+   "t_launch_d": 160.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_6.npz",
+   "n": 6,
+   "tank": 671.6,
+   "miss": 11.6,
+   "kind": "score",
+   "targets": [
+    33,
+    110,
+    120,
+    138,
+    173,
+    220
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 2541.8,
+   "t_launch_d": 340.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_6_1.npz",
+   "n": 6,
+   "tank": 670.23,
+   "miss": 2.4,
+   "kind": "light",
+   "targets": [
+    108,
+    110,
+    120,
+    138,
+    173,
+    220
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 2678.4,
+   "t_launch_d": 340.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_5.npz",
+   "n": 5,
+   "tank": 633.52,
+   "miss": 5.0,
+   "kind": "score",
+   "targets": [
+    22,
+    93,
+    120,
+    173,
+    220
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1765.6,
+   "t_launch_d": 160.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_5_1.npz",
+   "n": 5,
+   "tank": 691.29,
+   "miss": 55.7,
+   "kind": "s",
+   "targets": [
+    93,
+    138,
+    173,
+    220,
+    280
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 1648.1,
+   "t_launch_d": 160.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_4.npz",
+   "n": 4,
+   "tank": 659.83,
+   "miss": 26.0,
+   "kind": "score",
+   "targets": [
+    22,
+    93,
+    173,
+    220
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1374.6,
+   "t_launch_d": 160.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_4_1.npz",
+   "n": 4,
+   "tank": 642.8,
+   "miss": 67.2,
+   "kind": "light",
+   "targets": [
+    22,
+    120,
+    173,
+    220
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 1766.4,
+   "t_launch_d": 380.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_4_2.npz",
+   "n": 4,
+   "tank": 666.96,
+   "miss": 94.8,
+   "kind": "s",
+   "targets": [
+    93,
+    138,
+    173,
+    220
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 1444.2,
+   "t_launch_d": 160.0,
+   "step": 2
+  },
+  {
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_3.npz",
+   "n": 3,
+   "tank": 609.02,
+   "miss": 23.7,
+   "kind": "score",
+   "targets": [
+    110,
+    138,
+    173
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    138
+   ],
+   "t_end_d": 1438.0,
+   "t_launch_d": 340.0,
+   "step": 2
+  }
+ ],
+ "taken": [
+  {
+   "k": 1,
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs1_22.npz",
+   "n": 22,
+   "tank": 844.25,
+   "targets": [
+    15,
+    20,
+    51,
+    58,
+    71,
+    95,
+    104,
+    132,
+    175,
+    180,
+    199,
+    213,
+    223,
+    234,
+    243,
+    246,
+    247,
+    249,
+    262,
+    283,
+    288,
+    298
+   ]
+  },
+  {
+   "k": 2,
+   "f": "results/s15/cols/t02/TB1f/route_TB1fs2_11_1.npz",
+   "n": 11,
+   "tank": 818.99,
+   "targets": [
+    17,
+    22,
+    33,
+    64,
+    75,
+    93,
+    110,
+    120,
+    138,
+    173,
+    220
+   ]
+  }
+ ]
+}

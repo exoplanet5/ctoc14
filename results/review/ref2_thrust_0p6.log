@@ -1,0 +1,16 @@
+spacecraft: 1, m0 = [2000.0]
+covered 48, missed 252, J = 255.0000  (sum J_i = 3.0000)
+max errors: pos 2.0298e+02 km, vel 3.5519e+00 m/s, mass 1.7893e-01 kg, max |T| 0.60155 N
+ERROR: SC1 line 50: |T|=0.6000 > 0.5 N
+ERROR: SC1: interpolated |T| = 0.60155 N > 0.5 N at t=7609248.0 in arc starting line 2
+ERROR: SC1 line 48->49: position error 11.005 km > 1 km
+ERROR: SC1 line 49->50: position error 103.804 km > 1 km
+ERROR: SC1 line 49->50: velocity error 3.550 m/s > 1 m/s
+ERROR: SC1 line 49->50: mass error 0.1700 kg > 0.01 kg
+ERROR: SC1 line 50->51: position error 202.982 km > 1 km
+ERROR: SC1 line 50->51: velocity error 3.552 m/s > 1 m/s
+ERROR: SC1 line 50->51: mass error 0.1789 kg > 0.01 kg
+ERROR: SC1 line 51->52: position error 12.594 km > 1 km
+ERROR: SC1 line 51->52: mass error 0.0138 kg > 0.01 kg
+RESULT: FAIL
+wall=307.322179000 s

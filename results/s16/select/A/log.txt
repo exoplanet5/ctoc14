@@ -1,0 +1,48 @@
+[13:28:31] load: 2490 files (2490 new; {'ok': 2490}), 2349 distinct, 57 dominated -> 2292 columns
+[13:28:31] swap table of results/s15b/reloc_h2/fleet: sum J_i 11.8327, covered 298
+[13:28:31]   h01: 41 fb @ 909.9, 41 unique; full swaps +0.0162 (42fb), +0.0319 (42fb), +0.0340 (43fb), +0.0568 (42fb), +0.0607 (44fb); 1-left swaps none
+[13:28:31]   h02: 43 fb @ 969.6, 43 unique; full swaps +0.0233 (44fb), +0.0314 (44fb), +0.0592 (45fb), +0.0879 (46fb), +0.1547 (47fb); 1-left swaps +0.0870 (45fb, miss [35])
+[13:28:31]   h03: 44 fb @ 1048.7, 44 unique; full swaps none; 1-left swaps -0.0097 (43fb, miss [52]), +0.0047 (44fb, miss [52])
+[13:28:31]   h04: 39 fb @ 922.4, 39 unique; full swaps none; 1-left swaps -0.0121 (38fb, miss [163]), -0.0106 (38fb, miss [299])
+[13:28:31]   h05: 31 fb @ 920.9, 31 unique; full swaps +0.0520 (32fb), +0.2082 (33fb); 1-left swaps +0.0337 (31fb, miss [170]), +0.0508 (31fb, miss [53]), +0.0891 (32fb, miss [256])
+[13:28:31]   h06: 29 fb @ 951.0, 29 unique; full swaps +0.0395 (31fb), +0.0596 (31fb); 1-left swaps +0.0595 (30fb, miss [230]), +0.1079 (31fb, miss [230])
+[13:28:31]   s1: 23 fb @ 922.2, 23 unique; full swaps none; 1-left swaps -0.0392 (22fb, miss [148]), -0.0114 (22fb, miss [172]), +0.1322 (24fb, miss [172]), +0.1796 (24fb, miss [150])
+[13:28:31]   s2: 18 fb @ 882.1, 18 unique; full swaps +0.0223 (19fb); 1-left swaps -0.0142 (17fb, miss [258]), -0.0060 (17fb, miss [265]), +0.0090 (18fb, miss [258])
+[13:28:31]   t1: 30 fb @ 1030.1, 30 unique; full swaps none; 1-left swaps -0.0087 (29fb, miss [182]), +0.0145 (30fb, miss [182])
+[13:28:32]   N<=8 K>=290 alt 0: The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_s (1 s)
+[13:28:33]   N<=8 K>=294 alt 0: The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_s (1 s)
+[13:28:33]   N<=8 K>=298 alt 0: The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_s (0 s)
+[13:28:46]   N<=9 K>=298 alt 0: 9 craft 298 covered sum J_i 11.8327 (Optimization terminated , 3 s); misses []; depths [44, 43, 41, 39, 31, 30, 29, 23, 18]
+[13:28:46]   N<=9 K>=298 alt 1: 9 craft 298 covered sum J_i 11.8383 (Optimization terminated , 6 s); misses []; depths [44, 43, 42, 38, 31, 30, 29, 23, 18]
+[13:28:46]   N<=9 K>=298 alt 2: 9 craft 298 covered sum J_i 11.8488 (Optimization terminated , 10 s); misses []; depths [44, 43, 42, 39, 31, 30, 29, 23, 18]
+[13:28:46]   N<=9 K>=298 alt 3: 9 craft 298 covered sum J_i 11.8501 (Optimization terminated , 15 s); misses []; depths [44, 43, 43, 38, 31, 30, 29, 23, 17]
+[13:29:09]   N<=9 K>=297 alt 0: 9 craft 297 covered sum J_i 11.7934 (Optimization terminated , 10 s); misses [148]; depths [44, 43, 41, 39, 31, 30, 29, 22, 18]
+[13:29:09]   N<=9 K>=297 alt 1: 9 craft 297 covered sum J_i 11.8185 (Optimization terminated , 19 s); misses [258]; depths [44, 43, 41, 39, 31, 30, 29, 23, 17]
+[13:29:09]   N<=9 K>=297 alt 2: 9 craft 297 covered sum J_i 11.8206 (Optimization terminated , 26 s); misses [163]; depths [44, 43, 41, 38, 31, 30, 29, 23, 18]
+[13:29:09]   N<=9 K>=297 alt 3: 9 craft 297 covered sum J_i 11.8212 (Optimization terminated , 37 s); misses [172]; depths [44, 43, 41, 39, 31, 30, 29, 22, 18]
+[13:29:25]   N<=8 K>=286 alt 0: The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_s (54 s)
+[13:29:51]   N<=9 K>=296 alt 0: 9 craft 296 covered sum J_i 11.7603 (Optimization terminated , 24 s); misses [148, 172]; depths [44, 43, 41, 39, 31, 30, 29, 21, 18]
+[13:29:51]   N<=9 K>=296 alt 1: 9 craft 296 covered sum J_i 11.7793 (Optimization terminated , 42 s); misses [148, 258]; depths [44, 43, 41, 39, 31, 30, 29, 22, 17]
+[13:29:51]   N<=9 K>=296 alt 2: 9 craft 296 covered sum J_i 11.7813 (Optimization terminated , 59 s); misses [148, 163]; depths [44, 43, 41, 38, 31, 30, 29, 22, 18]
+[13:29:51]   N<=9 K>=296 alt 3: 9 craft 296 covered sum J_i 11.7829 (Optimization terminated , 80 s); misses [148, 299]; depths [44, 43, 41, 38, 31, 30, 29, 22, 18]
+[13:30:15]   N<=8 K>=282 alt 0: 8 craft 282 covered sum J_i 10.6373 (Optimization terminated , 46 s); misses [6, 17, 36, 75, 108, 118, 180, 184, 212, 216, 219, 220, 243, 247, 258, 288]; depths [44, 44, 43, 38, 31, 30, 29, 23]
+[13:30:15]   N<=8 K>=282 alt 1: 8 craft 282 covered sum J_i 10.6390 (Optimization terminated , 57 s); misses [6, 17, 36, 75, 108, 118, 148, 180, 184, 212, 216, 219, 220, 243, 247, 288]; depths [44, 43, 43, 38, 31, 31, 30, 22]
+[13:30:15]   N<=8 K>=282 alt 2: 8 craft 282 covered sum J_i 10.6548 (Optimization terminated , 94 s); misses [6, 17, 36, 75, 108, 118, 180, 184, 212, 216, 219, 220, 243, 247, 265, 288]; depths [44, 43, 41, 39, 31, 31, 30, 23]
+[13:30:15]   N<=8 K>=282 alt 3: 8 craft 282 covered sum J_i 10.6639 (Optimization terminated , 103 s); misses [6, 17, 36, 75, 108, 118, 142, 180, 184, 212, 216, 219, 220, 243, 247, 288]; depths [43, 43, 43, 38, 31, 31, 30, 23]
+[13:30:38]   N<=9 K>=295 alt 0: 9 craft 295 covered sum J_i 11.7461 (Optimization terminated , 28 s); misses [148, 172, 258]; depths [44, 43, 41, 39, 31, 30, 29, 21, 17]
+[13:30:38]   N<=9 K>=295 alt 1: 9 craft 295 covered sum J_i 11.7482 (Optimization terminated , 62 s); misses [148, 163, 172]; depths [44, 43, 41, 38, 31, 30, 29, 21, 18]
+[13:30:38]   N<=9 K>=295 alt 2: 9 craft 295 covered sum J_i 11.7497 (Optimization terminated , 96 s); misses [148, 172, 299]; depths [44, 43, 41, 38, 31, 30, 29, 21, 18]
+[13:30:38]   N<=9 K>=295 alt 3: 9 craft 295 covered sum J_i 11.7506 (Optimization terminated , 127 s); misses [52, 148, 172]; depths [43, 43, 41, 39, 31, 30, 29, 21, 18]
+[13:31:13]   N<=9 K>=294 alt 0: 9 craft 294 covered sum J_i 11.7099 (Optimization terminated , 40 s); misses [22, 148, 150, 172]; depths [44, 43, 41, 39, 31, 30, 29, 19, 18]
+[13:31:13]   N<=9 K>=294 alt 1: 9 craft 294 covered sum J_i 11.7289 (Optimization terminated , 81 s); misses [148, 150, 172, 204]; depths [44, 43, 41, 39, 31, 30, 29, 19, 18]
+[13:31:13]   N<=9 K>=294 alt 2: 9 craft 294 covered sum J_i 11.7340 (Optimization terminated , 121 s); misses [148, 163, 172, 258]; depths [44, 43, 41, 38, 31, 30, 29, 21, 17]
+[13:31:13]   N<=9 K>=294 alt 3: 9 craft 294 covered sum J_i 11.7352 (Optimization terminated , 161 s); misses [138, 148, 204, 223]; depths [44, 43, 41, 39, 31, 30, 29, 19, 18]
+[13:32:35]   N<=9 K>=293 alt 0: 9 craft 293 covered sum J_i 11.6957 (Optimization terminated , 82 s); misses [22, 148, 150, 172, 258]; depths [44, 43, 41, 39, 31, 30, 29, 19, 17]
+[13:32:35]   N<=9 K>=293 alt 1: 9 craft 293 covered sum J_i 11.6978 (Optimization terminated , 138 s); misses [22, 148, 150, 163, 172]; depths [44, 43, 41, 38, 31, 30, 29, 19, 18]
+[13:32:35]   N<=9 K>=293 alt 2: 9 craft 293 covered sum J_i 11.6993 (Optimization terminated , 190 s); misses [22, 148, 150, 172, 299]; depths [44, 43, 41, 38, 31, 30, 29, 19, 18]
+[13:32:35]   N<=9 K>=293 alt 3: 9 craft 293 covered sum J_i 11.7002 (Optimization terminated , 244 s); misses [22, 52, 148, 150, 172]; depths [43, 43, 41, 39, 31, 30, 29, 19, 18]
+[13:40:59]   N<=9 K>=292 alt 0: 9 craft 292 covered sum J_i 11.6836 (Optimization terminated , 98 s); misses [22, 148, 150, 163, 172, 258]; depths [44, 43, 41, 38, 31, 30, 29, 19, 17]
+[13:40:59]   N<=9 K>=292 alt 1: 9 craft 292 covered sum J_i 11.6842 (Optimization terminated , 217 s); misses [39, 119, 148, 172, 182, 246]; depths [44, 43, 41, 39, 31, 29, 26, 21, 18]
+[13:40:59]   N<=9 K>=292 alt 2: 9 craft 292 covered sum J_i 11.6852 (Optimization terminated , 319 s); misses [22, 148, 150, 172, 258, 299]; depths [44, 43, 41, 38, 31, 30, 29, 19, 17]
+[13:40:59]   N<=9 K>=292 alt 3: 9 craft 292 covered sum J_i 11.6860 (Optimization terminated , 748 s); misses [22, 52, 148, 150, 172, 258]; depths [43, 43, 41, 39, 31, 30, 29, 19, 17]
+[13:41:21] ranking by est closed: N9K297a1 11.8185->11.83127 | N9K297a2 11.8206->11.8317 | N9K298a0 11.8327->11.83267 | N9K298a1 11.8383->11.83829 | N9K298a2 11.8488->11.84884 | N9K298a3 11.8501->11.85012 | N9K297a3 11.8212->11.8715 | N9K296a3 11.7829->11.87861 | N9K296a1 11.7793->11.87874 | N9K296a2 11.7813->11.87918 | N9K297a0 11.7934->11.88016 | N9K294a2 11.7340->11.9399 | N9K295a2 11.7497->11.94075 | N9K295a0 11.7461->11.94088 | N9K295a1 11.7482->11.94132 | N9K296a0 11.7603->11.9423 | N9K294a3 11.7352->12.42767 | N9K292a2 11.6852->13.03996 | N9K292a0 11.6836->13.04054 | N9K293a2 11.6993->13.04138 (782 s)

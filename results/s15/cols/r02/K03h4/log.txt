@@ -1,0 +1,41 @@
+[21:39:48] chain K03h4: pool 197, S [53, 64, 90, 119, 134, 138, 143, 157, 158, 168, 218], p 0.015, steps 5, members ['H', 'T2']; resume at step 1
+[21:43:03]   step 1 plan H: pool 197, S [53, 64, 90, 119, 134, 138, 143, 157, 158, 168, 218], deepest 41 (with S 41); front 41:989*** 41:995**** 40:950*** 40:994****** 39:940*** 39:980****** 38:925*** 38:972***** (195 s)
+[21:47:08]   step 1 plan T2: pool 197, S [53, 64, 90, 119, 134, 138, 143, 157, 158, 168, 218], deepest 41 (with S 41); front 41:1030*** 40:1024** 40:1025**** 39:1016**** 38:1014**** 37:1003** 37:1010*** 36:994** (245 s)
+[21:48:26]     settle H 41 fb (S [134, 138, 143, 218]) planner 995 -> twin - miss 141764406 no (78 s)
+[21:49:32]     settle H 41 fb (S [134, 138, 143]) planner 989 -> twin - miss 104457972 no (66 s)
+[21:49:43]     settle T2 41 fb (S [53, 138, 143]) planner 1030 -> twin 1089 miss 68 OK (11 s)
+[21:49:54]     settle H 40 fb (S [119, 134, 138, 143, 168, 218]) planner 994 -> twin 1026 miss 5 OK (11 s)
+[21:50:06]     settle T2 40 fb (S [134, 138, 143, 157]) planner 1025 -> twin 1057 miss 41 OK (11 s)
+[21:50:15]     settle H 37 fb (S [134, 138, 143, 158]) planner 918 -> twin 928 miss 71 OK (10 s)
+[21:50:24]     settle H 34 fb (S [134, 138, 143, 158]) planner 889 -> twin 917 miss 81 OK (9 s)
+[21:50:24]     absorb[s1]: no approach of [53, 64, 90, 157, 158] within 0.2 AU
+[21:50:27]     absorb[s1 grow]+[]: 8 approaches of [76, 79, 161, 201, 202, 226, 241, 260]; lintwin 202@3407d 0.032AU 38kg, 260@2091d 0.012AU 42kg, 161@674d 0.043AU 43kg, 201@2278d 0.039AU 50kg, 241@504d 0.041AU 72kg, 79@3754d 0.040AU 88kg
+[21:50:27]   step 1: TOOK {'member': 'H', 'n': 40, 'tank': 1026.3, 's_taken': [119, 134, 138, 143, 168, 218]}; chain covered 40/197
+[21:53:19]   step 2 plan H: pool 157, S [53, 64, 90, 157, 158], deepest 36 (with S 36); front 36:902* 36:922** 35:884* 35:918*** 34:872* 34:894*** 33:867* 33:890*** (172 s)
+[21:56:52]   step 2 plan T2: pool 157, S [53, 64, 90, 157, 158], deepest 42 (with S 41); front 42:1037 41:1023 41:1026* 40:1011 40:1016* 39:982 38:977 37:969 (212 s)
+[21:57:05]     settle T2 42 fb (S []) planner 1037 -> twin 1195 miss 63 no (13 s)
+[21:57:31]     settle T2 41 fb (S [64]) planner 1026 -> twin 1152 miss 1 OK (26 s)
+[21:57:57]     settle T2 41 fb (S []) planner 1023 -> twin 1096 miss 60 OK (27 s)
+[21:58:26]     settle T2 40 fb (S [64]) planner 1016 -> twin 1098 miss 1 OK (28 s)
+[21:58:53]     settle T2 37 fb (S [90, 157]) planner 1014 -> twin 1091 miss 0 OK (27 s)
+[21:59:01]     settle H 34 fb (S [90, 157, 158]) planner 894 -> twin 893 miss 53 OK (9 s)
+[21:59:02]     absorb[s2]: 1 approaches of [64]; lintwin 64@5246d 0.185AU 215kg
+[21:59:03]     absorb[s2 grow]+[]: 5 approaches of [14, 68, 113, 269]; lintwin 269@2699d 0.049AU 40kg, 113@1162d 0.032AU 54kg, 14@3378d 0.030AU 71kg, 269@3998d 0.035AU 76kg, 68@4159d 0.027AU 278kg
+[21:59:03]   step 2: TOOK {'member': 'T2', 'n': 41, 'tank': 1095.5, 's_taken': []}; chain covered 81/197
+[22:01:50]   step 3 plan T2: pool 116, S [53, 64, 90, 157, 158], deepest 35 (with S 35); front 35:983 35:1011** 34:963 34:970** 33:936 33:978** 32:919 32:939* (167 s)
+[22:04:36]   step 3 plan T3: pool 116, S [53, 64, 90, 157, 158], deepest 36 (with S 36); front 36:1031* 35:993* 35:1012** 34:967 34:977** 33:939** 33:1003**** 32:910 (166 s)
+[22:07:40]   step 3 plan T6: pool 116, S [53, 64, 90, 157, 158], deepest 36 (with S 36); front 36:1021 36:1028* 35:999* 35:1016*** 34:985*** 33:967*** 32:946*** 31:929*** (183 s)
+[22:08:32]     settle T6 36 fb (S [64]) planner 1028 -> twin - miss 4299625 no (53 s)
+[22:09:16]     settle T3 36 fb (S [53]) planner 1031 -> twin - miss 9100 no (43 s)
+[22:10:13]     settle T6 36 fb (S []) planner 1021 -> twin - miss 24418 no (57 s)
+[22:11:05]     settle T6 35 fb (S [53, 90, 157]) planner 1016 -> twin - miss 1184883 no (52 s)
+[22:11:48]     settle T2 35 fb (S [53, 158]) planner 1011 -> twin - miss 51959 no (42 s)
+[22:12:38]     settle T3 35 fb (S [53, 90]) planner 1012 -> twin - miss 56227 no (50 s)
+[22:13:27]     settle T3 35 fb (S [64]) planner 993 -> twin - miss 4671889 no (49 s)
+[22:14:22]     settle T6 35 fb (S [53]) planner 999 -> twin - miss 12011 no (55 s)
+[22:15:00]     settle T2 35 fb (S []) planner 983 -> twin 1275 miss 81 no (38 s)
+[22:15:51]     settle T6 34 fb (S [53, 90, 157]) planner 985 -> twin - miss 13764 no (51 s)
+[22:16:33]     settle T2 34 fb (S [53, 158]) planner 970 -> twin - miss 4227 no (43 s)
+[22:16:43]     settle T3 34 fb (S [53, 90]) planner 977 -> twin 1845 miss 10 no (10 s)
+[22:16:43]   step 3: nothing settled under the cap -> chain ends
+[22:16:43] chain K03h4 done: 10 columns, covered 81/197 (2215 s)

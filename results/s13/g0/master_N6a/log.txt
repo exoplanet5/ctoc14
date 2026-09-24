@@ -1,0 +1,13 @@
+[10:22:32] s13_master: 8 route files from ['results/s13/seed_passes/N6a/route_*.npz'] (excluded ['*/relocated/*']); N 8,9; budgets -
+[10:22:33] 8 distinct columns (load: {'ok': 8}); depth 48..15; union covers 263 of 298
+[10:22:33] --- N <= 8
+[10:22:33]   LP value (sum y <= 8): J >= 47.2068
+[10:22:33]   MILP N<=8: Optimization terminated successfully. (H: 8 craft, 263 covered, sum J_i 10.2068, J 47.2068 (incl. 2 permanent misses)
+[10:22:33]   exact: re-settling 8 picks
+[10:22:45]   s13_master N<=8: saved 8 routes -> /Users/mickey/solarsystem/ctoc14/results/s13/g0/master_N6a/N8/fleet; covered 263, sum J_i 10.2032, J 47.2032; depths [48, 42, 39, 36, 34, 26, 23, 15]
+[10:22:45] --- N <= 9
+[10:22:45]   LP value (sum y <= 9): J >= 47.2068
+[10:22:45]   MILP N<=9: Optimization terminated successfully. (H: 8 craft, 263 covered, sum J_i 10.2068, J 47.2068 (incl. 2 permanent misses)
+[10:22:45]   exact: re-settling 8 picks
+[10:22:58]   s13_master N<=9: saved 8 routes -> /Users/mickey/solarsystem/ctoc14/results/s13/g0/master_N6a/N9/fleet; covered 263, sum J_i 10.2032, J 47.2032; depths [48, 42, 39, 36, 34, 26, 23, 15]
+[10:22:58] master done (26.0 s) -> /Users/mickey/solarsystem/ctoc14/results/s13/g0/master_N6a/master.json

@@ -1,0 +1,25 @@
+[13:40:26] source: 10 routes, covered 298, J 14.3574; 01:37@919 05:36@905 02:33@904 12:30@795 13:30@887 09:28@976 03:27@815 10:27@792 04:26@871 06:24@878
+[13:40:26] merged 06 into 12: now 54 targets (9 groups)
+[13:40:26] merged 04 into 13: now 56 targets (8 groups)
+[13:40:26] merged 03 into 09: now 55 targets (7 groups)
+[13:40:26] groups: 01:37 02:33 05:36 09:55 10:27 12:54 13:56
+[13:42:45]    37: settle failed (279545396 km)
+[13:44:07]    37: settle failed (292848208 km)
+[13:44:29]    37 flybys: twin tank 854 (J_i 1.214, 0.371/flyby)
+[13:45:52]    37: settle failed (292848675 km)
+[13:45:52] group 01: 37 targets (+12 pad) -> route 37 flybys, tank 854; fleet 1 routes, covered 37, J 264.2141; 01:37@854  (326 s)
+[13:47:01]    37 flybys: twin tank 883 (J_i 1.243, 0.407/flyby)
+[13:47:10]    37 flybys: twin tank 895 (J_i 1.255, 0.421/flyby)
+[13:47:20]    37 flybys: twin tank 928 (J_i 1.289, 0.459/flyby)
+[13:47:29]    37 flybys: twin tank 912 (J_i 1.273, 0.442/flyby)
+[13:47:29] group 02: 33 targets (+12 pad) -> route 37 flybys, tank 883; fleet 2 routes, covered 69, J 233.4571; 01:37@854 02:37@883  (97 s)
+[13:48:28]    37 flybys: twin tank 895 (J_i 1.255, 0.421/flyby)
+[13:49:24]    37: settle raised LinAlgError
+[13:56:11]    37: settle raised LinAlgError
+[13:56:17]    37 flybys: twin tank 954 (J_i 1.317, 0.489/flyby)
+[13:56:17] group 05: 36 targets (+12 pad) -> route 37 flybys, tank 895; fleet 3 routes, covered 102, J 201.7119; 01:37@854 02:37@883 03:37@895  (528 s)
+[13:57:09]    28 flybys: twin tank 831 (J_i 1.193, 0.453/flyby)
+[13:57:17]    28 flybys: twin tank 848 (J_i 1.209, 0.482/flyby)
+[13:57:25]    28 flybys: twin tank 807 (J_i 1.170, 0.411/flyby)
+[13:57:34]    28 flybys: twin tank 846 (J_i 1.206, 0.477/flyby)
+[13:57:34] group 09: 55 targets (+12 pad) -> route 28 flybys, tank 807; fleet 4 routes, covered 122, J 182.8815; 01:37@854 02:37@883 03:37@895 04:28@807  (77 s)

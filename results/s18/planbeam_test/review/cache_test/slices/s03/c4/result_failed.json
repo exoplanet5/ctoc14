@@ -1,0 +1,12 @@
+{
+ "job_id": "s03_c4",
+ "kind": "craft",
+ "craft": 4,
+ "ok": false,
+ "error": "Traceback (most recent call last):\n  File \"/Users/mickey/solarsystem/ctoc14/tools/s18_planbeam.py\", line 514, in run_job\n    start = SB.prefix_state(rp if rp.is_absolute() else rd / rp)\n  File \"/Users/mickey/solarsystem/ctoc14/tools/s18_segbeam.py\", line 235, in prefix_state\n    st = C.load_twin(route_npz); ip = C.twin_of(st); miss = C.miss_of(ip)\n  File \"/Users/mickey/solarsystem/ctoc14/tools/s18_common.py\", line 298, in load_twin\n    z = np.load(path); st = {k: z[k] for k in z.files}\n  File \"/Users/mickey/.venvs/astro313/lib/python3.13/site-packages/numpy/lib/_npyio_impl.py\", line 454, in load\n    fid = stack.enter_context(open(os.fspath(file), \"rb\"))\n                              ~~~~^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/Users/mickey/solarsystem/ctoc14/results/s18/planbeam_test/review/cache_test/slices/s03/in/does_not_exist.npz'\n",
+ "columns": [],
+ "stats": {
+  "wall_s": 0.0
+ },
+ "retried": false
+}

@@ -1,0 +1,821 @@
+{
+ "job_id": "s01_c0",
+ "kind": "craft",
+ "craft": 0,
+ "ok": true,
+ "error": null,
+ "columns": [
+  {
+   "id": "s01_c0_k0",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    290,
+    107,
+    130
+   ],
+   "epochs": [
+    67680533.8241484,
+    73653000.72654824,
+    89235726.95799941
+   ],
+   "all_targets": [
+    174,
+    139,
+    293,
+    83,
+    290,
+    107,
+    130
+   ],
+   "n_new": 3,
+   "npz": "c0_wt025/col_0.npz",
+   "tank": 652.5471287645119,
+   "tank_prev": 630.4220778704018,
+   "dtank": 22.125050894110018,
+   "miss": 60.70664385964482,
+   "t_launch": 0.0,
+   "t_end": 89235726.95799941,
+   "potential": 4,
+   "counts": {
+    "pin": 2,
+    "med": 1,
+    "fil": 0
+   },
+   "depth": 4,
+   "score": -2.9064099267900287,
+   "job_id": "s01_c0"
+  },
+  {
+   "id": "s01_c0_k1",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    31,
+    187,
+    264
+   ],
+   "epochs": [
+    59046012.98625754,
+    79870999.09140255,
+    89294897.33331205
+   ],
+   "all_targets": [
+    174,
+    139,
+    293,
+    83,
+    31,
+    187,
+    264
+   ],
+   "n_new": 3,
+   "npz": "c0_wt025/col_1.npz",
+   "tank": 710.0659300148317,
+   "tank_prev": 630.4220778704018,
+   "dtank": 79.64385214442984,
+   "miss": 74.86037262625952,
+   "t_launch": 0.0,
+   "t_end": 89294897.33331205,
+   "potential": 4,
+   "counts": {
+    "pin": 3,
+    "med": 0,
+    "fil": 0
+   },
+   "depth": 4,
+   "score": -3.9870311460165606,
+   "job_id": "s01_c0"
+  },
+  {
+   "id": "s01_c0_k2",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    290,
+    107
+   ],
+   "epochs": [
+    67686391.30072941,
+    73470535.82318887
+   ],
+   "all_targets": [
+    174,
+    139,
+    293,
+    83,
+    290,
+    107
+   ],
+   "n_new": 2,
+   "npz": "c0_wt025/col_2.npz",
+   "tank": 645.4828201783768,
+   "tank_prev": 630.4220778704018,
+   "dtank": 15.06074230797492,
+   "miss": 35.00716948479485,
+   "t_launch": 0.0,
+   "t_end": 73470535.82318887,
+   "potential": 4,
+   "counts": {
+    "pin": 2,
+    "med": 0,
+    "fil": 0
+   },
+   "depth": 3,
+   "score": -1.920727679088781,
+   "job_id": "s01_c0"
+  },
+  {
+   "id": "s01_c0_k3",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    290,
+    4
+   ],
+   "epochs": [
+    67134380.24692248,
+    73538385.60418446
+   ],
+   "all_targets": [
+    174,
+    139,
+    293,
+    83,
+    290,
+    4
+   ],
+   "n_new": 2,
+   "npz": "c0_wt025/col_3.npz",
+   "tank": 648.8644424394716,
+   "tank_prev": 630.4220778704018,
+   "dtank": 18.44236456906981,
+   "miss": 19.178369663042673,
+   "t_launch": 0.0,
+   "t_end": 73538385.60418446,
+   "potential": 0,
+   "counts": {
+    "pin": 1,
+    "med": 0,
+    "fil": 1
+   },
+   "depth": 3,
+   "score": -1.9178074378219114,
+   "job_id": "s01_c0"
+  },
+  {
+   "id": "s01_c0_k4",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    4,
+    242
+   ],
+   "epochs": [
+    72811182.33250068,
+    89099327.31312366
+   ],
+   "all_targets": [
+    174,
+    139,
+    293,
+    83,
+    4,
+    242
+   ],
+   "n_new": 2,
+   "npz": "c0_wt025/col_4.npz",
+   "tank": 673.3064701776901,
+   "tank_prev": 630.4220778704018,
+   "dtank": 42.884392307288294,
+   "miss": 65.17708516243178,
+   "t_launch": 0.0,
+   "t_end": 89099327.31312366,
+   "potential": 0,
+   "counts": {
+    "pin": 0,
+    "med": 0,
+    "fil": 2
+   },
+   "depth": 3,
+   "score": -1.8896024836679435,
+   "job_id": "s01_c0"
+  },
+  {
+   "id": "s01_c0_k5",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    31,
+    264
+   ],
+   "epochs": [
+    59060581.104704335,
+    89201954.06183013
+   ],
+   "all_targets": [
+    174,
+    139,
+    293,
+    83,
+    31,
+    264
+   ],
+   "n_new": 2,
+   "npz": "c0_wt025/col_5.npz",
+   "tank": 702.3324794592424,
+   "tank_prev": 630.4220778704018,
+   "dtank": 71.91040158884061,
+   "miss": 67.55585879368715,
+   "t_launch": 0.0,
+   "t_end": 89201954.06183013,
+   "potential": 1,
+   "counts": {
+    "pin": 2,
+    "med": 0,
+    "fil": 0
+   },
+   "depth": 3,
+   "score": -2.617620134327772,
+   "job_id": "s01_c0"
+  },
+  {
+   "id": "s01_c0_k6",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    31,
+    187
+   ],
+   "epochs": [
+    59243147.86395931,
+    79682857.80416593
+   ],
+   "all_targets": [
+    174,
+    139,
+    293,
+    83,
+    31,
+    187
+   ],
+   "n_new": 2,
+   "npz": "c0_wt025/col_6.npz",
+   "tank": 708.9010205824234,
+   "tank_prev": 630.4220778704018,
+   "dtank": 78.47894271202154,
+   "miss": 62.46698373682953,
+   "t_launch": 0.0,
+   "t_end": 79682857.80416593,
+   "potential": 4,
+   "counts": {
+    "pin": 2,
+    "med": 0,
+    "fil": 0
+   },
+   "depth": 3,
+   "score": -2.6179343559050574,
+   "job_id": "s01_c0"
+  },
+  {
+   "id": "s01_c0_k7",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    4
+   ],
+   "epochs": [
+    73290324.5940526
+   ],
+   "all_targets": [
+    174,
+    139,
+    293,
+    83,
+    4
+   ],
+   "n_new": 1,
+   "npz": "c0_wt025/col_7.npz",
+   "tank": 632.3582619846709,
+   "tank_prev": 630.4220778704018,
+   "dtank": 1.9361841142690537,
+   "miss": 0.6214020108153525,
+   "t_launch": 0.0,
+   "t_end": 73290324.5940526,
+   "potential": 4,
+   "counts": {
+    "pin": 0,
+    "med": 0,
+    "fil": 1
+   },
+   "depth": 2,
+   "score": -0.9323098645128971,
+   "job_id": "s01_c0"
+  },
+  {
+   "id": "s01_c0_k8",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    290
+   ],
+   "epochs": [
+    67430618.52115485
+   ],
+   "all_targets": [
+    174,
+    139,
+    293,
+    83,
+    290
+   ],
+   "n_new": 1,
+   "npz": "c0_wt025/col_8.npz",
+   "tank": 633.5581139201045,
+   "tank_prev": 630.4220778704018,
+   "dtank": 3.136036049702625,
+   "miss": 4.731378705206753,
+   "t_launch": 0.0,
+   "t_end": 67430618.52115485,
+   "potential": 4,
+   "counts": {
+    "pin": 1,
+    "med": 0,
+    "fil": 0
+   },
+   "depth": 2,
+   "score": -0.9343346668947572,
+   "job_id": "s01_c0"
+  },
+  {
+   "id": "s01_c0_k9",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    107
+   ],
+   "epochs": [
+    72854004.3963505
+   ],
+   "all_targets": [
+    174,
+    139,
+    293,
+    83,
+    107
+   ],
+   "n_new": 1,
+   "npz": "c0_wt025/col_9.npz",
+   "tank": 634.2046690919068,
+   "tank_prev": 630.4220778704018,
+   "dtank": 3.7825912215049584,
+   "miss": 8.833764835562997,
+   "t_launch": 0.0,
+   "t_end": 72854004.3963505,
+   "potential": 0,
+   "counts": {
+    "pin": 1,
+    "med": 0,
+    "fil": 0
+   },
+   "depth": 2,
+   "score": -0.9308955310310995,
+   "job_id": "s01_c0"
+  },
+  {
+   "id": "s01_c0_k10",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    269
+   ],
+   "epochs": [
+    73226239.29435039
+   ],
+   "all_targets": [
+    174,
+    139,
+    293,
+    83,
+    269
+   ],
+   "n_new": 1,
+   "npz": "c0_wt025/col_10.npz",
+   "tank": 636.4192613072238,
+   "tank_prev": 630.4220778704018,
+   "dtank": 5.997183436821956,
+   "miss": 5.719867403317409,
+   "t_launch": 0.0,
+   "t_end": 73226239.29435039,
+   "potential": 0,
+   "counts": {
+    "pin": 1,
+    "med": 0,
+    "fil": 0
+   },
+   "depth": 2,
+   "score": -0.9287387823070238,
+   "job_id": "s01_c0"
+  },
+  {
+   "id": "s01_c0_k11",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    200
+   ],
+   "epochs": [
+    69808763.62878627
+   ],
+   "all_targets": [
+    174,
+    139,
+    293,
+    83,
+    200
+   ],
+   "n_new": 1,
+   "npz": "c0_wt025/col_11.npz",
+   "tank": 638.3630631962666,
+   "tank_prev": 630.4220778704018,
+   "dtank": 7.9409853258647445,
+   "miss": 2.130906439756051,
+   "t_launch": 0.0,
+   "t_end": 69808763.62878627,
+   "potential": 0,
+   "counts": {
+    "pin": 0,
+    "med": 1,
+    "fil": 0
+   },
+   "depth": 2,
+   "score": -0.9288343983892252,
+   "job_id": "s01_c0"
+  },
+  {
+   "id": "s01_c0_k12",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    289
+   ],
+   "epochs": [
+    69421845.56993335
+   ],
+   "all_targets": [
+    174,
+    139,
+    293,
+    83,
+    289
+   ],
+   "n_new": 1,
+   "npz": "c0_wt025/col_12.npz",
+   "tank": 639.720661589011,
+   "tank_prev": 630.4220778704018,
+   "dtank": 9.298583718609166,
+   "miss": 62.60556284925832,
+   "t_launch": 0.0,
+   "t_end": 69421845.56993335,
+   "potential": 0,
+   "counts": {
+    "pin": 0,
+    "med": 0,
+    "fil": 1
+   },
+   "depth": 2,
+   "score": -0.9278511072521862,
+   "job_id": "s01_c0"
+  },
+  {
+   "id": "s01_c0_k13",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    229
+   ],
+   "epochs": [
+    71613744.66232426
+   ],
+   "all_targets": [
+    174,
+    139,
+    293,
+    83,
+    229
+   ],
+   "n_new": 1,
+   "npz": "c0_wt025/col_13.npz",
+   "tank": 643.7843149563613,
+   "tank_prev": 630.4220778704018,
+   "dtank": 13.362237085959464,
+   "miss": 2.545550685201536,
+   "t_launch": 0.0,
+   "t_end": 71613744.66232426,
+   "potential": 0,
+   "counts": {
+    "pin": 0,
+    "med": 0,
+    "fil": 1
+   },
+   "depth": 2,
+   "score": -0.9231685138988222,
+   "job_id": "s01_c0"
+  },
+  {
+   "id": "s01_c0_k14",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    31
+   ],
+   "epochs": [
+    58953149.56778826
+   ],
+   "all_targets": [
+    174,
+    139,
+    293,
+    83,
+    31
+   ],
+   "n_new": 1,
+   "npz": "c0_wt025/col_14.npz",
+   "tank": 684.6277897637112,
+   "tank_prev": 630.4220778704018,
+   "dtank": 54.2057118933094,
+   "miss": 58.85231846011582,
+   "t_launch": 0.0,
+   "t_end": 58953149.56778826,
+   "potential": 4,
+   "counts": {
+    "pin": 1,
+    "med": 0,
+    "fil": 0
+   },
+   "depth": 2,
+   "score": -1.2717496829691128,
+   "job_id": "s01_c0"
+  }
+ ],
+ "stats": {
+  "levels": 7,
+  "n_states": 51,
+  "n_columns": 15,
+  "settles": 59,
+  "settle_ok": 50,
+  "price_s": 202.8,
+  "settle_s": 78.8,
+  "wall_s": 281.8,
+  "end": {
+   "kind": "no_children",
+   "depth": 8,
+   "tried": 0
+  },
+  "hist": [
+   {
+    "depth": 2,
+    "parents": 1,
+    "children": 72,
+    "unique": 72,
+    "tried": 8,
+    "settled": 8,
+    "kept": 8,
+    "in_H": 8,
+    "wall_s": 7.4,
+    "price_s": 4.7,
+    "settle_s": 2.6,
+    "n_epochs": 847,
+    "n_priced": 250,
+    "drift": 0,
+    "branches": 8,
+    "fails": []
+   },
+   {
+    "depth": 3,
+    "parents": 8,
+    "children": 695,
+    "unique": 695,
+    "tried": 8,
+    "settled": 8,
+    "kept": 8,
+    "in_H": 6,
+    "wall_s": 54.1,
+    "price_s": 48.3,
+    "settle_s": 5.9,
+    "n_epochs": 6662,
+    "n_priced": 2000,
+    "drift": 0,
+    "branches": 3,
+    "fails": []
+   },
+   {
+    "depth": 4,
+    "parents": 8,
+    "children": 524,
+    "unique": 524,
+    "tried": 8,
+    "settled": 8,
+    "kept": 8,
+    "in_H": 2,
+    "wall_s": 57.5,
+    "price_s": 52.0,
+    "settle_s": 5.4,
+    "n_epochs": 5693,
+    "n_priced": 2000,
+    "drift": 0,
+    "branches": 3,
+    "fails": []
+   },
+   {
+    "depth": 5,
+    "parents": 8,
+    "children": 214,
+    "unique": 214,
+    "tried": 10,
+    "settled": 8,
+    "kept": 8,
+    "in_H": 0,
+    "wall_s": 60.5,
+    "price_s": 48.6,
+    "settle_s": 11.9,
+    "n_epochs": 3034,
+    "n_priced": 1846,
+    "drift": 2,
+    "branches": 3,
+    "fails": [
+     [
+      292,
+      1393,
+      "drift",
+      [
+       1458.9
+      ]
+     ],
+     [
+      189,
+      1308,
+      "drift",
+      [
+       1504.0
+      ]
+     ]
+    ]
+   },
+   {
+    "depth": 6,
+    "parents": 8,
+    "children": 105,
+    "unique": 105,
+    "tried": 14,
+    "settled": 8,
+    "kept": 8,
+    "in_H": 0,
+    "wall_s": 78.1,
+    "price_s": 37.1,
+    "settle_s": 41.1,
+    "n_epochs": 1833,
+    "n_priced": 1373,
+    "drift": 2,
+    "branches": 3,
+    "fails": [
+     [
+      138,
+      1440,
+      "drift",
+      [
+       1441.0
+      ]
+     ],
+     [
+      127,
+      1380,
+      [
+       [
+        "lintwin",
+        13385344.2
+       ],
+       [
+        "lam",
+        8656609.3
+       ]
+      ]
+     ],
+     [
+      267,
+      1317,
+      [
+       [
+        "lintwin",
+        106750881.4
+       ],
+       [
+        "lam",
+        35926117.3
+       ]
+      ]
+     ],
+     [
+      170,
+      1342,
+      [
+       [
+        "lintwin",
+        118497480.9
+       ],
+       [
+        "lam",
+        34189685.1
+       ]
+      ]
+     ],
+     [
+      212,
+      1368,
+      [
+       [
+        "lintwin",
+        126092733.6
+       ],
+       [
+        "lam",
+        28771732.9
+       ]
+      ]
+     ],
+     [
+      270,
+      1350,
+      "drift",
+      [
+       1479.6
+      ]
+     ]
+    ]
+   },
+   {
+    "depth": 7,
+    "parents": 8,
+    "children": 10,
+    "unique": 10,
+    "tried": 9,
+    "settled": 8,
+    "kept": 8,
+    "in_H": 0,
+    "wall_s": 21.4,
+    "price_s": 11.3,
+    "settle_s": 10.1,
+    "n_epochs": 393,
+    "n_priced": 393,
+    "drift": 1,
+    "branches": 2,
+    "fails": [
+     [
+      79,
+      1425,
+      "drift",
+      [
+       1444.1
+      ]
+     ]
+    ]
+   },
+   {
+    "depth": 8,
+    "parents": 6,
+    "children": 2,
+    "unique": 2,
+    "tried": 2,
+    "settled": 2,
+    "kept": 2,
+    "in_H": 0,
+    "wall_s": 2.8,
+    "price_s": 1.0,
+    "settle_s": 1.8,
+    "n_epochs": 30,
+    "n_priced": 30,
+    "drift": 0,
+    "branches": 2,
+    "fails": []
+   },
+   {
+    "depth": 9,
+    "parents": 1,
+    "children": 0,
+    "unique": 0,
+    "tried": 0,
+    "settled": 0,
+    "kept": 0,
+    "in_H": 0,
+    "wall_s": 0.0,
+    "price_s": 0.0,
+    "settle_s": 0.0,
+    "n_epochs": 0,
+    "n_priced": 0,
+    "drift": 0,
+    "branches": 0,
+    "fails": []
+   }
+  ]
+ }
+}

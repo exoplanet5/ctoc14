@@ -1,0 +1,8 @@
+[06:48:15] prefix results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz k=20: 20 flybys to 2271 d, tank 751.1 kg, miss 48 km (1 s)
+[06:48:15] twintail X8h02k20o: pool 47, S [212], p 0.5, steps 1, beam 24/72, nproc 1; resume at step 1
+[06:48:15]   RESUME level 20: beam 1, deepest 0
+[06:49:14]   depth 21: 1 parents -> 28 kids (28 uniq) -> tried 24, settled 24, kept 21; t_end 2407-2923 d, tank 754-801, max S 0 (60 s, gen 4 s)
+[06:51:33]   depth 22: 21 parents -> 348 kids (339 uniq) -> tried 24, settled 24, kept 23; t_end 2548-2870 d, tank 761-896, max S 0 (139 s, gen 95 s)
+[06:54:12]   depth 23: 23 parents -> 380 kids (379 uniq) -> tried 24, settled 24, kept 23; t_end 2608-2985 d, tank 768-976, max S 0 (158 s, gen 103 s)
+[06:56:25]   depth 24: 23 parents -> 343 kids (340 uniq) -> tried 24, settled 24, kept 23; t_end 2759-3027 d, tank 784-814, max S 0 (134 s, gen 102 s)
+[06:58:39]   depth 25: 23 parents -> 339 kids (336 uniq) -> tried 24, settled 24, kept 24; t_end 2827-3091 d, tank 793-836, max S 0 (133 s, gen 101 s)

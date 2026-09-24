@@ -1,0 +1,10 @@
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_twinbeam.py guided results/s12/cover_clean/fleet 06 results/s14/A/guided/g06 > results/s14/A/guided/g06.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_twinbeam.py guided results/s12/cover_clean/fleet 08 results/s14/A/guided/g08 > results/s14/A/guided/g08.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_twinbeam.py guided results/s12/cover_clean/fleet 05 results/s14/A/guided/g05 > results/s14/A/guided/g05.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_twinbeam.py guided results/s12/cover_clean/fleet 09 results/s14/A/guided/g09 > results/s14/A/guided/g09.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_twinbeam.py guided results/s12/cover_clean/fleet 04 results/s14/A/guided/g04 > results/s14/A/guided/g04.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_twinbeam.py guided results/s12/cover_clean/fleet 00 results/s14/A/guided/g00 > results/s14/A/guided/g00.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_twinbeam.py guided results/s12/cover_clean/fleet 01 results/s14/A/guided/g01 > results/s14/A/guided/g01.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_twinbeam.py guided results/s12/cover_clean/fleet 02 results/s14/A/guided/g02 > results/s14/A/guided/g02.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_twinbeam.py guided results/s12/cover_clean/fleet 03 results/s14/A/guided/g03 > results/s14/A/guided/g03.out 2>&1
+nice -n 5 /Users/mickey/.venvs/astro313/bin/python tools/s14_twinbeam.py guided results/s12/cover_clean/fleet 07 results/s14/A/guided/g07 > results/s14/A/guided/g07.out 2>&1

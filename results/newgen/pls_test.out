@@ -1,0 +1,7 @@
+[12:10:31] start: 7 routes, covered 220, J 88.5480; 01:37@919 05:36@905 02:33@904 12:30@795 13:30@887 03:27@815 10:27@792
+[12:10:31] beam w_fuel 0.432 (J per full-tank fraction at m0 1600)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+/Users/mickey/solarsystem/ctoc14/ctoc14/lambert.py:23: RuntimeWarning: invalid value encountered in divide
+  cosdnu = np.clip(np.einsum('...i,...i', r1, r2) / (r1n * r2n), -1, 1)
+[12:11:59] [r0] 03: no improvement (27 targets, 78 uncovered, best planner dJ +0.057)  (88 s)

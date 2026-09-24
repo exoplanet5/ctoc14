@@ -1,0 +1,50 @@
+[
+ {
+  "f": "results/s13/gen/g01/full1/route_01.npz",
+  "n": 46,
+  "tank": 995.427,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/gen/g01/full3/route_02.npz",
+  "n": 43,
+  "tank": 1023.854,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/gen/g01/full3/route_03.npz",
+  "n": 40,
+  "tank": 1022.66,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/gen/g01/full3/route_04.npz",
+  "n": 38,
+  "tank": 985.521,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/gen/g01/full3/route_05.npz",
+  "n": 33,
+  "tank": 919.932,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/gen/g01/full3/route_06.npz",
+  "n": 30,
+  "tank": 948.383,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/gen/g01/full3/route_07.npz",
+  "n": 26,
+  "tank": 942.663,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/gen/g01/full3/route_08.npz",
+  "n": 22,
+  "tank": 892.112,
+  "resettled": true
+ }
+]

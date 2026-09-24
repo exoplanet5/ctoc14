@@ -1,0 +1,15 @@
+[02:22:21] twintail K2Bt1x64: pool 29, S [64], p 0.1, steps 1, beam 30/90, nproc 1; resume at step 1
+[02:22:32]   roots: 619 launch legs -> 122 kept; pool 29, S [64] p 0.1
+[02:25:17]   depth  2: 122 parents -> 715 kids (522 uniq) -> tried 39, settled 30, kept 26; t_end 385-865 d, tank 602-635, max S 0 (164 s, gen 126 s)
+[02:26:47]   depth  3: 26 parents -> 154 kids (151 uniq) -> tried 34, settled 30, kept 25; t_end 454-1111 d, tank 604-686, max S 0 (90 s, gen 34 s)
+[02:28:33]   depth  4: 25 parents -> 168 kids (167 uniq) -> tried 36, settled 30, kept 26; t_end 741-1248 d, tank 618-775, max S 0 (106 s, gen 41 s)
+[02:29:58]   depth  5: 26 parents -> 156 kids (156 uniq) -> tried 31, settled 30, kept 27; t_end 838-1334 d, tank 634-753, max S 0 (86 s, gen 45 s)
+[02:31:18]   depth  6: 27 parents -> 175 kids (175 uniq) -> tried 30, settled 30, kept 30; t_end 1059-1898 d, tank 635-712, max S 0 (79 s, gen 51 s)
+[02:33:01]   depth  7: 30 parents -> 280 kids (280 uniq) -> tried 31, settled 30, kept 30; t_end 1294-2068 d, tank 641-701, max S 0 (103 s, gen 63 s)
+[02:35:11]   depth  8: 30 parents -> 250 kids (248 uniq) -> tried 32, settled 30, kept 28; t_end 1573-2227 d, tank 651-713, max S 0 (130 s, gen 70 s)
+[02:36:50]   depth  9: 28 parents -> 149 kids (148 uniq) -> tried 30, settled 30, kept 28; t_end 1700-2351 d, tank 662-720, max S 0 (99 s, gen 70 s)
+[02:38:43]   depth 10: 28 parents -> 136 kids (136 uniq) -> tried 30, settled 30, kept 28; t_end 1904-2524 d, tank 669-735, max S 0 (113 s, gen 73 s)
+[02:40:36]   depth 11: 28 parents -> 117 kids (116 uniq) -> tried 30, settled 30, kept 29; t_end 2007-2873 d, tank 684-748, max S 0 (113 s, gen 70 s)
+[02:42:46]   depth 12: 29 parents -> 147 kids (147 uniq) -> tried 30, settled 30, kept 30; t_end 2193-3069 d, tank 689-792, max S 0 (129 s, gen 74 s)
+[02:45:22]   depth 13: 30 parents -> 144 kids (144 uniq) -> tried 30, settled 30, kept 30; t_end 2336-3385 d, tank 691-829, max S 0 (156 s, gen 77 s)
+[02:48:09]   depth 14: 30 parents -> 127 kids (127 uniq) -> tried 30, settled 30, kept 30; t_end 2680-3416 d, tank 731-881, max S 0 (167 s, gen 79 s)

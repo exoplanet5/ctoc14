@@ -1,0 +1,7 @@
+[01:09:57] fake craft job s00_c0: 6 columns, conflicts with c1 on [10, 29, 45, 138, 187, 209, 248, 257, 260, 288]
+[01:09:57] fake root job s00_r0: 6 columns
+[01:09:57] replay craft job s00_c0 (r1, T 0, H 540): 2 columns in 0.2 s (main: 4 new, tank 620.8, miss 4 km)
+[01:09:57] replay craft job s01_c0 (r1 prefix 4 flybys, T 540): 2 columns in 0.3 s (main: 4 new, tank 637.9)
+[01:09:59] replay root job s00_r0 (0, 540]: 13 columns from ['r1', 'r2', 'r3', 'r4', 'r5', 'r6', 'r7', 'r8'] in 1.8 s
+[01:09:59] replay root job s01_r0 (540, 1080]: 0 columns (empty result: r9 has no flyby before 1080 d) in 0.0 s
+[01:09:59] selftest wall 2.4 s (MEASURED); scratch dir /Users/mickey/solarsystem/ctoc14/results/s18/_fixture_selftest

@@ -1,0 +1,263 @@
+parsed 47582 data lines, all 15 columns: True
+Line column = 1..N consecutive
+max sample |T| over Event=1 lines = 0.441318 N
+crafts=9, arcs=9, min Event=1 gap inside arcs=86400.000 s, min gap between last sample of an arc and first of next arc=inf s (0 < 8640)
+
+Launch checks:
+  SC 1: t_launch=0.000 s (0.0000 d)  |dr|=0.000 m  v_inf=2.457493438 km/s  m0=911.610882 kg
+  SC 2: t_launch=3456000.000 s (40.0000 d)  |dr|=0.000 m  v_inf=2.502992821 km/s  m0=972.791875 kg
+  SC 3: t_launch=6912000.000 s (80.0000 d)  |dr|=0.000 m  v_inf=2.984798218 km/s  m0=1051.120241 kg
+  SC 4: t_launch=0.000 s (0.0000 d)  |dr|=0.000 m  v_inf=3.570430138 km/s  m0=925.073544 kg
+  SC 5: t_launch=0.000 s (0.0000 d)  |dr|=0.000 m  v_inf=3.942952984 km/s  m0=921.925559 kg
+  SC 6: t_launch=6912000.000 s (80.0000 d)  |dr|=0.000 m  v_inf=2.942867195 km/s  m0=949.804244 kg
+  SC 7: t_launch=1728000.000 s (20.0000 d)  |dr|=0.000 m  v_inf=3.458046948 km/s  m0=922.126516 kg
+  SC 8: t_launch=82944000.000 s (960.0000 d)  |dr|=0.000 m  v_inf=2.870165484 km/s  m0=881.469401 kg
+  SC 9: t_launch=2160000.000 s (25.0000 d)  |dr|=0.000 m  v_inf=3.868295893 km/s  m0=1029.702438 kg
+
+max interpolated |T| (201 pts/segment over 47555 thrust segments) = 0.531315 N at file line 22130 t=32698944.0
+
+Dynamics consistency (own RK4 for thrust segments, analytic Kepler for coast segments):
+  coast segments 18: max |dr|=0.0000e+00 km  max |dv|=3.5527e-12 m/s  max |dm|=0.000e+00 kg  longest=1.00 d
+  thrust segments 47555: max |dr|=2.4115e+02 km  max |dv|=5.2350e+00 m/s  max |dm|=1.1671e-01 kg  longest=1.000 d
+  worst dr km: 2.4115e+02 @file 39804, 2.4103e+02 @file 39805, 2.3476e+02 @file 22130
+  worst dv km/s: 5.2350e-03 @file 39804, 5.2309e-03 @file 39805, 5.0962e-03 @file 22130
+  worst dm kg: 1.1671e-01 @file 22130, 1.1606e-01 @file 22131, 1.1360e-01 @file 42220
+  worst coast dr km: 0.0000e+00 @file 47582, 0.0000e+00 @file 42161, 0.0000e+00 @file 5378
+  worst coast dv km/s: 3.5527e-15 @file 27204, 3.5527e-15 @file 16233, 3.5527e-15 @file 21749
+  SC 1: final mass 600.340906 kg, min over lines 600.340906 kg
+  SC 2: final mass 600.457594 kg, min over lines 600.457594 kg
+  SC 3: final mass 600.670838 kg, min over lines 600.670838 kg
+  SC 4: final mass 600.664884 kg, min over lines 600.664884 kg
+  SC 5: final mass 600.947848 kg, min over lines 600.947848 kg
+  SC 6: final mass 600.711561 kg, min over lines 600.711561 kg
+  SC 7: final mass 601.085254 kg, min over lines 601.085254 kg
+  SC 8: final mass 601.314493 kg, min over lines 601.314493 kg
+  SC 9: final mass 600.934197 kg, min over lines 600.934197 kg
+
+Flyby checks:
+  Event=3 lines: 298, valid IDs: 298, max distance 690.439 km, mean 110.228 km, #d>1000: 0, rel speed range 5.483..42.888 km/s
+  distinct asteroids covered: 298; repeat detections: 0; missing: [131, 144]
+  SC 1: Event=3 lines 41, first-detections credited 41, max d 503.722 km
+  SC 2: Event=3 lines 43, first-detections credited 43, max d 624.725 km
+  SC 3: Event=3 lines 44, first-detections credited 44, max d 267.617 km
+  SC 4: Event=3 lines 39, first-detections credited 39, max d 77.053 km
+  SC 5: Event=3 lines 31, first-detections credited 31, max d 290.964 km
+  SC 6: Event=3 lines 29, first-detections credited 29, max d 312.884 km
+  SC 7: Event=3 lines 23, first-detections credited 23, max d 132.682 km
+  SC 8: Event=3 lines 18, first-detections credited 18, max d 454.028 km
+  SC 9: Event=3 lines 30, first-detections credited 30, max d 690.439 km
+
+Cost:
+  SC 1: m0=911.610882  J_i=1.272121
+  SC 2: m0=972.791875  J_i=1.337185
+  SC 3: m0=1051.120241  J_i=1.426060
+  SC 4: m0=925.073544  J_i=1.286110
+  SC 5: m0=921.925559  J_i=1.282822
+  SC 6: m0=949.804244  J_i=1.312290
+  SC 7: m0=922.126516  J_i=1.283032
+  SC 8: m0=881.469401  J_i=1.241471
+  SC 9: m0=1029.702438  J_i=1.401137
+  N=9  sum J_i = 11.842227  N_miss = 2  J = 13.842227
+
+VIOLATIONS: 6214
+  by kind: {'thrust': 1, 'dyn': 4594, 'mass': 1619}
+  [thrust] interpolated |T|=0.531315 > 0.5 between file lines 22130 and 22131
+  [dyn] thrust file line 98->99: |dr| 1.9716 km
+  [dyn] thrust file line 99->100: |dr| 22.3637 km
+  [dyn] thrust file line 100->101: |dr| 71.7526 km
+  [dyn] thrust file line 101->102: |dr| 72.2950 km
+  [dyn] thrust file line 102->103: |dr| 24.1918 km
+  [dyn] thrust file line 119->120: |dr| 24.0126 km
+  [dyn] thrust file line 120->121: |dr| 71.7934 km
+  [dyn] thrust file line 121->122: |dr| 71.1528 km
+  [dyn] thrust file line 122->123: |dr| 21.7235 km
+  [dyn] thrust file line 123->124: |dr| 2.5263 km
+  [dyn] thrust file line 124->125: |dr| 1.0295 km
+  [dyn] thrust file line 158->159: |dr| 1.9252 km
+  [dyn] thrust file line 159->160: |dr| 25.0873 km
+  [dyn] thrust file line 160->161: |dr| 79.7046 km
+  [dyn] thrust file line 161->162: |dr| 80.1946 km
+  [dyn] thrust file line 162->163: |dr| 26.8476 km
+  [dyn] thrust file line 180->181: |dr| 26.0088 km
+  [dyn] thrust file line 181->182: |dr| 77.8696 km
+  [dyn] thrust file line 182->183: |dr| 77.7359 km
+  [dyn] thrust file line 183->184: |dr| 25.0103 km
+  [dyn] thrust file line 184->185: |dr| 1.3307 km
+  [dyn] thrust file line 259->260: |dr| 1.6336 km
+  [dyn] thrust file line 260->261: |dr| 17.7448 km
+  [dyn] thrust file line 261->262: |dr| 56.9749 km
+  [dyn] thrust file line 262->263: |dr| 57.3348 km
+  [dyn] thrust file line 263->264: |dr| 19.1660 km
+  [dyn] thrust file line 281->282: |dr| 12.7370 km
+  [dyn] thrust file line 282->283: |dr| 38.2180 km
+  [dyn] thrust file line 283->284: |dr| 38.2222 km
+  [dyn] thrust file line 284->285: |dr| 12.7408 km
+  [dyn] thrust file line 301->302: |dr| 5.5144 km
+  [dyn] thrust file line 302->303: |dr| 16.6572 km
+  [dyn] thrust file line 303->304: |dr| 16.7641 km
+  [dyn] thrust file line 304->305: |dr| 5.6209 km
+  [dyn] thrust file line 402->403: |dr| 1.6402 km
+  [dyn] thrust file line 403->404: |dr| 4.8547 km
+  [dyn] thrust file line 404->405: |dr| 4.7850 km
+  [dyn] thrust file line 405->406: |dr| 1.5706 km
+  [dyn] thrust file line 422->423: |dr| 55.5911 km
+  [dyn] thrust file line 423->424: |dr| 167.6514 km
+  [dyn] thrust file line 424->425: |dr| 167.8073 km
+  [dyn] thrust file line 425->426: |dr| 56.0037 km
+  [dyn] thrust file line 442->443: |dr| 58.9093 km
+  [dyn] thrust file line 443->444: |dr| 176.4836 km
+  [dyn] thrust file line 444->445: |dr| 175.5021 km
+  [dyn] thrust file line 445->446: |dr| 55.6906 km
+  [dyn] thrust file line 446->447: |dr| 3.3693 km
+  [dyn] thrust file line 447->448: |dr| 1.3011 km
+  [dyn] thrust file line 483->484: |dr| 6.2890 km
+  [dyn] thrust file line 484->485: |dr| 18.8123 km
+  [dyn] thrust file line 485->486: |dr| 18.7563 km
+  [dyn] thrust file line 486->487: |dr| 6.2333 km
+  [dyn] thrust file line 503->504: |dr| 6.9029 km
+  [dyn] thrust file line 504->505: |dr| 20.7145 km
+  [dyn] thrust file line 505->506: |dr| 20.7155 km
+  [dyn] thrust file line 506->507: |dr| 6.9039 km
+  [dyn] thrust file line 643->644: |dr| 1.5549 km
+  [dyn] thrust file line 644->645: |dr| 63.0967 km
+  [dyn] thrust file line 645->646: |dr| 192.8999 km
+  [dyn] thrust file line 646->647: |dr| 193.4243 km
+  [dyn] thrust file line 647->648: |dr| 64.6616 km
+  [dyn] thrust file line 664->665: |dr| 13.7203 km
+  [dyn] thrust file line 665->666: |dr| 41.3667 km
+  [dyn] thrust file line 666->667: |dr| 41.4147 km
+  [dyn] thrust file line 667->668: |dr| 13.7588 km
+  [dyn] thrust file line 684->685: |dr| 58.1233 km
+  [dyn] thrust file line 685->686: |dr| 174.1554 km
+  [dyn] thrust file line 686->687: |dr| 173.2384 km
+  [dyn] thrust file line 687->688: |dr| 55.0879 km
+  [dyn] thrust file line 688->689: |dr| 3.1969 km
+  [dyn] thrust file line 689->690: |dr| 1.2366 km
+  [dyn] thrust file line 866->867: |dr| 10.6531 km
+  [dyn] thrust file line 867->868: |dr| 31.9367 km
+  [dyn] thrust file line 868->869: |dr| 31.9112 km
+  [dyn] thrust file line 869->870: |dr| 10.6284 km
+  [dyn] thrust file line 886->887: |dr| 2.2355 km
+  [dyn] thrust file line 887->888: |dr| 6.7292 km
+  [dyn] thrust file line 888->889: |dr| 6.7457 km
+  [dyn] thrust file line 889->890: |dr| 2.2513 km
+  [dyn] thrust file line 906->907: |dr| 8.4518 km
+  [dyn] thrust file line 907->908: |dr| 25.4105 km
+  [dyn] thrust file line 908->909: |dr| 25.4610 km
+  [dyn] thrust file line 909->910: |dr| 8.5018 km
+  [dyn] thrust file line 1067->1068: |dr| 2.9884 km
+  [dyn] thrust file line 1068->1069: |dr| 9.4608 km
+  [dyn] thrust file line 1069->1070: |dr| 9.4697 km
+  [dyn] thrust file line 1070->1071: |dr| 3.1541 km
+  [dyn] thrust file line 1087->1088: |dr| 1.9882 km
+  [dyn] thrust file line 1088->1089: |dr| 5.9664 km
+  [dyn] thrust file line 1089->1090: |dr| 5.9681 km
+  [dyn] thrust file line 1090->1091: |dr| 1.9899 km
+  [dyn] thrust file line 1107->1108: |dr| 1.3875 km
+  [dyn] thrust file line 1108->1109: |dr| 4.2560 km
+  [dyn] thrust file line 1109->1110: |dr| 4.3471 km
+  [dyn] thrust file line 1110->1111: |dr| 1.4783 km
+  [dyn] thrust file line 1386->1387: |dr| 1.1425 km
+  [dyn] thrust file line 1387->1388: |dr| 2.9203 km
+  [dyn] thrust file line 1388->1389: |dr| 60.1042 km
+  [dyn] thrust file line 1389->1390: |dr| 187.6221 km
+  [dyn] thrust file line 1390->1391: |dr| 188.6526 km
+  [dyn] thrust file line 1391->1392: |dr| 63.0773 km
+  [dyn] thrust file line 1408->1409: |dr| 57.2403 km
+  [dyn] thrust file line 1409->1410: |dr| 171.9665 km
+  [dyn] thrust file line 1410->1411: |dr| 172.1493 km
+  [dyn] thrust file line 1411->1412: |dr| 57.3959 km
+  [dyn] thrust file line 1429->1430: |dr| 7.7873 km
+  [dyn] thrust file line 1430->1431: |dr| 23.3385 km
+  [dyn] thrust file line 1431->1432: |dr| 23.3089 km
+  [dyn] thrust file line 1432->1433: |dr| 7.7592 km
+  [dyn] thrust file line 1449->1450: |dr| 12.1308 km
+  [dyn] thrust file line 1450->1451: |dr| 36.4129 km
+  [dyn] thrust file line 1451->1452: |dr| 36.4290 km
+  [dyn] thrust file line 1452->1453: |dr| 12.1444 km
+  [dyn] thrust file line 1469->1470: |dr| 8.1126 km
+  [dyn] thrust file line 1470->1471: |dr| 24.3086 km
+  [dyn] thrust file line 1471->1472: |dr| 24.2785 km
+  [dyn] thrust file line 1472->1473: |dr| 8.0827 km
+  [dyn] thrust file line 1490->1491: |dr| 6.9350 km
+  [dyn] thrust file line 1491->1492: |dr| 21.0511 km
+  [dyn] thrust file line 1492->1493: |dr| 21.2820 km
+  [dyn] thrust file line 1493->1494: |dr| 7.1356 km
+  [dyn] thrust file line 1630->1631: |dr| 1.7725 km
+  [dyn] thrust file line 1631->1632: |dr| 24.4720 km
+  [dyn] thrust file line 1632->1633: |dr| 77.5679 km
+  [dyn] thrust file line 1633->1634: |dr| 78.0427 km
+  [dyn] thrust file line 1634->1635: |dr| 26.1160 km
+  [dyn] thrust file line 1651->1652: |dr| 15.1392 km
+  [dyn] thrust file line 1652->1653: |dr| 45.4481 km
+  [dyn] thrust file line 1653->1654: |dr| 45.4736 km
+  [dyn] thrust file line 1654->1655: |dr| 15.1638 km
+  [dyn] thrust file line 1671->1672: |dr| 11.0410 km
+  [dyn] thrust file line 1672->1673: |dr| 33.2171 km
+  [dyn] thrust file line 1673->1674: |dr| 33.3030 km
+  [dyn] thrust file line 1674->1675: |dr| 11.1245 km
+  [dyn] thrust file line 1791->1792: |dr| 1.7302 km
+  [dyn] thrust file line 1792->1793: |dr| 59.2151 km
+  [dyn] thrust file line 1793->1794: |dr| 181.7743 km
+  [dyn] thrust file line 1794->1795: |dr| 182.3456 km
+  [dyn] thrust file line 1795->1796: |dr| 60.9437 km
+  [dyn] thrust file line 1812->1813: |dr| 62.2033 km
+  [dyn] thrust file line 1813->1814: |dr| 186.4081 km
+  [dyn] thrust file line 1814->1815: |dr| 185.5282 km
+  [dyn] thrust file line 1815->1816: |dr| 59.3752 km
+  [dyn] thrust file line 1816->1817: |dr| 2.9313 km
+  [dyn] thrust file line 1817->1818: |dr| 1.1256 km
+  [dyn] thrust file line 2054->2055: |dr| 72.8190 km
+  [dyn] thrust file line 2055->2056: |dr| 219.3533 km
+  [dyn] thrust file line 2056->2057: |dr| 219.2611 km
+  [dyn] thrust file line 2057->2058: |dr| 73.1449 km
+  [dyn] thrust file line 2075->2076: |dr| 74.8394 km
+  [dyn] thrust file line 2076->2077: |dr| 224.4433 km
+  [dyn] thrust file line 2077->2078: |dr| 223.9079 km
+  [dyn] thrust file line 2078->2079: |dr| 72.8646 km
+  [dyn] thrust file line 2079->2080: |dr| 2.1623 km
+  [dyn] thrust file line 2234->2235: |dr| 2.1704 km
+  [dyn] thrust file line 2235->2236: |dr| 26.0612 km
+  [dyn] thrust file line 2236->2237: |dr| 83.5587 km
+  [dyn] thrust file line 2237->2238: |dr| 84.2616 km
+  [dyn] thrust file line 2238->2239: |dr| 28.2044 km
+  [dyn] thrust file line 2255->2256: |dr| 28.3101 km
+  [dyn] thrust file line 2256->2257: |dr| 84.6540 km
+  [dyn] thrust file line 2257->2258: |dr| 83.9929 km
+  [dyn] thrust file line 2258->2259: |dr| 26.2232 km
+  [dyn] thrust file line 2259->2260: |dr| 2.1539 km
+  [dyn] thrust file line 2395->2396: |dr| 2.5462 km
+  [dyn] thrust file line 2396->2397: |dr| 66.7878 km
+  [dyn] thrust file line 2397->2398: |dr| 206.8016 km
+  [dyn] thrust file line 2398->2399: |dr| 207.7311 km
+  [dyn] thrust file line 2399->2400: |dr| 69.4287 km
+  [dyn] thrust file line 2416->2417: |dr| 58.7711 km
+  [dyn] thrust file line 2417->2418: |dr| 176.5779 km
+  [dyn] thrust file line 2418->2419: |dr| 176.7496 km
+  [dyn] thrust file line 2419->2420: |dr| 51.4249 km
+  [dyn] thrust file line 2437->2438: |dr| 9.8063 km
+  [dyn] thrust file line 2438->2439: |dr| 29.4429 km
+  [dyn] thrust file line 2439->2440: |dr| 29.4619 km
+  [dyn] thrust file line 2440->2441: |dr| 9.8246 km
+  [dyn] thrust file line 2457->2458: |dr| 5.3980 km
+  [dyn] thrust file line 2458->2459: |dr| 16.1784 km
+  [dyn] thrust file line 2459->2460: |dr| 16.1606 km
+  [dyn] thrust file line 2460->2461: |dr| 5.3803 km
+  [dyn] thrust file line 2478->2479: |dr| 5.0483 km
+  [dyn] thrust file line 2479->2480: |dr| 15.2828 km
+  [dyn] thrust file line 2480->2481: |dr| 15.4030 km
+  [dyn] thrust file line 2481->2482: |dr| 5.1724 km
+  [dyn] thrust file line 2558->2559: |dr| 2.2743 km
+  [dyn] thrust file line 2559->2560: |dr| 59.4519 km
+  [dyn] thrust file line 2560->2561: |dr| 184.0696 km
+  [dyn] thrust file line 2561->2562: |dr| 184.8775 km
+  [dyn] thrust file line 2562->2563: |dr| 61.7854 km
+  [dyn] thrust file line 2579->2580: |dr| 43.1405 km
+  [dyn] thrust file line 2580->2581: |dr| 129.5874 km
+  [dyn] thrust file line 2581->2582: |dr| 129.7203 km
+  [dyn] thrust file line 2582->2583: |dr| 43.2692 km
+  [dyn] thrust file line 2599->2600: |dr| 18.5423 km
+  [dyn] thrust file line 2600->2601: |dr| 55.5033 km
+  [dyn] thrust file line 2601->2602: |dr| 55.1955 km
+  [dyn] thrust file line 2602->2603: |dr| 17.4074 km
+  [dyn] thrust file line 2603->2604: |dr| 1.2694 km

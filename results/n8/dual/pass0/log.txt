@@ -1,0 +1,44 @@
+[02:29:18] skeletons: 8 routes, covered 67, J 241.4199; 05:9@670 09:9@734 13:9@668 01:8@647 03:8@642 06:8@678 10:8@653 12:8@664
+[02:29:18] easy prizes from results/n8/dual/prizes_0.json: 57 targets above 1.0, max 1.80
+[02:29:59]     05 seg 4: 3 states reach waypoint 262 -- relaxed retry
+[02:30:01]     05 seg 5: 2 states reach waypoint 58 -- relaxed retry
+[02:30:21]     05 segments: 0:192->42st/4fb 1:101->20st/5fb 2:96->273st/13fb 3:132->70st/17fb 4:262->3st/17fb 5:58->3st/18fb 6:147->13st/21fb 7:179->240st/28fb 8:200->109st/33fb 9:None->72st/34fb
+[02:30:21]   05: segmented beam 300 drmax 0.15 half 45: 72 final states, deepest 34  (63 s)
+[02:31:05]     05 seg 4: 1 states reach waypoint 262 -- relaxed retry
+[02:31:07]     05 seg 4: 2 states reach waypoint 262 -- giving up
+[02:31:07]     05 seg 5: 1 states reach waypoint 58 -- relaxed retry
+[02:31:08]     05 seg 5: 2 states reach waypoint 58 -- giving up
+[02:31:27]     05 segments: 0:192->39st/4fb 1:101->11st/5fb 2:96->172st/11fb 3:132->87st/16fb 4:262->1st/17fb 5:58->1st/18fb 6:147->5st/22fb 7:179->126st/28fb 8:200->117st/32fb 9:None->70st/33fb
+[02:31:27]   05: segmented beam 300 drmax 0.15 half 90: 70 final states, deepest 33  (66 s)
+[02:31:27]   05: Pareto 30:1012 31:939 32:941 33:954 34:971
+[02:32:52]     34 fb: settle failed (miss 14448, 85 s)
+[02:33:02]     33 fb: planner 954 -> twin 919 kg, 0.503 km/s/fb, J_i 1.279, value -2.021 (10 s)
+[02:33:16]     32 fb: planner 941 -> twin 933 kg, 0.538 km/s/fb, J_i 1.295, value -1.905 (14 s)
+[02:33:51]     31 fb: planner 939 -> twin 920 kg, 0.537 km/s/fb, J_i 1.280, value -1.820 (34 s)
+[02:33:51] [05] 9 waypoints -> 33 flybys, tank 919, J_i 1.279; fleet covered 33, uncovered 265, fleet J 268.279  (273 s)
+[02:34:45]     09 segments: 0:8->61st/7fb 1:39->9st/8fb 2:251->49st/11fb 3:51->79st/20fb 4:217->7st/21fb 5:168->8st/22fb 6:33->7st/23fb 7:157->9st/25fb 8:219->9st/27fb 9:None->13st/28fb
+[02:34:45]   09: segmented beam 300 drmax 0.15 half 45: 13 final states, deepest 28  (54 s)
+[02:35:37]     09 seg 4: 0 states reach waypoint 217 -- relaxed retry
+[02:35:38]     09 seg 4: 0 states reach waypoint 217 -- giving up
+[02:35:38]     09 seg 4: DROPPING waypoint 217 ([3881,4061] d unreachable); it goes to the leftovers
+[02:35:42]     09 seg 7: 1 states reach waypoint 157 -- relaxed retry
+[02:35:44]     09 seg 8: 3 states reach waypoint 219 -- relaxed retry
+[02:35:45]     09 segments: 0:8->57st/7fb 1:39->9st/8fb 2:251->45st/11fb 3:51->126st/22fb 4:217->0st/0fb 5:168->7st/23fb 6:33->5st/24fb 7:157->5st/25fb 8:219->4st/27fb 9:None->7st/28fb
+[02:35:45]   09: segmented beam 300 drmax 0.15 half 90: 7 final states, deepest 28  (60 s)
+[02:35:45]   09: Pareto 26:925 27:900 28:906
+[02:35:45]     28 fb: settle failed (miss inf, 0 s)
+[02:35:46]     27 fb: settle failed (miss inf, 0 s)
+[02:35:46]     26 fb: settle failed (miss inf, 0 s)
+[02:35:46] 09: nothing settled -- keeping the bare skeleton
+[02:36:46]     13 segments: 0:161->25st/4fb 1:50->94st/9fb 2:92->35st/11fb 3:123->119st/13fb 4:158->156st/18fb 5:236->67st/21fb 6:22->18st/22fb 7:216->93st/25fb 8:232->92st/27fb 9:None->1036st/32fb
+[02:36:46]   13: segmented beam 300 drmax 0.15 half 45: 1036 final states, deepest 32  (60 s)
+[02:37:43]     13 segments: 0:161->72st/5fb 1:50->8st/9fb 2:92->7st/10fb 3:123->12st/13fb 4:158->15st/15fb 5:236->39st/18fb 6:22->12st/18fb 7:216->71st/22fb 8:232->103st/24fb 9:None->1388st/29fb
+[02:37:43]   13: segmented beam 300 drmax 0.15 half 90: 1388 final states, deepest 29  (58 s)
+[02:37:43]   13: Pareto 23:847 24:851 25:859 26:862 27:879 28:881 29:914 30:958 31:961 32:988
+[02:38:57]     32 fb: settle failed (miss 16048266, 74 s)
+[02:40:09]     31 fb: settle failed (miss 70602511, 72 s)
+[02:41:17]     30 fb: settle failed (miss 42979747, 68 s)
+[02:41:33]     29 fb: planner 914 -> twin 1067 kg, 0.775 km/s/fb, J_i 1.444, value -1.456 (16 s)
+[02:41:33] [13] 9 waypoints -> 29 flybys, tank 1067, J_i 1.444; fleet covered 71, uncovered 227, fleet J 232.829  (347 s)
+[02:42:32]     01 segments: 0:111->35st/4fb 1:114->137st/10fb 2:193->70st/12fb 3:139->145st/18fb 4:122->41st/20fb 5:137->65st/22fb 6:265->55st/31fb 7:196->37st/34fb 8:None->128st/34fb
+[02:42:32]   01: segmented beam 300 drmax 0.15 half 45: 128 final states, deepest 34  (59 s)

@@ -1,0 +1,128 @@
+{
+ "updated": "09-23 07:33",
+ "note": "s15b ledger: best CLOSED (298 covered, 9 craft) and best PARTIAL 9-craft fleets, twin sum J_i (J = sum J_i + misses + 2)",
+ "bar": {
+  "rule": "full 9-craft fleet ready for export iff twin sum J_i <= bar_rawJ(t_submit) - 2 - 0.009 - 0.01",
+  "twin_sumJi_max_if_ready_14h_submit_16h": 12.0252,
+  "twin_sumJi_max_submit_14h": 12.0295
+ },
+ "best_closed": {
+  "dir": "results/s15b/best_closed/fleet",
+  "covered": 298,
+  "sumJi": 11.9957,
+  "note": "C3 = C2 after 2 relocate moves (148 h06->s1, 16 h05->h04), re-settled twice (12.0228 stored -> 11.9970 -> 11.9957); all 9 routes miss <= 95 km; BELOW the bar (12.0295 @14:00, 12.0252 @16:00 submit)",
+  "when": "09-23 07:31"
+ },
+ "best_partial": {
+  "dir": "results/s15b/close/G1/fleet",
+  "covered": 297,
+  "sumJi": 11.9413,
+  "misses": [
+   212
+  ],
+  "note": "G1 = f05 297 fleet with h06 := X3h06k27s1_30 (h06 - 204 - 212 + 64 @ 990.5) and 204 closed into s1 (+5 kg)",
+  "when": "09-23 06:33"
+ },
+ "history": [
+  {
+   "when": "09-23 01:25",
+   "event": "s15b start; inherited best partial F296a 296 @ 11.9208 (misses 33, 280); r02f frontier 294 @ 11.9485, 295 @ 12.0779, 296 @ 12.4375, 297 infeasible"
+  },
+  {
+   "when": "09-23 01:37",
+   "event": "partial 296 @ 11.9197 (results/s15/select/r03f/frontier.json:296; misses [33, 280]) r03f frontier 296 (= F296a family: heads + h06x110 + t1 route_07_T6_26 + TB5f s1_22 + s2_14_1)"
+  },
+  {
+   "when": "09-23 01:37",
+   "event": "partial 297 @ 11.9540 (results/s15b/fleets/B297; misses [64]) f01 frontier 297: heads + h06x110 + C00h6s1_28 + TB2fs1_21 + TB2fSs1_14_1"
+  },
+  {
+   "when": "09-23 01:37",
+   "event": "frontier r03f + f01 (1954 cols): 292 @ 11.7824 | 293 @ 11.8059 | 294 @ 11.8319 | 295 @ 11.8697 | 296 @ 11.9041 | 297 @ 11.9540"
+  },
+  {
+   "when": "09-23 01:37",
+   "event": "partial 296 @ 11.9041 (results/s15b/select/f01/frontier.json:296; misses [64, 110]) f01 frontier 296"
+  },
+  {
+   "when": "09-23 02:32",
+   "event": "02:35 status: no closed 9-craft fleet; frontier 297 @ 11.954 (B297, miss 64), 296 @ 11.904/11.920; twin polish of heads fails (h06 22/31), tail polish small (t1 25/26 @ 855 vs 26 @ 928); relocation none; keep-own re-plans K1-K5 running"
+  },
+  {
+   "when": "09-23 03:25",
+   "event": "03:25 every near-complete 9-craft fleet misses 64 or 33; chains around hard-target anchors running (P4Ats, P5C/D/E, T3a)"
+  },
+  {
+   "when": "09-23 06:23",
+   "event": "partial 297 @ 11.9535 (results/s15b/select/f05/alts.json:297[0]; misses [64]) f05: B297 with s2 := X1s2k5s1_14 (re-flown s2, 824 kg)"
+  },
+  {
+   "when": "09-23 06:23",
+   "event": "frontier f05 (2318 cols; 298 infeasible): 297 @ 11.9535 | 296 @ 11.9036"
+  },
+  {
+   "when": "09-23 06:23",
+   "event": "06:25 s15b restart. f05: 298 infeasible; 297 alternatives = miss 64 @ 11.9535 | miss 33 @ 12.0987 | miss 139 @ 12.2346 (F139: carries 64 AND 33; saved results/s15b/fleets/F139; route s2 = P4Atss2_14 14 fb @ 960 kg = 25.8 kg/fb, h01 = h01+246 insertion +86 kg -> fat for polish). Forced {64,33} selection (e03): 297 @ 12.2346 only."
+  },
+  {
+   "when": "09-23 06:33",
+   "event": "partial 297 @ 11.9413 (results/s15b/close/G1/fleet; misses [212]) G1 = f05 297 fleet with h06 := X3h06k27s1_30 (h06 - 204 - 212 + 64 @ 990.5) and 204 closed into s1 (+5 kg)"
+  },
+  {
+   "when": "09-23 07:09",
+   "event": "closed 298 @ 12.2121 (results/s15b/fleets/C1) FIRST CLOSED 9-craft 298: G1c + 212 inserted into h01 (+218.7 kg); stored twin tanks, not yet re-settled; ABOVE the bar (~12.025)"
+  },
+  {
+   "when": "09-23 07:17",
+   "event": "closed 298 @ 12.0597 (results/s15b/fleets/C2) G5 + 145 inserted into h06x64 (+71.1 kg): heads h01-h05 + h06 (X3h06k27s1_30 + 145) + t1 C00h6s1_28 + s1x204 + s2 X9s2k4s1_14 (s2 - 145 + 212); stored twin tanks; 0.030-0.035 above the bar"
+  },
+  {
+   "when": "09-23 07:20",
+   "event": "closed 298 @ 12.0588 (results/s15b/best_closed/fleet) C2 re-settled (all 9 routes miss <= 150 km): stored 12.0598 -> 12.0588; ~0.03 above the bar"
+  },
+  {
+   "when": "09-23 07:31",
+   "event": "closed 298 @ 11.9957 (results/s15b/best_closed/fleet) C3 = C2 after 2 relocate moves (148 h06->s1, 16 h05->h04), re-settled twice (12.0228 stored -> 11.9970 -> 11.9957); all 9 routes miss <= 95 km; BELOW the bar (12.0295 @14:00, 12.0252 @16:00 submit)"
+  },
+  {
+   "when": "09-23 07:33",
+   "event": "frontier f09 pool + relocate/re-settle (298 = best_closed C3 re-settled): 298 @ 11.9957 | 297 @ 11.9413 | 296 @ 11.9005"
+  },
+  {
+   "when": "09-23 07:33",
+   "event": "07:33 READY FOR EXPORT: best_closed = results/s15b/best_closed/fleet, 298 @ 11.9957 re-settled (bar 12.0295 @14:00 / 12.0252 @16:00). Chain: h06 re-planned from 18@4810 takes 64 (drops 204, 212; X3h06k27s1_30 990.5 kg) -> 204 inserted into s1 (+5.1 kg) -> 212 designed into s2 after 118@1890 (X9s2k4s1_14, drops 145, 862.7 kg) -> 145 inserted into h06 (+71.1 kg) = C2 12.0588 -> relocate 148 h06->s1, 16 h05->h04 = 12.0228 -> re-settle 11.9957. Fuel polish of the same target sets: no gain (s2 824.5 vs 825.0; h06 1004.1 vs 1006.0; t1 prefix-12 polish +2.9 kg at depth 18; s1 prefix-10 polish +0.3 kg at depth 13; launch-rooted t1 polish P207 falls behind t1's epochs). Scheduler stopped; 8 running jobs SIGSTOPped (PIDs in log.txt)."
+  }
+ ],
+ "partials": {
+  "296": {
+   "dir": "results/s15b/select/f01/frontier.json:296",
+   "covered": 296,
+   "sumJi": 11.9041,
+   "misses": [
+    64,
+    110
+   ],
+   "note": "f01 frontier 296",
+   "when": "09-23 01:37"
+  },
+  "297": {
+   "dir": "results/s15b/close/G1/fleet",
+   "covered": 297,
+   "sumJi": 11.9413,
+   "misses": [
+    212
+   ],
+   "note": "G1 = f05 297 fleet with h06 := X3h06k27s1_30 (h06 - 204 - 212 + 64 @ 990.5) and 204 closed into s1 (+5 kg)",
+   "when": "09-23 06:33"
+  }
+ },
+ "frontier": {
+  "when": "09-23 07:33",
+  "src": "f09 pool + relocate/re-settle (298 = best_closed C3 re-settled)",
+  "K": {
+   "298": 11.9957,
+   "297": 11.9413,
+   "296": 11.9005
+  }
+ }
+}

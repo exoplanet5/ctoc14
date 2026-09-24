@@ -1,0 +1,19 @@
+[02:24:46] column I1Bt1x64T6: pool 29, S [64], p 0.1, member T6, seed 0, absorb [64]
+[02:26:13]   plan T6: pool 29, S [64], deepest 26, deepest with S 0; front 26:1018 25:1003 24:976 23:937 22:908 21:899 20:868 19:858 18:854 17:842 (86 s)
+[02:26:13]     settle T6 26 fb (S []) planner 1018 -> twin - miss inf no (0 s)
+[02:26:13]     settle T6 25 fb (S []) planner 1003 -> twin - miss inf no (0 s)
+[02:26:14]     settle T6 24 fb (S []) planner 976 -> twin - miss inf no (0 s)
+[02:26:14]     settle T6 23 fb (S []) planner 937 -> twin - miss inf no (0 s)
+[02:26:14]     settle T6 22 fb (S []) planner 908 -> twin - miss inf no (0 s)
+[02:26:15]     settle T6 21 fb (S []) planner 899 -> twin - miss inf no (0 s)
+[02:26:15]     settle T6 20 fb (S []) planner 868 -> twin - miss inf no (0 s)
+[02:26:15]     settle T6 19 fb (S []) planner 858 -> twin - miss inf no (0 s)
+[02:26:16]     settle T6 18 fb (S []) planner 854 -> twin - miss inf no (0 s)
+[02:26:16]     settle T6 17 fb (S []) planner 842 -> twin - miss inf no (0 s)
+[02:26:21]   repair: deepest 26 failed; last settling prefix 5, failing leg 6 (157)
+[02:27:22]   repair plan (ban 157): deepest 22; front 22:916 21:903 20:878 19:874 18:867 17:841 16:820 15:796 (62 s)
+[02:27:34]     settle T6 22 fb (S []) planner 916 -> twin 955 miss 22 OK (12 s)
+[02:27:45]     settle T6 21 fb (S []) planner 903 -> twin 927 miss 1 OK (11 s)
+[02:27:45]     absorb[h22]: no approach of [64] within 0.2 AU
+[02:27:45]     absorb[h21]: no approach of [64] within 0.2 AU
+[02:27:45] column I1Bt1x64T6 done: 2 columns (0 absorbed); 178 s

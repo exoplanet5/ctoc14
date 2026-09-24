@@ -1,0 +1,96 @@
+[
+ {
+  "N": 9,
+  "K": 298,
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "sec": 0,
+  "dual_bound": 11.7227,
+  "nC": 42,
+  "nA": 245,
+  "obj": 11.7227,
+  "covered": 298,
+  "base_sumJi": 11.7227,
+  "arcs_dJ": 0,
+  "convex_sumJi": 11.7227,
+  "misses": [],
+  "columns": [
+   {
+    "key": "fleet_r6",
+    "file": "results/s16/best/fleet/route_r6.npz",
+    "n": 30,
+    "tank": 901.5,
+    "J_i": 1.2618,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r9",
+    "file": "results/s16/best/fleet/route_r9.npz",
+    "n": 21,
+    "tank": 902.8,
+    "J_i": 1.2631,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r2",
+    "file": "results/s16/best/fleet/route_r2.npz",
+    "n": 41,
+    "tank": 908.9,
+    "J_i": 1.2693,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r4",
+    "file": "results/s16/best/fleet/route_r4.npz",
+    "n": 38,
+    "tank": 913.1,
+    "J_i": 1.2737,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r8",
+    "file": "results/s16/best/fleet/route_r8.npz",
+    "n": 24,
+    "tank": 927.2,
+    "J_i": 1.2884,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r1",
+    "file": "results/s16/best/fleet/route_r1.npz",
+    "n": 42,
+    "tank": 944.4,
+    "J_i": 1.3065,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r5",
+    "file": "results/s16/best/fleet/route_r5.npz",
+    "n": 31,
+    "tank": 958.1,
+    "J_i": 1.3212,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r3",
+    "file": "results/s16/best/fleet/route_r3.npz",
+    "n": 41,
+    "tank": 986.3,
+    "J_i": 1.3521,
+    "add_kg": 0.0
+   },
+   {
+    "key": "fleet_r7",
+    "file": "results/s16/best/fleet/route_r7.npz",
+    "n": 30,
+    "tank": 1017.1,
+    "J_i": 1.3867,
+    "add_kg": 0.0
+   }
+  ],
+  "arcs": [],
+  "overlap": 0,
+  "thr": 0.08,
+  "cap": 150.0
+ }
+]

@@ -1,0 +1,7 @@
+[10:08:20] START p5_stagger --H 540 --L 360 --max-launch 3 --launch-stagger 60 --seed 5
+[10:44:52] END p5_stagger: [10:44:52] [slice 9 T=4860 d] launched 8/8  covered 207  remaining 91  fuel 2852 kg  sumJi 10.6204  chosen: c0
+[10:45:30] START p6_fullpot --H 540 --L 360 --gamma 0.15 --seed 6
+[11:18:08] END p6_fullpot: [11:18:07] [slice 9 T=4860 d] launched 8/8  covered 212  remaining 86  fuel 3122 kg  sumJi 10.8848  chosen: c0
+[11:18:47] START p7_both --H 540 --L 360 --gamma 0.15 --max-launch 3 --launch-stagger 60 --lam 0.7 --seed 7
+[11:19:13] END p7_both: [11:18:48] [slice 0 T=0 d] propose: 9 jobs (0 craft, 9 root) on 9 workers, proposer planbeam, H_eff 540 d, lam
+[11:19:13] PORTFOLIO2 DONE

@@ -1,0 +1,17 @@
+[20:01:56] chain C05h3: pool 162, S [64, 119, 137, 138, 157, 158, 168, 216], p 0.02, steps 6, members ['H', 'T2']; resume at step 1
+[20:04:17]   step 1 plan H: pool 162, S [64, 119, 137, 138, 157, 158, 168, 216], deepest 33 (with S 33); front 33:885*** 33:914**** 32:864*** 32:896**** 31:858*** 31:885**** 30:846*** 30:874**** (141 s)
+[20:07:14]   step 1 plan T2: pool 162, S [64, 119, 137, 138, 157, 158, 168, 216], deepest 37 (with S 37); front 37:1031** 37:1036*** 36:1024** 36:1032*** 35:1016** 35:1027*** 34:1007** 34:1015*** (177 s)
+[20:07:23]     settle T2 37 fb (S [64, 138, 168]) planner 1036 -> twin 1146 miss 21 OK (9 s)
+[20:07:34]     settle T2 37 fb (S [138, 168]) planner 1031 -> twin 1137 miss 35 OK (10 s)
+[20:07:48]     settle T2 36 fb (S [137, 138, 168]) planner 1032 -> twin 1114 miss 77 OK (15 s)
+[20:09:18]     settle H 33 fb (S [64, 137, 158, 216]) planner 914 -> twin - miss 239123604 no (90 s)
+[20:10:34]     settle H 32 fb (S [64, 137, 157, 158]) planner 896 -> twin - miss 358925623 no (76 s)
+[20:12:00]     settle H 31 fb (S [64, 137, 157, 158]) planner 885 -> twin - miss 243592686 no (86 s)
+[20:13:24]     settle H 30 fb (S [64, 137, 157, 158]) planner 874 -> twin - miss 424135842 no (83 s)
+[20:14:47]     settle H 29 fb (S [64, 137, 157, 158]) planner 868 -> twin - miss 195312607 no (83 s)
+[20:16:04]     settle H 28 fb (S [64, 137, 158, 216]) planner 869 -> twin - miss 208664494 no (78 s)
+[20:17:10]     settle H 27 fb (S [64, 137, 158, 216]) planner 855 -> twin - miss 200593241 no (66 s)
+[20:18:11]     settle H 26 fb (S [64, 137, 158, 216]) planner 848 -> twin - miss 142261328 no (61 s)
+[20:18:46]     settle H 25 fb (S [64, 137, 158, 216]) planner 841 -> twin 1326 miss 4 no (35 s)
+[20:18:46]   step 1: nothing settled under the cap -> chain ends
+[20:18:46] chain C05h3 done: 3 columns, covered 0/162 (1010 s)

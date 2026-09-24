@@ -1,0 +1,54 @@
+{
+ "fleet": "results/s15b/honest/fleet",
+ "sumJi0": 12.0508,
+ "sumJi": 11.9162,
+ "covered": 298,
+ "moves": [
+  {
+   "ast": 39,
+   "src": "h01",
+   "dst": "t1",
+   "gain": 0.0329,
+   "round": 1
+  },
+  {
+   "ast": 184,
+   "src": "h02",
+   "dst": "s2",
+   "gain": 0.0314,
+   "round": 1
+  },
+  {
+   "ast": 230,
+   "src": "h02",
+   "dst": "h06",
+   "gain": 0.0277,
+   "round": 2
+  },
+  {
+   "ast": 182,
+   "src": "h01",
+   "dst": "t1",
+   "gain": 0.0179,
+   "round": 2
+  },
+  {
+   "ast": 190,
+   "src": "h02",
+   "dst": "h04",
+   "gain": 0.0246,
+   "round": 3
+  }
+ ],
+ "files": {
+  "h01": "results/s15b/reloc_h/cols/route_h01m182_44.npz",
+  "h02": "results/s15b/reloc_h/cols/route_h02m190_43.npz",
+  "h03": "results/s15b/honest/fleet/route_h03.npz",
+  "h04": "results/s15b/reloc_h/cols/route_h04x190_37_2.npz",
+  "h05": "results/s15b/honest/fleet/route_h05.npz",
+  "h06": "results/s15b/reloc_h/cols/route_h06x230_31_1.npz",
+  "s1": "results/s15b/honest/fleet/route_s1.npz",
+  "s2": "results/s15b/reloc_h/cols/route_s2x184_15.npz",
+  "t1": "results/s15b/reloc_h/cols/route_t1x182_30.npz"
+ }
+}

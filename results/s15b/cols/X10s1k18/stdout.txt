@@ -1,0 +1,12 @@
+[07:01:21] prefix results/s15b/close/G1/cols/route_s1x204_22.npz k=18: 18 flybys to 4341 d, tank 792.2 kg, miss 77 km (3 s)
+[07:01:21] twintail X10s1k18: pool 25, S [3, 64, 148], p 0.5, steps 1, beam 24/72, nproc 1; resume at step 1
+[07:01:21]   RESUME level 18: beam 1, deepest 0
+[07:01:37]   depth 19: 1 parents -> 2 kids (2 uniq) -> tried 2, settled 2, kept 2; t_end 4594-4756 d, tank 797-820, max S 0 (16 s, gen 2 s)
+[07:02:16]   depth 20: 2 parents -> 5 kids (5 uniq) -> tried 5, settled 5, kept 4; t_end 4756-5249 d, tank 814-853, max S 1 (39 s, gen 3 s)
+[07:02:51]   depth 21: 4 parents -> 4 kids (4 uniq) -> tried 4, settled 4, kept 4; t_end 4914-5463 d, tank 851-968, max S 1 (35 s, gen 5 s)
+[07:03:35]   depth 22: 4 parents -> 5 kids (5 uniq) -> tried 5, settled 5, kept 5; t_end 5075-5468 d, tank 886-1096, max S 2 (44 s, gen 3 s)
+[07:03:47]   depth 23: 5 parents -> 1 kids (1 uniq) -> tried 1, settled 1, kept 1; t_end 5467-5467 d, tank 908-908, max S 3 (12 s, gen 2 s)
+[07:03:47]   depth 24: 1 parents -> 0 kids (0 uniq) -> tried 0, settled 0, kept 0 (0 s, gen 0 s)
+[07:03:47]   step 1: pool 25 deepest 23 ({'kind': 'no_children', 'depth': 23}); TOOK 23 fb @ 908 kg iso [64, 137, 138]; chain covered 23/25 (146 s)
+[07:03:47] twintail X10s1k18 done: 7 columns, covered 23/25 (146 s)
+{"covered": 23, "cols": 7, "wall_s": 146}

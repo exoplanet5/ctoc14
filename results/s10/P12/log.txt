@@ -1,0 +1,18 @@
+[19:53:38] 36 base routes from results/s10/BASE; sampling closest approaches to 298 targets
+[19:53:41] distance matrix in 3 s; median min-distance over hosts 0.0000 AU, targets with some host inside 0.035 AU: 212
+[19:53:41] k-medoids k=12: sum of min distance 28.85 AU
+[19:53:41] hosts and their Voronoi cells:
+[19:53:41]   D2s_d15      base 20 fb @  765 kg  cell  36 targets,  24 inside 0.035 AU,  29 inside 0.06
+[19:53:41]   D4s_p18      base 13 fb @  738 kg  cell  30 targets,  16 inside 0.035 AU,  23 inside 0.06
+[19:53:41]   F3s_f13      base 17 fb @  743 kg  cell  19 targets,  13 inside 0.035 AU,  14 inside 0.06
+[19:53:41]   D4s_p27      base 10 fb @  653 kg  cell  21 targets,  13 inside 0.035 AU,  17 inside 0.06
+[19:53:41]   F2s_f15      base 10 fb @  626 kg  cell  13 targets,  10 inside 0.035 AU,  10 inside 0.06
+[19:53:41]   F3s_f02      base 21 fb @  701 kg  cell  35 targets,  18 inside 0.035 AU,  24 inside 0.06
+[19:53:41]   F3s_f09      base 19 fb @  730 kg  cell  25 targets,  16 inside 0.035 AU,  19 inside 0.06
+[19:53:41]   F2s_f12      base 18 fb @  672 kg  cell  24 targets,  12 inside 0.035 AU,  17 inside 0.06
+[19:53:41]   D4s_p21      base 12 fb @ 1056 kg  cell  24 targets,  18 inside 0.035 AU,  22 inside 0.06
+[19:53:41]   D3s_d12      base 22 fb @  825 kg  cell  27 targets,  17 inside 0.035 AU,  21 inside 0.06
+[19:53:41]   F3s_f03      base 21 fb @  767 kg  cell  27 targets,  13 inside 0.035 AU,  20 inside 0.06
+[19:53:41]   D4s_p16      base 14 fb @  798 kg  cell  17 targets,   6 inside 0.035 AU,   8 inside 0.06
+[19:53:41] -> results/s10/P12/avoid.json; now run:
+  deep_guided.py results/s10/BASE results/s10/P12/fleet_deep --avoid results/s10/P12/avoid.json --only D2s_d15,D4s_p18,F3s_f13,D4s_p27,F2s_f15,F3s_f02,F3s_f09,F2s_f12,D4s_p21,D3s_d12,F3s_f03,D4s_p16 --tmax 300 --nproc 2 --extra 40 --nfail 10 --recand 2 --pmin 0.25

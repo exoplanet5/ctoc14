@@ -1,0 +1,18 @@
+[20:49:36] === 03 cond pool builder seg: pool 38 = own 30 + extra 8 [75, 149, 188, 213, 219, 221, 224, 271]; hard in pool 9; source route 30 fb @ 795.3 kg (6.51 kg/fb)
+[20:49:36]   hard extra 219: waypoint at 1675 d (closest approach 0.248 AU to the source route)
+[20:49:36]   hard extra 224: waypoint at 2403 d (closest approach 0.111 AU to the source route)
+[20:49:36]   skeleton: 9 waypoints 99@798 105@1291 206@1507 219@1675 246@2206 224@2403 252@2769 151@4900 243@5424; easy 29
+[20:51:09]     03 seg 7: 0 states reach waypoint 151 -- relaxed retry
+[20:51:20]     03 seg 7: 0 states reach waypoint 151 -- giving up
+[20:51:20]     03 seg 7: DROPPING waypoint 151 ([4855,4945] d unreachable); it goes to the leftovers
+[20:51:21]     03 seg 8: 0 states reach waypoint 243 -- relaxed retry
+[20:51:33]     03 seg 8: 0 states reach waypoint 243 -- giving up
+[20:51:33]     03 seg 8: DROPPING waypoint 243 ([5379,5469] d unreachable); it goes to the leftovers
+[20:51:34]     03 segments: 0:99->31st/5fb 1:105->29st/8fb 2:206->28st/9fb 3:219->14st/10fb 4:246->12st/12fb 5:224->10st/13fb 6:252->10st/14fb 7:151->0st/0fb 8:243->0st/0fb 9:None->27st/15fb
+[20:51:34]   build 118 s: 27 states, deepest 15 of pool 38; Pareto 11:732 12:741 13:748 14:758 15:769
+[20:51:41]     15 pool fb (alt 0): planner 769 -> twin 737.1 kg, 9.14 kg/fb, 0.532 km/s/fb, J_i 1.1075, own 13/30 extra 2/8 (miss 47 km, 7 s)
+[20:51:45]     14 pool fb (alt 0): planner 758 -> twin 718.8 kg, 8.49 kg/fb, 0.499 km/s/fb, J_i 1.0921, own 12/30 extra 2/8 (miss 27 km, 4 s)
+[20:51:49]     13 pool fb (alt 0): planner 748 -> twin 712.0 kg, 8.61 kg/fb, 0.509 km/s/fb, J_i 1.0864, own 11/30 extra 2/8 (miss 33 km, 4 s)
+[20:51:53]     12 pool fb (alt 0): planner 741 -> twin 711.0 kg, 9.25 kg/fb, 0.547 km/s/fb, J_i 1.0856, own 10/30 extra 2/8 (miss 61 km, 4 s)
+[20:51:57]     11 pool fb (alt 0): planner 732 -> twin 700.9 kg, 9.17 kg/fb, 0.545 km/s/fb, J_i 1.0772, own 9/30 extra 2/8 (miss 15 km, 4 s)
+[20:51:57]   BEST 03: 15/38 pool targets @ 737.1 kg (9.14 kg/fb; source 30 @ 795.3 = 6.51 kg/fb); orphans [26, 54, 74, 75, 79, 89, 90, 133, 136, 149, 151, 162, 188, 202, 213, 221, 243, 256, 259, 271, 277, 283, 300]

@@ -1,0 +1,21 @@
+SC1: 49 flybys, fuel 1384 kg, launch day 0, end 14.88 yr, gain 46.0, 87 s
+   covered so far: 49; remaining reachable: 249
+SC2: 48 flybys, fuel 1396 kg, launch day 40, end 14.37 yr, gain 45.0, 81 s
+   covered so far: 97; remaining reachable: 201
+SC3: 44 flybys, fuel 1348 kg, launch day 0, end 14.99 yr, gain 41.0, 58 s
+   covered so far: 141; remaining reachable: 157
+SC4: 39 flybys, fuel 1365 kg, launch day 40, end 14.88 yr, gain 36.0, 52 s
+   covered so far: 180; remaining reachable: 118
+SC5: 36 flybys, fuel 1373 kg, launch day 0, end 14.88 yr, gain 33.0, 46 s
+   covered so far: 216; remaining reachable: 82
+SC6: 29 flybys, fuel 1377 kg, launch day 0, end 14.17 yr, gain 26.0, 33 s
+   covered so far: 245; remaining reachable: 53
+SC7: 25 flybys, fuel 1398 kg, launch day 40, end 14.50 yr, gain 22.0, 27 s
+   covered so far: 270; remaining reachable: 28
+SC8: 19 flybys, fuel 1364 kg, launch day 220, end 13.63 yr, gain 16.0, 22 s
+   covered so far: 289; remaining reachable: 9
+SC9: 3 flybys, fuel 192 kg, launch day 20, end 2.37 yr, gain 0.0, 10 s
+   covered so far: 292; remaining reachable: 6
+SC10: 2 flybys, fuel 224 kg, launch day 120, end 1.63 yr, gain -1.0, 9 s
+stopping: gain below threshold
+FLEET: 9 spacecraft, covered 292, J = 35.00

@@ -1,0 +1,16 @@
+fleet /Users/mickey/solarsystem/ctoc14/results/s18/p7_both
+route      n     tank     J_i  launch_d    end_d  cad_d  kg/fb pin/med/fil irreg winCap   miss honest
+covered 0  misses 298 {'pin': 95, 'med': 123, 'fil': 80}  n_craft 0  sumJi 0.0000  fuel 0.0 kg  J_raw 300.0000  honest_all False
+misses: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40] ... (+258 more)
+flybys_by_1461d 0  mean_fuel_by_1461d None kg over 0 launched (MEASURED from the impulses before day 1461)
+run /Users/mickey/solarsystem/ctoc14/results/s18/p7_both: N 8 slice 0 phase propose T 0.0 d launched 0 remaining 298 done False commit regrid source craft
+G2 closure ESTIMATE: dJ_lin 0.0000 + 298 unplaced = dJ_total 0.0000 (calibrated 0.0000; screen = every miss at its cheapest host 0.0000, 0 without a host within 0.2 AU); sumJi + closure = 0.0000; 0 placed, 0 priced approaches, 0.0 s
+  ESTIMATE (lin price via s15b_close._price_host, greedy one miss per host, cheapest first; true/lin ~1.0 below 0.06 J and 0.73 above 0.2 J per docs/stage17/R1_redteam.md; an unplaced miss counts 1.0)
+  ESTIMATE unplaced (1.0 each): [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40] ... (+258 more)
+GATES  G0b N/A  G1 N/A  G2 NO
+  G0b N/A: run has not reached day 1461 (T = 0.0 d); flybys_by_1461d 0 (>= 72 PASS, <= 60 KILL), mean fuel None kg (<= 160) so far
+  G1 N/A: run not finished (slice 0, T = 0.0 d); covered 0 (>= 268 PASS, 250-267 ROUND, < 250 KILL), fuel 0 kg (<= 3900) so far (KILL)
+  G2 NO: covered 0 < 292 (sumJi 0.0000, 298 misses)
+  WARNING: not every route passes C.honest_check (see the honest column)
+written /Users/mickey/solarsystem/ctoc14/results/s18/p7_both/eval.json
+[2026-09-24 11:19:13] eval wall 0.0 s (MEASURED)

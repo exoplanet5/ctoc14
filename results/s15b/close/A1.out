@@ -1,0 +1,14 @@
+[03:00:38] close: 9 craft, covered 295, sum J_i 11.9229, misses [33, 37, 112]; caps [0.03, 0.05, 0.08, 0.12] dmax 0.2
+[03:00:47]   cap 0.03 round 1: open [33, 37, 112]; 28 priced approaches, 1 attempts: 37->08 0.042AU lin 0.026
+[03:00:58]     37 -> 08 (0.042 AU, lin 0.026): OK +14.9 kg dJ 0.0161 miss 8 km (10 s)
+[03:00:58]     COMMIT 37 -> 08 dJ 0.0161 (cap 0.03)
+[03:00:59]   cap 0.03 round 2: open [33, 112]; 19 priced approaches, 0 attempts: 
+[03:00:59]   cap 0.05 round 1: open [33, 112]; 19 priced approaches, 2 attempts: 112->04 0.076AU lin 0.060, 112->08 0.185AU lin 0.080
+[03:01:49]     112 -> 04 (0.076 AU, lin 0.060): fail 8781200.171567986 (17 s)
+[03:01:49]     112 -> 08 (0.185 AU, lin 0.080): fail 26156150.562854704 (33 s)
+[03:01:49]   cap 0.08 round 1: open [33, 112]; 19 priced approaches, 0 attempts: 
+[03:01:49]   cap 0.12 round 1: open [33, 112]; 19 priced approaches, 3 attempts: 112->07 0.072AU lin 0.157, 112->08 0.157AU lin 0.161, 112->04 0.088AU lin 0.194
+[03:02:29]     112 -> 07 (0.072 AU, lin 0.157): OK +142.6 kg dJ 0.1600 miss 34 km (8 s)
+[03:02:29]     112 -> 08 (0.157 AU, lin 0.161): OK +142.2 kg dJ 0.1652 miss 53 km (6 s)
+[03:02:29]     112 -> 04 (0.088 AU, lin 0.194): fail 5059541.116099398 (26 s)
+[03:02:29] close done: covered 296, sum J_i 11.9229 -> 11.9391, placed [(37, '08')], open [33, 112] (111 s)

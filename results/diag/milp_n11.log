@@ -1,0 +1,10 @@
+334998 routes loaded (6 s)
+colgen round 0: LP 101.223, 171903 negative columns, added 1500 -> 3000
+colgen round 1: LP 52.525, 49444 negative columns, added 1500 -> 4500
+colgen round 2: LP 34.726, 12995 negative columns, added 1500 -> 6000
+colgen round 3: LP 28.079, 2430 negative columns, added 1500 -> 7500
+colgen round 4: LP 25.518, 187 negative columns, added 187 -> 7687
+colgen round 5: LP 25.211, 21 negative columns, added 21 -> 7708
+colgen round 6: LP 25.181, 3 negative columns, added 3 -> 7711
+colgen round 7: LP 25.179, 2 negative columns, added 2 -> 7713
+7713 columns after dedup/filter, 298 targets (12 s)

@@ -1,0 +1,10 @@
+[01:10:50] 40 routes from 150 carriers, frac 1.0, max-tank 1150.0, step 45.0
+[01:23:07] [  1/40] carrier 52: 24 fb @    931 kg, 0.0539 J/fb  (736 s, total 736 s)
+[01:25:01] [  2/40] carrier 106: 31 fb @   1148 kg, 0.0498 J/fb  (850 s, total 850 s)
+[01:25:51] [  3/40] carrier 4: 26 fb @   1148 kg, 0.0594 J/fb  (901 s, total 901 s)
+[01:27:02] [  4/40] carrier 46: 32 fb @   1141 kg, 0.0480 J/fb  (971 s, total 971 s)
+[01:27:24] [  5/40] carrier 148: 28 fb @   1128 kg, 0.0543 J/fb  (994 s, total 994 s)
+[01:29:05] [  6/40] carrier 34: 30 fb @   1116 kg, 0.0501 J/fb  (1094 s, total 1094 s)
+[01:29:23] [  7/40] carrier 91: 31 fb @   1126 kg, 0.0489 J/fb  (1112 s, total 1112 s)
+[01:32:17] [  8/40] carrier 140: 26 fb @   1127 kg, 0.0584 J/fb  (436 s, total 1286 s)
+[01:32:42] [  9/40] carrier 40: 30 fb @   1064 kg, 0.0481 J/fb  (1311 s, total 1311 s)

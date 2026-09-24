@@ -1,0 +1,2 @@
+42650 cols; 129 exchanges
+done 642 s; best [{"D": ["r2"], "U": 41, "base": 1.2693, "opt": 1.2693, "gain": 0.0, "kinds": ["parent"], "n": [41], "tanks": [908.9], "msg": "Optimization terminated succes"}, {"D": ["r1"], "U": 42, "base": 1.3065, "opt": 1.3065, "gain": 0.0, "kinds": ["parent"], "n": [42], "tanks": [944.4], "msg": "Optimization terminated succes"}, {"D": ["r4"], "U": 38, "base": 1.2737, "opt": 1.2737, "gain": 0.0, "kinds": ["parent"], "n": [38], "tanks": [913.1], "msg": "Optimization terminated succes"}]

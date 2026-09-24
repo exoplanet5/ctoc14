@@ -1,0 +1,23 @@
+[01:19:44] new run _wp2_replay: N 2 H 540.0 d L 360.0 d proposer fixture_replay commit regrid nproc 2 stop_T 1080.0
+[01:19:44] [slice 0 T=0 d] propose: 2 jobs (0 craft, 2 root) on 2 workers, proposer fixture_replay
+[01:19:44] fixture fixture_replay job s00_r1 kind root T 0 d H 540 d remaining 298
+[01:19:44] fixture fixture_replay job s00_r0 kind root T 0 d H 540 d remaining 298
+[01:19:44]   root: no route launches in (270, 540] d with a flyby before 540 d -> empty result
+[01:19:44]   root: replaying r1 (launch 41 d in (-10, 270])
+[01:19:44] done: ok True columns 0 wall 0.0 s
+[01:19:44]   job s00_r1 root  columns   0  levels 1  settles 0/0  end fixture  wall 0.0 s
+[01:19:44]   r1: column s00_r0_k0 new [174, 278, 272, 28] tank 620.8 (+19.3) miss 4 km potential 3 (0.1 s)
+[01:19:44]   r1: column s00_r0_k1 new [174, 278, 272] tank 615.4 (+13.9) miss 17 km potential 3 (0.1 s)
+[01:19:44]   root: replaying r2 (launch 0 d in (-10, 270])
+[01:19:44]   r2: column s00_r0_k2 new [155, 279, 127, 238] tank 616.3 (+14.8) miss 2 km potential 3 (0.1 s)
+[01:19:45]   r2: column s00_r0_k3 new [155, 279, 127] tank 614.4 (+12.9) miss 3 km potential 3 (0.1 s)
+[01:19:45] done: ok True columns 4 wall 0.4 s
+[01:19:45]   job s00_r0 root  columns   4  levels 1  settles 4/4  end fixture  wall 0.4 s
+[01:19:45] [slice 0] propose: 4 columns (0 bad dropped) in 0.4 s
+[01:19:45] [slice 0] auction: 4 columns, kept 4, dropped {}
+[01:19:45] [slice 0] auction: status optimal objective 9.749 vars 4 rows 7 chosen 2 (0.003 s)
+[01:19:45] [slice 0 T=0 d] launched 2/2  covered 8  remaining 290  fuel 37 kg  sumJi 2.0268  chosen: r->c0:4(+15) r->c1:4(+19)  rejected: -  (wall 0 s)
+[01:19:45] [slice 1 T=540 d] propose: 2 jobs (2 craft, 0 root) on 2 workers, proposer fixture_replay
+[01:19:45] fixture fixture_replay job s01_c0 kind craft T 540 d H 540 d remaining 290
+[01:19:45] fixture fixture_replay job s01_c1 kind craft T 540 d H 540 d remaining 290
+[01:19:45] interrupted (Interrupted): slice 1 -- phase files on disk are the resume point

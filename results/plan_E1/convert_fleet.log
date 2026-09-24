@@ -1,0 +1,15 @@
+9 tours, planned coverage 280, leftovers [16, 23, 31, 41, 77, 85, 88, 114, 129, 138, 166, 175, 180, 219, 232, 236, 246, 282]
+pass1 SC1: ok=True flybys=38 fuel=1107.9 dropped=[283, 78, 202, 112, 146, 89, 222, 76, 231] err=[]
+pass1 SC2: ok=True flybys=46 fuel=1226.9 dropped=[] err=[]
+pass1 SC3: ok=True flybys=40 fuel=1183.6 dropped=[] err=[]
+pass1 SC4: ok=True flybys=21 fuel=890.2 dropped=[109, 233, 37, 247, 250, 73, 107, 298, 241, 256, 254, 5, 3, 286, 36, 102, 121] err=[]
+pass1 SC5: ok=True flybys=31 fuel=1114.3 dropped=[134, 284, 65, 159] err=[]
+pass1 SC6: ok=True flybys=25 fuel=1083.9 dropped=[193, 80, 244, 69] err=[]
+pass1 SC7: ok=True flybys=6 fuel=388.3 dropped=[149, 52, 96, 213, 275, 132, 75, 118, 106, 66, 4, 55, 139, 90, 2, 151, 205, 196, 27] err=[]
+pass1 SC8: ok=True flybys=12 fuel=1303.8 dropped=[11, 170, 63, 176] err=[]
+pass1 SC9: ok=True flybys=4 fuel=184.5 dropped=[] err=[]
+spacecraft: 9, m0 = [2000.0, 2000.0, 2000.0, 2000.0, 2000.0, 2000.0, 2000.0, 2000.0, 2000.0]
+covered 223, missed 77, J = 104.0000  (sum J_i = 27.0000)
+max errors: pos 6.0069e-08 km, vel 4.5259e-09 m/s, mass 8.0263e-11 kg, max |T| 0.48392 N
+RESULT: PASS
+FINAL: 9 spacecraft, covered 223, J = 104.000, missed [2, 3, 4, 5, 11, 16, 23, 27, 31, 36, 37, 41, 52, 55, 63, 65, 66, 69, 73, 75, 76, 77, 78, 80, 85, 88, 89, 90, 96, 102, 106, 107, 109, 112, 114, 118, 121, 129, 131, 132, 134, 138, 139, 144, 146, 149, 151, 159, 166, 170, 175, 176, 180, 193, 196, 202, 205, 213, 219, 222, 231, 232, 233, 236, 241, 244, 246, 247, 250, 254, 256, 275, 282, 283, 284, 286, 298]

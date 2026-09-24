@@ -1,0 +1,2790 @@
+{
+ "mode": "guided",
+ "route": "00",
+ "legs": 36,
+ "pool_size": 37,
+ "src_tank": 918.15,
+ "adm_prod": 27,
+ "adm_rel": 33,
+ "adm_full_prod": 32,
+ "adm_full_rel": 36,
+ "settled": 36,
+ "skipped": [],
+ "final_n": 37,
+ "final_tank": 930.64,
+ "wall_s": 103.5,
+ "steps": [
+  {
+   "k": 0,
+   "ast": 228,
+   "vinf": 3.595,
+   "miss": 0.0
+  },
+  {
+   "k": 1,
+   "ast": 163,
+   "t_src_d": 209.2,
+   "t_prev_twin_d": 93.1,
+   "src_prev_d": 93.1,
+   "myopic": {
+    "tof_d": 116.1,
+    "coast_miss_au": 0.1121,
+    "lam1_dv": 2.276,
+    "lam_best_dv": 2.276,
+    "lin_dv": null
+   },
+   "prod": {
+    "ok": false
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 1.613,
+    "dt_near_d": -2.9,
+    "dv_min": 1.613,
+    "dt_min_d": -2.9
+   },
+   "lt_epoch_dt_d": -1.1,
+   "lt_epoch_leg1": 1.88,
+   "lt_price_epoch": 1.549,
+   "lt_epochs_d": [
+    -1.1,
+    393.9,
+    283.9
+   ],
+   "lt_price_src": 1.4981,
+   "fullroute": {
+    "ok_planner": false,
+    "ok_relaxed": true,
+    "lam1_dv": 2.274,
+    "lin_dv": 1.981,
+    "coast_miss_au": 0.1117,
+    "dv_twin": 2.322
+   },
+   "settle": [
+    {
+     "at": "rel",
+     "t_d": 206.3,
+     "ok": true,
+     "tank": 624.9939508482854,
+     "dt_s": 0.2,
+     "tries": [
+      [
+       "lam",
+       64.5
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       1.603
+      ],
+      [
+       "lin",
+       1.888
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 624.99,
+   "dtank": 23.49,
+   "dv_marg": 1.503,
+   "t_twin_d": 206.5,
+   "wall_s": 0.3
+  },
+  {
+   "k": 2,
+   "ast": 11,
+   "t_src_d": 384.5,
+   "t_prev_twin_d": 206.5,
+   "src_prev_d": 209.2,
+   "myopic": {
+    "tof_d": 178.0,
+    "coast_miss_au": 0.4245,
+    "lam1_dv": 7.837,
+    "lam_best_dv": 7.837,
+    "lin_dv": null
+   },
+   "prod": {
+    "ok": false
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 1.319,
+    "dt_near_d": 4.3,
+    "dv_min": 1.319,
+    "dt_min_d": 4.3
+   },
+   "lt_epoch_dt_d": 7.0,
+   "lt_epoch_leg1": 3.505,
+   "lt_price_epoch": 2.4318,
+   "lt_epochs_d": [
+    7.0,
+    -83.0,
+    322.0,
+    422.0
+   ],
+   "lt_price_src": 1.6246,
+   "fullroute": {
+    "ok_planner": false,
+    "ok_relaxed": true,
+    "lam1_dv": 4.164,
+    "lin_dv": 1.608,
+    "coast_miss_au": 0.1506,
+    "dv_twin": 1.396
+   },
+   "settle": [
+    {
+     "at": "rel",
+     "t_d": 388.8,
+     "ok": true,
+     "tank": 640.8703325006177,
+     "dt_s": 0.4,
+     "tries": [
+      [
+       "lam",
+       80.2
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       1.348
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 640.87,
+   "dtank": 15.88,
+   "dv_marg": 0.984,
+   "t_twin_d": 387.6,
+   "wall_s": 0.5
+  },
+  {
+   "k": 3,
+   "ast": 111,
+   "t_src_d": 602.6,
+   "t_prev_twin_d": 387.6,
+   "src_prev_d": 384.5,
+   "myopic": {
+    "tof_d": 215.0,
+    "coast_miss_au": 0.0795,
+    "lam1_dv": 2.012,
+    "lam_best_dv": 2.012,
+    "lin_dv": 2.743
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.826,
+    "dt_near_d": -5.0,
+    "dv_min": 0.808,
+    "dt_min_d": -5.7
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.826,
+    "dt_near_d": -5.0,
+    "dv_min": 0.808,
+    "dt_min_d": -5.7
+   },
+   "lt_epoch_dt_d": -5.0,
+   "lt_epoch_leg1": 0.826,
+   "lt_price_epoch": 0.4563,
+   "lt_epochs_d": [
+    -5.0,
+    -100.0,
+    385.0,
+    185.0
+   ],
+   "lt_price_src": 0.4794,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.541,
+    "lin_dv": 0.372,
+    "coast_miss_au": 0.1209,
+    "dv_twin": 0.47
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 597.6,
+     "ok": true,
+     "tank": 648.5572685393165,
+     "dt_s": 0.4,
+     "tries": [
+      [
+       "lin",
+       69.4
+      ]
+     ],
+     "seeds": [
+      [
+       "lin",
+       0.826
+      ],
+      [
+       "lam",
+       0.84
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 648.56,
+   "dtank": 7.69,
+   "dv_marg": 0.4677,
+   "t_twin_d": 597.2,
+   "wall_s": 0.5
+  },
+  {
+   "k": 4,
+   "ast": 63,
+   "t_src_d": 714.8,
+   "t_prev_twin_d": 597.2,
+   "src_prev_d": 602.6,
+   "myopic": {
+    "tof_d": 117.6,
+    "coast_miss_au": 0.1392,
+    "lam1_dv": 2.615,
+    "lam_best_dv": 2.615,
+    "lin_dv": null
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.788,
+    "dt_near_d": 4.1,
+    "dv_min": 0.788,
+    "dt_min_d": 4.1
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.788,
+    "dt_near_d": 4.1,
+    "dv_min": 0.788,
+    "dt_min_d": 4.1
+   },
+   "lt_epoch_dt_d": 2.4,
+   "lt_epoch_leg1": 1.361,
+   "lt_price_epoch": 0.572,
+   "lt_epochs_d": [
+    2.4,
+    222.4,
+    152.4,
+    432.4
+   ],
+   "lt_price_src": 0.5947,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.721,
+    "lin_dv": 0.901,
+    "coast_miss_au": 0.0288,
+    "dv_twin": 0.787
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 719.0,
+     "ok": true,
+     "tank": 657.6430600662635,
+     "dt_s": 0.3,
+     "tries": [
+      [
+       "lam",
+       25.9
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.807
+      ],
+      [
+       "lin",
+       1.416
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 657.64,
+   "dtank": 9.09,
+   "dv_marg": 0.5457,
+   "t_twin_d": 719.0,
+   "wall_s": 0.5
+  },
+  {
+   "k": 5,
+   "ast": 126,
+   "t_src_d": 882.9,
+   "t_prev_twin_d": 719.0,
+   "src_prev_d": 714.8,
+   "myopic": {
+    "tof_d": 163.9,
+    "coast_miss_au": 0.2317,
+    "lam1_dv": 16.439,
+    "lam_best_dv": 16.439,
+    "lin_dv": null
+   },
+   "prod": {
+    "ok": false
+   },
+   "rel": {
+    "ok": false
+   },
+   "lt_epoch_dt_d": 31.1,
+   "lt_epoch_leg1": 2.745,
+   "lt_price_epoch": 0.8653,
+   "lt_epochs_d": [
+    31.1,
+    -43.9,
+    126.1,
+    366.1
+   ],
+   "lt_price_src": 1.115,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.264,
+    "lin_dv": 0.155,
+    "coast_miss_au": 0.0137,
+    "dv_twin": 0.132
+   },
+   "settle": [
+    {
+     "at": "src",
+     "t_d": 882.9,
+     "ok": true,
+     "tank": 680.9729842403437,
+     "dt_s": 1.5,
+     "tries": [
+      [
+       "lin",
+       33.2
+      ]
+     ],
+     "seeds": [
+      [
+       "lin",
+       5.05
+      ],
+      [
+       "lam",
+       18.527
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 680.97,
+   "dtank": 23.33,
+   "dv_marg": 1.3675,
+   "t_twin_d": 894.0,
+   "wall_s": 1.6
+  },
+  {
+   "k": 6,
+   "ast": 297,
+   "t_src_d": 950.0,
+   "t_prev_twin_d": 894.0,
+   "src_prev_d": 882.9,
+   "myopic": {
+    "tof_d": 56.0,
+    "coast_miss_au": 0.0421,
+    "lam1_dv": 0.981,
+    "lam_best_dv": 0.981,
+    "lin_dv": null
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.977,
+    "dt_near_d": 0.2,
+    "dv_min": 0.977,
+    "dt_min_d": 0.2
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.977,
+    "dt_near_d": 0.2,
+    "dv_min": 0.977,
+    "dt_min_d": 0.2
+   },
+   "lt_epoch_dt_d": -1.0,
+   "lt_epoch_leg1": 1.044,
+   "lt_price_epoch": 0.1822,
+   "lt_epochs_d": [
+    -1.0,
+    534.0,
+    109.0,
+    414.0,
+    319.0
+   ],
+   "lt_price_src": 0.1771,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.001,
+    "lin_dv": 0.002,
+    "coast_miss_au": 0.0,
+    "dv_twin": 0.107
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 950.3,
+     "ok": true,
+     "tank": 684.3980675222499,
+     "dt_s": 0.5,
+     "tries": [
+      [
+       "lam",
+       73.8
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       1.001
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 684.4,
+   "dtank": 3.43,
+   "dv_marg": 0.1968,
+   "t_twin_d": 949.1,
+   "wall_s": 0.7
+  },
+  {
+   "k": 7,
+   "ast": 52,
+   "t_src_d": 998.8,
+   "t_prev_twin_d": 949.1,
+   "src_prev_d": 950.0,
+   "myopic": {
+    "tof_d": 49.7,
+    "coast_miss_au": 0.0159,
+    "lam1_dv": 0.536,
+    "lam_best_dv": 0.536,
+    "lin_dv": 1.079
+   },
+   "prod": {
+    "ok": true,
+    "n": 1,
+    "dv_near": 0.163,
+    "dt_near_d": -0.9,
+    "dv_min": 0.163,
+    "dt_min_d": -0.9
+   },
+   "rel": {
+    "ok": true,
+    "n": 1,
+    "dv_near": 0.163,
+    "dt_near_d": -0.9,
+    "dv_min": 0.163,
+    "dt_min_d": -0.9
+   },
+   "lt_epoch_dt_d": 0.3,
+   "lt_epoch_leg1": 0.719,
+   "lt_price_epoch": 0.1141,
+   "lt_epochs_d": [
+    0.3,
+    540.3,
+    400.3
+   ],
+   "lt_price_src": 0.1152,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.179,
+    "lin_dv": 0.26,
+    "coast_miss_au": 0.0045,
+    "dv_twin": 0.297
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 997.8,
+     "ok": true,
+     "tank": 686.1205785152259,
+     "dt_s": 0.5,
+     "tries": [
+      [
+       "lam",
+       56.8
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.167
+      ],
+      [
+       "lin",
+       0.255
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 686.12,
+   "dtank": 1.72,
+   "dv_marg": 0.0986,
+   "t_twin_d": 998.0,
+   "wall_s": 0.7
+  },
+  {
+   "k": 8,
+   "ast": 14,
+   "t_src_d": 1089.7,
+   "t_prev_twin_d": 998.0,
+   "src_prev_d": 998.8,
+   "myopic": {
+    "tof_d": 91.7,
+    "coast_miss_au": 0.0646,
+    "lam1_dv": 0.672,
+    "lam_best_dv": 0.672,
+    "lin_dv": 1.698
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.626,
+    "dt_near_d": 2.3,
+    "dv_min": 0.626,
+    "dt_min_d": 2.3
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.626,
+    "dt_near_d": 2.3,
+    "dv_min": 0.626,
+    "dt_min_d": 2.3
+   },
+   "lt_epoch_dt_d": 3.3,
+   "lt_epoch_leg1": 0.636,
+   "lt_price_epoch": 0.3607,
+   "lt_epochs_d": [
+    3.3,
+    178.3,
+    428.3,
+    108.3
+   ],
+   "lt_price_src": 0.4023,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.097,
+    "lin_dv": 0.127,
+    "coast_miss_au": 0.0039,
+    "dv_twin": 0.145
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 1092.0,
+     "ok": true,
+     "tank": 693.5149057144051,
+     "dt_s": 0.9,
+     "tries": [
+      [
+       "lam",
+       85.6
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.638
+      ],
+      [
+       "lin",
+       1.052
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 693.51,
+   "dtank": 7.39,
+   "dv_marg": 0.4205,
+   "t_twin_d": 1090.1,
+   "wall_s": 1.0
+  },
+  {
+   "k": 9,
+   "ast": 114,
+   "t_src_d": 1184.4,
+   "t_prev_twin_d": 1090.1,
+   "src_prev_d": 1089.7,
+   "myopic": {
+    "tof_d": 94.4,
+    "coast_miss_au": 0.0432,
+    "lam1_dv": 0.459,
+    "lam_best_dv": 0.459,
+    "lin_dv": 0.705
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.459,
+    "dt_near_d": -0.1,
+    "dv_min": 0.459,
+    "dt_min_d": -0.1
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.459,
+    "dt_near_d": -0.1,
+    "dv_min": 0.459,
+    "dt_min_d": -0.1
+   },
+   "lt_epoch_dt_d": 0.6,
+   "lt_epoch_leg1": 0.517,
+   "lt_price_epoch": 0.4881,
+   "lt_epochs_d": [
+    0.6,
+    215.6,
+    140.6,
+    445.6
+   ],
+   "lt_price_src": 0.4964,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.375,
+    "lin_dv": 0.513,
+    "coast_miss_au": 0.0266,
+    "dv_twin": 0.443
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 1184.3,
+     "ok": true,
+     "tank": 701.3316931552757,
+     "dt_s": 0.4,
+     "tries": [
+      [
+       "lam",
+       52.8
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.463
+      ],
+      [
+       "lin",
+       0.705
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 701.33,
+   "dtank": 7.82,
+   "dv_marg": 0.4397,
+   "t_twin_d": 1184.4,
+   "wall_s": 0.5
+  },
+  {
+   "k": 10,
+   "ast": 78,
+   "t_src_d": 1325.7,
+   "t_prev_twin_d": 1184.4,
+   "src_prev_d": 1184.4,
+   "myopic": {
+    "tof_d": 141.2,
+    "coast_miss_au": 0.0379,
+    "lam1_dv": 0.2,
+    "lam_best_dv": 0.2,
+    "lin_dv": 0.29
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.189,
+    "dt_near_d": -0.2,
+    "dv_min": 0.189,
+    "dt_min_d": -0.2
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.189,
+    "dt_near_d": -0.2,
+    "dv_min": 0.189,
+    "dt_min_d": -0.2
+   },
+   "lt_epoch_dt_d": -1.2,
+   "lt_epoch_leg1": 0.53,
+   "lt_price_epoch": 0.2136,
+   "lt_epochs_d": [
+    -1.2,
+    458.8,
+    258.8
+   ],
+   "lt_price_src": 0.2055,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.139,
+    "lin_dv": 0.154,
+    "coast_miss_au": 0.0113,
+    "dv_twin": 0.139
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 1325.4,
+     "ok": true,
+     "tank": 704.7108856654697,
+     "dt_s": 0.3,
+     "tries": [
+      [
+       "lam",
+       82.0
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.189
+      ],
+      [
+       "lin",
+       0.283
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 704.71,
+   "dtank": 3.38,
+   "dv_marg": 0.1885,
+   "t_twin_d": 1325.4,
+   "wall_s": 0.5
+  },
+  {
+   "k": 11,
+   "ast": 275,
+   "t_src_d": 1396.7,
+   "t_prev_twin_d": 1325.4,
+   "src_prev_d": 1325.7,
+   "myopic": {
+    "tof_d": 71.3,
+    "coast_miss_au": 0.0378,
+    "lam1_dv": 0.812,
+    "lam_best_dv": 0.812,
+    "lin_dv": 1.669
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.714,
+    "dt_near_d": 1.2,
+    "dv_min": 0.714,
+    "dt_min_d": 1.2
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.714,
+    "dt_near_d": 1.2,
+    "dv_min": 0.714,
+    "dt_min_d": 1.2
+   },
+   "lt_epoch_dt_d": 3.7,
+   "lt_epoch_leg1": 0.976,
+   "lt_price_epoch": 0.4666,
+   "lt_epochs_d": [
+    3.7,
+    398.7,
+    528.7
+   ],
+   "lt_price_src": 0.5259,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.698,
+    "lin_dv": 1.406,
+    "coast_miss_au": 0.0309,
+    "dv_twin": 1.143
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 1397.9,
+     "ok": true,
+     "tank": 713.3131288361678,
+     "dt_s": 1.2,
+     "tries": [
+      [
+       "lam",
+       76.8
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.731
+      ],
+      [
+       "lin",
+       1.183
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 713.31,
+   "dtank": 8.6,
+   "dv_marg": 0.4759,
+   "t_twin_d": 1398.7,
+   "wall_s": 1.4
+  },
+  {
+   "k": 12,
+   "ast": 193,
+   "t_src_d": 1426.4,
+   "t_prev_twin_d": 1398.7,
+   "src_prev_d": 1396.7,
+   "myopic": {
+    "tof_d": 27.7,
+    "coast_miss_au": 0.0358,
+    "lam1_dv": 2.141,
+    "lam_best_dv": 2.141,
+    "lin_dv": null
+   },
+   "prod": {
+    "ok": false
+   },
+   "rel": {
+    "ok": false
+   },
+   "lt_epoch_dt_d": 2.3,
+   "lt_epoch_leg1": 2.096,
+   "lt_price_epoch": 0.6656,
+   "lt_epochs_d": [
+    2.3,
+    572.3
+   ],
+   "lt_price_src": 0.6949,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.0,
+    "lin_dv": 0.0,
+    "coast_miss_au": 0.0,
+    "dv_twin": 0.0
+   },
+   "settle": [
+    {
+     "at": "src",
+     "t_d": 1426.4,
+     "ok": true,
+     "tank": 725.4744760310077,
+     "dt_s": 0.5,
+     "tries": [
+      [
+       "lam",
+       74.7
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       2.228
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 725.47,
+   "dtank": 12.16,
+   "dv_marg": 0.6631,
+   "t_twin_d": 1427.0,
+   "wall_s": 0.7
+  },
+  {
+   "k": 13,
+   "ast": 24,
+   "t_src_d": 1676.7,
+   "t_prev_twin_d": 1427.0,
+   "src_prev_d": 1426.4,
+   "myopic": {
+    "tof_d": 249.8,
+    "coast_miss_au": 0.0827,
+    "lam1_dv": 0.545,
+    "lam_best_dv": 0.545,
+    "lin_dv": 0.777
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.274,
+    "dt_near_d": -1.0,
+    "dv_min": 0.274,
+    "dt_min_d": -1.0
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.274,
+    "dt_near_d": -1.0,
+    "dv_min": 0.274,
+    "dt_min_d": -1.0
+   },
+   "lt_epoch_dt_d": 0.2,
+   "lt_epoch_leg1": 0.649,
+   "lt_price_epoch": 0.1299,
+   "lt_epochs_d": [
+    0.2,
+    170.2
+   ],
+   "lt_price_src": 0.132,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.354,
+    "lin_dv": 0.746,
+    "coast_miss_au": 0.1495,
+    "dv_twin": 0.482
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 1675.7,
+     "ok": true,
+     "tank": 728.1837039077787,
+     "dt_s": 0.7,
+     "tries": [
+      [
+       "lin",
+       26.0
+      ]
+     ],
+     "seeds": [
+      [
+       "lin",
+       0.223
+      ],
+      [
+       "lam",
+       0.27
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 728.18,
+   "dtank": 2.71,
+   "dv_marg": 0.1462,
+   "t_twin_d": 1675.5,
+   "wall_s": 0.8
+  },
+  {
+   "k": 14,
+   "ast": 65,
+   "t_src_d": 2044.3,
+   "t_prev_twin_d": 1675.5,
+   "src_prev_d": 1676.7,
+   "myopic": {
+    "tof_d": 368.8,
+    "coast_miss_au": 0.0424,
+    "lam1_dv": 38.905,
+    "lam_best_dv": 5.04,
+    "lin_dv": 1.077
+   },
+   "prod": {
+    "ok": true,
+    "n": 1,
+    "dv_near": 1.111,
+    "dt_near_d": 1.2,
+    "dv_min": 1.111,
+    "dt_min_d": 1.2
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 1.111,
+    "dt_near_d": 1.2,
+    "dv_min": 1.111,
+    "dt_min_d": 1.2
+   },
+   "lt_epoch_dt_d": 1.2,
+   "lt_epoch_leg1": 1.111,
+   "lt_price_epoch": 0.5141,
+   "lt_epochs_d": [
+    1.2,
+    -183.8,
+    101.2,
+    -218.8,
+    -83.8
+   ],
+   "lt_price_src": 0.5158,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 39.51,
+    "lin_dv": 0.406,
+    "coast_miss_au": 0.0376,
+    "dv_twin": 0.586
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 2045.5,
+     "ok": true,
+     "tank": 737.2319905760992,
+     "dt_s": 4.8,
+     "tries": [
+      [
+       "lin",
+       59.6
+      ]
+     ],
+     "seeds": [
+      [
+       "lin",
+       1.111
+      ],
+      [
+       "lam",
+       4.574
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 737.23,
+   "dtank": 9.05,
+   "dv_marg": 0.4844,
+   "t_twin_d": 2044.8,
+   "wall_s": 5.0
+  },
+  {
+   "k": 15,
+   "ast": 139,
+   "t_src_d": 2297.8,
+   "t_prev_twin_d": 2044.8,
+   "src_prev_d": 2044.3,
+   "myopic": {
+    "tof_d": 253.0,
+    "coast_miss_au": 0.1273,
+    "lam1_dv": 2.181,
+    "lam_best_dv": 2.181,
+    "lin_dv": 2.035
+   },
+   "prod": {
+    "ok": false
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 1.684,
+    "dt_near_d": 2.5,
+    "dv_min": 1.684,
+    "dt_min_d": 2.5
+   },
+   "lt_epoch_dt_d": 2.0,
+   "lt_epoch_leg1": 1.705,
+   "lt_price_epoch": 0.8012,
+   "lt_epochs_d": [
+    2.0,
+    147.0,
+    227.0,
+    347.0
+   ],
+   "lt_price_src": 0.8402,
+   "fullroute": {
+    "ok_planner": false,
+    "ok_relaxed": true,
+    "lam1_dv": 1.431,
+    "lin_dv": 0.998,
+    "coast_miss_au": 0.1833,
+    "dv_twin": 1.001
+   },
+   "settle": [
+    {
+     "at": "rel",
+     "t_d": 2300.3,
+     "ok": true,
+     "tank": 751.6389566080362,
+     "dt_s": 2.3,
+     "tries": [
+      [
+       "lin",
+       79.4
+      ]
+     ],
+     "seeds": [
+      [
+       "lin",
+       1.11
+      ],
+      [
+       "lam",
+       1.673
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 751.64,
+   "dtank": 14.41,
+   "dv_marg": 0.7592,
+   "t_twin_d": 2299.7,
+   "wall_s": 2.5
+  },
+  {
+   "k": 16,
+   "ast": 112,
+   "t_src_d": 2506.1,
+   "t_prev_twin_d": 2299.7,
+   "src_prev_d": 2297.8,
+   "myopic": {
+    "tof_d": 206.4,
+    "coast_miss_au": 0.0427,
+    "lam1_dv": 13.055,
+    "lam_best_dv": 13.055,
+    "lin_dv": 1.237
+   },
+   "prod": {
+    "ok": false
+   },
+   "rel": {
+    "ok": false
+   },
+   "lt_epoch_dt_d": -6.4,
+   "lt_epoch_leg1": 2.297,
+   "lt_price_epoch": 0.15,
+   "lt_epochs_d": [
+    -6.4,
+    243.6,
+    393.6,
+    -131.4
+   ],
+   "lt_price_src": 0.1115,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.084,
+    "lin_dv": 0.011,
+    "coast_miss_au": 0.0008,
+    "dv_twin": 0.011
+   },
+   "settle": [
+    {
+     "at": "src",
+     "t_d": 2506.1,
+     "ok": true,
+     "tank": 752.8260661513979,
+     "dt_s": 1.5,
+     "tries": [
+      [
+       "lin",
+       26.2
+      ]
+     ],
+     "seeds": [
+      [
+       "lin",
+       1.237
+      ],
+      [
+       "lam",
+       16.132
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 752.83,
+   "dtank": 1.19,
+   "dv_marg": 0.0619,
+   "t_twin_d": 2503.9,
+   "wall_s": 1.7
+  },
+  {
+   "k": 17,
+   "ast": 122,
+   "t_src_d": 2658.3,
+   "t_prev_twin_d": 2503.9,
+   "src_prev_d": 2506.1,
+   "myopic": {
+    "tof_d": 154.3,
+    "coast_miss_au": 0.0698,
+    "lam1_dv": 2.38,
+    "lam_best_dv": 2.38,
+    "lin_dv": 1.452
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.198,
+    "dt_near_d": 7.9,
+    "dv_min": 0.198,
+    "dt_min_d": 7.9
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.198,
+    "dt_near_d": 7.9,
+    "dv_min": 0.198,
+    "dt_min_d": 7.9
+   },
+   "lt_epoch_dt_d": 5.7,
+   "lt_epoch_leg1": 0.525,
+   "lt_price_epoch": 0.2276,
+   "lt_epochs_d": [
+    5.7,
+    55.7,
+    445.7
+   ],
+   "lt_price_src": 0.2716,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.037,
+    "lin_dv": 0.039,
+    "coast_miss_au": 0.0029,
+    "dv_twin": 0.073
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 2666.2,
+     "ok": true,
+     "tank": 755.824645361681,
+     "dt_s": 2.0,
+     "tries": [
+      [
+       "lam",
+       70.0
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.197
+      ],
+      [
+       "lin",
+       0.267
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 755.82,
+   "dtank": 3.0,
+   "dv_marg": 0.1559,
+   "t_twin_d": 2665.5,
+   "wall_s": 2.3
+  },
+  {
+   "k": 18,
+   "ast": 245,
+   "t_src_d": 2817.9,
+   "t_prev_twin_d": 2665.5,
+   "src_prev_d": 2658.3,
+   "myopic": {
+    "tof_d": 152.4,
+    "coast_miss_au": 0.0321,
+    "lam1_dv": 0.637,
+    "lam_best_dv": 0.637,
+    "lin_dv": 0.734
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.186,
+    "dt_near_d": -3.1,
+    "dv_min": 0.186,
+    "dt_min_d": -3.1
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.186,
+    "dt_near_d": -3.1,
+    "dv_min": 0.186,
+    "dt_min_d": -3.1
+   },
+   "lt_epoch_dt_d": -2.4,
+   "lt_epoch_leg1": 0.236,
+   "lt_price_epoch": 0.1248,
+   "lt_epochs_d": [
+    -2.4,
+    247.6,
+    407.6
+   ],
+   "lt_price_src": 0.1243,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.143,
+    "lin_dv": 0.161,
+    "coast_miss_au": 0.0206,
+    "dv_twin": 0.231
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 2814.8,
+     "ok": true,
+     "tank": 757.246993466299,
+     "dt_s": 1.1,
+     "tries": [
+      [
+       "lam",
+       24.5
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.185
+      ],
+      [
+       "lin",
+       0.249
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 757.25,
+   "dtank": 1.42,
+   "dv_marg": 0.0737,
+   "t_twin_d": 2816.0,
+   "wall_s": 1.4
+  },
+  {
+   "k": 19,
+   "ast": 174,
+   "t_src_d": 2904.9,
+   "t_prev_twin_d": 2816.0,
+   "src_prev_d": 2817.9,
+   "myopic": {
+    "tof_d": 89.0,
+    "coast_miss_au": 0.0754,
+    "lam1_dv": 1.418,
+    "lam_best_dv": 1.418,
+    "lin_dv": null
+   },
+   "prod": {
+    "ok": false
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 1.293,
+    "dt_near_d": -4.0,
+    "dv_min": 1.293,
+    "dt_min_d": -4.0
+   },
+   "lt_epoch_dt_d": -4.0,
+   "lt_epoch_leg1": 1.293,
+   "lt_price_epoch": 0.4462,
+   "lt_epochs_d": [
+    -4.0,
+    211.0,
+    171.0,
+    511.0
+   ],
+   "lt_price_src": 0.5241,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.05,
+    "lin_dv": 0.068,
+    "coast_miss_au": 0.002,
+    "dv_twin": 0.193
+   },
+   "settle": [
+    {
+     "at": "rel",
+     "t_d": 2901.0,
+     "ok": true,
+     "tank": 764.4191307838777,
+     "dt_s": 2.0,
+     "tries": [
+      [
+       "lam",
+       30.6
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       1.317
+      ],
+      [
+       "lin",
+       2.68
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 764.42,
+   "dtank": 7.17,
+   "dv_marg": 0.3698,
+   "t_twin_d": 2899.2,
+   "wall_s": 2.3
+  },
+  {
+   "k": 20,
+   "ast": 153,
+   "t_src_d": 2999.4,
+   "t_prev_twin_d": 2899.2,
+   "src_prev_d": 2904.9,
+   "myopic": {
+    "tof_d": 100.1,
+    "coast_miss_au": 0.1528,
+    "lam1_dv": 1.619,
+    "lam_best_dv": 1.619,
+    "lin_dv": null
+   },
+   "prod": {
+    "ok": false
+   },
+   "rel": {
+    "ok": true,
+    "n": 1,
+    "dv_near": 1.412,
+    "dt_near_d": 2.9,
+    "dv_min": 1.412,
+    "dt_min_d": 2.9
+   },
+   "lt_epoch_dt_d": 4.9,
+   "lt_epoch_leg1": 1.523,
+   "lt_price_epoch": 1.1522,
+   "lt_epochs_d": [
+    4.9,
+    409.9,
+    249.9,
+    99.9,
+    499.9
+   ],
+   "lt_price_src": 1.2522,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.642,
+    "lin_dv": 1.068,
+    "coast_miss_au": 0.0588,
+    "dv_twin": 0.707
+   },
+   "settle": [
+    {
+     "at": "rel",
+     "t_d": 3002.2,
+     "ok": true,
+     "tank": 788.7500214976161,
+     "dt_s": 10.3,
+     "tries": [
+      [
+       "lam",
+       5.9
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       1.438
+      ],
+      [
+       "lin",
+       3.704
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 788.75,
+   "dtank": 24.33,
+   "dv_marg": 1.2291,
+   "t_twin_d": 3000.7,
+   "wall_s": 10.6
+  },
+  {
+   "k": 21,
+   "ast": 102,
+   "t_src_d": 3238.8,
+   "t_prev_twin_d": 3000.7,
+   "src_prev_d": 2999.4,
+   "myopic": {
+    "tof_d": 238.1,
+    "coast_miss_au": 0.3066,
+    "lam1_dv": 0.811,
+    "lam_best_dv": 0.811,
+    "lin_dv": 1.41
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.583,
+    "dt_near_d": 1.7,
+    "dv_min": 0.583,
+    "dt_min_d": 1.7
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.583,
+    "dt_near_d": 1.7,
+    "dv_min": 0.583,
+    "dt_min_d": 1.7
+   },
+   "lt_epoch_dt_d": 1.9,
+   "lt_epoch_leg1": 0.592,
+   "lt_price_epoch": 0.6178,
+   "lt_epochs_d": [
+    1.9,
+    161.9,
+    361.9,
+    -133.1
+   ],
+   "lt_price_src": 0.6619,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.903,
+    "lin_dv": 0.587,
+    "coast_miss_au": 0.1904,
+    "dv_twin": 0.577
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 3240.5,
+     "ok": true,
+     "tank": 800.5147698165455,
+     "dt_s": 1.2,
+     "tries": [
+      [
+       "lam",
+       5.9
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.581
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 800.51,
+   "dtank": 11.76,
+   "dv_marg": 0.5808,
+   "t_twin_d": 3240.5,
+   "wall_s": 1.5
+  },
+  {
+   "k": 22,
+   "ast": 253,
+   "t_src_d": 3387.3,
+   "t_prev_twin_d": 3240.5,
+   "src_prev_d": 3238.8,
+   "myopic": {
+    "tof_d": 146.8,
+    "coast_miss_au": 0.1443,
+    "lam1_dv": 0.732,
+    "lam_best_dv": 0.732,
+    "lin_dv": 1.419
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.707,
+    "dt_near_d": 0.4,
+    "dv_min": 0.707,
+    "dt_min_d": 0.4
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.707,
+    "dt_near_d": 0.4,
+    "dv_min": 0.707,
+    "dt_min_d": 0.4
+   },
+   "lt_epoch_dt_d": -1.8,
+   "lt_epoch_leg1": 1.278,
+   "lt_price_epoch": 0.3524,
+   "lt_epochs_d": [
+    -1.8,
+    253.2,
+    433.2
+   ],
+   "lt_price_src": 0.2981,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.204,
+    "lin_dv": 0.241,
+    "coast_miss_au": 0.0266,
+    "dv_twin": 0.203
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 3387.7,
+     "ok": true,
+     "tank": 804.3650855508689,
+     "dt_s": 4.8,
+     "tries": [
+      [
+       "lam",
+       10.3
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.72
+      ],
+      [
+       "lin",
+       1.403
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 804.37,
+   "dtank": 3.85,
+   "dv_marg": 0.1882,
+   "t_twin_d": 3387.6,
+   "wall_s": 5.1
+  },
+  {
+   "k": 23,
+   "ast": 77,
+   "t_src_d": 3458.3,
+   "t_prev_twin_d": 3387.6,
+   "src_prev_d": 3387.3,
+   "myopic": {
+    "tof_d": 70.7,
+    "coast_miss_au": 0.0231,
+    "lam1_dv": 0.647,
+    "lam_best_dv": 0.647,
+    "lin_dv": 0.894
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.617,
+    "dt_near_d": -1.0,
+    "dv_min": 0.617,
+    "dt_min_d": -1.0
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.617,
+    "dt_near_d": -1.0,
+    "dv_min": 0.617,
+    "dt_min_d": -1.0
+   },
+   "lt_epoch_dt_d": -0.7,
+   "lt_epoch_leg1": 0.62,
+   "lt_price_epoch": 0.7904,
+   "lt_epochs_d": [
+    -0.7,
+    489.3,
+    329.3
+   ],
+   "lt_price_src": 0.7845,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.606,
+    "lin_dv": 0.838,
+    "coast_miss_au": 0.0215,
+    "dv_twin": 1.152
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 3457.4,
+     "ok": true,
+     "tank": 815.0608473392725,
+     "dt_s": 3.4,
+     "tries": [
+      [
+       "lam",
+       41.9
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.621
+      ],
+      [
+       "lin",
+       0.854
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 815.06,
+   "dtank": 10.7,
+   "dv_marg": 0.5182,
+   "t_twin_d": 3456.9,
+   "wall_s": 3.7
+  },
+  {
+   "k": 24,
+   "ast": 21,
+   "t_src_d": 3598.4,
+   "t_prev_twin_d": 3456.9,
+   "src_prev_d": 3458.3,
+   "myopic": {
+    "tof_d": 141.5,
+    "coast_miss_au": 0.1527,
+    "lam1_dv": 0.798,
+    "lam_best_dv": 0.798,
+    "lin_dv": 1.348
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.76,
+    "dt_near_d": -1.2,
+    "dv_min": 0.76,
+    "dt_min_d": -1.2
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.76,
+    "dt_near_d": -1.2,
+    "dv_min": 0.76,
+    "dt_min_d": -1.2
+   },
+   "lt_epoch_dt_d": -1.5,
+   "lt_epoch_leg1": 0.763,
+   "lt_price_epoch": 0.8949,
+   "lt_epochs_d": [
+    -1.5,
+    118.5,
+    428.5,
+    153.5
+   ],
+   "lt_price_src": 0.8779,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.006,
+    "lin_dv": 0.006,
+    "coast_miss_au": 0.0002,
+    "dv_twin": 0.007
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 3597.2,
+     "ok": true,
+     "tank": 831.1489903543301,
+     "dt_s": 1.2,
+     "tries": [
+      [
+       "lam",
+       41.9
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.767
+      ],
+      [
+       "lin",
+       1.296
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 831.15,
+   "dtank": 16.09,
+   "dv_marg": 0.7667,
+   "t_twin_d": 3597.2,
+   "wall_s": 1.5
+  },
+  {
+   "k": 25,
+   "ast": 215,
+   "t_src_d": 3714.6,
+   "t_prev_twin_d": 3597.2,
+   "src_prev_d": 3598.4,
+   "myopic": {
+    "tof_d": 117.5,
+    "coast_miss_au": 0.0574,
+    "lam1_dv": 0.703,
+    "lam_best_dv": 0.703,
+    "lin_dv": 1.104
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.528,
+    "dt_near_d": 2.3,
+    "dv_min": 0.528,
+    "dt_min_d": 2.3
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.528,
+    "dt_near_d": 2.3,
+    "dv_min": 0.528,
+    "dt_min_d": 2.3
+   },
+   "lt_epoch_dt_d": 2.5,
+   "lt_epoch_leg1": 0.532,
+   "lt_price_epoch": 0.1475,
+   "lt_epochs_d": [
+    2.5,
+    372.5,
+    282.5,
+    482.5
+   ],
+   "lt_price_src": 0.1362,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.11,
+    "lin_dv": 0.137,
+    "coast_miss_au": 0.0044,
+    "dv_twin": 0.182
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 3716.9,
+     "ok": true,
+     "tank": 832.2776118749325,
+     "dt_s": 3.3,
+     "tries": [
+      [
+       "lam",
+       68.3
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.532
+      ],
+      [
+       "lin",
+       0.831
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 832.28,
+   "dtank": 1.13,
+   "dv_marg": 0.0532,
+   "t_twin_d": 3715.0,
+   "wall_s": 3.6
+  },
+  {
+   "k": 26,
+   "ast": 261,
+   "t_src_d": 3838.2,
+   "t_prev_twin_d": 3715.0,
+   "src_prev_d": 3714.6,
+   "myopic": {
+    "tof_d": 123.1,
+    "coast_miss_au": 0.0544,
+    "lam1_dv": 0.351,
+    "lam_best_dv": 0.351,
+    "lin_dv": 0.638
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.345,
+    "dt_near_d": 0.1,
+    "dv_min": 0.345,
+    "dt_min_d": 0.1
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.345,
+    "dt_near_d": 0.1,
+    "dv_min": 0.345,
+    "dt_min_d": 0.1
+   },
+   "lt_epoch_dt_d": 1.9,
+   "lt_epoch_leg1": 0.654,
+   "lt_price_epoch": 0.2969,
+   "lt_epochs_d": [
+    1.9,
+    206.9,
+    141.9,
+    476.9
+   ],
+   "lt_price_src": 0.3123,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.054,
+    "lin_dv": 0.054,
+    "coast_miss_au": 0.0021,
+    "dv_twin": 0.065
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 3838.3,
+     "ok": true,
+     "tank": 839.7822357060585,
+     "dt_s": 0.8,
+     "tries": [
+      [
+       "lam",
+       55.4
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.353
+      ],
+      [
+       "lin",
+       0.633
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 839.78,
+   "dtank": 7.5,
+   "dv_marg": 0.3521,
+   "t_twin_d": 3838.3,
+   "wall_s": 1.1
+  },
+  {
+   "k": 27,
+   "ast": 187,
+   "t_src_d": 4074.7,
+   "t_prev_twin_d": 3838.3,
+   "src_prev_d": 3838.2,
+   "myopic": {
+    "tof_d": 236.5,
+    "coast_miss_au": 0.2175,
+    "lam1_dv": 1.115,
+    "lam_best_dv": 1.115,
+    "lin_dv": 0.717
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 1.098,
+    "dt_near_d": -0.7,
+    "dv_min": 1.098,
+    "dt_min_d": -0.7
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 1.098,
+    "dt_near_d": -0.7,
+    "dv_min": 1.098,
+    "dt_min_d": -0.7
+   },
+   "lt_epoch_dt_d": -1.5,
+   "lt_epoch_leg1": 1.108,
+   "lt_price_epoch": 0.5286,
+   "lt_epochs_d": [
+    -1.5,
+    -91.5,
+    363.5
+   ],
+   "lt_price_src": 0.4947,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 1.09,
+    "lin_dv": 0.769,
+    "coast_miss_au": 0.2554,
+    "dv_twin": 0.958
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 4074.0,
+     "ok": true,
+     "tank": 850.4507872633641,
+     "dt_s": 4.7,
+     "tries": [
+      [
+       "lin",
+       57.0
+      ]
+     ],
+     "seeds": [
+      [
+       "lin",
+       0.649
+      ],
+      [
+       "lam",
+       1.086
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 850.45,
+   "dtank": 10.67,
+   "dv_marg": 0.4952,
+   "t_twin_d": 4073.8,
+   "wall_s": 5.0
+  },
+  {
+   "k": 28,
+   "ast": 197,
+   "t_src_d": 4182.6,
+   "t_prev_twin_d": 4073.8,
+   "src_prev_d": 4074.7,
+   "myopic": {
+    "tof_d": 108.8,
+    "coast_miss_au": 0.0407,
+    "lam1_dv": 0.45,
+    "lam_best_dv": 0.45,
+    "lin_dv": 0.697
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.45,
+    "dt_near_d": -0.0,
+    "dv_min": 0.45,
+    "dt_min_d": -0.0
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.45,
+    "dt_near_d": -0.0,
+    "dv_min": 0.45,
+    "dt_min_d": -0.0
+   },
+   "lt_epoch_dt_d": 1.2,
+   "lt_epoch_leg1": 0.478,
+   "lt_price_epoch": 0.4356,
+   "lt_epochs_d": [
+    1.2,
+    461.2,
+    266.2
+   ],
+   "lt_price_src": 0.4384,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.002,
+    "lin_dv": 0.002,
+    "coast_miss_au": 0.0001,
+    "dv_twin": 0.004
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 4182.5,
+     "ok": true,
+     "tank": 858.0255796404243,
+     "dt_s": 3.5,
+     "tries": [
+      [
+       "lam",
+       49.2
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.455
+      ],
+      [
+       "lin",
+       0.696
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 858.03,
+   "dtank": 7.57,
+   "dv_marg": 0.3478,
+   "t_twin_d": 4182.4,
+   "wall_s": 3.8
+  },
+  {
+   "k": 29,
+   "ast": 10,
+   "t_src_d": 4347.2,
+   "t_prev_twin_d": 4182.4,
+   "src_prev_d": 4182.6,
+   "myopic": {
+    "tof_d": 164.8,
+    "coast_miss_au": 0.0954,
+    "lam1_dv": 0.518,
+    "lam_best_dv": 0.518,
+    "lin_dv": 0.534
+   },
+   "prod": {
+    "ok": true,
+    "n": 1,
+    "dv_near": 0.423,
+    "dt_near_d": 0.2,
+    "dv_min": 0.423,
+    "dt_min_d": 0.2
+   },
+   "rel": {
+    "ok": true,
+    "n": 1,
+    "dv_near": 0.423,
+    "dt_near_d": 0.2,
+    "dv_min": 0.423,
+    "dt_min_d": 0.2
+   },
+   "lt_epoch_dt_d": 0.2,
+   "lt_epoch_leg1": 0.423,
+   "lt_price_epoch": 0.4579,
+   "lt_epochs_d": [
+    0.2,
+    95.2,
+    235.2
+   ],
+   "lt_price_src": 0.4608,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.438,
+    "lin_dv": 0.476,
+    "coast_miss_au": 0.0845,
+    "dv_twin": 0.359
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 4347.4,
+     "ok": true,
+     "tank": 867.1949377898686,
+     "dt_s": 1.5,
+     "tries": [
+      [
+       "lam",
+       49.2
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.417
+      ],
+      [
+       "lin",
+       0.542
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 867.19,
+   "dtank": 9.17,
+   "dv_marg": 0.417,
+   "t_twin_d": 4347.4,
+   "wall_s": 1.8
+  },
+  {
+   "k": 30,
+   "ast": 73,
+   "t_src_d": 4528.4,
+   "t_prev_twin_d": 4347.4,
+   "src_prev_d": 4347.2,
+   "myopic": {
+    "tof_d": 181.1,
+    "coast_miss_au": 0.1897,
+    "lam1_dv": 2.33,
+    "lam_best_dv": 2.33,
+    "lin_dv": 1.132
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 1.079,
+    "dt_near_d": -6.8,
+    "dv_min": 1.079,
+    "dt_min_d": -6.8
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 1.079,
+    "dt_near_d": -6.8,
+    "dv_min": 1.079,
+    "dt_min_d": -6.8
+   },
+   "lt_epoch_dt_d": -6.1,
+   "lt_epoch_leg1": 1.093,
+   "lt_price_epoch": 0.417,
+   "lt_epochs_d": [
+    -6.1,
+    33.9,
+    358.9
+   ],
+   "lt_price_src": 0.4175,
+   "fullroute": {
+    "ok_planner": false,
+    "ok_relaxed": true,
+    "lam1_dv": 1.715,
+    "lin_dv": 0.976,
+    "coast_miss_au": 0.179,
+    "dv_twin": 0.877
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 4521.6,
+     "ok": true,
+     "tank": 874.4314958341675,
+     "dt_s": 4.5,
+     "tries": [
+      [
+       "lam",
+       71.3
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       1.061
+      ],
+      [
+       "lin",
+       1.521
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 874.43,
+   "dtank": 7.24,
+   "dv_marg": 0.326,
+   "t_twin_d": 4523.3,
+   "wall_s": 4.8
+  },
+  {
+   "k": 31,
+   "ast": 222,
+   "t_src_d": 4661.2,
+   "t_prev_twin_d": 4523.3,
+   "src_prev_d": 4528.4,
+   "myopic": {
+    "tof_d": 137.9,
+    "coast_miss_au": 0.2405,
+    "lam1_dv": 2.183,
+    "lam_best_dv": 2.183,
+    "lin_dv": null
+   },
+   "prod": {
+    "ok": false
+   },
+   "rel": {
+    "ok": true,
+    "n": 1,
+    "dv_near": 1.587,
+    "dt_near_d": 352.1,
+    "dv_min": 1.587,
+    "dt_min_d": 352.1
+   },
+   "lt_epoch_dt_d": 2.1,
+   "lt_epoch_leg1": 2.21,
+   "lt_price_epoch": 0.8964,
+   "lt_epochs_d": [
+    342.1,
+    2.1,
+    142.1,
+    462.1,
+    262.1
+   ],
+   "lt_price_src": 0.796,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.049,
+    "lin_dv": 0.068,
+    "coast_miss_au": 0.003,
+    "dv_twin": 0.392
+   },
+   "settle": [
+    {
+     "at": "rel",
+     "t_d": 5013.3,
+     "ok": false,
+     "tank": null,
+     "dt_s": 18.6,
+     "tries": [
+      [
+       "lam",
+       52410259.3
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       22.941
+      ]
+     ]
+    },
+    {
+     "at": "src",
+     "t_d": 4661.2,
+     "ok": true,
+     "tank": 884.0874416635196,
+     "dt_s": 4.8,
+     "tries": [
+      [
+       "lam",
+       76.0
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       2.212
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 884.09,
+   "dtank": 9.66,
+   "dv_marg": 0.4308,
+   "t_twin_d": 4661.2,
+   "wall_s": 23.8
+  },
+  {
+   "k": 32,
+   "ast": 265,
+   "t_src_d": 4892.5,
+   "t_prev_twin_d": 4661.2,
+   "src_prev_d": 4661.2,
+   "myopic": {
+    "tof_d": 231.4,
+    "coast_miss_au": 0.1753,
+    "lam1_dv": 0.772,
+    "lam_best_dv": 0.772,
+    "lin_dv": 1.232
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.402,
+    "dt_near_d": 2.1,
+    "dv_min": 0.402,
+    "dt_min_d": 2.1
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.402,
+    "dt_near_d": 2.1,
+    "dv_min": 0.402,
+    "dt_min_d": 2.1
+   },
+   "lt_epoch_dt_d": 3.6,
+   "lt_epoch_leg1": 0.576,
+   "lt_price_epoch": 0.5356,
+   "lt_epochs_d": [
+    3.6,
+    -86.4,
+    -41.4,
+    348.6
+   ],
+   "lt_price_src": 0.5415,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.51,
+    "lin_dv": 0.415,
+    "coast_miss_au": 0.023,
+    "dv_twin": 0.342
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 4894.7,
+     "ok": true,
+     "tank": 892.2568983003541,
+     "dt_s": 1.6,
+     "tries": [
+      [
+       "lam",
+       18.2
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.404
+      ],
+      [
+       "lin",
+       0.869
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 892.26,
+   "dtank": 8.17,
+   "dv_marg": 0.3608,
+   "t_twin_d": 4894.7,
+   "wall_s": 2.0
+  },
+  {
+   "k": 33,
+   "ast": 4,
+   "t_src_d": 5028.2,
+   "t_prev_twin_d": 4894.7,
+   "src_prev_d": 4892.5,
+   "myopic": {
+    "tof_d": 133.5,
+    "coast_miss_au": 0.1761,
+    "lam1_dv": 1.629,
+    "lam_best_dv": 1.629,
+    "lin_dv": 3.287
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 1.035,
+    "dt_near_d": 3.2,
+    "dv_min": 1.035,
+    "dt_min_d": 3.2
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 1.035,
+    "dt_near_d": 3.2,
+    "dv_min": 1.035,
+    "dt_min_d": 3.2
+   },
+   "lt_epoch_dt_d": 1.5,
+   "lt_epoch_leg1": 1.226,
+   "lt_price_epoch": 0.506,
+   "lt_epochs_d": [
+    1.5,
+    446.5,
+    296.5,
+    241.5
+   ],
+   "lt_price_src": 0.51,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.004,
+    "lin_dv": 0.005,
+    "coast_miss_au": 0.0002,
+    "dv_twin": 0.009
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 5031.4,
+     "ok": true,
+     "tank": 900.5174989249543,
+     "dt_s": 4.6,
+     "tries": [
+      [
+       "lam",
+       51.1
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       1.045
+      ],
+      [
+       "lin",
+       1.71
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 900.52,
+   "dtank": 8.26,
+   "dv_marg": 0.3615,
+   "t_twin_d": 5028.4,
+   "wall_s": 5.0
+  },
+  {
+   "k": 34,
+   "ast": 109,
+   "t_src_d": 5277.1,
+   "t_prev_twin_d": 5028.4,
+   "src_prev_d": 5028.2,
+   "myopic": {
+    "tof_d": 248.7,
+    "coast_miss_au": 0.2341,
+    "lam1_dv": 0.504,
+    "lam_best_dv": 0.504,
+    "lin_dv": 0.648
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.431,
+    "dt_near_d": -1.4,
+    "dv_min": 0.431,
+    "dt_min_d": -1.4
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.431,
+    "dt_near_d": -1.4,
+    "dv_min": 0.431,
+    "dt_min_d": -1.4
+   },
+   "lt_epoch_dt_d": -3.7,
+   "lt_epoch_leg1": 0.612,
+   "lt_price_epoch": 0.6415,
+   "lt_epochs_d": [
+    -3.7,
+    191.3,
+    151.3,
+    -163.7
+   ],
+   "lt_price_src": 0.6028,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.472,
+    "lin_dv": 0.645,
+    "coast_miss_au": 0.2363,
+    "dv_twin": 0.647
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 5275.7,
+     "ok": true,
+     "tank": 909.736531814967,
+     "dt_s": 1.7,
+     "tries": [
+      [
+       "lam",
+       31.9
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.432
+      ],
+      [
+       "lin",
+       0.666
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 909.74,
+   "dtank": 9.22,
+   "dv_marg": 0.3995,
+   "t_twin_d": 5275.5,
+   "wall_s": 2.0
+  },
+  {
+   "k": 35,
+   "ast": 195,
+   "t_src_d": 5374.2,
+   "t_prev_twin_d": 5275.5,
+   "src_prev_d": 5277.1,
+   "myopic": {
+    "tof_d": 98.7,
+    "coast_miss_au": 0.0177,
+    "lam1_dv": 0.417,
+    "lam_best_dv": 0.417,
+    "lin_dv": 0.577
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.386,
+    "dt_near_d": -0.7,
+    "dv_min": 0.386,
+    "dt_min_d": -0.7
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.386,
+    "dt_near_d": -0.7,
+    "dv_min": 0.386,
+    "dt_min_d": -0.7
+   },
+   "lt_epoch_dt_d": 1.3,
+   "lt_epoch_leg1": 0.574,
+   "lt_price_epoch": 0.3711,
+   "lt_epochs_d": [
+    1.3
+   ],
+   "lt_price_src": 0.3725,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.008,
+    "lin_dv": 0.012,
+    "coast_miss_au": 0.0004,
+    "dv_twin": 0.147
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 5373.5,
+     "ok": true,
+     "tank": 918.7905832047434,
+     "dt_s": 1.1,
+     "tries": [
+      [
+       "lam",
+       67.8
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.389
+      ],
+      [
+       "lin",
+       0.547
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 918.79,
+   "dtank": 9.05,
+   "dv_marg": 0.3885,
+   "t_twin_d": 5373.5,
+   "wall_s": 1.4
+  },
+  {
+   "k": 36,
+   "ast": 194,
+   "t_src_d": 5451.9,
+   "t_prev_twin_d": 5373.5,
+   "src_prev_d": 5374.2,
+   "myopic": {
+    "tof_d": 78.4,
+    "coast_miss_au": 0.0221,
+    "lam1_dv": 0.573,
+    "lam_best_dv": 0.573,
+    "lin_dv": 0.833
+   },
+   "prod": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.497,
+    "dt_near_d": -0.7,
+    "dv_min": 0.497,
+    "dt_min_d": -0.7
+   },
+   "rel": {
+    "ok": true,
+    "n": 2,
+    "dv_near": 0.497,
+    "dt_near_d": -0.7,
+    "dv_min": 0.497,
+    "dt_min_d": -0.7
+   },
+   "lt_epoch_dt_d": 1.6,
+   "lt_epoch_leg1": 1.067,
+   "lt_price_epoch": 0.1339,
+   "lt_epochs_d": [
+    1.6
+   ],
+   "lt_price_src": 0.1315,
+   "fullroute": {
+    "ok_planner": true,
+    "ok_relaxed": true,
+    "lam1_dv": 0.001,
+    "lin_dv": 0.002,
+    "coast_miss_au": 0.0001,
+    "dv_twin": 0.002
+   },
+   "settle": [
+    {
+     "at": "prod",
+     "t_d": 5451.3,
+     "ok": true,
+     "tank": 930.6351269712129,
+     "dt_s": 1.4,
+     "tries": [
+      [
+       "lam",
+       99.8
+      ]
+     ],
+     "seeds": [
+      [
+       "lam",
+       0.503
+      ],
+      [
+       "lin",
+       0.737
+      ]
+     ]
+    }
+   ],
+   "settled": true,
+   "tank": 930.64,
+   "dtank": 11.84,
+   "dv_marg": 0.5025,
+   "t_twin_d": 5451.3,
+   "wall_s": 1.7
+  }
+ ],
+ "longest_prod_run": 10
+}

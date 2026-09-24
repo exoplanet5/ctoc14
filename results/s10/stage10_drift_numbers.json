@@ -1,0 +1,172 @@
+{
+ "harness": "drift_settle3 iters=200 prune=5 ladder=(2,1,.5,.25,.05)d, same 16 seed carriers both arms",
+ "base_fixed": {
+  "settled": "16/16",
+  "flybys": [
+   20,
+   21,
+   21,
+   21,
+   19,
+   19,
+   20,
+   19,
+   19,
+   19,
+   19,
+   19,
+   18,
+   17,
+   11,
+   10
+  ],
+  "tank": [
+   772,
+   777,
+   701,
+   767,
+   1055,
+   762,
+   940,
+   713,
+   804,
+   730,
+   881,
+   725,
+   673,
+   743,
+   1053,
+   627
+  ],
+  "Jfb_best": 0.0513,
+  "Jfb_median": 0.059,
+  "fb_median": 19.0
+ },
+ "base_drift": {
+  "settled": "12/16",
+  "flybys": [
+   26,
+   28,
+   24,
+   26,
+   22,
+   24,
+   24,
+   24,
+   22,
+   24,
+   20,
+   20
+  ],
+  "tank": [
+   881,
+   862,
+   802,
+   967,
+   911,
+   797,
+   797,
+   880,
+   825,
+   1070,
+   778,
+   820
+  ],
+  "Jfb_best": 0.0436,
+  "Jfb_median": 0.0514,
+  "fb_median": 24.0
+ },
+ "deep_fixed": {
+  "routes": [
+   [
+    37,
+    941,
+    0.0352
+   ],
+   [
+    35,
+    974,
+    0.0382
+   ],
+   [
+    34,
+    977,
+    0.0395
+   ],
+   [
+    32,
+    960,
+    0.0413
+   ]
+  ],
+  "median_Jfb": 0.0389
+ },
+ "deep_drift": {
+  "routes": [
+   [
+    34,
+    952,
+    0.0387
+   ],
+   [
+    34,
+    960,
+    0.0389
+   ],
+   [
+    32,
+    991,
+    0.0424
+   ]
+  ],
+  "median_Jfb": 0.0389
+ },
+ "freedom_percarrier": {
+  "fixed": [
+   19.5,
+   10.5,
+   9.0,
+   6.5,
+   6.0,
+   5.5,
+   3.5,
+   1.0
+  ],
+  "drift_knb24": [
+   24.5,
+   20.5,
+   13.0,
+   11.5,
+   9.5,
+   9.5,
+   8.0,
+   9.5
+  ],
+  "total_fixed": 66,
+  "total_drift": 107
+ },
+ "freedom_fleet": {
+  "fixed_12seeds": {
+   "routes": 13,
+   "covered": 117
+  },
+  "drift_12seeds_knb24": {
+   "routes": 28,
+   "covered": 207
+  },
+  "drift_24seeds_knb32": {
+   "routes": 65,
+   "covered": 261
+  }
+ },
+ "model_honesty": {
+  "old_carrier_drift": "modelled drift 3.3 km/s -> settled 13.2-14.3 km/s, 17-22 fb, 0.0555-0.0721 J/fb, 3/6 settled",
+  "new_drift_dp": "model 7.8-14.0 km/s -> settled 10.1-22.6 km/s (ratio median 1.30), 20-28 fb, 0.0436-0.0604 J/fb, 12/16 settled"
+ },
+ "switch_feasibility": {
+  "n": 140,
+  "dv_median_kms": 0.339,
+  "duty_cycle_median": 0.03,
+  "duty_gt1_fraction": 0.0
+ }
+}

@@ -1,0 +1,29 @@
+[14:44:53] iter 0: results/s16/fleets/C: sum J_i 11.7439, covered 298; r1:42@944.7 r2:41@908.9 r3:41@986.7 r4:38@913.2 r5:31@918.9 r6:31@958.3 r7:30@1022.7 r8:24@927.8 r9:20@898.2
+[14:44:54]   re-settle r1: 944.69 -> 944.66 kg
+[14:44:54]   re-settle r3: 986.75 -> 986.72 kg
+[14:44:55]   re-settle r5: 918.89 -> 918.68 kg
+[14:44:55]   re-settle r9: 898.15 -> 898.05 kg
+[14:44:55]   re-settle r8: 927.83 -> 927.74 kg
+[14:44:59]   re-settle r7: 1022.70 -> 1021.86 kg
+[14:48:32]   removals: 298 new (214 s); 138 save >= 0.004; top 212@r9 0.036, 234@r7 0.035, 148@r8 0.035, 206@r1 0.027, 51@r7 0.022, 221@r1 0.022, 281@r1 0.022, 3@r6 0.021, 97@r6 0.021, 121@r6 0.021
+[14:49:33]   insertions: 14 new attempts (15 s); single-move gains 208:r5->r9 +0.0044, 38:r3->r5 -0.0015, 14:r6->r3 -0.0057, 54:r2->r4 -0.0069, 299:r4->r2 -0.0069, 16:r4->r3 -0.0084, 296:r3->r7 -0.0091, 244:r4->r6 -0.0157, 130:r9->r1 -0.0160, 18:r6->r2 -0.0188
+[14:49:41] load: 5920 files (1011 new; {'ok': 5913, 'tank': 7}), 3535 distinct, 222 dominated -> 3313 columns
+[14:49:48]   SELECT it1: sum J_i 11.7439 -> 11.7332, covered 298 (294 s); picks route_7072ffc1rs_42, route_r2_s0_41, route_r3_pT03c_41, route_r4_s0_38, route_r6_pT03c_31, route_f42c28eam208_30, route_r7_tLwm_30, route_r8_pT03c_24, route_9f512757x208_21
+[14:49:48] iter 1: results/s16/iter/B/it1/fleet: sum J_i 11.7332, covered 298; r1:42@944.7 r2:41@908.9 r3:41@986.6 r4:38@913.2 r5:31@958.1 r6:30@906.1 r7:30@1018.0 r8:24@927.6 r9:21@906.5
+[14:49:48]   re-settle r6: 906.09 -> 906.08 kg
+[14:49:48]   re-settle r3: 986.58 -> 986.56 kg
+[14:49:48]   re-settle r7: 1018.04 -> 1017.61 kg
+[14:49:49]   re-settle r9: 906.49 -> 906.48 kg
+[14:49:49]   re-settle r8: 927.62 -> 927.61 kg
+[14:52:33]   removals: 256 new (164 s); 129 save >= 0.004; top 212@r9 0.037, 148@r8 0.033, 234@r7 0.033, 206@r1 0.027, 221@r1 0.022, 281@r1 0.022, 158@r7 0.020, 19@r3 0.020, 193@r2 0.019, 50@r6 0.019
+[14:53:30]   insertions: 15 new attempts (16 s); single-move gains 208:r9->r6 -0.0047, 14:r5->r3 -0.0066, 54:r2->r4 -0.0069, 299:r4->r2 -0.0069, 38:r3->r6 -0.0074, 16:r4->r3 -0.0086, 296:r3->r7 -0.0110, 142:r9->r2 -0.0121, 76:r4->r5 -0.0141, 130:r9->r1 -0.0153
+[14:53:33] load: 6214 files (294 new; {'ok': 6206, 'tank': 8}), 3584 distinct, 233 dominated -> 3351 columns
+[14:53:41]   SELECT it2: sum J_i 11.7332 -> 11.7272, covered 298 (233 s); picks route_r1_pT03a_42, route_r2_s0_41, route_ad0e4eb4rs_41, route_r4_s0_38, route_r6_pT03c_31, route_r6_pT05b_30, route_f7d3b304rs_30, route_afdc5df4rs_24, route_r9_pT10a_21
+[14:53:41] iter 2: results/s16/iter/B/it2/fleet: sum J_i 11.7272, covered 298; r1:42@944.5 r2:41@908.9 r3:41@986.6 r4:38@913.2 r5:31@958.1 r6:30@902.7 r7:30@1017.6 r8:24@927.6 r9:21@904.8
+[14:53:41]   re-settle r9: 904.79 -> 904.58 kg
+[14:53:41]   re-settle r1: 944.47 -> 944.41 kg
+[14:53:41]   re-settle r6: 902.66 -> 902.57 kg
+[14:54:51]   removals: 93 new (70 s); 128 save >= 0.004; top 212@r9 0.035, 148@r8 0.033, 234@r7 0.033, 206@r1 0.026, 281@r1 0.022, 221@r1 0.022, 158@r7 0.020, 19@r3 0.020, 193@r2 0.019, 105@r3 0.019
+[14:55:56]   insertions: 4 new attempts (11 s); single-move gains 38:r3->r6 -0.0055, 14:r5->r3 -0.0066, 54:r2->r4 -0.0069, 299:r4->r2 -0.0069, 16:r4->r3 -0.0086, 296:r3->r7 -0.0110, 208:r9->r6 -0.0118, 142:r9->r2 -0.0133, 76:r4->r5 -0.0141, 130:r9->r1 -0.0160
+[14:55:58] load: 6341 files (127 new; {'ok': 6333, 'tank': 8}), 3585 distinct, 220 dominated -> 3365 columns
+[14:56:03]   SELECT it3: sum J_i 11.7272 -> 11.7259, covered 298 (142 s); picks route_9244998crs_42, route_r2_s0_41, route_r3_pT03d_41, route_r4_pT03d_38, route_r6_pT03c_31, route_r6_pT10l_30, route_r7_pT05k_30, route_afdc5df4rs_24, route_8b42f729rs_21

@@ -1,0 +1,10 @@
+spacecraft: 1, m0 = [2000.0]
+covered 47, missed 253, J = 256.0000  (sum J_i = 3.0000)
+max errors: pos 2.0000e+03 km, vel 5.1663e-03 m/s, mass 4.5475e-13 kg, max |T| 0.48268 N
+ERROR: SC1 line 203->204: position error 2000.000 km > 1 km
+ERROR: SC1 line 204->205: position error 1999.982 km > 1 km
+ERROR: SC1 line 204: flyby distance to asteroid 278 is 1998.6 km > 1000 km
+RESULT: FAIL
+real 246.65
+user 157.11
+sys 0.86

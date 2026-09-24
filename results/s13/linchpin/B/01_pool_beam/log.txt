@@ -1,0 +1,9 @@
+[21:22:37] === 01 cond pool builder beam: pool 38 = own 36 + extra 2 [15, 18]; hard in pool 9; source route 36 fb @ 904.4 kg (8.46 kg/fb)
+[21:30:51]   build 494 s: 7512 states, deepest 23 of pool 38; Pareto 13:672 14:681 15:688 16:695 17:707 18:710 19:713 20:722 21:737 22:771 23:786
+[21:31:06]     23 pool fb (alt 0): planner 786 -> twin 748.1 kg, 6.44 kg/fb, 0.372 km/s/fb, J_i 1.1170, own 23/36 extra 0/2 (miss 30 km, 15 s)
+[21:31:22]     22 pool fb (alt 0): planner 771 -> twin 748.0 kg, 6.73 kg/fb, 0.389 km/s/fb, J_i 1.1169, own 22/36 extra 0/2 (miss 20 km, 16 s)
+[21:31:39]     21 pool fb (alt 0): planner 737 -> twin 720.5 kg, 5.74 kg/fb, 0.337 km/s/fb, J_i 1.0935, own 21/36 extra 0/2 (miss 45 km, 17 s)
+[21:31:57]     20 pool fb (alt 0): planner 722 -> twin 719.1 kg, 5.96 kg/fb, 0.350 km/s/fb, J_i 1.0923, own 20/36 extra 0/2 (miss 65 km, 17 s)
+[21:32:13]     19 pool fb (alt 0): planner 713 -> twin 713.4 kg, 5.97 kg/fb, 0.352 km/s/fb, J_i 1.0876, own 19/36 extra 0/2 (miss 81 km, 16 s)
+[21:32:23]     18 pool fb (alt 0): planner 710 -> twin 708.9 kg, 6.05 kg/fb, 0.358 km/s/fb, J_i 1.0838, own 18/36 extra 0/2 (miss 45 km, 10 s)
+[21:32:23]   BEST 01: 23/38 pool targets @ 748.1 kg (6.44 kg/fb; source 36 @ 904.4 = 8.46 kg/fb); orphans [15, 18, 35, 41, 45, 46, 61, 80, 100, 101, 209, 226, 262, 266, 284]

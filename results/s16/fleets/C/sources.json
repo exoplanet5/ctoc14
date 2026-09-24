@@ -1,0 +1,11 @@
+{
+ "r1": "results/s16/iter/A/cols/route_c1b608a1rs_42.npz",
+ "r2": "results/s16/polish/it5/cols/route_r2_pT05d_41.npz",
+ "r3": "results/s16/iter/A/cols/route_1cbca5f1rs_41.npz",
+ "r4": "results/s16/polish/it6/cols/route_r4_pT03a_38.npz",
+ "r5": "results/s16/swap/it7/cols/route_a621d978m241x284_31.npz",
+ "r6": "results/s16/polish/it5/cols/route_r6_pT05d_31.npz",
+ "r7": "results/s16/swap/it7/cols/route_bf806fc9m284x241_30.npz",
+ "r8": "results/s16/polish/it6/cols/route_r8_pT10h_24.npz",
+ "r9": "results/s16/polish/it6/cols/route_r9_pT10g_20.npz"
+}

@@ -1,0 +1,31 @@
+[02:46:25] skeletons: 8 routes, covered 263, J 47.2068; 01:48@1048 03:42@993 02:39@1039 04:36@930 05:34@881 06:26@836 07:23@848 08:15@699
+[02:46:37]     06 seg 0: 1 states reach waypoint 218 -- relaxed retry
+[02:46:57]     06 seg 0: 2 states reach waypoint 218 -- giving up
+[02:46:58]     06 seg 3: 2 states reach waypoint 104 -- relaxed retry
+[02:46:59]     06 seg 4: 4 states reach waypoint 248 -- relaxed retry
+[02:47:00]     06 seg 5: 2 states reach waypoint 8 -- relaxed retry
+[02:47:01]     06 seg 6: 1 states reach waypoint 206 -- relaxed retry
+[02:47:01]     06 seg 6: 2 states reach waypoint 206 -- giving up
+[02:47:01]     06 seg 7: 2 states reach waypoint 70 -- relaxed retry
+[02:47:02]     06 seg 7: 4 states reach waypoint 70 -- giving up
+[02:47:02]     06 seg 8: 4 states reach waypoint 49 -- relaxed retry
+[02:47:03]     06 seg 10: 4 states reach waypoint 292 -- relaxed retry
+[02:47:05]     06 seg 13: 2 states reach waypoint 298 -- relaxed retry
+[02:47:06]     06 seg 13: 4 states reach waypoint 298 -- giving up
+[02:47:06]     06 seg 14: 2 states reach waypoint 106 -- relaxed retry
+[02:47:06]     06 seg 15: 2 states reach waypoint 290 -- relaxed retry
+[02:47:07]     06 seg 16: 4 states reach waypoint 119 -- relaxed retry
+[02:47:08]     06 seg 17: 4 states reach waypoint 123 -- relaxed retry
+[02:47:09]     06 seg 18: 2 states reach waypoint 24 -- relaxed retry
+[02:47:10]     06 seg 20: 4 states reach waypoint 156 -- relaxed retry
+[02:47:11]     06 seg 21: 4 states reach waypoint 276 -- relaxed retry
+[02:47:12]     06 seg 22: 4 states reach waypoint 22 -- relaxed retry
+[02:47:14]     06 seg 24: 2 states reach waypoint 227 -- relaxed retry
+[02:47:14]     06 seg 25: 4 states reach waypoint 94 -- relaxed retry
+[02:47:14]     06 segments: 0:218->1st/1fb 1:169->4st/2fb 2:217->5st/3fb 3:104->4st/4fb 4:248->6st/5fb 5:8->3st/6fb 6:206->1st/7fb 7:70->2st/8fb 8:49->4st/9fb 9:210->5st/10fb 10:292->4st/11fb 11:18->6st/12fb 12:79->6st/13fb 13:298->2st/14fb 14:106->3st/15fb 15:290->4st/16fb 16:119->5st/17fb 17:123->4st/18fb 18:24->3st/19fb 19:200->6st/20fb 20:156->6st/21fb 21:276->10st/22fb 22:22->6st/23fb 23:204->4st/24fb 24:227->4st/25fb 25:94->4st/26fb 26:None->4st/26fb
+[02:47:14]   06: segmented beam 300 drmax 0.15 half 45: 4 final states, deepest 26  (49 s)
+[02:47:14]   06: Pareto 26:855
+[02:47:25]     26 fb: planner 855 -> twin 834 kg (26 fb, 26 new), 0.493 km/s/fb, J_i 1.195, value 0.155 (11 s)
+[02:47:25] [06] 26 waypoints -> 26 flybys (26 new), tank 834, J_i 1.195; fleet covered 26, uncovered 272, fleet J 275.195  (60 s)
+[02:47:25] FINAL: 1 routes, covered 26, J 275.1948; 06:26@834; leftovers 272: [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 23, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 71, 72, 73, 74, 75, 76, 77, 78, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 100, 101, 102, 103, 105, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 120, 121, 122, 124, 125, 126, 127, 128, 129, 130, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 201, 202, 203, 205, 207, 208, 209, 211, 212, 213, 214, 215, 216, 219, 220, 221, 222, 223, 224, 225, 226, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 291, 293, 294, 295, 296, 297, 299, 300]
+[02:47:25] sum J_i 1.195 -> J 3.195 if the leftovers insert for free, 275.195 as misses

@@ -1,0 +1,51 @@
+Stage 16 (2026-09-23): honest re-selection. State on disk; continue from here if restarted.
+
+1. honest pool   tools/s16_honest_pool.py -> results/s16/honest/ (index.jsonl, route_<key>.npz), log results/s16/honest_pool.out
+2. selection     tools/s16_select.py results/s16/select/A --jobs 9:292,...,9:298,8:282,... --alt 3
+                 -> results/s16/select/A/frontier.json (keys N9K298, N9K298a1, ...; est = lin-priced closed estimate)
+3. pipelines     tools/s16_pipe.py results/s16/pipe/<tag> FLEETSPEC --nproc P   (close -> relocate* -> re-settle -> honest)
+                 each step resumable; final: results/s16/pipe/<tag>/final/fleet + final.json
+4. re-select     s16_select over honest pool + results/s16/**/cols (new honest columns from closers/relocations)
+5. best          copy of the best closed honest fleet -> results/s16/best/fleet (+ best.json)
+
+Logs of long jobs: results/s16/*.out
+killed K297a2 (duplicate of s15a neighbourhood; closed at 11.8326)
+
+13:41 honest selection A: K=298 frontier = s15a itself (11.8327); no pool combination beats it; N<=8 max 282 (closure ~3.5 J, dead).
+13:48 colgen (tools/s16_colgen.py, all single-target move columns around s15a) + MILP (select B): 11.8195.
+13:50 ITERATED MILP relocation: tools/s16_iter.py results/s16/iter/A results/s15b/reloc_h2/fleet --nproc 6 --iters 10
+      (resumable: cache.jsonl + iter.json; restart with the same command).
+13:52 multi-start polish test: tools/s16_polish.py results/s16/polish/s15a results/s15b/reloc_h2/fleet --nproc 2
+13:57 killed K297a1 pipe (its relocation = s15a neighbourhood, superseded by s16_iter); polish restarted with walks
+14:10 iter A: it1 11.8171, it2 11.8113, it3 11.8004, it4 11.7731 (56 h03->s1 + polish columns).
+      polish (tools/s16_polish.py, multi-start re-settle: pT impulse perturbation, tL walks) gives 0.5-6.6 kg/route;
+      polish OUT dirs: results/s16/polish/{s15a,it3,it4}; the MILP picks polish columns automatically (lightest per set).
+14:28 iter A stopped after it7 (11.7491): single moves exhausted (best -0.0023); gains now come from polish columns
+14:46 exchange runs (s16_swap, 250 pairs): only 241<->284 +0.0043 positive; fleet C 11.7439 = best; iter B from C started; polish C running
+15:00 best = results/s16/best/fleet (fleet E, twin 11.72274, honest_check re-settled 11.7227); verification export (phase 1 only) -> results/s16/efleet
+16:30 (restarted agent) no paused/stopped jobs found (ps: no T-state processes; only jupyter kernels). State = best E (twin 11.72274),
+      verify export efleet exact 13.7466 (conversion +22.5 kg vs s15a +8.7 kg -> polish gains partly lost in conversion).
+      EXACT-AWARE step: tools/s16_xconv.py (w_export clone, --opt-iters) -> results/s16/xconv/<tag>/ (index.jsonl, crafts, frags)
+      o150 = E routes with optimise 150 iters; o40 = reproducibility check of the export (E r8).
+16:27 xconv o40 reproduces the export exactly (E r8 929.07); o150 = identical to o40 (optimise stops at n_opt 7-23 by its
+      stall test) -> killed.  Now: xconv/tight (E routes, optimise 200 iters, min_rel_gain 1e-6, 5 procs) and variant sweep
+      (tools/s16_xvariants.py -> xconv/variants_E.json; sweepA.txt r1-r4 -> xconv/o40, 5 procs; sweepB.txt r5-r9 next).
+      Final keeper: tools/s16_xbest.py OUT_FLEET route x9 (exact-aware; rebuilds best/fleet + efleet + SOURCE_MD5; old -> results/s16/hist/).
+17:05 FINDINGS: (1) twin polish gains do NOT survive conversion: 6 variants of E-r1 (twin 944.38-944.82) all convert to
+      948.45-949.11; E-r2 (= s15a h01 polished, twin -1.0 kg) converts to the same exact m0 (911.5 vs 911.6).  The exact
+      m0 is a property of the target set/sequence.  (2) optimise stall test: min_rel_gain 1e-6 (xconv/tight, o200) lowers
+      m0 by 0.13-1.0 kg per route (r1 -0.63, r2 -0.63, r3 -0.46, r4 -1.0, r5 -0.13); r2/r4 still crawling -> o400 tests
+      (xconv/tight4, tight4b).  (3) exact-priced K298 alternatives (select/F, 12 alts; xconv/alt): a1 11.7507, a4 11.7525
+      vs E 11.7466 at o40 -> none better so far.
+17:05 NEW BEST (exact-aware, tools/s16_xbest.py): best/fleet = E twin routes (twin 11.72274, unchanged target sets),
+      efleet = xconv/tight conversions (min_rel_gain 1e-6, o200): exact sum J_i 11.73995 (J 13.73995) vs o40 export 11.74664.
+      old best/efleet kept in results/s16/hist/0923_170459/.  o400 on r2: -0.03 kg only (stall at n_opt 217).
+17:20 exact-priced alternatives (o40, pure): E 11.74664 < a1 11.75065 < a2 11.75096 < a4 11.75253 < a8 11.75263 < a6 11.75292
+      < a10 11.75405 (a3,a5,a7,a9,a11,a12 twin +0.006..+0.009, not converted) -> E's target sets confirmed.
+      NOTE: a concurrent actor (not this agent) runs results/s16/submit_E/build.sh (17:02) -> results/CTOC14_Result_s16E.txt
+      from a stable copy of the OLD o40 E frags (raw J 13.7466).  Not touched by this agent.
+17:30 FINAL (this agent stops): best/fleet = E twin routes (twin 11.72274, honest_check 0 irregular, windows <= 0.998,
+      298 covered, re-settled 11.7227 -> best/honest_check_Ex.txt); efleet = tight exact conversions, combined + validator2
+      VALID: sum J_i 11.739947, J 13.739947 (best/verify_combined.txt).  efleet/SOURCE_MD5 = md5(best/fleet) = 4d9e3228...,
+      so results/s16/export_s16a.sh only combines + validates (~25 min).  o400 gains (r2/r8 -0.03 kg) NOT installed (keeps
+      the verified efleet).  No jobs of this agent left running.

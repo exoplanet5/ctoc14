@@ -1,0 +1,499 @@
+{
+ "job_id": "s00_r0",
+ "kind": "root",
+ "craft": null,
+ "ok": true,
+ "error": null,
+ "columns": [
+  {
+   "id": "s00_r0_k0",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    174,
+    278,
+    272,
+    28
+   ],
+   "epochs": [
+    7452045.783543467,
+    20746706.690720215,
+    25347524.212095585,
+    40131648.992199585
+   ],
+   "all_targets": [
+    174,
+    278,
+    272,
+    28
+   ],
+   "n_new": 4,
+   "npz": "slices/s00/r0/col_0.npz",
+   "tank": 620.8315305632963,
+   "tank_prev": 601.5,
+   "dtank": 19.33153056329627,
+   "miss": 3.588668541892851,
+   "t_launch": 3542400.0,
+   "t_end": 40131648.992199585,
+   "potential": 3,
+   "counts": {
+    "pin": 1,
+    "med": 2,
+    "fil": 1
+   },
+   "depth": 4,
+   "score": -4.0,
+   "job_id": "s00_r0",
+   "source": "r1",
+   "honest_planner_twin": true
+  },
+  {
+   "id": "s00_r0_k1",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    174,
+    278,
+    272
+   ],
+   "epochs": [
+    7441293.445678172,
+    20748692.55220338,
+    25378617.222143263
+   ],
+   "all_targets": [
+    174,
+    278,
+    272
+   ],
+   "n_new": 3,
+   "npz": "slices/s00/r0/col_1.npz",
+   "tank": 615.4483605366795,
+   "tank_prev": 601.5,
+   "dtank": 13.948360536679502,
+   "miss": 16.686070067552485,
+   "t_launch": 3542400.0,
+   "t_end": 25378617.222143263,
+   "potential": 3,
+   "counts": {
+    "pin": 0,
+    "med": 2,
+    "fil": 1
+   },
+   "depth": 3,
+   "score": -3.0,
+   "job_id": "s00_r0",
+   "source": "r1",
+   "honest_planner_twin": true
+  },
+  {
+   "id": "s00_r0_k2",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    155,
+    279,
+    127,
+    238
+   ],
+   "epochs": [
+    14682531.741864013,
+    22924559.146167483,
+    28734568.04666828,
+    39479689.71381442
+   ],
+   "all_targets": [
+    155,
+    279,
+    127,
+    238
+   ],
+   "n_new": 4,
+   "npz": "slices/s00/r0/col_2.npz",
+   "tank": 616.2653251075486,
+   "tank_prev": 601.5,
+   "dtank": 14.76532510754862,
+   "miss": 1.5798818450754124,
+   "t_launch": 0.0,
+   "t_end": 39479689.71381442,
+   "potential": 3,
+   "counts": {
+    "pin": 0,
+    "med": 1,
+    "fil": 3
+   },
+   "depth": 4,
+   "score": -4.0,
+   "job_id": "s00_r0",
+   "source": "r2",
+   "honest_planner_twin": true
+  },
+  {
+   "id": "s00_r0_k3",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    155,
+    279,
+    127
+   ],
+   "epochs": [
+    14688124.530398158,
+    22915898.778603338,
+    28745444.85233645
+   ],
+   "all_targets": [
+    155,
+    279,
+    127
+   ],
+   "n_new": 3,
+   "npz": "slices/s00/r0/col_3.npz",
+   "tank": 614.3820980556505,
+   "tank_prev": 601.5,
+   "dtank": 12.882098055650545,
+   "miss": 2.9406949792368047,
+   "t_launch": 0.0,
+   "t_end": 28745444.85233645,
+   "potential": 3,
+   "counts": {
+    "pin": 0,
+    "med": 0,
+    "fil": 3
+   },
+   "depth": 3,
+   "score": -3.0,
+   "job_id": "s00_r0",
+   "source": "r2",
+   "honest_planner_twin": true
+  },
+  {
+   "id": "s00_r0_k4",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    81,
+    277,
+    291
+   ],
+   "epochs": [
+    16947835.253949862,
+    24526038.75803896,
+    33007529.20978333
+   ],
+   "all_targets": [
+    81,
+    277,
+    291
+   ],
+   "n_new": 3,
+   "npz": "slices/s00/r0/col_4.npz",
+   "tank": 619.1692502787222,
+   "tank_prev": 601.5,
+   "dtank": 17.66925027872219,
+   "miss": 1.3769070246568653,
+   "t_launch": 7603200.0,
+   "t_end": 33007529.20978333,
+   "potential": 3,
+   "counts": {
+    "pin": 0,
+    "med": 2,
+    "fil": 1
+   },
+   "depth": 3,
+   "score": -3.0,
+   "job_id": "s00_r0",
+   "source": "r3",
+   "honest_planner_twin": true
+  },
+  {
+   "id": "s00_r0_k5",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    81,
+    277
+   ],
+   "epochs": [
+    16933905.84159271,
+    24536255.665996913
+   ],
+   "all_targets": [
+    81,
+    277
+   ],
+   "n_new": 2,
+   "npz": "slices/s00/r0/col_5.npz",
+   "tank": 603.7964368310705,
+   "tank_prev": 601.5,
+   "dtank": 2.2964368310705368,
+   "miss": 0.005659406800091916,
+   "t_launch": 7603200.0,
+   "t_end": 24536255.665996913,
+   "potential": 3,
+   "counts": {
+    "pin": 0,
+    "med": 1,
+    "fil": 1
+   },
+   "depth": 2,
+   "score": -2.0,
+   "job_id": "s00_r0",
+   "source": "r3",
+   "honest_planner_twin": true
+  },
+  {
+   "id": "s00_r0_k6",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    136,
+    185
+   ],
+   "epochs": [
+    20413411.503537305,
+    39013291.08818708
+   ],
+   "all_targets": [
+    136,
+    185
+   ],
+   "n_new": 2,
+   "npz": "slices/s00/r0/col_6.npz",
+   "tank": 605.645536410375,
+   "tank_prev": 601.5,
+   "dtank": 4.14553641037503,
+   "miss": 0.007404977741779498,
+   "t_launch": 0.0,
+   "t_end": 39013291.08818708,
+   "potential": 3,
+   "counts": {
+    "pin": 0,
+    "med": 1,
+    "fil": 1
+   },
+   "depth": 2,
+   "score": -2.0,
+   "job_id": "s00_r0",
+   "source": "r4",
+   "honest_planner_twin": true
+  },
+  {
+   "id": "s00_r0_k7",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    136
+   ],
+   "epochs": [
+    20308157.515697774
+   ],
+   "all_targets": [
+    136
+   ],
+   "n_new": 1,
+   "npz": "slices/s00/r0/col_7.npz",
+   "tank": 601.5000000414931,
+   "tank_prev": 601.5,
+   "dtank": 4.1493080971122254e-08,
+   "miss": 1.3852628128587926e-06,
+   "t_launch": 0.0,
+   "t_end": 20308157.515697774,
+   "potential": 3,
+   "counts": {
+    "pin": 0,
+    "med": 0,
+    "fil": 1
+   },
+   "depth": 1,
+   "score": -1.0,
+   "job_id": "s00_r0",
+   "source": "r4",
+   "honest_planner_twin": true
+  },
+  {
+   "id": "s00_r0_k8",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    29
+   ],
+   "epochs": [
+    27082127.243761573
+   ],
+   "all_targets": [
+    29
+   ],
+   "n_new": 1,
+   "npz": "slices/s00/r0/col_8.npz",
+   "tank": 601.5000000485824,
+   "tank_prev": 601.5,
+   "dtank": 4.8582364797766786e-08,
+   "miss": 6.937498374121206e-07,
+   "t_launch": 6912000.0,
+   "t_end": 27082127.243761573,
+   "potential": 3,
+   "counts": {
+    "pin": 0,
+    "med": 1,
+    "fil": 0
+   },
+   "depth": 1,
+   "score": -1.0,
+   "job_id": "s00_r0",
+   "source": "r5",
+   "honest_planner_twin": true
+  },
+  {
+   "id": "s00_r0_k9",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    218
+   ],
+   "epochs": [
+    28041862.278687853
+   ],
+   "all_targets": [
+    218
+   ],
+   "n_new": 1,
+   "npz": "slices/s00/r0/col_9.npz",
+   "tank": 601.5000003140518,
+   "tank_prev": 601.5,
+   "dtank": 3.1405181744048605e-07,
+   "miss": 1.3004465432521348e-06,
+   "t_launch": 0.0,
+   "t_end": 28041862.278687853,
+   "potential": 2,
+   "counts": {
+    "pin": 1,
+    "med": 0,
+    "fil": 0
+   },
+   "depth": 1,
+   "score": -1.0,
+   "job_id": "s00_r0",
+   "source": "r6",
+   "honest_planner_twin": true
+  },
+  {
+   "id": "s00_r0_k10",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    11,
+    165
+   ],
+   "epochs": [
+    33185197.742709935,
+    44160901.64610858
+   ],
+   "all_targets": [
+    11,
+    165
+   ],
+   "n_new": 2,
+   "npz": "slices/s00/r0/col_10.npz",
+   "tank": 614.8874949290318,
+   "tank_prev": 601.5,
+   "dtank": 13.387494929031845,
+   "miss": 76.41133783427559,
+   "t_launch": 1296000.0,
+   "t_end": 44160901.64610858,
+   "potential": 2,
+   "counts": {
+    "pin": 1,
+    "med": 0,
+    "fil": 1
+   },
+   "depth": 2,
+   "score": -2.0,
+   "job_id": "s00_r0",
+   "source": "r7",
+   "honest_planner_twin": true
+  },
+  {
+   "id": "s00_r0_k11",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    11
+   ],
+   "epochs": [
+    32792584.988856852
+   ],
+   "all_targets": [
+    11
+   ],
+   "n_new": 1,
+   "npz": "slices/s00/r0/col_11.npz",
+   "tank": 601.5000008648202,
+   "tank_prev": 601.5,
+   "dtank": 8.648202083350043e-07,
+   "miss": 4.250659176765284e-06,
+   "t_launch": 1296000.0,
+   "t_end": 32792584.988856852,
+   "potential": 2,
+   "counts": {
+    "pin": 1,
+    "med": 0,
+    "fil": 0
+   },
+   "depth": 1,
+   "score": -1.0,
+   "job_id": "s00_r0",
+   "source": "r7",
+   "honest_planner_twin": true
+  },
+  {
+   "id": "s00_r0_k12",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    249
+   ],
+   "epochs": [
+    21650709.794787273
+   ],
+   "all_targets": [
+    249
+   ],
+   "n_new": 1,
+   "npz": "slices/s00/r0/col_12.npz",
+   "tank": 601.5000003648732,
+   "tank_prev": 601.5,
+   "dtank": 3.6487324450718006e-07,
+   "miss": 3.334213672938228e-07,
+   "t_launch": 1641600.0,
+   "t_end": 21650709.794787273,
+   "potential": 2,
+   "counts": {
+    "pin": 0,
+    "med": 1,
+    "fil": 0
+   },
+   "depth": 1,
+   "score": -1.0,
+   "job_id": "s00_r0",
+   "source": "r8",
+   "honest_planner_twin": true
+  }
+ ],
+ "stats": {
+  "levels": 1,
+  "n_states": 13,
+  "n_columns": 13,
+  "settles": 13,
+  "settle_ok": 13,
+  "price_s": 0.0,
+  "settle_s": 1.9,
+  "wall_s": 1.8,
+  "end": {
+   "kind": "fixture",
+   "depth": 4
+  },
+  "hist": [],
+  "note": ""
+ }
+}

@@ -1,0 +1,32 @@
+[19:37:54] 00: seed 24 30 fb / 9 car -> NOT settled (miss 226534433, dropped [44, 178, 261, 136])
+[19:37:54] 01: seed 25 26 fb (of 29, dropped [68, 17, 300]) / 8 car, tank 883 kg, dv 15.06, J_i 1.243, 0.0478 J/fb  [model 13.95]
+[19:37:54] 02: seed 12 24 fb (of 27, dropped [67, 183, 199]) / 8 car, tank 802 kg, dv 11.30, J_i 1.165, 0.0486 J/fb  [model 10.30]
+[19:37:54] 03: seed 14 26 fb (of 26, dropped []) / 6 car, tank 976 kg, dv 18.97, J_i 1.340, 0.0515 J/fb  [model 9.15]
+[19:37:54] 04: seed 29 26 fb / 9 car -> NOT settled (miss inf, dropped [135, 125, 35, 299])
+[19:37:54] 05: seed 36 26 fb / 11 car -> NOT settled (miss 116196962, dropped [44, 178, 261, 239])
+[19:37:54] 06: seed 13 22 fb (of 25, dropped [261, 135, 52]) / 7 car, tank 918 kg, dv 16.57, J_i 1.278, 0.0581 J/fb  [model 10.32]
+[19:37:54] 07: seed 34 24 fb (of 25, dropped [257]) / 5 car, tank 797 kg, dv 11.03, J_i 1.160, 0.0483 J/fb  [model 8.94]
+[19:37:54] 08: seed 2 23 fb (of 24, dropped [183]) / 8 car, tank 822 kg, dv 12.26, J_i 1.184, 0.0515 J/fb  [model 10.24]
+[19:37:54] 09: seed 18 22 fb (of 24, dropped [56, 204]) / 8 car, tank 825 kg, dv 12.37, J_i 1.186, 0.0539 J/fb  [model 8.57]
+[19:37:54] 10: seed 0 20 fb (of 23, dropped [67, 183, 199]) / 8 car, tank 779 kg, dv 10.14, J_i 1.144, 0.0572 J/fb  [model 7.78]
+[19:37:54] 11: seed 37 20 fb (of 20, dropped []) / 7 car, tank 820 kg, dv 12.16, J_i 1.182, 0.0591 J/fb  [model 8.75]
+[19:37:54] 12: seed 34 20 fb / 6 car -> NOT settled (miss inf, dropped [175, 209, 219, 15])
+[19:37:54] 13: seed 37 20 fb / 6 car -> NOT settled (miss inf, dropped [175, 209, 219, 15])
+[19:37:54] 14: seed 2 14 fb (of 15, dropped [91]) / 8 car, tank 731 kg, dv 7.64, J_i 1.102, 0.0787 J/fb  [model 6.35]
+[19:37:54] 15: seed 13 15 fb (of 15, dropped []) / 6 car, tank 1129 kg, dv 24.71, J_i 1.521, 0.1014 J/fb  [model 6.08]
+[19:37:54] 16: seed 14 14 fb (of 14, dropped []) / 2 car, tank 798 kg, dv 11.10, J_i 1.162, 0.0830 J/fb  [model 4.94]
+[19:37:54] 17: seed 0 13 fb (of 13, dropped []) / 4 car, tank 630 kg, dv 1.84, J_i 1.022, 0.0786 J/fb  [model 4.36]
+[19:37:54] 18: seed 12 13 fb (of 13, dropped []) / 6 car, tank 738 kg, dv 8.02, J_i 1.108, 0.0853 J/fb  [model 6.16]
+[19:37:54] 19: seed 24 13 fb (of 13, dropped []) / 5 car, tank 639 kg, dv 2.36, J_i 1.028, 0.0791 J/fb  [model 4.35]
+[19:37:54] 20: seed 36 13 fb (of 13, dropped []) / 6 car, tank 738 kg, dv 8.02, J_i 1.108, 0.0853 J/fb  [model 6.16]
+[19:37:54] 21: seed 29 12 fb (of 12, dropped []) / 7 car, tank 1056 kg, dv 22.09, J_i 1.432, 0.1193 J/fb  [model 3.81]
+[19:37:54] 22: seed 13 12 fb / 4 car -> NOT settled (miss 457175660, dropped [44, 94, 13, 54])
+[19:37:54] 23: seed 14 12 fb / 3 car -> NOT settled (miss inf, dropped [54, 31, 191, 193])
+[19:37:54] 24: seed 25 12 fb / 2 car -> NOT settled (miss inf, dropped [90, 148, 41, 246])
+[19:37:54] 25: seed 2 10 fb / 6 car -> NOT settled (miss inf, dropped [20, 277, 11, 216])
+[19:37:54] 26: seed 12 10 fb / 4 car -> NOT settled (miss 142136381, dropped [94, 201, 197, 109])
+[19:37:54] 27: seed 29 10 fb (of 10, dropped []) / 6 car, tank 653 kg, dv 3.24, J_i 1.040, 0.1040 J/fb  [model 6.04]
+[19:37:54] 
+settled 18/28 in 8004 s; flybys median 18 max 26; J/fb best 0.0478 median 0.0689
+[19:37:54] fleet: 18 routes, 140 covered, sum J_i 21.407
+[19:37:54] bar: best fixed-carrier BASE route 0.0514 J/fb (this harness), deep fixed route 0.0339, fleet target 0.0369

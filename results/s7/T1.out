@@ -1,0 +1,35 @@
+[23:22:27] start: 00:14@686 01:10@653 02:12@638 03:11@638 04:10@644 05:12@655 06:13@666 07:13@670
+[23:23:16] round 1: 40/48 usable, +24 -> covered 119, sum J_i 8.458 | 17@698 13@665 15@684 14@646 13@646 15@670 16@684 16@713  (49 s)
+[23:24:11] round 2: 36/48 usable, +24 -> covered 143, sum J_i 8.754 | 20@756 16@698 18@725 17@689 16@692 18@756 19@710 19@743  (104 s)
+[23:25:17] round 3: 25/48 usable, +19 -> covered 162, sum J_i 9.036 | 23@807 18@734 20@753 19@720 18@711 21@802 21@756 22@810  (170 s)
+[23:26:30] round 4: 16/48 usable, +16 -> covered 178, sum J_i 9.386 | 25@848 20@819 21@763 21@737 20@786 24@881 22@777 25@866  (243 s)
+[23:27:43] round 5: 9/46 usable, +9 -> covered 187, sum J_i 9.662 | 26@872 20@819 22@776 22@740 22@846 26@1026 23@781 26@888  (316 s)
+[23:28:50] round 6: 5/43 usable, +5 -> covered 192, sum J_i 9.767 | 28@925 20@819 23@805 23@740 23@871 26@1026 23@781 26@888  (383 s)
+[23:29:48] round 7: 3/41 usable, +3 -> covered 195, sum J_i 9.828 | 29@936 20@819 24@840 24@758 23@871 26@1026 23@781 26@888  (441 s)
+[23:30:43] round 8: 1/39 usable, +1 -> covered 196, sum J_i 9.859 | 29@936 20@819 25@872 24@758 23@871 26@1026 23@781 26@888  (496 s)
+[23:31:35] round 9: pools exhausted -> open growth
+[23:32:40] round 10: 24/48 usable, +19 -> covered 215, sum J_i 10.168 | 31@946 22@886 28@956 27@780 25@881 29@1082 25@820 28@904  (613 s)
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:117: RuntimeWarning: overflow encountered in cosh
+  C[neg] = (np.cosh(sz[neg]) - 1) / (-z[neg])
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:118: RuntimeWarning: overflow encountered in sinh
+  S[neg] = (np.sinh(sz[neg]) - sz[neg]) / sz[neg] ** 3
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:187: RuntimeWarning: invalid value encountered in divide
+  dchi = -F / r
+/Users/mickey/.venvs/astro313/lib/python3.13/site-packages/numpy/linalg/_linalg.py:2803: RuntimeWarning: overflow encountered in multiply
+  s = (x.conj() * x).real
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:181: RuntimeWarning: divide by zero encountered in log
+  chi[hyp] = sgn * np.sqrt(-a) * np.log(-2 * mu * alpha[hyp] * dt[hyp] / (rdotv[hyp] + sgn * np.sqrt(-mu * a) * (1 - r0n[hyp] * alpha[hyp])))
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:117: RuntimeWarning: invalid value encountered in divide
+  C[neg] = (np.cosh(sz[neg]) - 1) / (-z[neg])
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:118: RuntimeWarning: invalid value encountered in subtract
+  S[neg] = (np.sinh(sz[neg]) - sz[neg]) / sz[neg] ** 3
+[23:33:54] round 11: 10/48 usable, +9 -> covered 224, sum J_i 10.333 | 31@946 24@898 28@956 29@813 28@940 29@1082 25@820 30@964  (687 s)
+[23:35:06] round 12: 5/48 usable, +5 -> covered 229, sum J_i 10.450 | 31@946 26@921 28@956 30@834 29@979 29@1082 25@820 31@992  (759 s)
+[23:36:14] round 13: 2/48 usable, +1 -> covered 230, sum J_i 10.462 | 31@946 27@933 28@956 30@834 29@979 29@1082 25@820 31@992  (827 s)
+[23:37:22] round 14: nothing under +45 kg -> step limit 90
+[23:38:44] round 15: 11/48 usable, +9 -> covered 239, sum J_i 11.135 | 32@1012 30@1141 29@1004 30@834 30@1058 29@1082 26@901 33@1107  (977 s)
+[23:40:01] round 16: 6/48 usable, +6 -> covered 245, sum J_i 11.424 | 34@1091 31@1145 29@1004 30@834 31@1124 29@1082 28@1004 33@1107  (1054 s)
+[23:41:21] round 17: 3/48 usable, +3 -> covered 248, sum J_i 11.600 | 35@1113 31@1145 29@1004 30@834 31@1124 29@1082 30@1128 33@1107  (1134 s)
+[23:42:34] round 18: 1/48 usable, +1 -> covered 249, sum J_i 11.606 | 35@1113 31@1145 29@1004 30@834 31@1124 29@1082 31@1133 33@1107  (1207 s)
+[23:43:49] round 19: nothing acceptable
+[23:43:49] done: covered 249, J 62.606; left (49): [6, 12, 16, 18, 19, 23, 25, 58, 66, 69, 79, 85, 89, 93, 108, 116, 119, 125, 132, 138, 151, 152, 154, 155, 156, 160, 167, 168, 173, 174, 184, 192, 205, 206, 212, 216, 218, 221, 223, 232, 236, 243, 246, 259, 262, 264, 275, 276, 282]

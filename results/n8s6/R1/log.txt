@@ -1,0 +1,35 @@
+[12:20:08] skeletons: 10 routes, covered 298, J 14.3574; 01:37@919 05:36@905 02:33@904 12:30@795 13:30@887 09:28@976 03:27@815 10:27@792 04:26@871 06:24@878
+[12:20:19]     09 seg 0: 0 states reach waypoint 271 -- relaxed retry
+[12:20:39]     09 seg 0: 0 states reach waypoint 271 -- giving up
+[12:20:39]     09 seg 0: DROPPING waypoint 271 ([655,745] d unreachable); it goes to the leftovers
+[12:20:50]     09 seg 1: 0 states reach waypoint 42 -- relaxed retry
+[12:21:10]     09 seg 1: 0 states reach waypoint 42 -- giving up
+[12:21:10]     09 seg 1: DROPPING waypoint 42 ([850,940] d unreachable); it goes to the leftovers
+[12:21:21]     09 seg 2: 0 states reach waypoint 270 -- relaxed retry
+[12:21:40]     09 seg 2: 0 states reach waypoint 270 -- giving up
+[12:21:40]     09 seg 2: DROPPING waypoint 270 ([1053,1143] d unreachable); it goes to the leftovers
+[12:21:51]     09 seg 3: 0 states reach waypoint 8 -- relaxed retry
+[12:22:11]     09 seg 3: 0 states reach waypoint 8 -- giving up
+[12:22:11]     09 seg 3: DROPPING waypoint 8 ([1291,1381] d unreachable); it goes to the leftovers
+[12:22:22]     09 seg 4: 0 states reach waypoint 39 -- relaxed retry
+[12:22:43]     09 seg 4: 0 states reach waypoint 39 -- giving up
+[12:22:43]     09 seg 4: DROPPING waypoint 39 ([1401,1491] d unreachable); it goes to the leftovers
+[12:22:54]     09 seg 5: 0 states reach waypoint 49 -- relaxed retry
+[12:23:13]     09 seg 5: 0 states reach waypoint 49 -- giving up
+[12:23:13]     09 seg 5: DROPPING waypoint 49 ([1592,1682] d unreachable); it goes to the leftovers
+[12:23:24]     09 seg 6: 0 states reach waypoint 251 -- relaxed retry
+[12:23:43]     09 seg 6: 0 states reach waypoint 251 -- giving up
+[12:23:43]     09 seg 6: DROPPING waypoint 251 ([1814,1904] d unreachable); it goes to the leftovers
+[12:23:54]     09 seg 7: 0 states reach waypoint 292 -- relaxed retry
+[12:24:13]     09 seg 7: 0 states reach waypoint 292 -- giving up
+[12:24:13]     09 seg 7: DROPPING waypoint 292 ([1972,2062] d unreachable); it goes to the leftovers
+[12:24:24]     09 seg 8: 0 states reach waypoint 273 -- relaxed retry
+[12:24:43]     09 seg 8: 0 states reach waypoint 273 -- giving up
+[12:24:43]     09 seg 8: DROPPING waypoint 273 ([2137,2227] d unreachable); it goes to the leftovers
+[12:24:53]     09 seg 9: 0 states reach waypoint 165 -- relaxed retry
+[12:25:13]     09 seg 9: 0 states reach waypoint 165 -- giving up
+[12:25:13]     09 seg 9: DROPPING waypoint 165 ([2390,2480] d unreachable); it goes to the leftovers
+[12:25:23]     09 seg 10: 0 states reach waypoint 118 -- relaxed retry
+[12:25:43]     09 seg 10: 0 states reach waypoint 118 -- giving up
+[12:25:43]     09 seg 10: DROPPING waypoint 118 ([2514,2604] d unreachable); it goes to the leftovers
+[12:25:54]     09 seg 11: 0 states reach waypoint 150 -- relaxed retry

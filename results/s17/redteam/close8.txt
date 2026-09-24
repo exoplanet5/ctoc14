@@ -1,0 +1,15 @@
+covered 285 leftovers 13 [17, 36, 75, 108, 118, 180, 212, 216, 219, 220, 243, 247, 288]
+    17 owner r9 nearest 0.111 AU; cheapest: r1 d0.111 dJ0.737 | p007b d0.260 dJ1.613 | r3 d0.249 dJ1.882
+    36 owner r9 nearest 0.216 AU; cheapest: r4 d0.246 dJ1.306 | r8 d0.216 dJ2.300
+    75 owner r9 nearest 0.114 AU; cheapest: r8 d0.114 dJ0.113 | r2 d0.240 dJ4.298
+   108 owner r9 nearest 0.250 AU; cheapest: r1 d0.250 dJ0.362
+   118 owner r9 nearest 0.066 AU; cheapest: r2 d0.066 dJ0.222 | pb33a d0.133 dJ2.460
+   180 owner r9 nearest 0.024 AU; cheapest: p1f61 d0.024 dJ0.097 | r1 d0.109 dJ0.314 | p007b d0.230 dJ0.437
+   212 owner r9 nearest 0.091 AU; cheapest: r8 d0.264 dJ0.148 | r2 d0.131 dJ0.220 | r4 d0.203 dJ0.808
+   216 owner r9 nearest 0.214 AU; cheapest: r3 d0.241 dJ0.406 | pb33a d0.225 dJ0.586 | r4 d0.214 dJ0.989
+   219 owner r9 nearest 0.142 AU; cheapest: r2 d0.142 dJ0.362
+   220 owner r9 nearest 0.152 AU; cheapest: pb33a d0.152 dJ0.365 | pb33a d0.193 dJ0.583 | r8 d0.206 dJ0.885
+   243 owner r9 nearest 0.142 AU; cheapest: p007b d0.142 dJ0.144 | r1 d0.162 dJ0.183 | pb33a d0.230 dJ0.700
+   247 owner r9 nearest 0.118 AU; cheapest: r1 d0.118 dJ0.444 | p007b d0.189 dJ0.449 | r3 d0.219 dJ0.484
+   288 owner r9 nearest 0.109 AU; cheapest: p1f61 d0.220 dJ0.161 | r8 d0.135 dJ0.276 | r4 d0.296 dJ0.803
+sum of cheapest lin dJ (1.0 if none): 4.867

@@ -1,0 +1,23 @@
+s16a routes (results/s16/best/fleet):
+   r1 42 {'pin': 10, 'med': 11, 'fill': 21}
+   r2 41 {'pin': 8, 'med': 18, 'fill': 15}
+   r3 41 {'pin': 7, 'med': 23, 'fill': 11}
+   r4 38 {'pin': 12, 'med': 11, 'fill': 15}
+   r5 31 {'pin': 14, 'med': 11, 'fill': 6}
+   r6 30 {'pin': 9, 'med': 15, 'fill': 6}
+   r7 30 {'pin': 14, 'med': 12, 'fill': 4}
+   r8 24 {'pin': 11, 'med': 13, 'fill': 0}
+   r9 21 {'pin': 10, 'med': 9, 'fill': 2}
+stage-5 fill2 (results/n8/fill2), in fill order:
+   05 36 {'pin': 10, 'med': 9, 'fill': 17}
+   09 36 {'pin': 11, 'med': 10, 'fill': 15}
+   13 33 {'pin': 10, 'med': 14, 'fill': 9}
+   01 30 {'pin': 9, 'med': 17, 'fill': 4}
+   03 33 {'pin': 7, 'med': 16, 'fill': 10}
+   06 25 {'pin': 6, 'med': 11, 'fill': 8}
+   10 23 {'pin': 9, 'med': 10, 'fill': 4}
+   12 25 {'pin': 9, 'med': 9, 'fill': 7}
+  fill2 leftovers 57 {'pin': 24, 'med': 27, 'fill': 6}
+stage-8 J9grow leftovers (results/s8/J9grow.out) 76 {'pin': 41, 'med': 30, 'fill': 5}
+stage-14 isolated 8: n_events {64: 3, 119: 3, 137: 4, 138: 2, 157: 3, 158: 3, 168: 7, 216: 3}
+catalogue {'pin': 95, 'med': 123, 'fill': 80}

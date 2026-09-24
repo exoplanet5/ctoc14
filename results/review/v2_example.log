@@ -1,0 +1,16 @@
+==============================================================================
+validator2  --  results/test_example_submission.txt
+==============================================================================
+rows: 45   segments integrated: 44   runtime: 1.3 s
+SC 1: rows=45 arcs=1 samples=41 flyby_rows=1  m0=2000.000000 kg  m_final=1971.956379 kg  J_i=3.000000
+      launch t=0.000 s  pos err=0.000541 km  v_inf=4.000000 km/s   end t=24696489.152 s   min row mass=1971.956379 kg
+      max seg err: pos=4.624712e-05 km  vel=1.149e-11 km/s  mass=1.137e-12 kg   max|T| sample=0.500000000 interp=0.500000000 N
+global max errors: pos 4.624712e-05 km at (1, 1, 2) | vel 1.149e-11 km/s (1.149e-08 m/s) at (1, 1, 2) | mass 1.137e-12 kg at (1, 30, 31)
+max |T| at samples 0.500000000 N at (1, 23); max interpolated |T(t)| 0.500000000 N (sc 1, from Line 22, t=11736489.152 s)
+cross-checks: DOP853 vs universal-variable Kepler on coasts 4.623e-05 km; polynomial vs direct Lagrange 1.272e-16 N; DOP853 vs RK4(2000 steps) on worst thrust segments 4.777e-07 km
+------------------------------------------------------------------------------
+flybys (sc Line t[s] asteroid d[km] vrel[km/s] status):
+   1      2     10008479.152  174        0.008   11.780 COUNTED
+------------------------------------------------------------------------------
+N_covered = 1   N_miss = 299   sum J_i = 3.000000   J = 302.000000
+VERDICT: VALID

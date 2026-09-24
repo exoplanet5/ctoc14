@@ -1,0 +1,5 @@
+[01:09:57] fixture fixture_replay job s01_c0 kind craft T 540 d H 540 d remaining 294
+[01:09:57]   craft 0: replaying r1 (prefix 4 flybys)
+[01:09:57]   r1: column s01_c0_k0 new [1, 292, 42, 67] tank 637.9 (+17.1) miss 7 km potential 4 (0.2 s)
+[01:09:57]   r1: column s01_c0_k1 new [1, 292, 42] tank 634.8 (+14.0) miss 1 km potential 4 (0.1 s)
+[01:09:57] done: ok True columns 2 wall 0.3 s

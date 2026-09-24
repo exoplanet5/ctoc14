@@ -1,0 +1,10 @@
+rare targets: 95  cnt_deep (routes >=36 fb carrying it) quartiles [ 3.  12.4 20.  32.  53.5 83.6]  # with 0: 0  <5: 2
+deep routes >=36: 488
+  rare  2- 3: routes   15  med depth   40  med kg/fb 10.00  best kg/fb  8.03  med tank   1020  pace d/fb  111
+  rare  4- 5: routes   79  med depth   41  med kg/fb 10.43  best kg/fb  5.39  med tank   1028  pace d/fb  116
+  rare  6- 7: routes   96  med depth   39  med kg/fb  9.80  best kg/fb  6.82  med tank   1004  pace d/fb  124
+  rare  8- 9: routes  127  med depth   41  med kg/fb  9.73  best kg/fb  7.07  med tank   1016  pace d/fb  119
+  rare 10-11: routes  124  med depth   41  med kg/fb 10.01  best kg/fb  5.78  med tank   1023  pace d/fb  123
+  rare 12-13: routes   39  med depth   39  med kg/fb  9.59  best kg/fb  8.15  med tank    980  pace d/fb  132
+  rare 14-15: routes    8  med depth   41  med kg/fb 11.23  best kg/fb 10.55  med tank   1064  pace d/fb  128
+kg/fb ~ 0.010 * n_rare + 9.94

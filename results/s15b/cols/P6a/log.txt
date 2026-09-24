@@ -1,0 +1,6 @@
+[06:22:52] twintail P6a: pool 16, S [], p 0.05, steps 1, beam 30/90, nproc 1; resume at step 1
+[06:23:04]   roots: 945 launch legs -> 204 kept; pool 16, S [] p 0.05
+[06:32:08]   depth  2: 204 parents -> 2938 kids (2056 uniq) -> tried 43, settled 30, kept 25; t_end 642-1029 d, tank 604-645, max S 0 (544 s, gen 470 s)
+[06:35:13]   depth  3: 25 parents -> 461 kids (445 uniq) -> tried 41, settled 30, kept 26; t_end 751-1434 d, tank 617-724, max S 0 (185 s, gen 91 s)
+[06:38:40]   depth  4: 26 parents -> 481 kids (481 uniq) -> tried 37, settled 30, kept 26; t_end 959-1760 d, tank 627-844, max S 0 (207 s, gen 110 s)
+[06:43:01]   depth  5: 26 parents -> 439 kids (437 uniq) -> tried 38, settled 30, kept 27; t_end 1391-2207 d, tank 643-863, max S 0 (261 s, gen 134 s)

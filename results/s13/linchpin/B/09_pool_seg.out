@@ -1,0 +1,25 @@
+[21:15:12] === 09 cond pool builder seg: pool 32 = own 24 + extra 8 [31, 62, 106, 166, 178, 201, 214, 269]; hard in pool 9; source route 24 fb @ 876.5 kg (11.52 kg/fb)
+[21:15:12]   hard extra 62: waypoint at 5169 d (closest approach 0.263 AU to the source route)
+[21:15:12]   hard extra 166: waypoint at 4732 d (closest approach 0.467 AU to the source route)
+[21:15:12]   hard extra 178: waypoint at 809 d (closest approach 0.061 AU to the source route)
+[21:15:12]   hard extra 214: waypoint at 1067 d (closest approach 0.077 AU to the source route)
+[21:15:12]   skeleton: 9 waypoints 16@754 178@809 214@1067 224@2463 34@3537 240@3851 166@4732 62@5169 254@5232; easy 23
+[21:15:40]     09 seg 1: 0 states reach waypoint 178 -- relaxed retry
+[21:15:40]     09 seg 1: 0 states reach waypoint 178 -- giving up
+[21:15:40]     09 seg 1: DROPPING waypoint 178 ([764,854] d unreachable); it goes to the leftovers
+[21:15:40]     09 seg 2: 2 states reach waypoint 214 -- relaxed retry
+[21:15:40]     09 seg 2: 4 states reach waypoint 214 -- giving up
+[21:15:41]     09 seg 3: 2 states reach waypoint 224 -- relaxed retry
+[21:15:52]     09 seg 6: 0 states reach waypoint 166 -- relaxed retry
+[21:15:52]     09 seg 6: 0 states reach waypoint 166 -- giving up
+[21:15:52]     09 seg 6: DROPPING waypoint 166 ([4687,4777] d unreachable); it goes to the leftovers
+[21:15:52]     09 seg 7: 0 states reach waypoint 62 -- relaxed retry
+[21:15:53]     09 seg 7: 4 states reach waypoint 62 -- giving up
+[21:15:53]     09 seg 8: 0 states reach waypoint 254 -- relaxed retry
+[21:15:53]     09 seg 8: 0 states reach waypoint 254 -- giving up
+[21:15:53]     09 seg 8: DROPPING waypoint 254 ([5187,5277] d unreachable); it goes to the leftovers
+[21:15:53]     09 segments: 0:16->1st/2fb 1:178->0st/0fb 2:214->2st/4fb 3:224->11st/10fb 4:34->27st/14fb 5:240->3st/14fb 6:166->0st/0fb 7:62->2st/17fb 8:254->0st/0fb 9:None->2st/17fb
+[21:15:53]   build 41 s: 2 states, deepest 17 of pool 32; Pareto 16:775 17:784
+[21:16:35]     17 pool fb (alt 0): settle FAILED (miss 137446355.60085124, 42 s)
+[21:16:45]     16 pool fb (alt 0): planner 775 -> twin 1026.4 kg, 26.65 kg/fb, 1.310 km/s/fb, J_i 1.3974, own 12/24 extra 4/8 (miss 11 km, 10 s)
+[21:16:45]   BEST 09: 16/32 pool targets @ 1026.4 kg (26.65 kg/fb; source 24 @ 876.5 = 11.52 kg/fb); orphans [7, 12, 27, 31, 75, 85, 117, 120, 130, 152, 166, 171, 178, 201, 208, 254]

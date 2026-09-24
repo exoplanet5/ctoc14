@@ -1,0 +1,17 @@
+[20:41:23]     absorb[lib/route_06_T5_30]: 1 approaches of [158]; lintwin 158@4771d 0.028AU 41kg
+[20:41:34]     absorb[lib/route_06_T5_30]: insert 158 at 4771 d (lintwin 41 kg) -> OK tank 962 (+50.0 kg) (11 s)
+[20:41:34]     absorb[lib/route_05_H_29]: 1 approaches of [158]; lintwin 158@4771d 0.022AU 31kg
+[20:41:48]     absorb[lib/route_05_H_29]: insert 158 at 4771 d (lintwin 31 kg) -> fail 519137.3891796078 (14 s)
+[20:41:48]     absorb[lib/route_05_H_28]: 1 approaches of [158]; lintwin 158@4772d 0.018AU 9kg
+[20:42:00]     absorb[lib/route_05_H_28]: insert 158 at 4772 d (lintwin 9 kg) -> fail 163279.17205504814 (12 s)
+[20:42:01]     absorb[pilot1/route_07]: 1 approaches of [158]; lintwin 158@4767d 0.021AU 20kg
+[20:42:04]     absorb[pilot1/route_07]: insert 158 at 4767 d (lintwin 20 kg) -> OK tank 970 (+22.7 kg) (3 s)
+[20:42:04]     absorb[lib/route_05_H_27]: 1 approaches of [158]; lintwin 158@4772d 0.020AU 14kg
+[20:42:21]     absorb[lib/route_05_H_27]: insert 158 at 4772 d (lintwin 14 kg) -> fail 90337.83367504287 (17 s)
+[20:42:21]     absorb[lib/route_05_H_26]: 1 approaches of [158]; lintwin 158@4773d 0.025AU 0kg
+[20:42:33]     absorb[lib/route_05_H_26]: insert 158 at 4773 d (lintwin 0 kg) -> fail 121619.15121404882 (12 s)
+[20:42:33]     absorb[skel8/route_05]: 1 approaches of [158]; lintwin 158@4770d 0.049AU 7kg
+[20:42:36]     absorb[skel8/route_05]: insert 158 at 4770 d (lintwin 7 kg) -> OK tank 837 (+8.4 kg) (2 s)
+[20:42:36]     absorb[00_own_beam/route_00]: 1 approaches of [158]; lintwin 158@1253d 0.049AU 21kg
+[20:42:47]     absorb[00_own_beam/route_00]: insert 158 at 1253 d (lintwin 21 kg) -> OK tank 782 (+21.7 kg) (11 s)
+[20:42:47] absorb A158 done: 4 columns from 8 items (84 s)

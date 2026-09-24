@@ -1,0 +1,10 @@
+[15:08:00]   r2: impulsive tank 908.9 -> exact m0 911.5 (miss 72 km), valid True (RK4 step 0.1 d)
+[15:08:15]   r3: impulsive tank 986.3 -> exact m0 989.3 (miss 37 km), valid True (RK4 step 0.1 d)
+[15:08:19]   r1: impulsive tank 944.4 -> exact m0 948.7 (miss 24 km), valid True (RK4 step 0.1 d)
+[15:08:22]   r8: impulsive tank 927.2 -> exact m0 929.1 (miss 26 km), valid True (RK4 step 0.1 d)
+[15:08:31]   r6: impulsive tank 901.5 -> exact m0 903.0 (miss 30 km), valid True (RK4 step 0.1 d)
+[15:08:40]   r5: impulsive tank 958.1 -> exact m0 959.7 (miss 94 km), valid True (RK4 step 0.1 d)
+[15:08:56]   r4: impulsive tank 913.1 -> exact m0 916.5 (miss 38 km), valid True (RK4 step 0.1 d)
+[15:11:27]   r9: impulsive tank 902.8 -> exact m0 904.6 (miss 40 km), valid True (RK4 step 0.05 d)
+[15:14:06]   r7: impulsive tank 1017.1 -> exact m0 1019.5 (miss 96 km), valid True (RK4 step 0.05 d)
+[15:14:06] 9 craft, covered 298, J 13.7466; r1:42/42@949 r2:41/41@911 r3:41/41@989 r4:38/38@917 r5:31/31@960 r6:30/30@903 r7:30/30@1020 r8:24/24@929 r9:21/21@905

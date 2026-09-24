@@ -1,0 +1,18 @@
+[16:27:49] === s14_twinbeam free route 07: pool 27 (own targets), source 27 fb @ 815.1 kg; gate leg dv 2.0 drmax 0.25 beam 20 tries 40 roots 300
+[16:28:03] roots: 1308 launch legs -> 194 kept (max root miss 0.0 km)
+[16:28:23] depth  2: 194 parents -> 602 children (324 unique) -> tried 23, settled 20, kept 14; t_end 317-602 d, tank 602-622; best 2 @ 601.7 kg (20 s)
+[16:28:49] depth  3: 14 parents -> 25 children (14 unique) -> tried 14, settled 10, kept 9; t_end 462-960 d, tank 615-640; best 3 @ 615.2 kg (25 s)
+[16:29:42] depth  4: 9 parents -> 29 children (19 unique) -> tried 19, settled 14, kept 13; t_end 596-1559 d, tank 628-660; best 4 @ 627.6 kg (53 s)
+[16:30:27] depth  5: 13 parents -> 54 children (32 unique) -> tried 21, settled 20, kept 20; t_end 818-1640 d, tank 630-682; best 5 @ 629.9 kg (45 s)
+[16:31:58] depth  6: 20 parents -> 60 children (38 unique) -> tried 26, settled 20, kept 18; t_end 1144-1802 d, tank 643-706; best 6 @ 642.9 kg (91 s)
+[16:34:27] depth  7: 18 parents -> 51 children (35 unique) -> tried 25, settled 20, kept 18; t_end 1328-2131 d, tank 651-928; best 7 @ 651.4 kg (148 s)
+[16:35:56] depth  8: 18 parents -> 58 children (43 unique) -> tried 23, settled 20, kept 16; t_end 1622-2507 d, tank 654-915; best 8 @ 654.5 kg (90 s)
+[16:37:19] depth  9: 16 parents -> 53 children (36 unique) -> tried 22, settled 20, kept 18; t_end 1918-2680 d, tank 663-755; best 9 @ 663.3 kg (83 s)
+[16:39:35] depth 10: 18 parents -> 47 children (29 unique) -> tried 21, settled 20, kept 18; t_end 2288-2932 d, tank 687-727; best 10 @ 686.7 kg (136 s)
+[16:41:19] depth 11: 18 parents -> 28 children (19 unique) -> tried 19, settled 19, kept 16; t_end 2547-3401 d, tank 693-759; best 11 @ 692.9 kg (104 s)
+[16:43:35] depth 12: 16 parents -> 26 children (22 unique) -> tried 20, settled 20, kept 14; t_end 3119-3995 d, tank 695-770; best 12 @ 695.2 kg (136 s)
+[16:44:58] depth 13: 14 parents -> 14 children (11 unique) -> tried 11, settled 11, kept 7; t_end 3288-4342 d, tank 710-794; best 13 @ 709.6 kg (83 s)
+[16:45:17] depth 14: 7 parents -> 6 children (4 unique) -> tried 4, settled 4, kept 3; t_end 3571-4697 d, tank 719-763; best 14 @ 719.0 kg (20 s)
+[16:45:34] depth 15: 3 parents -> 2 children (2 unique) -> tried 2, settled 2, kept 1; t_end 4045-4045 d, tank 760-760; best 15 @ 759.6 kg (17 s)
+[16:45:34] depth 16: 1 parents -> 0 children (0 unique) -> tried 0, settled 0, kept 0; best 15 @ 759.6 kg (0 s)
+[16:45:34] RESULT route 07: re-flown 15/27 at twin tank 759.6 kg (source 815.1); end {'kind': 'no_children', 'depth': 15, 'time_left_d': 1434.0}; settles 250 (220 ok), wall 1051 s

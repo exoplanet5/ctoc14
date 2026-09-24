@@ -1,0 +1,6 @@
+[15:00:04] new run p18_claims_relax_lam05: N 8 H 540.0 d L 360.0 d proposer planbeam commit regrid nproc 9 stop_T None claims on (bonus 1.0, ttl 4)
+[15:00:04] [slice 0] claims in force: -  (0 targets; claim_bonus 1.0, ttl 4)
+[15:00:04] [slice 0 T=0 d] propose: 9 jobs (0 craft, 9 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 0.5
+[15:00:06]   job s00_r8 root  columns   0  levels 0  settles 0/0  end no_children  wall 1.8 s
+[15:00:12] interrupted (Interrupted): slice 0 -- phase files on disk are the resume point
+[15:00:22] pool shutdown did not finish in 10 s -> SIGKILL to 0 worker(s)

@@ -1,0 +1,47 @@
+[2026-09-24 06:07:11] test-slice 3: T 1620 d H 540 L 360; crafts [0, 2]; nproc 2
+[06:07:11] job s03_c2 (craft, craft 2, planbeam): T 1620 d H 540 L 360; plan horizon 3240 d; remaining 224; prize >1 on 44; width 150 npt 6 mc 150 dv 1.2 drmax 0.15 plan_wall 240 s; quota {'fil': 9, 'med': 15}
+[06:07:11] job s03_c0 (craft, craft 0, planbeam): T 1620 d H 540 L 360; plan horizon 3240 d; remaining 224; prize >1 on 44; width 150 npt 6 mc 150 dv 1.2 drmax 0.15 plan_wall 240 s; quota {'fil': 9, 'med': 16}
+[06:07:11] prefix slices/s03/in/craft_0.npz: 8 flybys, t_end 1363.3 d, tank 695.9 kg (planner view), miss 34.1 km, nreg 70
+[06:07:11] prefix slices/s03/in/craft_2.npz: 10 flybys, t_end 1610.9 d, tank 716.3 kg (planner view), miss 6.9 km, nreg 78
+[06:07:21] first level (both): 0 production + 109 relaxed (dv 2.5, 0.3 AU; 0.1 s) + 76 lintwin children -> 123 unique (10.1 s)
+[06:07:21] plan start: prefix 10 flybys, t_end 1610.9 d, planner mass 1343.7 kg (dv 6.849 km/s); 123 first-level states
+[06:07:21] first level (both): 0 production + 26 relaxed (dv 2.5, 0.3 AU; 0.1 s) + 69 lintwin children -> 86 unique (10.3 s)
+[06:07:21] plan start: prefix 8 flybys, t_end 1363.3 d, planner mass 1383.0 kg (dv 5.717 km/s); 86 first-level states
+[06:08:08] plan: 1062 states, depth 9 new flybys, end plan_done (57 s); deepest 9 new to 3235 d at planner fuel 476 kg
+[06:08:08]   depth  1:   86 states (77 in H), t_end 1630-2278 d, fuel 218-316 kg
+[06:08:08]   depth  2:  150 states (108 in H), t_end 1697-2698 d, fuel 231-349 kg
+[06:08:08]   depth  3:  150 states (39 in H), t_end 1831-2913 d, fuel 244-387 kg
+[06:08:08]   depth  4:  150 states (2 in H), t_end 2069-3091 d, fuel 286-422 kg
+[06:08:08]   depth  5:  150 states (0 in H), t_end 2476-3238 d, fuel 325-456 kg
+[06:08:08]   depth  6:  150 states (0 in H), t_end 2695-3238 d, fuel 344-441 kg
+[06:08:08]   depth  7:  150 states (0 in H), t_end 2955-3240 d, fuel 387-469 kg
+[06:08:08]   depth  8:   67 states (0 in H), t_end 3089-3240 d, fuel 408-502 kg
+[06:08:08]   depth  9:    9 states (0 in H), t_end 3207-3236 d, fuel 476-535 kg
+[06:08:08] candidates: 161 distinct committed target sets (n_new 1-4, potential 0-2)
+[06:08:08] frontier: 12 candidates chosen: 1fb/218kg/p0, 1fb/223kg/p2, 1fb/237kg/p2, 1fb/237kg/p2, 1fb/243kg/p2, 1fb/256kg/p2, 1fb/257kg/p2, 2fb/243kg/p0, 2fb/254kg/p2, 3fb/276kg/p1, 3fb/313kg/p2, 4fb/348kg/p0
+[06:08:11] plan: 1092 states, depth 9 new flybys, end plan_done (60 s); deepest 9 new to 3174 d at planner fuel 458 kg
+[06:08:11]   depth  1:  123 states (108 in H), t_end 1658-2269 d, fuel 262-354 kg
+[06:08:11]   depth  2:  150 states (111 in H), t_end 1870-2701 d, fuel 276-387 kg
+[06:08:11]   depth  3:  150 states (18 in H), t_end 1998-2706 d, fuel 287-411 kg
+[06:08:11]   depth  4:  150 states (0 in H), t_end 2330-3206 d, fuel 302-434 kg
+[06:08:11]   depth  5:  150 states (0 in H), t_end 2432-3236 d, fuel 316-444 kg
+[06:08:11]   depth  6:  150 states (0 in H), t_end 2833-3235 d, fuel 359-461 kg
+[06:08:11]   depth  7:  150 states (0 in H), t_end 2873-3237 d, fuel 384-493 kg
+[06:08:11]   depth  8:   66 states (0 in H), t_end 3099-3238 d, fuel 435-527 kg
+[06:08:11]   depth  9:    3 states (0 in H), t_end 3169-3179 d, fuel 458-470 kg
+[06:08:11] candidates: 126 distinct committed target sets (n_new 1-3, potential 0-3)
+[06:08:11] frontier: 12 candidates chosen: 1fb/263kg/p0, 1fb/266kg/p3, 1fb/266kg/p1, 1fb/273kg/p1, 1fb/287kg/p1, 1fb/301kg/p1, 1fb/309kg/p1, 2fb/283kg/p0, 2fb/283kg/p3, 2fb/354kg/p2, 3fb/304kg/p0, 3fb/371kg/p2
+[06:08:30] RESULT s03_c2: 12 columns; frontier 1fb 3 kg p3/3 | 2fb 6 kg p3/3 | 3fb 18 kg p0/2; settles 14 (14 ok); wall 79 s (plan 60, price 0, settle 18)
+[06:10:56]   4 candidates dropped (settle failure / duplicate after truncation)
+[06:10:56] RESULT s03_c0: 8 columns; frontier 1fb 7 kg p0/2 | 3fb 76 kg p2/2; settles 19 (9 ok); wall 225 s (plan 57, price 1, settle 169)
+frontier (slice 3, T 1620 d, commit (T, T+H] = (1620, 2160] d): cheapest dtank [kg] per n_new, potential (of the cheapest / max); planbeam vs segbeam
+  craft n_new | planbeam dtank  pot(cheap/max) ncol | segbeam dtank  pot(cheap/max) ncol
+  c0     1   |      6.6   0/2     7   |      9.8   0/1     7
+  c0     2   |        -             -    -   |     60.4   0/1     4
+  c0     3   |     75.7   2/2     1   |     82.8   0/0     2
+  c0 wall: planbeam 225.2 s (plan 56.5 s, 8 columns, ok True); segbeam 714.8 s
+  c2     1   |      2.9   3/3     7   |      2.2   2/3     8
+  c2     2   |      6.3   3/3     3   |      7.4   1/3     8
+  c2     3   |     18.4   0/2     2   |     52.3   2/2     5
+  c2 wall: planbeam 78.5 s (plan 60.1 s, 12 columns, ok True); segbeam 389.1 s
+[2026-09-24 06:10:56] test-slice done: total 225 s; /Users/mickey/solarsystem/ctoc14/results/s18/planbeam_test/w150/frontier.json

@@ -1,0 +1,114 @@
+{
+ "job_id": "s01_c0",
+ "kind": "craft",
+ "craft": 0,
+ "ok": true,
+ "error": null,
+ "columns": [
+  {
+   "id": "s01_c0_k0",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    1,
+    292,
+    42,
+    67
+   ],
+   "epochs": [
+    55916038.695825174,
+    66228084.15579939,
+    77091245.56174833,
+    89646204.05092905
+   ],
+   "all_targets": [
+    174,
+    278,
+    272,
+    28,
+    1,
+    292,
+    42,
+    67
+   ],
+   "n_new": 4,
+   "npz": "slices/s01/c0/col_0.npz",
+   "tank": 637.9144294826187,
+   "tank_prev": 620.8315305632963,
+   "dtank": 17.082898919322474,
+   "miss": 7.055616688266348,
+   "t_launch": 3542400.0,
+   "t_end": 89646204.05092905,
+   "potential": 4,
+   "counts": {
+    "pin": 1,
+    "med": 0,
+    "fil": 3
+   },
+   "depth": 8,
+   "score": -4.0,
+   "job_id": "s01_c0",
+   "source": "r1",
+   "honest_planner_twin": true
+  },
+  {
+   "id": "s01_c0_k1",
+   "craft": 0,
+   "kind": "craft",
+   "targets": [
+    1,
+    292,
+    42
+   ],
+   "epochs": [
+    55928239.68854708,
+    66233890.191358246,
+    77132515.87336048
+   ],
+   "all_targets": [
+    174,
+    278,
+    272,
+    28,
+    1,
+    292,
+    42
+   ],
+   "n_new": 3,
+   "npz": "slices/s01/c0/col_1.npz",
+   "tank": 634.7991384067511,
+   "tank_prev": 620.8315305632963,
+   "dtank": 13.967607843454857,
+   "miss": 1.1708865904472034,
+   "t_launch": 3542400.0,
+   "t_end": 77132515.87336048,
+   "potential": 4,
+   "counts": {
+    "pin": 1,
+    "med": 0,
+    "fil": 2
+   },
+   "depth": 7,
+   "score": -3.0,
+   "job_id": "s01_c0",
+   "source": "r1",
+   "honest_planner_twin": true
+  }
+ ],
+ "stats": {
+  "levels": 1,
+  "n_states": 2,
+  "n_columns": 2,
+  "settles": 2,
+  "settle_ok": 2,
+  "price_s": 0.0,
+  "settle_s": 0.3,
+  "wall_s": 0.33,
+  "end": {
+   "kind": "fixture",
+   "depth": 8
+  },
+  "hist": [],
+  "note": ""
+ }
+}

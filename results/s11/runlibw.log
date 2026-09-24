@@ -1,0 +1,17 @@
+weights: 298 priced, mean 1.369
+40000 samples scored in 233 s: best 30.37, median 10.10
+optimised 160 carriers in 655 s: value 35.10 (was 30.37), base flybys best 16, median 11
+-> results/s11/libw_rare.pkl (160 carriers, base median 11)
+weights: 298 priced, mean 1.278
+40000 samples scored in 261 s: best 30.24, median 11.86
+optimised 160 carriers in 801 s: value 35.65 (was 30.24), base flybys best 21, median 13
+-> results/s11/libw_cmpl.pkl (160 carriers, base median 13)
+weights: 298 priced, mean 1.077
+40000 samples scored in 409 s: best 23.16, median 10.14
+optimised 130 carriers in 906 s: value 26.85 (was 23.16), base flybys best 22, median 16
+-> results/s11/libw_r1.pkl (130 carriers, base median 16)
+weights: 298 priced, mean 1.085
+40000 samples scored in 203 s: best 21.56, median 8.24
+optimised 130 carriers in 644 s: value 26.02 (was 21.56), base flybys best 20, median 14
+-> results/s11/libw_r2.pkl (130 carriers, base median 14)
+weights: 298 priced, mean 1.071

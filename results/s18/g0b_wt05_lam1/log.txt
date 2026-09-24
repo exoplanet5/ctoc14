@@ -1,0 +1,43 @@
+[04:25:27] new run g0b_wt05_lam1: N 8 H 540.0 d L 360.0 d proposer segbeam commit regrid nproc 8 stop_T 1461.0
+[04:25:27] [slice 0 T=0 d] propose: 8 jobs (0 craft, 8 root) on 8 workers, proposer segbeam
+[04:26:29]   job s00_r7 root  columns   0  levels 5  settles 32/38  end no_children  wall 62.3 s
+[04:27:24]   job s00_r4 root  columns  14  levels 6  settles 41/45  end no_children  wall 117.6 s
+[04:27:31]   job s00_r6 root  columns   7  levels 4  settles 32/50  end settle_wall  wall 124.0 s
+[04:27:34]   job s00_r5 root  columns   9  levels 7  settles 49/53  end horizon  wall 127.2 s
+[04:27:51]   job s00_r3 root  columns  13  levels 7  settles 51/60  end no_children  wall 144.3 s
+[04:28:23]   job s00_r2 root  columns  15  levels 7  settles 49/60  end horizon  wall 176.8 s
+[04:28:59]   job s00_r0 root  columns  24  levels 9  settles 66/72  end no_children  wall 212.0 s
+[04:29:18]   job s00_r1 root  columns  25  levels 8  settles 58/67  end no_children  wall 231.3 s
+[04:29:18] [slice 0] propose: 107 columns (0 bad dropped) in 231.3 s
+[04:29:18] [slice 0] auction: 107 columns, kept 107, dropped {}
+[04:29:18] [slice 0] auction: status optimal objective 33.100 vars 107 rows 42 chosen 8 (0.008 s)
+[04:29:18] [slice 0 T=0 d] launched 8/8  covered 24  remaining 274  fuel 129 kg  sumJi 8.0940  chosen: r->c0:3(+26) r->c1:2(+6) r->c2:4(+16) r->c3:5(+34) r->c4:2(+0) r->c5:3(+12) r->c6:3(+19) r->c7:2(+5)  rejected: -  (wall 231 s)
+[04:29:18] [slice 1 T=540 d] propose: 8 jobs (8 craft, 0 root) on 8 workers, proposer segbeam
+[04:32:58]   job s01_c7 craft columns  17  levels 6  settles 43/50  end no_children  wall 219.9 s
+[04:33:45]   job s01_c0 craft columns  21  levels 7  settles 44/44  end no_children  wall 266.9 s
+[04:34:14]   job s01_c6 craft columns  22  levels 7  settles 49/60  end no_children  wall 295.8 s
+[04:34:42]   job s01_c5 craft columns  17  levels 7  settles 54/65  end no_children  wall 323.8 s
+[04:34:48]   job s01_c3 craft columns  25  levels 8  settles 58/59  end no_children  wall 329.6 s
+[04:35:05]   job s01_c1 craft columns  21  levels 8  settles 57/63  end no_children  wall 346.7 s
+[04:35:50]   job s01_c2 craft columns  18  levels 6  settles 41/62  end no_children  wall 392.2 s
+[04:36:27]   job s01_c4 craft columns  19  levels 6  settles 47/77  end settle_wall  wall 428.6 s
+[04:36:27] [slice 1] propose: 160 columns (0 bad dropped) in 428.6 s
+[04:36:27] [slice 1] auction: 160 columns, kept 160, dropped {}
+[04:36:27] [slice 1] auction: status optimal objective 27.641 vars 160 rows 44 chosen 8 (0.008 s)
+[04:36:27] [slice 1 T=540 d] launched 8/8  covered 44  remaining 254  fuel 437 kg  sumJi 8.3292  chosen: c0:3(+71) c1:3(+51) c2:1(+5) c3:4(+83) c4:2(+16) c5:2(+24) c6:3(+29) c7:2(+28)  rejected: -  (wall 429 s)
+[04:36:27] [slice 2 T=1080 d] propose: 8 jobs (8 craft, 0 root) on 8 workers, proposer segbeam
+[04:41:40]   job s02_c4 craft columns  20  levels 7  settles 53/56  end no_children  wall 313.6 s
+[04:41:41]   job s02_c7 craft columns  17  levels 6  settles 48/54  end settle_wall  wall 314.4 s
+[04:42:02]   job s02_c6 craft columns  17  levels 7  settles 51/61  end settle_wall  wall 334.9 s
+[04:43:33]   job s02_c1 craft columns  21  levels 7  settles 51/59  end settle_wall  wall 426.3 s
+[04:43:39]   job s02_c3 craft columns  17  levels 7  settles 54/62  end no_children  wall 432.4 s
+[04:44:22]   job s02_c0 craft columns  23  levels 8  settles 58/66  end no_children  wall 475.4 s
+[04:44:46]   job s02_c5 craft columns  23  levels 8  settles 62/72  end settle_wall  wall 498.8 s
+[04:45:21]   job s02_c2 craft columns  22  levels 8  settles 52/73  end no_children  wall 534.0 s
+[04:45:21] [slice 2] propose: 160 columns (0 bad dropped) in 534.0 s
+[04:45:21] [slice 2] auction: 160 columns, kept 160, dropped {}
+[04:45:21] [slice 2] auction: status optimal objective 31.328 vars 160 rows 50 chosen 8 (0.008 s)
+[04:45:21] [slice 2 T=1080 d] launched 8/8  covered 68  remaining 230  fuel 859 kg  sumJi 8.6725  chosen: c0:4(+78) c1:5(+122) c2:1(+30) c3:2(+40) c4:3(+12) c5:4(+66) c6:3(+38) c7:2(+36)  rejected: -  (wall 534 s)
+[04:45:21] stop: stop_T at T=1620 d (slice 3)
+[04:45:21] finalize: fleet/ 8 routes  covered 68  misses 230  fuel 859 kg  sumJi 8.6725  J 240.6725  honest True
+[04:45:21] g0b_wt05_lam1: slice 3 phase propose T=1620 d  launched 8/8  covered 68  remaining 230  fuel 859 kg  sumJi 8.6725  done True (stop_T)

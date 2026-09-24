@@ -1,0 +1,606 @@
+[
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_21.npz",
+  "host": "r6",
+  "n": 21,
+  "tank": 776.7,
+  "dkg": -124.8,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   25,
+   40,
+   53,
+   98,
+   100,
+   166,
+   170,
+   256,
+   263
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_21_1.npz",
+  "host": "r6",
+  "n": 21,
+  "tank": 775.8,
+  "dkg": -125.7,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   7,
+   25,
+   40,
+   53,
+   100,
+   166,
+   170,
+   256,
+   263
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_22.npz",
+  "host": "r6",
+  "n": 22,
+  "tank": 786.7,
+  "dkg": -114.9,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   25,
+   40,
+   53,
+   100,
+   166,
+   170,
+   256,
+   263
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_22_1.npz",
+  "host": "r6",
+  "n": 22,
+  "tank": 784.1,
+  "dkg": -117.4,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   7,
+   25,
+   34,
+   40,
+   53,
+   98,
+   166,
+   170
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_23.npz",
+  "host": "r6",
+  "n": 23,
+  "tank": 794.6,
+  "dkg": -106.9,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   25,
+   40,
+   53,
+   100,
+   166,
+   170,
+   256
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_23_1.npz",
+  "host": "r6",
+  "n": 23,
+  "tank": 792.1,
+  "dkg": -109.5,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   7,
+   25,
+   40,
+   53,
+   98,
+   166,
+   170
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_24.npz",
+  "host": "r6",
+  "n": 24,
+  "tank": 810.4,
+  "dkg": -91.2,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   25,
+   40,
+   53,
+   166,
+   170,
+   256
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_24_1.npz",
+  "host": "r6",
+  "n": 24,
+  "tank": 806.8,
+  "dkg": -94.7,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   34,
+   40,
+   53,
+   166,
+   170,
+   256
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_25.npz",
+  "host": "r6",
+  "n": 25,
+  "tank": 814.6,
+  "dkg": -87.0,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   40,
+   53,
+   166,
+   170,
+   256
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_25_1.npz",
+  "host": "r6",
+  "n": 25,
+  "tank": 809.4,
+  "dkg": -92.2,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   25,
+   40,
+   53,
+   98,
+   170
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_26.npz",
+  "host": "r6",
+  "n": 26,
+  "tank": 834.5,
+  "dkg": -67.1,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   40,
+   53,
+   170,
+   256
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_26_1.npz",
+  "host": "r6",
+  "n": 26,
+  "tank": 823.4,
+  "dkg": -78.2,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   25,
+   53,
+   166,
+   170
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_27.npz",
+  "host": "r6",
+  "n": 27,
+  "tank": 834.9,
+  "dkg": -66.7,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   53,
+   166,
+   170
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_27_1.npz",
+  "host": "r6",
+  "n": 27,
+  "tank": 832.6,
+  "dkg": -68.9,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   100,
+   166,
+   170
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_28.npz",
+  "host": "r6",
+  "n": 28,
+  "tank": 881.0,
+  "dkg": -20.5,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   53,
+   170
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_28_1.npz",
+  "host": "r6",
+  "n": 28,
+  "tank": 845.8,
+  "dkg": -55.7,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   166,
+   170
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_29.npz",
+  "host": "r6",
+  "n": 29,
+  "tank": 899.3,
+  "dkg": -2.2,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   53
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_29_1.npz",
+  "host": "r6",
+  "n": 29,
+  "tank": 884.7,
+  "dkg": -16.9,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   170
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_29_2.npz",
+  "host": "r6",
+  "n": 29,
+  "tank": 911.2,
+  "dkg": 9.6,
+  "add": [
+   142
+  ],
+  "add_census_kg": {
+   "142": 18.3
+  },
+  "drop": [
+   53,
+   170
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_30.npz",
+  "host": "r6",
+  "n": 30,
+  "tank": 903.4,
+  "dkg": 1.8,
+  "add": [],
+  "add_census_kg": {},
+  "drop": []
+ },
+ {
+  "file": "results/s17/lns/pre/L1r6k17S/route_L1r6k17Ss1_30_1.npz",
+  "host": "r6",
+  "n": 30,
+  "tank": 951.1,
+  "dkg": 49.5,
+  "add": [
+   184,
+   247
+  ],
+  "add_census_kg": {
+   "184": 30.1,
+   "247": 314.1
+  },
+  "drop": [
+   53,
+   170
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r8k13S/route_L1r8k13Ss1_17.npz",
+  "host": "r8",
+  "n": 17,
+  "tank": 772.0,
+  "dkg": -155.2,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   22,
+   138,
+   139,
+   148,
+   150,
+   172,
+   223
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r8k13S/route_L1r8k13Ss1_17_1.npz",
+  "host": "r8",
+  "n": 17,
+  "tank": 771.5,
+  "dkg": -155.7,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   22,
+   71,
+   138,
+   139,
+   148,
+   150,
+   172
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r8k13S/route_L1r8k13Ss1_18.npz",
+  "host": "r8",
+  "n": 18,
+  "tank": 778.9,
+  "dkg": -148.3,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   22,
+   138,
+   148,
+   150,
+   172,
+   223
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r8k13S/route_L1r8k13Ss1_18_1.npz",
+  "host": "r8",
+  "n": 18,
+  "tank": 775.2,
+  "dkg": -152.1,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   22,
+   138,
+   139,
+   148,
+   150,
+   223
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r8k13S/route_L1r8k13Ss1_19.npz",
+  "host": "r8",
+  "n": 19,
+  "tank": 787.2,
+  "dkg": -140.1,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   22,
+   138,
+   148,
+   150,
+   172
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r8k13S/route_L1r8k13Ss1_19_1.npz",
+  "host": "r8",
+  "n": 19,
+  "tank": 782.8,
+  "dkg": -144.4,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   138,
+   148,
+   150,
+   172,
+   223
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r8k13S/route_L1r8k13Ss1_20.npz",
+  "host": "r8",
+  "n": 20,
+  "tank": 806.5,
+  "dkg": -120.8,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   22,
+   148,
+   150,
+   172
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r8k13S/route_L1r8k13Ss1_20_1.npz",
+  "host": "r8",
+  "n": 20,
+  "tank": 803.3,
+  "dkg": -124.0,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   138,
+   148,
+   150,
+   223
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r8k13S/route_L1r8k13Ss1_21.npz",
+  "host": "r8",
+  "n": 21,
+  "tank": 828.8,
+  "dkg": -98.4,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   148,
+   150,
+   172
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r8k13S/route_L1r8k13Ss1_22.npz",
+  "host": "r8",
+  "n": 22,
+  "tank": 859.9,
+  "dkg": -67.3,
+  "add": [],
+  "add_census_kg": {},
+  "drop": [
+   148,
+   172
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r8k13S/route_L1r8k13Ss1_22_1.npz",
+  "host": "r8",
+  "n": 22,
+  "tank": 842.8,
+  "dkg": -84.5,
+  "add": [
+   212
+  ],
+  "add_census_kg": {
+   "212": 195.2
+  },
+  "drop": [
+   150,
+   173,
+   223
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r8k13S/route_L1r8k13Ss1_22_2.npz",
+  "host": "r8",
+  "n": 22,
+  "tank": 844.7,
+  "dkg": -82.6,
+  "add": [
+   212
+  ],
+  "add_census_kg": {
+   "212": 195.2
+  },
+  "drop": [
+   138,
+   150,
+   223
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r8k13S/route_L1r8k13Ss1_23.npz",
+  "host": "r8",
+  "n": 23,
+  "tank": 921.1,
+  "dkg": -6.1,
+  "add": [
+   142
+  ],
+  "add_census_kg": {
+   "142": 18.3
+  },
+  "drop": [
+   138,
+   223
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r8k13S/route_L1r8k13Ss1_23_1.npz",
+  "host": "r8",
+  "n": 23,
+  "tank": 857.1,
+  "dkg": -70.2,
+  "add": [
+   142,
+   212
+  ],
+  "add_census_kg": {
+   "142": 18.3,
+   "212": 195.2
+  },
+  "drop": [
+   138,
+   150,
+   223
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r8k13S/route_L1r8k13Ss1_24.npz",
+  "host": "r8",
+  "n": 24,
+  "tank": 1233.2,
+  "dkg": 306.0,
+  "add": [
+   118,
+   288
+  ],
+  "add_census_kg": {
+   "118": 196.3,
+   "288": 235.8
+  },
+  "drop": [
+   138,
+   172
+  ]
+ },
+ {
+  "file": "results/s17/lns/pre/L1r8k13S/route_L1r8k13Ss1_24_1.npz",
+  "host": "r8",
+  "n": 24,
+  "tank": 1229.0,
+  "dkg": 301.8,
+  "add": [
+   142,
+   288
+  ],
+  "add_census_kg": {
+   "142": 18.3,
+   "288": 235.8
+  },
+  "drop": [
+   138,
+   172
+  ]
+ }
+]

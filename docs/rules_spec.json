@@ -1,0 +1,213 @@
+{
+  "_meta": {
+    "source": "CTOC14_problem.pdf (第十四届全国空间轨道设计竞赛 题目甲, 10 pages) — authoritative; this file is a machine-readable transcription plus verification notes",
+    "problem_title_zh": "近地小行星防御多航天器遍历探测轨道设计与优化",
+    "setter": "太空系统运行与控制全国重点实验室 (State Key Laboratory of Space System Operation and Control)",
+    "extracted_on": "2026-09-05",
+    "verification": "All constants re-read from the PDF text (pdftotext). The Section 6.2 example lines were reproduced numerically: Earth position at t=0 to 0.5 m, launch v_inf = 4.000000 km/s, two-body coast line1->line2 to 3 m, asteroid 174 distance at the Event=3 time = 9 m, thrust-arc mass column reproduced to 2e-10 kg with the centred 0-based Lagrange window (see thrust_interpolation.confirmed_reading)."
+  },
+
+  "constants": {
+    "mu_sun": {"value": 1.32712440018e11, "unit": "km^3/s^2", "pdf": "Table 2"},
+    "AU": {"value": 149597870.7, "unit": "km", "pdf": "Table 2"},
+    "g0": {"value": 9.80665, "unit": "m/s^2", "pdf": "Table 2, eq (3)"},
+    "Isp": {"value": 4000.0, "unit": "s", "pdf": "Table 2, eq (3)"},
+    "T_max": {"value": 0.5, "unit": "N", "pdf": "Table 2, eq (2)"},
+    "m_dry": {"value": 600.0, "unit": "kg", "pdf": "eq (10)"},
+    "m0_max": {"value": 2000.0, "unit": "kg", "pdf": "eq (11)"},
+    "v_inf_max": {"value": 4.0, "unit": "km/s", "pdf": "eq (9)"},
+    "d_flyby_max": {"value": 1000.0, "unit": "km", "pdf": "eq (13)"},
+    "dt_sample_min": {"value": 8640.0, "unit": "s", "note": "0.1 day; minimum spacing of adjacent Event=1 lines inside one thrust arc (Event=3 lines in between are ignored)", "pdf": "Table 2, rule 6.1-4"},
+    "mission_duration": {"value": 473364000.0, "unit": "s", "equivalent": {"days": 5478.75, "years_julian": 15}, "pdf": "eq (14)"},
+    "exhaust_velocity": {"value": 39.2266, "unit": "km/s", "derived": "Isp*g0 = 39226.6 m/s"},
+    "mass_flow_at_Tmax": {"value": 1.27465e-05, "unit": "kg/s", "derived": "T_max/(Isp*g0)"},
+    "N_asteroids": 300,
+    "fuel_cost_normaliser": {"value": 1400.0, "unit": "kg", "pdf": "eq (15): x_i = (m0_i - m_dry)/1400"}
+  },
+
+  "epochs": {
+    "t0_mission_start": {"mjd": 62502.0, "utc": "2030-01-01T00:00:00", "note": "Time column = seconds since t0; t=0 is a legal launch time (used in the PDF example)"},
+    "t_end_mission": {"mjd": 67980.75, "utc": "2044-12-31T18:00:00", "seconds_since_t0": 473364000.0},
+    "earth_elements_epoch": {"mjd": 60676.0, "utc": "2025-01-01T00:00:00", "seconds_before_t0": 157766400.0},
+    "asteroid_elements_epoch": {"mjd": 61200.0, "utc": "2026-06-09T00:00:00", "seconds_before_t0": 112492800.0},
+    "note": "M(t) = M0 + n*(t - t_eph) with t - t_eph in SECONDS (MJD difference * 86400); n = sqrt(mu_sun / (a*AU)^3) in rad/s; M0 in degrees must be converted."
+  },
+
+  "frame": {
+    "name": "Heliocentric Ecliptic Inertial J2000 (HEI)",
+    "origin": "Sun barycentre/centre (太阳质心)",
+    "xy_plane": "J2000.0 ecliptic",
+    "x_axis": "J2000.0 vernal equinox",
+    "z_axis": "ecliptic north pole, right-handed",
+    "units_in_file": {"time": "s since t0", "position": "km", "velocity": "km/s", "mass": "kg", "thrust": "N"}
+  },
+
+  "dynamics": {
+    "equation": "r'' = -mu_sun r / |r|^3 + (T/m) u ; m' = -T/(Isp g0) ; T = |T_vec(t)| with T_vec the interpolated thrust (m' = -|T_vec(t)|/(Isp g0))",
+    "unit_caution": "T/m is in m/s^2 (N/kg); divide by 1000 to get km/s^2 when the state is in km. Verified against the PDF example.",
+    "thrust_bounds": "0 <= |T| <= 0.5 N at ALL times (including between samples); u unit vector when T>0",
+    "coast": "T = 0 => mass constant",
+    "perturbations": "none (pure two-body, Sun only); no planetary/asteroid gravity; gravity assists forbidden and not modelled",
+    "earth_return": "not required; a spacecraft ends its mission with an Event=4 line anywhere"
+  },
+
+  "earth_elements": {
+    "epoch_mjd": 60676.0,
+    "a_AU": 1.0009175020,
+    "e": 0.017566762041,
+    "i_deg": 0.002976847126,
+    "Omega_deg": 189.953211282428,
+    "omega_deg": 273.196254000254,
+    "M0_deg": 357.4135031077,
+    "derived": {"period_days": 365.7597, "mean_motion_rad_s": 1.988247e-07},
+    "verified_state_at_t0": {
+      "r_km": [-19500328.647, 145818483.47, -7637.2048832],
+      "v_km_s": [-30.0222475, -4.06575719, -6.15467283e-05],
+      "note": "position matches PDF example line 1 to 0.5 m; example launch velocity differs from v_earth by exactly 4.000000 km/s"
+    }
+  },
+
+  "asteroid_catalogue": {
+    "file": "MEA.txt",
+    "columns": ["ID", "a[AU]", "e", "i[deg]", "Omega[deg]", "omega[deg]", "M[deg]"],
+    "epoch_mjd": 61200.0,
+    "ids": "1..300 consecutive (verified)",
+    "comment_lines": "lines starting with # allowed",
+    "population_ranges_verified": {"a_AU": [0.6352, 17.8136], "e": [0.0739, 0.9470], "i_deg": [0.45, 134.0], "q_AU": [0.1403, 1.0450], "Q_AU": [0.9591, 34.683], "count_e_gt_0.5": 206, "count_i_gt_20deg": 105, "count_a_gt_2AU": 131}
+  },
+
+  "constraints": {
+    "launch": {
+      "t_launch": "t_launch >= 0 (seconds since t0) and <= mission_duration",
+      "position": "r_sc(t_launch) = r_earth(t_launch); validator tolerance 1 km",
+      "v_inf": "|v_sc(t_launch) - v_earth(t_launch)| <= 4 km/s, any direction; validator tolerance 0.01 km/s",
+      "line": "Event=0 line: thrust columns (0,0,0), Asteroid_ID 0, mass column = m0_i (used in the cost)"
+    },
+    "mass": {
+      "m0": "600 <= m0_i <= 2000 kg (m_fuel >= 0)",
+      "m_t": "m(t) >= 600 kg at all times",
+      "consistency": "mass on each line must equal the integrated mass from the previous line within 0.01 kg"
+    },
+    "thrust": {
+      "sample_lines": "each Event=1 line: |T| <= 0.5 N",
+      "continuous": "interpolated |T(t)| <= 0.5 N at every instant (validator checks throughout its integration); any exceedance = violation",
+      "other_lines": "Event=0/2/3/4 lines must have thrust columns exactly (0,0,0)",
+      "spacing": "adjacent Event=1 lines within an arc >= 8640 s apart (Event=3 lines in between ignored)"
+    },
+    "flyby": {
+      "condition": "|r_sc(t) - r_ast(t)| <= 1000 km at the Time of an Event=3 line whose Asteroid_ID names the asteroid (1..300)",
+      "declaration": "ONLY Event=3 lines count; undeclared close approaches are ignored",
+      "repeats": "only the first detection of each asteroid (over all spacecraft) counts; repeats are neither scored nor penalised, but every Event=3 line must itself satisfy d <= 1000 km",
+      "window": "must satisfy 0 <= t <= mission_duration"
+    },
+    "time_window": {
+      "rule": "ALL lines (Event 0,1,2,3,4) must have 0 <= Time <= 473364000 s (validator format check); flybys outside the window are not counted (Sec 5.1)",
+      "absolute": "window is absolute (fixed calendar dates); late launch does not extend the end"
+    },
+    "misc": ["no gravity assists (planet or asteroid)", "thrust direction/magnitude free within 0..0.5 N", "no Earth return required", "N >= 1 spacecraft, no stated upper bound on N"]
+  },
+
+  "cost": {
+    "per_spacecraft": "J_i = 1 + x_i + x_i^2, x_i = (m0_i - 600)/1400 in [0,1]; m0_i read from the Event=0 line mass column",
+    "total": "J = sum_i J_i + N_miss, N_miss = 300 - N_covered",
+    "ranking": "smaller J_final better",
+    "time_coefficient": {
+      "k": "k = 1 - 0.1 * (t_end - t_submit)/(t_end - t_start), k=0.9 at competition start, 1.0 at deadline",
+      "J_final": "J_final = k * J",
+      "multiple_submissions": "k is computed from the time of the LAST valid submission; submissions after t_end are not scored",
+      "t_start_t_end": "announced on the competition website (not in the PDF)"
+    },
+    "derived_fuel_cost_table": [
+      {"dv_km_s": 1.0, "m_fuel_kg": 15.5, "J_i": 1.0112, "burn_days_at_Tmax": 14.1},
+      {"dv_km_s": 5.0, "m_fuel_kg": 81.6, "J_i": 1.0617, "burn_days_at_Tmax": 74.1},
+      {"dv_km_s": 10.0, "m_fuel_kg": 174.2, "J_i": 1.1399, "burn_days_at_Tmax": 158.2},
+      {"dv_km_s": 20.0, "m_fuel_kg": 399.0, "J_i": 1.3663, "burn_days_at_Tmax": 362.3},
+      {"dv_km_s": 30.0, "m_fuel_kg": 689.1, "J_i": 1.7345, "burn_days_at_Tmax": 625.7},
+      {"dv_km_s": 47.2278, "m_fuel_kg": 1400.0, "J_i": 3.0, "burn_days_at_Tmax": 1271.2}
+    ],
+    "derived_notes": [
+      "empty spacecraft costs 1 = one missed asteroid, so a spacecraft must cover >= 2 asteroids to be strictly worthwhile",
+      "marginal fuel cost is tiny at low loads: ~0.011 cost units per km/s of dv (final mass 600 kg); the quadratic term only becomes significant for x > ~0.3 (m0 > ~1000 kg)",
+      "benchmark cost per asteroid: ballistic double = 0.5; x=0.5 spacecraft (30 km/s) covering 4 = 0.43; full tank covering 7 = 0.43"
+    ]
+  },
+
+  "submission_file": {
+    "filename": "CTOC14_Result_TeamID.txt",
+    "encoding": "UTF-8 text",
+    "separator": "spaces or tabs",
+    "comments": "blank lines and lines starting with # are ignored",
+    "ordering": "sorted by SC_ID ascending, then Time strictly increasing within a spacecraft",
+    "precision": "double precision recommended; >= 10 significant digits recommended (%.10e or %.17g) — use %.17g",
+    "columns": [
+      {"col": 1, "name": "Line", "type": "int", "desc": "line number, positive integer (use global consecutive numbering)"},
+      {"col": 2, "name": "SC_ID", "type": "int", "desc": "spacecraft id, consecutive from 1"},
+      {"col": 3, "name": "Event", "type": "int", "desc": "0 launch, 1 thrust sample, 2 coast node, 3 asteroid flyby, 4 mission end"},
+      {"col": 4, "name": "Time", "type": "float", "unit": "s", "desc": "seconds since t0 (MJD 62502.0)"},
+      {"col": "5-7", "name": "x y z", "type": "float", "unit": "km", "desc": "heliocentric ecliptic J2000 position"},
+      {"col": "8-10", "name": "vx vy vz", "type": "float", "unit": "km/s", "desc": "heliocentric ecliptic J2000 velocity"},
+      {"col": 11, "name": "m", "type": "float", "unit": "kg", "desc": "spacecraft mass at Time"},
+      {"col": "12-14", "name": "Tx Ty Tz", "type": "float", "unit": "N", "desc": "thrust vector; meaningful only on Event=1 lines; must be (0,0,0) on Event=0/2/3/4 lines (even for an Event=3 line inside a thrust arc)"},
+      {"col": 15, "name": "Asteroid_ID", "type": "int", "desc": "asteroid id 1..300 on Event=3 lines, 0 otherwise"}
+    ],
+    "event_codes": {
+      "0": {"name": "launch", "rules": "first line of each spacecraft; position = Earth (1 km), v_inf <= 4 km/s (0.01 km/s tol); mass = m0_i; thrust (0,0,0)"},
+      "1": {"name": "thrust sample", "rules": "a maximal run of consecutive Event=1 lines (Event=3 lines allowed inside) is one thrust arc; thrust vector at this instant; |T| <= 0.5; spacing >= 8640 s"},
+      "2": {"name": "coast node", "rules": "pure trajectory node with zero thrust; splits long integration segments; SEPARATES thrust arcs (an Event=2 between Event=1 lines ends one arc and starts another)"},
+      "3": {"name": "asteroid flyby", "rules": "records the state at the flyby time; Asteroid_ID 1..300; d <= 1000 km; does not change thrust state; if inside an arc the thrust at that instant is the arc interpolant; thrust columns still (0,0,0)"},
+      "4": {"name": "mission end", "rules": "last line of each spacecraft; thrust (0,0,0); Time <= mission_duration"}
+    },
+    "per_spacecraft_structure": "Event=0, then any sequence of Event 1/2/3 lines with strictly increasing Time, then Event=4"
+  },
+
+  "thrust_interpolation": {
+    "rule_text_zh": "设某推力弧有 n 个采样点，时刻 t1<...<tn，当 t∈[t1,tn] 时，推力的每个分量由采样值做 3 阶滑动窗口 Lagrange 插值确定——定位 t 所在区间 j (tj<=t<=tj+1)，窗口起点 l=j-1 并截断到 [0,n-4]，用窗口内 4 个采样点插值；当 n<4 时，改用全部 n 个采样点做 n-1 阶插值。当 t 在 [t1,tn] 之外时推力为零（即弧首、弧尾处推力瞬时开关）。飞越行时刻的推力同样按所在推力弧的插值确定。",
+    "componentwise": true,
+    "order": "cubic (4 samples) for n >= 4; degree n-1 using all samples for n < 4 (n=1 constant on a single instant, n=2 linear, n=3 quadratic)",
+    "window": "0-based sample indices s[0..n-1]; interval j = largest index with s_t[j] <= t (clipped to 0..n-2); l = min(max(j-1, 0), n-4); window = samples l, l+1, l+2, l+3",
+    "outside_arc": "T(t) = 0 for t < t1 or t > tn; instantaneous switch on/off at the first/last sample",
+    "mass_flow": "m' = -|T_vec(t)|/(Isp g0) using the NORM OF THE INTERPOLATED VECTOR (not the interpolated norm)",
+    "index_base_ambiguity": "PDF text uses 1-based t_1..t_n but the clip range [0, n-4] is 0-based. Two readings: (A) 0-based j, window {j-1,j,j+1,j+2} = two samples each side of the interval (centred) with clipping at the ends; (B) 1-based j, window {j,j+1,j+2,j+3} (forward-biased). They coincide on the first interval and differ elsewhere.",
+    "confirmed_reading": "A (centred, 0-based). Evidence: reconstructing the PDF example arc (41 samples, dt=86400 s, |T_k| = 0.5 sin(pi k/40), direction rotating 9 deg/sample about +z at elevation 17.188734 deg, azimuth 40.107046 + 9k deg) and integrating line 4 -> line 5 reproduces the printed mass 1999.8273580 kg to 2e-10 kg and the position to 3 m with reading A; reading B gives a 1.5e-5 kg mass error and 57 m position error (both would still pass the tolerances, but only A matches the printed digits).",
+    "example_arc_reconstruction": {
+      "n_samples": 41, "dt_s": 86400.0, "t_first_s": 10008489.152,
+      "magnitude_N": "0.5*sin(pi*k/40), k=0..40",
+      "direction": "azimuth = 40.107046 deg + 9 deg * k (in ecliptic xy-plane, about +z), elevation = 17.188734 deg (constant)",
+      "reproduces_samples": "k=1: (2.4534511893e-02, 2.8330454030e-02, 1.1593124092e-02); k=2: (3.9479106603e-02, 6.3443225699e-02, 2.3114772719e-02) to 2e-13 N"
+    }
+  },
+
+  "validator_checks": [
+    {"id": "format", "check": "blank/# lines ignored; SC_ID consecutive from 1; per SC first line Event=0 and last Event=4; Time strictly increasing within SC; adjacent Event=1 lines in an arc >= 8640 s apart; every line 0 <= Time <= 473364000 s"},
+    {"id": "dynamics", "check": "starting from EACH line's state, integrate eq (1) with the interpolated thrust to the next line's Time; compare with that line: |dr| <= 1 km, |dv| <= 1 m/s (0.001 km/s), |dm| <= 0.01 kg. Each segment is checked independently from the submitted state (no error accumulation)."},
+    {"id": "launch", "check": "Event=0 position within 1 km of Earth ephemeris; v_inf <= 4 km/s with 0.01 km/s tolerance"},
+    {"id": "thrust", "check": "each Event=1 line |T| <= 0.5 N; interpolated |T(t)| checked throughout the integration, any instant > 0.5 N is a violation; Event=0/2/3/4 thrust columns must be (0,0,0)"},
+    {"id": "flyby", "check": "for each Event=3 line: Asteroid_ID in 1..300, distance between the line's position and the Keplerian asteroid position at Time <= 1000 km; only first detection per asteroid counts; undeclared approaches ignored"},
+    {"id": "mass", "check": "m0_i <= 2000 kg (Event=0 mass column); m >= 600 kg at all times; line-to-line mass consistent with integration within 0.01 kg"},
+    {"id": "coverage_cost", "check": "N_covered = number of distinct asteroids detected with t <= T_max; N_miss = 300 - N_covered; J = sum(1 + x_i + x_i^2) + N_miss with m0_i from Event=0 lines; ranking by J_final = k*J ascending"}
+  ],
+
+  "tolerances": {
+    "position_consistency_km": 1.0,
+    "velocity_consistency_km_s": 0.001,
+    "mass_consistency_kg": 0.01,
+    "launch_position_km": 1.0,
+    "v_inf_km_s": 0.01,
+    "flyby_distance_km": 1000.0,
+    "thrust_magnitude_N": 0.5,
+    "thrust_tolerance": "none stated — treat 0.5 N as a hard bound with your own margin"
+  },
+
+  "pdf_example_lines": {
+    "note": "Section 6.2, spacecraft 1; usable as validator/propagator test vectors (verified in this repo to metre level)",
+    "lines": [
+      [1, 1, 0, 0.0000000000e+00, -1.9500328647e+07, 1.4581848347e+08, -7.6372048832e+03, -2.9389477847e+01, -4.3166912970e+00, -3.9417153392e+00, 2.0000000000e+03, 0.0, 0.0, 0.0, 0],
+      [2, 1, 3, 1.0008479152e+07, -1.1398611209e+08, -8.7213961221e+07, -1.6523817305e+07, 1.8269315350e+01, -2.4357060498e+01, 1.9760173753e+00, 2.0000000000e+03, 0.0, 0.0, 0.0, 174],
+      [3, 1, 1, 1.0008489152e+07, -1.1398592940e+08, -8.7214204791e+07, -1.6523797545e+07, 1.8269365516e+01, -2.4357022114e+01, 1.9760246476e+00, 2.0000000000e+03, 0.0, 0.0, 0.0, 0],
+      [4, 1, 1, 1.0094889152e+07, -1.1238880278e+08, -8.9304194192e+07, -1.6350356961e+07, 1.8700314237e+01, -2.4020840117e+01, 2.0387760044e+00, 1.9999567651e+03, 2.4534511893e-02, 2.8330454030e-02, 1.1593124092e-02, 0],
+      [5, 1, 1, 1.0181289152e+07, -1.1075466879e+08, -9.1364740090e+07, -1.6171502174e+07, 1.9125924514e+01, -2.3675430238e+01, 2.1013494039e+00, 1.9998273580e+03, 3.9479106603e-02, 6.3443225699e-02, 2.3114772719e-02, 0]
+    ],
+    "description": "launch at t=0 with v_inf = 4.000 km/s -> 115.8 d coast -> flyby of asteroid 174 (relative speed 11.78 km/s) -> 10 s later a 41-sample thrust arc (dt = 86400 s, smooth ramp 0 -> 0.5 -> 0 N, direction rotating uniformly in inertial space) -> coast -> Event=4",
+    "verified": {"earth_position_error_km": 0.0005, "v_inf_km_s": 4.000000, "coast_1_to_2_error_km": 0.0032, "asteroid_174_distance_km": 0.009, "arc_mass_error_kg_reading_A": 2e-10, "arc_position_error_km_reading_A": 0.003}
+  }
+}

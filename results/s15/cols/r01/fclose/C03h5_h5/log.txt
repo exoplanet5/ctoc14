@@ -1,0 +1,7 @@
+[21:08:48]     absorb[route_06+[]]: 4 approaches of [110, 143, 199, 288]; lintwin 110@869d 0.120AU 48kg, 199@1841d 0.116AU 71kg, 143@4907d 0.165AU 1183kg, 288@2775d 0.109AU 1811kg
+[21:08:52]     absorb[route_06+[]]: insert 110 at 869 d (lintwin 48 kg) -> OK tank 1006 (+45.2 kg) (4 s)
+[21:09:00]     absorb[route_06+[]]: insert 199 at 1841 d (lintwin 71 kg) -> OK tank 1051 (+90.0 kg) (8 s)
+[21:09:01]     absorb[route_06+[110]]: 3 approaches of [143, 199, 288]; lintwin 199@1841d 0.116AU 72kg, 288@2767d 0.109AU 645kg, 143@4911d 0.165AU 898kg
+[21:09:07]     absorb[route_06+[110]]: insert 199 at 1841 d (lintwin 72 kg) -> OK tank 1100 (+94.1 kg) (6 s)
+[21:09:07]     absorb[route_06+[110, 199]]: 2 approaches of [143, 288]; lintwin 143@4907d 0.165AU 307kg, 288@2771d 0.109AU 1490kg
+[21:09:07] close C03h5_h5 done: 2 columns (21 s)

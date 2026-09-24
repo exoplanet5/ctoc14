@@ -1,0 +1,257 @@
+{
+ "files": 16,
+ "load": {
+  "ok": 16
+ },
+ "columns": 11,
+ "union": 287,
+ "N": {
+  "8": {
+   "craft": 8,
+   "covered": 273,
+   "sumJi": 10.4667,
+   "J": 37.4667,
+   "status": "Optimization terminated successfully. (HiGHS Status 7: Optim",
+   "picks": [
+    {
+     "f": "results/s13/plan13/tail_N6a_k5/fleet/route_01.npz",
+     "n": 48,
+     "tank": 1048.383,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/plan13/tail_N6a_k5/fleet/route_03.npz",
+     "n": 42,
+     "tank": 992.725,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/plan13/tail_N6a_k5/fleet/route_02.npz",
+     "n": 39,
+     "tank": 1038.129,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/plan13/tail_N6a_k5/fleet/route_04.npz",
+     "n": 36,
+     "tank": 929.655,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/plan13/tail_N6a_k5/fleet/route_05.npz",
+     "n": 34,
+     "tank": 880.164,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/plan13/tail_N6a_k5/fleet/route_06.npz",
+     "n": 31,
+     "tank": 937.482,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/plan13/tail_N6a_k5/fleet/route_07.npz",
+     "n": 25,
+     "tank": 948.38,
+     "resettled": true
+    },
+    {
+     "f": "results/s13/plan13/tail_N6a_k5/fleet/route_08.npz",
+     "n": 18,
+     "tank": 766.127,
+     "resettled": true
+    }
+   ],
+   "dup_targets": [],
+   "strip": null,
+   "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/gen/g00/master/N8/fleet",
+   "lp": 37.4757,
+   "dropped": []
+  }
+ },
+ "frontier": {
+  "8": {
+   "10.55": {
+    "craft": 8,
+    "covered": 273,
+    "sumJi": 10.4667,
+    "J": 37.4667,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optim",
+    "picks": [
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_01.npz",
+      "n": 48,
+      "tank": 1048.383,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_03.npz",
+      "n": 42,
+      "tank": 992.725,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_02.npz",
+      "n": 39,
+      "tank": 1038.129,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_04.npz",
+      "n": 36,
+      "tank": 929.655,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_05.npz",
+      "n": 34,
+      "tank": 880.164,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_06.npz",
+      "n": 31,
+      "tank": 937.482,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_07.npz",
+      "n": 25,
+      "tank": 948.38,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_08.npz",
+      "n": 18,
+      "tank": 766.127,
+      "resettled": true
+     }
+    ],
+    "dup_targets": [],
+    "strip": null,
+    "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/gen/g00/master/N8_B10.55/fleet"
+   },
+   "10.6": {
+    "craft": 8,
+    "covered": 273,
+    "sumJi": 10.4667,
+    "J": 37.4667,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optim",
+    "picks": [
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_01.npz",
+      "n": 48,
+      "tank": 1048.383,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_03.npz",
+      "n": 42,
+      "tank": 992.725,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_02.npz",
+      "n": 39,
+      "tank": 1038.129,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_04.npz",
+      "n": 36,
+      "tank": 929.655,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_05.npz",
+      "n": 34,
+      "tank": 880.164,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_06.npz",
+      "n": 31,
+      "tank": 937.482,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_07.npz",
+      "n": 25,
+      "tank": 948.38,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_08.npz",
+      "n": 18,
+      "tank": 766.127,
+      "resettled": true
+     }
+    ],
+    "dup_targets": [],
+    "strip": null,
+    "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/gen/g00/master/N8_B10.6/fleet"
+   },
+   "10.75": {
+    "craft": 8,
+    "covered": 273,
+    "sumJi": 10.4667,
+    "J": 37.4667,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optim",
+    "picks": [
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_01.npz",
+      "n": 48,
+      "tank": 1048.383,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_03.npz",
+      "n": 42,
+      "tank": 992.725,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_02.npz",
+      "n": 39,
+      "tank": 1038.129,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_04.npz",
+      "n": 36,
+      "tank": 929.655,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_05.npz",
+      "n": 34,
+      "tank": 880.164,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_06.npz",
+      "n": 31,
+      "tank": 937.482,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_07.npz",
+      "n": 25,
+      "tank": 948.38,
+      "resettled": true
+     },
+     {
+      "f": "results/s13/plan13/tail_N6a_k5/fleet/route_08.npz",
+      "n": 18,
+      "tank": 766.127,
+      "resettled": true
+     }
+    ],
+    "dup_targets": [],
+    "strip": null,
+    "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/gen/g00/master/N8_B10.75/fleet"
+   }
+  }
+ },
+ "wall_s": 10.3
+}

@@ -1,0 +1,18 @@
+roots: 1912 launch options
+depth   2:    754 children -> beam  300; best n=2 t= 1.60yr fuel=    41kg dv_sum=  0.8 launch=   60d
+depth   3:    923 children -> beam  300; best n=3 t= 2.42yr fuel=   134kg dv_sum=  2.6 launch=   60d
+depth   4:    689 children -> beam  300; best n=4 t= 3.13yr fuel=   159kg dv_sum=  3.1 launch=   60d
+depth   5:    632 children -> beam  300; best n=5 t= 4.53yr fuel=   223kg dv_sum=  4.6 launch=   60d
+depth   6:    660 children -> beam  300; best n=6 t= 3.93yr fuel=   408kg dv_sum=  8.1 launch=  260d
+depth   7:    654 children -> beam  300; best n=7 t= 4.59yr fuel=   435kg dv_sum=  8.8 launch=  260d
+depth   8:    687 children -> beam  300; best n=8 t= 6.05yr fuel=   404kg dv_sum=  8.3 launch=  220d
+depth   9:    621 children -> beam  300; best n=9 t= 6.87yr fuel=   447kg dv_sum=  9.4 launch=  220d
+depth  10:    472 children -> beam  300; best n=10 t= 7.56yr fuel=   502kg dv_sum= 10.8 launch=  220d
+depth  11:    617 children -> beam  300; best n=11 t= 9.40yr fuel=   582kg dv_sum= 12.8 launch=  220d
+depth  12:    503 children -> beam  300; best n=12 t=11.05yr fuel=   606kg dv_sum= 13.5 launch=  220d
+depth  13:    331 children -> beam  261; best n=13 t=11.39yr fuel=   730kg dv_sum= 17.0 launch=  220d
+depth  14:    148 children -> beam  125; best n=14 t=12.50yr fuel=   781kg dv_sum= 18.8 launch=   60d
+depth  15:     69 children -> beam   58; best n=15 t=12.68yr fuel=   853kg dv_sum= 20.1 launch=  160d
+depth  16:     16 children -> beam   14; best n=16 t=13.61yr fuel=   970kg dv_sum= 24.5 launch=  360d
+BEST: 16 flybys, fuel 970 kg, launch day 360, end 13.61 yr, runtime 152 s
+sequence: [89, 204, 285, 17, 282, 94, 192, 22, 233, 158, 96, 107, 225, 221, 140, 280]

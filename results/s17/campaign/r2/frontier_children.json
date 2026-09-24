@@ -1,0 +1,68 @@
+[
+ {
+  "N": 9,
+  "K": 298,
+  "msg": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+  "sec": 420,
+  "bound": 11.425926540282104,
+  "sumJi": 11.722740157582226,
+  "covered": 298,
+  "misses": [],
+  "picks": [
+   {
+    "kind": "parent",
+    "n": 42,
+    "tank": 944.4,
+    "f": "results/s16/polish/D/cols/route_r1_pT07a_42.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 41,
+    "tank": 908.9,
+    "f": "results/s16/polish/C/cols/route_r2_s0_41.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 41,
+    "tank": 986.3,
+    "f": "results/s16/polish/D/cols/route_r3_pT03e_41.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 38,
+    "tank": 913.1,
+    "f": "results/s16/polish/D/cols/route_r4_pT03e_38.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 31,
+    "tank": 958.1,
+    "f": "results/s16/polish/C/cols/route_r6_pT03c_31.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 30,
+    "tank": 901.5,
+    "f": "results/s16/polish/D/cols/route_r6_pT07b_30.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 30,
+    "tank": 1017.1,
+    "f": "results/s16/polish/D/cols/route_r7_pT03f_30.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 24,
+    "tank": 927.2,
+    "f": "results/s16/polish/D/cols/route_r8_pT03f_24.npz"
+   },
+   {
+    "kind": "parent",
+    "n": 21,
+    "tank": 902.8,
+    "f": "results/s16/polish/D/cols/route_r9_pT03f_21.npz"
+   }
+  ]
+ }
+]

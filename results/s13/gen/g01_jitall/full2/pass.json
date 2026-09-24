@@ -1,0 +1,98 @@
+{
+ "args": {
+  "out": "results/s13/gen/g01/full2",
+  "start": "",
+  "keep": "",
+  "prem": "results/s13/gen/prem/PREM_01.json",
+  "delta": 0.01,
+  "dvt": 1.8,
+  "beam": 100,
+  "npt": 6,
+  "mc": 150,
+  "tail_from": 6,
+  "members": "T1,T2,T3,T5,T6",
+  "kappa": 90.0,
+  "cap_head": 1050.0,
+  "cap_tail": 1080.0,
+  "grid": "0,800,20",
+  "pilot": 0,
+  "seed": 1002,
+  "jitter": 0.004,
+  "nproc": 1,
+  "repair": true,
+  "n": 8,
+  "cache": "results/s13/gen/cache",
+  "choice": "value",
+  "settle_timeout": 240.0
+ },
+ "lam": {
+  "n_prem": 67,
+  "n_pos": 183,
+  "n_neg": 117,
+  "mean": 0.0022,
+  "max": 0.0139,
+  "prize_min": 1.0,
+  "prize_max": 1.0139,
+  "sha1": "573787aec210",
+  "src": "results/s13/gen/prem/PREM_01.json",
+  "jitter": 0.004,
+  "seed": 1002
+ },
+ "kept": [],
+ "routes": {
+  "1": {
+   "k": 1,
+   "cap": 1050.0,
+   "pool": 298,
+   "members": [
+    "H"
+   ],
+   "fronts": {
+    "H": [
+     [
+      49,
+      1029
+     ],
+     [
+      48,
+      1025
+     ],
+     [
+      47,
+      1014
+     ],
+     [
+      46,
+      1011
+     ],
+     [
+      45,
+      1004
+     ]
+    ]
+   },
+   "beam_s": {
+    "H": 292
+   },
+   "walk": {
+    "took": null,
+    "tries": 8
+   },
+   "n": 0,
+   "sec": 353
+  }
+ },
+ "t7": null,
+ "done": true,
+ "started": "2026-09-22 11:16:21",
+ "summary": {
+  "covered": 0,
+  "sumJi": 0,
+  "J": 300,
+  "depths": [],
+  "tanks": [],
+  "n_routes": 0,
+  "wall_s": 353
+ },
+ "finished": "2026-09-22 11:22:15"
+}

@@ -1,0 +1,1 @@
+{"tag": "TC0", "out": "results/s15/cols/t03/TC0", "pool": [17, 22, 33, 64, 75, 93, 108, 110, 120, 138, 139, 145, 173, 219, 220, 280], "S": [64, 138], "p": 0.03, "steps": 1, "beam": 30, "tries": 90, "nproc": 1, "tail1": "results/s15/cols/r01/C00h6/route_C00h6s1_27.npz", "pre": ["results/s15/cols/t02/TB1f/route_TB1fs1_22.npz"], "min_save": 3, "w_fuel": 1.5}

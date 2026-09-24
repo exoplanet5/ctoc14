@@ -1,0 +1,24 @@
+[01:30:26] job s00_r0 (root, craft None): T 0 d H 540 L 360; remaining 298; prize >1 on 6, tank_prev 601.5
+[01:30:34] roots: grid (-10, 270] step 10 d -> 30 launch legs kept (7.8 s); launch 0-140 d, first flyby 70-365 d
+[01:30:34] start: 30 root state(s), remaining 298, horizon (0, 540] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[01:31:57]   price_cap: 7500 of 26200 horizon candidates priced (30 parents)
+[01:32:00] depth  2: 30/30 parents -> 2848 children (2319 unique) -> tried 8, settled 8 (8 in H), kept 6 (3 branches); t_end 174-446 d, tank 602-620 (86 s: price 83, settle 4)
+[01:32:22]   price_cap: 1500 of 4634 horizon candidates priced (6 parents)
+[01:32:24] depth  3: 6/6 parents -> 445 children (445 unique) -> tried 8, settled 8 (8 in H), kept 8 (3 branches); t_end 275-484 d, tank 612-640 (23 s: price 21, settle 2)
+[01:32:54]   price_cap: 2000 of 5960 horizon candidates priced (8 parents)
+[01:32:58] depth  4: 8/8 parents -> 534 children (534 unique) -> tried 8, settled 8 (7 in H), kept 8 (3 branches); t_end 297-545 d, tank 622-685 (34 s: price 30, settle 4)
+[01:33:29]   price_cap: 2000 of 5357 horizon candidates priced (8 parents)
+[01:33:37] depth  5: 8/8 parents -> 453 children (453 unique) -> tried 10, settled 8 (3 in H), kept 8 (3 branches); t_end 361-780 d, tank 627-771 (39 s: price 31, settle 8)
+[01:34:06]   price_cap: 1854 of 3987 horizon candidates priced (8 parents)
+[01:34:14] depth  6: 8/8 parents -> 306 children (306 unique) -> tried 9, settled 8 (3 in H, 1 drifted out), kept 8 (3 branches); t_end 437-818 d, tank 649-766 (37 s: price 29, settle 8)
+[01:34:32]   price_cap: 1133 of 2586 horizon candidates priced (8 parents)
+[01:34:56] depth  7: 8/8 parents -> 172 children (172 unique) -> tried 12, settled 8 (0 in H), kept 8 (3 branches); t_end 583-895 d, tank 666-714 (42 s: price 18, settle 24)
+[01:35:04]   price_cap: 531 of 1000 horizon candidates priced (7 parents)
+[01:35:09] depth  8: 7/8 parents -> 58 children (58 unique) -> tried 8, settled 8 (0 in H), kept 8 (3 branches); t_end 660-866 d, tank 667-746 (14 s: price 9, settle 5)
+[01:35:29]   price_cap: 1162 of 1285 horizon candidates priced (8 parents)
+[01:35:39] depth  9: 8/8 parents -> 62 children (62 unique) -> tried 9, settled 8 (0 in H), kept 8 (1 branches); t_end 761-871 d, tank 684-727 (30 s: price 19, settle 11)
+[01:35:54] depth 10: 8/8 parents -> 17 children (17 unique) -> tried 9, settled 8 (0 in H, 1 drifted out), kept 8 (1 branches); t_end 856-898 d, tank 706-721 (14 s: price 9, settle 5)
+[01:35:56] depth 11: 6/8 parents -> 3 children (3 unique) -> tried 3, settled 3 (0 in H), kept 3 (1 branches); t_end 866-894 d, tank 728-755 (2 s: price 0, settle 2)
+[01:35:56] depth 12: 2/3 parents -> 0 children (0 unique) -> tried 0, settled 0 (0 in H), kept 0 (0 branches) (0 s: price 0, settle 0)
+[01:35:56] beam end {'kind': 'no_children', 'depth': 11, 'tried': 0}: 105 settled states, 84 settles (75 ok), wall 322 s (price 250, settle 72)
+[01:35:56] RESULT s00_r0: 37 columns (n_new 1-6, potential 0-5), 105 states, end no_children, wall 330 s

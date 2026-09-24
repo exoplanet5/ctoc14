@@ -1,0 +1,15 @@
+[06:34:12] prefix results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz k=33: 33 flybys to 3707 d, tank 875.7 kg, miss 76 km (1 s)
+[06:34:12] twintail X6h01k33: pool 47, S [212], p 0.5, steps 1, beam 24/72, nproc 1; resume at step 1
+[06:34:12]   RESUME level 33: beam 1, deepest 0
+[06:34:57]   depth 34: 1 parents -> 11 kids (11 uniq) -> tried 11, settled 11, kept 11; t_end 3830-4278 d, tank 885-956, max S 1 (46 s, gen 3 s)
+[06:37:08]   depth 35: 11 parents -> 83 kids (80 uniq) -> tried 24, settled 24, kept 22; t_end 3903-4558 d, tank 892-976, max S 1 (130 s, gen 36 s)
+[06:40:10]   depth 36: 22 parents -> 145 kids (138 uniq) -> tried 24, settled 24, kept 22; t_end 4080-4616 d, tank 911-995, max S 1 (182 s, gen 68 s)
+[06:43:00]   depth 37: 22 parents -> 149 kids (148 uniq) -> tried 24, settled 24, kept 23; t_end 4259-4631 d, tank 924-1005, max S 1 (170 s, gen 65 s)
+[06:45:25]   depth 38: 23 parents -> 191 kids (191 uniq) -> tried 24, settled 24, kept 24; t_end 4388-4632 d, tank 945-976, max S 1 (144 s, gen 64 s)
+[06:47:21]   depth 39: 24 parents -> 170 kids (170 uniq) -> tried 24, settled 24, kept 24; t_end 4536-4938 d, tank 948-995, max S 1 (116 s, gen 61 s)
+[06:49:04]   depth 40: 24 parents -> 172 kids (172 uniq) -> tried 24, settled 24, kept 24; t_end 4602-4936 d, tank 952-999, max S 1 (104 s, gen 54 s)
+[06:50:56]   depth 41: 24 parents -> 166 kids (166 uniq) -> tried 24, settled 24, kept 24; t_end 4633-5050 d, tank 978-1007, max S 1 (112 s, gen 48 s)
+[06:52:52]   depth 42: 24 parents -> 147 kids (147 uniq) -> tried 24, settled 24, kept 24; t_end 4868-5203 d, tank 985-1029, max S 1 (117 s, gen 43 s)
+[06:55:11]   depth 43: 24 parents -> 129 kids (129 uniq) -> tried 24, settled 24, kept 24; t_end 4938-5343 d, tank 989-1045, max S 1 (139 s, gen 35 s)
+[06:57:02]   depth 44: 24 parents -> 90 kids (90 uniq) -> tried 24, settled 24, kept 24; t_end 5036-5440 d, tank 1021-1086, max S 1 (111 s, gen 23 s)
+[07:00:43]   depth 45: 24 parents -> 40 kids (40 uniq) -> tried 27, settled 24, kept 23; t_end 5182-5441 d, tank 1032-1093, max S 1 (221 s, gen 14 s)

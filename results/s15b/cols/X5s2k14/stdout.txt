@@ -1,0 +1,7 @@
+[06:40:12] prefix results/s15b/cols/X1s2k5/route_X1s2k5s1_14.npz k=14: 14 flybys to 5189 d, tank 824.3 kg, miss 23 km (0 s)
+[06:40:12] twintail X5s2k14: pool 15, S [212], p 0.5, steps 1, beam 24/72, nproc 1; resume at step 1
+[06:40:12]   RESUME level 14: beam 1, deepest 0
+[06:40:13]   depth 15: 1 parents -> 0 kids (0 uniq) -> tried 0, settled 0, kept 0 (0 s, gen 0 s)
+[06:40:13]   step 1: nothing under the cap -> chain ends
+[06:40:13] twintail X5s2k14 done: 0 columns, covered 0/15 (0 s)
+{"covered": 0, "cols": 0, "wall_s": 0}

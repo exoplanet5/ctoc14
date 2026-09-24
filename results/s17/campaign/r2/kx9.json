@@ -1,0 +1,3269 @@
+[
+ {
+  "D": [
+   "r2"
+  ],
+  "U": 41,
+  "base": 1.2693,
+  "opt": 1.2693,
+  "gain": 0.0,
+  "kinds": [
+   "parent"
+  ],
+  "n": [
+   41
+  ],
+  "tanks": [
+   908.9
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1"
+  ],
+  "U": 42,
+  "base": 1.3065,
+  "opt": 1.3065,
+  "gain": 0.0,
+  "kinds": [
+   "parent"
+  ],
+  "n": [
+   42
+  ],
+  "tanks": [
+   944.4
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r4"
+  ],
+  "U": 38,
+  "base": 1.2737,
+  "opt": 1.2737,
+  "gain": 0.0,
+  "kinds": [
+   "parent"
+  ],
+  "n": [
+   38
+  ],
+  "tanks": [
+   913.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3"
+  ],
+  "U": 41,
+  "base": 1.3521,
+  "opt": 1.3521,
+  "gain": 0.0,
+  "kinds": [
+   "parent"
+  ],
+  "n": [
+   41
+  ],
+  "tanks": [
+   986.3
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r5"
+  ],
+  "U": 31,
+  "base": 1.3212,
+  "opt": 1.3212,
+  "gain": 0.0,
+  "kinds": [
+   "parent"
+  ],
+  "n": [
+   31
+  ],
+  "tanks": [
+   958.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r6"
+  ],
+  "U": 30,
+  "base": 1.2618,
+  "opt": 1.2618,
+  "gain": 0.0,
+  "kinds": [
+   "parent"
+  ],
+  "n": [
+   30
+  ],
+  "tanks": [
+   901.5
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r8"
+  ],
+  "U": 24,
+  "base": 1.2884,
+  "opt": 1.2884,
+  "gain": 0.0,
+  "kinds": [
+   "parent"
+  ],
+  "n": [
+   24
+  ],
+  "tanks": [
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r7"
+  ],
+  "U": 30,
+  "base": 1.3867,
+  "opt": 1.3867,
+  "gain": 0.0,
+  "kinds": [
+   "parent"
+  ],
+  "n": [
+   30
+  ],
+  "tanks": [
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r9"
+  ],
+  "U": 21,
+  "base": 1.2631,
+  "opt": 1.2631,
+  "gain": 0.0,
+  "kinds": [
+   "parent"
+  ],
+  "n": [
+   21
+  ],
+  "tanks": [
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r2"
+  ],
+  "U": 83,
+  "base": 2.5758,
+  "opt": 2.5758,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   41
+  ],
+  "tanks": [
+   944.4,
+   908.9
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r3"
+  ],
+  "U": 83,
+  "base": 2.6585,
+  "opt": 2.6585,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   41
+  ],
+  "tanks": [
+   944.4,
+   986.3
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r4"
+  ],
+  "U": 80,
+  "base": 2.5802,
+  "opt": 2.5802,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   38
+  ],
+  "tanks": [
+   944.4,
+   913.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r5"
+  ],
+  "U": 73,
+  "base": 2.6277,
+  "opt": 2.6277,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   31
+  ],
+  "tanks": [
+   944.4,
+   958.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r6"
+  ],
+  "U": 72,
+  "base": 2.5683,
+  "opt": 2.5683,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   30
+  ],
+  "tanks": [
+   944.4,
+   901.5
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r7"
+  ],
+  "U": 72,
+  "base": 2.6932,
+  "opt": 2.6932,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   30
+  ],
+  "tanks": [
+   944.4,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r8"
+  ],
+  "U": 66,
+  "base": 2.5949,
+  "opt": 2.5949,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   24
+  ],
+  "tanks": [
+   944.4,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r9"
+  ],
+  "U": 63,
+  "base": 2.5696,
+  "opt": 2.5696,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   21
+  ],
+  "tanks": [
+   944.4,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r3"
+  ],
+  "U": 82,
+  "base": 2.6214,
+  "opt": 2.6214,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   41
+  ],
+  "tanks": [
+   908.9,
+   986.3
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r4"
+  ],
+  "U": 79,
+  "base": 2.543,
+  "opt": 2.543,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   38
+  ],
+  "tanks": [
+   908.9,
+   913.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r5"
+  ],
+  "U": 72,
+  "base": 2.5905,
+  "opt": 2.5905,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   31
+  ],
+  "tanks": [
+   908.9,
+   958.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r6"
+  ],
+  "U": 71,
+  "base": 2.5311,
+  "opt": 2.5311,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   30
+  ],
+  "tanks": [
+   908.9,
+   901.5
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r7"
+  ],
+  "U": 71,
+  "base": 2.6561,
+  "opt": 2.6561,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   30
+  ],
+  "tanks": [
+   908.9,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r8"
+  ],
+  "U": 65,
+  "base": 2.5577,
+  "opt": 2.5577,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   24
+  ],
+  "tanks": [
+   908.9,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r9"
+  ],
+  "U": 62,
+  "base": 2.5324,
+  "opt": 2.5324,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   21
+  ],
+  "tanks": [
+   908.9,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r4"
+  ],
+  "U": 79,
+  "base": 2.6257,
+  "opt": 2.6257,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   38
+  ],
+  "tanks": [
+   986.3,
+   913.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r5"
+  ],
+  "U": 72,
+  "base": 2.6733,
+  "opt": 2.6733,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   31
+  ],
+  "tanks": [
+   986.3,
+   958.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r6"
+  ],
+  "U": 71,
+  "base": 2.6138,
+  "opt": 2.6138,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   30
+  ],
+  "tanks": [
+   986.3,
+   901.5
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r7"
+  ],
+  "U": 71,
+  "base": 2.7388,
+  "opt": 2.7388,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   30
+  ],
+  "tanks": [
+   986.3,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r8"
+  ],
+  "U": 65,
+  "base": 2.6404,
+  "opt": 2.6404,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   24
+  ],
+  "tanks": [
+   986.3,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r9"
+  ],
+  "U": 62,
+  "base": 2.6151,
+  "opt": 2.6151,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   21
+  ],
+  "tanks": [
+   986.3,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r4",
+   "r5"
+  ],
+  "U": 69,
+  "base": 2.5949,
+  "opt": 2.5949,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   38,
+   31
+  ],
+  "tanks": [
+   913.1,
+   958.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r4",
+   "r6"
+  ],
+  "U": 68,
+  "base": 2.5355,
+  "opt": 2.5355,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   38,
+   30
+  ],
+  "tanks": [
+   913.1,
+   901.5
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r4",
+   "r7"
+  ],
+  "U": 68,
+  "base": 2.6604,
+  "opt": 2.6604,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   38,
+   30
+  ],
+  "tanks": [
+   913.1,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r4",
+   "r8"
+  ],
+  "U": 62,
+  "base": 2.562,
+  "opt": 2.562,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   38,
+   24
+  ],
+  "tanks": [
+   913.1,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r4",
+   "r9"
+  ],
+  "U": 59,
+  "base": 2.5368,
+  "opt": 2.5368,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   38,
+   21
+  ],
+  "tanks": [
+   913.1,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r5",
+   "r6"
+  ],
+  "U": 61,
+  "base": 2.583,
+  "opt": 2.583,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   31,
+   30
+  ],
+  "tanks": [
+   958.1,
+   901.5
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r5",
+   "r7"
+  ],
+  "U": 61,
+  "base": 2.7079,
+  "opt": 2.7079,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   31,
+   30
+  ],
+  "tanks": [
+   958.1,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r5",
+   "r8"
+  ],
+  "U": 55,
+  "base": 2.6096,
+  "opt": 2.6096,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   31,
+   24
+  ],
+  "tanks": [
+   958.1,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r5",
+   "r9"
+  ],
+  "U": 52,
+  "base": 2.5843,
+  "opt": 2.5843,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   31,
+   21
+  ],
+  "tanks": [
+   958.1,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r6",
+   "r7"
+  ],
+  "U": 60,
+  "base": 2.6485,
+  "opt": 2.6485,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   30,
+   30
+  ],
+  "tanks": [
+   901.5,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r6",
+   "r8"
+  ],
+  "U": 54,
+  "base": 2.5502,
+  "opt": 2.5502,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   30,
+   24
+  ],
+  "tanks": [
+   901.5,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r6",
+   "r9"
+  ],
+  "U": 51,
+  "base": 2.5249,
+  "opt": 2.5249,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   30,
+   21
+  ],
+  "tanks": [
+   901.5,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r7",
+   "r8"
+  ],
+  "U": 54,
+  "base": 2.6751,
+  "opt": 2.6751,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   30,
+   24
+  ],
+  "tanks": [
+   1017.1,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r8",
+   "r9"
+  ],
+  "U": 45,
+  "base": 2.5515,
+  "opt": 2.5515,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   24,
+   21
+  ],
+  "tanks": [
+   927.2,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r7",
+   "r9"
+  ],
+  "U": 51,
+  "base": 2.6498,
+  "opt": 2.6498,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent"
+  ],
+  "n": [
+   30,
+   21
+  ],
+  "tanks": [
+   1017.1,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r2",
+   "r3"
+  ],
+  "U": 124,
+  "base": 3.9279,
+  "opt": 3.9279,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   41,
+   41
+  ],
+  "tanks": [
+   944.4,
+   908.9,
+   986.3
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r2",
+   "r4"
+  ],
+  "U": 121,
+  "base": 3.8495,
+  "opt": 3.8495,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   41,
+   38
+  ],
+  "tanks": [
+   944.4,
+   908.9,
+   913.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r2",
+   "r5"
+  ],
+  "U": 114,
+  "base": 3.897,
+  "opt": 3.897,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   41,
+   31
+  ],
+  "tanks": [
+   944.4,
+   908.9,
+   958.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r2",
+   "r6"
+  ],
+  "U": 113,
+  "base": 3.8376,
+  "opt": 3.8376,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   41,
+   30
+  ],
+  "tanks": [
+   944.4,
+   908.9,
+   901.5
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r2",
+   "r8"
+  ],
+  "U": 107,
+  "base": 3.8642,
+  "opt": 3.8642,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   41,
+   24
+  ],
+  "tanks": [
+   944.4,
+   908.9,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r2",
+   "r7"
+  ],
+  "U": 113,
+  "base": 3.9626,
+  "opt": 3.9626,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   41,
+   30
+  ],
+  "tanks": [
+   944.4,
+   908.9,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r2",
+   "r9"
+  ],
+  "U": 104,
+  "base": 3.8389,
+  "opt": 3.8389,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   41,
+   21
+  ],
+  "tanks": [
+   944.4,
+   908.9,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r3",
+   "r4"
+  ],
+  "U": 121,
+  "base": 3.9322,
+  "opt": 3.9322,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   41,
+   38
+  ],
+  "tanks": [
+   944.4,
+   986.3,
+   913.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r3",
+   "r5"
+  ],
+  "U": 114,
+  "base": 3.9798,
+  "opt": 3.9798,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   41,
+   31
+  ],
+  "tanks": [
+   944.4,
+   986.3,
+   958.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r3",
+   "r6"
+  ],
+  "U": 113,
+  "base": 3.9203,
+  "opt": 3.9203,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   41,
+   30
+  ],
+  "tanks": [
+   944.4,
+   986.3,
+   901.5
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r3",
+   "r8"
+  ],
+  "U": 107,
+  "base": 3.9469,
+  "opt": 3.9469,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   41,
+   24
+  ],
+  "tanks": [
+   944.4,
+   986.3,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r3",
+   "r7"
+  ],
+  "U": 113,
+  "base": 4.0453,
+  "opt": 4.0453,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   41,
+   30
+  ],
+  "tanks": [
+   944.4,
+   986.3,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r4",
+   "r5"
+  ],
+  "U": 111,
+  "base": 3.9014,
+  "opt": 3.9014,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   38,
+   31
+  ],
+  "tanks": [
+   944.4,
+   913.1,
+   958.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r3",
+   "r9"
+  ],
+  "U": 104,
+  "base": 3.9216,
+  "opt": 3.9216,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   41,
+   21
+  ],
+  "tanks": [
+   944.4,
+   986.3,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r4",
+   "r6"
+  ],
+  "U": 110,
+  "base": 3.842,
+  "opt": 3.842,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   38,
+   30
+  ],
+  "tanks": [
+   944.4,
+   913.1,
+   901.5
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r4",
+   "r7"
+  ],
+  "U": 110,
+  "base": 3.9669,
+  "opt": 3.9669,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   38,
+   30
+  ],
+  "tanks": [
+   944.4,
+   913.1,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r4",
+   "r8"
+  ],
+  "U": 104,
+  "base": 3.8685,
+  "opt": 3.8685,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   38,
+   24
+  ],
+  "tanks": [
+   944.4,
+   913.1,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r4",
+   "r9"
+  ],
+  "U": 101,
+  "base": 3.8433,
+  "opt": 3.8433,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   38,
+   21
+  ],
+  "tanks": [
+   944.4,
+   913.1,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r5",
+   "r6"
+  ],
+  "U": 103,
+  "base": 3.8895,
+  "opt": 3.8895,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   31,
+   30
+  ],
+  "tanks": [
+   944.4,
+   958.1,
+   901.5
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r5",
+   "r7"
+  ],
+  "U": 103,
+  "base": 4.0144,
+  "opt": 4.0144,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   31,
+   30
+  ],
+  "tanks": [
+   944.4,
+   958.1,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r5",
+   "r8"
+  ],
+  "U": 97,
+  "base": 3.9161,
+  "opt": 3.9161,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   31,
+   24
+  ],
+  "tanks": [
+   944.4,
+   958.1,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r5",
+   "r9"
+  ],
+  "U": 94,
+  "base": 3.8908,
+  "opt": 3.8908,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   31,
+   21
+  ],
+  "tanks": [
+   944.4,
+   958.1,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r6",
+   "r7"
+  ],
+  "U": 102,
+  "base": 3.955,
+  "opt": 3.955,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   30,
+   30
+  ],
+  "tanks": [
+   944.4,
+   901.5,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r6",
+   "r8"
+  ],
+  "U": 96,
+  "base": 3.8567,
+  "opt": 3.8567,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   30,
+   24
+  ],
+  "tanks": [
+   944.4,
+   901.5,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r6",
+   "r9"
+  ],
+  "U": 93,
+  "base": 3.8314,
+  "opt": 3.8314,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   30,
+   21
+  ],
+  "tanks": [
+   944.4,
+   901.5,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r7",
+   "r8"
+  ],
+  "U": 96,
+  "base": 3.9816,
+  "opt": 3.9816,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   30,
+   24
+  ],
+  "tanks": [
+   944.4,
+   1017.1,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r7",
+   "r9"
+  ],
+  "U": 93,
+  "base": 3.9563,
+  "opt": 3.9563,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   30,
+   21
+  ],
+  "tanks": [
+   944.4,
+   1017.1,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r1",
+   "r8",
+   "r9"
+  ],
+  "U": 87,
+  "base": 3.858,
+  "opt": 3.858,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   42,
+   24,
+   21
+  ],
+  "tanks": [
+   944.4,
+   927.2,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r3",
+   "r4"
+  ],
+  "U": 120,
+  "base": 3.8951,
+  "opt": 3.8951,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   41,
+   38
+  ],
+  "tanks": [
+   908.9,
+   986.3,
+   913.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r3",
+   "r5"
+  ],
+  "U": 113,
+  "base": 3.9426,
+  "opt": 3.9426,
+  "gain": -0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   41,
+   31
+  ],
+  "tanks": [
+   908.9,
+   986.3,
+   958.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r3",
+   "r6"
+  ],
+  "U": 112,
+  "base": 3.8832,
+  "opt": 3.8832,
+  "gain": -0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   41,
+   30
+  ],
+  "tanks": [
+   908.9,
+   986.3,
+   901.5
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r3",
+   "r7"
+  ],
+  "U": 112,
+  "base": 4.0081,
+  "opt": 4.0081,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   41,
+   30
+  ],
+  "tanks": [
+   908.9,
+   986.3,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r3",
+   "r8"
+  ],
+  "U": 106,
+  "base": 3.9097,
+  "opt": 3.9097,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   41,
+   24
+  ],
+  "tanks": [
+   908.9,
+   986.3,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r3",
+   "r9"
+  ],
+  "U": 103,
+  "base": 3.8845,
+  "opt": 3.8845,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   41,
+   21
+  ],
+  "tanks": [
+   908.9,
+   986.3,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r4",
+   "r5"
+  ],
+  "U": 110,
+  "base": 3.8642,
+  "opt": 3.8642,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   38,
+   31
+  ],
+  "tanks": [
+   908.9,
+   913.1,
+   958.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r4",
+   "r6"
+  ],
+  "U": 109,
+  "base": 3.8048,
+  "opt": 3.8048,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   38,
+   30
+  ],
+  "tanks": [
+   908.9,
+   913.1,
+   901.5
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r4",
+   "r7"
+  ],
+  "U": 109,
+  "base": 3.9297,
+  "opt": 3.9297,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   38,
+   30
+  ],
+  "tanks": [
+   908.9,
+   913.1,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r4",
+   "r8"
+  ],
+  "U": 103,
+  "base": 3.8314,
+  "opt": 3.8314,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   38,
+   24
+  ],
+  "tanks": [
+   908.9,
+   913.1,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r4",
+   "r9"
+  ],
+  "U": 100,
+  "base": 3.8061,
+  "opt": 3.8061,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   38,
+   21
+  ],
+  "tanks": [
+   908.9,
+   913.1,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r5",
+   "r6"
+  ],
+  "U": 102,
+  "base": 3.8523,
+  "opt": 3.8523,
+  "gain": -0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   31,
+   30
+  ],
+  "tanks": [
+   908.9,
+   958.1,
+   901.5
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r5",
+   "r8"
+  ],
+  "U": 96,
+  "base": 3.8789,
+  "opt": 3.8789,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   31,
+   24
+  ],
+  "tanks": [
+   908.9,
+   958.1,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r5",
+   "r7"
+  ],
+  "U": 102,
+  "base": 3.9773,
+  "opt": 3.9773,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   31,
+   30
+  ],
+  "tanks": [
+   908.9,
+   958.1,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r5",
+   "r9"
+  ],
+  "U": 93,
+  "base": 3.8536,
+  "opt": 3.8536,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   31,
+   21
+  ],
+  "tanks": [
+   908.9,
+   958.1,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r6",
+   "r7"
+  ],
+  "U": 101,
+  "base": 3.9178,
+  "opt": 3.9178,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   30,
+   30
+  ],
+  "tanks": [
+   908.9,
+   901.5,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r6",
+   "r8"
+  ],
+  "U": 95,
+  "base": 3.8195,
+  "opt": 3.8195,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   30,
+   24
+  ],
+  "tanks": [
+   908.9,
+   901.5,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r6",
+   "r9"
+  ],
+  "U": 92,
+  "base": 3.7942,
+  "opt": 3.7942,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   30,
+   21
+  ],
+  "tanks": [
+   908.9,
+   901.5,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r7",
+   "r9"
+  ],
+  "U": 92,
+  "base": 3.9192,
+  "opt": 3.9192,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   30,
+   21
+  ],
+  "tanks": [
+   908.9,
+   1017.1,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r7",
+   "r8"
+  ],
+  "U": 95,
+  "base": 3.9444,
+  "opt": 3.9444,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   30,
+   24
+  ],
+  "tanks": [
+   908.9,
+   1017.1,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r2",
+   "r8",
+   "r9"
+  ],
+  "U": 86,
+  "base": 3.8208,
+  "opt": 3.8208,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   24,
+   21
+  ],
+  "tanks": [
+   908.9,
+   927.2,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r4",
+   "r5"
+  ],
+  "U": 110,
+  "base": 3.9469,
+  "opt": 3.9469,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   38,
+   31
+  ],
+  "tanks": [
+   986.3,
+   913.1,
+   958.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r4",
+   "r6"
+  ],
+  "U": 109,
+  "base": 3.8875,
+  "opt": 3.8875,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   38,
+   30
+  ],
+  "tanks": [
+   986.3,
+   913.1,
+   901.5
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r4",
+   "r7"
+  ],
+  "U": 109,
+  "base": 4.0125,
+  "opt": 4.0125,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   38,
+   30
+  ],
+  "tanks": [
+   986.3,
+   913.1,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r4",
+   "r8"
+  ],
+  "U": 103,
+  "base": 3.9141,
+  "opt": 3.9141,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   38,
+   24
+  ],
+  "tanks": [
+   986.3,
+   913.1,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r4",
+   "r9"
+  ],
+  "U": 100,
+  "base": 3.8888,
+  "opt": 3.8888,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   38,
+   21
+  ],
+  "tanks": [
+   986.3,
+   913.1,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r5",
+   "r6"
+  ],
+  "U": 102,
+  "base": 3.935,
+  "opt": 3.935,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   31,
+   30
+  ],
+  "tanks": [
+   986.3,
+   958.1,
+   901.5
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r5",
+   "r7"
+  ],
+  "U": 102,
+  "base": 4.06,
+  "opt": 4.06,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   31,
+   30
+  ],
+  "tanks": [
+   986.3,
+   958.1,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r5",
+   "r8"
+  ],
+  "U": 96,
+  "base": 3.9616,
+  "opt": 3.9616,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   31,
+   24
+  ],
+  "tanks": [
+   986.3,
+   958.1,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r5",
+   "r9"
+  ],
+  "U": 93,
+  "base": 3.9364,
+  "opt": 3.9364,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   31,
+   21
+  ],
+  "tanks": [
+   986.3,
+   958.1,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r6",
+   "r7"
+  ],
+  "U": 101,
+  "base": 4.0006,
+  "opt": 4.0006,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   30,
+   30
+  ],
+  "tanks": [
+   986.3,
+   901.5,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r6",
+   "r8"
+  ],
+  "U": 95,
+  "base": 3.9022,
+  "opt": 3.9022,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   30,
+   24
+  ],
+  "tanks": [
+   986.3,
+   901.5,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r6",
+   "r9"
+  ],
+  "U": 92,
+  "base": 3.8769,
+  "opt": 3.8769,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   30,
+   21
+  ],
+  "tanks": [
+   986.3,
+   901.5,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r7",
+   "r8"
+  ],
+  "U": 95,
+  "base": 4.0272,
+  "opt": 4.0272,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   30,
+   24
+  ],
+  "tanks": [
+   986.3,
+   1017.1,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r7",
+   "r9"
+  ],
+  "U": 92,
+  "base": 4.0019,
+  "opt": 4.0019,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   30,
+   21
+  ],
+  "tanks": [
+   986.3,
+   1017.1,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r4",
+   "r5",
+   "r6"
+  ],
+  "U": 99,
+  "base": 3.8567,
+  "opt": 3.8567,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   38,
+   31,
+   30
+  ],
+  "tanks": [
+   913.1,
+   958.1,
+   901.5
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r3",
+   "r8",
+   "r9"
+  ],
+  "U": 86,
+  "base": 3.9035,
+  "opt": 3.9035,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   41,
+   24,
+   21
+  ],
+  "tanks": [
+   986.3,
+   927.2,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r4",
+   "r5",
+   "r8"
+  ],
+  "U": 93,
+  "base": 3.8833,
+  "opt": 3.8833,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   38,
+   31,
+   24
+  ],
+  "tanks": [
+   913.1,
+   958.1,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r4",
+   "r5",
+   "r7"
+  ],
+  "U": 99,
+  "base": 3.9816,
+  "opt": 3.9816,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   38,
+   31,
+   30
+  ],
+  "tanks": [
+   913.1,
+   958.1,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r4",
+   "r5",
+   "r9"
+  ],
+  "U": 90,
+  "base": 3.858,
+  "opt": 3.858,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   38,
+   31,
+   21
+  ],
+  "tanks": [
+   913.1,
+   958.1,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r4",
+   "r6",
+   "r7"
+  ],
+  "U": 98,
+  "base": 3.9222,
+  "opt": 3.9222,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   38,
+   30,
+   30
+  ],
+  "tanks": [
+   913.1,
+   901.5,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r4",
+   "r6",
+   "r8"
+  ],
+  "U": 92,
+  "base": 3.8238,
+  "opt": 3.8238,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   38,
+   30,
+   24
+  ],
+  "tanks": [
+   913.1,
+   901.5,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r4",
+   "r6",
+   "r9"
+  ],
+  "U": 89,
+  "base": 3.7986,
+  "opt": 3.7986,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   38,
+   30,
+   21
+  ],
+  "tanks": [
+   913.1,
+   901.5,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r4",
+   "r7",
+   "r8"
+  ],
+  "U": 92,
+  "base": 3.9488,
+  "opt": 3.9488,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   38,
+   30,
+   24
+  ],
+  "tanks": [
+   913.1,
+   1017.1,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r4",
+   "r7",
+   "r9"
+  ],
+  "U": 89,
+  "base": 3.9235,
+  "opt": 3.9235,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   38,
+   30,
+   21
+  ],
+  "tanks": [
+   913.1,
+   1017.1,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r4",
+   "r8",
+   "r9"
+  ],
+  "U": 83,
+  "base": 3.8251,
+  "opt": 3.8251,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   38,
+   24,
+   21
+  ],
+  "tanks": [
+   913.1,
+   927.2,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r5",
+   "r6",
+   "r7"
+  ],
+  "U": 91,
+  "base": 3.9697,
+  "opt": 3.9697,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   31,
+   30,
+   30
+  ],
+  "tanks": [
+   958.1,
+   901.5,
+   1017.1
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r5",
+   "r6",
+   "r8"
+  ],
+  "U": 85,
+  "base": 3.8714,
+  "opt": 3.8714,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   31,
+   30,
+   24
+  ],
+  "tanks": [
+   958.1,
+   901.5,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r5",
+   "r6",
+   "r9"
+  ],
+  "U": 82,
+  "base": 3.8461,
+  "opt": 3.8461,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   31,
+   30,
+   21
+  ],
+  "tanks": [
+   958.1,
+   901.5,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r5",
+   "r7",
+   "r9"
+  ],
+  "U": 82,
+  "base": 3.971,
+  "opt": 3.971,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   31,
+   30,
+   21
+  ],
+  "tanks": [
+   958.1,
+   1017.1,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r5",
+   "r7",
+   "r8"
+  ],
+  "U": 85,
+  "base": 3.9963,
+  "opt": 3.9963,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   31,
+   30,
+   24
+  ],
+  "tanks": [
+   958.1,
+   1017.1,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r5",
+   "r8",
+   "r9"
+  ],
+  "U": 76,
+  "base": 3.8727,
+  "opt": 3.8727,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   31,
+   24,
+   21
+  ],
+  "tanks": [
+   958.1,
+   927.2,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r6",
+   "r7",
+   "r8"
+  ],
+  "U": 84,
+  "base": 3.9369,
+  "opt": 3.9369,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   30,
+   30,
+   24
+  ],
+  "tanks": [
+   901.5,
+   1017.1,
+   927.2
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r6",
+   "r7",
+   "r9"
+  ],
+  "U": 81,
+  "base": 3.9116,
+  "opt": 3.9116,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   30,
+   30,
+   21
+  ],
+  "tanks": [
+   901.5,
+   1017.1,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r6",
+   "r8",
+   "r9"
+  ],
+  "U": 75,
+  "base": 3.8133,
+  "opt": 3.8133,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   30,
+   24,
+   21
+  ],
+  "tanks": [
+   901.5,
+   927.2,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ },
+ {
+  "D": [
+   "r7",
+   "r8",
+   "r9"
+  ],
+  "U": 75,
+  "base": 3.9382,
+  "opt": 3.9382,
+  "gain": 0.0,
+  "kinds": [
+   "parent",
+   "parent",
+   "parent"
+  ],
+  "n": [
+   30,
+   24,
+   21
+  ],
+  "tanks": [
+   1017.1,
+   927.2,
+   902.8
+  ],
+  "msg": "Optimization terminated succes"
+ }
+]

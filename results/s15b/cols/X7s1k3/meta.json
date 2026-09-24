@@ -1,0 +1,557 @@
+{
+ "job": {
+  "beam": 24,
+  "tries": 72,
+  "roots": 300,
+  "dv": 1.2,
+  "drmax": 0.15,
+  "mc": 60,
+  "k_epochs": 3,
+  "lin_cap": 3.0,
+  "res_max": 150000000.0,
+  "grid": "0,800,20",
+  "iters": 100,
+  "timeout": 240.0,
+  "p": 0.5,
+  "S": [
+   204,
+   212
+  ],
+  "w_fuel": 1.5,
+  "w_t": null,
+  "cap": 1150.0,
+  "kappa": 90.0,
+  "w_iso": 1.0,
+  "steps": 1,
+  "nproc": 1,
+  "wall_budget": 28800.0,
+  "min_save": 18,
+  "save_cap": 1300.0,
+  "level_budget": null,
+  "tag": "X7s1k3",
+  "out": "results/s15b/cols/X7s1k3",
+  "route": "results/s15/cols/t03/TB2f/route_TB2fs1_21.npz",
+  "k": 3,
+  "own": [
+   22,
+   33,
+   58,
+   71,
+   93,
+   95,
+   96,
+   132,
+   137,
+   138,
+   139,
+   150,
+   172,
+   173,
+   199,
+   213,
+   223,
+   240,
+   249,
+   266,
+   280
+  ],
+  "own_prize": 1.0,
+  "runner": "tools/s15b_prefix.py",
+  "fleet_pre": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+   "results/s15b/cols/X3h06k27/route_X3h06k27s1_30.npz",
+   "results/s15/cols/r01/C00h6/route_C00h6s1_28.npz",
+   "results/s15b/cols/X1s2k5/route_X1s2k5s1_14.npz"
+  ],
+  "replaced": "results/s15/cols/t03/TB2f/route_TB2fs1_21.npz",
+  "src_fleet": "results/s15b/fleets/G1",
+  "src_route": "s1",
+  "prefix_end": [
+   95,
+   813.8604929455896
+  ],
+  "note": "G1 misses 204 (s1 0.058 AU @948) + 212 (early window 1101-1217 d: 4@842->212@1101, 104@949->212@1217) designed into s1 after 95@814"
+ },
+ "kind": "twintail",
+ "pool_n": 23,
+ "chain": {
+  "steps": [
+   {
+    "k": 1,
+    "pool": 23,
+    "S": [
+     204,
+     212
+    ],
+    "end": {
+     "kind": "no_children",
+     "depth": 20
+    },
+    "deepest": 20,
+    "settles": 367,
+    "settle_ok": 359,
+    "wall_s": 1853,
+    "ncols": 5,
+    "took": {
+     "f": "results/s15b/cols/X7s1k3/route_X7s1k3s1_20.npz",
+     "n": 20,
+     "tank": 891.18,
+     "iso": [
+      137
+     ],
+     "s_taken": [
+      204,
+      212
+     ]
+    },
+    "covered": 20
+   }
+  ],
+  "covered": [
+   22,
+   58,
+   71,
+   93,
+   95,
+   96,
+   132,
+   137,
+   139,
+   150,
+   172,
+   173,
+   199,
+   204,
+   212,
+   213,
+   240,
+   249,
+   266,
+   280
+  ],
+  "cols": [
+   {
+    "f": "results/s15b/cols/X7s1k3/route_X7s1k3s1_20.npz",
+    "n": 20,
+    "n_real": 20,
+    "tank": 891.18,
+    "miss": 76.0,
+    "kind": "score",
+    "targets": [
+     22,
+     58,
+     71,
+     93,
+     95,
+     96,
+     132,
+     137,
+     139,
+     150,
+     172,
+     173,
+     199,
+     204,
+     212,
+     213,
+     240,
+     249,
+     266,
+     280
+    ],
+    "iso": [
+     137
+    ],
+    "s_taken": [
+     204,
+     212
+    ],
+    "t_end_d": 5065.2,
+    "t_launch_d": 20.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15b/cols/X7s1k3/route_X7s1k3s1_19.npz",
+    "n": 19,
+    "n_real": 19,
+    "tank": 863.28,
+    "miss": 10.7,
+    "kind": "score",
+    "targets": [
+     22,
+     58,
+     71,
+     93,
+     95,
+     96,
+     132,
+     137,
+     139,
+     172,
+     173,
+     199,
+     204,
+     212,
+     213,
+     240,
+     249,
+     266,
+     280
+    ],
+    "iso": [
+     137
+    ],
+    "s_taken": [
+     204,
+     212
+    ],
+    "t_end_d": 4764.1,
+    "t_launch_d": 20.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15b/cols/X7s1k3/route_X7s1k3s1_19_1.npz",
+    "n": 19,
+    "n_real": 19,
+    "tank": 846.3,
+    "miss": 77.3,
+    "kind": "light",
+    "targets": [
+     22,
+     58,
+     71,
+     93,
+     95,
+     96,
+     132,
+     137,
+     139,
+     172,
+     173,
+     199,
+     204,
+     212,
+     213,
+     240,
+     249,
+     266,
+     280
+    ],
+    "iso": [
+     137
+    ],
+    "s_taken": [
+     204,
+     212
+    ],
+    "t_end_d": 5396.6,
+    "t_launch_d": 20.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15b/cols/X7s1k3/route_X7s1k3s1_18.npz",
+    "n": 18,
+    "n_real": 18,
+    "tank": 817.51,
+    "miss": 81.4,
+    "kind": "score",
+    "targets": [
+     22,
+     58,
+     71,
+     95,
+     96,
+     132,
+     139,
+     150,
+     172,
+     173,
+     199,
+     204,
+     212,
+     213,
+     240,
+     249,
+     266,
+     280
+    ],
+    "iso": [],
+    "s_taken": [
+     204,
+     212
+    ],
+    "t_end_d": 4759.5,
+    "t_launch_d": 20.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15b/cols/X7s1k3/route_X7s1k3s1_18_1.npz",
+    "n": 18,
+    "n_real": 18,
+    "tank": 815.33,
+    "miss": 8.6,
+    "kind": "light",
+    "targets": [
+     22,
+     58,
+     71,
+     93,
+     95,
+     96,
+     132,
+     137,
+     139,
+     173,
+     199,
+     204,
+     212,
+     213,
+     240,
+     249,
+     266,
+     280
+    ],
+    "iso": [
+     137
+    ],
+    "s_taken": [
+     204,
+     212
+    ],
+    "t_end_d": 5395.8,
+    "t_launch_d": 20.0,
+    "step": 1
+   }
+  ],
+  "taken": [
+   {
+    "k": 1,
+    "f": "results/s15b/cols/X7s1k3/route_X7s1k3s1_20.npz",
+    "n": 20,
+    "tank": 891.18,
+    "targets": [
+     22,
+     58,
+     71,
+     93,
+     95,
+     96,
+     132,
+     137,
+     139,
+     150,
+     172,
+     173,
+     199,
+     204,
+     212,
+     213,
+     240,
+     249,
+     266,
+     280
+    ]
+   }
+  ]
+ },
+ "cols": [
+  {
+   "f": "results/s15b/cols/X7s1k3/route_X7s1k3s1_20.npz",
+   "n": 20,
+   "n_real": 20,
+   "tank": 891.18,
+   "miss": 76.0,
+   "kind": "score",
+   "targets": [
+    22,
+    58,
+    71,
+    93,
+    95,
+    96,
+    132,
+    137,
+    139,
+    150,
+    172,
+    173,
+    199,
+    204,
+    212,
+    213,
+    240,
+    249,
+    266,
+    280
+   ],
+   "iso": [
+    137
+   ],
+   "s_taken": [
+    204,
+    212
+   ],
+   "t_end_d": 5065.2,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/X7s1k3/route_X7s1k3s1_19.npz",
+   "n": 19,
+   "n_real": 19,
+   "tank": 863.28,
+   "miss": 10.7,
+   "kind": "score",
+   "targets": [
+    22,
+    58,
+    71,
+    93,
+    95,
+    96,
+    132,
+    137,
+    139,
+    172,
+    173,
+    199,
+    204,
+    212,
+    213,
+    240,
+    249,
+    266,
+    280
+   ],
+   "iso": [
+    137
+   ],
+   "s_taken": [
+    204,
+    212
+   ],
+   "t_end_d": 4764.1,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/X7s1k3/route_X7s1k3s1_19_1.npz",
+   "n": 19,
+   "n_real": 19,
+   "tank": 846.3,
+   "miss": 77.3,
+   "kind": "light",
+   "targets": [
+    22,
+    58,
+    71,
+    93,
+    95,
+    96,
+    132,
+    137,
+    139,
+    172,
+    173,
+    199,
+    204,
+    212,
+    213,
+    240,
+    249,
+    266,
+    280
+   ],
+   "iso": [
+    137
+   ],
+   "s_taken": [
+    204,
+    212
+   ],
+   "t_end_d": 5396.6,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/X7s1k3/route_X7s1k3s1_18.npz",
+   "n": 18,
+   "n_real": 18,
+   "tank": 817.51,
+   "miss": 81.4,
+   "kind": "score",
+   "targets": [
+    22,
+    58,
+    71,
+    95,
+    96,
+    132,
+    139,
+    150,
+    172,
+    173,
+    199,
+    204,
+    212,
+    213,
+    240,
+    249,
+    266,
+    280
+   ],
+   "iso": [],
+   "s_taken": [
+    204,
+    212
+   ],
+   "t_end_d": 4759.5,
+   "t_launch_d": 20.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/X7s1k3/route_X7s1k3s1_18_1.npz",
+   "n": 18,
+   "n_real": 18,
+   "tank": 815.33,
+   "miss": 8.6,
+   "kind": "light",
+   "targets": [
+    22,
+    58,
+    71,
+    93,
+    95,
+    96,
+    132,
+    137,
+    139,
+    173,
+    199,
+    204,
+    212,
+    213,
+    240,
+    249,
+    266,
+    280
+   ],
+   "iso": [
+    137
+   ],
+   "s_taken": [
+    204,
+    212
+   ],
+   "t_end_d": 5395.8,
+   "t_launch_d": 20.0,
+   "step": 1
+  }
+ ],
+ "covered": 20,
+ "wall_s": 1853
+}

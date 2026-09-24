@@ -1,0 +1,36 @@
+/Users/mickey/solarsystem/ctoc14/ctoc14/globalopt.py:258: RuntimeWarning: overflow encountered in multiply
+  lam = y * sc
+/Users/mickey/.venvs/astro313/lib/python3.13/site-packages/numpy/linalg/_linalg.py:2803: RuntimeWarning: overflow encountered in multiply
+  s = (x.conj() * x).real
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:181: RuntimeWarning: divide by zero encountered in log
+  chi[hyp] = sgn * np.sqrt(-a) * np.log(-2 * mu * alpha[hyp] * dt[hyp] / (rdotv[hyp] + sgn * np.sqrt(-mu * a) * (1 - r0n[hyp] * alpha[hyp])))
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:117: RuntimeWarning: invalid value encountered in divide
+  C[neg] = (np.cosh(sz[neg]) - 1) / (-z[neg])
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:118: RuntimeWarning: invalid value encountered in subtract
+  S[neg] = (np.sinh(sz[neg]) - sz[neg]) / sz[neg] ** 3
+/Users/mickey/solarsystem/ctoc14/ctoc14/globalopt.py:258: RuntimeWarning: overflow encountered in multiply
+  lam = y * sc
+/Users/mickey/solarsystem/ctoc14/ctoc14/globalopt.py:258: RuntimeWarning: overflow encountered in multiply
+  lam = y * sc
+/Users/mickey/solarsystem/ctoc14/ctoc14/globalopt.py:258: RuntimeWarning: overflow encountered in multiply
+  lam = y * sc
+[18:03:57] 00: seed 50 31 fb / 6 car -> NOT settled (miss inf, dropped [68, 229, 196, 261, 113])
+[18:03:57] 01: seed 24 30 fb / 9 car -> NOT settled (miss 174973429, dropped [44, 178, 261, 136, 9])
+[18:03:57] 02: seed 25 26 fb (of 29, dropped [68, 17, 300]) / 8 car, tank 881 kg, dv 14.98, J_i 1.241, 0.0477 J/fb  [model 13.95]
+[18:03:57] 03: seed 51 28 fb (of 28, dropped []) / 10 car, tank 862 kg, dv 14.10, J_i 1.222, 0.0436 J/fb  [model 11.17]
+[18:03:57] 04: seed 12 24 fb (of 27, dropped [67, 183, 199]) / 8 car, tank 802 kg, dv 11.30, J_i 1.165, 0.0486 J/fb  [model 10.30]
+[18:03:57] 05: seed 14 26 fb (of 26, dropped []) / 6 car, tank 967 kg, dv 18.61, J_i 1.330, 0.0512 J/fb  [model 9.15]
+[18:03:57] 06: seed 29 26 fb / 9 car -> NOT settled (miss inf, dropped [135, 125, 35, 299, 183])
+[18:03:57] 07: seed 36 26 fb / 11 car -> NOT settled (miss inf, dropped [44, 178, 261, 239, 52])
+[18:03:57] 08: seed 13 22 fb (of 25, dropped [261, 135, 52]) / 7 car, tank 911 kg, dv 16.29, J_i 1.272, 0.0578 J/fb  [model 10.32]
+[18:03:57] 09: seed 34 24 fb (of 25, dropped [257]) / 5 car, tank 797 kg, dv 11.03, J_i 1.160, 0.0483 J/fb  [model 8.94]
+[18:03:57] 10: seed 49 24 fb (of 25, dropped [257]) / 5 car, tank 797 kg, dv 11.03, J_i 1.160, 0.0483 J/fb  [model 8.94]
+[18:03:57] 11: seed 2 24 fb (of 24, dropped []) / 8 car, tank 880 kg, dv 14.93, J_i 1.240, 0.0517 J/fb  [model 10.24]
+[18:03:57] 12: seed 18 22 fb (of 24, dropped [56, 204]) / 8 car, tank 825 kg, dv 12.37, J_i 1.186, 0.0539 J/fb  [model 8.57]
+[18:03:57] 13: seed 39 24 fb (of 24, dropped []) / 10 car, tank 1070 kg, dv 22.60, J_i 1.449, 0.0604 J/fb  [model 10.40]
+[18:03:57] 14: seed 0 20 fb (of 23, dropped [67, 183, 199]) / 8 car, tank 778 kg, dv 10.11, J_i 1.144, 0.0572 J/fb  [model 7.78]
+[18:03:57] 15: seed 37 20 fb (of 20, dropped []) / 7 car, tank 820 kg, dv 12.16, J_i 1.182, 0.0591 J/fb  [model 8.75]
+[18:03:57] 
+settled 12/16 in 4477 s; flybys median 24 max 28; J/fb best 0.0436 median 0.0514
+[18:03:57] fleet: 12 routes, 90 covered, sum J_i 14.751
+[18:03:57] bar: best fixed-carrier BASE route 0.0514 J/fb (this harness), deep fixed route 0.0339, fleet target 0.0369

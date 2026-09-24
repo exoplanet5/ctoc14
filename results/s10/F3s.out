@@ -1,0 +1,24 @@
+/Users/mickey/solarsystem/ctoc14/ctoc14/globalopt.py:258: RuntimeWarning: overflow encountered in multiply
+  lam = y * sc
+/Users/mickey/solarsystem/ctoc14/ctoc14/globalopt.py:258: RuntimeWarning: overflow encountered in multiply
+  lam = y * sc
+[18:15:00] 00: seed 24 20 fb (of 22, dropped [56, 36]) / 1 car, tank 772 kg, dv 9.77, J_i 1.138, 0.0569 J/fb  [model 6.74]
+[18:15:00] 01: seed 0 21 fb (of 21, dropped []) / 1 car, tank 777 kg, dv 10.03, J_i 1.142, 0.0544 J/fb  [model 5.92]
+[18:15:00] 02: seed 34 21 fb (of 21, dropped []) / 1 car, tank 701 kg, dv 5.99, J_i 1.077, 0.0513 J/fb  [model 5.89]
+[18:15:00] 03: seed 36 21 fb (of 21, dropped []) / 1 car, tank 767 kg, dv 9.52, J_i 1.133, 0.0540 J/fb  [model 7.17]
+[18:15:00] 04: seed 2 19 fb (of 20, dropped [10]) / 1 car, tank 1055 kg, dv 22.06, J_i 1.431, 0.0753 J/fb  [model 7.04]
+[18:15:00] 05: seed 13 19 fb (of 20, dropped [164]) / 1 car, tank 762 kg, dv 9.26, J_i 1.129, 0.0594 J/fb  [model 6.80]
+[18:15:00] 06: seed 51 20 fb (of 20, dropped []) / 1 car, tank 940 kg, dv 17.51, J_i 1.302, 0.0651 J/fb  [model 8.09]
+[18:15:00] 07: seed 12 19 fb (of 19, dropped []) / 1 car, tank 713 kg, dv 6.68, J_i 1.087, 0.0572 J/fb  [model 6.28]
+[18:15:00] 08: seed 18 19 fb (of 19, dropped []) / 1 car, tank 804 kg, dv 11.37, J_i 1.167, 0.0614 J/fb  [model 5.43]
+[18:15:00] 09: seed 25 19 fb (of 19, dropped []) / 1 car, tank 730 kg, dv 7.61, J_i 1.102, 0.0580 J/fb  [model 5.85]
+[18:15:00] 10: seed 29 19 fb (of 19, dropped []) / 1 car, tank 881 kg, dv 14.96, J_i 1.241, 0.0653 J/fb  [model 5.71]
+[18:15:00] 11: seed 39 19 fb (of 19, dropped []) / 1 car, tank 725 kg, dv 7.35, J_i 1.098, 0.0578 J/fb  [model 7.06]
+[18:15:00] 12: seed 37 18 fb (of 18, dropped []) / 1 car, tank 673 kg, dv 4.39, J_i 1.055, 0.0586 J/fb  [model 4.38]
+[18:15:00] 13: seed 50 17 fb (of 18, dropped [83]) / 1 car, tank 743 kg, dv 8.27, J_i 1.112, 0.0654 J/fb  [model 4.27]
+[18:15:00] 14: seed 49 11 fb (of 11, dropped []) / 1 car, tank 1053 kg, dv 21.97, J_i 1.429, 0.1299 J/fb  [model 3.21]
+[18:15:00] 15: seed 14 10 fb (of 10, dropped []) / 1 car, tank 627 kg, dv 1.63, J_i 1.020, 0.1020 J/fb  [model 2.26]
+[18:15:00] 
+settled 16/16 in 638 s; flybys median 19 max 21; J/fb best 0.0513 median 0.0590
+[18:15:00] fleet: 16 routes, 120 covered, sum J_i 18.661
+[18:15:00] bar: best fixed-carrier BASE route 0.0514 J/fb (this harness), deep fixed route 0.0339, fleet target 0.0369

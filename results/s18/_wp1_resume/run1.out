@@ -1,0 +1,9 @@
+[01:08:33] job s00_c0 (craft, craft 0): T 540 d H 540 L 360; remaining 294; prize >1 on 0, tank_prev 620.8
+[01:08:33] prefix craft_0.npz: 4 flybys, t_end 464.5 d, tank 620.8 kg (planner view), miss 3.6 km, nreg 23
+[01:08:33] start: 1 craft state(s), remaining 294, horizon (540, 1080] + L 360 d, B 3 tries 4 k_epochs 3 price_cap 250 max_levels 6 wall 2400 s
+[01:08:37]   price_cap: 250 of 868 horizon candidates priced (1 parents)
+[01:08:38] depth  2: 1/1 parents -> 90 children (90 unique) -> tried 3, settled 3 (3 in H), kept 3; t_end 567-647 d, tank 626-648 (5 s: price 4, settle 1)
+[01:08:53]   price_cap: 750 of 2627 horizon candidates priced (3 parents)
+[01:08:53] depth  3: 3/3 parents -> 266 children (266 unique) -> tried 3, settled 3 (3 in H), kept 3; t_end 605-765 d, tank 626-654 (15 s: price 15, settle 0)
+[01:09:09]   price_cap: 750 of 2608 horizon candidates priced (3 parents)
+[01:09:10] depth  4: 3/3 parents -> 248 children (248 unique) -> tried 3, settled 3 (3 in H), kept 3; t_end 824-835 d, tank 627-646 (16 s: price 16, settle 1)

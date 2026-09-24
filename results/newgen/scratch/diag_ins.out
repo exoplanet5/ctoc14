@@ -1,0 +1,47 @@
+23 trials of 28 candidates
+{'host': '04', 'ast': 8, 't': 2182, 'dist': 0.226, 'hom_miss': 6906155, 'worst_ast': 8, 'n_rej': 48, 'sec': 13}
+   max miss 2634 km, fuel 272.8 | max miss 5642 km, fuel 300.8 | max miss 1480 km, fuel 339.8 | max miss 19042 km, fuel 384.0 | max miss 11768 km, fuel 431.7 | max miss 3972909 km, fuel 454.4
+{'host': '01', 'ast': 39, 't': 3516, 'dist': 0.099, 'hom_miss': 10361440, 'worst_ast': 39, 'n_rej': 61, 'sec': 13}
+   max miss 2562 km, fuel 353.8 | max miss 1366 km, fuel 430.3 | max miss 2960700 km, fuel 430.3 | max miss 5920996 km, fuel 430.3 | max miss 8881292 km, fuel 430.3
+{'host': '13', 'ast': 8, 't': 2186, 'dist': 0.11, 'hom_miss': 13309622, 'worst_ast': 8, 'n_rej': 71, 'sec': 16}
+   max miss 191 km, fuel 325.3 | max miss 1345825 km, fuel 382.4 | max miss 4336774 km, fuel 382.4 | max miss 7327723 km, fuel 382.4 | max miss 10318672 km, fuel 382.4 | max miss 13309622 km, fuel 382.4
+{'host': '13', 'ast': 8, 't': 4725, 'dist': 0.415, 'hom_miss': 10351801, 'worst_ast': 8, 'n_rej': 67, 'sec': 19}
+   max miss 272 km, fuel 287.7 | max miss 727 km, fuel 325.5 | max miss 1265 km, fuel 382.7 | max miss 824 km, fuel 454.0 | max miss 986 km, fuel 562.6 | max miss 8872977 km, fuel 595.7
+{'host': '10', 'ast': 8, 't': 4727, 'dist': 0.57, 'hom_miss': 25036960, 'worst_ast': 8, 'n_rej': 129, 'sec': 34}
+   max miss 10999 km, fuel 193.9 | max miss 26100 km, fuel 263.3 | max miss 826 km, fuel 346.4 | max miss 18871 km, fuel 477.7 | max miss 7077771 km, fuel 616.8 | max miss 23540361 km, fuel 616.8
+{'host': '05', 'ast': 39, 't': 2481, 'dist': 0.173, 'hom_miss': 23953746, 'worst_ast': 39, 'n_rej': 119, 'sec': 26}
+   max miss 466 km, fuel 363.0 | max miss 3936706 km, fuel 382.7 | max miss 8226070 km, fuel 382.7 | max miss 12515436 km, fuel 382.7 | max miss 16804802 km, fuel 382.7 | max miss 21094168 km, fuel 382.7
+{'host': '01', 'ast': 8, 't': 500, 'dist': 0.3, 'hom_miss': 41439324, 'worst_ast': 8, 'n_rej': 181, 'sec': 41}
+   max miss 109 km, fuel 332.4 | max miss 7047869 km, fuel 358.4 | max miss 16019553 km, fuel 358.4 | max miss 24991237 km, fuel 358.4 | max miss 33962921 km, fuel 358.4
+{'host': '02', 'ast': 8, 't': 3878, 'dist': 0.315, 'hom_miss': 41054731, 'worst_ast': 8, 'n_rej': 186, 'sec': 42}
+   max miss 2279 km, fuel 319.4 | max miss 4273962 km, fuel 463.8 | max miss 13101343 km, fuel 463.8 | max miss 21928728 km, fuel 463.8 | max miss 30756114 km, fuel 463.8 | max miss 39583500 km, fuel 463.8
+{'host': '05', 'ast': 168, 't': 2036, 'dist': 0.072, 'hom_miss': 10647170, 'worst_ast': 168, 'n_rej': 77, 'sec': 16}
+   max miss 968396 km, fuel 304.8 | max miss 3119200 km, fuel 304.8 | max miss 5270044 km, fuel 304.8 | max miss 7420893 km, fuel 304.8 | max miss 9571744 km, fuel 304.8
+{'host': '04', 'ast': 39, 't': 4557, 'dist': 0.372, 'hom_miss': 36415839, 'worst_ast': 39, 'n_rej': 167, 'sec': 35}
+   max miss 2920 km, fuel 276.0 | max miss 1015 km, fuel 353.1 | max miss 2777555 km, fuel 428.6 | max miss 13015293 km, fuel 428.6 | max miss 23253032 km, fuel 428.6 | max miss 33490771 km, fuel 428.6
+{'host': '10', 'ast': 39, 't': 402, 'dist': 0.289, 'hom_miss': 43291757, 'worst_ast': 39, 'n_rej': 192, 'sec': 39}
+   max miss 1492840 km, fuel 190.4 | max miss 8956918 km, fuel 190.4 | max miss 16421013 km, fuel 190.4 | max miss 23885108 km, fuel 190.4 | max miss 31349204 km, fuel 190.4 | max miss 38813299 km, fuel 190.4
+{'host': '06', 'ast': 168, 't': 2790, 'dist': 0.101, 'hom_miss': 11434005, 'worst_ast': 168, 'n_rej': 66, 'sec': 15}
+   max miss 182 km, fuel 316.5 | max miss 490283 km, fuel 432.9 | max miss 3225350 km, fuel 432.9 | max miss 5961521 km, fuel 432.9 | max miss 8697754 km, fuel 432.9 | max miss 11434005 km, fuel 432.9
+{'host': '06', 'ast': 168, 't': 3531, 'dist': 0.124, 'hom_miss': 11641423, 'worst_ast': 168, 'n_rej': 71, 'sec': 15}
+   max miss 1140 km, fuel 303.5 | max miss 1906 km, fuel 374.7 | max miss 273253 km, fuel 455.1 | max miss 3115295 km, fuel 455.1 | max miss 5957338 km, fuel 455.1 | max miss 8799381 km, fuel 455.1 | max miss 11641423 km, fuel 455.1
+{'host': '01', 'ast': 168, 't': 556, 'dist': 0.131, 'hom_miss': 19426983, 'worst_ast': 168, 'n_rej': 101, 'sec': 21}
+   max miss 1257040 km, fuel 319.3 | max miss 4052387 km, fuel 319.3 | max miss 6847764 km, fuel 319.3 | max miss 9643144 km, fuel 319.3 | max miss 12438526 km, fuel 319.3 | max miss 15233909 km, fuel 319.3 | max miss 18029292 km, fuel 319.3
+{'host': '01', 'ast': 8, 't': 3027, 'dist': 0.485, 'hom_miss': 69836098, 'worst_ast': 8, 'n_rej': 300, 'sec': 64}
+   max miss 2205 km, fuel 373.3 | max miss 12065624 km, fuel 425.7 | max miss 25397269 km, fuel 425.7 | max miss 38728917 km, fuel 425.7 | max miss 52060566 km, fuel 425.7 | max miss 65392215 km, fuel 425.7
+{'host': '03', 'ast': 251, 't': 3830, 'dist': 0.077, 'hom_miss': 7359907, 'worst_ast': 251, 'n_rej': 58, 'sec': 10}
+   max miss 1164 km, fuel 233.3 | max miss 1536 km, fuel 287.4 | max miss 1595815 km, fuel 321.7 | max miss 3901436 km, fuel 321.7 | max miss 6207082 km, fuel 321.7
+{'host': '03', 'ast': 168, 't': 5022, 'dist': 0.285, 'hom_miss': 41147813, 'worst_ast': 168, 'n_rej': 186, 'sec': 31}
+   max miss 3531 km, fuel 277.2 | max miss 7349040 km, fuel 277.2 | max miss 14696600 km, fuel 277.2 | max miss 22044159 km, fuel 277.2 | max miss 29391718 km, fuel 277.2 | max miss 36739277 km, fuel 277.2
+{'host': '12', 'ast': 39, 't': 2472, 'dist': 0.493, 'hom_miss': 70976980, 'worst_ast': 39, 'n_rej': 303, 'sec': 64}
+   max miss 2928 km, fuel 226.7 | max miss 13434186 km, fuel 266.5 | max miss 28188748 km, fuel 266.5 | max miss 42943311 km, fuel 266.5 | max miss 57697874 km, fuel 266.5
+{'host': '12', 'ast': 168, 't': 3525, 'dist': 0.27, 'hom_miss': 40450601, 'worst_ast': 168, 'n_rej': 180, 'sec': 35}
+   max miss 1498185 km, fuel 193.8 | max miss 8989025 km, fuel 193.8 | max miss 16479875 km, fuel 193.8 | max miss 23970727 km, fuel 193.8 | max miss 31461578 km, fuel 193.8 | max miss 38952430 km, fuel 193.8
+{'host': '10', 'ast': 251, 't': 3896, 'dist': 0.425, 'hom_miss': 18090622, 'worst_ast': 251, 'n_rej': 102, 'sec': 25}
+   max miss 4660 km, fuel 194.6 | max miss 3391 km, fuel 261.3 | max miss 7130 km, fuel 351.9 | max miss 3061 km, fuel 476.2 | max miss 3320742 km, fuel 585.0 | max miss 15136643 km, fuel 585.0
+{'host': '05', 'ast': 168, 't': 2784, 'dist': 0.306, 'hom_miss': 45028145, 'worst_ast': 168, 'n_rej': 198, 'sec': 39}
+   max miss 784011 km, fuel 324.2 | max miss 9632823 km, fuel 324.2 | max miss 18481653 km, fuel 324.2 | max miss 27330484 km, fuel 324.2 | max miss 36179314 km, fuel 324.2 | max miss 45028145 km, fuel 324.2
+{'host': '12', 'ast': 168, 't': 2049, 'dist': 0.348, 'hom_miss': 51400834, 'worst_ast': 168, 'n_rej': 222, 'sec': 43}
+   max miss 784929 km, fuel 206.4 | max miss 11205847 km, fuel 206.4 | max miss 21626769 km, fuel 206.4 | max miss 32047692 km, fuel 206.4 | max miss 42468615 km, fuel 206.4
+{'host': '05', 'ast': 251, 't': 1916, 'dist': 0.41, 'hom_miss': 58302743, 'worst_ast': 251, 'n_rej': 249, 'sec': 48}
+   max miss 243257 km, fuel 336.6 | max miss 10461240 km, fuel 396.6 | max miss 22421606 km, fuel 396.6 | max miss 34381983 km, fuel 396.6 | max miss 46342362 km, fuel 396.6 | max miss 58302743 km, fuel 396.6

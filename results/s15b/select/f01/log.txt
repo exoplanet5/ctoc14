@@ -1,0 +1,4 @@
+[01:32:26] load: 2848 files ({'ok': 2848}), 1999 distinct, 45 dominated -> 1954 columns
+[01:32:44]   frontier K>=296: 9 craft 296 covered sum J_i 11.9041 (Optimization terminated succes); misses [64, 110]; depths [46, 46, 44, 35, 32, 30, 28, 21, 14]
+[01:33:36]   frontier K>=297: 9 craft 297 covered sum J_i 11.9540 (Optimization terminated succes); misses [64]; depths [46, 46, 44, 35, 32, 31, 28, 21, 14]
+[01:34:10]   frontier K>=298: The problem is infeasible. (HiGHS Status 8: model_status is 

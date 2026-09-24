@@ -1,0 +1,29 @@
+[20:52:55] === 04 cond pool builder seg: pool 38 = own 30 + extra 8 [2, 8, 27, 34, 42, 83, 175, 250]; hard in pool 14; source route 30 fb @ 886.7 kg (9.56 kg/fb)
+[20:52:55]   hard extra 8: waypoint at 2186 d (closest approach 0.110 AU to the source route)
+[20:52:55]   hard extra 34: waypoint at 5094 d (closest approach 0.059 AU to the source route)
+[20:52:55]   skeleton: 14 waypoints 161@676 84@1245 50@1769 92@2013 8@2186 123@2450 158@3017 236@3530 22@3638 216@4166 137@4364 232@4449 58@5014 34@5094; easy 24
+[20:53:30]     04 seg 6: 0 states reach waypoint 158 -- relaxed retry
+[20:53:33]     04 seg 7: 0 states reach waypoint 236 -- relaxed retry
+[20:53:33]     04 seg 7: 0 states reach waypoint 236 -- giving up
+[20:53:33]     04 seg 7: DROPPING waypoint 236 ([3485,3575] d unreachable); it goes to the leftovers
+[20:53:33]     04 seg 8: 0 states reach waypoint 22 -- relaxed retry
+[20:53:34]     04 seg 8: 0 states reach waypoint 22 -- giving up
+[20:53:34]     04 seg 8: DROPPING waypoint 22 ([3593,3683] d unreachable); it goes to the leftovers
+[20:53:34]     04 seg 9: 0 states reach waypoint 216 -- relaxed retry
+[20:53:35]     04 seg 9: 0 states reach waypoint 216 -- giving up
+[20:53:35]     04 seg 9: DROPPING waypoint 216 ([4121,4211] d unreachable); it goes to the leftovers
+[20:53:35]     04 seg 10: 0 states reach waypoint 137 -- relaxed retry
+[20:53:36]     04 seg 10: 0 states reach waypoint 137 -- giving up
+[20:53:36]     04 seg 10: DROPPING waypoint 137 ([4319,4409] d unreachable); it goes to the leftovers
+[20:53:36]     04 seg 11: 0 states reach waypoint 232 -- relaxed retry
+[20:53:37]     04 seg 11: 0 states reach waypoint 232 -- giving up
+[20:53:37]     04 seg 11: DROPPING waypoint 232 ([4404,4494] d unreachable); it goes to the leftovers
+[20:53:38]     04 seg 12: 0 states reach waypoint 58 -- relaxed retry
+[20:53:39]     04 seg 12: 0 states reach waypoint 58 -- giving up
+[20:53:39]     04 seg 12: DROPPING waypoint 58 ([4969,5059] d unreachable); it goes to the leftovers
+[20:53:39]     04 seg 13: 0 states reach waypoint 34 -- relaxed retry
+[20:53:40]     04 seg 13: 2 states reach waypoint 34 -- giving up
+[20:53:40]     04 segments: 0:161->4st/3fb 1:84->3st/5fb 2:50->8st/8fb 3:92->10st/10fb 4:8->7st/11fb 5:123->7st/12fb 6:158->7st/13fb 7:236->0st/0fb 8:22->0st/0fb 9:216->0st/0fb 10:137->0st/0fb 11:232->0st/0fb 12:58->0st/0fb 13:34->1st/14fb 14:None->1st/14fb
+[20:53:40]   build 45 s: 1 states, deepest 14 of pool 38; Pareto 14:738
+[20:53:40]     14 pool fb (alt 0): settle FAILED (miss inf, 0 s)
+[20:53:40]   04: NOTHING settled

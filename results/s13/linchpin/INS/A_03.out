@@ -1,0 +1,15 @@
+[21:23:59] === insertion contrast 03: 30 fb @ 795.3 kg; inserting 8 targets [75, 149, 188, 213, 219, 221, 224, 271]
+[21:29:55]   round 0: 8 targets, 20 trials, 7 settled (356 s); per-target best dkg: 75:FAIL, 149:+158.3, 188:+20.6, 213:FAIL, 219:+94.8, 221:FAIL, 224:+164.9, 271:+174.1
+[21:29:55]   INSERT 188 at 5125 d (closest approach 0.254 AU): 795.3 -> 815.9 kg (+20.6 kg, dJ +0.0191), depth 31
+[21:34:44]   round 1: 7 targets, 17 trials, 5 settled (288 s); per-target best dkg: 75:FAIL, 149:+153.0, 213:FAIL, 219:+96.7, 221:FAIL, 224:+169.5, 271:+218.6
+[21:34:44]   75: no successful insertion in 2 rounds -> ORPHAN
+[21:34:44]   213: no successful insertion in 2 rounds -> ORPHAN
+[21:34:44]   221: no successful insertion in 2 rounds -> ORPHAN
+[21:34:44]   INSERT 219 at 1675 d (closest approach 0.249 AU): 815.9 -> 912.6 kg (+96.7 kg, dJ +0.0952), depth 32
+[21:36:44]   round 5: 3 targets, 8 trials, 2 settled (120 s); per-target best dkg: 149:FAIL, 224:+198.6, 271:+269.6
+[21:36:44]   INSERT 224 at 3983 d (closest approach 0.140 AU): 912.6 -> 1111.2 kg (+198.6 kg, dJ +0.2254), depth 33
+[21:38:34]   round 6: 2 targets, 6 trials, 0 settled (111 s); per-target best dkg: 149:FAIL, 271:FAIL
+[21:38:34]   149: no successful insertion in 2 rounds -> ORPHAN
+[21:39:44]   round 7: 1 targets, 3 trials, 0 settled (69 s); per-target best dkg: 271:FAIL
+[21:39:44]   271: no successful insertion in 2 rounds -> ORPHAN
+[21:39:44]   DONE 03: 30 fb @ 795.3 -> 33 fb @ 1111.2 kg; +3 inserted for +316.0 kg (105.3 kg each), orphans [75, 213, 221, 149, 271]; kg/fb 6.51 -> 15.49; 54 trials, 945 s

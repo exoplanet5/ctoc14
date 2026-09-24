@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>CTOC14 Fleet Viewer</title>
+<meta name="description" content="Interactive 3D solar system showing the CTOC14 multi-spacecraft asteroid flyby fleets over the 15-year mission.">
+<link rel="stylesheet" href="css/viewer.css">
+<script type="importmap">
+{ "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="app">
+  <div id="view"></div>
+  <div id="labels"></div>
+  <div id="status"></div>
+  <button id="toggle-panel" class="small">menu</button>
+
+  <div id="panel">
+    <h1>CTOC14 Fleet Viewer</h1>
+    <section>
+      <h2>Fleet</h2>
+      <select id="fleet-select"></select>
+      <div id="fleet-note" class="note"></div>
+    </section>
+    <section>
+      <h2>Playback</h2>
+      <div class="row">
+        <button id="btn-play" class="primary">play</button>
+        <button id="btn-step-back" class="small" title="-10 d">-10 d</button>
+        <button id="btn-step-fwd" class="small" title="+10 d">+10 d</button>
+        <button id="btn-reset" class="small">reset</button>
+      </div>
+      <div class="row"><label>speed</label><span class="val" id="speed-val">30 d/s</span></div>
+      <input type="range" id="speed" min="0" max="1000" value="640">
+    </section>
+    <section>
+      <h2>View</h2>
+      <div class="row"><label><input type="checkbox" id="opt-orbits" checked>asteroid orbit lines</label></div>
+      <div class="row"><label><input type="checkbox" id="opt-labels" checked>labels</label>
+                       <label><input type="checkbox" id="opt-astlabels">asteroid IDs</label></div>
+      <div class="row"><label><input type="checkbox" id="opt-moon">Earth&ndash;Moon zoom</label></div>
+      <div class="row"><label>follow</label><select id="follow-select" style="width:auto;flex:1"><option value="">none (free camera)</option></select></div>
+      <div class="row"><button id="btn-home" class="small">home view</button><button id="btn-top" class="small">top view</button></div>
+    </section>
+    <section>
+      <h2>Status</h2>
+      <div class="stat big"><span>covered</span><b id="hud-covered">0 / 0</b></div>
+      <div class="stat"><span>craft</span><b id="hud-craft">0</b></div>
+      <div class="stat"><span>launched</span><b id="hud-launched">0</b></div>
+      <div class="stat"><span id="hud-fuel-label">fuel (loaded)</span><b id="hud-fuel">0 kg</b></div>
+      <div class="stat"><span>raw J</span><b id="hud-j">-</b></div>
+      <div class="stat"><span>sum J_i</span><b id="hud-sumji">-</b></div>
+      <table class="craft" id="craft-table">
+        <thead><tr><th>on</th><th>craft</th><th>flybys</th><th>fuel used/total kg</th><th></th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Keys</h2>
+      <div class="note">space play/pause &middot; &larr; &rarr; &plusmn;10 d &middot; drag rotate &middot; wheel zoom &middot; right-drag pan &middot; click timeline to scrub</div>
+    </section>
+  </div>
+
+  <div id="legend">
+    <div><span class="dot" style="background:#fde68a"></span>Sun &middot; <span class="dot" style="background:#3b82f6"></span>Earth &middot; <span class="dot" style="background:#a3a3a3"></span>Moon</div>
+    <div><span class="dot" style="background:#9aa3b2"></span>asteroid (not yet flown) &middot; <span class="dot" style="background:#4ade80"></span>flown</div>
+    <div><span class="k line" style="border-color:#f87171;border-top-style:dashed"></span>unreachable orbit (red dashed)</div>
+    <div><span class="k line" style="border-color:#4cc9f0"></span>craft trail &middot; <span class="k line" style="border-color:#ffffff"></span>thrust arc (bright) &middot; faint = future path</div>
+    <div>ring flash = flyby event</div>
+    <div id="legend-moon" class="warn" style="display:none">Earth&ndash;Moon zoom: Moon distance true scale (mean orbit), Earth/Moon spheres enlarged for visibility</div>
+  </div>
+  <div id="fps"></div>
+
+  <div id="timeline">
+    <div id="tl-top">
+      <span class="date" id="date-val">2030-01-01 00:00 UTC</span>
+      <span class="tday" id="tday-val">t = 0.0 d</span>
+      <input type="range" id="time" min="0" max="5478.75" step="0.25" value="0">
+    </div>
+    <div id="tl-wrap"><canvas id="tl-canvas"></canvas></div>
+  </div>
+</div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

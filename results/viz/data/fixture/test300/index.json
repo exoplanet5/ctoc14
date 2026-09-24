@@ -1,0 +1,7 @@
+{
+ "fleets": [
+  {"key": "demo", "file": "../fleets/demo.json", "title": "demo fixture on the full 300-asteroid catalogue (performance test)",
+   "n_craft": 2, "covered": 3, "J_raw": 4.5525, "shown": null, "submitted": null, "kind": "fixture",
+   "note": "bodies.json here is a snapshot copy of results/viz/data/bodies.json taken 2026-09-24 16:44 for the 300-asteroid performance test; load with ?data=data/fixture/test300/"}
+ ]
+}

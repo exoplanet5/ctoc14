@@ -1,0 +1,6 @@
+TOF[d]  eta-rule  LT(|u|<=a)  LT(|u|<=0.6a)   mean dv Lambert  mean dv LT   (sums over 48 states of tour_sc1)
+   30        1         0           0        0.32            0.00
+   45        3         1           0        0.68            0.82
+   60        3         2           1        0.88            1.26
+   90       15         5           1        1.49            1.70
+  120       25        24          10        1.35            2.05

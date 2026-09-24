@@ -1,0 +1,24 @@
+60000 samples scored in 46 s: best 15.53, median 7.01
+optimised 96 carriers in 90 s: value 19.39 (was 15.53), base flybys best 21, median 17
+Traceback (most recent call last):
+  File "/Users/mickey/solarsystem/ctoc14/tools/carrier_opt.py", line 123, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mickey/solarsystem/ctoc14/tools/carrier_opt.py", line 113, in main
+    lib = [c for c in pl.map(neigh, lib) if c]
+                      ~~~~~~^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/pool.py", line 774, in get
+    raise self._value
+  File "/opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/pool.py", line 540, in _handle_tasks
+    put(task)
+    ~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/connection.py", line 206, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+                     ~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.12_1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'main.<locals>.neigh'

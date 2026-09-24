@@ -1,0 +1,21 @@
+[02:48:14]   02: impulsive tank 815.7 -> exact m0 817.3 (miss 16 km), valid True (RK4 step 0.1 d)
+[02:49:44]   01: impulsive tank 828.2 -> exact m0 828.9 (miss 36 km), valid True (RK4 step 0.1 d)
+[02:54:42]   03: impulsive tank 744.4 -> exact m0 745.3 (miss 2 km), valid True (RK4 step 0.1 d)
+[02:59:39]   04: impulsive tank 799.2 -> exact m0 797.7 (miss 62 km), valid True (RK4 step 0.1 d)
+[03:04:17]   05: impulsive tank 883.9 -> exact m0 887.3 (miss 4 km), valid True (RK4 step 0.1 d)
+[03:06:40]   06: impulsive tank 843.6 -> exact m0 844.3 (miss 44 km), valid True (RK4 step 0.1 d)
+[03:10:31]   07: impulsive tank 794.2 -> exact m0 795.7 (miss 28 km), valid True (RK4 step 0.1 d)
+[03:13:10]   09: impulsive tank 848.4 -> exact m0 849.2 (miss 13 km), valid True (RK4 step 0.1 d)
+[03:18:46]   10: impulsive tank 778.5 -> exact m0 778.3 (miss 6 km), valid True (RK4 step 0.1 d)
+[03:19:37]   12: impulsive tank 775.9 -> exact m0 777.0 (miss 94 km), valid True (RK4 step 0.1 d)
+[03:25:54]   13: impulsive tank 835.4 -> exact m0 836.6 (miss 7 km), valid True (RK4 step 0.1 d)
+[03:25:54] 11 craft, covered 298, J 14.9501; 01:36/36@829 05:36/36@887 02:35/35@817 12:30/30@777 13:25/25@837 09:24/24@849 06:23/23@844 07:23/23@796 10:23/23@778 04:22/22@798 03:21/21@745
+results/newgen/export_r14.sh:5: no matches found: results/newgen/efleet_r14/frags/INVALID_*
+wrote results/CTOC14_Result_r14.txt with 57307 rows from 11 spacecraft
+spacecraft: 11, m0 = [828.9343248348174, 817.2704212097163, 745.2840829209593, 797.704009932588, 887.2742224803918, 844.318367857862, 795.7285376460306, 849.2306198182079, 778.2924040448729, 776.981555433464, 836.6270204481971]
+covered 298, missed 2, J = 14.9501  (sum J_i = 12.9501)
+max errors: pos 3.0034e-08 km, vel 7.1089e-12 m/s, mass 1.1369e-13 kg, max |T| 0.45752 N
+RESULT: PASS
+------------------------------------------------------------------------------
+N_covered = 298   N_miss = 2   sum J_i = 12.950134   J = 14.950134
+VERDICT: VALID

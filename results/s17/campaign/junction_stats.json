@@ -1,0 +1,90 @@
+{
+ "n_junctions": 8769348,
+ "n_reps": 1220,
+ "dv<=1.0": {
+  "junctions": 8769348,
+  "route_pairs": 58202,
+  "frac_all_ordered_pairs": 0.03914,
+  "pair_jaccard_pct": [
+   0.043,
+   0.137,
+   0.448
+  ],
+  "pair_overlap_targets_pct": [
+   2,
+   6,
+   14
+  ],
+  "frac_pairs_disjoint": 0.0228,
+  "partners_per_route_pct": [
+   5,
+   38,
+   115
+  ],
+  "junction_day_pct": [
+   150,
+   980,
+   2980
+  ]
+ },
+ "dv<=0.5": {
+  "junctions": 4866272,
+  "route_pairs": 27437,
+  "frac_all_ordered_pairs": 0.01845,
+  "pair_jaccard_pct": [
+   0.063,
+   0.2,
+   0.571
+  ],
+  "pair_overlap_targets_pct": [
+   3,
+   8,
+   20
+  ],
+  "frac_pairs_disjoint": 0.0121,
+  "partners_per_route_pct": [
+   1,
+   13,
+   56
+  ],
+  "junction_day_pct": [
+   140,
+   910,
+   2840
+  ]
+ },
+ "dv<=0.3": {
+  "junctions": 3220554,
+  "route_pairs": 17002,
+  "frac_all_ordered_pairs": 0.01143,
+  "pair_jaccard_pct": [
+   0.096,
+   0.273,
+   0.632
+  ],
+  "pair_overlap_targets_pct": [
+   4,
+   9,
+   23
+  ],
+  "frac_pairs_disjoint": 0.0011,
+  "partners_per_route_pct": [
+   0,
+   8,
+   38
+  ],
+  "junction_day_pct": [
+   130,
+   890,
+   2750
+  ]
+ },
+ "random_pairs": {
+  "frac_disjoint": 0.2475,
+  "overlap_pct": [
+   0,
+   2,
+   5
+  ]
+ }
+}

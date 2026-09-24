@@ -1,0 +1,33 @@
+[20:49:36] === 06 cond pool builder seg: pool 38 = own 27 + extra 11 [16, 51, 85, 107, 130, 157, 165, 248, 267, 270, 289]; hard in pool 10; source route 27 fb @ 791.9 kg (7.11 kg/fb)
+[20:49:36]   hard extra 16: waypoint at 1994 d (closest approach 0.017 AU to the source route)
+[20:49:36]   hard extra 51: waypoint at 700 d (closest approach 0.122 AU to the source route)
+[20:49:36]   hard extra 157: waypoint at 3251 d (closest approach 0.218 AU to the source route)
+[20:49:36]   skeleton: 10 waypoints 169@539 51@700 166@1240 199@1840 16@1994 62@2462 116@2861 157@3251 18@3601 282@3770; easy 28
+[20:50:20]     06 seg 1: 2 states reach waypoint 51 -- relaxed retry
+[20:50:22]     06 seg 2: 0 states reach waypoint 166 -- relaxed retry
+[20:50:23]     06 seg 2: 2 states reach waypoint 166 -- giving up
+[20:50:23]     06 seg 3: 0 states reach waypoint 199 -- relaxed retry
+[20:50:24]     06 seg 3: 0 states reach waypoint 199 -- giving up
+[20:50:24]     06 seg 3: DROPPING waypoint 199 ([1795,1885] d unreachable); it goes to the leftovers
+[20:50:24]     06 seg 4: 0 states reach waypoint 16 -- relaxed retry
+[20:50:24]     06 seg 4: 0 states reach waypoint 16 -- giving up
+[20:50:24]     06 seg 4: DROPPING waypoint 16 ([1949,2039] d unreachable); it goes to the leftovers
+[20:50:24]     06 seg 5: 0 states reach waypoint 62 -- relaxed retry
+[20:50:25]     06 seg 5: 0 states reach waypoint 62 -- giving up
+[20:50:25]     06 seg 5: DROPPING waypoint 62 ([2417,2507] d unreachable); it goes to the leftovers
+[20:50:25]     06 seg 6: 0 states reach waypoint 116 -- relaxed retry
+[20:50:25]     06 seg 6: 0 states reach waypoint 116 -- giving up
+[20:50:25]     06 seg 6: DROPPING waypoint 116 ([2816,2906] d unreachable); it goes to the leftovers
+[20:50:25]     06 seg 7: 0 states reach waypoint 157 -- relaxed retry
+[20:50:25]     06 seg 7: 0 states reach waypoint 157 -- giving up
+[20:50:25]     06 seg 7: DROPPING waypoint 157 ([3206,3296] d unreachable); it goes to the leftovers
+[20:50:25]     06 seg 8: 0 states reach waypoint 18 -- relaxed retry
+[20:50:26]     06 seg 8: 0 states reach waypoint 18 -- giving up
+[20:50:26]     06 seg 8: DROPPING waypoint 18 ([3556,3646] d unreachable); it goes to the leftovers
+[20:50:26]     06 seg 9: 0 states reach waypoint 282 -- relaxed retry
+[20:50:26]     06 seg 9: 0 states reach waypoint 282 -- giving up
+[20:50:26]     06 seg 9: DROPPING waypoint 282 ([3725,3815] d unreachable); it goes to the leftovers
+[20:50:26]     06 segments: 0:169->10st/3fb 1:51->5st/4fb 2:166->1st/4fb 3:199->0st/0fb 4:16->0st/0fb 5:62->0st/0fb 6:116->0st/0fb 7:157->0st/0fb 8:18->0st/0fb 9:282->0st/0fb 10:None->1st/4fb
+[20:50:26]   build 50 s: 1 states, deepest 4 of pool 38; Pareto 4:652
+[20:50:27]     4 pool fb (alt 0): planner 652 -> twin 657.0 kg, 14.25 kg/fb, 0.866 km/s/fb, J_i 1.0424, own 2/27 extra 2/11 (miss 26 km, 1 s)
+[20:50:27]   BEST 06: 4/38 pool targets @ 657.0 kg (14.25 kg/fb; source 27 @ 791.9 = 7.11 kg/fb); orphans [16, 18, 31, 56, 62, 85, 94, 107, 116, 121, 130, 146, 157, 165, 167, 172, 199, 207, 212, 218, 230, 233, 234, 237, 242, 248, 255, 267, 269, 282, 289, 290, 291, 293]

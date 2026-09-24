@@ -1,0 +1,7 @@
+09 1 true: coast 0.025 lin 0.058 res 3.21e+05 ok True marg 0.038 | ep [(0.3, 315154)] | wrong settled [(2.168, 16.528, '2.4e+08', False), (4.854, 15.678, '5.4e+08', False)] (10 s)
+09 2 true: coast 0.083 lin 1.346 res 7.31e+05 ok True marg 1.251 | ep [(4.5, 305710)] | wrong settled [(3.599, 18.578, '2.5e+08', False), (2.034, 6.204, '1.6e+08', True)] (8 s)
+09 3 true: coast 0.385 lin 0.112 res 4.71e+06 ok True marg 0.232 | ep [(-15.8, 2274618)] | wrong settled [(2.642, 23.814, '2.4e+08', True), (1.676, 4.695, '1.3e+08', True)] (7 s)
+09 4 true: coast 0.190 lin 0.382 res 3.22e+06 ok True marg 0.477 | ep [(3.0, 3144793)] | wrong settled [(2.47, 12.774, '3.1e+08', False), (0.283, 2.573, '2.9e+07', True)] (8 s)
+09 5 true: coast 0.596 lin 2.001 res 4.02e+07 ok True marg 0.749 | ep [(-0.8, 38424278)] | wrong settled [(3.227, 11.293, '2.9e+08', False), (2.816, 11.004, '2.7e+08', False)] (13 s)
+09 6 true: coast 0.302 lin 0.282 res 1.23e+07 ok True marg 0.387 | ep [(-3.3, 10793059)] | wrong settled [(0.713, 2.341, '8.8e+06', True), (2.307, 23.773, '2.3e+08', False)] (15 s)
+09 7 true: coast 0.183 lin 0.621 res 4.14e+06 ok True marg 0.457 | ep [(2.7, 3610611)] | wrong settled [(2.422, 9.739, '2.0e+08', True), (0.628, 0.748, '8.4e+06', True)] (10 s)

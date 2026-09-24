@@ -1,0 +1,19 @@
+[04:49:02] prefix results/s15/cols/t04/TB2fS/route_TB2fSs1_14_1.npz k=5: 5 flybys to 2398 d, tank 675.3 kg, miss 89 km (2 s)
+[04:49:02] twintail X1s2k5: pool 15, S [64], p 0.1, steps 1, beam 24/72, nproc 1; resume at step 1
+[04:49:02]   RESUME level 5: beam 1, deepest 0
+[04:50:02]   depth  6: 1 parents -> 20 kids (20 uniq) -> tried 20, settled 20, kept 19; t_end 2512-3037 d, tank 678-823, max S 0 (60 s, gen 5 s)
+[04:53:08]   depth  7: 19 parents -> 266 kids (264 uniq) -> tried 24, settled 24, kept 23; t_end 2643-3590 d, tank 684-831, max S 0 (186 s, gen 123 s)
+[04:57:04]   depth  8: 23 parents -> 272 kids (272 uniq) -> tried 24, settled 24, kept 23; t_end 3022-3952 d, tank 704-820, max S 0 (236 s, gen 162 s)
+[05:01:44]   depth  9: 23 parents -> 269 kids (269 uniq) -> tried 24, settled 24, kept 23; t_end 3244-4124 d, tank 733-849, max S 0 (280 s, gen 185 s)
+[05:06:50]   depth 10: 23 parents -> 315 kids (310 uniq) -> tried 24, settled 24, kept 24; t_end 3490-4314 d, tank 762-841, max S 0 (306 s, gen 205 s)
+[05:12:32]   depth 11: 24 parents -> 345 kids (339 uniq) -> tried 26, settled 24, kept 22; t_end 3822-4558 d, tank 782-1168, max S 0 (342 s, gen 219 s)
+[05:17:36]   depth 12: 22 parents -> 283 kids (278 uniq) -> tried 24, settled 24, kept 22; t_end 3876-5126 d, tank 783-921, max S 0 (304 s, gen 210 s)
+[05:22:45]   depth 13: 22 parents -> 237 kids (235 uniq) -> tried 24, settled 24, kept 23; t_end 4123-5208 d, tank 813-975, max S 0 (309 s, gen 207 s)
+[05:28:27]   depth 14: 23 parents -> 239 kids (237 uniq) -> tried 24, settled 24, kept 23; t_end 4598-5393 d, tank 817-909, max S 0 (342 s, gen 206 s)
+[05:36:15]   depth 15: 23 parents -> 127 kids (126 uniq) -> tried 32, settled 24, kept 21; t_end 4735-5413 d, tank 838-968, max S 0 (468 s, gen 170 s)
+[05:43:41]   depth 16: 21 parents -> 46 kids (46 uniq) -> tried 33, settled 24, kept 18; t_end 5156-5475 d, tank 890-1178, max S 0 (446 s, gen 114 s)
+[05:45:53]   depth 17: 18 parents -> 6 kids (6 uniq) -> tried 6, settled 3, kept 3; t_end 5369-5400 d, tank 939-994, max S 0 (132 s, gen 45 s)
+[05:46:00]   depth 18: 3 parents -> 0 kids (0 uniq) -> tried 0, settled 0, kept 0 (6 s, gen 6 s)
+[05:46:00]   step 1: pool 15 deepest 14 ({'kind': 'no_children', 'depth': 17}); TOOK 14 fb @ 824 kg iso [216]; chain covered 14/15 (3418 s)
+[05:46:00] twintail X1s2k5 done: 4 columns, covered 14/15 (3418 s)
+{"covered": 14, "cols": 4, "wall_s": 3418}

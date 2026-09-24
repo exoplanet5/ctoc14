@@ -1,0 +1,952 @@
+{
+ "free": {
+  "lt": {
+   "routes": {
+    "00": {
+     "pool": 37,
+     "reflown": 35,
+     "tank": 846.81,
+     "src_tank": 918.15,
+     "end": {
+      "kind": "no_children",
+      "depth": 35,
+      "time_left_d": 26.8
+     },
+     "wall_s": 2723.0,
+     "missing": [
+      163,
+      228
+     ],
+     "pace": 155.2,
+     "src_pace": 147.3,
+     "src_legs_reproduced": 29
+    },
+    "01": {
+     "pool": 36,
+     "reflown": 33,
+     "tank": 920.42,
+     "src_tank": 904.43,
+     "end": {
+      "kind": "no_children",
+      "depth": 33,
+      "time_left_d": 59.1
+     },
+     "wall_s": 2955.8,
+     "missing": [
+      35,
+      80,
+      81
+     ],
+     "pace": 159.9,
+     "src_pace": 149.3,
+     "src_legs_reproduced": 22
+    },
+    "02": {
+     "pool": 33,
+     "reflown": 28,
+     "tank": 1126.14,
+     "src_tank": 903.74,
+     "end": {
+      "kind": "no_children",
+      "depth": 28,
+      "time_left_d": 32.4
+     },
+     "wall_s": 3301.6,
+     "missing": [
+      17,
+      29,
+      32,
+      227,
+      264
+     ],
+     "pace": 193.1,
+     "src_pace": 164.6,
+     "src_legs_reproduced": 1
+    },
+    "03": {
+     "pool": 30,
+     "reflown": 30,
+     "tank": 831.55,
+     "src_tank": 795.26,
+     "end": {
+      "kind": "pool_exhausted",
+      "depth": 30
+     },
+     "wall_s": 2566.4,
+     "missing": [],
+     "pace": 176.9,
+     "src_pace": 180.1,
+     "src_legs_reproduced": 24
+    },
+    "04": {
+     "pool": 30,
+     "reflown": 30,
+     "tank": 918.98,
+     "src_tank": 886.66,
+     "end": {
+      "kind": "pool_exhausted",
+      "depth": 30
+     },
+     "wall_s": 2185.2,
+     "missing": [],
+     "pace": 175.2,
+     "src_pace": 172.5,
+     "src_legs_reproduced": 23
+    },
+    "05": {
+     "pool": 28,
+     "reflown": 28,
+     "tank": 1052.21,
+     "src_tank": 976.28,
+     "end": {
+      "kind": "pool_exhausted",
+      "depth": 28
+     },
+     "wall_s": 2716.3,
+     "missing": [],
+     "pace": 190.6,
+     "src_pace": 181.3,
+     "src_legs_reproduced": 16
+    },
+    "06": {
+     "pool": 27,
+     "reflown": 25,
+     "tank": 764.68,
+     "src_tank": 791.93,
+     "end": {
+      "kind": "no_children",
+      "depth": 25,
+      "time_left_d": 22.2
+     },
+     "wall_s": 1760.2,
+     "missing": [
+      31,
+      218
+     ],
+     "pace": 211.9,
+     "src_pace": 202.1,
+     "src_legs_reproduced": 19
+    },
+    "07": {
+     "pool": 27,
+     "reflown": 24,
+     "tank": 1089.51,
+     "src_tank": 815.11,
+     "end": {
+      "kind": "no_children",
+      "depth": 24,
+      "time_left_d": 60.5
+     },
+     "wall_s": 2384.8,
+     "missing": [
+      69,
+      88,
+      138
+     ],
+     "pace": 225.8,
+     "src_pace": 180.5,
+     "src_legs_reproduced": 0
+    },
+    "08": {
+     "pool": 26,
+     "reflown": 23,
+     "tank": 1204.81,
+     "src_tank": 870.61,
+     "end": {
+      "kind": "no_children",
+      "depth": 23,
+      "time_left_d": 31.2
+     },
+     "wall_s": 2408.3,
+     "missing": [
+      96,
+      225,
+      247
+     ],
+     "pace": 227.2,
+     "src_pace": 200.1,
+     "src_legs_reproduced": 2
+    },
+    "09": {
+     "pool": 24,
+     "reflown": 21,
+     "tank": 1150.51,
+     "src_tank": 876.52,
+     "end": {
+      "kind": "no_children",
+      "depth": 21,
+      "time_left_d": 46.9
+     },
+     "wall_s": 2585.3,
+     "missing": [
+      16,
+      130,
+      254
+     ],
+     "pace": 254.9,
+     "src_pace": 209.2,
+     "src_legs_reproduced": 0
+    }
+   },
+   "reflown": 277,
+   "pool": 298
+  },
+  "lt60": {
+   "routes": {
+    "00": {
+     "pool": 37,
+     "reflown": 35,
+     "tank": 846.81,
+     "src_tank": 918.15,
+     "end": {
+      "kind": "no_children",
+      "depth": 35,
+      "time_left_d": 25.1
+     },
+     "wall_s": 9538.7,
+     "missing": [
+      163,
+      228
+     ],
+     "pace": 155.2,
+     "src_pace": 147.3,
+     "src_legs_reproduced": 29
+    },
+    "01": {
+     "pool": 36,
+     "reflown": 34,
+     "tank": 1107.36,
+     "src_tank": 904.43,
+     "end": {
+      "kind": "no_children",
+      "depth": 34,
+      "time_left_d": 58.4
+     },
+     "wall_s": 9027.5,
+     "missing": [
+      80,
+      81
+     ],
+     "pace": 159.4,
+     "src_pace": 149.3,
+     "src_legs_reproduced": 21
+    },
+    "02": {
+     "pool": 33,
+     "reflown": 28,
+     "tank": 1113.91,
+     "src_tank": 903.74,
+     "end": {
+      "kind": "no_children",
+      "depth": 28,
+      "time_left_d": 32.6
+     },
+     "wall_s": 9606.4,
+     "missing": [
+      17,
+      29,
+      32,
+      227,
+      264
+     ],
+     "pace": 193.1,
+     "src_pace": 164.6,
+     "src_legs_reproduced": 1
+    },
+    "06": {
+     "pool": 27,
+     "reflown": 26,
+     "tank": 788.49,
+     "src_tank": 791.93,
+     "end": {
+      "kind": "no_children",
+      "depth": 26,
+      "time_left_d": 22.2
+     },
+     "wall_s": 5190.8,
+     "missing": [
+      218
+     ],
+     "pace": 203.7,
+     "src_pace": 202.1,
+     "src_legs_reproduced": 23
+    },
+    "07": {
+     "pool": 27,
+     "reflown": 24,
+     "tank": 1032.7,
+     "src_tank": 815.11,
+     "end": {
+      "kind": "no_children",
+      "depth": 24,
+      "time_left_d": 52.9
+     },
+     "wall_s": 7129.0,
+     "missing": [
+      15,
+      88,
+      205
+     ],
+     "pace": 226.1,
+     "src_pace": 180.5,
+     "src_legs_reproduced": 0
+    },
+    "08": {
+     "pool": 26,
+     "reflown": 24,
+     "tank": 890.24,
+     "src_tank": 870.61,
+     "end": {
+      "kind": "no_children",
+      "depth": 24,
+      "time_left_d": 231.2
+     },
+     "wall_s": 6982.6,
+     "missing": [
+      93,
+      154
+     ],
+     "pace": 209.5,
+     "src_pace": 200.1,
+     "src_legs_reproduced": 5
+    },
+    "09": {
+     "pool": 24,
+     "reflown": 24,
+     "tank": 952.33,
+     "src_tank": 876.52,
+     "end": {
+      "kind": "pool_exhausted",
+      "depth": 24
+     },
+     "wall_s": 6324.4,
+     "missing": [],
+     "pace": 217.4,
+     "src_pace": 209.2,
+     "src_legs_reproduced": 12
+    }
+   },
+   "reflown": 195,
+   "pool": 210
+  },
+  "prod": {
+   "routes": {
+    "00": {
+     "pool": 37,
+     "reflown": 28,
+     "tank": 778.72,
+     "src_tank": 918.15,
+     "end": {
+      "kind": "no_children",
+      "depth": 28,
+      "time_left_d": 26.6
+     },
+     "wall_s": 1308.1,
+     "missing": [
+      21,
+      24,
+      65,
+      73,
+      102,
+      114,
+      126,
+      163,
+      228
+     ],
+     "pace": 191.9,
+     "src_pace": 147.3,
+     "src_legs_reproduced": 16
+    },
+    "01": {
+     "pool": 36,
+     "reflown": 22,
+     "tank": 762.69,
+     "src_tank": 904.43,
+     "end": {
+      "kind": "no_children",
+      "depth": 22,
+      "time_left_d": 1241.7
+     },
+     "wall_s": 535.5,
+     "missing": [
+      35,
+      37,
+      46,
+      67,
+      81,
+      101,
+      179,
+      185,
+      200,
+      209,
+      211,
+      229,
+      281,
+      298
+     ],
+     "pace": 192.6,
+     "src_pace": 149.3,
+     "src_legs_reproduced": 11
+    },
+    "02": {
+     "pool": 33,
+     "reflown": 11,
+     "tank": 685.5,
+     "src_tank": 903.74,
+     "end": {
+      "kind": "no_children",
+      "depth": 11,
+      "time_left_d": 1920.4
+     },
+     "wall_s": 134.7,
+     "missing": [
+      17,
+      25,
+      28,
+      29,
+      32,
+      33,
+      40,
+      55,
+      82,
+      104,
+      135,
+      183,
+      190,
+      217,
+      223,
+      227,
+      249,
+      264,
+      274,
+      278,
+      285,
+      295
+     ],
+     "pace": 313.8,
+     "src_pace": 164.6,
+     "src_legs_reproduced": 0
+    },
+    "03": {
+     "pool": 30,
+     "reflown": 18,
+     "tank": 732.74,
+     "src_tank": 795.26,
+     "end": {
+      "kind": "no_children",
+      "depth": 18,
+      "time_left_d": 1782.5
+     },
+     "wall_s": 372.8,
+     "missing": [
+      20,
+      54,
+      79,
+      89,
+      90,
+      99,
+      143,
+      151,
+      162,
+      243,
+      256,
+      259
+     ],
+     "pace": 197.6,
+     "src_pace": 180.1,
+     "src_legs_reproduced": 11
+    },
+    "04": {
+     "pool": 30,
+     "reflown": 19,
+     "tank": 732.49,
+     "src_tank": 886.66,
+     "end": {
+      "kind": "no_children",
+      "depth": 19,
+      "time_left_d": 1207.0
+     },
+     "wall_s": 427.4,
+     "missing": [
+      9,
+      53,
+      57,
+      58,
+      92,
+      129,
+      137,
+      216,
+      232,
+      235,
+      287
+     ],
+     "pace": 209.0,
+     "src_pace": 172.5,
+     "src_legs_reproduced": 10
+    },
+    "05": {
+     "pool": 28,
+     "reflown": 6,
+     "tank": 632.83,
+     "src_tank": 976.28,
+     "end": {
+      "kind": "no_children",
+      "depth": 6,
+      "time_left_d": 3401.9
+     },
+     "wall_s": 43.7,
+     "missing": [
+      2,
+      8,
+      39,
+      42,
+      49,
+      68,
+      71,
+      118,
+      124,
+      150,
+      157,
+      168,
+      188,
+      213,
+      219,
+      221,
+      248,
+      251,
+      260,
+      271,
+      273,
+      292
+     ],
+     "pace": 270.4,
+     "src_pace": 181.3,
+     "src_legs_reproduced": 0
+    },
+    "06": {
+     "pool": 27,
+     "reflown": 5,
+     "tank": 633.68,
+     "src_tank": 791.93,
+     "end": {
+      "kind": "no_children",
+      "depth": 5,
+      "time_left_d": 4049.3
+     },
+     "wall_s": 34.1,
+     "missing": [
+      18,
+      31,
+      56,
+      62,
+      94,
+      116,
+      121,
+      146,
+      166,
+      167,
+      172,
+      199,
+      207,
+      218,
+      230,
+      233,
+      234,
+      237,
+      255,
+      269,
+      282,
+      290
+     ],
+     "pace": 265.9,
+     "src_pace": 202.1,
+     "src_legs_reproduced": 0
+    },
+    "07": {
+     "pool": 27,
+     "reflown": 5,
+     "tank": 628.97,
+     "src_tank": 815.11,
+     "end": {
+      "kind": "no_children",
+      "depth": 5,
+      "time_left_d": 3688.8
+     },
+     "wall_s": 38.5,
+     "missing": [
+      3,
+      13,
+      15,
+      23,
+      36,
+      43,
+      69,
+      88,
+      103,
+      119,
+      138,
+      170,
+      178,
+      181,
+      184,
+      191,
+      201,
+      203,
+      205,
+      214,
+      241,
+      294
+     ],
+     "pace": 284.0,
+     "src_pace": 180.5,
+     "src_legs_reproduced": 0
+    },
+    "08": {
+     "pool": 26,
+     "reflown": 5,
+     "tank": 619.28,
+     "src_tank": 870.61,
+     "end": {
+      "kind": "no_children",
+      "depth": 5,
+      "time_left_d": 3487.7
+     },
+     "wall_s": 53.0,
+     "missing": [
+      1,
+      64,
+      70,
+      86,
+      91,
+      95,
+      96,
+      98,
+      108,
+      110,
+      145,
+      148,
+      160,
+      180,
+      196,
+      198,
+      225,
+      244,
+      247,
+      280,
+      286
+     ],
+     "pace": 225.6,
+     "src_pace": 200.1,
+     "src_legs_reproduced": 0
+    },
+    "09": {
+     "pool": 24,
+     "reflown": 5,
+     "tank": 625.25,
+     "src_tank": 876.52,
+     "end": {
+      "kind": "no_children",
+      "depth": 5,
+      "time_left_d": 3608.7
+     },
+     "wall_s": 30.8,
+     "missing": [
+      7,
+      12,
+      16,
+      34,
+      75,
+      85,
+      107,
+      117,
+      120,
+      130,
+      134,
+      149,
+      152,
+      208,
+      224,
+      240,
+      250,
+      254,
+      289
+     ],
+     "pace": 358.0,
+     "src_pace": 209.2,
+     "src_legs_reproduced": 0
+    }
+   },
+   "reflown": 124,
+   "pool": 298
+  },
+  "rel": {
+   "routes": {
+    "00": {
+     "pool": 37,
+     "reflown": 34,
+     "tank": 817.89,
+     "src_tank": 918.15,
+     "end": {
+      "kind": "no_children",
+      "depth": 34,
+      "time_left_d": 26.9
+     },
+     "wall_s": 1478.9,
+     "missing": [
+      163,
+      228,
+      275
+     ],
+     "pace": 159.8,
+     "src_pace": 147.3,
+     "src_legs_reproduced": 30
+    },
+    "01": {
+     "pool": 36,
+     "reflown": 31,
+     "tank": 839.0,
+     "src_tank": 904.43,
+     "end": {
+      "kind": "no_children",
+      "depth": 31,
+      "time_left_d": 81.6
+     },
+     "wall_s": 1139.2,
+     "missing": [
+      46,
+      81,
+      101,
+      229,
+      284
+     ],
+     "pace": 174.1,
+     "src_pace": 149.3,
+     "src_legs_reproduced": 19
+    },
+    "02": {
+     "pool": 33,
+     "reflown": 23,
+     "tank": 790.91,
+     "src_tank": 903.74,
+     "end": {
+      "kind": "no_children",
+      "depth": 23,
+      "time_left_d": 34.5
+     },
+     "wall_s": 1371.3,
+     "missing": [
+      17,
+      55,
+      97,
+      104,
+      227,
+      249,
+      258,
+      264,
+      278,
+      295
+     ],
+     "pace": 234.1,
+     "src_pace": 164.6,
+     "src_legs_reproduced": 1
+    },
+    "03": {
+     "pool": 30,
+     "reflown": 26,
+     "tank": 779.08,
+     "src_tank": 795.26,
+     "end": {
+      "kind": "no_children",
+      "depth": 26,
+      "time_left_d": 56.8
+     },
+     "wall_s": 1317.4,
+     "missing": [
+      210,
+      243,
+      256,
+      268
+     ],
+     "pace": 201.8,
+     "src_pace": 180.1,
+     "src_legs_reproduced": 18
+    },
+    "04": {
+     "pool": 30,
+     "reflown": 24,
+     "tank": 781.12,
+     "src_tank": 886.66,
+     "end": {
+      "kind": "no_children",
+      "depth": 24,
+      "time_left_d": 460.3
+     },
+     "wall_s": 839.9,
+     "missing": [
+      47,
+      53,
+      161,
+      235,
+      239,
+      287
+     ],
+     "pace": 209.1,
+     "src_pace": 172.5,
+     "src_legs_reproduced": 15
+    },
+    "05": {
+     "pool": 28,
+     "reflown": 22,
+     "tank": 873.36,
+     "src_tank": 976.28,
+     "end": {
+      "kind": "no_children",
+      "depth": 22,
+      "time_left_d": 57.6
+     },
+     "wall_s": 1295.0,
+     "missing": [
+      42,
+      68,
+      118,
+      165,
+      188,
+      248
+     ],
+     "pace": 246.3,
+     "src_pace": 181.3,
+     "src_legs_reproduced": 5
+    },
+    "06": {
+     "pool": 27,
+     "reflown": 24,
+     "tank": 779.31,
+     "src_tank": 791.93,
+     "end": {
+      "kind": "no_children",
+      "depth": 24,
+      "time_left_d": 22.4
+     },
+     "wall_s": 1634.2,
+     "missing": [
+      172,
+      242,
+      293
+     ],
+     "pace": 227.3,
+     "src_pace": 202.1,
+     "src_legs_reproduced": 20
+    },
+    "07": {
+     "pool": 27,
+     "reflown": 15,
+     "tank": 759.6,
+     "src_tank": 815.11,
+     "end": {
+      "kind": "no_children",
+      "depth": 15,
+      "time_left_d": 1434.0
+     },
+     "wall_s": 1050.7,
+     "missing": [
+      3,
+      13,
+      23,
+      36,
+      69,
+      119,
+      138,
+      181,
+      184,
+      203,
+      294,
+      299
+     ],
+     "pace": 268.3,
+     "src_pace": 180.5,
+     "src_legs_reproduced": 0
+    },
+    "08": {
+     "pool": 26,
+     "reflown": 20,
+     "tank": 816.06,
+     "src_tank": 870.61,
+     "end": {
+      "kind": "no_children",
+      "depth": 20,
+      "time_left_d": 18.4
+     },
+     "wall_s": 1279.2,
+     "missing": [
+      91,
+      93,
+      110,
+      198,
+      225,
+      286
+     ],
+     "pace": 261.1,
+     "src_pace": 200.1,
+     "src_legs_reproduced": 8
+    },
+    "09": {
+     "pool": 24,
+     "reflown": 17,
+     "tank": 739.3,
+     "src_tank": 876.52,
+     "end": {
+      "kind": "no_children",
+      "depth": 17,
+      "time_left_d": 596.0
+     },
+     "wall_s": 1067.9,
+     "missing": [
+      27,
+      34,
+      107,
+      120,
+      224,
+      250,
+      254
+     ],
+     "pace": 266.0,
+     "src_pace": 209.2,
+     "src_legs_reproduced": 4
+    }
+   },
+   "reflown": 236,
+   "pool": 298
+  }
+ },
+ "guided": {
+  "guided": {
+   "legs": 288,
+   "adm_prod": 184,
+   "adm_rel": 240,
+   "adm_full_prod": 265,
+   "adm_full_rel": 285,
+   "settled": 287
+  },
+  "guided2": {
+   "legs": 288,
+   "adm_prod": 184,
+   "adm_rel": 240,
+   "adm_full_prod": 265,
+   "adm_full_rel": 285,
+   "settled": 287,
+   "lt_legs": 288,
+   "lt_epoch_within_15d": 280,
+   "lt_epoch_within_20d": 286,
+   "lt_price_src_le_3": 286,
+   "lt_price_src_le_2": 281,
+   "lt_price_src_le_1p2": 256,
+   "lt_price_err_median": 0.0245,
+   "lt_price_mae": 0.1547
+  }
+ },
+ "chain": {
+  "legs": 288,
+  "prod": 176,
+  "rel": 227
+ }
+}

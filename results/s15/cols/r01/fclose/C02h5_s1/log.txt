@@ -1,0 +1,2 @@
+[21:08:45]     absorb[route_C02h5s1_31+[]]: 3 approaches of [110, 116, 118]; lintwin 116@2834d 0.155AU 167kg, 118@4549d 0.189AU 687kg, 110@843d 0.108AU 1473kg
+[21:08:45] close C02h5_s1 done: 0 columns (1 s)

@@ -1,0 +1,249 @@
+{
+ "job": {
+  "beam": 24,
+  "tries": 72,
+  "roots": 300,
+  "dv": 1.2,
+  "drmax": 0.15,
+  "mc": 60,
+  "k_epochs": 3,
+  "lin_cap": 3.0,
+  "res_max": 150000000.0,
+  "grid": "0,800,20",
+  "iters": 100,
+  "timeout": 240.0,
+  "p": 0.5,
+  "S": [
+   3,
+   64,
+   148
+  ],
+  "w_fuel": 1.5,
+  "w_t": null,
+  "cap": 1150.0,
+  "kappa": 90.0,
+  "w_iso": 1.0,
+  "steps": 1,
+  "nproc": 1,
+  "wall_budget": 28800.0,
+  "min_save": 22,
+  "save_cap": 1300.0,
+  "level_budget": null,
+  "tag": "X10s1k21",
+  "out": "results/s15b/cols/X10s1k21",
+  "route": "results/s15b/close/G1/cols/route_s1x204_22.npz",
+  "k": 21,
+  "own": [
+   22,
+   33,
+   58,
+   71,
+   93,
+   95,
+   96,
+   132,
+   137,
+   138,
+   139,
+   150,
+   172,
+   173,
+   199,
+   204,
+   213,
+   223,
+   240,
+   249,
+   266,
+   280
+  ],
+  "own_prize": 1.0,
+  "runner": "tools/s15b_prefix.py",
+  "fleet_pre": [],
+  "replaced": "results/s15b/close/G1/cols/route_s1x204_22.npz",
+  "src_fleet": "results/s15b/close/G1/fleet",
+  "src_route": "s1",
+  "prefix_end": [
+   172,
+   5072.319788033533
+  ],
+  "note": "G2 idea: h06 := X3h06k27s1_29_1 (h06 - {148, 3}, keeps 204+212, 952 kg); s1 takes 148 (0.085 AU @4895) -> 64@5247 (-> 3)"
+ },
+ "kind": "twintail",
+ "pool_n": 25,
+ "chain": {
+  "steps": [
+   {
+    "k": 1,
+    "pool": 25,
+    "S": [
+     3,
+     64,
+     148
+    ],
+    "end": {
+     "kind": "no_children",
+     "depth": 22
+    },
+    "deepest": 22,
+    "settles": 1,
+    "settle_ok": 1,
+    "wall_s": 22,
+    "ncols": 1,
+    "took": {
+     "f": "results/s15b/cols/X10s1k21/route_X10s1k21s1_22.npz",
+     "n": 22,
+     "tank": 891.4,
+     "iso": [
+      137,
+      138
+     ],
+     "s_taken": []
+    },
+    "covered": 22
+   }
+  ],
+  "covered": [
+   22,
+   33,
+   58,
+   71,
+   93,
+   95,
+   96,
+   132,
+   137,
+   138,
+   139,
+   150,
+   172,
+   173,
+   199,
+   204,
+   213,
+   223,
+   240,
+   249,
+   266,
+   280
+  ],
+  "cols": [
+   {
+    "f": "results/s15b/cols/X10s1k21/route_X10s1k21s1_22.npz",
+    "n": 22,
+    "n_real": 22,
+    "tank": 891.4,
+    "miss": 5.6,
+    "kind": "score",
+    "targets": [
+     22,
+     33,
+     58,
+     71,
+     93,
+     95,
+     96,
+     132,
+     137,
+     138,
+     139,
+     150,
+     172,
+     173,
+     199,
+     204,
+     213,
+     223,
+     240,
+     249,
+     266,
+     280
+    ],
+    "iso": [
+     137,
+     138
+    ],
+    "s_taken": [],
+    "t_end_d": 5096.7,
+    "t_launch_d": 20.0,
+    "step": 1
+   }
+  ],
+  "taken": [
+   {
+    "k": 1,
+    "f": "results/s15b/cols/X10s1k21/route_X10s1k21s1_22.npz",
+    "n": 22,
+    "tank": 891.4,
+    "targets": [
+     22,
+     33,
+     58,
+     71,
+     93,
+     95,
+     96,
+     132,
+     137,
+     138,
+     139,
+     150,
+     172,
+     173,
+     199,
+     204,
+     213,
+     223,
+     240,
+     249,
+     266,
+     280
+    ]
+   }
+  ]
+ },
+ "cols": [
+  {
+   "f": "results/s15b/cols/X10s1k21/route_X10s1k21s1_22.npz",
+   "n": 22,
+   "n_real": 22,
+   "tank": 891.4,
+   "miss": 5.6,
+   "kind": "score",
+   "targets": [
+    22,
+    33,
+    58,
+    71,
+    93,
+    95,
+    96,
+    132,
+    137,
+    138,
+    139,
+    150,
+    172,
+    173,
+    199,
+    204,
+    213,
+    223,
+    240,
+    249,
+    266,
+    280
+   ],
+   "iso": [
+    137,
+    138
+   ],
+   "s_taken": [],
+   "t_end_d": 5096.7,
+   "t_launch_d": 20.0,
+   "step": 1
+  }
+ ],
+ "covered": 22,
+ "wall_s": 22
+}

@@ -1,0 +1,9 @@
+[20:04:04] results/s10/DD2/fleet: 10 routes, 305 flybys, 298 covered (7 duplicate flybys), sum J_i 12.612, J 14.612, J/fb 0.0414
+[20:04:17] bulk: 7 duplicated targets, 14 trials, 14 settled (13 s)
+[20:04:17]   drops per route: 01:1 02:2 05:1 09:3
+[20:04:24]   01: -1 flybys, tank 950 -> 918 kg
+[20:04:24]   02: -2 flybys, tank 956 -> 920 kg
+[20:04:24]   05: -1 flybys, tank 982 -> 957 kg
+[20:04:24]   09: -3 flybys, tank 959 -> 894 kg
+[20:04:24] bulk pass (7 s): 298 flybys, 298 covered, sum J_i 12.445, J 14.445, J/fb 0.0418
+[20:04:24] FINAL: 10 routes, 298 flybys, 298 covered, sum J_i 12.445, J 14.445, J/fb 0.0418

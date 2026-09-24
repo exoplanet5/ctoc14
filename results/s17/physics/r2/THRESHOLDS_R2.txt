@@ -1,0 +1,11 @@
+Written 2026-09-23 ~23:58 CST BEFORE running lane_twin.py (round-2 check, PHYSICS).
+Test R2-T: do the stage-17 T1 pin lanes (results/s17/physics/rare_lanes.json, 8 carriers) realise in the TWIN at the
+carrier-model price?  For each carrier: rare-target events (eps 0.03), dp_route (lam 0.5, kgap 10, kphase 1.5), w = 1;
+twin = carrier_dp.seed_ip -> globalopt.insert_block -> run_ialns.settle(100) -> s15b_regrid.regrid(20 d) -> settle.
+twin dv = VE ln(tank/601.5) (carrier_dp convention), on the REGRIDDED twin (law 8).  Settled = max miss <= 150 km.
+Budget reference: 8 craft at the 09-27 bar = 465 kg fuel/craft = m0 1065 = 22.4 km/s per craft.
+  PASS : >= 6 of 8 lanes settle AND median (twin dv / model dv) <= 1.5 AND median twin dv per pin <= 0.8 km/s.
+  KILL : <= 3 of 8 settle, OR median twin dv per pin > 1.2 km/s, OR median (twin dv / model dv) > 2.5.
+  otherwise INCONCLUSIVE.
+Meaning fixed in advance: KILL removes P1 (pins-and-grout) from the ranking; PASS keeps only its pin half alive
+(the quota-fill half stays untested); INCONCLUSIVE = P1 ranked below any gate that is cheaper.

@@ -1,0 +1,138 @@
+[08:57:34] new run p3_wide: N 8 H 540.0 d L 360.0 d proposer planbeam commit regrid nproc 9 stop_T None
+[08:57:34] [slice 0 T=0 d] propose: 9 jobs (0 craft, 9 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 0.7
+[08:57:36]   job s00_r8 root  columns   0  levels 0  settles 0/0  end no_children  wall 1.9 s
+[08:59:21]   job s00_r7 root  columns   3  levels 11  settles 3/3  end plan_done  wall 105.1 s
+[08:59:43]   job s00_r6 root  columns   9  levels 10  settles 9/9  end plan_done  wall 127.7 s
+[08:59:55]   job s00_r5 root  columns  15  levels 12  settles 17/17  end plan_done  wall 140.3 s
+[09:00:01]   job s00_r0 root  columns  16  levels 11  settles 22/22  end plan_done  wall 145.6 s
+[09:00:07]   job s00_r4 root  columns  15  levels 12  settles 18/18  end plan_done  wall 150.6 s
+[09:00:15]   job s00_r3 root  columns  16  levels 12  settles 21/21  end plan_done  wall 159.9 s
+[09:00:25]   job s00_r2 root  columns  15  levels 13  settles 21/21  end plan_done  wall 168.6 s
+[09:00:53]   job s00_r1 root  columns  15  levels 14  settles 23/23  end plan_done  wall 197.0 s
+[09:00:53] [slice 0] propose: 104 columns (0 bad dropped) in 198.4 s
+[09:00:53] [slice 0] auction: 104 columns, kept 104, dropped {}; lam 0.70 H_eff 540 d fuel budget 482 kg quota on
+[09:00:53] [slice 0] auction: status optimal objective 35.923 vars 104 rows 38 chosen 8 fuel 100/482 kg (0.011 s)
+[09:00:55] [slice 0 T=0 d] launched 8/8  covered 23  remaining 275  fuel 112 kg  sumJi 8.0814  chosen: r->c0:3(+26) r->c1:3(+18) r->c2:4(+29) r->c3:3(+3) r->c4:2(+0) r->c5:3(+6) r->c6:2(+6) r->c7:3(+11)  rejected: -  (wall 200 s)
+[09:00:55] [slice 1 T=540 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 0.7
+[09:03:25]   job s01_c5 craft columns  16  levels 9  settles 21/21  end plan_done  wall 149.6 s
+[09:03:45]   job s01_c4 craft columns  16  levels 11  settles 20/20  end plan_done  wall 170.2 s
+[09:03:53]   job s01_c6 craft columns  16  levels 12  settles 21/22  end plan_done  wall 177.9 s
+[09:03:55]   job s01_c2 craft columns  16  levels 12  settles 20/20  end plan_done  wall 178.9 s
+[09:03:57]   job s01_c0 craft columns  14  levels 11  settles 18/18  end plan_done  wall 182.3 s
+[09:04:05]   job s01_c3 craft columns  15  levels 11  settles 18/20  end plan_done  wall 189.9 s
+[09:04:13]   job s01_c7 craft columns  11  levels 12  settles 14/21  end plan_done  wall 197.9 s
+[09:05:07]   job s01_c1 craft columns  16  levels 15  settles 27/27  end plan_done  wall 251.1 s
+[09:05:07] [slice 1] propose: 120 columns (0 bad dropped) in 252.6 s
+[09:05:08] [slice 1] auction: 120 columns, kept 119, dropped {'ramp': 1}; lam 0.70 H_eff 540 d fuel budget 482 kg quota on
+[09:05:08] [slice 1] auction: status optimal objective 33.809 vars 119 rows 65 chosen 8 fuel 456/482 kg (0.008 s)
+[09:05:10] [slice 1 T=540 d] launched 8/8  covered 47  remaining 251  fuel 568 kg  sumJi 8.4302  chosen: c0:3(+44) c1:5(+84) c2:3(+56) c3:2(+43) c4:3(+29) c5:4(+117) c6:1(+61) c7:3(+24)  rejected: -  (wall 255 s)
+[09:05:10] [slice 2 T=1080 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 0.7
+[09:08:00]   job s02_c2 craft columns  16  levels 10  settles 19/19  end plan_done  wall 169.7 s
+[09:08:10]   job s02_c4 craft columns  16  levels 11  settles 19/19  end plan_done  wall 179.8 s
+[09:08:20]   job s02_c5 craft columns  15  levels 10  settles 18/19  end plan_done  wall 189.5 s
+[09:08:34]   job s02_c3 craft columns  16  levels 11  settles 27/27  end plan_done  wall 204.0 s
+[09:08:38]   job s02_c1 craft columns  16  levels 11  settles 25/25  end plan_done  wall 207.1 s
+[09:08:42]   job s02_c0 craft columns  16  levels 11  settles 24/26  end plan_done  wall 211.4 s
+[09:08:56]   job s02_c7 craft columns  16  levels 13  settles 21/21  end plan_done  wall 226.1 s
+[09:09:18]   job s02_c6 craft columns  15  levels 12  settles 19/21  end plan_done  wall 247.4 s
+[09:09:18] [slice 2] propose: 126 columns (0 bad dropped) in 248.5 s
+[09:09:18] [slice 2] auction: 126 columns, kept 116, dropped {'ramp': 10}; lam 0.70 H_eff 540 d fuel budget 482 kg quota on
+[09:09:18] [slice 2] auction: status optimal objective 37.169 vars 116 rows 59 chosen 8 fuel 297/482 kg (0.008 s)
+[09:09:20] [slice 2 T=1080 d] launched 8/8  covered 73  remaining 225  fuel 865 kg  sumJi 8.6717  chosen: c0:5(+89) c1:3(+24) c2:3(+21) c3:3(+37) c4:3(+41) c5:3(+45) c6:4(+19) c7:2(+21)  rejected: -  (wall 251 s)
+[09:09:20] [slice 3 T=1620 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 0.7
+[09:11:50]   job s03_c2 craft columns  16  levels 10  settles 26/26  end plan_done  wall 150.2 s
+[09:11:50]   job s03_c7 craft columns  16  levels 10  settles 21/21  end plan_done  wall 150.2 s
+[09:12:04]   job s03_c5 craft columns  14  levels 9  settles 19/19  end plan_done  wall 163.8 s
+[09:12:08]   job s03_c4 craft columns  16  levels 12  settles 18/18  end plan_done  wall 167.6 s
+[09:12:12]   job s03_c6 craft columns  16  levels 9  settles 23/23  end plan_done  wall 171.1 s
+[09:12:16]   job s03_c3 craft columns  16  levels 12  settles 23/23  end plan_done  wall 175.7 s
+[09:12:24]   job s03_c0 craft columns  14  levels 10  settles 16/18  end plan_done  wall 183.2 s
+[09:12:24]   job s03_c1 craft columns  16  levels 10  settles 19/19  end plan_done  wall 184.3 s
+[09:12:24] [slice 3] propose: 124 columns (0 bad dropped) in 184.4 s
+[09:12:24] [slice 3] auction: 124 columns, kept 120, dropped {'fuel': 1, 'ramp': 3}; lam 0.70 H_eff 540 d fuel budget 482 kg quota on
+[09:12:24] [slice 3] auction: status optimal objective 41.787 vars 120 rows 63 chosen 8 fuel 423/482 kg (0.007 s)
+[09:12:27] [slice 3 T=1620 d] launched 8/8  covered 99  remaining 199  fuel 1287 kg  sumJi 9.0388  chosen: c0:3(+76) c1:1(+16) c2:4(+146) c3:4(+37) c4:3(+27) c5:3(+37) c6:4(+32) c7:4(+52)  rejected: -  (wall 186 s)
+[09:12:27] [slice 4 T=2160 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 0.7
+[09:15:49]   job s04_c0 craft columns  16  levels 9  settles 18/18  end plan_done  wall 201.9 s
+[09:15:59]   job s04_c7 craft columns  16  levels 10  settles 24/24  end plan_done  wall 212.2 s
+[09:16:15]   job s04_c1 craft columns  16  levels 11  settles 22/22  end plan_done  wall 228.0 s
+[09:16:23]   job s04_c2 craft columns  16  levels 8  settles 22/22  end plan_done  wall 235.1 s
+[09:16:23]   job s04_c4 craft columns  16  levels 10  settles 22/22  end plan_done  wall 234.7 s
+[09:16:25]   job s04_c3 craft columns  16  levels 11  settles 21/21  end plan_done  wall 236.6 s
+[09:16:27]   job s04_c5 craft columns  16  levels 10  settles 18/18  end plan_done  wall 239.8 s
+[09:16:39]   job s04_c6 craft columns  16  levels 11  settles 23/23  end plan_done  wall 251.5 s
+[09:16:39] [slice 4] propose: 128 columns (0 bad dropped) in 252.5 s
+[09:16:39] [slice 4] auction: 128 columns, kept 120, dropped {'ramp': 8}; lam 0.70 H_eff 540 d fuel budget 482 kg quota on
+[09:16:39] [slice 4] auction: status optimal objective 39.141 vars 120 rows 60 chosen 8 fuel 337/482 kg (0.01 s)
+[09:16:41] [slice 4 T=2160 d] launched 8/8  covered 123  remaining 175  fuel 1624 kg  sumJi 9.3414  chosen: c0:3(+34) c1:3(+21) c2:3(+50) c3:2(+19) c4:3(+64) c5:3(+42) c6:4(+60) c7:3(+46)  rejected: -  (wall 255 s)
+[09:16:41] [slice 5 T=2700 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 0.7
+[09:19:31]   job s05_c7 craft columns  15  levels 9  settles 17/18  end plan_done  wall 169.4 s
+[09:19:33]   job s05_c1 craft columns  16  levels 10  settles 18/18  end plan_done  wall 171.3 s
+[09:20:00]   job s05_c2 craft columns  16  levels 9  settles 20/20  end plan_done  wall 196.9 s
+[09:20:02]   job s05_c4 craft columns  16  levels 11  settles 19/19  end plan_done  wall 199.2 s
+[09:20:04]   job s05_c0 craft columns  16  levels 9  settles 22/22  end plan_done  wall 200.4 s
+[09:20:12]   job s05_c3 craft columns  16  levels 10  settles 22/22  end plan_done  wall 209.2 s
+[09:20:12]   job s05_c6 craft columns  16  levels 9  settles 19/19  end plan_done  wall 210.2 s
+[09:20:18]   job s05_c5 craft columns  14  levels 10  settles 18/20  end plan_done  wall 216.2 s
+[09:20:18] [slice 5] propose: 125 columns (0 bad dropped) in 216.5 s
+[09:20:18] [slice 5] auction: 125 columns, kept 119, dropped {'fuel': 2, 'ramp': 4}; lam 0.70 H_eff 540 d fuel budget 482 kg quota on
+[09:20:18] [slice 5] auction: status optimal objective 45.706 vars 119 rows 55 chosen 8 fuel 471/482 kg (0.02 s)
+[09:20:20] [slice 5] fuel dual: lam 0.700 -> 1.050 (chosen 470 / budget 482 kg, ramp drops 4 of 123)
+[09:20:20] [slice 5 T=2700 d] launched 8/8  covered 147  remaining 151  fuel 2093 kg  sumJi 9.7901  chosen: c0:4(+67) c1:3(+74) c2:3(+46) c3:3(+50) c4:2(+12) c5:3(+70) c6:3(+77) c7:3(+74)  rejected: -  (wall 219 s)
+[09:20:20]   c5: classes at quota ['fil'] -> 40 targets withheld from its beam
+[09:20:20] [slice 6 T=3240 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 1.0499999999999998
+[09:23:02]   job s06_c5 craft columns  13  levels 7  settles 16/19  end plan_done  wall 160.3 s
+[09:23:32]   job s06_c6 craft columns  16  levels 9  settles 18/18  end plan_done  wall 190.5 s
+[09:23:38]   job s06_c1 craft columns  16  levels 9  settles 21/21  end plan_done  wall 197.1 s
+[09:23:44]   job s06_c7 craft columns  16  levels 11  settles 19/19  end plan_done  wall 203.7 s
+[09:23:46]   job s06_c2 craft columns  16  levels 8  settles 20/20  end plan_done  wall 204.8 s
+[09:23:48]   job s06_c4 craft columns  16  levels 10  settles 19/19  end plan_done  wall 208.2 s
+[09:23:56]   job s06_c0 craft columns  16  levels 9  settles 19/21  end plan_done  wall 215.4 s
+[09:24:12]   job s06_c3 craft columns  12  levels 9  settles 15/18  end plan_done  wall 231.2 s
+[09:24:12] [slice 6] propose: 121 columns (0 bad dropped) in 232.5 s
+[09:24:12] [slice 6] auction: 121 columns, kept 111, dropped {'ramp': 9, 'fuel': 1}; lam 1.05 H_eff 540 d fuel budget 482 kg quota on
+[09:24:12] [slice 6] auction: status optimal objective 42.220 vars 111 rows 54 chosen 8 fuel 348/482 kg (0.008 s)
+[09:24:14] [slice 6 T=3240 d] launched 8/8  covered 170  remaining 128  fuel 2440 kg  sumJi 10.1368  chosen: c0:3(+59) c1:3(+57) c2:2(+32) c3:3(+44) c4:4(+48) c5:2(+12) c6:3(+35) c7:3(+60)  rejected: -  (wall 234 s)
+[09:24:14] [slice 7 T=3780 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 1.0499999999999998
+[09:27:11]   job s07_c4 craft columns  16  levels 8  settles 18/18  end plan_done  wall 174.4 s
+[09:27:33]   job s07_c1 craft columns  13  levels 10  settles 15/16  end plan_done  wall 197.2 s
+[09:27:43]   job s07_c2 craft columns  15  levels 7  settles 15/16  end plan_done  wall 208.2 s
+[09:27:57]   job s07_c7 craft columns  16  levels 10  settles 21/21  end plan_done  wall 220.8 s
+[09:28:01]   job s07_c3 craft columns  16  levels 11  settles 16/16  end plan_done  wall 225.9 s
+[09:28:35]   job s07_c0 craft columns  16  levels 9  settles 20/20  end plan_done  wall 259.4 s
+[09:28:47]   job s07_c5 craft columns  10  levels 8  settles 12/16  end plan_done  wall 271.1 s
+[09:29:33]   job s07_c6 craft columns  16  levels 9  settles 21/21  end plan_done  wall 317.2 s
+[09:29:33] [slice 7] propose: 118 columns (0 bad dropped) in 318.6 s
+[09:29:33] [slice 7] auction: 118 columns, kept 107, dropped {'fuel': 7, 'ramp': 4}; lam 1.05 H_eff 540 d fuel budget 482 kg quota OFF
+[09:29:33] [slice 7] auction: status optimal objective 48.099 vars 107 rows 43 chosen 8 fuel 455/482 kg (0.008 s)
+[09:29:35] [slice 7 T=3780 d] launched 8/8  covered 193  remaining 105  fuel 2894 kg  sumJi 10.6157  chosen: c0:2(+20) c1:4(+92) c2:1(+50) c3:3(+78) c4:3(+24) c5:3(+85) c6:3(+48) c7:4(+58)  rejected: -  (wall 321 s)
+[09:29:35] [slice 8 T=4320 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 1.0499999999999998
+[09:31:45]   job s08_c4 craft columns  16  levels 6  settles 16/16  end plan_done  wall 129.8 s
+[09:32:25]   job s08_c0 craft columns  13  levels 6  settles 17/17  end plan_done  wall 168.5 s
+[09:32:31]   job s08_c3 craft columns  16  levels 8  settles 21/21  end plan_done  wall 176.2 s
+[09:32:37]   job s08_c7 craft columns  14  levels 6  settles 18/20  end plan_done  wall 181.0 s
+[09:32:45]   job s08_c1 craft columns  13  levels 7  settles 13/16  end plan_done  wall 188.8 s
+[09:32:47]   job s08_c2 craft columns  15  levels 6  settles 19/20  end plan_done  wall 191.9 s
+[09:33:27]   job s08_c5 craft columns  13  levels 5  settles 16/19  end plan_done  wall 231.0 s
+[09:33:39]   job s08_c6 craft columns  16  levels 7  settles 21/21  end plan_done  wall 243.6 s
+[09:33:39] [slice 8] propose: 116 columns (0 bad dropped) in 244.5 s
+[09:33:39] [slice 8] auction: 116 columns, kept 95, dropped {'fuel': 21}; lam 1.05 H_eff 540 d fuel budget 482 kg quota OFF
+[09:33:39] [slice 8] auction: status optimal objective 52.198 vars 95 rows 38 chosen 8 fuel 255/482 kg (0.007 s)
+[09:33:41] [slice 8 T=4320 d] launched 8/8  covered 210  remaining 88  fuel 3149 kg  sumJi 10.8922  chosen: c0:1(+10) c1:1(+19) c2:1(+22) c3:5(+73) c4:2(+29) c5:2(+19) c6:2(+34) c7:3(+49)  rejected: -  (wall 246 s)
+[09:33:41] [slice 9] effective horizon 616.8 d (the last slice absorbs the mission tail; H 540.0)
+[09:33:41] [slice 9 T=4860 d] propose: 8 jobs (8 craft, 0 root) on 9 workers, proposer planbeam, H_eff 617 d, lam 1.0499999999999998
+[09:36:58]   job s09_c7 craft columns  16  levels 4  settles 23/23  end plan_done  wall 196.0 s
+[09:37:12]   job s09_c3 craft columns  15  levels 4  settles 17/18  end plan_done  wall 210.0 s
+[09:37:14]   job s09_c4 craft columns  15  levels 4  settles 18/20  end plan_done  wall 211.7 s
+[09:37:18]   job s09_c6 craft columns  16  levels 3  settles 17/17  end plan_done  wall 216.1 s
+[09:37:22]   job s09_c2 craft columns  16  levels 2  settles 17/17  end plan_done  wall 219.8 s
+[09:37:44]   job s09_c5 craft columns  16  levels 3  settles 16/16  end plan_done  wall 241.5 s
+[09:38:00]   job s09_c1 craft columns  14  levels 4  settles 21/24  end plan_done  wall 257.3 s
+[09:39:00]   job s09_c0 craft columns  16  levels 3  settles 20/20  end plan_done  wall 318.0 s
+[09:39:00] [slice 9] propose: 124 columns (0 bad dropped) in 318.6 s
+[09:39:00] [slice 9] auction: 124 columns, kept 78, dropped {'fuel': 46}; lam 1.05 H_eff 617 d fuel budget 551 kg quota OFF
+[09:39:00] [slice 9] auction: status optimal objective 63.430 vars 78 rows 38 chosen 8 fuel 292/551 kg (0.01 s)
+[09:39:02] [slice 9 T=4860 d] launched 8/8  covered 229  remaining 69  fuel 3440 kg  sumJi 11.2222  chosen: c0:2(+30) c1:3(+49) c2:1(+3) c3:3(+65) c4:3(+40) c5:1(+32) c6:3(+8) c7:3(+63)  rejected: -  (wall 321 s)
+[09:39:02] stop: horizon at T=5477 d (slice 10)
+[09:39:03] finalize: fleet/ 8 routes  covered 229  misses 69  fuel 3440 kg  sumJi 11.2222  J 82.2222  honest True
+[09:39:03] p3_wide: slice 10 phase propose T=5477 d  launched 8/8  covered 229  remaining 69  fuel 3440 kg  sumJi 11.2222  done True (horizon)

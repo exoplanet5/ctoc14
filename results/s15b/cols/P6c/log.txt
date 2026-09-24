@@ -1,0 +1,2 @@
+[06:58:47] twintail P6c: pool 42, S [33, 138, 280], p 0.05, steps 2, beam 24/72, nproc 1; resume at step 1
+[06:58:59]   roots: 945 launch legs -> 204 kept; pool 42, S [33, 138, 280] p 0.05

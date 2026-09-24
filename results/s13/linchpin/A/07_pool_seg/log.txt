@@ -1,0 +1,21 @@
+[20:50:26] === 07 cond pool builder seg: pool 36 = own 27 + extra 9 [12, 68, 71, 118, 141, 171, 208, 251, 254]; hard in pool 9; source route 27 fb @ 815.1 kg (7.97 kg/fb)
+[20:50:26]   hard extra 251: waypoint at 3830 d (closest approach 0.077 AU to the source route)
+[20:50:26]   hard extra 254: waypoint at 3708 d (closest approach 0.059 AU to the source route)
+[20:50:26]   skeleton: 9 waypoints 205@734 214@1785 203@1986 88@2503 15@3637 254@3708 178@3791 251@3830 36@4767; easy 27
+[20:51:22]     07 seg 3: 2 states reach waypoint 88 -- relaxed retry
+[20:51:23]     07 seg 3: 4 states reach waypoint 88 -- giving up
+[20:51:24]     07 seg 4: 3 states reach waypoint 15 -- relaxed retry
+[20:51:35]     07 seg 6: 1 states reach waypoint 178 -- relaxed retry
+[20:51:36]     07 seg 6: 2 states reach waypoint 178 -- giving up
+[20:51:36]     07 seg 7: 0 states reach waypoint 251 -- relaxed retry
+[20:51:36]     07 seg 7: 0 states reach waypoint 251 -- giving up
+[20:51:36]     07 seg 7: DROPPING waypoint 251 ([3785,3875] d unreachable); it goes to the leftovers
+[20:51:36]     07 seg 8: 0 states reach waypoint 36 -- relaxed retry
+[20:51:36]     07 seg 8: 0 states reach waypoint 36 -- giving up
+[20:51:36]     07 seg 8: DROPPING waypoint 36 ([4722,4812] d unreachable); it goes to the leftovers
+[20:51:36]     07 segments: 0:205->16st/4fb 1:214->6st/7fb 2:203->4st/8fb 3:88->2st/10fb 4:15->34st/16fb 5:254->9st/16fb 6:178->1st/15fb 7:251->0st/0fb 8:36->0st/0fb 9:None->3st/16fb
+[20:51:36]   build 70 s: 3 states, deepest 16 of pool 36; Pareto 15:833 16:838
+[20:52:45]     16 pool fb (alt 0): settle FAILED (miss 69650558.72788827, 69 s)
+[20:53:03]     16 pool fb (alt 1): planner 847 -> twin 792.3 kg, 12.02 kg/fb, 0.676 km/s/fb, J_i 1.1563, own 14/27 extra 2/9 (miss 21 km, 18 s)
+[20:53:43]     15 pool fb (alt 0): planner 833 -> twin 1126.3 kg, 35.09 kg/fb, 1.640 km/s/fb, J_i 1.5173, own 13/27 extra 2/9 (miss 45 km, 40 s)
+[20:53:43]   BEST 07: 16/36 pool targets @ 792.4 kg (12.02 kg/fb; source 27 @ 815.1 = 7.97 kg/fb); orphans [3, 12, 13, 23, 36, 43, 68, 69, 71, 87, 118, 119, 170, 171, 208, 241, 251, 294, 296, 299]

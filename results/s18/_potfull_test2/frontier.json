@@ -1,0 +1,91 @@
+{
+ "slice": 3,
+ "T_d": 1620.0,
+ "H_d": 540.0,
+ "L_d": 360.0,
+ "crafts": [
+  4
+ ],
+ "rows": [
+  {
+   "craft": 4,
+   "ok": true,
+   "error": null,
+   "wall_s": 55.7,
+   "plan_s": 80.2,
+   "n_columns": 16,
+   "planbeam": [
+    {
+     "n_new": 1,
+     "dtank_min": 3.6,
+     "potential_of_cheapest": 1,
+     "potential_max": 8,
+     "n_cols": 4
+    },
+    {
+     "n_new": 2,
+     "dtank_min": 21.6,
+     "potential_of_cheapest": 4,
+     "potential_max": 8,
+     "n_cols": 3
+    },
+    {
+     "n_new": 3,
+     "dtank_min": 30.3,
+     "potential_of_cheapest": 0,
+     "potential_max": 8,
+     "n_cols": 3
+    },
+    {
+     "n_new": 4,
+     "dtank_min": 38.7,
+     "potential_of_cheapest": 0,
+     "potential_max": 8,
+     "n_cols": 3
+    },
+    {
+     "n_new": 5,
+     "dtank_min": 67.1,
+     "potential_of_cheapest": 5,
+     "potential_max": 7,
+     "n_cols": 3
+    }
+   ],
+   "segbeam": {
+    "1": {
+     "dtank_min": 3.620300587783163,
+     "potential_of_cheapest": 1,
+     "potential_max": 1,
+     "n_cols": 4
+    },
+    "2": {
+     "dtank_min": 21.642575782183485,
+     "potential_of_cheapest": 1,
+     "potential_max": 1,
+     "n_cols": 3
+    },
+    "3": {
+     "dtank_min": 30.32249938368568,
+     "potential_of_cheapest": 0,
+     "potential_max": 2,
+     "n_cols": 3
+    },
+    "4": {
+     "dtank_min": 38.74127433468402,
+     "potential_of_cheapest": 0,
+     "potential_max": 2,
+     "n_cols": 3
+    },
+    "5": {
+     "dtank_min": 67.08234460785513,
+     "potential_of_cheapest": 1,
+     "potential_max": 1,
+     "n_cols": 3
+    }
+   },
+   "seg_wall_s": 137.7
+  }
+ ],
+ "total_wall_s": 55.7,
+ "built": "2026-09-24 08:03:43"
+}

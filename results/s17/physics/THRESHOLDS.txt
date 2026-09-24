@@ -1,0 +1,16 @@
+Written BEFORE running rare_milp.py (2026-09-23).
+Test T0 (rare-disjoint seed selection over the 2490-route honest pool, restricted to routes >= 36 flybys):
+  choose <= 8 routes whose RARE sets (targets with <= 4 node events < 0.05 AU in 15 yr; 95 targets) are pairwise disjoint.
+  PASS  if rare coverage >= 85/95 AND the union of all their targets >= 270/298.
+  KILL  if rare coverage <= 75/95 (rare targets conflict even among existing deep routes).
+  In between: inconclusive (needs new routes).
+
+Written BEFORE running rare_lanes.py (2026-09-23 ~22:00).
+Test T1 (pin-lane capacity in the stage-7 carrier model, tools/carrier_dp.events_for + dp_route imported, not modified):
+  events of the 95 RARE targets only; eps 0.03 AU, kgap 10 km/s/AU, kphase 1.5, lam 0.5; carriers launched days 0-730, |vinf| <= 4.
+  8 lanes chosen greedily for new rare coverage from a DP-valued carrier library, then 3 rounds of re-pricing
+  (each lane re-solved with weight 0 on targets held by the other lanes, best library carrier per slot).
+  PASS  if 8 disjoint lanes cover >= 85/95 rare targets at mean model dv <= 5 km/s per lane.
+  KILL  if <= 70/95.   In between: inconclusive.
+  Caveat fixed in advance: a lane is ONE fixed carrier shape (no drift) -> pessimistic on reach; eps 0.03 is ~2x
+  optimistic on gap cost (stage 7 calibration).  Also report the same lanes' model count on ALL targets as a sanity check.

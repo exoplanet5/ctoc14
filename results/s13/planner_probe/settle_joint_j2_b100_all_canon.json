@@ -1,0 +1,58 @@
+[
+ {
+  "stem": "j2_b100_all_canon",
+  "craft": 0,
+  "n": 39,
+  "waits": 0,
+  "seed": "stock",
+  "seed_tank": 1192.0,
+  "t_s": 11.3,
+  "ok": true,
+  "tank_twin": 982.2,
+  "kg_per_fb": 9.8,
+  "dv_per_fb": 0.4932,
+  "planner_fuel": 825.5
+ },
+ {
+  "stem": "j2_b100_all_canon",
+  "craft": 0,
+  "n": 39,
+  "waits": 0,
+  "seed": "wait-aware",
+  "seed_tank": 1192.0,
+  "t_s": 11.8,
+  "ok": true,
+  "tank_twin": 982.2,
+  "kg_per_fb": 9.8,
+  "dv_per_fb": 0.4932,
+  "planner_fuel": 825.5
+ },
+ {
+  "stem": "j2_b100_all_canon",
+  "craft": 1,
+  "n": 43,
+  "waits": 0,
+  "seed": "stock",
+  "seed_tank": 1392.6,
+  "t_s": 18.0,
+  "ok": true,
+  "tank_twin": 1024.6,
+  "kg_per_fb": 9.87,
+  "dv_per_fb": 0.4859,
+  "planner_fuel": 922.6
+ },
+ {
+  "stem": "j2_b100_all_canon",
+  "craft": 1,
+  "n": 43,
+  "waits": 0,
+  "seed": "wait-aware",
+  "seed_tank": 1392.6,
+  "t_s": 17.8,
+  "ok": true,
+  "tank_twin": 1024.6,
+  "kg_per_fb": 9.87,
+  "dv_per_fb": 0.4859,
+  "planner_fuel": 922.6
+ }
+]

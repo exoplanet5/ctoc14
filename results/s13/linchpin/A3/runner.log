@@ -1,0 +1,7 @@
+[21:17:03] start 0: d pool --builder beam --beam 1000 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/06_pool_beam_dv2.out 2>&1
+[21:17:03] start 1: d pool --builder beam --beam 1000 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/08_pool_beam_dv2.out 2>&1
+[21:17:03] start 2: d pool --builder beam --beam 1000 --dvmax 2.0 --drmax 0.25 --nproc 1 > results/s13/linchpin/A3/04_pool_beam_dv2.out 2>&1
+[21:34:39] done 1 rc 0 in 1056 s
+[21:44:32] done 0 rc 0 in 1649 s
+[21:50:17] done 2 rc 0 in 1994 s
+[21:50:17] all done

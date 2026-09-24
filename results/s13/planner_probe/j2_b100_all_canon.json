@@ -1,0 +1,606 @@
+{
+ "pool": "all",
+ "pool_size": 298,
+ "K": 2,
+ "beam": 100,
+ "nproc": 1,
+ "m0": 1600.0,
+ "t_run_s": 715.0,
+ "n_joint_states": 8044,
+ "t10d_reference": {},
+ "t10d_sumJ": 0,
+ "max_covered": 82,
+ "front": {
+  "76": {
+   "sumJ_planner": 2.5866,
+   "depths": [
+    36,
+    40
+   ],
+   "tanks_planner": [
+    910,
+    953
+   ]
+  },
+  "77": {
+   "sumJ_planner": 2.5962,
+   "depths": [
+    37,
+    40
+   ],
+   "tanks_planner": [
+    919,
+    953
+   ]
+  },
+  "78": {
+   "sumJ_planner": 2.6017,
+   "depths": [
+    38,
+    40
+   ],
+   "tanks_planner": [
+    925,
+    953
+   ]
+  },
+  "79": {
+   "sumJ_planner": 2.6119,
+   "depths": [
+    38,
+    41
+   ],
+   "tanks_planner": [
+    925,
+    963
+   ]
+  },
+  "80": {
+   "sumJ_planner": 2.6191,
+   "depths": [
+    38,
+    42
+   ],
+   "tanks_planner": [
+    925,
+    969
+   ]
+  },
+  "81": {
+   "sumJ_planner": 2.6267,
+   "depths": [
+    39,
+    42
+   ],
+   "tanks_planner": [
+    932,
+    969
+   ]
+  },
+  "82": {
+   "sumJ_planner": 2.6823,
+   "depths": [
+    39,
+    43
+   ],
+   "tanks_planner": [
+    942,
+    1009
+   ]
+  }
+ },
+ "last_level": {
+  "depth": 82,
+  "n_states": 4,
+  "distinct_splits": 1,
+  "distinct_sets_per_craft": [
+   4,
+   1
+  ]
+ },
+ "settles": [],
+ "canon": true,
+ "wait_d": 60.0,
+ "perm_free_frac": {
+  "mean": 0.945,
+  "min": 0.6
+ },
+ "levels": [
+  {
+   "depth": 1,
+   "children": 60,
+   "kept": 39,
+   "perm_free": 31
+  },
+  {
+   "depth": 2,
+   "children": 2340,
+   "kept": 100,
+   "perm_free": 60
+  },
+  {
+   "depth": 3,
+   "children": 1540,
+   "kept": 100,
+   "perm_free": 68
+  },
+  {
+   "depth": 4,
+   "children": 1305,
+   "kept": 100,
+   "perm_free": 85
+  },
+  {
+   "depth": 5,
+   "children": 1208,
+   "kept": 100,
+   "perm_free": 97
+  },
+  {
+   "depth": 6,
+   "children": 1029,
+   "kept": 100,
+   "perm_free": 99
+  },
+  {
+   "depth": 7,
+   "children": 1003,
+   "kept": 100,
+   "perm_free": 97
+  },
+  {
+   "depth": 8,
+   "children": 993,
+   "kept": 100,
+   "perm_free": 94
+  },
+  {
+   "depth": 9,
+   "children": 1045,
+   "kept": 100,
+   "perm_free": 98
+  },
+  {
+   "depth": 10,
+   "children": 778,
+   "kept": 100,
+   "perm_free": 96
+  },
+  {
+   "depth": 11,
+   "children": 1092,
+   "kept": 100,
+   "perm_free": 95
+  },
+  {
+   "depth": 12,
+   "children": 1345,
+   "kept": 100,
+   "perm_free": 97
+  },
+  {
+   "depth": 13,
+   "children": 1354,
+   "kept": 100,
+   "perm_free": 96
+  },
+  {
+   "depth": 14,
+   "children": 1193,
+   "kept": 100,
+   "perm_free": 97
+  },
+  {
+   "depth": 15,
+   "children": 1271,
+   "kept": 100,
+   "perm_free": 90
+  },
+  {
+   "depth": 16,
+   "children": 1143,
+   "kept": 100,
+   "perm_free": 86
+  },
+  {
+   "depth": 17,
+   "children": 1264,
+   "kept": 100,
+   "perm_free": 97
+  },
+  {
+   "depth": 18,
+   "children": 1082,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 19,
+   "children": 1210,
+   "kept": 100,
+   "perm_free": 99
+  },
+  {
+   "depth": 20,
+   "children": 950,
+   "kept": 100,
+   "perm_free": 97
+  },
+  {
+   "depth": 21,
+   "children": 1139,
+   "kept": 100,
+   "perm_free": 99
+  },
+  {
+   "depth": 22,
+   "children": 1159,
+   "kept": 100,
+   "perm_free": 98
+  },
+  {
+   "depth": 23,
+   "children": 1071,
+   "kept": 100,
+   "perm_free": 94
+  },
+  {
+   "depth": 24,
+   "children": 989,
+   "kept": 100,
+   "perm_free": 98
+  },
+  {
+   "depth": 25,
+   "children": 1514,
+   "kept": 100,
+   "perm_free": 98
+  },
+  {
+   "depth": 26,
+   "children": 1278,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 27,
+   "children": 817,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 28,
+   "children": 639,
+   "kept": 100,
+   "perm_free": 94
+  },
+  {
+   "depth": 29,
+   "children": 664,
+   "kept": 100,
+   "perm_free": 92
+  },
+  {
+   "depth": 30,
+   "children": 636,
+   "kept": 100,
+   "perm_free": 93
+  },
+  {
+   "depth": 31,
+   "children": 819,
+   "kept": 100,
+   "perm_free": 94
+  },
+  {
+   "depth": 32,
+   "children": 899,
+   "kept": 100,
+   "perm_free": 96
+  },
+  {
+   "depth": 33,
+   "children": 771,
+   "kept": 100,
+   "perm_free": 93
+  },
+  {
+   "depth": 34,
+   "children": 1028,
+   "kept": 100,
+   "perm_free": 94
+  },
+  {
+   "depth": 35,
+   "children": 1167,
+   "kept": 100,
+   "perm_free": 93
+  },
+  {
+   "depth": 36,
+   "children": 1281,
+   "kept": 100,
+   "perm_free": 92
+  },
+  {
+   "depth": 37,
+   "children": 1154,
+   "kept": 100,
+   "perm_free": 98
+  },
+  {
+   "depth": 38,
+   "children": 1156,
+   "kept": 100,
+   "perm_free": 98
+  },
+  {
+   "depth": 39,
+   "children": 957,
+   "kept": 100,
+   "perm_free": 91
+  },
+  {
+   "depth": 40,
+   "children": 1043,
+   "kept": 100,
+   "perm_free": 90
+  },
+  {
+   "depth": 41,
+   "children": 1114,
+   "kept": 100,
+   "perm_free": 88
+  },
+  {
+   "depth": 42,
+   "children": 1239,
+   "kept": 100,
+   "perm_free": 95
+  },
+  {
+   "depth": 43,
+   "children": 1201,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 44,
+   "children": 1065,
+   "kept": 100,
+   "perm_free": 83
+  },
+  {
+   "depth": 45,
+   "children": 1126,
+   "kept": 100,
+   "perm_free": 88
+  },
+  {
+   "depth": 46,
+   "children": 1006,
+   "kept": 100,
+   "perm_free": 96
+  },
+  {
+   "depth": 47,
+   "children": 1154,
+   "kept": 100,
+   "perm_free": 99
+  },
+  {
+   "depth": 48,
+   "children": 1161,
+   "kept": 100,
+   "perm_free": 99
+  },
+  {
+   "depth": 49,
+   "children": 662,
+   "kept": 100,
+   "perm_free": 98
+  },
+  {
+   "depth": 50,
+   "children": 1185,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 51,
+   "children": 1060,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 52,
+   "children": 896,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 53,
+   "children": 1036,
+   "kept": 100,
+   "perm_free": 99
+  },
+  {
+   "depth": 54,
+   "children": 979,
+   "kept": 100,
+   "perm_free": 98
+  },
+  {
+   "depth": 55,
+   "children": 788,
+   "kept": 100,
+   "perm_free": 99
+  },
+  {
+   "depth": 56,
+   "children": 856,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 57,
+   "children": 906,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 58,
+   "children": 1147,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 59,
+   "children": 1119,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 60,
+   "children": 1038,
+   "kept": 100,
+   "perm_free": 96
+  },
+  {
+   "depth": 61,
+   "children": 1411,
+   "kept": 100,
+   "perm_free": 93
+  },
+  {
+   "depth": 62,
+   "children": 1189,
+   "kept": 100,
+   "perm_free": 93
+  },
+  {
+   "depth": 63,
+   "children": 1152,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 64,
+   "children": 1306,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 65,
+   "children": 1271,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 66,
+   "children": 810,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 67,
+   "children": 1414,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 68,
+   "children": 1530,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 69,
+   "children": 1157,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 70,
+   "children": 1086,
+   "kept": 100,
+   "perm_free": 100
+  },
+  {
+   "depth": 71,
+   "children": 1157,
+   "kept": 100,
+   "perm_free": 94
+  },
+  {
+   "depth": 72,
+   "children": 1236,
+   "kept": 100,
+   "perm_free": 84
+  },
+  {
+   "depth": 73,
+   "children": 956,
+   "kept": 100,
+   "perm_free": 84
+  },
+  {
+   "depth": 74,
+   "children": 730,
+   "kept": 100,
+   "perm_free": 90
+  },
+  {
+   "depth": 75,
+   "children": 918,
+   "kept": 100,
+   "perm_free": 98
+  },
+  {
+   "depth": 76,
+   "children": 1045,
+   "kept": 100,
+   "perm_free": 86
+  },
+  {
+   "depth": 77,
+   "children": 839,
+   "kept": 100,
+   "perm_free": 81
+  },
+  {
+   "depth": 78,
+   "children": 1047,
+   "kept": 100,
+   "perm_free": 86
+  },
+  {
+   "depth": 79,
+   "children": 751,
+   "kept": 100,
+   "perm_free": 91
+  },
+  {
+   "depth": 80,
+   "children": 439,
+   "kept": 100,
+   "perm_free": 99
+  },
+  {
+   "depth": 81,
+   "children": 220,
+   "kept": 100,
+   "perm_free": 98
+  },
+  {
+   "depth": 82,
+   "children": 8,
+   "kept": 4,
+   "perm_free": 4
+  }
+ ],
+ "waits_per_craft": [
+  0,
+  0
+ ]
+}

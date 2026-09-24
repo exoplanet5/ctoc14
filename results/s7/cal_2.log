@@ -1,0 +1,41 @@
+30000 carriers, eps 0.01: candidate count best 49, median 16
+
+carrier tL   241 d |vinf| 1.83  P 356.9 d: 49 candidates, 1020 events -> DP 12 flybys, model dv 1.67 (phase) + 2.56 (gap) km/s  (0.0 s)
+   lag [d]: 1 -7 -8 -8 -9 -8 -5 -3 -6 4 1 9
+   twin: 12 flybys, tank 632 kg, dv 1.94 km/s = 0.161 km/s per flyby, J_i 1.023  (5 s)
+
+carrier tL   110 d |vinf| 0.99  P 381.0 d: 47 candidates, 1104 events -> DP 11 flybys, model dv 1.46 (phase) + 2.71 (gap) km/s  (0.0 s)
+   lag [d]: 3 7 15 15 14 6 -5 0 -5 -6 2
+   twin: 11 flybys, tank 627 kg, dv 1.61 km/s = 0.146 km/s per flyby, J_i 1.019  (2 s)
+
+carrier tL    65 d |vinf| 1.31  P 373.9 d: 47 candidates, 954 events -> DP 11 flybys, model dv 1.41 (phase) + 2.73 (gap) km/s  (0.0 s)
+   lag [d]: 0 4 9 15 17 24 18 29 26 32 38
+   twin: 11 flybys, tank 638 kg, dv 2.29 km/s = 0.208 km/s per flyby, J_i 1.028  (6 s)
+
+carrier tL   118 d |vinf| 0.80  P 375.9 d: 47 candidates, 1014 events -> DP 13 flybys, model dv 1.45 (phase) + 2.83 (gap) km/s  (0.0 s)
+   lag [d]: -3 -4 -23 -23 -31 -33 -38 -37 -37 -39 -52 -59 -61
+   twin: 13 flybys, tank 629 kg, dv 1.78 km/s = 0.137 km/s per flyby, J_i 1.021  (2 s)
+
+carrier tL    21 d |vinf| 1.00  P 372.3 d: 47 candidates, 1005 events -> DP 11 flybys, model dv 1.07 (phase) + 2.13 (gap) km/s  (0.0 s)
+   lag [d]: 14 25 25 25 31 32 31 33 34 28 24
+   twin: 11 flybys, tank 619 kg, dv 1.10 km/s = 0.100 km/s per flyby, J_i 1.013  (6 s)
+
+carrier tL    29 d |vinf| 1.08  P 360.0 d: 47 candidates, 1089 events -> DP 15 flybys, model dv 1.75 (phase) + 2.06 (gap) km/s  (0.0 s)
+   lag [d]: -3 -2 -2 -2 -4 -4 -4 -9 -6 -6 -21 -18 -19 -24 -10
+   twin: 15 flybys, tank 636 kg, dv 2.18 km/s = 0.145 km/s per flyby, J_i 1.026  (3 s)
+
+carrier tL   182 d |vinf| 1.43  P 360.3 d: 46 candidates, 936 events -> DP 11 flybys, model dv 0.84 (phase) + 5.23 (gap) km/s  (0.0 s)
+   lag [d]: 19 58 73 83 88 91 104 105 107 107 104
+   twin: 11 flybys, tank 620 kg, dv 1.16 km/s = 0.105 km/s per flyby, J_i 1.014  (6 s)
+
+carrier tL    84 d |vinf| 0.78  P 358.7 d: 46 candidates, 1077 events -> DP 12 flybys, model dv 1.58 (phase) + 2.08 (gap) km/s  (0.0 s)
+   lag [d]: -2 -3 -1 -1 -9 -2 -0 -10 -17 -20 -15 -13
+   twin: 12 flybys, tank 630 kg, dv 1.82 km/s = 0.151 km/s per flyby, J_i 1.022  (2 s)
+
+carrier tL    15 d |vinf| 0.82  P 354.4 d: 46 candidates, 1125 events -> DP 15 flybys, model dv 1.74 (phase) + 2.79 (gap) km/s  (0.0 s)
+   lag [d]: 3 14 20 21 23 30 32 33 31 34 35 43 43 44 38
+   twin: 15 flybys, tank 642 kg, dv 2.54 km/s = 0.169 km/s per flyby, J_i 1.031  (2 s)
+
+carrier tL    11 d |vinf| 1.54  P 360.2 d: 46 candidates, 930 events -> DP 15 flybys, model dv 1.75 (phase) + 4.47 (gap) km/s  (0.0 s)
+   lag [d]: 3 15 24 31 33 31 30 31 31 49 45 39 30 27 14
+   twin: 15 flybys, tank 637 kg, dv 2.26 km/s = 0.151 km/s per flyby, J_i 1.027  (2 s)

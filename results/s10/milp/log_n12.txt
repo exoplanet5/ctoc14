@@ -1,0 +1,20 @@
+[16:19:47] === MILP over 239 carriers, dmax 0.12 AU, pmin 0.2, band 6, max_added 34, risk False
+[16:19:47]   84883 (carrier,target,band) columns, 6 bands; 15597 distinct (carrier,target) pairs; reachable targets 298/298
+[16:19:48]   MILP 85659 vars (239 y, 84883 x, 298 z, 239 J), 4839 rows, 1284894 nnz
+[16:20:06]   LP bound  sum J_i 7.9800  -> J 9.9800   (20 s)
+[16:20:07]   MILP 85659 vars (239 y, 84883 x, 298 z, 239 J), 4840 rows, 1285133 nnz
+[16:35:08]   MILP Time limit reached. (HiGHS Status 13: Time limit reached): 12 craft, 277 covered, predicted sum J_i 15.5865, J 38.5865  (HiGHS obj 36.5847, dual bound 13.7289)   (902 s)
+[16:35:08]    carrier  148: base 10 @ 655 kg + 23 assigned = 33 fb, predicted tank 982 kg, J_i 1.3476 (0.0408 J/fb); kg 18 14 18 44 17 20 19 16 20 16 11 15 7 11 7 9 11 13 6 8 6 7 16
+[16:35:08]    carrier  194: base 17 @ 683 kg + 16 assigned = 33 fb, predicted tank 1100 kg, J_i 1.4848 (0.0450 J/fb); kg 33 136 21 32 23 26 13 15 16 13 16 23 6 14 7 22
+[16:35:08]    carrier   86: base 18 @ 763 kg + 10 assigned = 28 fb, predicted tank 1004 kg, J_i 1.3721 (0.0490 J/fb); kg 6 70 38 21 24 30 4 24 10 15
+[16:35:08]    carrier  149: base 19 @ 659 kg +  9 assigned = 28 fb, predicted tank 909 kg, J_i 1.2693 (0.0453 J/fb); kg 18 43 18 31 33 73 5 12 17
+[16:35:08]    carrier  202: base 12 @ 624 kg + 16 assigned = 28 fb, predicted tank 1000 kg, J_i 1.3677 (0.0488 J/fb); kg 69 15 58 12 69 48 8 18 10 11 14 12 9 6 9 9
+[16:35:08]    carrier  232: base 16 @ 660 kg + 12 assigned = 28 fb, predicted tank 1155 kg, J_i 1.5537 (0.0555 J/fb); kg 25 142 42 33 89 43 6 30 16 20 18 31
+[16:35:08]    carrier  195: base 15 @ 667 kg + 12 assigned = 27 fb, predicted tank 829 kg, J_i 1.1907 (0.0441 J/fb); kg 27 10 13 11 19 31 3 10 12 10 10 6
+[16:35:08]    carrier  136: base  5 @ 618 kg + 21 assigned = 26 fb, predicted tank 831 kg, J_i 1.1923 (0.0459 J/fb); kg 25 8 15 7 29 7 10 10 8 11 11 12 3 7 7 10 10 10 6 4 4
+[16:35:08]    carrier  191: base 15 @ 657 kg + 11 assigned = 26 fb, predicted tank 837 kg, J_i 1.1978 (0.0461 J/fb); kg 17 16 27 19 16 15 3 18 19 16 13
+[16:35:08]    carrier  220: base 15 @ 637 kg + 11 assigned = 26 fb, predicted tank 900 kg, J_i 1.2605 (0.0485 J/fb); kg 43 24 20 67 21 26 5 5 23 22 7
+[16:35:08]    carrier  201: base 13 @ 678 kg + 12 assigned = 25 fb, predicted tank 810 kg, J_i 1.1724 (0.0469 J/fb); kg 12 14 11 14 20 17 3 5 5 10 14 7
+[16:35:08]    carrier  199: base 16 @ 658 kg +  7 assigned = 23 fb, predicted tank 815 kg, J_i 1.1776 (0.0512 J/fb); kg 7 5 7 30 38 54 16
+[16:35:08]    missed: [3, 23, 53, 63, 64, 84, 90, 97, 124, 138, 147, 158, 176, 187, 207, 219, 221, 224, 278, 282, 287]
+[16:35:08] -> results/s10/milp/plan_n12.json

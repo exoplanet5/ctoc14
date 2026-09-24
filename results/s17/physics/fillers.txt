@@ -1,0 +1,11 @@
+class sizes {'rare': 95, 'med': 123, 'fill': 80}
+deep distinct 459
+  fillers  0- 7: routes    3  med depth   38  med kg/fb 11.22  best 10.04
+  fillers  8-10: routes   33  med depth   38  med kg/fb 10.56  best  8.52
+  fillers 11-13: routes   93  med depth   39  med kg/fb 10.07  best  5.78
+  fillers 14-16: routes   80  med depth   40  med kg/fb  9.52  best  6.33
+  fillers 17-19: routes   80  med depth   40  med kg/fb  9.49  best  5.39
+  fillers 20-39: routes  170  med depth   44  med kg/fb 10.25  best  7.06
+corr(fillers, kg/fb) = 0.04; corr(fillers, depth) = 0.56
+shared targets per deep pair: 8.0; composition {'rare': 0.13, 'med': 0.3, 'fill': 0.57}  base {'rare': 0.32, 'med': 0.41, 'fill': 0.27}
+deep-route demand per target (mean # of deep routes carrying it): {'rare': np.float64(39.4), 'med': np.float64(57.1), 'fill': np.float64(101.4)}

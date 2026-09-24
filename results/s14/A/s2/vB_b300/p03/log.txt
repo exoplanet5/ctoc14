@@ -1,0 +1,1 @@
+[18:12:19] === s14_lookback free 03: pool 38; L 3 beam 300 over 1.5 roots 300 dvcap 3.0 drmax 1.0 mcap 1100.0 (tcap 0.675) tofs 74 npt 2 mc 80 w_fuel 0.5197 ref 6/100.0/1000.0/rho 30.0

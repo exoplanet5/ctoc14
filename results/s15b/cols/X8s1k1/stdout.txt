@@ -1,0 +1,11 @@
+[06:49:45] prefix results/s15/cols/t03/TB2f/route_TB2fs1_21.npz k=1: 1 flybys to 251 d, tank 601.5 kg, miss 0 km (0 s)
+[06:49:45] twintail X8s1k1: pool 23, S [204, 212], p 0.5, steps 1, beam 24/72, nproc 1; resume at step 1
+[06:49:45]   RESUME level 1: beam 1, deepest 0
+[06:49:55]   depth  2: 1 parents -> 5 kids (5 uniq) -> tried 5, settled 3, kept 3; t_end 521-817 d, tank 610-612, max S 0 (10 s, gen 1 s)
+[06:50:09]   depth  3: 3 parents -> 11 kids (11 uniq) -> tried 11, settled 11, kept 10; t_end 815-1476 d, tank 612-672, max S 1 (14 s, gen 3 s)
+[06:51:51]   depth  4: 10 parents -> 69 kids (69 uniq) -> tried 32, settled 24, kept 24; t_end 961-1653 d, tank 622-768, max S 1 (102 s, gen 15 s)
+[06:53:05]   depth  5: 24 parents -> 147 kids (147 uniq) -> tried 24, settled 24, kept 22; t_end 1167-1728 d, tank 633-716, max S 1 (74 s, gen 39 s)
+[06:54:13]   depth  6: 22 parents -> 96 kids (96 uniq) -> tried 24, settled 24, kept 20; t_end 1439-2024 d, tank 639-683, max S 1 (68 s, gen 38 s)
+[06:55:38]   depth  7: 20 parents -> 85 kids (85 uniq) -> tried 25, settled 24, kept 21; t_end 1720-2560 d, tank 649-703, max S 2 (86 s, gen 36 s)
+[06:57:32]   depth  8: 21 parents -> 92 kids (92 uniq) -> tried 24, settled 24, kept 23; t_end 2462-2841 d, tank 661-702, max S 2 (114 s, gen 41 s)
+[06:59:28]   depth  9: 23 parents -> 115 kids (115 uniq) -> tried 24, settled 24, kept 23; t_end 2703-3104 d, tank 669-738, max S 2 (117 s, gen 52 s)

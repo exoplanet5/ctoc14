@@ -1,0 +1,2 @@
+[21:08:42]     absorb[route_C01h6s2_21+[]]: 1 approaches of [254]; lintwin 254@2119d 0.157AU 154kg
+[21:08:42] close C01h6_s2 done: 0 columns (0 s)

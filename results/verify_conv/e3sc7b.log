@@ -1,0 +1,215 @@
+  leg   0 it  0: miss [km]       0.0 27985778.7  |vrel| 18.48 19.56  t_f   325.00   535.00  max|T|=0.000
+  leg   0 it  1: miss [km]   53694.3 2180257.0  |vrel| 18.95 17.81  t_f   323.56   534.96  max|T|=0.038
+  leg   0 it  2: miss [km]    5978.8   42407.0  |vrel| 18.82 17.85  t_f   324.10   534.93  max|T|=0.045
+  leg   0 it  3: miss [km]       1.5      49.1  |vrel| 18.82 17.85  t_f   324.10   534.93  max|T|=0.045
+leg   0 frozen: ast  61 t=   324.1 d dist=   0.2 km m=1986.9 kg
+  leg   1 it  0: miss [km]      49.1 36161701.7  |vrel| 17.85 12.92  t_f   534.93   700.00  max|T|=0.044
+  leg   1 it  1: miss [km]  164523.1 1274237.6  |vrel| 18.21 10.14  t_f   536.06   694.04  max|T|=0.220
+  leg   1 it  2: miss [km]      63.0   24437.5  |vrel| 18.21 10.12  t_f   536.04   694.65  max|T|=0.235
+  leg   1 it  3: miss [km]       2.0      10.5  |vrel| 18.21 10.12  t_f   536.04   694.65  max|T|=0.235
+leg   1 frozen: ast 199 t=   536.0 d dist=   1.9 km m=1933.9 kg
+  leg   2 it  0: miss [km]      10.5 12387641.4  |vrel| 10.12 18.38  t_f   694.65   890.00  max|T|=0.235
+  leg   2 it  1: miss [km]   24972.9 1082520.5  |vrel| 10.10 20.45  t_f   693.55   885.96  max|T|=0.274
+  leg   2 it  2: miss [km]      33.2    1572.7  |vrel| 10.10 20.47  t_f   693.44   886.56  max|T|=0.274
+  leg   2 it  3: miss [km]       0.1       0.5  |vrel| 10.10 20.47  t_f   693.44   886.56  max|T|=0.274
+leg   2 frozen: ast 271 t=   693.4 d dist=   0.4 km m=1872.6 kg
+  leg   3 it  0: miss [km]       2.0 10068769.2  |vrel| 20.47 17.89  t_f   886.56  1015.00  max|T|=0.022
+  leg   3 it  1: miss [km]   12267.1  632006.7  |vrel| 20.36 18.75  t_f   886.50  1008.65  max|T|=0.058
+  leg   3 it  2: miss [km]      93.0    2524.5  |vrel| 20.35 18.83  t_f   886.49  1008.83  max|T|=0.065
+  leg   3 it  3: miss [km]       0.0       0.4  |vrel| 20.35 18.83  t_f   886.49  1008.83  max|T|=0.065
+leg   3 frozen: ast  65 t=   886.5 d dist=   0.1 km m=1854.4 kg
+  leg   4 it  0: miss [km]       0.5 75480743.8  |vrel| 18.83  8.87  t_f  1008.83  1160.00  max|T|=0.065
+  leg   4 it  1: miss [km]  393104.3 33114393.8  |vrel| 17.95  8.87  t_f  1012.04  1163.18  max|T|=0.313
+  leg   4 it  2: miss [km]  164669.1  804081.9  |vrel| 17.43 12.70  t_f  1014.36  1167.30  max|T|=0.450
+  leg   4 it  3: miss [km]     161.2    4222.9  |vrel| 17.46 12.63  t_f  1014.32  1167.55  max|T|=0.450
+  leg   4 it  4: miss [km]       0.2       2.6  |vrel| 17.46 12.63  t_f  1014.32  1167.55  max|T|=0.450
+leg   4 frozen: ast 234 t=  1014.3 d dist=   0.0 km m=1775.0 kg
+  leg   5 it  0: miss [km]       2.4 30969815.1  |vrel| 12.63 18.39  t_f  1167.55  1425.00  max|T|=0.137
+  leg   5 it  1: miss [km]  223138.6 6835217.8  |vrel| 12.87 22.45  t_f  1164.75  1422.78  max|T|=0.321
+  leg   5 it  2: miss [km]   10757.6  149200.9  |vrel| 12.93 23.57  t_f  1164.17  1423.99  max|T|=0.416
+  leg   5 it  3: miss [km]       2.3      51.8  |vrel| 12.93 23.54  t_f  1164.18  1424.01  max|T|=0.415
+leg   5 frozen: ast 248 t=  1164.2 d dist=   2.0 km m=1718.2 kg
+  leg   6 it  0: miss [km]      52.1 47165956.8  |vrel| 23.54 18.95  t_f  1424.01  1675.00  max|T|=0.089
+  leg   6 it  1: miss [km]  533735.3 11369505.5  |vrel| 25.06 12.15  t_f  1419.81  1676.04  max|T|=0.209
+  leg   6 it  2: miss [km]   42103.7  625462.1  |vrel| 24.67 12.93  t_f  1421.20  1675.47  max|T|=0.160
+  leg   6 it  3: miss [km]     111.2    2764.8  |vrel| 24.66 12.98  t_f  1421.27  1675.44  max|T|=0.157
+  leg   6 it  4: miss [km]       0.4       6.3  |vrel| 24.66 12.98  t_f  1421.27  1675.44  max|T|=0.157
+leg   6 frozen: ast 206 t=  1421.3 d dist=   0.3 km m=1672.0 kg
+  leg   7 it  0: miss [km]       6.2 8376834.2  |vrel| 12.98 16.26  t_f  1675.44  1735.00  max|T|=0.035
+  leg   7 it  1: miss [km]  149481.4  240336.1  |vrel| 13.50 15.39  t_f  1672.82  1732.61  max|T|=0.091
+  leg   7 it  2: miss [km]     255.1     153.8  |vrel| 13.51 15.36  t_f  1672.89  1732.52  max|T|=0.093
+leg   7 frozen: ast 155 t=  1672.9 d dist= 225.9 km m=1636.7 kg
+  leg   8 it  0: miss [km]     153.7 6223698.2  |vrel| 15.36 10.66  t_f  1732.52  2035.00  max|T|=0.037
+  leg   8 it  1: miss [km]     370.7  556111.2  |vrel| 15.31  9.49  t_f  1732.61  2038.61  max|T|=0.053
+  leg   8 it  2: miss [km]       8.7    2899.0  |vrel| 15.31  9.49  t_f  1732.62  2039.14  max|T|=0.056
+  leg   8 it  3: miss [km]       0.0       1.3  |vrel| 15.31  9.48  t_f  1732.62  2039.14  max|T|=0.056
+leg   8 frozen: ast 299 t=  1732.6 d dist=   0.0 km m=1633.6 kg
+  leg   9 it  0: miss [km]       1.3 2329332.3  |vrel|  9.48 12.68  t_f  2039.14  2170.00  max|T|=0.013
+  leg   9 it  1: miss [km]    2240.0   38790.3  |vrel|  9.44 13.12  t_f  2039.45  2169.36  max|T|=0.016
+  leg   9 it  2: miss [km]       7.4      20.3  |vrel|  9.45 13.13  t_f  2039.45  2169.38  max|T|=0.016
+leg   9 frozen: ast 130 t=  2039.4 d dist=   4.0 km m=1626.5 kg
+  leg  10 it  0: miss [km]      20.3 58591942.1  |vrel| 13.13 10.88  t_f  2169.38  2390.00  max|T|=0.015
+  leg  10 it  1: miss [km]   35235.6 37327118.9  |vrel| 13.43 10.40  t_f  2168.10  2330.00  max|T|=0.057
+  leg  10 it  2: miss [km]  490681.7 4688713.1  |vrel| 14.57 11.63  t_f  2163.21  2318.23  max|T|=0.345
+  leg  10 it  3: miss [km]     539.5   52815.4  |vrel| 14.65 12.23  t_f  2163.28  2319.57  max|T|=0.331
+  leg  10 it  4: miss [km]       0.7      20.6  |vrel| 14.65 12.23  t_f  2163.28  2319.52  max|T|=0.331
+leg  10 frozen: ast 273 t=  2163.3 d dist=   0.6 km m=1562.9 kg
+  leg  11 it  0: miss [km]      19.3 14491482.1  |vrel| 12.23 13.41  t_f  2319.52  2490.00  max|T|=0.331
+  leg  11 it  1: miss [km]   20215.2  462186.8  |vrel| 12.08 13.40  t_f  2320.07  2501.37  max|T|=0.343
+  leg  11 it  2: miss [km]     139.9    4649.4  |vrel| 12.07 13.31  t_f  2320.11  2501.70  max|T|=0.342
+  leg  11 it  3: miss [km]       1.1       8.9  |vrel| 12.07 13.31  t_f  2320.11  2501.70  max|T|=0.342
+leg  11 frozen: ast  18 t=  2320.1 d dist=   0.5 km m=1469.6 kg
+  leg  12 it  0: miss [km]       8.6 8586403.5  |vrel| 13.31 20.79  t_f  2501.70  2625.00  max|T|=0.075
+  leg  12 it  1: miss [km]   75543.3  317807.5  |vrel| 13.84 20.73  t_f  2499.77  2626.23  max|T|=0.227
+  leg  12 it  2: miss [km]      29.2     309.0  |vrel| 13.83 20.73  t_f  2499.82  2626.24  max|T|=0.221
+  leg  12 it  3: miss [km]       0.0       0.1  |vrel| 13.83 20.73  t_f  2499.82  2626.24  max|T|=0.221
+leg  12 frozen: ast  47 t=  2499.8 d dist=   0.0 km m=1444.2 kg
+  leg  13 it  0: miss [km]       0.1 102401979.5  |vrel| 20.73 13.04  t_f  2626.24  2815.00  max|T|=0.091
+  leg  13 it  1: miss [km]  192016.5 43888661.3  |vrel| 21.54 13.03  t_f  2622.66  2832.09  max|T|=0.329
+  leg  13 it  2: miss [km] 1460948.4 10294723.5  |vrel| 22.21 11.98  t_f  2619.68  2849.23  max|T|=0.450
+  leg  13 it  3: miss [km]  114550.3 5725934.1  |vrel| 22.23 11.14  t_f  2620.23  2846.39  max|T|=0.450
+  leg  13 it  4: miss [km]   14675.4  306517.1  |vrel| 22.23 11.04  t_f  2620.25  2846.02  max|T|=0.450
+  leg  13 it  5: miss [km]       2.7     621.7  |vrel| 22.23 11.05  t_f  2620.26  2845.98  max|T|=0.450
+  leg  13 it  6: miss [km]       0.0       0.1  |vrel| 22.23 11.05  t_f  2620.26  2845.98  max|T|=0.450
+  !! dropping asteroid 134: leg would cost 118 kg vs 36 planned
+  leg  13 it  0: miss [km] 51384073.9 101449748.2  |vrel| 14.91 16.16  t_f  2845.98  3090.00  max|T|=0.000
+  leg  13 it  1: miss [km] 36564849.0 54525364.0  |vrel| 16.10 17.88  t_f  2838.13  3109.05  max|T|=0.300
+  leg  13 it  2: miss [km] 6299371.3 3286657.4  |vrel| 10.35  8.29  t_f  2841.35  3100.36  max|T|=0.278
+  leg  13 it  3: miss [km]  464390.2 1050572.4  |vrel| 11.07  8.74  t_f  2842.95  3099.32  max|T|=0.299
+  leg  13 it  4: miss [km]    1704.6    8269.6  |vrel| 11.01  8.53  t_f  2843.03  3099.49  max|T|=0.299
+  leg  13 it  5: miss [km]       9.6      21.1  |vrel| 11.01  8.53  t_f  2843.03  3099.49  max|T|=0.299
+  !! dropping asteroid 132: leg would cost 168 kg vs 31 planned
+  leg  13 it  0: miss [km] 98737650.8 101399647.8  |vrel| 18.06 37.44  t_f  3099.49  3220.00  max|T|=0.000
+  leg  13 it  1: miss [km] 71913493.8 42675365.9  |vrel| 18.12 37.48  t_f  3136.34  3220.50  max|T|=0.300
+  leg  13 it  2: miss [km] 19423090.4 6222216.4  |vrel| 12.52 38.59  t_f  3099.88  3221.30  max|T|=0.277
+  leg  13 it  3: miss [km] 5785855.5 2774542.0  |vrel| 14.29 38.99  t_f  3087.11  3220.57  max|T|=0.287
+  leg  13 it  4: miss [km]  318693.3   52937.2  |vrel| 13.16 39.03  t_f  3089.37  3220.40  max|T|=0.286
+  leg  13 it  5: miss [km]     716.3     666.1  |vrel| 13.14 39.02  t_f  3089.65  3220.41  max|T|=0.286
+  leg  13 it  6: miss [km]       0.2       0.8  |vrel| 13.14 39.02  t_f  3089.66  3220.41  max|T|=0.286
+  !! dropping asteroid 189: leg would cost 149 kg vs 17 planned
+  leg  13 it  0: miss [km] 101721183.8 105197023.4  |vrel| 37.38 16.90  t_f  3220.41  3440.00  max|T|=0.000
+  leg  13 it  1: miss [km] 134368817.1 202451803.6  |vrel| 42.92 47.71  t_f  3220.76  3444.20  max|T|=0.300
+  leg  13 it  2: miss [km] 68339898.1 101420211.4  |vrel| 44.05 26.71  t_f  3217.34  3421.96  max|T|=0.435
+  leg  13 it  3: miss [km] 17565474.5 36551839.7  |vrel| 40.66  7.31  t_f  3214.76  3428.96  max|T|=0.422
+  leg  13 it  4: miss [km] 14409908.5 22504740.9  |vrel| 38.32 14.57  t_f  3216.06  3441.51  max|T|=0.278
+  leg  13 it  5: miss [km]  734383.5 1841023.6  |vrel| 38.11 11.66  t_f  3215.60  3442.34  max|T|=0.270
+  leg  13 it  6: miss [km]   49304.3   86505.3  |vrel| 38.00 11.86  t_f  3215.59  3442.88  max|T|=0.274
+  leg  13 it  7: miss [km]      94.1     125.4  |vrel| 38.00 11.85  t_f  3215.59  3442.88  max|T|=0.274
+leg  13 frozen: ast 118 t=  3215.6 d dist=  93.5 km m=1219.2 kg
+  leg  14 it  0: miss [km]     126.2 10671977.3  |vrel| 11.85  8.54  t_f  3442.88  3575.00  max|T|=0.062
+  leg  14 it  1: miss [km]  480177.5 4756267.0  |vrel| 12.97  9.03  t_f  3437.65  3558.03  max|T|=0.098
+  leg  14 it  2: miss [km]  122923.9  307503.6  |vrel| 12.43  9.17  t_f  3440.57  3561.25  max|T|=0.073
+  leg  14 it  3: miss [km]     624.1    2038.6  |vrel| 12.40  9.13  t_f  3440.82  3561.46  max|T|=0.072
+  leg  14 it  4: miss [km]       0.5       2.8  |vrel| 12.40  9.13  t_f  3440.82  3561.46  max|T|=0.072
+leg  14 frozen: ast  77 t=  3440.8 d dist=   0.4 km m=1193.2 kg
+  leg  15 it  0: miss [km]       2.8 15140933.4  |vrel|  9.13 32.22  t_f  3561.46  3705.00  max|T|=0.039
+  leg  15 it  1: miss [km]  778417.3 2021214.2  |vrel|  8.57 33.92  t_f  3571.20  3707.36  max|T|=0.251
+  leg  15 it  2: miss [km]   17766.5   23879.3  |vrel|  8.68 33.54  t_f  3570.37  3707.88  max|T|=0.237
+  leg  15 it  3: miss [km]      11.7      55.7  |vrel|  8.68 33.54  t_f  3570.35  3707.90  max|T|=0.237
+leg  15 frozen: ast  70 t=  3570.4 d dist=  11.3 km m=1153.5 kg
+  leg  16 it  0: miss [km]      55.9 31678150.0  |vrel| 33.54 12.25  t_f  3707.90  3830.00  max|T|=0.112
+  leg  16 it  1: miss [km]  215702.3 1540533.7  |vrel| 34.57 12.44  t_f  3705.47  3834.20  max|T|=0.310
+  leg  16 it  2: miss [km]     337.8    7039.2  |vrel| 34.54 12.43  t_f  3705.62  3834.44  max|T|=0.294
+  leg  16 it  3: miss [km]       0.6       6.6  |vrel| 34.54 12.43  t_f  3705.62  3834.44  max|T|=0.294
+leg  16 frozen: ast  48 t=  3705.6 d dist=   1.2 km m=1084.4 kg
+  leg  17 it  0: miss [km]       8.2 51802526.1  |vrel| 12.43 13.18  t_f  3834.44  4045.00  max|T|=0.129
+  leg  17 it  1: miss [km]   47125.1 5605204.0  |vrel| 12.46 13.24  t_f  3833.78  4049.70  max|T|=0.342
+  leg  17 it  2: miss [km]    1081.4  182955.7  |vrel| 12.50 13.05  t_f  3833.83  4050.23  max|T|=0.274
+  leg  17 it  3: miss [km]       7.4     464.1  |vrel| 12.50 13.04  t_f  3833.83  4050.25  max|T|=0.273
+  leg  17 it  4: miss [km]       0.0       0.9  |vrel| 12.50 13.04  t_f  3833.83  4050.25  max|T|=0.273
+leg  17 frozen: ast 261 t=  3833.8 d dist=   0.2 km m=1048.9 kg
+  leg  18 it  0: miss [km]       1.1 60078704.8  |vrel| 13.04 34.72  t_f  4050.25  4230.00  max|T|=0.068
+  leg  18 it  1: miss [km]  480867.9 8970924.3  |vrel| 13.70 22.57  t_f  4046.85  4229.89  max|T|=0.236
+  leg  18 it  2: miss [km]    8198.6  259328.4  |vrel| 13.63 23.19  t_f  4047.44  4225.23  max|T|=0.202
+  leg  18 it  3: miss [km]      28.9     241.5  |vrel| 13.63 23.21  t_f  4047.45  4225.32  max|T|=0.201
+leg  18 frozen: ast 136 t=  4047.4 d dist=  28.0 km m=1015.1 kg
+  leg  19 it  0: miss [km]     241.1 12366603.4  |vrel| 23.21 11.99  t_f  4225.32  4455.00  max|T|=0.055
+  leg  19 it  1: miss [km]  139374.0  894819.0  |vrel| 22.54 11.27  t_f  4227.00  4455.06  max|T|=0.057
+  leg  19 it  2: miss [km]      19.7    4026.9  |vrel| 22.57 11.20  t_f  4227.01  4455.12  max|T|=0.056
+  leg  19 it  3: miss [km]       1.2       9.7  |vrel| 22.57 11.21  t_f  4227.01  4455.12  max|T|=0.056
+leg  19 frozen: ast 177 t=  4227.0 d dist=   0.6 km m=997.2 kg
+  leg  20 it  0: miss [km]       9.4 8123500.1  |vrel| 11.21 20.55  t_f  4455.12  4510.00  max|T|=0.044
+  leg  20 it  1: miss [km]  380707.5  245438.9  |vrel| 11.94 19.33  t_f  4451.13  4509.09  max|T|=0.092
+  leg  20 it  2: miss [km]    1380.1     321.5  |vrel| 11.92 19.33  t_f  4451.53  4509.08  max|T|=0.090
+  leg  20 it  3: miss [km]       0.5       0.9  |vrel| 11.92 19.33  t_f  4451.53  4509.08  max|T|=0.090
+leg  20 frozen: ast  96 t=  4451.5 d dist=   0.5 km m=968.2 kg
+  leg  21 it  0: miss [km]       0.9 6695547.3  |vrel| 19.33  9.13  t_f  4509.08  4600.00  max|T|=0.037
+  leg  21 it  1: miss [km]    4140.9   90155.7  |vrel| 19.20  8.51  t_f  4509.17  4598.70  max|T|=0.202
+  leg  21 it  2: miss [km]       2.2      60.3  |vrel| 19.20  8.50  t_f  4509.18  4598.61  max|T|=0.201
+leg  21 frozen: ast 110 t=  4509.2 d dist=   2.1 km m=954.3 kg
+  leg  22 it  0: miss [km]      60.4 38162698.3  |vrel|  8.50 13.05  t_f  4598.61  4735.00  max|T|=0.199
+  leg  22 it  1: miss [km]  638491.2 3526010.5  |vrel|  7.38 17.96  t_f  4604.55  4743.33  max|T|=0.300
+  leg  22 it  2: miss [km]    4211.8   28975.4  |vrel|  7.48 17.55  t_f  4604.97  4742.55  max|T|=0.289
+  leg  22 it  3: miss [km]       1.3       7.1  |vrel|  7.48 17.55  t_f  4604.96  4742.54  max|T|=0.289
+leg  22 frozen: ast 288 t=  4605.0 d dist=   1.0 km m=917.3 kg
+  leg  23 it  0: miss [km]       7.1 150760205.5  |vrel| 17.55  6.86  t_f  4742.54  4905.00  max|T|=0.055
+  leg  23 it  1: miss [km] 1982131.3 37316386.3  |vrel| 20.17  6.93  t_f  4733.67  4920.44  max|T|=0.304
+  leg  23 it  2: miss [km]   11763.9 4959355.8  |vrel| 20.69 10.71  t_f  4733.44  4938.71  max|T|=0.321
+  leg  23 it  3: miss [km]     139.1   98831.1  |vrel| 20.68 10.35  t_f  4733.46  4935.62  max|T|=0.318
+  leg  23 it  4: miss [km]       2.8      89.8  |vrel| 20.68 10.34  t_f  4733.46  4935.54  max|T|=0.318
+leg  23 frozen: ast  30 t=  4733.5 d dist=   2.9 km m=862.7 kg
+  leg  24 it  0: miss [km]      70.4 149208159.9  |vrel| 10.34 39.53  t_f  4935.54  5060.00  max|T|=0.133
+  leg  24 it  1: miss [km] 11760522.4 48253708.1  |vrel| 14.12 21.55  t_f  4903.49  5074.44  max|T|=0.192
+  leg  24 it  2: miss [km]  423343.1 5613252.7  |vrel| 14.93 16.54  t_f  4908.86  5066.32  max|T|=0.187
+  leg  24 it  3: miss [km]    4039.2   27966.1  |vrel| 14.94 16.44  t_f  4908.55  5062.78  max|T|=0.173
+  leg  24 it  4: miss [km]       1.9      11.2  |vrel| 14.94 16.43  t_f  4908.55  5062.77  max|T|=0.173
+leg  24 frozen: ast 205 t=  4908.6 d dist=   5.8 km m=812.5 kg
+  leg  25 it  0: miss [km]      31.5 40541648.6  |vrel| 16.43 30.83  t_f  5062.77  5225.00  max|T|=0.052
+  leg  25 it  1: miss [km]  240490.7 3334549.2  |vrel| 15.60 25.69  t_f  5066.01  5223.40  max|T|=0.078
+  leg  25 it  2: miss [km]    2551.9   76803.2  |vrel| 15.68 26.12  t_f  5065.84  5221.19  max|T|=0.072
+  leg  25 it  3: miss [km]       1.1       9.7  |vrel| 15.68 26.12  t_f  5065.84  5221.22  max|T|=0.072
+leg  25 frozen: ast  20 t=  5065.8 d dist=   1.3 km m=793.9 kg
+  leg  26 it  0: miss [km]       9.6 16744578.2  |vrel| 26.12 14.18  t_f  5221.22  5280.00  max|T|=0.026
+  leg  26 it  1: miss [km]  299558.3  155933.4  |vrel| 24.73 16.38  t_f  5223.99  5281.87  max|T|=0.046
+  leg  26 it  2: miss [km]     251.1     597.9  |vrel| 24.75 16.35  t_f  5224.10  5281.98  max|T|=0.046
+  leg  26 it  3: miss [km]       0.4       0.9  |vrel| 24.75 16.35  t_f  5224.10  5281.98  max|T|=0.046
+leg  26 frozen: ast 293 t=  5224.1 d dist=   0.4 km m=779.7 kg
+  leg  27 it  0: miss [km]       0.2 31131632.3  |vrel| 16.35 13.45  t_f  5281.98  5475.00  max|T|=0.021
+  leg  27 it  1: miss [km]   35228.3 1282401.0  |vrel| 16.84 16.28  t_f  5281.07  5478.74  max|T|=0.128
+  leg  27 it  2: miss [km]      81.5 1525951.3  |vrel| 16.82 16.19  t_f  5281.12  5478.74  max|T|=0.122
+  leg  27 it  3: miss [km]       0.0 1522781.4  |vrel| 16.82 16.19  t_f  5281.12  5478.74  max|T|=0.122
+  leg  27 it  4: miss [km]       0.0 1521473.3  |vrel| 16.82 16.19  t_f  5281.12  5478.74  max|T|=0.122
+  leg  27 it  5: miss [km]       0.0 1520158.6  |vrel| 16.82 16.19  t_f  5281.12  5478.74  max|T|=0.122
+  leg  27 it  6: miss [km]       0.0 1518845.1  |vrel| 16.82 16.19  t_f  5281.12  5478.74  max|T|=0.122
+  leg  27 it  7: miss [km]       0.0 1517532.7  |vrel| 16.82 16.19  t_f  5281.12  5478.74  max|T|=0.122
+  leg  27 it  8: miss [km]       0.0 1516221.4  |vrel| 16.82 16.19  t_f  5281.12  5478.74  max|T|=0.122
+  leg  27 it  9: miss [km]       0.0 1514911.3  |vrel| 16.82 16.19  t_f  5281.12  5478.74  max|T|=0.122
+  leg  27 it 10: miss [km]       0.0 1513602.3  |vrel| 16.82 16.19  t_f  5281.12  5478.74  max|T|=0.122
+  leg  27 it 11: miss [km]       0.0 1512294.4  |vrel| 16.82 16.19  t_f  5281.12  5478.74  max|T|=0.122
+  !! window failed (miss 1512294 km): retry legs 26..28 as a 3-leg window
+  leg  26 it  0: miss [km]       0.2       0.9 31131630.1  |vrel| 24.75 16.35 13.45  t_f  5224.10  5281.98  5475.00  max|T|=0.046
+  leg  26 it  1: miss [km]    2829.8   57319.6 1344644.3  |vrel| 24.75 16.86 16.27  t_f  5224.21  5280.67  5478.74  max|T|=0.060
+  leg  26 it  2: miss [km]      46.1     113.7 1578073.2  |vrel| 24.75 16.85 16.21  t_f  5224.20  5280.74  5478.74  max|T|=0.060
+  leg  26 it  3: miss [km]       0.1       0.2 1575213.2  |vrel| 24.75 16.85 16.21  t_f  5224.20  5280.74  5478.74  max|T|=0.060
+  leg  26 it  4: miss [km]       0.1       0.3 1573935.2  |vrel| 24.75 16.85 16.21  t_f  5224.20  5280.74  5478.74  max|T|=0.060
+  leg  26 it  5: miss [km]       0.1       0.3 1572651.3  |vrel| 24.75 16.85 16.21  t_f  5224.20  5280.74  5478.74  max|T|=0.060
+  leg  26 it  6: miss [km]       0.1       0.3 1571368.4  |vrel| 24.75 16.85 16.21  t_f  5224.20  5280.74  5478.74  max|T|=0.060
+  leg  26 it  7: miss [km]       0.1       0.3 1570086.6  |vrel| 24.75 16.85 16.21  t_f  5224.20  5280.74  5478.74  max|T|=0.060
+  leg  26 it  8: miss [km]       0.1       0.3 1568805.9  |vrel| 24.75 16.85 16.21  t_f  5224.20  5280.74  5478.74  max|T|=0.060
+  leg  26 it  9: miss [km]       0.1       0.3 1567526.2  |vrel| 24.75 16.85 16.21  t_f  5224.20  5280.74  5478.74  max|T|=0.060
+  leg  26 it 10: miss [km]       0.1       0.3 1566247.5  |vrel| 24.75 16.85 16.21  t_f  5224.20  5280.74  5478.74  max|T|=0.060
+  leg  26 it 11: miss [km]       0.1       0.3 1564969.9  |vrel| 24.75 16.85 16.21  t_f  5224.20  5280.74  5478.74  max|T|=0.060
+  !! 3-leg retry failed; back to leg 27
+  !! replanned from leg 27 (beam): 2 legs (was 2), lost []
+  leg  27 it  0: miss [km] 4075935.4 31476148.2  |vrel| 16.37 13.53  t_f  5279.10  5474.10  max|T|=0.000
+  leg  27 it  1: miss [km]   86619.1 1084477.8  |vrel| 16.82 16.32  t_f  5281.22  5478.74  max|T|=0.106
+  leg  27 it  2: miss [km]      37.5 1264640.2  |vrel| 16.80 16.22  t_f  5281.20  5478.74  max|T|=0.101
+  leg  27 it  3: miss [km]       0.0 1261676.0  |vrel| 16.80 16.22  t_f  5281.20  5478.74  max|T|=0.101
+  leg  27 it  4: miss [km]       0.0 1260534.9  |vrel| 16.80 16.22  t_f  5281.20  5478.74  max|T|=0.101
+  leg  27 it  5: miss [km]       0.0 1259387.9  |vrel| 16.80 16.22  t_f  5281.20  5478.74  max|T|=0.101
+  leg  27 it  6: miss [km]       0.0 1258242.0  |vrel| 16.80 16.22  t_f  5281.20  5478.74  max|T|=0.101
+  leg  27 it  7: miss [km]       0.0 1257097.1  |vrel| 16.80 16.22  t_f  5281.20  5478.74  max|T|=0.101
+  leg  27 it  8: miss [km]       0.0 1255953.2  |vrel| 16.80 16.22  t_f  5281.20  5478.74  max|T|=0.101
+  leg  27 it  9: miss [km]       0.0 1254810.4  |vrel| 16.80 16.22  t_f  5281.20  5478.74  max|T|=0.101
+  leg  27 it 10: miss [km]       0.0 1253668.6  |vrel| 16.80 16.22  t_f  5281.20  5478.74  max|T|=0.101
+  leg  27 it 11: miss [km]       0.0 1252527.9  |vrel| 16.80 16.22  t_f  5281.20  5478.74  max|T|=0.101
+  !! dropping asteroid 12 (miss 1252528 km)
+  leg  27 it  0: miss [km] 1133886.8  |vrel| 16.35  t_f  5281.20  max|T|=0.000
+  leg  27 it  1: miss [km]    4284.2  |vrel| 16.35  t_f  5281.98  max|T|=0.022
+  leg  27 it  2: miss [km]       0.4  |vrel| 16.35  t_f  5281.98  max|T|=0.021
+leg  27 frozen: ast 170 t=  5282.0 d dist=   1.3 km m=778.2 kg
+spacecraft: 1, m0 = [2000.0]
+covered 28, missed 272, J = 275.0000  (sum J_i = 3.0000)
+max errors: pos 2.9860e-08 km, vel 1.0802e-10 m/s, mass 2.1600e-12 kg, max |T| 0.47765 N
+RESULT: PASS
+DONE results/plan_E3/tour_sc7.json: flybys 28 fuel 1221.8 kg dropped [134, 132, 189, 12] valid=True runtime 675s

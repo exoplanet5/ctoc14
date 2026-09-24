@@ -1,0 +1,18 @@
+wrote results/CTOC14_Result_dd2.txt with 64667 rows from 13 spacecraft
+spacecraft: 13, m0 = [826.6553282304802, 807.0314351751211, 705.3578124994713, 748.0609458735263, 808.5809879154561, 715.1100760606641, 819.2015347317403, 762.2320734702732, 780.1429621986404, 733.0909744447471, 640.3535471661928, 795.3658400241609, 791.7887128816018]
+covered 298, missed 2, J = 16.7200  (sum J_i = 14.7200)
+max errors: pos 6.3282e-08 km, vel 6.3551e-11 m/s, mass 7.9581e-13 kg, max |T| 0.40320 N
+RESULT: PASS
+01: ok=True errors=[] flybys=38 fuel=225.16 peak=0.355
+02: ok=True errors=[] flybys=34 fuel=205.53 peak=0.371
+03: ok=True errors=[] flybys=17 fuel=103.86 peak=0.395
+04: ok=True errors=[] flybys=24 fuel=146.56 peak=0.329
+05: ok=True errors=[] flybys=35 fuel=207.10 peak=0.314
+06: ok=True errors=[] flybys=16 fuel=113.61 peak=0.105
+07: ok=True errors=[] flybys=24 fuel=217.70 peak=0.201
+08: ok=True errors=[] flybys=14 fuel=160.73 peak=0.372
+09: ok=True errors=[] flybys=18 fuel=178.64 peak=0.115
+10: ok=True errors=[] flybys=19 fuel=131.59 peak=0.151
+11: ok=True errors=[] flybys=4 fuel=38.85 peak=0.271
+12: ok=True errors=[] flybys=31 fuel=193.87 peak=0.403
+13: ok=True errors=[] flybys=24 fuel=190.29 peak=0.169

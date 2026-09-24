@@ -1,0 +1,47 @@
+[11:05:05] s13_master: 145 route files from ['results/s13/g0/pass_*/**/route_*.npz', 'results/s13/g0/pass_*/route_*.npz', 'results/s13/plan13/**/route_*.npz', 'results/s13/seed_passes/**/route_*.npz'] (excluded ['*/relocated/*']); N 8,9; budgets 10.55,10.6,10.75
+[11:05:08] 85 distinct columns (load: {'ok': 145}); depth 48..13; union covers 298 of 298
+[11:05:08] --- N <= 8
+[11:05:08]   LP value (sum y <= 8): J >= 31.3250
+[11:05:08]   MILP N<=8: Optimization terminated successfully. (H: 8 craft, 280 covered, sum J_i 11.9316, J 31.9316 (incl. 2 permanent misses)
+[11:05:08]   exact: re-settling 8 picks
+[11:05:19]   exact: results/s13/plan13/close_N6a/closed/route_06.npz: tank 892.1 -> 891.1 kg
+[11:05:19]   MILP N<=8: Optimization terminated successfully. (H: 8 craft, 280 covered, sum J_i 11.9278, J 31.9278 (incl. 2 permanent misses)
+[11:05:19]   s13_master N<=8: saved 8 routes -> /Users/mickey/solarsystem/ctoc14/results/s13/g0/master_archive/N8/fleet; covered 280, sum J_i 11.9278, J 31.9278; depths [48, 43, 41, 41, 36, 27, 26, 18]
+[11:05:20]   MILP N<=8, sum J_i<=10.55: Optimization terminated succes: 8 craft, 273 covered, sum J_i 10.4739
+[11:05:20]   exact: re-settling 7 picks
+[11:05:30]   exact: results/s13/g0/pass_repro/route_08.npz: tank 771.8 -> 766.1 kg
+[11:05:31]   MILP N<=8, sum J_i<=10.55: Optimization terminated succes: 8 craft, 273 covered, sum J_i 10.4650
+[11:05:31]   s13_master N<=8 sum J_i<=10.55: saved 8 routes -> /Users/mickey/solarsystem/ctoc14/results/s13/g0/master_archive/N8_B10.55/fleet; covered 273, sum J_i 10.4650, J 37.4650; depths [48, 42, 39, 36, 34, 31, 25, 18]
+[11:05:32]   MILP N<=8, sum J_i<=10.6: Optimization terminated succes: 8 craft, 273 covered, sum J_i 10.4650
+[11:05:32]   s13_master N<=8 sum J_i<=10.6: saved 8 routes -> /Users/mickey/solarsystem/ctoc14/results/s13/g0/master_archive/N8_B10.6/fleet; covered 273, sum J_i 10.4650, J 37.4650; depths [48, 42, 39, 36, 34, 31, 25, 18]
+[11:05:33]   MILP N<=8, sum J_i<=10.75: Optimization terminated succes: 8 craft, 275 covered, sum J_i 10.6536
+[11:05:33]   exact: re-settling 2 picks
+[11:05:47]   exact: results/s13/g0/pass_value/route_07.npz: tank 1067.3 -> 1060.5 kg
+[11:05:47]   exact: results/s13/g0/pass_value/route_08.npz: tank 825.4 -> 820.9 kg
+[11:05:47]   MILP N<=8, sum J_i<=10.75: Optimization terminated succes: 8 craft, 275 covered, sum J_i 10.6414
+[11:05:47]   s13_master N<=8 sum J_i<=10.75: saved 8 routes -> /Users/mickey/solarsystem/ctoc14/results/s13/g0/master_archive/N8_B10.75/fleet; covered 275, sum J_i 10.6414, J 35.6414; depths [48, 42, 39, 36, 34, 31, 27, 18]
+[11:05:47] --- N <= 9
+[11:05:47]   LP value (sum y <= 9): J >= 22.8645
+[11:05:51]   MILP N<=9: Optimization terminated successfully. (H: 9 craft, 286 covered, sum J_i 11.8147, J 25.8147 (incl. 2 permanent misses)
+[11:05:51]   exact: re-settling 9 picks
+[11:06:10]   exact: results/s13/g0/pass_value/route_07.npz: tank 1067.3 -> 1060.5 kg
+[11:06:10]   exact: results/s13/g0/pass_value/lib/route_08_T6_17.npz: tank 806.3 -> 804.7 kg
+[11:06:10]   exact: results/s13/g0/pass_value/lib/route_08_T2_16.npz: tank 812.9 -> 784.1 kg
+[11:06:14]   MILP N<=9: Optimization terminated successfully. (H: 9 craft, 286 covered, sum J_i 11.7750, J 25.7750 (incl. 2 permanent misses)
+[11:06:14]   strip: the picked fleet covers 4 targets more than once
+[11:07:13]   strip 08: -2 flybys, tank 804.7 -> 801.2 kg
+[11:07:13]   strip 09: -2 flybys, tank 784.1 -> 777.5 kg
+[11:07:13]   s13_master N<=9: saved 9 routes -> /Users/mickey/solarsystem/ctoc14/results/s13/g0/master_archive/N9/fleet; covered 286, sum J_i 11.7658, J 25.7658; depths [48, 42, 39, 36, 34, 31, 27, 15, 14]
+[11:07:14]   MILP N<=9, sum J_i<=10.55: Optimization terminated succes: 8 craft, 273 covered, sum J_i 10.4710
+[11:07:14]   exact: re-settling 2 picks
+[11:07:22]   exact: results/s13/g0/pass_repro/route_08.npz: tank 771.8 -> 766.1 kg
+[11:07:23]   MILP N<=9, sum J_i<=10.55: Optimization terminated succes: 8 craft, 273 covered, sum J_i 10.4650
+[11:07:23]   s13_master N<=9 sum J_i<=10.55: saved 8 routes -> /Users/mickey/solarsystem/ctoc14/results/s13/g0/master_archive/N9_B10.55/fleet; covered 273, sum J_i 10.4650, J 37.4650; depths [48, 42, 39, 36, 34, 31, 25, 18]
+[11:07:25]   MILP N<=9, sum J_i<=10.6: Optimization terminated succes: 8 craft, 273 covered, sum J_i 10.4650
+[11:07:25]   s13_master N<=9 sum J_i<=10.6: saved 8 routes -> /Users/mickey/solarsystem/ctoc14/results/s13/g0/master_archive/N9_B10.6/fleet; covered 273, sum J_i 10.4650, J 37.4650; depths [48, 42, 39, 36, 34, 31, 25, 18]
+[11:07:26]   MILP N<=9, sum J_i<=10.75: Optimization terminated succes: 8 craft, 275 covered, sum J_i 10.6456
+[11:07:26]   exact: re-settling 1 picks
+[11:07:31]   exact: results/s13/g0/pass_value/route_08.npz: tank 825.4 -> 820.9 kg
+[11:07:32]   MILP N<=9, sum J_i<=10.75: Optimization terminated succes: 8 craft, 275 covered, sum J_i 10.6414
+[11:07:32]   s13_master N<=9 sum J_i<=10.75: saved 8 routes -> /Users/mickey/solarsystem/ctoc14/results/s13/g0/master_archive/N9_B10.75/fleet; covered 275, sum J_i 10.6414, J 35.6414; depths [48, 42, 39, 36, 34, 31, 27, 18]
+[11:07:32] master done (147.1 s) -> /Users/mickey/solarsystem/ctoc14/results/s13/g0/master_archive/master.json

@@ -1,0 +1,4 @@
+[11:18:48] new run p7_both: N 8 H 540.0 d L 360.0 d proposer planbeam commit regrid nproc 9 stop_T None max_launch 3 launch_stagger 60.0 d
+[11:18:48] [slice 0 T=0 d] propose: 9 jobs (0 craft, 9 root) on 9 workers, proposer planbeam, H_eff 540 d, lam 0.7
+[11:18:52]   job s00_r8 root  columns   0  levels 0  settles 0/0  end no_children  wall 2.4 s
+[11:19:05] interrupted (Interrupted): slice 0 -- phase files on disk are the resume point

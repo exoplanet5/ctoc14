@@ -1,0 +1,15 @@
+[20:44:59] s13_master: 2001 route files from ['results/s12/cover_clean/fleet/route_*.npz', 'results/newgen/**/route_*.npz', 'results/s13/**/route_*.npz', 'results/s14/**/route_*.npz', 'results/s15/cols/**/route_*.npz'] (excluded ['*/relocated/*']); N 8,9,10; budgets -
+[20:45:31] 1245 distinct columns (load: {'ok': 2001}); depth 48..1; union covers 298 of 298
+[20:45:31] --- N <= 8
+[20:45:31]   LP value (sum y <= 8): J >= 23.5153
+[20:45:40]   MILP N<=8: Optimization terminated successfully. (H: 8 craft, 282 covered, sum J_i 11.3185, J 29.3185 (incl. 2 permanent misses)
+[20:45:40]   s13_master N<=8: saved 8 routes -> /Users/mickey/solarsystem/ctoc14/results/s15/master/r01/N8/fleet; covered 282, sum J_i 11.3185, J 29.3185; depths [48, 43, 41, 39, 34, 31, 26, 20]
+[20:45:40] --- N <= 9
+[20:45:40]   LP value (sum y <= 9): J >= 13.9780
+[20:50:40]   MILP N<=9: Time limit reached. (HiGHS Status 13: Ti: 9 craft, 290 covered, sum J_i 11.7045, J 21.7045 (incl. 2 permanent misses)
+[20:50:40]   s13_master N<=9: saved 9 routes -> /Users/mickey/solarsystem/ctoc14/results/s15/master/r01/N9/fleet; covered 290, sum J_i 11.7045, J 21.7045; depths [46, 46, 44, 35, 32, 30, 22, 18, 17]
+[20:50:40] --- N <= 10
+[20:50:40]   LP value (sum y <= 10): J >= 13.9430
+[20:50:52]   MILP N<=10: Optimization terminated successfully. (H: 10 craft, 298 covered, sum J_i 12.3509, J 14.3509 (incl. 2 permanent misses)
+[20:50:52]   s13_master N<=10: saved 10 routes -> /Users/mickey/solarsystem/ctoc14/results/s15/master/r01/N10/fleet; covered 298, sum J_i 12.3509, J 14.3509; depths [37, 36, 33, 30, 30, 28, 27, 27, 26, 24]
+[20:50:52] master done (352.8 s) -> /Users/mickey/solarsystem/ctoc14/results/s15/master/r01/master.json

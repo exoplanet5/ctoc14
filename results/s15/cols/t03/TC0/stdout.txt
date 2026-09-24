@@ -1,0 +1,17 @@
+[23:46:46] twintail TC0: pool 16, S [64, 138], p 0.03, steps 1, beam 30/90, nproc 1; resume at step 1
+[23:46:58]   roots: 92 launch legs -> 20 kept; pool 16, S [64, 138] p 0.03
+[23:48:02]   depth  2: 20 parents -> 27 kids (24 uniq) -> tried 24, settled 15, kept 11; t_end 655-1316 d, tank 602-641, max S 0 (64 s, gen 12 s)
+[23:49:55]   depth  3: 11 parents -> 31 kids (31 uniq) -> tried 31, settled 19, kept 16; t_end 974-1798 d, tank 609-688, max S 1 (113 s, gen 10 s)
+[23:53:11]   depth  4: 16 parents -> 45 kids (45 uniq) -> tried 41, settled 30, kept 28; t_end 1310-2299 d, tank 643-857, max S 1 (196 s, gen 18 s)
+[23:58:02]   depth  5: 28 parents -> 48 kids (48 uniq) -> tried 46, settled 30, kept 29; t_end 1520-2714 d, tank 634-850, max S 1 (291 s, gen 34 s)
+[00:02:45]   depth  6: 29 parents -> 65 kids (63 uniq) -> tried 42, settled 30, kept 30; t_end 1733-3263 d, tank 670-845, max S 1 (283 s, gen 38 s)
+[00:06:17]   depth  7: 30 parents -> 73 kids (72 uniq) -> tried 33, settled 30, kept 28; t_end 2348-3614 d, tank 673-856, max S 2 (212 s, gen 43 s)
+[00:13:02]   depth  8: 28 parents -> 52 kids (51 uniq) -> tried 43, settled 30, kept 29; t_end 2522-3896 d, tank 715-943, max S 2 (404 s, gen 43 s)
+[00:17:31]   depth  9: 29 parents -> 22 kids (22 uniq) -> tried 22, settled 16, kept 15; t_end 3169-4421 d, tank 753-1063, max S 2 (269 s, gen 46 s)
+[00:20:09]   depth 10: 15 parents -> 18 kids (18 uniq) -> tried 18, settled 15, kept 14; t_end 3490-4985 d, tank 763-1104, max S 1 (159 s, gen 22 s)
+[00:23:49]   depth 11: 14 parents -> 14 kids (14 uniq) -> tried 14, settled 8, kept 8; t_end 4241-5282 d, tank 820-964, max S 2 (220 s, gen 18 s)
+[00:24:29]   depth 12: 8 parents -> 2 kids (2 uniq) -> tried 2, settled 1, kept 1; t_end 4948-4948 d, tank 1192-1192, max S 1 (39 s, gen 8 s)
+[00:24:30]   depth 13: 1 parents -> 0 kids (0 uniq) -> tried 0, settled 0, kept 0 (1 s, gen 1 s)
+[00:24:30]   step 1: pool 16 deepest 12 ({'kind': 'no_children', 'depth': 12}); TOOK 11 fb @ 820 kg iso [64, 138]; chain covered 11/16 (2252 s)
+[00:24:30] twintail TC0 done: 17 columns, covered 11/16 (2263 s)
+{"covered": 11, "cols": 17, "wall_s": 2263}

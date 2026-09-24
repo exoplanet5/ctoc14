@@ -1,0 +1,16 @@
+Pre-registered 2026-09-23 23:31 CST (machine clock), BEFORE the run L2r6k17O was started.
+Part A (chain_screen.py, offline, seconds): scored every saved F1 suffix column as an ejection-chain link.
+  Rule: a link helps closure only if saving = forced alt(added r9) - [dtank + census re-home(dropped own)] > 0.
+Part B (open-pool depth test), job results/s17/lns/r2/job_L2r6k17O.json:
+  host r6, same prefix as F1 (k=17, day 3328), tools/s15b_prefix.py, beam 12 / tries 24, nproc 2, wall 1750 s.
+  Pool = r6 own suffix (13) + r5/r7/r8 targets flown after day 3186 (38) + r9's 21 = 72 (F1 had 34).
+  Prizes = CAMPAIGN P2's trading prizes: own 1.0, r9 1.02, others 1.0.
+  Metric n* = max flybys of a settled state with tank <= 1065 kg (the balanced 8-craft m0 at the 09-27 bar).
+  F1 reference: depth 30 (= original r6), leading-edge t_end at depth 26 = 4697 d.
+  PASS : n* >= 33  (a tail CAN get >= 3 deeper when offered the joint residual -> CAMPAIGN P2 / LNS P1 alive).
+  WEAK : n* = 32.
+  KILL : n* <= 31  (tail depth is capacity-bound, not pool-bound: re-planning tails over any residual cannot add the
+         12 flybys that 8 craft need; CAMPAIGN P2 gate predicted to FAIL).
+  If the wall budget stops the beam before it ends: judge by min t_end at depth 26:
+         <= 4300 d counts as PASS-projection, >= 4600 d as KILL-projection, in between WEAK.
+  One-sided: PASS is necessary, not sufficient (taking r5/r7/r8 targets is zero-sum across tails).

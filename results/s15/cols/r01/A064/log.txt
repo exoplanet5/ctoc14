@@ -1,0 +1,14 @@
+[20:40:57]     absorb[lib/route_03_H_40]: 1 approaches of [64]; lintwin 64@5252d 0.029AU 22kg
+[20:41:01]     absorb[lib/route_03_H_40]: insert 64 at 5252 d (lintwin 22 kg) -> OK tank 970 (+25.5 kg) (4 s)
+[20:41:02]     absorb[N10a/route_03]: 1 approaches of [64]; lintwin 64@5243d 0.026AU 123kg
+[20:41:02]     absorb[lib/route_05_H_32]: 1 approaches of [64]; lintwin 64@5249d 0.011AU 11kg
+[20:41:09]     absorb[lib/route_05_H_32]: insert 64 at 5249 d (lintwin 11 kg) -> OK tank 933 (+12.1 kg) (7 s)
+[20:41:09]     absorb[lib/route_05_H_31]: 1 approaches of [64]; lintwin 64@5249d 0.022AU 20kg
+[20:41:16]     absorb[lib/route_05_H_31]: insert 64 at 5249 d (lintwin 20 kg) -> OK tank 927 (+16.9 kg) (6 s)
+[20:41:16]     absorb[lib/route_05_H_29]: 1 approaches of [64]; lintwin 64@5248d 0.018AU 9kg
+[20:41:18]     absorb[lib/route_05_H_29]: insert 64 at 5248 d (lintwin 9 kg) -> OK tank 898 (+6.6 kg) (2 s)
+[20:41:18]     absorb[pilot2/route_07]: 1 approaches of [64]; lintwin 64@5249d 0.013AU 11kg
+[20:41:22]     absorb[pilot2/route_07]: insert 64 at 5249 d (lintwin 11 kg) -> OK tank 1044 (+1.3 kg) (4 s)
+[20:41:22]     absorb[gc16/route_06]: 1 approaches of [64]; lintwin 64@2700d 0.026AU 241kg
+[20:41:22]     absorb[skel8/route_03]: 1 approaches of [64]; lintwin 64@2697d 0.030AU 322kg
+[20:41:22] absorb A064 done: 5 columns from 8 items (25 s)

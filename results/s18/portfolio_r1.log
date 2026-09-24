@@ -1,0 +1,9 @@
+[07:40:26] START p1_ration --H 540 --L 360 --qf 7 --qm 12 --beta 2.5 --lam 0.7 --gamma 0.5 --seed 1
+[08:16:22] END p1_ration: [08:16:22] [slice 9 T=4860 d] launched 8/8  covered 216  remaining 82  fuel 3356 kg  sumJi 11.1210  chosen: c0
+[08:17:02] START p2_count --H 540 --L 360 --qf 12 --qm 18 --beta 1.5 --lam 0.3 --gamma 0.6 --seed 2
+[08:56:44] END p2_count: [08:56:44] [slice 9 T=4860 d] launched 8/8  covered 201  remaining 97  fuel 3196 kg  sumJi 10.9580  chosen: c0
+[08:57:34] START p3_wide --H 540 --L 360 --qf 7 --qm 12 --beta 2.5 --lam 0.7 --gamma 0.5 --seed 3 --job-grace 900
+[09:39:03] END p3_wide: [09:39:02] [slice 9 T=4860 d] launched 8/8  covered 229  remaining 69  fuel 3440 kg  sumJi 11.2222  chosen: c0
+[09:39:37] START p4_long --H 720 --L 540 --qf 7 --qm 12 --beta 2.5 --lam 0.7 --gamma 0.5 --seed 4
+[10:06:34] END p4_long: [10:06:34] [slice 7 T=5040 d] launched 8/8  covered 205  remaining 93  fuel 3010 kg  sumJi 10.7476  chosen: c0
+[10:07:30] PORTFOLIO DONE

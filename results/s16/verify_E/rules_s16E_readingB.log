@@ -1,0 +1,154 @@
+interpolation window reading: B
+token-count histogram over data lines: {15: 47598}
+data lines 47598; Line col == 1..N: True; Line>0: True
+SC_IDs: [1, 2, 3, 4, 5, 6, 7, 8, 9]  sorted ascending: True
+Event histogram: {0: 9, 1: 47282, 3: 298, 4: 9}
+Time range: [np.float64(0.0), np.float64(473040060.0)] (window [0, 473364000.0])
+non-Event1 lines with any nonzero thrust component: 0
+max sample |T| on Event=1 lines: np.float64(0.44107330443138276) N; count > 0.5: 0
+arcs: 9 (per craft {np.int64(1): 1, np.int64(2): 1, np.int64(3): 1, np.int64(4): 1, np.int64(5): 1, np.int64(6): 1, np.int64(7): 1, np.int64(8): 1, np.int64(9): 1}); samples/arc min 4438 max 5475
+min Event=1 spacing inside arcs: np.float64(86400.0) s ; min gap last-sample->first-sample across an arc boundary: inf s (0 < 8640)
+Event=1 spacing inside arcs: distinct values (rounded 1e-6) [86400.0]
+
+Launch:
+  SC 1: t=3542400.0s |dr|=0.0000 m (alt 0.0004 m) v_inf=2.544455152722 (alt 2.544455152722) km/s m0=948.66217321326735 ok
+  SC 2: t=0.0s |dr|=0.0001 m (alt 0.0001 m) v_inf=2.459775824401 (alt 2.459775824401) km/s m0=911.46294765533219 ok
+  SC 3: t=7603200.0s |dr|=0.0000 m (alt 0.0007 m) v_inf=3.493985318538 (alt 3.493985318538) km/s m0=989.34884788477962 ok
+  SC 4: t=0.0s |dr|=0.0001 m (alt 0.0001 m) v_inf=3.838458594782 (alt 3.838458594782) km/s m0=916.54954890865667 ok
+  SC 5: t=6912000.0s |dr|=0.0000 m (alt 0.0004 m) v_inf=2.899107984341 (alt 2.899107984341) km/s m0=959.70321903968261 ok
+  SC 6: t=0.0s |dr|=0.0001 m (alt 0.0001 m) v_inf=3.943444826562 (alt 3.943444826562) km/s m0=902.9980973101616 ok
+  SC 7: t=1296000.0s |dr|=0.0000 m (alt 0.0001 m) v_inf=2.481916138990 (alt 2.481916138990) km/s m0=1019.5404980878105 ok
+  SC 8: t=1641600.0s |dr|=0.0000 m (alt 0.0005 m) v_inf=3.435549550166 (alt 3.435549550166) km/s m0=929.07325948902383 ok
+  SC 9: t=81561600.0s |dr|=0.0000 m (alt 0.0005 m) v_inf=2.266800917439 (alt 2.266800917439) km/s m0=904.62075530671939 ok
+
+thrust segments 47571; exact max interpolated |T| = 0.535177417 N at file line 11021 (window n=4); dense-401 max = 0.535177070 N; #segments > 0.5: 2
+  top-5 segments: 0.535177@11021(SC3), 0.511954@27531(SC6), 0.471626@43781(SC9), 0.447166@1473(SC1), 0.443574@22719(SC5)
+
+coast segments 18: max|dr| 2.107e-08 km, max|dv| 5.044e-12 m/s, max|dm| 0.000e+00 kg
+thrust segments 47571: max|dr| 2.278e+02 km, max|dv| 4.946e+00 m/s, max|dm| 1.108e-01 kg; longest 1.0000 d; min integrated end mass 600.162583 kg
+  SC 1: lines 5441, t_end 469843260.0 s, final mass np.float64(600.4060461009029)
+  SC 2: lines 5378, t_end 460944060.0 s, final mass np.float64(600.1625829092771)
+  SC 3: lines 5401, t_end 470534460.0 s, final mass np.float64(600.4958872386545)
+  SC 4: lines 5515, t_end 473040060.0 s, final mass np.float64(600.8206572348981)
+  SC 5: lines 5415, t_end 471916860.0 s, final mass np.float64(600.9476210440978)
+  SC 6: lines 5454, t_end 468460860.0 s, final mass np.float64(600.7797900811654)
+  SC 7: lines 5433, t_end 467942460.0 s, final mass np.float64(600.2998740864704)
+  SC 8: lines 5100, t_end 440035260.0 s, final mass np.float64(600.7752107764218)
+  SC 9: lines 4461, t_end 465004860.0 s, final mass np.float64(600.853482531881)
+
+Event=3 lines: 298
+  distance max 700.843118 km (bisection 700.843118, f&g 700.843118); max |d1-d2| 2.570e-06 km; #>1000: 0; #>900: 0; rel-speed 5.508..42.888 km/s
+  distinct covered 298; repeat/uncounted Event=3 lines 0; missing [131, 144]
+  SC 1: Event=3 42, first-detections 42, max d 700.843 km
+  SC 2: Event=3 41, first-detections 41, max d 455.507 km
+  SC 3: Event=3 41, first-detections 41, max d 259.753 km
+  SC 4: Event=3 38, first-detections 38, max d 86.014 km
+  SC 5: Event=3 31, first-detections 31, max d 89.148 km
+  SC 6: Event=3 30, first-detections 30, max d 258.761 km
+  SC 7: Event=3 30, first-detections 30, max d 88.300 km
+  SC 8: Event=3 24, first-detections 24, max d 304.774 km
+  SC 9: Event=3 21, first-detections 21, max d 312.015 km
+
+N=9 sum J_i = 11.746635308 (exact-decimal 11.746635308000); N_miss=2; J = 13.746635308 (exact 13.746635308000)
+
+VIOLATIONS: 6194  by kind {'thrust': 2, 'dyn': 6192}
+  [thrust] interp |T| 0.535177 in segment file 11021->11022
+  [thrust] interp |T| 0.511954 in segment file 27531->27532
+  [dyn] thrust 39: dr 36.70244860969828
+  [dyn] thrust 40: dr 111.20963289375618
+  [dyn] thrust 41: dr 111.28333118730308
+  [dyn] thrust 42: dr 37.20053818497341
+  [dyn] thrust 60: dr 11.875353222512244
+  [dyn] thrust 61: dr 35.82337759044192
+  [dyn] thrust 62: dr 35.86552755986916
+  [dyn] thrust 63: dr 11.930252842809743
+  [dyn] thrust 80: dr 46.41545196232478
+  [dyn] thrust 81: dr 139.08913670544905
+  [dyn] thrust 82: dr 138.59322489685906
+  [dyn] thrust 83: dr 44.46925551539036
+  [dyn] thrust 84: dr 2.2351961314088222
+  [dyn] thrust 101: dr 2.182598676908321
+  [dyn] thrust 102: dr 2.2131293992197762
+  [dyn] thrust 241: dr 36.16323131218842
+  [dyn] thrust 242: dr 110.05538009118372
+  [dyn] thrust 243: dr 110.29634146424375
+  [dyn] thrust 244: dr 36.911944911311174
+  [dyn] thrust 262: dr 37.63869296652148
+  [dyn] thrust 263: dr 112.60581550883356
+  [dyn] thrust 264: dr 112.20509561435667
+  [dyn] thrust 265: dr 36.2461868584818
+  [dyn] thrust 266: dr 1.525146192752205
+  [dyn] thrust 342: dr 1.582086246316793
+  [dyn] thrust 343: dr 4.742771116588276
+  [dyn] thrust 344: dr 4.738702539259574
+  [dyn] thrust 345: dr 1.5779938902444017
+  [dyn] thrust 362: dr 1.9180335698162334
+  [dyn] thrust 363: dr 5.766297296007399
+  [dyn] thrust 364: dr 5.7775030515191
+  [dyn] thrust 365: dr 1.9292383185574349
+  [dyn] thrust 421: dr 1.5061715150912385
+  [dyn] thrust 422: dr 13.809076965682802
+  [dyn] thrust 423: dr 44.993310696393344
+  [dyn] thrust 424: dr 45.49556343245886
+  [dyn] thrust 425: dr 15.3061625583789
+  [dyn] thrust 443: dr 11.402757715119925
+  [dyn] thrust 444: dr 34.218607458682065
+  [dyn] thrust 445: dr 34.22661001718636
+  [dyn] thrust 446: dr 11.41046443286503
+  [dyn] thrust 463: dr 3.0807801364716307
+  [dyn] thrust 464: dr 9.28716231865785
+  [dyn] thrust 465: dr 9.328972095555496
+  [dyn] thrust 466: dr 3.124400154351643
+  [dyn] thrust 684: dr 36.720174787290404
+  [dyn] thrust 685: dr 111.28852787234914
+  [dyn] thrust 686: dr 111.51023125225157
+  [dyn] thrust 687: dr 37.32561763390756
+  [dyn] thrust 704: dr 26.022774168771758
+  [dyn] thrust 705: dr 78.13919440129766
+  [dyn] thrust 706: dr 78.18668667792745
+  [dyn] thrust 707: dr 26.057276771686983
+  [dyn] thrust 724: dr 12.47945201322497
+  [dyn] thrust 725: dr 37.062919767727436
+  [dyn] thrust 726: dr 36.48869381005878
+  [dyn] thrust 727: dr 10.770657399613789
+  [dyn] thrust 728: dr 1.7135728843054108
+  [dyn] thrust 926: dr 9.502562773697711
+  [dyn] thrust 927: dr 28.577116179595592
+  [dyn] thrust 928: dr 28.580850167639827
+  [dyn] thrust 929: dr 9.528073274500787
+  [dyn] thrust 946: dr 3.7378397550988605
+  [dyn] thrust 947: dr 11.263105251987644
+  [dyn] thrust 948: dr 11.25872420153751
+  [dyn] thrust 949: dr 3.739243578895444
+  [dyn] thrust 966: dr 2.399260587853709
+  [dyn] thrust 967: dr 7.271315646532091
+  [dyn] thrust 968: dr 7.281051307951887
+  [dyn] thrust 969: dr 2.4042271938686506
+  [dyn] thrust 986: dr 33.353228237986976
+  [dyn] thrust 987: dr 100.20614994889523
+  [dyn] thrust 988: dr 100.2671604689201
+  [dyn] thrust 989: dr 33.44382208603033
+  [dyn] thrust 1007: dr 44.92793756462078
+  [dyn] thrust 1008: dr 134.3607387926876
+  [dyn] thrust 1009: dr 134.0624485610537
+  [dyn] thrust 1010: dr 43.56784268293905
+  [dyn] thrust 1011: dr 1.5240073212593455
+  [dyn] thrust 1088: dr 51.54455534581295
+  [dyn] thrust 1089: dr 156.71641830356015
+  [dyn] thrust 1090: dr 157.09970328581903
+  [dyn] thrust 1091: dr 52.54812929750413
+  [dyn] thrust 1108: dr 26.686040546054457
+  [dyn] thrust 1109: dr 80.17798836909408
+  [dyn] thrust 1110: dr 80.23566596139956
+  [dyn] thrust 1111: dr 26.72084114397364
+  [dyn] thrust 1128: dr 27.75105861505112
+  [dyn] thrust 1129: dr 82.86526782338328
+  [dyn] thrust 1130: dr 82.24901203830468
+  [dyn] thrust 1131: dr 25.9325541744907
+  [dyn] thrust 1132: dr 1.8405384395403053
+  [dyn] thrust 1149: dr 2.721632508164148
+  [dyn] thrust 1150: dr 8.150607171481495
+  [dyn] thrust 1151: dr 8.135052838143055
+  [dyn] thrust 1152: dr 2.706060534746641
+  [dyn] thrust 1169: dr 2.9995002547509135
+  [dyn] thrust 1170: dr 9.009045648119342

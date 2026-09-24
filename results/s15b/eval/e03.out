@@ -1,0 +1,19 @@
+[06:13:41] load: 3317 files (31 new; {'ok': 3317}), 2403 distinct, 55 dominated -> 2348 columns
+[06:14:24] K=298: The problem is infeasible. (HiGHS Status 8: model_
+[06:15:26]   K>=297 alt 0: 297 covered @ 12.2346, misses [139]
+[06:16:39]   K>=297 alt 1: The problem is infeasible. (HiGHS Status 8: model_
+[06:18:28]   K>=296 alt 0: 296 covered @ 12.3088, misses [108, 132]
+[06:20:21]   K>=296 alt 1: 296 covered @ 12.4375, misses [17, 219]
+[06:22:36]   K>=296 alt 2: The problem is infeasible. (HiGHS Status 8: model_
+[06:23:47]   K>=295 alt 0: 295 covered @ 11.9472, misses [11, 150, 234]
+[06:26:18]   K>=295 alt 1: 295 covered @ 12.0301, misses [108, 147, 219]
+[06:29:01]   K>=295 alt 2: 295 covered @ 12.0779, misses [108, 219, 280]
+[06:32:35]   K>=295 alt 3: 295 covered @ 12.0911, misses [69, 88, 244]
+[06:32:35]   K=297 alt 0: 297 @ 12.2346 misses [139] -> est closed 12.504 plan [(139, '05', 0.2694)]
+[06:32:36]   K=296 alt 0: 296 @ 12.3088 misses [108, 132] -> est closed inf plan [(108, None, None), (132, None, None)]
+[06:32:39]   K=296 alt 1: 296 @ 12.4375 misses [17, 219] -> est closed 13.6007 plan [(17, '07', 0.4771), (219, '08', 0.6861)]
+[06:32:41]   K=295 alt 0: 295 @ 11.9472 misses [11, 150, 234] -> est closed inf plan [(11, '09', 0.0997), (150, '02', 0.6394), (234, None, None)]
+[06:32:42]   K=295 alt 1: 295 @ 12.0301 misses [108, 147, 219] -> est closed inf plan [(108, '09', 0.2385), (147, None, None), (219, '01', 1.5835)]
+[06:32:44]   K=295 alt 2: 295 @ 12.0779 misses [108, 219, 280] -> est closed 14.5366 plan [(108, '08', 0.6998), (219, '01', 1.5835), (280, '04', 0.1753)]
+[06:32:47]   K=295 alt 3: 295 @ 12.0911 misses [69, 88, 244] -> est closed 14.8864 plan [(69, '04', 0.1307), (88, '05', 1.0118), (244, '02', 1.6528)]
+[06:32:47] ranking: 297#0 12.2346 -> 12.504 | 296#1 12.4375 -> 13.6007 | 295#2 12.0779 -> 14.5366 | 295#3 12.0911 -> 14.8864 | 296#0 12.3088 -> None | 295#0 11.9472 -> None | 295#1 12.0301 -> None

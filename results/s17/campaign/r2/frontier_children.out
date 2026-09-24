@@ -1,0 +1,2 @@
+children 42650 cols 39790 children
+{"N": 9, "K": 298, "msg": "Time limit reached. (HiGHS Status 13: Time limit reached)", "sec": 420, "bound": 11.425926540282104, "sumJi": 11.722740157582226, "covered": 298, "misses": []}

@@ -1,0 +1,10 @@
+[16:05:24] plan results/s10/aco/D/best.json: surrogate J 12.2592 sumJi 10.2592 covered 298 (8 craft)
+[16:05:24]   craft 7: FAILED (base failed)
+[16:16:16]   craft 6: 14/38 fb @    801 kg  0.0831 J/fb  (653 s)
+[16:20:31]   craft 5: 18/38 fb @    833 kg  0.0663 J/fb  (907 s)
+[16:20:38]   craft 1: 24/38 fb @    763 kg  0.0471 J/fb  (915 s)
+[16:21:36]   craft 2: 27/38 fb @    816 kg  0.0436 J/fb  (972 s)
+[16:28:58]   craft 3: 18/38 fb @    755 kg  0.0624 J/fb  (1415 s)
+[16:31:49]   craft 0: 28/38 fb @    897 kg  0.0449 J/fb  (1586 s)
+[16:32:36]   craft 4: 22/38 fb @    828 kg  0.0541 J/fb  (1633 s)
+[16:32:36] SETTLED: 7 craft, covered 151/298, sum J_i 8.2358, J 157.2358 (surrogate said sumJi 10.2592, J 12.2592)   [1633 s]

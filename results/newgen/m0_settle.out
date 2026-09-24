@@ -1,0 +1,3 @@
+m0test:1000: 34 flybys, planner tank 804 -> TWIN tank 844 (J_i 1.205), dv 13.30 (0.391/flyby), miss 95 km, lag 1.00 d, 8 s
+m0test:1600: 46 flybys, planner tank 1028 -> TWIN tank 1067 (J_i 1.445), dv 22.50 (0.489/flyby), miss 33 km, lag 1.00 d, 9 s
+m0test:2000: 45 flybys, planner tank 1011 -> TWIN tank 1105 (J_i 1.491), dv 23.87 (0.530/flyby), miss 90 km, lag 0.05 d, 54 s

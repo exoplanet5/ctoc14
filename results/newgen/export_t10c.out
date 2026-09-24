@@ -1,0 +1,19 @@
+[07:00:21]   01: impulsive tank 930.9 -> exact m0 931.4 (miss 6 km), valid True (RK4 step 0.1 d)
+[07:01:55]   02: impulsive tank 936.5 -> exact m0 939.1 (miss 26 km), valid True (RK4 step 0.1 d)
+[07:06:58]   03: impulsive tank 800.3 -> exact m0 801.9 (miss 16 km), valid True (RK4 step 0.1 d)
+[07:09:28]   04: impulsive tank 870.9 -> exact m0 872.1 (miss 4 km), valid True (RK4 step 0.1 d)
+[07:15:04]   05: impulsive tank 904.4 -> exact m0 907.0 (miss 55 km), valid True (RK4 step 0.1 d)
+[07:18:15]   06: impulsive tank 878.5 -> exact m0 877.3 (miss 51 km), valid True (RK4 step 0.1 d)
+[07:25:39]   09: impulsive tank 977.0 -> exact m0 983.5 (miss 15 km), valid True (RK4 step 0.1 d)
+[07:32:28]   12: impulsive tank 795.8 -> exact m0 796.8 (miss 10 km), valid True (RK4 step 0.1 d)
+[07:33:26]   10: impulsive tank 782.7 -> exact m0 783.2 (miss 39 km), valid True (RK4 step 0.05 d)
+[07:39:28]   13: impulsive tank 881.0 -> exact m0 882.3 (miss 14 km), valid True (RK4 step 0.1 d)
+[07:39:28] 10 craft, covered 298, J 14.3950; 01:38/38@931 05:36/36@907 02:35/35@939 12:30/30@797 13:29/29@882 09:28/28@983 03:26/26@802 04:26/26@872 10:26/26@783 06:24/24@877
+wrote results/CTOC14_Result_t10c.txt with 52792 rows from 10 spacecraft
+spacecraft: 10, m0 = [931.4478270793595, 939.0649781658868, 801.8565312766835, 872.0868123584278, 906.9503365076978, 877.3349285540215, 983.4578400161296, 783.1929029086808, 796.8346661695505, 882.3494644176585]
+covered 298, missed 2, J = 14.3950  (sum J_i = 12.3950)
+max errors: pos 3.0034e-08 km, vel 7.4053e-12 m/s, mass 0.0000e+00 kg, max |T| 0.45998 N
+RESULT: PASS
+------------------------------------------------------------------------------
+N_covered = 298   N_miss = 2   sum J_i = 12.395002   J = 14.395002
+VERDICT: VALID

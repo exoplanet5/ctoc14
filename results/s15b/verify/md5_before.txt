@@ -1,0 +1,3 @@
+MD5 (results/CTOC14_Result_s15a.txt) = 0014a26eb7d9b7187adeb112901afc4f
+MD5 (results/CTOC14_Result_t10d.txt) = 265d3ac7f310ea87b3687de09aa28e8e
+MD5 (results/validator2_t10d.log) = 5c5d58b20048efbe825986dfccf9d277

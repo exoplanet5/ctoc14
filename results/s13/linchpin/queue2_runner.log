@@ -1,0 +1,59 @@
+[21:15:12] start 0: /05_pool_beam --cond pool --builder beam --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/05_pool_beam.out 2>&1
+[21:15:12] start 1: n/B/05_pool_seg --cond pool --builder seg --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/05_pool_seg.out 2>&1
+[21:15:12] start 2: /09_pool_beam --cond pool --builder beam --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/09_pool_beam.out 2>&1
+[21:15:12] start 3: n/B/09_pool_seg --cond pool --builder seg --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/09_pool_seg.out 2>&1
+[21:15:12] start 4: /08_pool_beam --cond pool --builder beam --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/08_pool_beam.out 2>&1
+[21:15:12] start 5: n/B/08_pool_seg --cond pool --builder seg --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/08_pool_seg.out 2>&1
+[21:16:40] done 2 rc 0 in 88 s
+[21:16:40] start 6: /04_pool_beam --cond pool --builder beam --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/04_pool_beam.out 2>&1
+[21:16:46] done 3 rc 0 in 94 s
+[21:16:46] start 7: n/B/04_pool_seg --cond pool --builder seg --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/04_pool_seg.out 2>&1
+[21:16:48] done 1 rc 0 in 96 s
+[21:16:48] start 8: /03_pool_beam --cond pool --builder beam --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/03_pool_beam.out 2>&1
+[21:16:58] done 5 rc 0 in 106 s
+[21:16:58] start 9: n/B/03_pool_seg --cond pool --builder seg --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/03_pool_seg.out 2>&1
+[21:17:58] done 7 rc 0 in 72 s
+[21:17:58] start 10: /02_pool_beam --cond pool --builder beam --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/02_pool_beam.out 2>&1
+[21:22:29] done 9 rc 0 in 331 s
+[21:22:29] start 11: n/B/02_pool_seg --cond pool --builder seg --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/02_pool_seg.out 2>&1
+[21:22:37] done 4 rc 0 in 445 s
+[21:22:37] start 12: /01_pool_beam --cond pool --builder beam --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/01_pool_beam.out 2>&1
+[21:24:19] done 6 rc 0 in 459 s
+[21:24:19] start 13: n/B/01_pool_seg --cond pool --builder seg --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/01_pool_seg.out 2>&1
+[21:26:48] done 13 rc 0 in 149 s
+[21:26:48] start 14: /00_pool_beam --cond pool --builder beam --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/00_pool_beam.out 2>&1
+[21:28:10] done 10 rc 0 in 612 s
+[21:28:10] start 15: n/B/00_pool_seg --cond pool --builder seg --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/00_pool_seg.out 2>&1
+[21:28:30] done 11 rc 0 in 361 s
+[21:28:30] start 16: n/B/05_own_beam --cond own --builder beam --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/05_own_beam.out 2>&1
+[21:29:14] done 0 rc 0 in 843 s
+[21:29:14] start 17: hpin/B/05_own_seg --cond own --builder seg --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/05_own_seg.out 2>&1
+[21:31:07] done 17 rc 0 in 112 s
+[21:31:07] start 18: n/B/09_own_beam --cond own --builder beam --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/09_own_beam.out 2>&1
+[21:31:15] done 16 rc 0 in 165 s
+[21:31:15] start 19: hpin/B/09_own_seg --cond own --builder seg --beam 1000 --seg-k 50 --nproc 1 > results/s13/linchpin/B/09_own_seg.out 2>&1
+[21:32:03] done 18 rc 0 in 56 s
+[21:32:03] start 20: inchpin/curve/03_N8 --cond pool --builder beam --beam 1000 --try 3 --nproc 1 > results/s13/linchpin/curve/03_N8.out 2>&1
+[21:32:23] done 12 rc 0 in 586 s
+[21:32:23] start 21: inchpin/curve/07_N8 --cond pool --builder beam --beam 1000 --try 3 --nproc 1 > results/s13/linchpin/curve/07_N8.out 2>&1
+[21:32:37] done 8 rc 0 in 949 s
+[21:32:37] start 22: inchpin/curve/00_N8 --cond pool --builder beam --beam 1000 --try 3 --nproc 1 > results/s13/linchpin/curve/00_N8.out 2>&1
+[21:32:43] done 19 rc 0 in 88 s
+[21:32:43] start 23: inchpin/curve/06_N8 --cond pool --builder beam --beam 1000 --try 3 --nproc 1 > results/s13/linchpin/curve/06_N8.out 2>&1
+[21:32:59] done 15 rc 0 in 289 s
+[21:32:59] start 24: chpin/curve/03_N15 --cond pool --builder beam --beam 1000 --try 3 --nproc 1 > results/s13/linchpin/curve/03_N15.out 2>&1
+[21:38:44] done 14 rc 0 in 717 s
+[21:38:44] start 25: chpin/curve/07_N15 --cond pool --builder beam --beam 1000 --try 3 --nproc 1 > results/s13/linchpin/curve/07_N15.out 2>&1
+[21:39:50] done 21 rc 0 in 447 s
+[21:39:50] start 26: chpin/curve/00_N15 --cond pool --builder beam --beam 1000 --try 3 --nproc 1 > results/s13/linchpin/curve/00_N15.out 2>&1
+[21:48:19] done 23 rc 0 in 936 s
+[21:48:19] start 27: chpin/curve/06_N15 --cond pool --builder beam --beam 1000 --try 3 --nproc 1 > results/s13/linchpin/curve/06_N15.out 2>&1
+[21:49:04] done 20 rc 0 in 1021 s
+[21:49:04] start 28: chpin/curve/03_N30 --cond pool --builder beam --beam 1000 --try 3 --nproc 1 > results/s13/linchpin/curve/03_N30.out 2>&1
+[21:52:36] done 25 rc 0 in 832 s
+[21:52:36] start 29: chpin/curve/07_N30 --cond pool --builder beam --beam 1000 --try 3 --nproc 1 > results/s13/linchpin/curve/07_N30.out 2>&1
+[21:54:36] done 24 rc 0 in 1297 s
+[21:54:36] start 30: chpin/curve/00_N30 --cond pool --builder beam --beam 1000 --try 3 --nproc 1 > results/s13/linchpin/curve/00_N30.out 2>&1
+[21:55:36] done 22 rc 0 in 1379 s
+[21:55:36] start 31: chpin/curve/06_N30 --cond pool --builder beam --beam 1000 --try 3 --nproc 1 > results/s13/linchpin/curve/06_N30.out 2>&1
+sh: line 1: 17352 Terminated: 15          ~/.venvs/astro313/bin/python /Users/mickey/solarsystem/ctoc14/tools/linchpin_runner.py queue2.txt -P 6

@@ -1,0 +1,553 @@
+{
+ "W150": {
+  "17": {
+   "n_hosts": 1,
+   "n_hosts_with_slot": 0,
+   "slots": [
+    {
+     "host": "r1",
+     "t": 4955,
+     "dist": 0.111,
+     "forced_kg": 548,
+     "cheap_own_near": []
+    }
+   ]
+  },
+  "36": {
+   "n_hosts": 0,
+   "n_hosts_with_slot": 0,
+   "slots": []
+  },
+  "75": {
+   "n_hosts": 1,
+   "n_hosts_with_slot": 0,
+   "slots": [
+    {
+     "host": "r8",
+     "t": 4447,
+     "dist": 0.114,
+     "forced_kg": 102,
+     "cheap_own_near": []
+    }
+   ]
+  },
+  "108": {
+   "n_hosts": 0,
+   "n_hosts_with_slot": 0,
+   "slots": []
+  },
+  "118": {
+   "n_hosts": 2,
+   "n_hosts_with_slot": 0,
+   "slots": [
+    {
+     "host": "r2",
+     "t": 3889,
+     "dist": 0.066,
+     "forced_kg": 196,
+     "cheap_own_near": []
+    },
+    {
+     "host": "r5",
+     "t": 4544,
+     "dist": 0.139,
+     "forced_kg": 898,
+     "cheap_own_near": []
+    }
+   ]
+  },
+  "180": {
+   "n_hosts": 2,
+   "n_hosts_with_slot": 0,
+   "slots": [
+    {
+     "host": "r1",
+     "t": 5105,
+     "dist": 0.109,
+     "forced_kg": 261,
+     "cheap_own_near": []
+    },
+    {
+     "host": "r7",
+     "t": 4057,
+     "dist": 0.024,
+     "forced_kg": 96,
+     "cheap_own_near": []
+    }
+   ]
+  },
+  "212": {
+   "n_hosts": 2,
+   "n_hosts_with_slot": 1,
+   "slots": [
+    {
+     "host": "r1",
+     "t": 2486,
+     "dist": 0.091,
+     "forced_kg": 657,
+     "cheap_own_near": [
+      [
+       183,
+       2456
+      ]
+     ]
+    },
+    {
+     "host": "r2",
+     "t": 3907,
+     "dist": 0.131,
+     "forced_kg": 195,
+     "cheap_own_near": []
+    }
+   ]
+  },
+  "216": {
+   "n_hosts": 0,
+   "n_hosts_with_slot": 0,
+   "slots": []
+  },
+  "219": {
+   "n_hosts": 1,
+   "n_hosts_with_slot": 0,
+   "slots": [
+    {
+     "host": "r2",
+     "t": 1678,
+     "dist": 0.142,
+     "forced_kg": 306,
+     "cheap_own_near": []
+    }
+   ]
+  },
+  "220": {
+   "n_hosts": 3,
+   "n_hosts_with_slot": 1,
+   "slots": [
+    {
+     "host": "r1",
+     "t": 5035,
+     "dist": 0.155,
+     "forced_kg": 674,
+     "cheap_own_near": []
+    },
+    {
+     "host": "r5",
+     "t": 1223,
+     "dist": 0.147,
+     "forced_kg": 286,
+     "cheap_own_near": [
+      [
+       14,
+       1086
+      ]
+     ]
+    },
+    {
+     "host": "r5",
+     "t": 3227,
+     "dist": 0.193,
+     "forced_kg": 344,
+     "cheap_own_near": []
+    }
+   ]
+  },
+  "243": {
+   "n_hosts": 2,
+   "n_hosts_with_slot": 0,
+   "slots": [
+    {
+     "host": "r1",
+     "t": 4051,
+     "dist": 0.162,
+     "forced_kg": 160,
+     "cheap_own_near": []
+    },
+    {
+     "host": "r6",
+     "t": 2681,
+     "dist": 0.193,
+     "forced_kg": 53,
+     "cheap_own_near": []
+    }
+   ]
+  },
+  "247": {
+   "n_hosts": 5,
+   "n_hosts_with_slot": 3,
+   "slots": [
+    {
+     "host": "r1",
+     "t": 5188,
+     "dist": 0.118,
+     "forced_kg": 356,
+     "cheap_own_near": [
+      [
+       195,
+       5272
+      ]
+     ]
+    },
+    {
+     "host": "r3",
+     "t": 969,
+     "dist": 0.161,
+     "forced_kg": 413,
+     "cheap_own_near": [
+      [
+       297,
+       950
+      ]
+     ]
+    },
+    {
+     "host": "r5",
+     "t": 944,
+     "dist": 0.192,
+     "forced_kg": 410,
+     "cheap_own_near": [
+      [
+       14,
+       1086
+      ]
+     ]
+    },
+    {
+     "host": "r6",
+     "t": 2663,
+     "dist": 0.181,
+     "forced_kg": 568,
+     "cheap_own_near": []
+    },
+    {
+     "host": "r6",
+     "t": 5210,
+     "dist": 0.189,
+     "forced_kg": 314,
+     "cheap_own_near": []
+    }
+   ]
+  },
+  "288": {
+   "n_hosts": 4,
+   "n_hosts_with_slot": 0,
+   "slots": [
+    {
+     "host": "r5",
+     "t": 2767,
+     "dist": 0.109,
+     "forced_kg": 1128,
+     "cheap_own_near": []
+    },
+    {
+     "host": "r6",
+     "t": 4003,
+     "dist": 0.172,
+     "forced_kg": 1446,
+     "cheap_own_near": []
+    },
+    {
+     "host": "r7",
+     "t": 5254,
+     "dist": 0.182,
+     "forced_kg": 236,
+     "cheap_own_near": []
+    },
+    {
+     "host": "r8",
+     "t": 5138,
+     "dist": 0.135,
+     "forced_kg": 236,
+     "cheap_own_near": []
+    }
+   ]
+  }
+ },
+ "W250": {
+  "17": {
+   "n_hosts": 1,
+   "n_hosts_with_slot": 0,
+   "slots": [
+    {
+     "host": "r1",
+     "t": 4955,
+     "dist": 0.111,
+     "forced_kg": 548,
+     "cheap_own_near": []
+    }
+   ]
+  },
+  "36": {
+   "n_hosts": 0,
+   "n_hosts_with_slot": 0,
+   "slots": []
+  },
+  "75": {
+   "n_hosts": 1,
+   "n_hosts_with_slot": 0,
+   "slots": [
+    {
+     "host": "r8",
+     "t": 4447,
+     "dist": 0.114,
+     "forced_kg": 102,
+     "cheap_own_near": []
+    }
+   ]
+  },
+  "108": {
+   "n_hosts": 0,
+   "n_hosts_with_slot": 0,
+   "slots": []
+  },
+  "118": {
+   "n_hosts": 2,
+   "n_hosts_with_slot": 0,
+   "slots": [
+    {
+     "host": "r2",
+     "t": 3889,
+     "dist": 0.066,
+     "forced_kg": 196,
+     "cheap_own_near": []
+    },
+    {
+     "host": "r5",
+     "t": 4544,
+     "dist": 0.139,
+     "forced_kg": 898,
+     "cheap_own_near": []
+    }
+   ]
+  },
+  "180": {
+   "n_hosts": 2,
+   "n_hosts_with_slot": 2,
+   "slots": [
+    {
+     "host": "r1",
+     "t": 5105,
+     "dist": 0.109,
+     "forced_kg": 261,
+     "cheap_own_near": [
+      [
+       195,
+       5272
+      ]
+     ]
+    },
+    {
+     "host": "r7",
+     "t": 4057,
+     "dist": 0.024,
+     "forced_kg": 96,
+     "cheap_own_near": [
+      [
+       241,
+       3892
+      ]
+     ]
+    }
+   ]
+  },
+  "212": {
+   "n_hosts": 2,
+   "n_hosts_with_slot": 1,
+   "slots": [
+    {
+     "host": "r1",
+     "t": 2486,
+     "dist": 0.091,
+     "forced_kg": 657,
+     "cheap_own_near": [
+      [
+       183,
+       2456
+      ]
+     ]
+    },
+    {
+     "host": "r2",
+     "t": 3907,
+     "dist": 0.131,
+     "forced_kg": 195,
+     "cheap_own_near": []
+    }
+   ]
+  },
+  "216": {
+   "n_hosts": 0,
+   "n_hosts_with_slot": 0,
+   "slots": []
+  },
+  "219": {
+   "n_hosts": 1,
+   "n_hosts_with_slot": 1,
+   "slots": [
+    {
+     "host": "r2",
+     "t": 1678,
+     "dist": 0.142,
+     "forced_kg": 306,
+     "cheap_own_near": [
+      [
+       83,
+       1472
+      ]
+     ]
+    }
+   ]
+  },
+  "220": {
+   "n_hosts": 3,
+   "n_hosts_with_slot": 2,
+   "slots": [
+    {
+     "host": "r1",
+     "t": 5035,
+     "dist": 0.155,
+     "forced_kg": 674,
+     "cheap_own_near": [
+      [
+       195,
+       5272
+      ]
+     ]
+    },
+    {
+     "host": "r5",
+     "t": 1223,
+     "dist": 0.147,
+     "forced_kg": 286,
+     "cheap_own_near": [
+      [
+       14,
+       1086
+      ]
+     ]
+    },
+    {
+     "host": "r5",
+     "t": 3227,
+     "dist": 0.193,
+     "forced_kg": 344,
+     "cheap_own_near": []
+    }
+   ]
+  },
+  "243": {
+   "n_hosts": 2,
+   "n_hosts_with_slot": 0,
+   "slots": [
+    {
+     "host": "r1",
+     "t": 4051,
+     "dist": 0.162,
+     "forced_kg": 160,
+     "cheap_own_near": []
+    },
+    {
+     "host": "r6",
+     "t": 2681,
+     "dist": 0.193,
+     "forced_kg": 53,
+     "cheap_own_near": []
+    }
+   ]
+  },
+  "247": {
+   "n_hosts": 5,
+   "n_hosts_with_slot": 3,
+   "slots": [
+    {
+     "host": "r1",
+     "t": 5188,
+     "dist": 0.118,
+     "forced_kg": 356,
+     "cheap_own_near": [
+      [
+       195,
+       5272
+      ]
+     ]
+    },
+    {
+     "host": "r3",
+     "t": 969,
+     "dist": 0.161,
+     "forced_kg": 413,
+     "cheap_own_near": [
+      [
+       297,
+       950
+      ]
+     ]
+    },
+    {
+     "host": "r5",
+     "t": 944,
+     "dist": 0.192,
+     "forced_kg": 410,
+     "cheap_own_near": [
+      [
+       14,
+       1086
+      ]
+     ]
+    },
+    {
+     "host": "r6",
+     "t": 2663,
+     "dist": 0.181,
+     "forced_kg": 568,
+     "cheap_own_near": []
+    },
+    {
+     "host": "r6",
+     "t": 5210,
+     "dist": 0.189,
+     "forced_kg": 314,
+     "cheap_own_near": []
+    }
+   ]
+  },
+  "288": {
+   "n_hosts": 4,
+   "n_hosts_with_slot": 1,
+   "slots": [
+    {
+     "host": "r5",
+     "t": 2767,
+     "dist": 0.109,
+     "forced_kg": 1128,
+     "cheap_own_near": []
+    },
+    {
+     "host": "r6",
+     "t": 4003,
+     "dist": 0.172,
+     "forced_kg": 1446,
+     "cheap_own_near": []
+    },
+    {
+     "host": "r7",
+     "t": 5254,
+     "dist": 0.182,
+     "forced_kg": 236,
+     "cheap_own_near": [
+      [
+       182,
+       5089
+      ]
+     ]
+    },
+    {
+     "host": "r8",
+     "t": 5138,
+     "dist": 0.135,
+     "forced_kg": 236,
+     "cheap_own_near": []
+    }
+   ]
+  }
+ }
+}

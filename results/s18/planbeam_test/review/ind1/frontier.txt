@@ -1,0 +1,14 @@
+frontier (slice 3, T 1620 d, commit (T, T+H] = (1620, 2160] d): cheapest dtank [kg] per n_new, potential (of the cheapest / max); planbeam vs segbeam
+  craft n_new | planbeam dtank  pot(cheap/max) ncol | segbeam dtank  pot(cheap/max) ncol
+  c1     1   |      7.1   0/3     9   |     20.9   0/3     7
+  c1     2   |     21.4   0/3     4   |     37.0   0/3     7
+  c1     3   |     48.5   1/2     2   |     72.6   2/2     4
+  c1     4   |        -             -    -   |     90.5   2/2     1
+  c1 wall: planbeam 114.4 s (plan 79.0 s, 15 columns, ok True); segbeam 368.0 s
+  c1 regrid (honest view of the 15 column twins): 15 ok; planner -> honest dtank: 48.5->48.4, 104.1->104.1, 21.4->21.4, 34.0->33.9, 58.0->57.9, 64.9->64.9, 7.1->7.0, 20.8->20.7, 21.3->21.2, 21.6->21.5, 27.5->27.4, 34.2->34.1, 34.2->34.1, 36.0->36.0, 38.6->38.4
+  c7     1   |      1.0   0/3    10   |      1.8   2/3     7
+  c7     2   |     17.8   1/3     3   |     23.2   0/3     8
+  c7     3   |     25.8   0/1     3   |     96.1   2/2     1
+  c7     4   |        -             -    -   |    219.1   0/0     1
+  c7 wall: planbeam 103.1 s (plan 70.1 s, 16 columns, ok True); segbeam 377.0 s
+  c7 regrid (honest view of the 16 column twins): 16 ok; planner -> honest dtank: 25.8->25.8, 28.2->28.2, 32.1->32.1, 17.8->17.8, 26.9->26.9, 174.5->174.1, 1.0->1.0, 1.7->1.6, 5.5->5.5, 8.6->8.5, 10.7->10.6, 13.9->13.9, 15.5->15.4, 21.7->21.6, 38.3->38.3, 62.7->62.7

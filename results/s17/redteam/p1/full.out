@@ -1,0 +1,6 @@
+{"maxcov": false, "N": 8, "K": 294, "status": 1, "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal", "sec": 600, "dual_bound": null, "nC": 1382, "nA": 23798, "thr": 0.08, "cap": 150.0}
+Traceback (most recent call last):
+  File "/Users/mickey/solarsystem/ctoc14/results/s17/redteam/p1/p1_milp.py", line 139, in <module>
+    json.dump(sorted(R, key=lambda r: (r['thr'], r['cap'], r['N'], r['K'])), open(P1 / a.out, 'w'), indent=1)
+                                                                             ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/mickey/solarsystem/ctoc14/results/s17/redteam/p1/results/s17/redteam/p1/full.json'

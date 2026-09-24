@@ -1,0 +1,194 @@
+{
+ "pool": "pool_rand250.json",
+ "pool_size": 250,
+ "mode": "strict",
+ "soft_prize": 0.0,
+ "beam": 100,
+ "nproc": 1,
+ "m0": 1600.0,
+ "t_beam_s": 361.6,
+ "cpu_beam_s": 229.6,
+ "n_expand": 4219,
+ "n_states": 3138,
+ "deepest_total": 41,
+ "deepest_pool": 41,
+ "pareto_pool": {
+  "10": {
+   "n_tot": 10,
+   "fuel": 125.8,
+   "tank_planner": 637.1
+  },
+  "11": {
+   "n_tot": 11,
+   "fuel": 163.6,
+   "tank_planner": 648.4
+  },
+  "12": {
+   "n_tot": 12,
+   "fuel": 183.9,
+   "tank_planner": 654.7
+  },
+  "13": {
+   "n_tot": 13,
+   "fuel": 212.9,
+   "tank_planner": 663.8
+  },
+  "14": {
+   "n_tot": 14,
+   "fuel": 231.5,
+   "tank_planner": 669.8
+  },
+  "15": {
+   "n_tot": 15,
+   "fuel": 244.4,
+   "tank_planner": 674.1
+  },
+  "16": {
+   "n_tot": 16,
+   "fuel": 261.8,
+   "tank_planner": 679.9
+  },
+  "17": {
+   "n_tot": 17,
+   "fuel": 269.1,
+   "tank_planner": 682.3
+  },
+  "18": {
+   "n_tot": 18,
+   "fuel": 280.2,
+   "tank_planner": 686.1
+  },
+  "19": {
+   "n_tot": 19,
+   "fuel": 324.3,
+   "tank_planner": 701.5
+  },
+  "20": {
+   "n_tot": 20,
+   "fuel": 349.6,
+   "tank_planner": 710.7
+  },
+  "21": {
+   "n_tot": 21,
+   "fuel": 367.2,
+   "tank_planner": 717.2
+  },
+  "22": {
+   "n_tot": 22,
+   "fuel": 389.7,
+   "tank_planner": 725.7
+  },
+  "23": {
+   "n_tot": 23,
+   "fuel": 403.2,
+   "tank_planner": 730.9
+  },
+  "24": {
+   "n_tot": 24,
+   "fuel": 421.7,
+   "tank_planner": 738.2
+  },
+  "25": {
+   "n_tot": 25,
+   "fuel": 446.6,
+   "tank_planner": 748.2
+  },
+  "26": {
+   "n_tot": 26,
+   "fuel": 466.5,
+   "tank_planner": 756.4
+  },
+  "27": {
+   "n_tot": 27,
+   "fuel": 468.8,
+   "tank_planner": 757.3
+  },
+  "28": {
+   "n_tot": 28,
+   "fuel": 509.0,
+   "tank_planner": 774.5
+  },
+  "29": {
+   "n_tot": 29,
+   "fuel": 530.0,
+   "tank_planner": 783.7
+  },
+  "30": {
+   "n_tot": 30,
+   "fuel": 546.0,
+   "tank_planner": 790.9
+  },
+  "31": {
+   "n_tot": 31,
+   "fuel": 560.8,
+   "tank_planner": 797.7
+  },
+  "32": {
+   "n_tot": 32,
+   "fuel": 575.0,
+   "tank_planner": 804.3
+  },
+  "33": {
+   "n_tot": 33,
+   "fuel": 589.7,
+   "tank_planner": 811.3
+  },
+  "34": {
+   "n_tot": 34,
+   "fuel": 595.8,
+   "tank_planner": 814.3
+  },
+  "35": {
+   "n_tot": 35,
+   "fuel": 602.1,
+   "tank_planner": 817.3
+  },
+  "36": {
+   "n_tot": 36,
+   "fuel": 606.5,
+   "tank_planner": 819.4
+  },
+  "37": {
+   "n_tot": 37,
+   "fuel": 614.0,
+   "tank_planner": 823.1
+  },
+  "38": {
+   "n_tot": 38,
+   "fuel": 625.0,
+   "tank_planner": 828.5
+  },
+  "39": {
+   "n_tot": 39,
+   "fuel": 659.1,
+   "tank_planner": 845.9
+  },
+  "40": {
+   "n_tot": 40,
+   "fuel": 688.3,
+   "tank_planner": 861.4
+  },
+  "41": {
+   "n_tot": 41,
+   "fuel": 790.7,
+   "tank_planner": 920.4
+  }
+ },
+ "settles": [
+  {
+   "k_pool": 41,
+   "n_tot": 41,
+   "tank_planner": 920.4,
+   "t_settle_s": 16.0,
+   "ok": true,
+   "miss_km": 75.1,
+   "lag_d": 1.0,
+   "tank_twin": 941.6,
+   "J_i": 1.3035,
+   "kg_per_fb": 8.33,
+   "dv_per_fb": 0.4287,
+   "t_end_yr": 14.93,
+   "t_launch_d": 60.0
+  }
+ ]
+}

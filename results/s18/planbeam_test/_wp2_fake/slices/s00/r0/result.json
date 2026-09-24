@@ -1,0 +1,279 @@
+{
+ "job_id": "s00_r0",
+ "kind": "root",
+ "craft": null,
+ "ok": true,
+ "error": null,
+ "columns": [
+  {
+   "id": "s00_r0_k0",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    209,
+    275,
+    10
+   ],
+   "epochs": [
+    17107200.0,
+    27734400.0,
+    34300800.0
+   ],
+   "all_targets": [
+    209,
+    275,
+    10
+   ],
+   "n_new": 3,
+   "npz": null,
+   "tank": 633.9412621378966,
+   "tank_prev": 601.5,
+   "dtank": 32.441262137896615,
+   "miss": 0.0,
+   "t_launch": 5184000.0,
+   "t_end": 34300800.0,
+   "potential": 1,
+   "counts": {
+    "pin": 0,
+    "med": 2,
+    "fil": 1
+   },
+   "depth": 1,
+   "score": -3.0,
+   "job_id": "s00_r0"
+  },
+  {
+   "id": "s00_r0_k1",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    222,
+    229,
+    89,
+    137,
+    290,
+    95
+   ],
+   "epochs": [
+    17107200.0,
+    20908800.0,
+    21427200.0,
+    23328000.0,
+    27820800.0,
+    34214400.0
+   ],
+   "all_targets": [
+    222,
+    229,
+    89,
+    137,
+    290,
+    95
+   ],
+   "n_new": 6,
+   "npz": null,
+   "tank": 671.9140817115965,
+   "tank_prev": 601.5,
+   "dtank": 70.41408171159651,
+   "miss": 0.0,
+   "t_launch": 5184000.0,
+   "t_end": 34214400.0,
+   "potential": 2,
+   "counts": {
+    "pin": 2,
+    "med": 1,
+    "fil": 3
+   },
+   "depth": 1,
+   "score": -6.0,
+   "job_id": "s00_r0"
+  },
+  {
+   "id": "s00_r0_k2",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    141,
+    104,
+    238,
+    45
+   ],
+   "epochs": [
+    11318400.0,
+    18057600.0,
+    27302400.0,
+    33004800.0
+   ],
+   "all_targets": [
+    141,
+    104,
+    238,
+    45
+   ],
+   "n_new": 4,
+   "npz": null,
+   "tank": 649.9779985329213,
+   "tank_prev": 601.5,
+   "dtank": 48.47799853292133,
+   "miss": 0.0,
+   "t_launch": 5184000.0,
+   "t_end": 33004800.0,
+   "potential": 0,
+   "counts": {
+    "pin": 0,
+    "med": 3,
+    "fil": 1
+   },
+   "depth": 1,
+   "score": -4.0,
+   "job_id": "s00_r0"
+  },
+  {
+   "id": "s00_r0_k3",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    220,
+    95
+   ],
+   "epochs": [
+    38016000.0,
+    44582400.0
+   ],
+   "all_targets": [
+    220,
+    95
+   ],
+   "n_new": 2,
+   "npz": null,
+   "tank": 625.5585935999004,
+   "tank_prev": 601.5,
+   "dtank": 24.058593599900405,
+   "miss": 0.0,
+   "t_launch": 5184000.0,
+   "t_end": 44582400.0,
+   "potential": 3,
+   "counts": {
+    "pin": 0,
+    "med": 2,
+    "fil": 0
+   },
+   "depth": 1,
+   "score": -2.0,
+   "job_id": "s00_r0"
+  },
+  {
+   "id": "s00_r0_k4",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    54,
+    24,
+    294,
+    10,
+    127,
+    239,
+    253,
+    81,
+    296,
+    190,
+    286
+   ],
+   "epochs": [
+    11750400.0,
+    12009600.0,
+    17107200.0,
+    26265600.0,
+    26352000.0,
+    28598400.0,
+    38534400.0,
+    40003200.0,
+    41904000.0,
+    43286400.0,
+    45446400.0
+   ],
+   "all_targets": [
+    54,
+    24,
+    294,
+    10,
+    127,
+    239,
+    253,
+    81,
+    296,
+    190,
+    286
+   ],
+   "n_new": 11,
+   "npz": null,
+   "tank": 735.4935698669905,
+   "tank_prev": 601.5,
+   "dtank": 133.99356986699047,
+   "miss": 0.0,
+   "t_launch": 5184000.0,
+   "t_end": 45446400.0,
+   "potential": 0,
+   "counts": {
+    "pin": 0,
+    "med": 0,
+    "fil": 11
+   },
+   "depth": 1,
+   "score": -11.0,
+   "job_id": "s00_r0",
+   "note": "quota violator (11 fillers)"
+  },
+  {
+   "id": "s00_r0_k5",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    29,
+    218
+   ],
+   "epochs": [
+    33782400.0,
+    45532800.0
+   ],
+   "all_targets": [
+    29,
+    218
+   ],
+   "n_new": 2,
+   "npz": null,
+   "tank": 1300.0,
+   "tank_prev": 601.5,
+   "dtank": 698.5,
+   "miss": 0.0,
+   "t_launch": 5184000.0,
+   "t_end": 45532800.0,
+   "potential": 0,
+   "counts": {
+    "pin": 1,
+    "med": 1,
+    "fil": 0
+   },
+   "depth": 1,
+   "score": -2.0,
+   "job_id": "s00_r0",
+   "note": "fuel violator (tank 1300)"
+  }
+ ],
+ "stats": {
+  "levels": 1,
+  "n_states": 6,
+  "n_columns": 6,
+  "settles": 0,
+  "settle_ok": 0,
+  "price_s": 0.0,
+  "settle_s": 0.0,
+  "wall_s": 0.0,
+  "end": {
+   "kind": "fixture",
+   "depth": 0
+  },
+  "hist": [],
+  "note": "fake: no twins"
+ }
+}

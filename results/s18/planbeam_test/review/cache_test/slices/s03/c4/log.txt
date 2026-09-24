@@ -1,0 +1,5 @@
+[06:47:42] job s03_c4 (craft, craft 4, planbeam): T 1620 d H 540 L 360; plan horizon 3240 d; remaining 224; prize >1 on 44; width 150 npt 6 mc 150 dv 1.2 drmax 0.15 plan_wall 240 s; quota {'fil': 9, 'med': 16}
+[06:47:42] ERROR s03_c4: FileNotFoundError: [Errno 2] No such file or directory: '/Users/mickey/solarsystem/ctoc14/results/s18/planbeam_test/review/cache_test/slices/s03/in/does_not_exist.npz'
+[06:47:42] job s03_c4: cached FAILURE -> re-running once (result_failed.json kept)
+[06:47:42] job s03_c4 (craft, craft 4, planbeam): T 1620 d H 540 L 360; plan horizon 3240 d; remaining 224; prize >1 on 44; width 150 npt 6 mc 150 dv 1.2 drmax 0.15 plan_wall 240 s; quota {'fil': 9, 'med': 16}
+[06:47:42] ERROR s03_c4: FileNotFoundError: [Errno 2] No such file or directory: '/Users/mickey/solarsystem/ctoc14/results/s18/planbeam_test/review/cache_test/slices/s03/in/does_not_exist.npz'

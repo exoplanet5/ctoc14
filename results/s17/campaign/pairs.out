@@ -1,0 +1,6 @@
+21:29:35 L=3 (30 d, rho 0.017 AU): cand 2664547, junctions <= 1.0 km/s 1533053, children so far 39600
+21:30:09 L=5 (50 d, rho 0.029 AU): cand 4002368, junctions <= 1.0 km/s 1865737, children so far 49996
+21:30:51 L=8 (80 d, rho 0.046 AU): cand 6387844, junctions <= 1.0 km/s 2109214, children so far 64396
+21:31:37 L=11 (110 d, rho 0.060 AU): cand 8552577, junctions <= 1.0 km/s 2009732, children so far 74758
+21:32:06 L=15 (150 d, rho 0.060 AU): cand 7807318, junctions <= 1.0 km/s 1251612, children so far 81977
+21:32:10 pairs done {'cand_L3': 2664547, 'junc_L3': 1533053, 'tank': 45172, 'tcap': 191528, 'cand_L5': 4002368, 'junc_L5': 1865737, 'cand_L8': 6387844, 'junc_L8': 2109214, 'cand_L11': 8552577, 'junc_L11': 2009732, 'cand_L15': 7807318, 'junc_L15': 1251612} children 81977

@@ -1,0 +1,68 @@
+[02:46:25] skeletons: 8 routes, covered 263, J 47.2068; 01:48@1048 03:42@993 02:39@1039 04:36@930 05:34@881 06:26@836 07:23@848 08:15@699
+[02:46:37]     03 seg 1: 1 states reach waypoint 277 -- relaxed retry
+[02:46:38]     03 seg 1: 2 states reach waypoint 277 -- giving up
+[02:46:38]     03 seg 2: 2 states reach waypoint 291 -- relaxed retry
+[02:46:38]     03 seg 2: 4 states reach waypoint 291 -- giving up
+[02:46:38]     03 seg 3: 2 states reach waypoint 111 -- relaxed retry
+[02:46:39]     03 seg 4: 2 states reach waypoint 63 -- relaxed retry
+[02:46:40]     03 seg 4: 4 states reach waypoint 63 -- giving up
+[02:46:40]     03 seg 5: 4 states reach waypoint 126 -- relaxed retry
+[02:46:41]     03 seg 6: 3 states reach waypoint 52 -- relaxed retry
+[02:46:41]     03 seg 7: 3 states reach waypoint 14 -- relaxed retry
+[02:46:42]     03 seg 8: 1 states reach waypoint 253 -- relaxed retry
+[02:46:43]     03 seg 8: 2 states reach waypoint 253 -- giving up
+[02:46:43]     03 seg 9: 0 states reach waypoint 78 -- relaxed retry
+[02:46:43]     03 seg 9: 0 states reach waypoint 78 -- giving up
+[02:46:43]     03 seg 9: DROPPING waypoint 78
+[02:46:43]     03 seg 10: 2 states reach waypoint 275 -- relaxed retry
+[02:46:44]     03 seg 11: 3 states reach waypoint 278 -- relaxed retry
+[02:46:45]     03 seg 12: 4 states reach waypoint 215 -- relaxed retry
+[02:46:45]     03 seg 13: 3 states reach waypoint 28 -- relaxed retry
+[02:46:46]     03 seg 14: 1 states reach waypoint 232 -- relaxed retry
+[02:46:47]     03 seg 14: 3 states reach waypoint 232 -- giving up
+[02:46:47]     03 seg 15: 3 states reach waypoint 153 -- relaxed retry
+[02:46:48]     03 seg 16: 2 states reach waypoint 194 -- relaxed retry
+[02:46:49]     03 seg 17: 3 states reach waypoint 284 -- relaxed retry
+[02:46:50]     03 seg 18: 4 states reach waypoint 221 -- relaxed retry
+[02:46:51]     03 seg 19: 4 states reach waypoint 50 -- relaxed retry
+[02:46:52]     03 seg 21: 4 states reach waypoint 100 -- relaxed retry
+[02:46:53]     03 seg 22: 2 states reach waypoint 36 -- relaxed retry
+[02:46:54]     03 seg 23: 1 states reach waypoint 164 -- relaxed retry
+[02:46:55]     03 seg 24: 1 states reach waypoint 112 -- relaxed retry
+[02:46:56]     03 seg 24: 3 states reach waypoint 112 -- giving up
+[02:46:56]     03 seg 26: 2 states reach waypoint 202 -- relaxed retry
+[02:46:57]     03 seg 26: 4 states reach waypoint 202 -- giving up
+[02:46:57]     03 seg 27: 4 states reach waypoint 146 -- relaxed retry
+[02:46:58]     03 seg 28: 4 states reach waypoint 142 -- relaxed retry
+[02:46:59]     03 seg 30: 2 states reach waypoint 105 -- relaxed retry
+[02:46:59]     03 seg 30: 4 states reach waypoint 105 -- giving up
+[02:47:00]     03 seg 31: 4 states reach waypoint 184 -- relaxed retry
+[02:47:00]     03 seg 32: 3 states reach waypoint 108 -- relaxed retry
+[02:47:01]     03 seg 33: 4 states reach waypoint 195 -- relaxed retry
+[02:47:02]     03 seg 35: 2 states reach waypoint 120 -- relaxed retry
+[02:47:03]     03 seg 35: 4 states reach waypoint 120 -- giving up
+[02:47:03]     03 seg 36: 0 states reach waypoint 166 -- relaxed retry
+[02:47:03]     03 seg 36: 0 states reach waypoint 166 -- giving up
+[02:47:03]     03 seg 36: DROPPING waypoint 166
+[02:47:03]     03 seg 37: 0 states reach waypoint 61 -- relaxed retry
+[02:47:03]     03 seg 37: 0 states reach waypoint 61 -- giving up
+[02:47:03]     03 seg 37: DROPPING waypoint 61
+[02:47:03]     03 seg 38: 0 states reach waypoint 163 -- relaxed retry
+[02:47:03]     03 seg 38: 0 states reach waypoint 163 -- giving up
+[02:47:03]     03 seg 38: DROPPING waypoint 163
+[02:47:04]     03 seg 39: 0 states reach waypoint 205 -- relaxed retry
+[02:47:04]     03 seg 39: 0 states reach waypoint 205 -- giving up
+[02:47:04]     03 seg 39: DROPPING waypoint 205
+[02:47:04]     03 seg 40: 0 states reach waypoint 294 -- relaxed retry
+[02:47:04]     03 seg 40: 0 states reach waypoint 294 -- giving up
+[02:47:04]     03 seg 40: DROPPING waypoint 294
+[02:47:04]     03 seg 41: 0 states reach waypoint 92 -- relaxed retry
+[02:47:04]     03 seg 41: 0 states reach waypoint 92 -- giving up
+[02:47:04]     03 seg 41: DROPPING waypoint 92
+[02:47:04]     03 segments: 0:81->4st/1fb 1:277->1st/2fb 2:291->2st/3fb 3:111->4st/4fb 4:63->1st/5fb 5:126->3st/6fb 6:52->3st/7fb 7:14->3st/8fb 8:253->1st/9fb 9:78->0st/0fb 10:275->4st/10fb 11:278->2st/11fb 12:215->3st/12fb 13:28->3st/13fb 14:232->2st/14fb 15:153->5st/15fb 16:194->4st/16fb 17:284->3st/17fb 18:221->4st/18fb 19:50->4st/19fb 20:242->5st/20fb 21:100->4st/21fb 22:36->3st/22fb 23:164->4st/23fb 24:112->2st/24fb 25:269->5st/25fb 26:202->2st/26fb 27:146->3st/27fb 28:142->4st/28fb 29:51->7st/29fb 30:105->2st/30fb 31:184->3st/31fb 32:108->4st/32fb 33:195->4st/33fb 34:97->6st/34fb 35:120->2st/35fb 36:166->0st/0fb 37:61->0st/0fb 38:163->0st/0fb 39:205->0st/0fb 40:294->0st/0fb 41:92->0st/0fb 42:None->2st/35fb
+[02:47:04]   03: segmented beam 300 drmax 0.15 half 45: 2 final states, deepest 35  (39 s)
+[02:47:04]   03: Pareto 35:1033
+[02:47:12]     35 fb: planner 1033 -> twin 954 kg (35 fb, 35 new), 0.517 km/s/fb, J_i 1.317, value -0.083 (8 s)
+[02:47:12] [03] 42 waypoints -> 35 flybys (35 new), tank 954, J_i 1.317; fleet covered 35, uncovered 263, fleet J 266.317  (47 s)
+[02:47:12] FINAL: 1 routes, covered 35, J 266.3171; 03:35@954; leftovers 263: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 98, 99, 101, 102, 103, 104, 106, 107, 109, 110, 113, 114, 115, 116, 117, 118, 119, 121, 122, 123, 124, 125, 127, 128, 129, 130, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 143, 145, 147, 148, 149, 150, 151, 152, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 185, 186, 187, 188, 189, 190, 191, 192, 193, 196, 197, 198, 199, 200, 201, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 216, 217, 218, 219, 220, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 233, 234, 235, 236, 237, 238, 239, 240, 241, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 270, 271, 272, 273, 274, 276, 279, 280, 281, 282, 283, 285, 286, 287, 288, 289, 290, 292, 293, 294, 295, 296, 297, 298, 299, 300]
+[02:47:12] sum J_i 1.317 -> J 3.317 if the leftovers insert for free, 266.317 as misses

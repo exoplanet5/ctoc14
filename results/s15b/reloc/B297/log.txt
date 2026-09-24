@@ -1,0 +1,4 @@
+[02:06:32] relocate results/s15b/fleets/B297: sum J_i 11.9540
+[02:11:05]  round 1: 25 removals >= 0.008; top 246@t1 0.034, 223@s1 0.031, 172@s1 0.031, 234@t1 0.029, 158@t1 0.026, 283@t1 0.026, 150@s1 0.025, 147@t1 0.024, 15@t1 0.019, 118@s2 0.018, 139@s1 0.017, 168@t1 0.017
+[02:11:20]   43 priced approaches; 0 insertion attempts: 
+[02:11:20] relocate done: sum J_i 11.9540 -> 11.9540 (0 moves), covered 297

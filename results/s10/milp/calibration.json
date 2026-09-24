@@ -1,0 +1,205 @@
+{
+ "what": "joint fleet MILP over the optimised carrier library: predicted vs REAL settled",
+ "date": "2026-09-21",
+ "library": {
+  "file": "results/s7/libopt.pkl",
+  "carriers": 240,
+  "bases_settled": 239,
+  "base_depth_min_med_max": [
+   5,
+   17,
+   22
+  ],
+  "base_tank_min_med_max_kg": [
+   618,
+   686,
+   944
+  ],
+  "union_of_bases": 273
+ },
+ "reach": {
+  "note": "targets within d of a settled carrier base trajectory (incl. its base)",
+  "per_carrier_median": {
+   "0.02": 20,
+   "0.03": 23,
+   "0.04": 29,
+   "0.06": 42,
+   "0.08": 57,
+   "0.12": 87
+  },
+  "union": {
+   "0.02": 285,
+   "0.03": 289,
+   "0.04": 292,
+   "0.06": 297,
+   "0.08": 297,
+   "0.12": 298
+  },
+  "fractional_set_cover_carriers_needed": {
+   "0.02": 45.7,
+   "0.03": 43.2,
+   "0.04": 32.8,
+   "0.06": 22.1
+  }
+ },
+ "milp": {
+  "formulation": "y_c open carrier, x_tcb target->carrier at depth band b, z_t miss, J_c >= piecewise-linear epigraph of J_i(600+F_c)",
+  "size_dmax0.12": {
+   "columns": 84883,
+   "pairs": 15597,
+   "vars": 101733,
+   "rows": 6767
+  },
+  "root_LP_bound_sumJi": {
+   "dmax0.08_pmin0.25": 9.7056,
+   "dmax0.12_pmin0.20": 7.98
+  },
+  "branch_and_bound_dual_bounds_on_sumJi_plus_misses_after_900s": {
+   "free_N_dmax0.08": 12.6301,
+   "N8": 10.7327,
+   "N9": 11.2267,
+   "N10": 11.978,
+   "N12": 13.7289,
+   "N16": 17.534,
+   "N9_after_3300s": 11.3943
+  },
+  "note": "HiGHS incumbents after 900 s are useless (29 craft / J 34.8 free-N); the plans that were built come from the vectorised regret-insertion greedy on the same objective"
+ },
+ "greedy_predicted_sumJi_and_misses": {
+  "N8": [
+   14.43,
+   26
+  ],
+  "N9": [
+   15.61,
+   13
+  ],
+  "N10": [
+   15.53,
+   11
+  ],
+  "N11": [
+   16.44,
+   8
+  ],
+  "N12": [
+   16.23,
+   6
+  ],
+  "N13": [
+   17.04,
+   3
+  ]
+ },
+ "built_N10": {
+  "plan": "results/s10/milp/gplan_n10.json",
+  "fleet": "results/s10/milp/fleet",
+  "routes": "results/s10/milp/routes/route_*.npz",
+  "predicted_sumJi": 15.5319,
+  "predicted_covered": 287,
+  "settled_sumJi": 18.1516,
+  "settled_covered": 244,
+  "settled_J": 74.1516,
+  "settled_flybys": 287,
+  "settled_J_per_flyby": 0.0632,
+  "insertions_planned": 177,
+  "insertions_settled": 134,
+  "insertion_success": 0.757,
+  "gap_sumJi": 2.6197
+ },
+ "insertion_calibration_134_assigned": {
+  "predicted_total_kg": 3363,
+  "real_total_kg": 6518,
+  "aggregate_bias": 1.94,
+  "aggregate_bias_after_margin_shrink_n0_over_depth": 1.57,
+  "median_ratio_real_over_pred": 1.97,
+  "frac_over_2x": 0.49,
+  "frac_under_0.5x": 0.21,
+  "real_kg_median_mean_p90_max": [
+   36.0,
+   48.6,
+   107,
+   346
+  ],
+  "bias_by_distance": {
+   "0.00-0.04": 2.39,
+   "0.04-0.07": 2.48,
+   "0.07-0.10": 1.77,
+   "0.10-0.16": 1.27
+  },
+  "R2_log_kg_on_assigned": 0.01,
+  "R2_log_kg_on_own_free_sample": 0.651,
+  "median_abs_err_kg_assigned": 21.6,
+  "median_abs_err_kg_constant_predictor": 26.5,
+  "relative_speed_at_encounter_km_s_quantiles": [
+   9.6,
+   11.9,
+   16.7,
+   21.6,
+   30.8
+  ],
+  "relative_speed_explains_residual": false,
+  "caveat": "R2 collapse is partly range restriction (assigned d 0.03-0.12 AU vs fit 0.004-0.35); the aggregate x1.94 bias is not."
+ },
+ "freedom_premium_end_to_end": {
+  "free_choice_farmO": {
+   "routes": 96,
+   "J_per_flyby_best": 0.0338,
+   "J_per_flyby_median": 0.0395,
+   "depth_median": 34,
+   "tank_median_kg": 968
+  },
+  "milp_assigned": {
+   "routes": 10,
+   "J_per_flyby_best": 0.0562,
+   "J_per_flyby_median": 0.0617,
+   "depth_median": 29,
+   "tank_median_kg": 1347
+  },
+  "ratio_J_per_flyby": 1.56
+ },
+ "reference": {
+  "t10d_banked": {
+   "craft": 10,
+   "covered": 298,
+   "sumJi": 12.366,
+   "J": 14.366,
+   "J_per_flyby": 0.0415
+  },
+  "target_J": 13.0,
+  "breakeven_J_per_flyby": 0.0369
+ },
+ "greedy_calibrated_kcal1.57_full_coverage": {
+  "N10": [
+   24.853,
+   5
+  ],
+  "N12": [
+   19.566,
+   0
+  ],
+  "N14": [
+   18.883,
+   0
+  ],
+  "N16": [
+   19.817,
+   0
+  ],
+  "N18": [
+   21.028,
+   0
+  ],
+  "note": "sum J_i + misses; architecture optimum is N=14 -> J 20.88"
+ },
+ "free_choice_surrogate_set_cover": {
+  "routes": 239,
+  "median_size": 38,
+  "craft_needed": 23,
+  "covered": 293,
+  "sum_Ji": 36.3,
+  "J": 43.3,
+  "overlap_flybys": 581,
+  "note": "239 free-choice routes priced by the surrogate; they want the same targets"
+ }
+}

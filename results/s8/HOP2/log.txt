@@ -1,0 +1,11 @@
+[13:13:11] 20000 random 2-segment starts scored in 39 s: best 15.08
+[13:13:53] optimised 64 routes in 80 s
+[13:13:53]   value 17.32: 17 flybys, segments 2@212d + 15@826d (hop 0.26 km/s)
+[13:13:53]   value 16.98: 18 flybys, segments 7@25d + 11@1864d (hop 0.87 km/s)
+[13:13:53]   value 16.84: 18 flybys, segments 7@20d + 11@1717d (hop 0.91 km/s)
+[13:13:53]   value 16.73: 23 flybys, segments 7@143d + 16@1685d (hop 0.71 km/s)
+[13:13:53]   value 16.61: 17 flybys, segments 2@493d + 15@1208d (hop 1.09 km/s)
+[13:13:53]   value 16.59: 20 flybys, segments 8@245d + 12@1595d (hop 0.46 km/s)
+[13:13:53]   value 16.52: 19 flybys, segments 4@220d + 15@968d (hop 0.33 km/s)
+[13:13:53]   value 16.38: 20 flybys, segments 7@320d + 13@1935d (hop 0.82 km/s)
+[13:13:53] -> results/s8/HOP2/routes.json

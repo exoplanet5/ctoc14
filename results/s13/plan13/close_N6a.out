@@ -1,0 +1,59 @@
+[02:50:47] start 8 routes, covered 263, J 47.2068; 01:48@1048 03:42@993 02:39@1039 04:36@930 05:34@881 06:26@836 07:23@848 08:15@699; sum J_i 10.2068; 35 leftovers; CAP 0.25
+[02:51:14]   r1: placed 16 on 04 (d 0.017 AU, host now 37 fb) dJ +0.0020 (+1.9 kg)
+[02:51:14]   r1: placed 121 on 02 (d 0.073 AU, host now 40 fb) dJ +0.0036 (+3.1 kg)
+[02:51:14]   r1: placed 198 on 05 (d 0.033 AU, host now 35 fb) dJ +0.0372 (+36.5 kg)
+[02:51:14] round 1: 19+0 trials, 9 settled, placed 3; total placed 3, dead 0, left 32; sum J_i 10.2497 (27 s)
+[02:52:25]   r2: placed 26 on 04 (d 0.007 AU, host now 38 fb) dJ +0.0132 (+12.5 kg)
+[02:52:25]   r2: placed 75 on 06 (d 0.091 AU, host now 27 fb) dJ +0.0555 (+56.4 kg)
+[02:52:25]   r2: placed 268 on 05 (d 0.018 AU, host now 36 fb) dJ +0.1027 (+94.5 kg)
+[02:52:25]   r2: placed 62 on 08 (d 0.134 AU, host now 16 fb) dJ +0.1187 (+134.3 kg)
+[02:52:25]   r2: placed 32 on 02 (d 0.032 AU, host now 41 fb) dJ +0.2010 (+161.2 kg)
+[02:52:25]   r2: placed 55 on 07 (d 0.094 AU, host now 24 fb) dJ +0.2428 (+224.5 kg)
+[02:52:25]   r2: placed 262 on 03 (d 0.141 AU, host now 43 fb) dJ +0.2453 (+201.3 kg)
+[02:52:25] round 2: 34+0 trials, 11 settled, placed 7; total placed 10, dead 0, left 25; sum J_i 11.2289 (71 s)
+[02:55:24]   r3: placed 29 on 07 (d 0.145 AU, host now 25 fb) dJ +0.0317 (+26.2 kg)
+[02:55:24]   r3: placed 216 on 08 (d 0.175 AU, host now 17 fb) dJ +0.0492 (+50.4 kg)
+[02:55:24]   r3: placed 140 on 04 (d 0.064 AU, host now 39 fb) dJ +0.0841 (+76.1 kg)
+[02:55:24] round 3: 59+0 trials, 9 settled, placed 3; total placed 13, dead 0, left 22; sum J_i 11.3939 (179 s)
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:195: RuntimeWarning: overflow encountered in multiply
+  gdot = 1 - chi * chi / r * C; fdot = sqmu / (r * r0n) * chi * (z * S - 1)
+[03:00:47]   r4: placed 110 on 08 (d 0.247 AU, host now 18 fb) dJ +0.0194 (+19.1 kg)
+[03:00:47]   r4: placed 282 on 04 (d 0.239 AU, host now 40 fb) dJ +0.1449 (+120.3 kg)
+[03:00:47]   r4: placed 56 on 07 (d 0.218 AU, host now 26 fb) dJ +0.2031 (+155.9 kg)
+[03:00:47]   r4: 3 unplaceable
+[03:00:47]   r4: 15 unplaceable
+[03:00:47]   r4: 33 unplaceable
+[03:00:47]   r4: 48 unplaceable
+[03:00:47]   r4: 53 unplaceable
+[03:00:47]   r4: 58 unplaceable
+[03:00:47]   r4: 114 unplaceable
+[03:00:47]   r4: 118 unplaceable
+[03:00:47]   r4: 132 unplaceable
+[03:00:47]   r4: 137 unplaceable
+[03:00:47]   r4: 139 unplaceable
+[03:00:47]   r4: 158 unplaceable
+[03:00:47]   r4: 196 unplaceable
+[03:00:47]   r4: 219 unplaceable
+[03:00:47]   r4: 236 unplaceable
+[03:00:47]   r4: 243 unplaceable
+[03:00:47]   r4: 247 unplaceable
+[03:00:47] round 4: 13+41 trials, 7 settled, placed 3; total placed 16, dead 17, left 19; sum J_i 11.7613 (323 s)
+[03:01:18]   r5: placed 90 on 04 (d 0.175 AU, host now 41 fb) dJ +0.1712 (+128.6 kg)
+[03:01:18] round 5: 4+0 trials, 1 settled, placed 1; total placed 17, dead 17, left 1; sum J_i 11.9325 (31 s)
+[03:01:34] round 6: 2+0 trials, 1 settled, placed 0; total placed 17, dead 17, left 1; sum J_i 11.9325 (16 s)
+[03:02:07] round 7: 0+2 trials, 1 settled, placed 0; total placed 17, dead 17, left 1; sum J_i 11.9325 (33 s)
+[03:02:07] CLOSING: placed 17/35 for sum dJ 1.7256 (mean 0.1015, median 0.0841); unplaceable 17 [3, 15, 33, 48, 53, 58, 114, 118, 132, 137, 139, 158, 196, 219, 236, 243, 247]; sum J_i 10.2068 -> 11.9325; covered 280
+[03:05:11] relocate: top removal savings 55@07 0.341, 148@07 0.286, 32@02 0.205, 293@04 0.186, 117@02 0.183, 20@07 0.178, 56@07 0.176, 90@04 0.159, 113@07 0.131, 140@04 0.123, 215@03 0.113, 62@08 0.110
+[03:16:31]   moved 117: 02 -> 08 gain 0.1504; J 31.7821
+[03:16:31]   swapped 293@04 <-> 206@06: gain 0.0642; J 31.7180
+[03:16:31]   moved 28: 03 -> 05 gain 0.0361; J 31.6818
+[03:16:31] relocate pass 1: sum J_i 11.6818 (864 s)
+[03:20:07] relocate: top removal savings 55@07 0.341, 148@07 0.286, 20@07 0.178, 56@07 0.176, 215@03 0.141, 113@07 0.131, 62@08 0.127, 68@05 0.105, 191@04 0.097, 268@05 0.095, 197@07 0.085, 86@08 0.085
+[03:31:21]   moved 191: 04 -> 06 gain 0.0608; J 31.6211
+[03:31:21]   swapped 68@05 <-> 14@03: gain 0.0591; J 32.5619
+[03:31:21] relocate pass 2: sum J_i 11.5619 (891 s)
+[03:34:53] relocate: top removal savings 55@07 0.341, 148@07 0.286, 20@07 0.178, 56@07 0.176, 113@07 0.131, 62@08 0.127, 68@03 0.125, 197@07 0.085, 86@08 0.085, 195@03 0.075, 215@03 0.072, 75@06 0.069
+[03:45:28]   moved 195: 03 -> 05 gain 0.0384; J 32.5236
+[03:45:28]   swapped 113@07 <-> 191@06: gain 0.0306; J 34.4929
+[03:45:28] relocate pass 3: sum J_i 11.4929 (846 s)
+[03:45:28] FINAL: covered 277, sum J_i 10.2068 -> closing 11.9325 -> relocate 11.4929; J = 34.4929

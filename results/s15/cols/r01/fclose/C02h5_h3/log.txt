@@ -1,0 +1,2 @@
+[21:08:44]     absorb[route_03+[]]: 2 approaches of [20, 116]; lintwin 20@3011d 0.068AU 495kg, 116@2876d 0.192AU 701kg
+[21:08:44] close C02h5_h3 done: 0 columns (1 s)

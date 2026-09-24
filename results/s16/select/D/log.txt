@@ -1,0 +1,5 @@
+[14:56:43] load: 6355 files (14 new; {'ok': 6346, 'tank': 9}), 3585 distinct, 230 dominated -> 3355 columns
+[14:57:07]   N<=9 K>=298 alt 0: 9 craft 298 covered sum J_i 11.7247 (Optimization terminated , 8 s); misses []; depths [42, 41, 41, 38, 31, 30, 30, 24, 21]
+[14:57:07]   N<=9 K>=298 alt 1: 9 craft 298 covered sum J_i 11.7295 (Optimization terminated , 12 s); misses []; depths [42, 41, 41, 38, 31, 30, 30, 24, 21]
+[14:57:07]   N<=9 K>=298 alt 2: 9 craft 298 covered sum J_i 11.7306 (Optimization terminated , 24 s); misses []; depths [42, 41, 40, 38, 31, 31, 30, 24, 21]
+[14:57:07] ranking by est closed: N9K298a0 11.7247->None | N9K298a1 11.7295->None | N9K298a2 11.7306->None (24 s)

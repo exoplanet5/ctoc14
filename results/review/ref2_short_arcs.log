@@ -1,0 +1,4 @@
+spacecraft: 1, m0 = [1500.0]
+covered 0, missed 300, J = 302.0561  (sum J_i = 2.0561)
+max errors: pos 1.3396e-03 km, vel 1.6992e-06 m/s, mass 6.5204e-08 kg, max |T| 0.46192 N
+RESULT: PASS

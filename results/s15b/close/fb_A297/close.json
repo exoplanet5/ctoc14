@@ -1,0 +1,23 @@
+{
+ "craft": 9,
+ "covered": 297,
+ "sumJi": 12.1063,
+ "sumJi0": 12.1063,
+ "misses": [
+  33
+ ],
+ "placed": [],
+ "columns": 0,
+ "files": {
+  "01": "results/s15b/close/test_A296/fleet/route_01.npz",
+  "02": "results/s15b/close/test_A296/fleet/route_02.npz",
+  "03": "results/s15b/close/test_A296/fleet/route_03.npz",
+  "04": "results/s15b/close/test_A296/fleet/route_04.npz",
+  "05": "results/s15b/close/test_A296/fleet/route_05.npz",
+  "06": "results/s15b/close/test_A296/fleet/route_06.npz",
+  "07": "results/s15b/close/test_A296/fleet/route_07.npz",
+  "08": "results/s15b/close/test_A296/fleet/route_08.npz",
+  "09": "results/s15b/close/test_A296/fleet/route_09.npz"
+ },
+ "wall_s": 49
+}

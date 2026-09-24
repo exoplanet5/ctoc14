@@ -1,0 +1,5 @@
+[13:40:05] graph 3314 encounters, 918190 edges; 10369 launch arcs; mode greedy
+[13:40:14] gen   1: best J 90.891 (12 craft, 225 covered, sum J_i 15.891), median 101.37, overall 90.891  (9 s)
+[13:40:22] gen   2: best J 94.946 (12 craft, 221 covered, sum J_i 15.946), median 104.34, overall 90.891  (16 s)
+[13:40:30] gen   3: best J 90.899 (12 craft, 225 covered, sum J_i 15.899), median 101.45, overall 90.891  (25 s)
+[13:40:30] done: best J 90.891, 12 craft, 225 covered -> results/s9/F_greedy/best.json

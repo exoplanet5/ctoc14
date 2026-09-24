@@ -1,0 +1,17 @@
+[00:43:37] twintail EF296a_s2: pool 16, S [33, 138, 280], p 0.06, steps 1, beam 20/60, nproc 1; resume at step 1
+[00:43:49]   roots: 196 launch legs -> 47 kept; pool 16, S [33, 138, 280] p 0.06
+[00:45:30]   depth  2: 47 parents -> 133 kids (86 uniq) -> tried 37, settled 20, kept 19; t_end 500-985 d, tank 605-667, max S 1 (101 s, gen 27 s)
+[00:47:34]   depth  3: 19 parents -> 53 kids (53 uniq) -> tried 32, settled 20, kept 18; t_end 959-1576 d, tank 621-766, max S 2 (124 s, gen 16 s)
+[00:49:35]   depth  4: 18 parents -> 70 kids (70 uniq) -> tried 26, settled 20, kept 20; t_end 1227-2065 d, tank 627-773, max S 2 (122 s, gen 19 s)
+[00:51:49]   depth  5: 20 parents -> 52 kids (52 uniq) -> tried 25, settled 20, kept 20; t_end 1516-2585 d, tank 630-723, max S 2 (133 s, gen 25 s)
+[00:54:46]   depth  6: 20 parents -> 43 kids (43 uniq) -> tried 28, settled 20, kept 20; t_end 1757-2858 d, tank 659-781, max S 2 (178 s, gen 26 s)
+[00:57:02]   depth  7: 20 parents -> 45 kids (45 uniq) -> tried 22, settled 20, kept 20; t_end 2198-3165 d, tank 679-838, max S 2 (136 s, gen 27 s)
+[00:59:25]   depth  8: 20 parents -> 34 kids (34 uniq) -> tried 23, settled 20, kept 20; t_end 2586-3341 d, tank 690-799, max S 2 (143 s, gen 28 s)
+[01:02:27]   depth  9: 20 parents -> 20 kids (20 uniq) -> tried 20, settled 17, kept 13; t_end 2745-3742 d, tank 736-950, max S 3 (182 s, gen 27 s)
+[01:05:36]   depth 10: 13 parents -> 21 kids (21 uniq) -> tried 21, settled 20, kept 18; t_end 3555-4232 d, tank 749-1007, max S 3 (189 s, gen 20 s)
+[01:09:34]   depth 11: 18 parents -> 25 kids (25 uniq) -> tried 22, settled 20, kept 19; t_end 3975-4633 d, tank 774-1033, max S 3 (238 s, gen 25 s)
+[01:12:42]   depth 12: 19 parents -> 15 kids (13 uniq) -> tried 13, settled 11, kept 11; t_end 4518-5122 d, tank 794-999, max S 3 (188 s, gen 25 s)
+[01:12:53]   depth 13: 11 parents -> 0 kids (0 uniq) -> tried 0, settled 0, kept 0 (12 s, gen 11 s)
+[01:12:53]   step 1: pool 16 deepest 12 ({'kind': 'no_children', 'depth': 12}); TOOK 12 fb @ 794 kg iso [138]; chain covered 12/16 (1744 s)
+[01:12:53] twintail EF296a_s2 done: 8 columns, covered 12/16 (1756 s)
+{"covered": 12, "cols": 8, "wall_s": 1756}

@@ -1,0 +1,18 @@
+1159 files -> 574 distinct routes in 0 s; union 298/298
+  pool   100 rep0: J 29.371  LP 25.896  craft 20  covered 296  sumJ 25.371  (5 s)
+  pool   100 rep1: J 24.857  LP 23.016  craft 18  covered 298  sumJ 22.857  (3 s)
+  pool   100 rep2: J 20.421  LP 20.421  craft 14  covered 297  sumJ 17.421  (0 s)
+  pool   200 rep0: J 14.872  LP 14.872  craft 10  covered 298  sumJ 12.872  (0 s)
+  pool   200 rep1: J 20.315  LP 18.574  craft 15  covered 298  sumJ 18.315  (6 s)
+  pool   200 rep2: J 15.685  LP 15.685  craft 10  covered 297  sumJ 12.685  (0 s)
+  pool   300 rep0: J 15.387  LP 15.387  craft 11  covered 298  sumJ 13.387  (0 s)
+  pool   300 rep1: J 16.773  LP 15.983  craft 12  covered 298  sumJ 14.773  (5 s)
+  pool   300 rep2: J 15.602  LP 15.602  craft 11  covered 298  sumJ 13.602  (0 s)
+  pool   400 rep0: J 14.759  LP 14.759  craft 10  covered 298  sumJ 12.759  (0 s)
+  pool   400 rep1: J 14.540  LP 14.540  craft 10  covered 298  sumJ 12.540  (0 s)
+  pool   400 rep2: J 14.671  LP 14.671  craft 10  covered 298  sumJ 12.671  (0 s)
+  pool   500 rep0: J 14.451  LP 14.451  craft 10  covered 298  sumJ 12.451  (0 s)
+  pool   500 rep1: J 14.375  LP 14.375  craft 10  covered 298  sumJ 12.375  (0 s)
+  pool   500 rep2: J 14.501  LP 14.501  craft 10  covered 298  sumJ 12.501  (0 s)
+  pool   574 rep0: J 14.355  LP 14.355  craft 10  covered 298  sumJ 12.355  (0 s)
+-> results/s11/curve_base.json

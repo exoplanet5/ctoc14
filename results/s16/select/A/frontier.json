@@ -1,0 +1,2522 @@
+{
+ "N9K298": {
+  "N": 9,
+  "K": 298,
+  "i": 0,
+  "covered": 298,
+  "sumJi": 11.83267,
+  "misses": [],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_520abde40c0a1cf1.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   39,
+   31,
+   30,
+   29,
+   23,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   922.44,
+   920.86,
+   1030.09,
+   950.98,
+   922.23,
+   882.13
+  ],
+  "sec": 3,
+  "est": 11.83267,
+  "plan": []
+ },
+ "N9K298a1": {
+  "N": 9,
+  "K": 298,
+  "i": 1,
+  "covered": 298,
+  "sumJi": 11.83829,
+  "misses": [],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_969cff36028e9d8b.npz",
+   "results/s16/honest/route_7bf95624d2fdc0cc.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_520abde40c0a1cf1.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   42,
+   38,
+   31,
+   30,
+   29,
+   23,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   925.44,
+   912.27,
+   920.86,
+   1030.09,
+   950.98,
+   922.23,
+   882.13
+  ],
+  "sec": 6,
+  "est": 11.83829,
+  "plan": []
+ },
+ "N9K298a2": {
+  "N": 9,
+  "K": 298,
+  "i": 2,
+  "covered": 298,
+  "sumJi": 11.84884,
+  "misses": [],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_969cff36028e9d8b.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_520abde40c0a1cf1.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   42,
+   39,
+   31,
+   30,
+   29,
+   23,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   925.44,
+   922.44,
+   920.86,
+   1030.09,
+   950.98,
+   922.23,
+   882.13
+  ],
+  "sec": 10,
+  "est": 11.84884,
+  "plan": []
+ },
+ "N9K298a3": {
+  "N": 9,
+  "K": 298,
+  "i": 3,
+  "covered": 298,
+  "sumJi": 11.85012,
+  "misses": [],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_070b723f0dc71ff3.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7bf95624d2fdc0cc.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_520abde40c0a1cf1.npz",
+   "results/s16/honest/route_43826b01c72bc053.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   43,
+   38,
+   31,
+   30,
+   29,
+   23,
+   17
+  ],
+  "tanks": [
+   1048.67,
+   942.32,
+   969.59,
+   912.27,
+   920.86,
+   1030.09,
+   950.98,
+   922.23,
+   876.14
+  ],
+  "sec": 15,
+  "est": 11.85012,
+  "plan": []
+ },
+ "N9K297": {
+  "N": 9,
+  "K": 297,
+  "i": 0,
+  "covered": 297,
+  "sumJi": 11.79343,
+  "misses": [
+   148
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_c38039ce22d486f1.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   39,
+   31,
+   30,
+   29,
+   22,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   922.44,
+   920.86,
+   1030.09,
+   950.98,
+   883.89,
+   882.13
+  ],
+  "sec": 10,
+  "est": 11.88016,
+  "plan": [
+   [
+    148,
+    "08",
+    0.085,
+    0.0867
+   ]
+  ]
+ },
+ "N9K297a1": {
+  "N": 9,
+  "K": 297,
+  "i": 1,
+  "covered": 297,
+  "sumJi": 11.81852,
+  "misses": [
+   258
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_520abde40c0a1cf1.npz",
+   "results/s16/honest/route_5e16e33deb6339e3.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   39,
+   31,
+   30,
+   29,
+   23,
+   17
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   922.44,
+   920.86,
+   1030.09,
+   950.98,
+   922.23,
+   867.9
+  ],
+  "sec": 19,
+  "est": 11.83127,
+  "plan": [
+   [
+    258,
+    "09",
+    0.022,
+    0.0127
+   ]
+  ]
+ },
+ "N9K297a2": {
+  "N": 9,
+  "K": 297,
+  "i": 2,
+  "covered": 297,
+  "sumJi": 11.82055,
+  "misses": [
+   163
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_22bae39080e1c2c7.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_520abde40c0a1cf1.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   38,
+   31,
+   30,
+   29,
+   23,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   910.75,
+   920.86,
+   1030.09,
+   950.98,
+   922.23,
+   882.13
+  ],
+  "sec": 26,
+  "est": 11.8317,
+  "plan": [
+   [
+    163,
+    "04",
+    0.091,
+    0.0112
+   ]
+  ]
+ },
+ "N9K297a3": {
+  "N": 9,
+  "K": 297,
+  "i": 3,
+  "covered": 297,
+  "sumJi": 11.82123,
+  "misses": [
+   172
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_00e49d0dcc1582f7.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   39,
+   31,
+   30,
+   29,
+   22,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   922.44,
+   920.86,
+   1030.09,
+   950.98,
+   911.2,
+   882.13
+  ],
+  "sec": 37,
+  "est": 11.8715,
+  "plan": [
+   [
+    172,
+    "08",
+    0.105,
+    0.0503
+   ]
+  ]
+ },
+ "N9K296": {
+  "N": 9,
+  "K": 296,
+  "i": 0,
+  "covered": 296,
+  "sumJi": 11.76028,
+  "misses": [
+   148,
+   172
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_0050b0eaffa66585.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   39,
+   31,
+   30,
+   29,
+   21,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   922.44,
+   920.86,
+   1030.09,
+   950.98,
+   850.3,
+   882.13
+  ],
+  "sec": 24,
+  "est": 11.9423,
+  "plan": [
+   [
+    148,
+    "07",
+    0.179,
+    0.1428
+   ],
+   [
+    172,
+    "08",
+    0.084,
+    0.0392
+   ]
+  ]
+ },
+ "N9K296a1": {
+  "N": 9,
+  "K": 296,
+  "i": 1,
+  "covered": 296,
+  "sumJi": 11.77927,
+  "misses": [
+   148,
+   258
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_c38039ce22d486f1.npz",
+   "results/s16/honest/route_5e16e33deb6339e3.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   39,
+   31,
+   30,
+   29,
+   22,
+   17
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   922.44,
+   920.86,
+   1030.09,
+   950.98,
+   883.89,
+   867.9
+  ],
+  "sec": 42,
+  "est": 11.87874,
+  "plan": [
+   [
+    148,
+    "08",
+    0.085,
+    0.0867
+   ],
+   [
+    258,
+    "09",
+    0.022,
+    0.0127
+   ]
+  ]
+ },
+ "N9K296a2": {
+  "N": 9,
+  "K": 296,
+  "i": 2,
+  "covered": 296,
+  "sumJi": 11.7813,
+  "misses": [
+   148,
+   163
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_22bae39080e1c2c7.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_c38039ce22d486f1.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   38,
+   31,
+   30,
+   29,
+   22,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   910.75,
+   920.86,
+   1030.09,
+   950.98,
+   883.89,
+   882.13
+  ],
+  "sec": 59,
+  "est": 11.87918,
+  "plan": [
+   [
+    148,
+    "08",
+    0.085,
+    0.0867
+   ],
+   [
+    163,
+    "04",
+    0.091,
+    0.0112
+   ]
+  ]
+ },
+ "N9K296a3": {
+  "N": 9,
+  "K": 296,
+  "i": 3,
+  "covered": 296,
+  "sumJi": 11.78288,
+  "misses": [
+   148,
+   299
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_7bf95624d2fdc0cc.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_c38039ce22d486f1.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   38,
+   31,
+   30,
+   29,
+   22,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   912.27,
+   920.86,
+   1030.09,
+   950.98,
+   883.89,
+   882.13
+  ],
+  "sec": 80,
+  "est": 11.87861,
+  "plan": [
+   [
+    148,
+    "08",
+    0.085,
+    0.0867
+   ],
+   [
+    299,
+    "04",
+    0.011,
+    0.009
+   ]
+  ]
+ },
+ "N8K282": {
+  "N": 8,
+  "K": 282,
+  "i": 0,
+  "covered": 282,
+  "sumJi": 10.6373,
+  "misses": [
+   6,
+   17,
+   36,
+   75,
+   108,
+   118,
+   180,
+   184,
+   212,
+   216,
+   219,
+   220,
+   243,
+   247,
+   258,
+   288
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_44d46bb02adbab05.npz",
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_070b723f0dc71ff3.npz",
+   "results/s16/honest/route_7bf95624d2fdc0cc.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_520abde40c0a1cf1.npz"
+  ],
+  "depths": [
+   44,
+   44,
+   43,
+   38,
+   31,
+   30,
+   29,
+   23
+  ],
+  "tanks": [
+   990.76,
+   1048.67,
+   942.32,
+   912.27,
+   920.86,
+   1030.09,
+   950.98,
+   922.23
+  ],
+  "sec": 46,
+  "est": null,
+  "plan": [
+   [
+    6,
+    "05",
+    0.049,
+    0.0308
+   ],
+   [
+    17,
+    "01",
+    0.111,
+    0.4626
+   ],
+   [
+    36,
+    null,
+    null,
+    null
+   ],
+   [
+    75,
+    "08",
+    0.132,
+    0.1127
+   ],
+   [
+    108,
+    null,
+    null,
+    null
+   ],
+   [
+    118,
+    "03",
+    0.066,
+    0.2538
+   ],
+   [
+    180,
+    "06",
+    0.022,
+    0.0979
+   ],
+   [
+    184,
+    null,
+    null,
+    null
+   ],
+   [
+    212,
+    null,
+    null,
+    null
+   ],
+   [
+    216,
+    null,
+    null,
+    null
+   ],
+   [
+    219,
+    null,
+    null,
+    null
+   ],
+   [
+    220,
+    "07",
+    0.15,
+    0.2446
+   ],
+   [
+    243,
+    null,
+    null,
+    null
+   ],
+   [
+    247,
+    "02",
+    0.163,
+    0.6126
+   ],
+   [
+    258,
+    null,
+    null,
+    null
+   ],
+   [
+    288,
+    null,
+    null,
+    null
+   ]
+  ]
+ },
+ "N8K282a1": {
+  "N": 8,
+  "K": 282,
+  "i": 1,
+  "covered": 282,
+  "sumJi": 10.63902,
+  "misses": [
+   6,
+   17,
+   36,
+   75,
+   108,
+   118,
+   148,
+   180,
+   184,
+   212,
+   216,
+   219,
+   220,
+   243,
+   247,
+   288
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_bb728ee395551eda.npz",
+   "results/s16/honest/route_070b723f0dc71ff3.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7bf95624d2fdc0cc.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_db1f9a44fad81cf1.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_c38039ce22d486f1.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   43,
+   38,
+   31,
+   31,
+   30,
+   22
+  ],
+  "tanks": [
+   1052.7,
+   942.32,
+   969.59,
+   912.27,
+   920.86,
+   1005.12,
+   1030.09,
+   883.89
+  ],
+  "sec": 57,
+  "est": null,
+  "plan": [
+   [
+    6,
+    "05",
+    0.049,
+    0.0308
+   ],
+   [
+    17,
+    "03",
+    0.111,
+    0.9777
+   ],
+   [
+    36,
+    null,
+    null,
+    null
+   ],
+   [
+    75,
+    "08",
+    0.162,
+    0.0597
+   ],
+   [
+    108,
+    null,
+    null,
+    null
+   ],
+   [
+    118,
+    "02",
+    0.066,
+    0.2538
+   ],
+   [
+    148,
+    "06",
+    0.179,
+    0.1816
+   ],
+   [
+    180,
+    "07",
+    0.022,
+    0.0979
+   ],
+   [
+    184,
+    null,
+    null,
+    null
+   ],
+   [
+    212,
+    null,
+    null,
+    null
+   ],
+   [
+    216,
+    null,
+    null,
+    null
+   ],
+   [
+    219,
+    null,
+    null,
+    null
+   ],
+   [
+    220,
+    null,
+    null,
+    null
+   ],
+   [
+    243,
+    null,
+    null,
+    null
+   ],
+   [
+    247,
+    "01",
+    0.176,
+    0.8599
+   ],
+   [
+    288,
+    null,
+    null,
+    null
+   ]
+  ]
+ },
+ "N8K282a2": {
+  "N": 8,
+  "K": 282,
+  "i": 2,
+  "covered": 282,
+  "sumJi": 10.65484,
+  "misses": [
+   6,
+   17,
+   36,
+   75,
+   108,
+   118,
+   180,
+   184,
+   212,
+   216,
+   219,
+   220,
+   243,
+   247,
+   265,
+   288
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_bb728ee395551eda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_db1f9a44fad81cf1.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_520abde40c0a1cf1.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   39,
+   31,
+   31,
+   30,
+   23
+  ],
+  "tanks": [
+   1052.7,
+   969.59,
+   909.87,
+   922.44,
+   920.86,
+   1005.12,
+   1030.09,
+   922.23
+  ],
+  "sec": 94,
+  "est": null,
+  "plan": [
+   [
+    6,
+    "05",
+    0.049,
+    0.0308
+   ],
+   [
+    17,
+    "02",
+    0.111,
+    0.9777
+   ],
+   [
+    36,
+    null,
+    null,
+    null
+   ],
+   [
+    75,
+    "08",
+    0.132,
+    0.1127
+   ],
+   [
+    108,
+    null,
+    null,
+    null
+   ],
+   [
+    118,
+    "03",
+    0.066,
+    0.1947
+   ],
+   [
+    180,
+    "07",
+    0.022,
+    0.0979
+   ],
+   [
+    184,
+    null,
+    null,
+    null
+   ],
+   [
+    212,
+    null,
+    null,
+    null
+   ],
+   [
+    216,
+    null,
+    null,
+    null
+   ],
+   [
+    219,
+    null,
+    null,
+    null
+   ],
+   [
+    220,
+    "06",
+    0.152,
+    0.2748
+   ],
+   [
+    243,
+    null,
+    null,
+    null
+   ],
+   [
+    247,
+    "01",
+    0.176,
+    0.8599
+   ],
+   [
+    265,
+    null,
+    null,
+    null
+   ],
+   [
+    288,
+    null,
+    null,
+    null
+   ]
+  ]
+ },
+ "N8K282a3": {
+  "N": 8,
+  "K": 282,
+  "i": 3,
+  "covered": 282,
+  "sumJi": 10.66385,
+  "misses": [
+   6,
+   17,
+   36,
+   75,
+   108,
+   118,
+   142,
+   180,
+   184,
+   212,
+   216,
+   219,
+   220,
+   243,
+   247,
+   288
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_070b723f0dc71ff3.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_13328e159defb017.npz",
+   "results/s16/honest/route_7bf95624d2fdc0cc.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_db1f9a44fad81cf1.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_520abde40c0a1cf1.npz"
+  ],
+  "depths": [
+   43,
+   43,
+   43,
+   38,
+   31,
+   31,
+   30,
+   23
+  ],
+  "tanks": [
+   942.32,
+   969.59,
+   1040.38,
+   912.27,
+   920.86,
+   1005.12,
+   1030.09,
+   922.23
+  ],
+  "sec": 103,
+  "est": null,
+  "plan": [
+   [
+    6,
+    "05",
+    0.049,
+    0.0308
+   ],
+   [
+    17,
+    "02",
+    0.111,
+    0.9777
+   ],
+   [
+    36,
+    null,
+    null,
+    null
+   ],
+   [
+    75,
+    "08",
+    0.132,
+    0.1127
+   ],
+   [
+    108,
+    null,
+    null,
+    null
+   ],
+   [
+    118,
+    "01",
+    0.066,
+    0.2538
+   ],
+   [
+    142,
+    "03",
+    0.033,
+    0.0233
+   ],
+   [
+    180,
+    "07",
+    0.022,
+    0.0979
+   ],
+   [
+    184,
+    null,
+    null,
+    null
+   ],
+   [
+    212,
+    null,
+    null,
+    null
+   ],
+   [
+    216,
+    null,
+    null,
+    null
+   ],
+   [
+    219,
+    null,
+    null,
+    null
+   ],
+   [
+    220,
+    "06",
+    0.152,
+    0.2748
+   ],
+   [
+    243,
+    null,
+    null,
+    null
+   ],
+   [
+    247,
+    null,
+    null,
+    null
+   ],
+   [
+    288,
+    null,
+    null,
+    null
+   ]
+  ]
+ },
+ "N9K295": {
+  "N": 9,
+  "K": 295,
+  "i": 0,
+  "covered": 295,
+  "sumJi": 11.74612,
+  "misses": [
+   148,
+   172,
+   258
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_0050b0eaffa66585.npz",
+   "results/s16/honest/route_5e16e33deb6339e3.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   39,
+   31,
+   30,
+   29,
+   21,
+   17
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   922.44,
+   920.86,
+   1030.09,
+   950.98,
+   850.3,
+   867.9
+  ],
+  "sec": 28,
+  "est": 11.94088,
+  "plan": [
+   [
+    148,
+    "07",
+    0.179,
+    0.1428
+   ],
+   [
+    172,
+    "08",
+    0.084,
+    0.0392
+   ],
+   [
+    258,
+    "09",
+    0.022,
+    0.0127
+   ]
+  ]
+ },
+ "N9K295a1": {
+  "N": 9,
+  "K": 295,
+  "i": 1,
+  "covered": 295,
+  "sumJi": 11.74815,
+  "misses": [
+   148,
+   163,
+   172
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_22bae39080e1c2c7.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_0050b0eaffa66585.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   38,
+   31,
+   30,
+   29,
+   21,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   910.75,
+   920.86,
+   1030.09,
+   950.98,
+   850.3,
+   882.13
+  ],
+  "sec": 62,
+  "est": 11.94132,
+  "plan": [
+   [
+    148,
+    "07",
+    0.179,
+    0.1428
+   ],
+   [
+    163,
+    "04",
+    0.091,
+    0.0112
+   ],
+   [
+    172,
+    "08",
+    0.084,
+    0.0392
+   ]
+  ]
+ },
+ "N9K295a2": {
+  "N": 9,
+  "K": 295,
+  "i": 2,
+  "covered": 295,
+  "sumJi": 11.74973,
+  "misses": [
+   148,
+   172,
+   299
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_7bf95624d2fdc0cc.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_0050b0eaffa66585.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   38,
+   31,
+   30,
+   29,
+   21,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   912.27,
+   920.86,
+   1030.09,
+   950.98,
+   850.3,
+   882.13
+  ],
+  "sec": 96,
+  "est": 11.94075,
+  "plan": [
+   [
+    148,
+    "07",
+    0.179,
+    0.1428
+   ],
+   [
+    172,
+    "08",
+    0.084,
+    0.0392
+   ],
+   [
+    299,
+    "04",
+    0.011,
+    0.009
+   ]
+  ]
+ },
+ "N9K295a3": {
+  "N": 9,
+  "K": 295,
+  "i": 3,
+  "covered": 295,
+  "sumJi": 11.7506,
+  "misses": [
+   52,
+   148,
+   172
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_13328e159defb017.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_0050b0eaffa66585.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   43,
+   43,
+   41,
+   39,
+   31,
+   30,
+   29,
+   21,
+   18
+  ],
+  "tanks": [
+   969.59,
+   1040.38,
+   909.87,
+   922.44,
+   920.86,
+   1030.09,
+   950.98,
+   850.3,
+   882.13
+  ],
+  "sec": 127,
+  "est": null,
+  "plan": [
+   [
+    52,
+    "07",
+    0.05,
+    0.0046
+   ],
+   [
+    148,
+    null,
+    null,
+    null
+   ],
+   [
+    172,
+    "08",
+    0.084,
+    0.0392
+   ]
+  ]
+ },
+ "N9K294": {
+  "N": 9,
+  "K": 294,
+  "i": 0,
+  "covered": 294,
+  "sumJi": 11.70989,
+  "misses": [
+   22,
+   148,
+   150,
+   172
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_42ce6b7b5ac1cd8c.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   39,
+   31,
+   30,
+   29,
+   19,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   922.44,
+   920.86,
+   1030.09,
+   950.98,
+   796.83,
+   882.13
+  ],
+  "sec": 40,
+  "est": 13.04292,
+  "plan": [
+   [
+    22,
+    "08",
+    0.136,
+    0.0328
+   ],
+   [
+    148,
+    "07",
+    0.179,
+    0.1428
+   ],
+   [
+    150,
+    "02",
+    0.042,
+    0.4938
+   ],
+   [
+    172,
+    "06",
+    0.058,
+    0.6636
+   ]
+  ]
+ },
+ "N9K294a1": {
+  "N": 9,
+  "K": 294,
+  "i": 1,
+  "covered": 294,
+  "sumJi": 11.7289,
+  "misses": [
+   148,
+   150,
+   172,
+   204
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_6755dccb566c1ccb.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   39,
+   31,
+   30,
+   29,
+   19,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   922.44,
+   920.86,
+   1030.09,
+   950.98,
+   817.36,
+   882.13
+  ],
+  "sec": 81,
+  "est": 13.22124,
+  "plan": [
+   [
+    148,
+    "08",
+    0.106,
+    0.0666
+   ],
+   [
+    150,
+    "02",
+    0.042,
+    0.4938
+   ],
+   [
+    172,
+    "06",
+    0.058,
+    0.6636
+   ],
+   [
+    204,
+    "03",
+    0.135,
+    0.2684
+   ]
+  ]
+ },
+ "N9K294a2": {
+  "N": 9,
+  "K": 294,
+  "i": 2,
+  "covered": 294,
+  "sumJi": 11.73399,
+  "misses": [
+   148,
+   163,
+   172,
+   258
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_22bae39080e1c2c7.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_0050b0eaffa66585.npz",
+   "results/s16/honest/route_5e16e33deb6339e3.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   38,
+   31,
+   30,
+   29,
+   21,
+   17
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   910.75,
+   920.86,
+   1030.09,
+   950.98,
+   850.3,
+   867.9
+  ],
+  "sec": 121,
+  "est": 11.9399,
+  "plan": [
+   [
+    148,
+    "07",
+    0.179,
+    0.1428
+   ],
+   [
+    163,
+    "04",
+    0.091,
+    0.0112
+   ],
+   [
+    172,
+    "08",
+    0.084,
+    0.0392
+   ],
+   [
+    258,
+    "09",
+    0.022,
+    0.0127
+   ]
+  ]
+ },
+ "N9K294a3": {
+  "N": 9,
+  "K": 294,
+  "i": 3,
+  "covered": 294,
+  "sumJi": 11.73521,
+  "misses": [
+   138,
+   148,
+   204,
+   223
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_9885594690278797.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   39,
+   31,
+   30,
+   29,
+   19,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   922.44,
+   920.86,
+   1030.09,
+   950.98,
+   824.08,
+   882.13
+  ],
+  "sec": 161,
+  "est": 12.42767,
+  "plan": [
+   [
+    138,
+    "08",
+    0.107,
+    0.1521
+   ],
+   [
+    148,
+    "07",
+    0.179,
+    0.1428
+   ],
+   [
+    204,
+    "03",
+    0.135,
+    0.2684
+   ],
+   [
+    223,
+    "05",
+    0.096,
+    0.1292
+   ]
+  ]
+ },
+ "N9K293": {
+  "N": 9,
+  "K": 293,
+  "i": 0,
+  "covered": 293,
+  "sumJi": 11.69574,
+  "misses": [
+   22,
+   148,
+   150,
+   172,
+   258
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_42ce6b7b5ac1cd8c.npz",
+   "results/s16/honest/route_5e16e33deb6339e3.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   39,
+   31,
+   30,
+   29,
+   19,
+   17
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   922.44,
+   920.86,
+   1030.09,
+   950.98,
+   796.83,
+   867.9
+  ],
+  "sec": 82,
+  "est": 13.04152,
+  "plan": [
+   [
+    22,
+    "08",
+    0.136,
+    0.0328
+   ],
+   [
+    148,
+    "07",
+    0.179,
+    0.1428
+   ],
+   [
+    150,
+    "02",
+    0.042,
+    0.4938
+   ],
+   [
+    172,
+    "06",
+    0.058,
+    0.6636
+   ],
+   [
+    258,
+    "09",
+    0.022,
+    0.0127
+   ]
+  ]
+ },
+ "N9K293a1": {
+  "N": 9,
+  "K": 293,
+  "i": 1,
+  "covered": 293,
+  "sumJi": 11.69777,
+  "misses": [
+   22,
+   148,
+   150,
+   163,
+   172
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_22bae39080e1c2c7.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_42ce6b7b5ac1cd8c.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   38,
+   31,
+   30,
+   29,
+   19,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   910.75,
+   920.86,
+   1030.09,
+   950.98,
+   796.83,
+   882.13
+  ],
+  "sec": 138,
+  "est": 13.04195,
+  "plan": [
+   [
+    22,
+    "08",
+    0.136,
+    0.0328
+   ],
+   [
+    148,
+    "07",
+    0.179,
+    0.1428
+   ],
+   [
+    150,
+    "02",
+    0.042,
+    0.4938
+   ],
+   [
+    163,
+    "04",
+    0.091,
+    0.0112
+   ],
+   [
+    172,
+    "06",
+    0.058,
+    0.6636
+   ]
+  ]
+ },
+ "N9K293a2": {
+  "N": 9,
+  "K": 293,
+  "i": 2,
+  "covered": 293,
+  "sumJi": 11.69934,
+  "misses": [
+   22,
+   148,
+   150,
+   172,
+   299
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_7bf95624d2fdc0cc.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_42ce6b7b5ac1cd8c.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   38,
+   31,
+   30,
+   29,
+   19,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   912.27,
+   920.86,
+   1030.09,
+   950.98,
+   796.83,
+   882.13
+  ],
+  "sec": 190,
+  "est": 13.04138,
+  "plan": [
+   [
+    22,
+    "08",
+    0.136,
+    0.0328
+   ],
+   [
+    148,
+    "07",
+    0.179,
+    0.1428
+   ],
+   [
+    150,
+    "02",
+    0.042,
+    0.4938
+   ],
+   [
+    172,
+    "06",
+    0.058,
+    0.6636
+   ],
+   [
+    299,
+    "04",
+    0.011,
+    0.009
+   ]
+  ]
+ },
+ "N9K293a3": {
+  "N": 9,
+  "K": 293,
+  "i": 3,
+  "covered": 293,
+  "sumJi": 11.70021,
+  "misses": [
+   22,
+   52,
+   148,
+   150,
+   172
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_13328e159defb017.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_42ce6b7b5ac1cd8c.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   43,
+   43,
+   41,
+   39,
+   31,
+   30,
+   29,
+   19,
+   18
+  ],
+  "tanks": [
+   969.59,
+   1040.38,
+   909.87,
+   922.44,
+   920.86,
+   1030.09,
+   950.98,
+   796.83,
+   882.13
+  ],
+  "sec": 244,
+  "est": null,
+  "plan": [
+   [
+    22,
+    "08",
+    0.136,
+    0.0328
+   ],
+   [
+    52,
+    "07",
+    0.05,
+    0.0046
+   ],
+   [
+    148,
+    null,
+    null,
+    null
+   ],
+   [
+    150,
+    "01",
+    0.042,
+    0.4938
+   ],
+   [
+    172,
+    "06",
+    0.058,
+    0.6636
+   ]
+  ]
+ },
+ "N9K292": {
+  "N": 9,
+  "K": 292,
+  "i": 0,
+  "covered": 292,
+  "sumJi": 11.68361,
+  "misses": [
+   22,
+   148,
+   150,
+   163,
+   172,
+   258
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_22bae39080e1c2c7.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_42ce6b7b5ac1cd8c.npz",
+   "results/s16/honest/route_5e16e33deb6339e3.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   38,
+   31,
+   30,
+   29,
+   19,
+   17
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   910.75,
+   920.86,
+   1030.09,
+   950.98,
+   796.83,
+   867.9
+  ],
+  "sec": 98,
+  "est": 13.04054,
+  "plan": [
+   [
+    22,
+    "08",
+    0.136,
+    0.0328
+   ],
+   [
+    148,
+    "07",
+    0.179,
+    0.1428
+   ],
+   [
+    150,
+    "02",
+    0.042,
+    0.4938
+   ],
+   [
+    163,
+    "04",
+    0.091,
+    0.0112
+   ],
+   [
+    172,
+    "06",
+    0.058,
+    0.6636
+   ],
+   [
+    258,
+    "09",
+    0.022,
+    0.0127
+   ]
+  ]
+ },
+ "N9K292a1": {
+  "N": 9,
+  "K": 292,
+  "i": 1,
+  "covered": 292,
+  "sumJi": 11.68417,
+  "misses": [
+   39,
+   119,
+   148,
+   172,
+   182,
+   246
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_318aa62f9c2f092f.npz",
+   "results/s16/honest/route_0050b0eaffa66585.npz",
+   "results/s16/honest/route_1a94b0f150731242.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   39,
+   31,
+   29,
+   26,
+   21,
+   18
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   922.44,
+   920.86,
+   950.98,
+   962.04,
+   850.3,
+   882.13
+  ],
+  "sec": 217,
+  "est": null,
+  "plan": [
+   [
+    39,
+    "07",
+    0.013,
+    0.0092
+   ],
+   [
+    119,
+    "05",
+    0.18,
+    0.1955
+   ],
+   [
+    148,
+    "06",
+    0.179,
+    0.1428
+   ],
+   [
+    172,
+    "08",
+    0.084,
+    0.0392
+   ],
+   [
+    182,
+    "03",
+    0.047,
+    0.0257
+   ],
+   [
+    246,
+    null,
+    null,
+    null
+   ]
+  ]
+ },
+ "N9K292a2": {
+  "N": 9,
+  "K": 292,
+  "i": 2,
+  "covered": 292,
+  "sumJi": 11.68518,
+  "misses": [
+   22,
+   148,
+   150,
+   172,
+   258,
+   299
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_4cb881606e808dda.npz",
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_7bf95624d2fdc0cc.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_42ce6b7b5ac1cd8c.npz",
+   "results/s16/honest/route_5e16e33deb6339e3.npz"
+  ],
+  "depths": [
+   44,
+   43,
+   41,
+   38,
+   31,
+   30,
+   29,
+   19,
+   17
+  ],
+  "tanks": [
+   1048.67,
+   969.59,
+   909.87,
+   912.27,
+   920.86,
+   1030.09,
+   950.98,
+   796.83,
+   867.9
+  ],
+  "sec": 319,
+  "est": 13.03996,
+  "plan": [
+   [
+    22,
+    "08",
+    0.136,
+    0.0328
+   ],
+   [
+    148,
+    "07",
+    0.179,
+    0.1428
+   ],
+   [
+    150,
+    "02",
+    0.042,
+    0.4938
+   ],
+   [
+    172,
+    "06",
+    0.058,
+    0.6636
+   ],
+   [
+    258,
+    "09",
+    0.022,
+    0.0127
+   ],
+   [
+    299,
+    "04",
+    0.011,
+    0.009
+   ]
+  ]
+ },
+ "N9K292a3": {
+  "N": 9,
+  "K": 292,
+  "i": 3,
+  "covered": 292,
+  "sumJi": 11.68605,
+  "misses": [
+   22,
+   52,
+   148,
+   150,
+   172,
+   258
+  ],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/honest/route_a5305159d6d369e1.npz",
+   "results/s16/honest/route_13328e159defb017.npz",
+   "results/s16/honest/route_7b7951b063bc8ba9.npz",
+   "results/s16/honest/route_c056d20ce99a8b78.npz",
+   "results/s16/honest/route_007b9f038060badd.npz",
+   "results/s16/honest/route_d2fa698f4c279994.npz",
+   "results/s16/honest/route_36aff9c6b16669d0.npz",
+   "results/s16/honest/route_42ce6b7b5ac1cd8c.npz",
+   "results/s16/honest/route_5e16e33deb6339e3.npz"
+  ],
+  "depths": [
+   43,
+   43,
+   41,
+   39,
+   31,
+   30,
+   29,
+   19,
+   17
+  ],
+  "tanks": [
+   969.59,
+   1040.38,
+   909.87,
+   922.44,
+   920.86,
+   1030.09,
+   950.98,
+   796.83,
+   867.9
+  ],
+  "sec": 748,
+  "est": null,
+  "plan": [
+   [
+    22,
+    "08",
+    0.136,
+    0.0328
+   ],
+   [
+    52,
+    "07",
+    0.05,
+    0.0046
+   ],
+   [
+    148,
+    null,
+    null,
+    null
+   ],
+   [
+    150,
+    "01",
+    0.042,
+    0.4938
+   ],
+   [
+    172,
+    "06",
+    0.058,
+    0.6636
+   ],
+   [
+    258,
+    "09",
+    0.022,
+    0.0127
+   ]
+  ]
+ }
+}

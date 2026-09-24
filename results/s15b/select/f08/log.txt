@@ -1,0 +1,8 @@
+[07:06:43] load: 3370 files (25 new; {'ok': 3370}), 2433 distinct, 56 dominated -> 2377 columns
+[07:07:24]   K>=298 force [] alt 0: 298 covered sum J_i 12.2121; misses []; depths [47, 46, 44, 35, 32, 30, 28, 22, 14]
+[07:08:09]   K>=297 force [] alt 0: 297 covered sum J_i 11.9413; misses [212]; depths [46, 46, 44, 35, 32, 30, 28, 22, 14]
+[07:08:21]   K>=297 force [] alt 1: 297 covered sum J_i 11.9501; misses [247]; depths [46, 46, 44, 35, 32, 30, 28, 22, 14]
+[07:08:35]   K>=297 force [] alt 2: 297 covered sum J_i 11.9514; misses [64]; depths [46, 46, 44, 35, 32, 31, 28, 21, 14]
+[07:08:48]   K>=296 force [] alt 0: 296 covered sum J_i 11.9005; misses [3, 212]; depths [46, 46, 44, 35, 32, 29, 28, 22, 14]
+[07:09:04]   K>=296 force [] alt 1: 296 covered sum J_i 11.9036; misses [64, 110]; depths [46, 46, 44, 35, 32, 30, 28, 21, 14]
+[07:09:18]   K>=296 force [] alt 2: 296 covered sum J_i 11.9082; misses [172, 212]; depths [46, 46, 44, 35, 32, 30, 28, 21, 14]

@@ -1,0 +1,4 @@
+reading B: results/CTOC14_Result_t10d.txt
+verdict INVALID N_cov 298 J 14.366055
+max pos 2.3635e+02 km at (9, 44941, 44942) | vel 5.1309e+00 m/s at (9, 44941, 44942) | mass 1.0485e-01 kg at (7, 32658, 32659) | max interp |T| 0.479113687 N
+errors 6098 ['[dynamics] SC 1: Line 97 -> Line 98: position error 1.021331 km > 1 km', '[dynamics] SC 1: Line 98 -> Line 99: position error 2.542675 km > 1 km', '[dynamics] SC 1: Line 99 -> Line 100: position error 31.562464 km > 1 km', '[mass] SC 1: Line 99 -> Line 100: mass error 0.016045 kg > 0.01 kg', '[dynamics] SC 1: Line 100 -> Line 101: position error 100.730621 km > 1 km'] warnings []

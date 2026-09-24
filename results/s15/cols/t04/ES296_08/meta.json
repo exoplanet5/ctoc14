@@ -1,0 +1,572 @@
+{
+ "job": {
+  "beam": 20,
+  "tries": 60,
+  "roots": 300,
+  "dv": 1.2,
+  "drmax": 0.15,
+  "mc": 60,
+  "k_epochs": 3,
+  "lin_cap": 3.0,
+  "res_max": 150000000.0,
+  "grid": "0,800,20",
+  "iters": 100,
+  "timeout": 240.0,
+  "p": 0.05,
+  "S": [
+   17,
+   138,
+   219
+  ],
+  "w_fuel": 1.5,
+  "w_t": null,
+  "cap": 1150.0,
+  "kappa": 90.0,
+  "w_iso": 1.0,
+  "steps": 1,
+  "nproc": 1,
+  "wall_budget": 28800.0,
+  "min_save": 16,
+  "save_cap": 1300.0,
+  "level_budget": null,
+  "tag": "ES296_08",
+  "out": "results/s15/cols/t04/ES296_08",
+  "fleet_pre": [
+   "results/s15/select/r02/N9/fleet/route_01.npz",
+   "results/s15/select/r02/N9/fleet/route_02.npz",
+   "results/s15/select/r02/N9/fleet/route_03.npz",
+   "results/s15/select/r02/N9/fleet/route_04.npz",
+   "results/s15/select/r02/N9/fleet/route_05.npz",
+   "results/s15/select/r02/N9/fleet/route_06.npz",
+   "results/s15/select/r02/N9/fleet/route_07.npz",
+   "results/s15/select/r02/N9/fleet/route_09.npz"
+  ],
+  "replaced": "results/s15/select/r02/N9/fleet/route_08.npz",
+  "src_fleet": "results/s15/select/r02/N9/fleet"
+ },
+ "kind": "twintail",
+ "pool_n": 24,
+ "chain": {
+  "steps": [
+   {
+    "k": 1,
+    "pool": 24,
+    "S": [
+     17,
+     138,
+     219
+    ],
+    "end": {
+     "kind": "no_children",
+     "depth": 19
+    },
+    "deepest": 19,
+    "settles": 326,
+    "settle_ok": 315,
+    "wall_s": 1708,
+    "ncols": 6,
+    "took": {
+     "f": "results/s15/cols/t04/ES296_08/route_ES296_08s1_18.npz",
+     "n": 18,
+     "tank": 1044.22,
+     "iso": [
+      138
+     ],
+     "s_taken": [
+      17,
+      138
+     ]
+    },
+    "covered": 18
+   }
+  ],
+  "covered": [
+   17,
+   20,
+   51,
+   75,
+   93,
+   95,
+   132,
+   138,
+   139,
+   173,
+   175,
+   213,
+   234,
+   246,
+   249,
+   280,
+   283,
+   288
+  ],
+  "cols": [
+   {
+    "f": "results/s15/cols/t04/ES296_08/route_ES296_08s1_19.npz",
+    "n": 19,
+    "n_real": 19,
+    "tank": 1197.11,
+    "miss": 1.7,
+    "kind": "score",
+    "targets": [
+     17,
+     20,
+     33,
+     51,
+     71,
+     75,
+     93,
+     95,
+     132,
+     138,
+     173,
+     175,
+     213,
+     234,
+     246,
+     249,
+     280,
+     283,
+     288
+    ],
+    "iso": [
+     138
+    ],
+    "s_taken": [
+     17,
+     138
+    ],
+    "t_end_d": 4557.5,
+    "t_launch_d": 0.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15/cols/t04/ES296_08/route_ES296_08s1_18.npz",
+    "n": 18,
+    "n_real": 18,
+    "tank": 1044.22,
+    "miss": 71.0,
+    "kind": "score",
+    "targets": [
+     17,
+     20,
+     51,
+     75,
+     93,
+     95,
+     132,
+     138,
+     139,
+     173,
+     175,
+     213,
+     234,
+     246,
+     249,
+     280,
+     283,
+     288
+    ],
+    "iso": [
+     138
+    ],
+    "s_taken": [
+     17,
+     138
+    ],
+    "t_end_d": 4234.0,
+    "t_launch_d": 0.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15/cols/t04/ES296_08/route_ES296_08s1_17.npz",
+    "n": 17,
+    "n_real": 17,
+    "tank": 972.99,
+    "miss": 76.8,
+    "kind": "score",
+    "targets": [
+     15,
+     17,
+     20,
+     33,
+     58,
+     75,
+     93,
+     95,
+     132,
+     173,
+     175,
+     234,
+     246,
+     249,
+     280,
+     283,
+     288
+    ],
+    "iso": [],
+    "s_taken": [
+     17
+    ],
+    "t_end_d": 3671.4,
+    "t_launch_d": 0.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15/cols/t04/ES296_08/route_ES296_08s1_17_1.npz",
+    "n": 17,
+    "n_real": 17,
+    "tank": 1002.37,
+    "miss": 0.9,
+    "kind": "s",
+    "targets": [
+     17,
+     20,
+     71,
+     75,
+     93,
+     95,
+     132,
+     138,
+     173,
+     175,
+     213,
+     234,
+     246,
+     249,
+     280,
+     283,
+     288
+    ],
+    "iso": [
+     138
+    ],
+    "s_taken": [
+     17,
+     138
+    ],
+    "t_end_d": 3860.3,
+    "t_launch_d": 0.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15/cols/t04/ES296_08/route_ES296_08s1_16.npz",
+    "n": 16,
+    "n_real": 16,
+    "tank": 920.98,
+    "miss": 59.3,
+    "kind": "score",
+    "targets": [
+     15,
+     17,
+     20,
+     58,
+     75,
+     93,
+     95,
+     132,
+     138,
+     175,
+     213,
+     234,
+     249,
+     280,
+     283,
+     288
+    ],
+    "iso": [
+     138
+    ],
+    "s_taken": [
+     17,
+     138
+    ],
+    "t_end_d": 3630.2,
+    "t_launch_d": 0.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15/cols/t04/ES296_08/route_ES296_08s1_16_1.npz",
+    "n": 16,
+    "n_real": 16,
+    "tank": 843.52,
+    "miss": 75.7,
+    "kind": "light",
+    "targets": [
+     17,
+     20,
+     33,
+     51,
+     71,
+     93,
+     95,
+     132,
+     139,
+     145,
+     173,
+     175,
+     234,
+     249,
+     280,
+     288
+    ],
+    "iso": [],
+    "s_taken": [
+     17
+    ],
+    "t_end_d": 4560.0,
+    "t_launch_d": 0.0,
+    "step": 1
+   }
+  ],
+  "taken": [
+   {
+    "k": 1,
+    "f": "results/s15/cols/t04/ES296_08/route_ES296_08s1_18.npz",
+    "n": 18,
+    "tank": 1044.22,
+    "targets": [
+     17,
+     20,
+     51,
+     75,
+     93,
+     95,
+     132,
+     138,
+     139,
+     173,
+     175,
+     213,
+     234,
+     246,
+     249,
+     280,
+     283,
+     288
+    ]
+   }
+  ]
+ },
+ "cols": [
+  {
+   "f": "results/s15/cols/t04/ES296_08/route_ES296_08s1_19.npz",
+   "n": 19,
+   "n_real": 19,
+   "tank": 1197.11,
+   "miss": 1.7,
+   "kind": "score",
+   "targets": [
+    17,
+    20,
+    33,
+    51,
+    71,
+    75,
+    93,
+    95,
+    132,
+    138,
+    173,
+    175,
+    213,
+    234,
+    246,
+    249,
+    280,
+    283,
+    288
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    17,
+    138
+   ],
+   "t_end_d": 4557.5,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t04/ES296_08/route_ES296_08s1_18.npz",
+   "n": 18,
+   "n_real": 18,
+   "tank": 1044.22,
+   "miss": 71.0,
+   "kind": "score",
+   "targets": [
+    17,
+    20,
+    51,
+    75,
+    93,
+    95,
+    132,
+    138,
+    139,
+    173,
+    175,
+    213,
+    234,
+    246,
+    249,
+    280,
+    283,
+    288
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    17,
+    138
+   ],
+   "t_end_d": 4234.0,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t04/ES296_08/route_ES296_08s1_17.npz",
+   "n": 17,
+   "n_real": 17,
+   "tank": 972.99,
+   "miss": 76.8,
+   "kind": "score",
+   "targets": [
+    15,
+    17,
+    20,
+    33,
+    58,
+    75,
+    93,
+    95,
+    132,
+    173,
+    175,
+    234,
+    246,
+    249,
+    280,
+    283,
+    288
+   ],
+   "iso": [],
+   "s_taken": [
+    17
+   ],
+   "t_end_d": 3671.4,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t04/ES296_08/route_ES296_08s1_17_1.npz",
+   "n": 17,
+   "n_real": 17,
+   "tank": 1002.37,
+   "miss": 0.9,
+   "kind": "s",
+   "targets": [
+    17,
+    20,
+    71,
+    75,
+    93,
+    95,
+    132,
+    138,
+    173,
+    175,
+    213,
+    234,
+    246,
+    249,
+    280,
+    283,
+    288
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    17,
+    138
+   ],
+   "t_end_d": 3860.3,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t04/ES296_08/route_ES296_08s1_16.npz",
+   "n": 16,
+   "n_real": 16,
+   "tank": 920.98,
+   "miss": 59.3,
+   "kind": "score",
+   "targets": [
+    15,
+    17,
+    20,
+    58,
+    75,
+    93,
+    95,
+    132,
+    138,
+    175,
+    213,
+    234,
+    249,
+    280,
+    283,
+    288
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    17,
+    138
+   ],
+   "t_end_d": 3630.2,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15/cols/t04/ES296_08/route_ES296_08s1_16_1.npz",
+   "n": 16,
+   "n_real": 16,
+   "tank": 843.52,
+   "miss": 75.7,
+   "kind": "light",
+   "targets": [
+    17,
+    20,
+    33,
+    51,
+    71,
+    93,
+    95,
+    132,
+    139,
+    145,
+    173,
+    175,
+    234,
+    249,
+    280,
+    288
+   ],
+   "iso": [],
+   "s_taken": [
+    17
+   ],
+   "t_end_d": 4560.0,
+   "t_launch_d": 0.0,
+   "step": 1
+  }
+ ],
+ "covered": 18,
+ "wall_s": 1720
+}

@@ -1,0 +1,8 @@
+[06:09:49] skeletons: 9 routes, covered 234, J 77.0085; 03:37@1058 05:37@983 09:34@936 13:28@844 10:26@842 12:26@877 01:21@753 06:19@769 04:6@637
+[06:09:49] after dedupe: 9 routes, covered 234, J 77.0085; 03:37@1058 05:37@983 09:34@936 13:28@844 10:26@842 12:26@877 01:21@753 06:19@769 04:6@637
+[06:17:07]   all round 0: 64 to place, 185 trials, 57 feasible, accepted 8: 94->12(+-1kg) 11->01(+0kg) 264->06(+1kg) 109->04(+1kg) 43->03(+10kg) 218->09(+19kg) 80->05(+32kg) 129->10(+63kg); J 69.1401 (439 s)
+[06:24:32]   all round 1: 56 to place, 162 trials, 42 feasible, accepted 8: 98->04(+1kg) 207->01(+1kg) 13->06(+5kg) 241->03(+25kg) 47->05(+39kg) 5->12(+41kg) 41->09(+54kg) 40->10(+78kg); J 61.4056 (445 s)
+[06:30:34]   all round 2: 48 to place, 138 trials, 28 feasible, accepted 5: 295->04(+2kg) 201->01(+5kg) 100->06(+7kg) 213->09(+40kg) 204->12(+49kg); J 56.5150 (361 s)
+[06:36:10]   all round 3: 43 to place, 122 trials, 17 feasible, accepted 3: 225->04(+5kg) 180->01(+8kg) 120->06(+27kg); J 53.5505 (336 s)
+[06:41:36]   all round 4: 40 to place, 113 trials, 12 feasible, accepted 3: 156->04(+9kg) 119->01(+44kg) 187->06(+54kg); J 50.6483 (326 s)
+[06:46:39]   all round 5: 37 to place, 104 trials, 9 feasible, accepted 2: 17->04(+6kg) 275->01(+58kg); J 48.7084 (303 s)

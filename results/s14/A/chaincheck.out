@@ -1,0 +1,11 @@
+00: 36 legs; planner-state admissible prod 21, relaxed 28; longest prod run 6
+01: 35 legs; planner-state admissible prod 25, relaxed 32; longest prod run 7
+02: 32 legs; planner-state admissible prod 21, relaxed 23; longest prod run 13
+03: 29 legs; planner-state admissible prod 25, relaxed 27; longest prod run 18
+04: 29 legs; planner-state admissible prod 13, relaxed 19; longest prod run 4
+05: 27 legs; planner-state admissible prod 12, relaxed 21; longest prod run 4
+06: 26 legs; planner-state admissible prod 16, relaxed 24; longest prod run 10
+07: 26 legs; planner-state admissible prod 21, relaxed 23; longest prod run 12
+08: 25 legs; planner-state admissible prod 14, relaxed 15; longest prod run 4
+09: 23 legs; planner-state admissible prod 8, relaxed 15; longest prod run 2
+ALL: {'legs': 288, 'prod': 176, 'rel': 227} (17 s)

@@ -1,0 +1,5 @@
+wrote results/CTOC14_Result_v4.txt with 49440 rows from 12 spacecraft
+spacecraft: 12, m0 = [2000.0, 2000.0, 1959.4899184826224, 2000.0, 1966.0814834973426, 1972.6361427443808, 1874.4881029743958, 2000.0, 2000.0, 985.1729988193849, 813.1542518967024, 850.0]
+covered 298, missed 2, J = 32.2595  (sum J_i = 30.2595)
+max errors: pos 9.3133e-08 km, vel 4.5854e-07 m/s, mass 8.4292e-09 kg, max |T| 0.48180 N
+RESULT: PASS

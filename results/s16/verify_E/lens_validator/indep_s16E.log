@@ -1,0 +1,64 @@
+parsed 47598 data lines, all 15 columns: True
+Line column = 1..N consecutive
+max sample |T| over Event=1 lines = 0.441073 N
+crafts=9, arcs=9, min Event=1 gap inside arcs=86400.000 s, min gap between last sample of an arc and first of next arc=inf s (0 < 8640)
+
+Launch checks:
+  SC 1: t_launch=3542400.000 s (41.0000 d)  |dr|=0.000 m  v_inf=2.544455153 km/s  m0=948.662173 kg
+  SC 2: t_launch=0.000 s (0.0000 d)  |dr|=0.000 m  v_inf=2.459775824 km/s  m0=911.462948 kg
+  SC 3: t_launch=7603200.000 s (88.0000 d)  |dr|=0.000 m  v_inf=3.493985319 km/s  m0=989.348848 kg
+  SC 4: t_launch=0.000 s (0.0000 d)  |dr|=0.000 m  v_inf=3.838458595 km/s  m0=916.549549 kg
+  SC 5: t_launch=6912000.000 s (80.0000 d)  |dr|=0.000 m  v_inf=2.899107984 km/s  m0=959.703219 kg
+  SC 6: t_launch=0.000 s (0.0000 d)  |dr|=0.000 m  v_inf=3.943444827 km/s  m0=902.998097 kg
+  SC 7: t_launch=1296000.000 s (15.0000 d)  |dr|=0.000 m  v_inf=2.481916139 km/s  m0=1019.540498 kg
+  SC 8: t_launch=1641600.000 s (19.0000 d)  |dr|=0.000 m  v_inf=3.435549550 km/s  m0=929.073259 kg
+  SC 9: t_launch=81561600.000 s (944.0000 d)  |dr|=0.000 m  v_inf=2.266800917 km/s  m0=904.620755 kg
+
+max interpolated |T| (201 pts/segment over 47571 thrust segments) = 0.459719 N at file line 11021 t=24759216.0
+
+Dynamics consistency (own RK4 for thrust segments, analytic Kepler for coast segments):
+  coast segments 18: max |dr|=2.1075e-08 km  max |dv|=5.0439e-12 m/s  max |dm|=0.000e+00 kg  longest=1.00 d
+  thrust segments 47571: max |dr|=4.7777e-07 km  max |dv|=3.1542e-09 m/s  max |dm|=3.2464e-06 kg  longest=1.000 d
+  worst dr km: 4.7777e-07 @file 42558, 3.8750e-07 @file 19018, 3.8750e-07 @file 18974
+  worst dv km/s: 3.1542e-12 @file 7519, 2.8700e-12 @file 13220, 2.1982e-12 @file 16362
+  worst dm kg: 3.2464e-06 @file 13220, 2.3880e-06 @file 16362, 2.2111e-06 @file 38360
+  worst coast dr km: 2.1075e-08 @file 32604, 1.8626e-09 @file 43137, 9.3132e-10 @file 10819
+  worst coast dv km/s: 5.0439e-15 @file 21735, 3.9721e-15 @file 47598, 3.5872e-15 @file 10819
+  SC 1: final mass 600.406046 kg, min over lines 600.406046 kg
+  SC 2: final mass 600.162583 kg, min over lines 600.162583 kg
+  SC 3: final mass 600.495887 kg, min over lines 600.495887 kg
+  SC 4: final mass 600.820657 kg, min over lines 600.820657 kg
+  SC 5: final mass 600.947621 kg, min over lines 600.947621 kg
+  SC 6: final mass 600.779790 kg, min over lines 600.779790 kg
+  SC 7: final mass 600.299874 kg, min over lines 600.299874 kg
+  SC 8: final mass 600.775211 kg, min over lines 600.775211 kg
+  SC 9: final mass 600.853483 kg, min over lines 600.853483 kg
+
+Flyby checks:
+  Event=3 lines: 298, valid IDs: 298, max distance 700.843 km, mean 83.573 km, #d>1000: 0, rel speed range 5.508..42.888 km/s
+  distinct asteroids covered: 298; repeat detections: 0; missing: [131, 144]
+  SC 1: Event=3 lines 42, first-detections credited 42, max d 700.843 km
+  SC 2: Event=3 lines 41, first-detections credited 41, max d 455.507 km
+  SC 3: Event=3 lines 41, first-detections credited 41, max d 259.753 km
+  SC 4: Event=3 lines 38, first-detections credited 38, max d 86.014 km
+  SC 5: Event=3 lines 31, first-detections credited 31, max d 89.148 km
+  SC 6: Event=3 lines 30, first-detections credited 30, max d 258.761 km
+  SC 7: Event=3 lines 30, first-detections credited 30, max d 88.300 km
+  SC 8: Event=3 lines 24, first-detections credited 24, max d 304.774 km
+  SC 9: Event=3 lines 21, first-detections credited 21, max d 312.015 km
+
+Cost:
+  SC 1: m0=948.662173  J_i=1.311068
+  SC 2: m0=911.462948  J_i=1.271968
+  SC 3: m0=989.348848  J_i=1.355449
+  SC 4: m0=916.549549  J_i=1.277231
+  SC 5: m0=959.703219  J_i=1.322944
+  SC 6: m0=902.998097  J_i=1.263268
+  SC 7: m0=1019.540498  J_i=1.389475
+  SC 8: m0=929.073259  J_i=1.290302
+  SC 9: m0=904.620755  J_i=1.264930
+  N=9  sum J_i = 11.746635  N_miss = 2  J = 13.746635
+
+VIOLATIONS: 0
+  by kind: {}
+exit 0

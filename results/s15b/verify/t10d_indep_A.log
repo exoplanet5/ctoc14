@@ -1,0 +1,67 @@
+parsed 52791 data lines, all 15 columns: True
+Line column = 1..N consecutive
+max sample |T| over Event=1 lines = 0.428366 N
+crafts=10, arcs=10, min Event=1 gap inside arcs=86400.000 s, min gap between last sample of an arc and first of next arc=inf s (0 < 8640)
+
+Launch checks:
+  SC 1: t_launch=0.000 s (0.0000 d)  |dr|=0.000 m  v_inf=3.598152220 km/s  m0=919.891837 kg
+  SC 2: t_launch=0.000 s (0.0000 d)  |dr|=0.000 m  v_inf=3.339420676 km/s  m0=904.463311 kg
+  SC 3: t_launch=48384000.000 s (560.0000 d)  |dr|=0.000 m  v_inf=2.934927095 km/s  m0=816.690602 kg
+  SC 4: t_launch=19008000.000 s (220.0000 d)  |dr|=0.000 m  v_inf=3.066678829 km/s  m0=871.931801 kg
+  SC 5: t_launch=1728000.000 s (20.0000 d)  |dr|=0.000 m  v_inf=1.786931374 km/s  m0=906.440360 kg
+  SC 6: t_launch=29376000.000 s (340.0000 d)  |dr|=0.000 m  v_inf=2.183500552 km/s  m0=877.215268 kg
+  SC 7: t_launch=31104000.000 s (360.0000 d)  |dr|=0.000 m  v_inf=2.576171528 km/s  m0=977.649034 kg
+  SC 8: t_launch=0.000 s (0.0000 d)  |dr|=0.000 m  v_inf=3.846431169 km/s  m0=792.663003 kg
+  SC 9: t_launch=1728000.000 s (20.0000 d)  |dr|=0.000 m  v_inf=0.821888199 km/s  m0=796.707349 kg
+  SC 10: t_launch=20736000.000 s (240.0000 d)  |dr|=0.000 m  v_inf=1.548143767 km/s  m0=886.528596 kg
+
+max interpolated |T| (201 pts/segment over 52761 thrust segments) = 0.443033 N at file line 123 t=10404720.0
+
+Dynamics consistency (own RK4 for thrust segments, analytic Kepler for coast segments):
+  coast segments 20: max |dr|=2.1156e-08 km  max |dv|=3.5596e-12 m/s  max |dm|=0.000e+00 kg  longest=1.00 d
+  thrust segments 52761: max |dr|=4.4710e-07 km  max |dv|=4.8343e-09 m/s  max |dm|=3.0289e-06 kg  longest=1.000 d
+  worst dr km: 4.4710e-07 @file 2037, 4.1750e-07 @file 48531, 4.1723e-07 @file 48511
+  worst dv km/s: 4.8343e-12 @file 44944, 3.5152e-12 @file 10162, 3.2930e-12 @file 26970
+  worst dm kg: 3.0289e-06 @file 10162, 2.6355e-06 @file 10100, 2.6193e-06 @file 44944
+  worst coast dr km: 2.1156e-08 @file 52791, 1.4908e-08 @file 15860, 1.4901e-08 @file 26506
+  worst coast dv km/s: 3.5596e-15 @file 26506, 3.5544e-15 @file 52791, 1.7764e-15 @file 26508
+  SC 1: final mass 600.808382 kg, min over lines 600.808382 kg
+  SC 2: final mass 600.828036 kg, min over lines 600.828036 kg
+  SC 3: final mass 600.582963 kg, min over lines 600.582963 kg
+  SC 4: final mass 600.997576 kg, min over lines 600.997576 kg
+  SC 5: final mass 600.787621 kg, min over lines 600.787621 kg
+  SC 6: final mass 600.803199 kg, min over lines 600.803199 kg
+  SC 7: final mass 600.646054 kg, min over lines 600.646054 kg
+  SC 8: final mass 601.179679 kg, min over lines 601.179679 kg
+  SC 9: final mass 600.911506 kg, min over lines 600.911506 kg
+  SC 10: final mass 600.790143 kg, min over lines 600.790143 kg
+
+Flyby checks:
+  Event=3 lines: 298, valid IDs: 298, max distance 745.847 km, mean 77.332 km, #d>1000: 0, rel speed range 4.977..42.357 km/s
+  distinct asteroids covered: 298; repeat detections: 0; missing: [131, 144]
+  SC 1: Event=3 lines 37, first-detections credited 37, max d 444.604 km
+  SC 2: Event=3 lines 33, first-detections credited 33, max d 79.947 km
+  SC 3: Event=3 lines 27, first-detections credited 27, max d 745.847 km
+  SC 4: Event=3 lines 26, first-detections credited 26, max d 46.064 km
+  SC 5: Event=3 lines 36, first-detections credited 36, max d 34.651 km
+  SC 6: Event=3 lines 24, first-detections credited 24, max d 432.023 km
+  SC 7: Event=3 lines 28, first-detections credited 28, max d 173.770 km
+  SC 8: Event=3 lines 27, first-detections credited 27, max d 392.468 km
+  SC 9: Event=3 lines 30, first-detections credited 30, max d 123.140 km
+  SC 10: Event=3 lines 30, first-detections credited 30, max d 93.995 km
+
+Cost:
+  SC 1: m0=919.891837  J_i=1.280704
+  SC 2: m0=904.463311  J_i=1.264769
+  SC 3: m0=816.690602  J_i=1.178736
+  SC 4: m0=871.931801  J_i=1.231965
+  SC 5: m0=906.440360  J_i=1.266797
+  SC 6: m0=877.215268  J_i=1.237219
+  SC 7: m0=977.649034  J_i=1.342514
+  SC 8: m0=792.663003  J_i=1.156555
+  SC 9: m0=796.707349  J_i=1.160247
+  SC 10: m0=886.528596  J_i=1.246550
+  N=10  sum J_i = 12.366055  N_miss = 2  J = 14.366055
+
+VIOLATIONS: 0
+  by kind: {}

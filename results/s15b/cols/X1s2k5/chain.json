@@ -1,0 +1,192 @@
+{
+ "steps": [
+  {
+   "k": 1,
+   "pool": 15,
+   "S": [
+    64
+   ],
+   "end": {
+    "kind": "no_children",
+    "depth": 17
+   },
+   "deepest": 14,
+   "settles": 285,
+   "settle_ok": 263,
+   "wall_s": 3418,
+   "ncols": 4,
+   "took": {
+    "f": "results/s15b/cols/X1s2k5/route_X1s2k5s1_14.npz",
+    "n": 14,
+    "tank": 824.48,
+    "iso": [
+     216
+    ],
+    "s_taken": []
+   },
+   "covered": 14
+  }
+ ],
+ "covered": [
+  6,
+  17,
+  36,
+  75,
+  108,
+  118,
+  145,
+  180,
+  216,
+  219,
+  220,
+  243,
+  247,
+  288
+ ],
+ "cols": [
+  {
+   "f": "results/s15b/cols/X1s2k5/route_X1s2k5s1_14.npz",
+   "n": 14,
+   "n_real": 14,
+   "tank": 824.48,
+   "miss": 52.6,
+   "kind": "score",
+   "targets": [
+    6,
+    17,
+    36,
+    75,
+    108,
+    118,
+    145,
+    180,
+    216,
+    219,
+    220,
+    243,
+    247,
+    288
+   ],
+   "iso": [
+    216
+   ],
+   "s_taken": [],
+   "t_end_d": 5189.3,
+   "t_launch_d": 960.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/X1s2k5/route_X1s2k5s1_13.npz",
+   "n": 13,
+   "n_real": 13,
+   "tank": 815.77,
+   "miss": 63.3,
+   "kind": "score",
+   "targets": [
+    6,
+    17,
+    36,
+    75,
+    108,
+    118,
+    145,
+    180,
+    216,
+    219,
+    220,
+    243,
+    288
+   ],
+   "iso": [
+    216
+   ],
+   "s_taken": [],
+   "t_end_d": 4602.5,
+   "t_launch_d": 960.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/X1s2k5/route_X1s2k5s1_13_1.npz",
+   "n": 13,
+   "n_real": 13,
+   "tank": 813.86,
+   "miss": 70.3,
+   "kind": "light",
+   "targets": [
+    17,
+    36,
+    75,
+    108,
+    118,
+    145,
+    180,
+    216,
+    219,
+    220,
+    243,
+    247,
+    288
+   ],
+   "iso": [
+    216
+   ],
+   "s_taken": [],
+   "t_end_d": 5189.2,
+   "t_launch_d": 960.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/X1s2k5/route_X1s2k5s1_12.npz",
+   "n": 12,
+   "n_real": 12,
+   "tank": 796.95,
+   "miss": 74.5,
+   "kind": "score",
+   "targets": [
+    6,
+    17,
+    36,
+    75,
+    108,
+    118,
+    145,
+    180,
+    216,
+    219,
+    220,
+    243
+   ],
+   "iso": [
+    216
+   ],
+   "s_taken": [],
+   "t_end_d": 4297.9,
+   "t_launch_d": 960.0,
+   "step": 1
+  }
+ ],
+ "taken": [
+  {
+   "k": 1,
+   "f": "results/s15b/cols/X1s2k5/route_X1s2k5s1_14.npz",
+   "n": 14,
+   "tank": 824.48,
+   "targets": [
+    6,
+    17,
+    36,
+    75,
+    108,
+    118,
+    145,
+    180,
+    216,
+    219,
+    220,
+    243,
+    247,
+    288
+   ]
+  }
+ ]
+}

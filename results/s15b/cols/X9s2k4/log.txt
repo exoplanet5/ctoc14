@@ -1,0 +1,16 @@
+[07:01:18] prefix results/s15b/cols/X1s2k5/route_X1s2k5s1_14.npz k=4: 4 flybys to 1890 d, tank 661.7 kg, miss 72 km (1 s)
+[07:01:18] twintail X9s2k4: pool 15, S [212], p 0.5, steps 1, beam 24/72, nproc 1; resume at step 1
+[07:01:18]   RESUME level 4: beam 1, deepest 0
+[07:01:24]   depth  5: 1 parents -> 3 kids (3 uniq) -> tried 3, settled 3, kept 3; t_end 2398-2565 d, tank 676-729, max S 1 (5 s, gen 1 s)
+[07:02:17]   depth  6: 3 parents -> 18 kids (18 uniq) -> tried 18, settled 18, kept 17; t_end 2475-3294 d, tank 678-891, max S 1 (53 s, gen 3 s)
+[07:03:43]   depth  7: 17 parents -> 48 kids (46 uniq) -> tried 24, settled 24, kept 22; t_end 2689-3761 d, tank 699-804, max S 1 (86 s, gen 17 s)
+[07:05:14]   depth  8: 22 parents -> 55 kids (55 uniq) -> tried 24, settled 24, kept 24; t_end 2862-3920 d, tank 708-886, max S 1 (91 s, gen 22 s)
+[07:07:58]   depth  9: 24 parents -> 64 kids (64 uniq) -> tried 27, settled 24, kept 24; t_end 3229-4121 d, tank 724-937, max S 1 (164 s, gen 24 s)
+[07:10:11]   depth 10: 24 parents -> 48 kids (47 uniq) -> tried 25, settled 24, kept 20; t_end 3490-4087 d, tank 791-922, max S 1 (133 s, gen 24 s)
+[07:11:58]   depth 11: 20 parents -> 39 kids (39 uniq) -> tried 24, settled 24, kept 23; t_end 3823-4379 d, tank 805-987, max S 1 (107 s, gen 17 s)
+[07:14:05]   depth 12: 23 parents -> 25 kids (25 uniq) -> tried 24, settled 24, kept 23; t_end 4102-4680 d, tank 831-935, max S 1 (127 s, gen 17 s)
+[07:15:48]   depth 13: 23 parents -> 16 kids (15 uniq) -> tried 15, settled 15, kept 11; t_end 4360-5260 d, tank 849-1000, max S 1 (103 s, gen 13 s)
+[07:16:16]   depth 14: 11 parents -> 4 kids (4 uniq) -> tried 4, settled 4, kept 4; t_end 5189-5280 d, tank 863-987, max S 1 (28 s, gen 3 s)
+[07:16:16]   depth 15: 4 parents -> 0 kids (0 uniq) -> tried 0, settled 0, kept 0 (0 s, gen 0 s)
+[07:16:16]   step 1: pool 15 deepest 14 ({'kind': 'no_children', 'depth': 14}); TOOK 14 fb @ 863 kg iso [216]; chain covered 14/15 (898 s)
+[07:16:16] twintail X9s2k4 done: 3 columns, covered 14/15 (898 s)

@@ -1,0 +1,4 @@
+{'stem': 'j2_b300_p0809_canon', 'craft': 0, 'n': 12, 'waits': 7, 'seed': 'stock', 'seed_tank': 8550.2, 't_s': 0.3, 'ok': False, 'miss_km': None}
+{'stem': 'j2_b300_p0809_canon', 'craft': 0, 'n': 12, 'waits': 7, 'seed': 'wait-aware', 'seed_tank': 839.6, 't_s': 48.0, 'ok': True, 'tank_twin': 702.2, 'kg_per_fb': 8.52, 'dv_per_fb': 0.506, 'planner_fuel': 350.9}
+{'stem': 'j2_b300_p0809_canon', 'craft': 1, 'n': 22, 'waits': 0, 'seed': 'stock', 'seed_tank': 995.0, 't_s': 14.0, 'ok': True, 'tank_twin': 806.4, 'kg_per_fb': 9.38, 'dv_per_fb': 0.5226, 'planner_fuel': 550.4}
+{'stem': 'j2_b300_p0809_canon', 'craft': 1, 'n': 22, 'waits': 0, 'seed': 'wait-aware', 'seed_tank': 995.0, 't_s': 14.2, 'ok': True, 'tank_twin': 806.4, 'kg_per_fb': 9.38, 'dv_per_fb': 0.5226, 'planner_fuel': 550.4}

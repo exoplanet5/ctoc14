@@ -1,0 +1,2 @@
+SC 1: 31 flybys (31 new), fuel 280/300 kg, launch 60 d, end 14.9 yr, tof_med 160 d, kg/flyby 9.0 | fleet: covered 31, cost 1.26, planned J 270.26 (543s)
+SC 2: 29 flybys (29 new), fuel 279/300 kg, launch 0 d, end 14.3 yr, tof_med 165 d, kg/flyby 9.6 | fleet: covered 60, cost 2.52, planned J 242.52 (621s)

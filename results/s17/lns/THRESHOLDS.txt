@@ -1,0 +1,9 @@
+Pre-registered 2026-09-23 21:31 CST, before any suffix-test result was read (jobs started 21:26).
+Test: keep-own suffix re-plan (tools/s15b_prefix.py, own prize 2.0, r9's 21 targets prize 1.5) of two TAILS of the
+s16 E fleet: r8 cut after 13 flybys (58@3114 d), r6 cut after 17 flybys (228@3336 d).  beam 16 / tries 32, nproc 1.
+Metric: among settled front states that keep ALL own suffix targets, n_add = number of r9 targets added,
+        price = (tank(state) - tank(original route)) / n_add   [original route = results/s16/best/fleet/route_rX.npz].
+PASS : some host keeps all own and adds >= 2 r9 targets at <= 46 kg per added target (8-craft break-even, 09-27 12:00).
+WEAK : adds exactly 1 at <= 46 kg, or >= 2 at 46-90 kg.
+FAIL : no all-own state carries an r9 target, or every such state costs > 90 kg per added target.
+Also reported (not a gate): the re-plan penalty = own-only best state vs the original tank.

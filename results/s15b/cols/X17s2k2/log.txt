@@ -1,0 +1,8 @@
+[07:19:08] prefix results/s15b/cols/X1s2k5/route_X1s2k5s1_14.npz k=2: 2 flybys to 1502 d, tank 621.4 kg, miss 90 km (1 s)
+[07:19:08] twintail X17s2k2: pool 15, S [212], p 0.5, steps 1, beam 24/72, nproc 1; resume at step 1
+[07:19:08]   RESUME level 2: beam 1, deepest 0
+[07:19:14]   depth  3: 1 parents -> 4 kids (4 uniq) -> tried 4, settled 3, kept 3; t_end 1691-2096 d, tank 635-650, max S 0 (6 s, gen 1 s)
+[07:19:38]   depth  4: 3 parents -> 7 kids (7 uniq) -> tried 7, settled 5, kept 5; t_end 1890-2473 d, tank 656-674, max S 1 (24 s, gen 2 s)
+[07:20:44]   depth  5: 5 parents -> 13 kids (13 uniq) -> tried 13, settled 8, kept 8; t_end 2398-3048 d, tank 675-729, max S 1 (66 s, gen 5 s)
+[07:22:11]   depth  6: 8 parents -> 24 kids (24 uniq) -> tried 24, settled 24, kept 22; t_end 2473-3352 d, tank 677-953, max S 1 (87 s, gen 8 s)
+[07:23:52]   depth  7: 22 parents -> 52 kids (51 uniq) -> tried 24, settled 24, kept 20; t_end 2689-3902 d, tank 705-847, max S 1 (101 s, gen 24 s)

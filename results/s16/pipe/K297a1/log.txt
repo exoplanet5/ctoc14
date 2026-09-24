@@ -1,0 +1,3 @@
+[13:42:12] pipe results/s16/select/A/frontier.json:N9K297a1: 9 craft, covered 297, sum J_i 11.8185, misses [258]
+[13:42:20]   close: covered 298, sum J_i 11.8185 -> 11.8327, open []
+[13:42:20]   run tools/s15b_relocate.py results/s16/pipe/K297a1/reloc1 results/s16/pipe/K297a1/close/fleet --kgfb 8.0 --top 40 --dmax 0.2 --nproc 2 --rounds 4 --timeout 300.0

@@ -1,0 +1,329 @@
+{
+ "pool": "routes:08,09",
+ "pool_size": 50,
+ "K": 2,
+ "beam": 300,
+ "nproc": 1,
+ "m0": 1600.0,
+ "t_run_s": 1143.4,
+ "n_joint_states": 8784,
+ "t10d_reference": {
+  "08": [
+   26,
+   870.6,
+   1.2307
+  ],
+  "09": [
+   24,
+   876.5,
+   1.2365
+  ]
+ },
+ "t10d_sumJ": 2.4672,
+ "max_covered": 34,
+ "front": {
+  "28": {
+   "sumJ_planner": 2.1591,
+   "depths": [
+    12,
+    16
+   ],
+   "tanks_planner": [
+    693,
+    715
+   ]
+  },
+  "29": {
+   "sumJ_planner": 2.1652,
+   "depths": [
+    16,
+    13
+   ],
+   "tanks_planner": [
+    725,
+    690
+   ]
+  },
+  "30": {
+   "sumJ_planner": 2.1713,
+   "depths": [
+    16,
+    14
+   ],
+   "tanks_planner": [
+    727,
+    694
+   ]
+  },
+  "31": {
+   "sumJ_planner": 2.1759,
+   "depths": [
+    16,
+    15
+   ],
+   "tanks_planner": [
+    727,
+    700
+   ]
+  },
+  "32": {
+   "sumJ_planner": 2.1872,
+   "depths": [
+    17,
+    15
+   ],
+   "tanks_planner": [
+    741,
+    700
+   ]
+  },
+  "33": {
+   "sumJ_planner": 2.223,
+   "depths": [
+    18,
+    15
+   ],
+   "tanks_planner": [
+    762,
+    721
+   ]
+  },
+  "34": {
+   "sumJ_planner": 2.2425,
+   "depths": [
+    12,
+    22
+   ],
+   "tanks_planner": [
+    711,
+    793
+   ]
+  }
+ },
+ "last_level": {
+  "depth": 34,
+  "n_states": 4,
+  "distinct_splits": 1,
+  "distinct_sets_per_craft": [
+   2,
+   2
+  ]
+ },
+ "settles": [],
+ "canon": true,
+ "wait_d": 60.0,
+ "perm_free_frac": {
+  "mean": 0.888,
+  "min": 0.72
+ },
+ "levels": [
+  {
+   "depth": 1,
+   "children": 58,
+   "kept": 39,
+   "perm_free": 29
+  },
+  {
+   "depth": 2,
+   "children": 2184,
+   "kept": 300,
+   "perm_free": 216
+  },
+  {
+   "depth": 3,
+   "children": 802,
+   "kept": 300,
+   "perm_free": 263
+  },
+  {
+   "depth": 4,
+   "children": 756,
+   "kept": 300,
+   "perm_free": 284
+  },
+  {
+   "depth": 5,
+   "children": 667,
+   "kept": 300,
+   "perm_free": 280
+  },
+  {
+   "depth": 6,
+   "children": 625,
+   "kept": 300,
+   "perm_free": 276
+  },
+  {
+   "depth": 7,
+   "children": 632,
+   "kept": 300,
+   "perm_free": 265
+  },
+  {
+   "depth": 8,
+   "children": 701,
+   "kept": 300,
+   "perm_free": 268
+  },
+  {
+   "depth": 9,
+   "children": 742,
+   "kept": 300,
+   "perm_free": 261
+  },
+  {
+   "depth": 10,
+   "children": 783,
+   "kept": 300,
+   "perm_free": 275
+  },
+  {
+   "depth": 11,
+   "children": 786,
+   "kept": 300,
+   "perm_free": 290
+  },
+  {
+   "depth": 12,
+   "children": 773,
+   "kept": 300,
+   "perm_free": 289
+  },
+  {
+   "depth": 13,
+   "children": 684,
+   "kept": 300,
+   "perm_free": 279
+  },
+  {
+   "depth": 14,
+   "children": 734,
+   "kept": 300,
+   "perm_free": 266
+  },
+  {
+   "depth": 15,
+   "children": 699,
+   "kept": 300,
+   "perm_free": 269
+  },
+  {
+   "depth": 16,
+   "children": 709,
+   "kept": 300,
+   "perm_free": 263
+  },
+  {
+   "depth": 17,
+   "children": 643,
+   "kept": 300,
+   "perm_free": 261
+  },
+  {
+   "depth": 18,
+   "children": 657,
+   "kept": 300,
+   "perm_free": 266
+  },
+  {
+   "depth": 19,
+   "children": 622,
+   "kept": 300,
+   "perm_free": 261
+  },
+  {
+   "depth": 20,
+   "children": 614,
+   "kept": 300,
+   "perm_free": 262
+  },
+  {
+   "depth": 21,
+   "children": 629,
+   "kept": 300,
+   "perm_free": 264
+  },
+  {
+   "depth": 22,
+   "children": 622,
+   "kept": 300,
+   "perm_free": 275
+  },
+  {
+   "depth": 23,
+   "children": 610,
+   "kept": 300,
+   "perm_free": 273
+  },
+  {
+   "depth": 24,
+   "children": 695,
+   "kept": 300,
+   "perm_free": 267
+  },
+  {
+   "depth": 25,
+   "children": 649,
+   "kept": 300,
+   "perm_free": 263
+  },
+  {
+   "depth": 26,
+   "children": 635,
+   "kept": 300,
+   "perm_free": 257
+  },
+  {
+   "depth": 27,
+   "children": 628,
+   "kept": 300,
+   "perm_free": 251
+  },
+  {
+   "depth": 28,
+   "children": 657,
+   "kept": 300,
+   "perm_free": 248
+  },
+  {
+   "depth": 29,
+   "children": 535,
+   "kept": 299,
+   "perm_free": 257
+  },
+  {
+   "depth": 30,
+   "children": 367,
+   "kept": 195,
+   "perm_free": 176
+  },
+  {
+   "depth": 31,
+   "children": 151,
+   "kept": 83,
+   "perm_free": 75
+  },
+  {
+   "depth": 32,
+   "children": 83,
+   "kept": 48,
+   "perm_free": 39
+  },
+  {
+   "depth": 33,
+   "children": 30,
+   "kept": 15,
+   "perm_free": 15
+  },
+  {
+   "depth": 34,
+   "children": 8,
+   "kept": 4,
+   "perm_free": 4
+  }
+ ],
+ "waits_per_craft": [
+  7,
+  0
+ ]
+}

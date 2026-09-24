@@ -1,0 +1,5 @@
+[10:57:32] skeletons: 8 routes, covered 67, J 241.4199; 05:9@670 09:9@734 13:9@668 01:8@647 03:8@642 06:8@678 10:8@653 12:8@664
+[11:00:46]     10 segments: 0:169->78st/4fb 1:166->234st/8fb 2:199->185st/11fb 3:62->75st/15fb 4:116->223st/18fb 5:18->465st/23fb 6:282->23st/24fb 7:25->143st/34fb 8:None->187st/36fb
+[11:00:46]   10 f1.00/s0 half45: pool 231, +187 columns (deepest 36), 187 distinct
+[11:00:46] [10] 187 columns, depth 32-36, 97 distinct easy targets reached (194 s)
+[11:00:46] 187 columns written to results/n8s6/F/c_10_b1000k50.jsonl

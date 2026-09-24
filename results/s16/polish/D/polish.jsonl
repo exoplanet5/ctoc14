@@ -1,0 +1,72 @@
+{"route": "r2", "tag": "pT05m", "ok": true, "miss": 3.4963393094938753, "tank": 909.1190167646861, "irregular": 0, "imp_cap": 0.962337907728336, "tL": 0.0, "sec": 0.9, "col": "results/s16/polish/D/cols/route_r2_pT05m_41.npz", "dkg": 0.22}
+{"route": "r1", "tag": "pT03e", "ok": true, "miss": 14.384212801892534, "tank": 944.4817178320419, "irregular": 0, "imp_cap": 0.9852868836698572, "tL": 41.0, "sec": 0.9, "col": "results/s16/polish/D/cols/route_r1_pT03e_42.npz", "dkg": 0.08}
+{"route": "r1", "tag": "pT07a", "ok": true, "miss": 58.47073176044178, "tank": 944.3802538593361, "irregular": 0, "imp_cap": 0.9782113683417483, "tL": 41.0, "sec": 1.4, "col": "results/s16/polish/D/cols/route_r1_pT07a_42.npz", "dkg": -0.03}
+{"route": "r2", "tag": "pT03e", "ok": true, "miss": 3.597908621619378, "tank": 909.0586694228036, "irregular": 0, "imp_cap": 0.9315601831404695, "tL": 0.0, "sec": 0.9, "col": "results/s16/polish/D/cols/route_r2_pT03e_41.npz", "dkg": 0.16}
+{"route": "r2", "tag": "pT03f", "ok": true, "miss": 49.081830090483834, "tank": 909.5871689856094, "irregular": 0, "imp_cap": 0.9194050867202748, "tL": 0.0, "sec": 5.4, "col": "results/s16/polish/D/cols/route_r2_pT03f_41.npz", "dkg": 0.69}
+{"route": "r2", "tag": "pT05n", "ok": true, "miss": 38.021688835093634, "tank": 909.6586213392998, "irregular": 0, "imp_cap": 0.940271873819503, "tL": 0.0, "sec": 6.1, "col": "results/s16/polish/D/cols/route_r2_pT05n_41.npz", "dkg": 0.76}
+{"route": "r1", "tag": "pT05n", "ok": true, "miss": 60.40749464420757, "tank": 944.6357573341917, "irregular": 0, "imp_cap": 0.9974813034584943, "tL": 41.0, "sec": 7.3, "col": "results/s16/polish/D/cols/route_r1_pT05n_42.npz", "dkg": 0.23}
+{"route": "r2", "tag": "tLwm", "ok": false, "err": "no gain (1 steps)", "sec": 0.0}
+{"route": "r1", "tag": "pT03f", "ok": true, "miss": 65.86073246071442, "tank": 944.7602525720785, "irregular": 0, "imp_cap": 0.9971306608460955, "tL": 41.0, "sec": 9.1, "col": "results/s16/polish/D/cols/route_r1_pT03f_42.npz", "dkg": 0.35}
+{"route": "r3", "tag": "pT05m", "ok": true, "miss": 50.09656086188391, "tank": 986.5212107021358, "irregular": 0, "imp_cap": 0.9959927201378596, "tL": 88.0, "sec": 1.9, "col": "results/s16/polish/D/cols/route_r3_pT05m_41.npz", "dkg": 0.11}
+{"route": "r2", "tag": "pT07a", "ok": true, "miss": 37.72884918156059, "tank": 909.5080992600266, "irregular": 0, "imp_cap": 0.9305586155325756, "tL": 0.0, "sec": 8.6, "col": "results/s16/polish/D/cols/route_r2_pT07a_41.npz", "dkg": 0.61}
+{"route": "r3", "tag": "pT03e", "ok": true, "miss": 58.15432553128602, "tank": 986.2866782075373, "irregular": 0, "imp_cap": 0.9878633316237946, "tL": 88.0, "sec": 2.1, "col": "results/s16/polish/D/cols/route_r3_pT03e_41.npz", "dkg": -0.13}
+{"route": "r3", "tag": "pT05n", "ok": true, "miss": 24.60466162728581, "tank": 987.2007684751342, "irregular": 0, "imp_cap": 0.9966547962842991, "tL": 88.0, "sec": 2.5, "col": "results/s16/polish/D/cols/route_r3_pT05n_41.npz", "dkg": 0.79}
+{"route": "r3", "tag": "pT07a", "ok": true, "miss": 51.75273028813242, "tank": 986.7675810020313, "irregular": 0, "imp_cap": 0.9959483680116977, "tL": 88.0, "sec": 1.2, "col": "results/s16/polish/D/cols/route_r3_pT07a_41.npz", "dkg": 0.35}
+{"route": "r2", "tag": "pT07b", "ok": true, "miss": 61.81985035242998, "tank": 909.2529869215031, "irregular": 0, "imp_cap": 0.8753108588445363, "tL": 0.0, "sec": 6.6, "col": "results/s16/polish/D/cols/route_r2_pT07b_41.npz", "dkg": 0.35}
+{"route": "r3", "tag": "pT03f", "ok": true, "miss": 64.20889307696154, "tank": 986.8382995950153, "irregular": 0, "imp_cap": 0.9963944001214584, "tL": 88.0, "sec": 4.4, "col": "results/s16/polish/D/cols/route_r3_pT03f_41.npz", "dkg": 0.42}
+{"route": "r1", "tag": "pT05m", "ok": false, "miss": 105357117.55594753, "tank": 1761.582418402104, "irregular": 0, "imp_cap": 1.0061226235062366, "tL": 41.0, "sec": 16.2}
+{"route": "r4", "tag": "pT05m", "ok": true, "miss": 56.997412020561526, "tank": 913.2840817929007, "irregular": 0, "imp_cap": 0.9396075738089049, "tL": 0.0, "sec": 2.1, "col": "results/s16/polish/D/cols/route_r4_pT05m_38.npz", "dkg": 0.15}
+{"route": "r3", "tag": "pT07b", "ok": true, "miss": 54.91887400372096, "tank": 987.9272345885894, "irregular": 0, "imp_cap": 0.9969775737345282, "tL": 88.0, "sec": 6.4, "col": "results/s16/polish/D/cols/route_r3_pT07b_41.npz", "dkg": 1.51}
+{"route": "r2", "tag": "tLwp", "ok": false, "err": "no gain (2 steps)", "sec": 11.2}
+{"route": "r1", "tag": "tLwp", "ok": false, "err": "no gain (2 steps)", "sec": 18.5}
+{"route": "r4", "tag": "pT03e", "ok": true, "miss": 63.865750553243544, "tank": 913.1170781691238, "irregular": 0, "imp_cap": 0.960890547876855, "tL": 0.0, "sec": 2.2, "col": "results/s16/polish/D/cols/route_r4_pT03e_38.npz", "dkg": -0.01}
+{"route": "r4", "tag": "pT03f", "ok": true, "miss": 37.50070333188799, "tank": 913.122458150022, "irregular": 0, "imp_cap": 0.9759440081891367, "tL": 0.0, "sec": 2.0, "col": "results/s16/polish/D/cols/route_r4_pT03f_38.npz", "dkg": -0.01}
+{"route": "r4", "tag": "tLwm", "ok": false, "err": "no gain (1 steps)", "sec": 0.0}
+{"route": "r4", "tag": "pT07a", "ok": true, "miss": 26.672024782245455, "tank": 913.5221913644823, "irregular": 0, "imp_cap": 0.9756586496013642, "tL": 0.0, "sec": 1.9, "col": "results/s16/polish/D/cols/route_r4_pT07a_38.npz", "dkg": 0.39}
+{"route": "r4", "tag": "pT07b", "ok": true, "miss": 24.101168886803663, "tank": 913.626845879902, "irregular": 0, "imp_cap": 0.8822393405107982, "tL": 0.0, "sec": 1.7, "col": "results/s16/polish/D/cols/route_r4_pT07b_38.npz", "dkg": 0.5}
+{"route": "r1", "tag": "tLwm", "ok": false, "err": "no gain (2 steps)", "sec": 20.3}
+{"route": "r5", "tag": "pT05m", "ok": true, "miss": 9.19273667987432, "tank": 958.4421748601445, "irregular": 0, "imp_cap": 0.9853186603551665, "tL": 80.0, "sec": 1.4, "col": "results/s16/polish/D/cols/route_r5_pT05m_31.npz", "dkg": 0.34}
+{"route": "r5", "tag": "pT03e", "ok": true, "miss": 57.418982187535576, "tank": 958.1711114125028, "irregular": 0, "imp_cap": 0.9784489259389303, "tL": 80.0, "sec": 2.1, "col": "results/s16/polish/D/cols/route_r5_pT03e_31.npz", "dkg": 0.07}
+{"route": "r5", "tag": "pT03f", "ok": true, "miss": 47.20333410905122, "tank": 958.458791015001, "irregular": 0, "imp_cap": 0.965348161089788, "tL": 80.0, "sec": 3.2, "col": "results/s16/polish/D/cols/route_r5_pT03f_31.npz", "dkg": 0.36}
+{"route": "r4", "tag": "pT05n", "ok": true, "miss": 84.21080041559753, "tank": 914.0896243308829, "irregular": 0, "imp_cap": 0.9989877912292089, "tL": 0.0, "sec": 7.8, "col": "results/s16/polish/D/cols/route_r4_pT05n_38.npz", "dkg": 0.96}
+{"route": "r3", "tag": "tLwp", "ok": false, "err": "no gain (2 steps)", "sec": 12.4}
+{"route": "r5", "tag": "tLwp", "ok": false, "err": "no gain (2 steps)", "sec": 2.5}
+{"route": "r5", "tag": "tLwm", "ok": false, "err": "no gain (2 steps)", "sec": 2.9}
+{"route": "r5", "tag": "pT07a", "ok": true, "miss": 51.535198887245585, "tank": 958.4884434759349, "irregular": 0, "imp_cap": 0.9982651002110188, "tL": 80.0, "sec": 6.2, "col": "results/s16/polish/D/cols/route_r5_pT07a_31.npz", "dkg": 0.39}
+{"route": "r5", "tag": "pT05n", "ok": true, "miss": 57.48169202475088, "tank": 959.3876429962489, "irregular": 0, "imp_cap": 0.9953182769299606, "tL": 80.0, "sec": 7.7, "col": "results/s16/polish/D/cols/route_r5_pT05n_31.npz", "dkg": 1.29}
+{"route": "r6", "tag": "pT07a", "ok": true, "miss": 56.90580738970349, "tank": 902.0154533752951, "irregular": 0, "imp_cap": 0.9964160192176046, "tL": 0.0, "sec": 1.8, "col": "results/s16/polish/D/cols/route_r6_pT07a_30.npz", "dkg": -0.22}
+{"route": "r3", "tag": "tLwm", "ok": false, "err": "no gain (2 steps)", "sec": 17.3}
+{"route": "r6", "tag": "pT07b", "ok": true, "miss": 36.297797236716285, "tank": 901.5475939376395, "irregular": 0, "imp_cap": 0.9611493309828638, "tL": 0.0, "sec": 1.6, "col": "results/s16/polish/D/cols/route_r6_pT07b_30.npz", "dkg": -0.69}
+{"route": "r6", "tag": "tLwm", "ok": false, "err": "no gain (1 steps)", "sec": 0.0}
+{"route": "r4", "tag": "tLwp", "ok": false, "err": "no gain (1 steps)", "sec": 12.1}
+{"route": "r6", "tag": "pT03e", "ok": true, "miss": 78.01971925578026, "tank": 901.826393745476, "irregular": 0, "imp_cap": 0.9945845903234598, "tL": 0.0, "sec": 5.1, "col": "results/s16/polish/D/cols/route_r6_pT03e_30.npz", "dkg": -0.41}
+{"route": "r1", "tag": "pT07b", "ok": false, "miss": 127817290.0186302, "tank": 1497.7347583643843, "irregular": 0, "imp_cap": 1.011871957549768, "tL": 41.0, "sec": 33.9}
+{"route": "r6", "tag": "pT05n", "ok": true, "miss": 77.3615952972366, "tank": 901.9023165459653, "irregular": 0, "imp_cap": 0.9949698127161667, "tL": 0.0, "sec": 9.2, "col": "results/s16/polish/D/cols/route_r6_pT05n_30.npz", "dkg": -0.33}
+{"route": "r6", "tag": "pT03f", "ok": true, "miss": 81.57731000940596, "tank": 902.015495174592, "irregular": 0, "imp_cap": 0.9932096997201796, "tL": 0.0, "sec": 8.5, "col": "results/s16/polish/D/cols/route_r6_pT03f_30.npz", "dkg": -0.22}
+{"route": "r7", "tag": "pT03f", "ok": true, "miss": 66.99925321743154, "tank": 1017.1345990884627, "irregular": 0, "imp_cap": 0.9803015485359028, "tL": 15.0, "sec": 2.4, "col": "results/s16/polish/D/cols/route_r7_pT03f_30.npz", "dkg": -0.04}
+{"route": "r7", "tag": "pT05n", "ok": true, "miss": 43.15766983163866, "tank": 1017.683495081428, "irregular": 0, "imp_cap": 0.9919469842785339, "tL": 15.0, "sec": 6.2, "col": "results/s16/polish/D/cols/route_r7_pT05n_30.npz", "dkg": 0.51}
+{"route": "r7", "tag": "pT03e", "ok": true, "miss": 71.23800161221507, "tank": 1017.8133588054377, "irregular": 0, "imp_cap": 0.951559894549799, "tL": 15.0, "sec": 5.7, "col": "results/s16/polish/D/cols/route_r7_pT03e_30.npz", "dkg": 0.64}
+{"route": "r6", "tag": "pT05m", "ok": false, "miss": 90778254.45792906, "tank": 1916.242131315941, "irregular": 0, "imp_cap": 1.0029784553158791, "tL": 0.0, "sec": 16.7}
+{"route": "r7", "tag": "pT07a", "ok": true, "miss": 69.4295394738058, "tank": 1018.8162688989454, "irregular": 0, "imp_cap": 0.9973973246760038, "tL": 15.0, "sec": 8.2, "col": "results/s16/polish/D/cols/route_r7_pT07a_30.npz", "dkg": 1.64}
+{"route": "r8", "tag": "pT05n", "ok": true, "miss": 28.573012186159062, "tank": 927.5815403789998, "irregular": 0, "imp_cap": 0.9997972666584959, "tL": 19.0, "sec": 2.2, "col": "results/s16/polish/D/cols/route_r8_pT05n_24.npz", "dkg": 0.06}
+{"route": "r8", "tag": "pT03f", "ok": true, "miss": 33.182538217179726, "tank": 927.2333857070846, "irregular": 0, "imp_cap": 0.9969742283566454, "tL": 19.0, "sec": 1.7, "col": "results/s16/polish/D/cols/route_r8_pT03f_24.npz", "dkg": -0.28}
+{"route": "r7", "tag": "pT07b", "ok": true, "miss": 65.04902586039478, "tank": 1018.4467637356437, "irregular": 0, "imp_cap": 0.9978617955326013, "tL": 15.0, "sec": 10.0, "col": "results/s16/polish/D/cols/route_r7_pT07b_30.npz", "dkg": 1.27}
+{"route": "r8", "tag": "pT03e", "ok": true, "miss": 72.28392266007042, "tank": 927.4346865095189, "irregular": 0, "imp_cap": 0.998867386357304, "tL": 19.0, "sec": 2.8, "col": "results/s16/polish/D/cols/route_r8_pT03e_24.npz", "dkg": -0.08}
+{"route": "r8", "tag": "pT07b", "ok": true, "miss": 5.717076660319182, "tank": 927.5316904554472, "irregular": 0, "imp_cap": 0.9988283420274165, "tL": 19.0, "sec": 3.0, "col": "results/s16/polish/D/cols/route_r8_pT07b_24.npz", "dkg": 0.01}
+{"route": "r8", "tag": "pT07a", "ok": true, "miss": 71.89095471202653, "tank": 927.330972005663, "irregular": 0, "imp_cap": 0.9983679461038364, "tL": 19.0, "sec": 3.8, "col": "results/s16/polish/D/cols/route_r8_pT07a_24.npz", "dkg": -0.19}
+{"route": "r9", "tag": "pT05m", "ok": true, "miss": 45.83712942669965, "tank": 903.2685524750369, "irregular": 0, "imp_cap": 0.9140881859480331, "tL": 944.0, "sec": 3.3, "col": "results/s16/polish/D/cols/route_r9_pT05m_21.npz", "dkg": -0.29}
+{"route": "r9", "tag": "pT05n", "ok": true, "miss": 32.95826986537566, "tank": 903.4617882854635, "irregular": 0, "imp_cap": 0.9938853000961759, "tL": 944.0, "sec": 2.3, "col": "results/s16/polish/D/cols/route_r9_pT05n_21.npz", "dkg": -0.09}
+{"route": "r9", "tag": "pT03e", "ok": true, "miss": 51.44702456083833, "tank": 903.5808402598781, "irregular": 0, "imp_cap": 0.9947572479044184, "tL": 944.0, "sec": 1.4, "col": "results/s16/polish/D/cols/route_r9_pT03e_21.npz", "dkg": 0.03}
+{"route": "r7", "tag": "tLwp", "ok": false, "err": "no gain (2 steps)", "sec": 21.8}
+{"route": "r9", "tag": "pT03f", "ok": true, "miss": 63.98280856118925, "tank": 902.8308305092615, "irregular": 0, "imp_cap": 0.9978886468487943, "tL": 944.0, "sec": 2.4, "col": "results/s16/polish/D/cols/route_r9_pT03f_21.npz", "dkg": -0.72}
+{"route": "r7", "tag": "tLwm", "ok": false, "err": "no gain (2 steps)", "sec": 22.3}
+{"route": "r5", "tag": "pT07b", "ok": false, "miss": 27198328.149983894, "tank": 1764.7326968295074, "irregular": 0, "imp_cap": 0.9922542621526261, "tL": 80.0, "sec": 38.1}
+{"route": "r9", "tag": "pT07b", "ok": true, "miss": 45.86778457918942, "tank": 902.8664575888988, "irregular": 0, "imp_cap": 0.9964923318114312, "tL": 944.0, "sec": 2.4, "col": "results/s16/polish/D/cols/route_r9_pT07b_21.npz", "dkg": -0.69}
+{"route": "r9", "tag": "tLwm", "ok": false, "err": "no gain (2 steps)", "sec": 2.3}
+{"route": "r9", "tag": "tLwp", "steps": 3, "ok": true, "miss": 5.424694784084587, "tank": 903.4983052825357, "irregular": 0, "imp_cap": 0.995093538765329, "tL": 945.0, "sec": 3.2, "col": "results/s16/polish/D/cols/route_r9_tLwp_21.npz", "dkg": -0.06}
+{"route": "r9", "tag": "pT07a", "ok": true, "miss": 71.92513195554105, "tank": 903.4860640671291, "irregular": 0, "imp_cap": 0.9937646745103412, "tL": 944.0, "sec": 5.5, "col": "results/s16/polish/D/cols/route_r9_pT07a_21.npz", "dkg": -0.07}
+{"route": "r8", "tag": "tLwp", "ok": false, "err": "no gain (2 steps)", "sec": 20.7}
+{"route": "r6", "tag": "tLwp", "ok": false, "err": "no gain (1 steps)", "sec": 37.5}
+{"route": "r7", "tag": "pT05m", "ok": false, "miss": 179797653.74827066, "tank": 1583.3613110656906, "irregular": 0, "imp_cap": 0.9699232519619062, "tL": 15.0, "sec": 37.1}
+{"route": "r8", "tag": "pT05m", "ok": false, "miss": 109280049.19418117, "tank": 1498.8738955677466, "irregular": 0, "imp_cap": 1.0067821520134326, "tL": 19.0, "sec": 33.0}
+{"route": "r8", "tag": "tLwm", "ok": false, "err": "no gain (2 steps)", "sec": 29.1}

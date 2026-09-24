@@ -1,0 +1,18 @@
+[01:57:10] job s02_c0 (craft, craft 0): T 1080 d H 540 L 360; remaining 247; prize >1 on 25, tank_prev 641.2
+[01:57:10] prefix slices/s02/in/craft_0.npz: 4 flybys, t_end 443.9 d, tank 641.2 kg (planner view), miss 20.9 km, nreg 24
+[01:57:10] start: 1 craft state(s), remaining 247, horizon (1080, 1620] + L 360 d, B 8 tries 16 k_epochs 3 price_cap 250 max_levels 14 wall 2400 s
+[01:57:17]   price_cap: 250 of 611 horizon candidates priced (1 parents)
+[01:58:03] depth  2: 1/1 parents -> 95 children (95 unique) -> tried 15, settled 8 (8 in H, 1 drifted out), kept 8 (8 branches); t_end 1086-1383 d, tank 648-912 (53 s: price 7, settle 46)
+[01:59:02]   price_cap: 2000 of 5589 horizon candidates priced (8 parents)
+[02:00:06] depth  3: 8/8 parents -> 730 children (730 unique) -> tried 16, settled 8 (6 in H, 2 drifted out), kept 8 (4 branches); t_end 1256-1634 d, tank 673-778 (123 s: price 59, settle 64)
+[02:01:11]   price_cap: 2000 of 4834 horizon candidates priced (8 parents)
+[02:02:53] depth  4: 8/8 parents -> 715 children (715 unique) -> tried 15, settled 8 (8 in H), kept 8 (4 branches); t_end 1483-1581 d, tank 751-1061 (167 s: price 65, settle 102)
+[02:04:02]   price_cap: 2000 of 4040 horizon candidates priced (8 parents)
+[02:06:02] depth  5: 8/8 parents -> 497 children (497 unique) -> tried 16, settled 7 (3 in H), kept 7 (4 branches); t_end 1590-1723 d, tank 776-1169 (189 s: price 68, settle 121)
+[02:06:54]   price_cap: 1506 of 2450 horizon candidates priced (7 parents)
+[02:09:20] depth  6: 7/7 parents -> 307 children (307 unique) -> tried 16, settled 4 (0 in H, 1 drifted out), kept 4 (1 branches); t_end 1749-1792 d, tank 882-1040 (198 s: price 52, settle 146)
+[02:09:48]   price_cap: 760 of 792 horizon candidates priced (4 parents)
+[02:12:31] depth  7: 4/4 parents -> 55 children (55 unique) -> tried 16, settled 2 (0 in H), kept 2 (1 branches); t_end 1928-1952 d, tank 914-921 (191 s: price 28, settle 162)
+[02:12:31] depth  8: 2/2 parents -> 0 children (0 unique) -> tried 0, settled 0 (0 in H), kept 0 (0 branches) (0 s: price 0, settle 0)
+[02:12:31] beam end {'kind': 'no_children', 'depth': 7, 'tried': 0}: 38 settled states, 94 settles (37 ok), wall 921 s (price 279, settle 642)
+[02:12:31] RESULT s02_c0: 25 columns (n_new 1-4, potential 0-2), 38 states, end no_children, wall 921 s

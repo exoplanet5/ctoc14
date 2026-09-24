@@ -1,0 +1,80 @@
+{
+ "N": 9,
+ "LB": 13.978,
+ "J": 21.7045,
+ "covered": 290,
+ "sumJi": 11.7045,
+ "misses": [
+  64,
+  119,
+  137,
+  138,
+  157,
+  158,
+  168,
+  216
+ ],
+ "depths": [
+  46,
+  46,
+  44,
+  35,
+  32,
+  30,
+  22,
+  18,
+  17
+ ],
+ "picks": [
+  {
+   "f": "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "n": 44,
+   "tank": 1045.11
+  },
+  {
+   "f": "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "n": 46,
+   "tank": 1029.03
+  },
+  {
+   "f": "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "n": 35,
+   "tank": 881.64
+  },
+  {
+   "f": "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "n": 46,
+   "tank": 1004.21
+  },
+  {
+   "f": "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+   "n": 32,
+   "tank": 968.36
+  },
+  {
+   "f": "results/s13/gen/g02/master/N8_B10.6/fleet/route_06.npz",
+   "n": 30,
+   "tank": 960.79
+  },
+  {
+   "f": "results/s13/gen/g02/master/N9/fleet/route_08.npz",
+   "n": 18,
+   "tank": 847.4
+  },
+  {
+   "f": "results/s13/gen/g02/master/N9/fleet/route_07.npz",
+   "n": 22,
+   "tank": 872.4
+  },
+  {
+   "f": "results/s13/gen/g02/master/N9/fleet/route_09.npz",
+   "n": 17,
+   "tank": 812.2
+  }
+ ],
+ "columns": 1218,
+ "kept": 1218,
+ "milp": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+ "wall_s": 225,
+ "fleet": "/Users/mickey/solarsystem/ctoc14/results/s15/select/r01/N9/fleet"
+}

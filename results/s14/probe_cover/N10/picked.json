@@ -1,0 +1,62 @@
+[
+ {
+  "f": "results/newgen/rt1/route_01.npz",
+  "n": 37,
+  "tank": 918.154,
+  "resettled": false
+ },
+ {
+  "f": "results/newgen/ifleet6/route_05.npz",
+  "n": 36,
+  "tank": 904.426,
+  "resettled": false
+ },
+ {
+  "f": "results/newgen/ifleet10/route_02.npz",
+  "n": 33,
+  "tank": 903.744,
+  "resettled": false
+ },
+ {
+  "f": "results/s14/A/s2/guided/g03_L1/route_03.npz",
+  "n": 30,
+  "tank": 795.201,
+  "resettled": false
+ },
+ {
+  "f": "results/s14/A/s2/guided/g04_L3/route_04.npz",
+  "n": 30,
+  "tank": 884.255,
+  "resettled": false
+ },
+ {
+  "f": "results/newgen/ifleet10/route_09.npz",
+  "n": 28,
+  "tank": 976.276,
+  "resettled": false
+ },
+ {
+  "f": "results/s14/A/s2/guided/g06_L1/route_06.npz",
+  "n": 27,
+  "tank": 790.807,
+  "resettled": false
+ },
+ {
+  "f": "results/newgen/ifleet10/route_03.npz",
+  "n": 27,
+  "tank": 815.111,
+  "resettled": false
+ },
+ {
+  "f": "results/newgen/ifleet10/route_04.npz",
+  "n": 26,
+  "tank": 870.612,
+  "resettled": false
+ },
+ {
+  "f": "results/s14/A/s2/guided/g09_L1/route_09.npz",
+  "n": 24,
+  "tank": 876.308,
+  "resettled": false
+ }
+]

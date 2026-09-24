@@ -1,0 +1,36 @@
+[01:19:34] new run _wp2_fake: N 3 H 540.0 d L 360.0 d proposer fixture_fake commit none nproc 2 stop_T 1620.0
+[01:19:34] [slice 0 T=0 d] propose: 2 jobs (0 craft, 2 root) on 2 workers, proposer fixture_fake
+[01:19:34]   job s00_r0 root  columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[01:19:34]   job s00_r1 root  columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[01:19:34] [slice 0] propose: 12 columns (0 bad dropped) in 0.0 s
+[01:19:34] [slice 0] auction: 12 columns, kept 8, dropped {'quota': 2, 'fuel': 2}
+[01:19:34] [slice 0] auction: status optimal objective 16.303 vars 8 rows 11 chosen 3 (0.009 s)
+[01:19:34] [slice 0 T=0 d] launched 3/3  covered 15  remaining 283  fuel 186 kg  sumJi 3.1390  chosen: r->c0:6(+70) r->c1:4(+48) r->c2:5(+63)  rejected: -  (wall 0 s)
+[01:19:34] [slice 1 T=540 d] propose: 3 jobs (3 craft, 0 root) on 2 workers, proposer fixture_fake
+[01:19:34]   job s01_c1 craft columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[01:19:34]   job s01_c0 craft columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[01:19:34]   job s01_c2 craft columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[01:19:34] [slice 1] propose: 18 columns (0 bad dropped) in 0.0 s
+[01:19:34] [slice 1] auction: 18 columns, kept 12, dropped {'quota': 3, 'fuel': 3}
+[01:19:34] [slice 1] auction: status optimal objective 13.360 vars 12 rows 10 chosen 3 (0.006 s)
+[01:19:34] [slice 1 T=540 d] launched 3/3  covered 27  remaining 271  fuel 329 kg  sumJi 3.2539  chosen: c0:4(+51) c1:4(+44) c2:4(+48)  rejected: -  (wall 0 s)
+[01:19:34] [slice 2 T=1080 d] propose: 3 jobs (3 craft, 0 root) on 2 workers, proposer fixture_fake
+[01:19:34]   job s02_c0 craft columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[01:19:34]   job s02_c1 craft columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[01:19:34]   job s02_c2 craft columns   6  levels 1  settles 0/0  end fixture  wall 0.0 s
+[01:19:34] [slice 2] propose: 18 columns (0 bad dropped) in 0.0 s
+[01:19:34] [slice 2] auction: 18 columns, kept 12, dropped {'quota': 3, 'fuel': 3}
+[01:19:34] [slice 2] auction: status optimal objective 19.698 vars 12 rows 14 chosen 3 (0.006 s)
+[01:19:35] [slice 2 T=1080 d] launched 3/3  covered 44  remaining 254  fuel 531 kg  sumJi 3.4273  chosen: c0:6(+70) c1:6(+73) c2:5(+59)  rejected: -  (wall 0 s)
+[01:19:35] stop: stop_T at T=1620 d (slice 3)
+[01:19:35] finalize: fleet/ 3 routes  covered 44  misses 254  fuel 531 kg  sumJi 3.4273  J 259.4273  honest False
+[01:19:35] _wp2_fake: slice 3 phase propose T=1620 d  launched 3/3  covered 44  remaining 254  fuel 531 kg  sumJi 3.4273  done True (stop_T)
+[01:19:35] resume: slice 2 has no commit.json -> rewind to its state_in (T=1080 d)
+[01:19:35] resume _wp2_fake: slice 2 phase propose T=1080 d done=False
+[01:19:35] [slice 2] propose: cached columns.json (18 columns)
+[01:19:35] [slice 2] auction: 18 columns, kept 12, dropped {'quota': 3, 'fuel': 3}
+[01:19:35] [slice 2] auction: status optimal objective 19.698 vars 12 rows 14 chosen 3 (0.007 s)
+[01:19:35] [slice 2 T=1080 d] launched 3/3  covered 44  remaining 254  fuel 531 kg  sumJi 3.4273  chosen: c0:6(+70) c1:6(+73) c2:5(+59)  rejected: -  (wall 0 s)
+[01:19:35] stop: stop_T at T=1620 d (slice 3)
+[01:19:35] finalize: fleet/ 3 routes  covered 44  misses 254  fuel 531 kg  sumJi 3.4273  J 259.4273  honest False
+[01:19:35] _wp2_fake: slice 3 phase propose T=1620 d  launched 3/3  covered 44  remaining 254  fuel 531 kg  sumJi 3.4273  done True (stop_T)

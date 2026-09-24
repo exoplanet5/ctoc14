@@ -1,0 +1,14 @@
+[12:05:16] === s14_twinbeam free route 02: pool 33 (own targets), source 33 fb @ 903.7 kg; gate leg dv 1.2 drmax 0.15 beam 20 tries 40 roots 300
+[12:05:28] roots: 1188 launch legs -> 230 kept (max root miss 0.0 km)
+[12:05:44] depth  2: 230 parents -> 370 children (205 unique) -> tried 21, settled 20, kept 16; t_end 416-659 d, tank 602-612; best 2 @ 601.5 kg (16 s)
+[12:05:50] depth  3: 16 parents -> 20 children (9 unique) -> tried 9, settled 9, kept 7; t_end 709-882 d, tank 608-617; best 3 @ 607.8 kg (6 s)
+[12:06:00] depth  4: 7 parents -> 11 children (9 unique) -> tried 9, settled 9, kept 7; t_end 1023-1319 d, tank 611-629; best 4 @ 610.9 kg (10 s)
+[12:06:19] depth  5: 7 parents -> 16 children (10 unique) -> tried 10, settled 10, kept 9; t_end 1188-1742 d, tank 617-642; best 5 @ 616.7 kg (19 s)
+[12:06:28] depth  6: 9 parents -> 9 children (7 unique) -> tried 7, settled 7, kept 5; t_end 1596-2126 d, tank 618-647; best 6 @ 618.3 kg (10 s)
+[12:06:48] depth  7: 5 parents -> 14 children (9 unique) -> tried 9, settled 9, kept 8; t_end 1930-2391 d, tank 624-656; best 7 @ 623.7 kg (20 s)
+[12:07:03] depth  8: 8 parents -> 6 children (5 unique) -> tried 5, settled 5, kept 4; t_end 2299-2788 d, tank 632-668; best 8 @ 632.3 kg (15 s)
+[12:07:15] depth  9: 4 parents -> 4 children (3 unique) -> tried 3, settled 3, kept 3; t_end 2661-3194 d, tank 636-679; best 9 @ 636.2 kg (12 s)
+[12:07:32] depth 10: 3 parents -> 4 children (4 unique) -> tried 4, settled 4, kept 3; t_end 3113-3508 d, tank 648-683; best 10 @ 648.5 kg (17 s)
+[12:07:43] depth 11: 3 parents -> 6 children (4 unique) -> tried 4, settled 4, kept 3; t_end 3512-3558 d, tank 686-694; best 11 @ 685.5 kg (10 s)
+[12:07:43] depth 12: 3 parents -> 0 children (0 unique) -> tried 0, settled 0, kept 0; best 11 @ 685.5 kg (0 s)
+[12:07:43] RESULT route 02: re-flown 11/33 at twin tank 685.5 kg (source 903.7); end {'kind': 'no_children', 'depth': 11, 'time_left_d': 1920.4}; settles 81 (80 ok), wall 135 s

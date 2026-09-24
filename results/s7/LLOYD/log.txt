@@ -1,0 +1,52 @@
+[09:56:59] restart 0 iter 0: assigned 243 (distinct 243), DP flybys [13, 12, 11, 9, 8, 8, 8, 6] = 75, value 72.9
+[09:57:00] restart 0 iter 1: assigned 259 (distinct 259), DP flybys [15, 13, 10, 9, 9, 9, 9, 8] = 82, value 75.0
+[09:57:02] restart 0 iter 2: assigned 266 (distinct 266), DP flybys [12, 11, 11, 10, 10, 9, 9, 4] = 76, value 75.5
+[09:57:03] restart 0 iter 3: assigned 269 (distinct 269), DP flybys [14, 13, 12, 12, 11, 11, 9, 9] = 91, value 83.6
+[09:57:05] restart 0 iter 4: assigned 271 (distinct 271), DP flybys [12, 12, 11, 11, 10, 8, 8, 8] = 80, value 77.5
+[09:57:06] restart 0 iter 5: assigned 275 (distinct 275), DP flybys [13, 13, 12, 11, 10, 8, 8, 8] = 83, value 78.8
+[09:57:07] restart 0 iter 6: assigned 274 (distinct 274), DP flybys [14, 13, 11, 11, 10, 9, 8, 8] = 84, value 80.7
+[09:57:08] restart 0 iter 7: assigned 278 (distinct 278), DP flybys [15, 13, 12, 11, 10, 9, 8, 6] = 84, value 80.5
+[09:57:10] restart 0 iter 8: assigned 277 (distinct 277), DP flybys [15, 12, 12, 11, 9, 9, 9, 6] = 83, value 85.8
+[09:57:11] restart 0 iter 9: assigned 277 (distinct 277), DP flybys [16, 12, 11, 11, 11, 10, 9, 8] = 88, value 83.2
+[09:57:12] restart 0 iter 10: assigned 275 (distinct 275), DP flybys [16, 12, 11, 10, 10, 10, 9, 9] = 87, value 80.5
+[09:57:13] restart 0 iter 11: assigned 277 (distinct 277), DP flybys [13, 12, 11, 11, 9, 9, 7, 5] = 77, value 74.9
+[09:57:13]   NEW BEST: 77 DP flybys over 8 co-designed carriers
+[09:57:15] restart 1 iter 0: assigned 270 (distinct 270), DP flybys [12, 11, 10, 9, 9, 9, 8, 7] = 75, value 73.3
+[09:57:16] restart 1 iter 1: assigned 278 (distinct 278), DP flybys [14, 12, 12, 11, 10, 9, 9, 7] = 84, value 81.3
+[09:57:17] restart 1 iter 2: assigned 275 (distinct 275), DP flybys [13, 13, 12, 11, 8, 8, 7, 5] = 77, value 76.7
+[09:57:18] restart 1 iter 3: assigned 271 (distinct 271), DP flybys [15, 13, 13, 12, 12, 11, 7, 7] = 90, value 80.2
+[09:57:20] restart 1 iter 4: assigned 273 (distinct 273), DP flybys [16, 13, 12, 12, 12, 10, 9, 7] = 91, value 84.2
+[09:57:21] restart 1 iter 5: assigned 273 (distinct 273), DP flybys [15, 15, 12, 12, 12, 12, 8, 8] = 94, value 83.0
+[09:57:22] restart 1 iter 6: assigned 271 (distinct 271), DP flybys [16, 13, 12, 11, 11, 10, 9, 9] = 91, value 84.9
+[09:57:23] restart 1 iter 7: assigned 276 (distinct 276), DP flybys [12, 11, 11, 11, 9, 9, 9, 9] = 81, value 83.8
+[09:57:25] restart 1 iter 8: assigned 273 (distinct 273), DP flybys [16, 13, 13, 11, 10, 8, 8, 8] = 87, value 84.7
+[09:57:26] restart 1 iter 9: assigned 273 (distinct 273), DP flybys [16, 14, 13, 12, 11, 11, 10, 8] = 95, value 85.9
+[09:57:27] restart 1 iter 10: assigned 275 (distinct 275), DP flybys [16, 13, 11, 10, 10, 9, 9, 8] = 86, value 87.1
+[09:57:28] restart 1 iter 11: assigned 278 (distinct 278), DP flybys [16, 15, 14, 12, 9, 9, 9, 8] = 92, value 87.8
+[09:57:28]   NEW BEST: 92 DP flybys over 8 co-designed carriers
+[09:57:29] restart 2 iter 0: assigned 251 (distinct 251), DP flybys [16, 12, 11, 10, 10, 9, 8, 7] = 83, value 77.7
+[09:57:30] restart 2 iter 1: assigned 251 (distinct 251), DP flybys [12, 11, 9, 9, 9, 9, 9, 8] = 76, value 77.8
+[09:57:32] restart 2 iter 2: assigned 251 (distinct 251), DP flybys [12, 11, 11, 10, 9, 9, 9, 8] = 79, value 77.8
+[09:57:33] restart 2 iter 3: assigned 259 (distinct 259), DP flybys [13, 12, 10, 10, 10, 10, 10, 9] = 84, value 76.0
+[09:57:34] restart 2 iter 4: assigned 262 (distinct 262), DP flybys [12, 12, 12, 11, 10, 10, 10, 9] = 86, value 81.3
+[09:57:35] restart 2 iter 5: assigned 263 (distinct 263), DP flybys [13, 13, 12, 11, 11, 10, 9, 8] = 87, value 78.4
+[09:57:36] restart 2 iter 6: assigned 266 (distinct 266), DP flybys [12, 12, 11, 11, 10, 9, 9, 9] = 83, value 79.6
+[09:57:37] restart 2 iter 7: assigned 265 (distinct 265), DP flybys [11, 11, 11, 11, 11, 9, 9, 9] = 82, value 79.7
+[09:57:38] restart 2 iter 8: assigned 265 (distinct 265), DP flybys [13, 12, 11, 11, 10, 10, 10, 9] = 86, value 81.5
+[09:57:39] restart 2 iter 9: assigned 273 (distinct 273), DP flybys [13, 13, 12, 12, 10, 10, 9, 8] = 87, value 82.7
+[09:57:41] restart 2 iter 10: assigned 268 (distinct 268), DP flybys [13, 13, 12, 10, 10, 9, 9, 8] = 84, value 78.8
+[09:57:42] restart 2 iter 11: assigned 268 (distinct 268), DP flybys [14, 13, 13, 12, 12, 11, 10, 8] = 93, value 82.4
+[09:57:42]   NEW BEST: 93 DP flybys over 8 co-designed carriers
+[09:57:43] restart 3 iter 0: assigned 258 (distinct 258), DP flybys [12, 12, 11, 11, 11, 9, 8, 8] = 82, value 69.8
+[09:57:44] restart 3 iter 1: assigned 260 (distinct 260), DP flybys [13, 12, 11, 10, 10, 9, 8, 8] = 81, value 80.6
+[09:57:45] restart 3 iter 2: assigned 258 (distinct 258), DP flybys [13, 11, 11, 10, 10, 7, 7, 7] = 76, value 78.9
+[09:57:46] restart 3 iter 3: assigned 258 (distinct 258), DP flybys [13, 12, 11, 11, 11, 8, 8, 7] = 81, value 83.8
+[09:57:48] restart 3 iter 4: assigned 257 (distinct 257), DP flybys [12, 12, 10, 10, 9, 9, 8, 7] = 77, value 77.3
+[09:57:49] restart 3 iter 5: assigned 261 (distinct 261), DP flybys [14, 14, 12, 12, 10, 9, 7, 6] = 84, value 75.0
+[09:57:50] restart 3 iter 6: assigned 261 (distinct 261), DP flybys [13, 11, 11, 10, 10, 9, 9, 7] = 80, value 75.8
+[09:57:51] restart 3 iter 7: assigned 259 (distinct 259), DP flybys [11, 11, 11, 10, 10, 9, 8, 8] = 78, value 78.2
+[09:57:52] restart 3 iter 8: assigned 261 (distinct 261), DP flybys [13, 12, 12, 11, 11, 10, 8, 6] = 83, value 75.1
+[09:57:53] restart 3 iter 9: assigned 257 (distinct 257), DP flybys [13, 13, 12, 12, 12, 11, 11, 6] = 90, value 76.1
+[09:57:55] restart 3 iter 10: assigned 260 (distinct 260), DP flybys [12, 12, 12, 10, 10, 10, 8, 6] = 80, value 72.4
+[09:57:56] restart 3 iter 11: assigned 260 (distinct 260), DP flybys [13, 12, 11, 9, 9, 9, 8, 7] = 78, value 72.5
+[09:57:56] done: best 93 DP flybys, per carrier [14, 13, 13, 12, 12, 11, 10, 8]

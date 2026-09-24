@@ -1,0 +1,22 @@
+[20:55:39] === insertion contrast 06: 27 fb @ 791.9 kg; inserting 11 targets [16, 51, 85, 107, 130, 157, 165, 248, 267, 270, 289]
+[21:02:08]   round 0: 11 targets, 25 trials, 11 settled (388 s); per-target best dkg: 16:+20.4, 51:FAIL, 85:+17.3, 107:+58.6, 130:+47.0, 157:+44.6, 165:+72.6, 248:+70.8, 267:+260.7, 270:+143.3, 289:FAIL
+[21:02:08]   INSERT 85 at 3427 d (closest approach 0.022 AU): 791.9 -> 809.2 kg (+17.3 kg, dJ +0.0159), depth 28
+[21:08:29]   round 1: 10 targets, 24 trials, 10 settled (381 s); per-target best dkg: 16:+27.1, 51:FAIL, 107:+65.4, 130:+59.3, 157:+32.9, 165:+73.7, 248:+77.4, 267:+263.3, 270:+147.7, 289:FAIL
+[21:08:29]   51: no successful insertion in 2 rounds -> ORPHAN
+[21:08:29]   289: no successful insertion in 2 rounds -> ORPHAN
+[21:08:29]   INSERT 16 at 1994 d (closest approach 0.018 AU): 809.2 -> 836.3 kg (+27.1 kg, dJ +0.0255), depth 29
+[21:11:24]   round 4: 7 targets, 19 trials, 9 settled (174 s); per-target best dkg: 107:+38.1, 130:+53.3, 157:+24.3, 165:+56.9, 248:+76.3, 267:+248.1, 270:+147.2
+[21:11:24]   INSERT 157 at 3251 d (closest approach 0.158 AU): 836.3 -> 860.6 kg (+24.3 kg, dJ +0.0235), depth 30
+[21:13:33]   round 5: 6 targets, 17 trials, 7 settled (129 s); per-target best dkg: 107:+36.6, 130:+69.6, 165:+72.5, 248:+176.5, 267:+248.4, 270:+161.1
+[21:13:33]   INSERT 107 at 1600 d (closest approach 0.043 AU): 860.6 -> 897.2 kg (+36.6 kg, dJ +0.0365), depth 31
+[21:15:39]   round 6: 5 targets, 15 trials, 6 settled (126 s); per-target best dkg: 130:+72.3, 165:+73.7, 248:+189.1, 267:+239.0, 270:+169.6
+[21:15:39]   INSERT 130 at 3931 d (closest approach 0.066 AU): 897.2 -> 969.5 kg (+72.3 kg, dJ +0.0763), depth 32
+[21:18:29]   round 7: 4 targets, 12 trials, 4 settled (169 s); per-target best dkg: 165:+64.0, 248:+190.6, 267:+256.6, 270:+279.9
+[21:18:29]   INSERT 165 at 2913 d (closest approach 0.080 AU): 969.5 -> 1033.6 kg (+64.0 kg, dJ +0.0720), depth 33
+[21:20:06]   round 8: 3 targets, 9 trials, 3 settled (97 s); per-target best dkg: 248:+213.7, 267:+216.4, 270:+304.1
+[21:20:06]   INSERT 248 at 3078 d (closest approach 0.338 AU): 1033.6 -> 1247.3 kg (+213.7 kg, dJ +0.2705), depth 34
+[21:22:08]   round 9: 2 targets, 6 trials, 0 settled (122 s); per-target best dkg: 267:FAIL, 270:FAIL
+[21:23:56]   round 9: 2 targets, 6 trials, 0 settled (109 s); per-target best dkg: 267:FAIL, 270:FAIL
+[21:23:56]   267: no successful insertion in 2 rounds -> ORPHAN
+[21:23:56]   270: no successful insertion in 2 rounds -> ORPHAN
+[21:23:57]   DONE 06: 27 fb @ 791.9 -> 34 fb @ 1247.3 kg; +7 inserted for +455.4 kg (65.0 kg each), orphans [51, 289, 267, 270]; kg/fb 7.11 -> 19.04; 133 trials, 1697 s

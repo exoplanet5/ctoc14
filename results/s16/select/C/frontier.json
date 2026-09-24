@@ -1,0 +1,45 @@
+{
+ "N9K298": {
+  "N": 9,
+  "K": 298,
+  "i": 0,
+  "covered": 298,
+  "sumJi": 11.74388,
+  "misses": [],
+  "msg": "Optimization terminated successfully. (H",
+  "picks": [
+   "results/s16/iter/A/cols/route_c1b608a1rs_42.npz",
+   "results/s16/polish/it5/cols/route_r2_pT05d_41.npz",
+   "results/s16/iter/A/cols/route_1cbca5f1rs_41.npz",
+   "results/s16/polish/it6/cols/route_r4_pT03a_38.npz",
+   "results/s16/swap/it7/cols/route_a621d978m241x284_31.npz",
+   "results/s16/polish/it5/cols/route_r6_pT05d_31.npz",
+   "results/s16/swap/it7/cols/route_bf806fc9m284x241_30.npz",
+   "results/s16/polish/it6/cols/route_r8_pT10h_24.npz",
+   "results/s16/polish/it6/cols/route_r9_pT10g_20.npz"
+  ],
+  "depths": [
+   42,
+   41,
+   41,
+   38,
+   31,
+   31,
+   30,
+   24,
+   20
+  ],
+  "tanks": [
+   944.69,
+   908.9,
+   986.75,
+   913.15,
+   918.89,
+   958.27,
+   1022.7,
+   927.83,
+   898.15
+  ],
+  "sec": 8
+ }
+}

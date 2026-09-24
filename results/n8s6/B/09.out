@@ -1,0 +1,14 @@
+[10:21:32] skeletons: 8 routes, covered 67, J 241.4199; 05:9@670 09:9@734 13:9@668 01:8@647 03:8@642 06:8@678 10:8@653 12:8@664
+[10:29:35]     09 seg 4: 2 states reach waypoint 217 -- relaxed retry
+[10:30:21]     09 segments: 0:8->120st/10fb 1:39->13st/11fb 2:251->21st/13fb 3:51->205st/26fb 4:217->5st/27fb 5:168->6st/29fb 6:33->13st/31fb 7:157->19st/33fb 8:219->23st/36fb 9:None->44st/36fb
+[10:30:21]   09 f1.00/s0 half45: pool 231, +44 columns (deepest 36), 44 distinct
+[10:37:32]     09 seg 4: 1 states reach waypoint 217 -- relaxed retry
+[10:37:39]     09 seg 4: 4 states reach waypoint 217 -- giving up
+[10:37:41]     09 seg 5: 2 states reach waypoint 168 -- relaxed retry
+[10:37:46]     09 seg 6: 3 states reach waypoint 33 -- relaxed retry
+[10:37:51]     09 seg 7: 2 states reach waypoint 157 -- relaxed retry
+[10:37:57]     09 seg 8: 0 states reach waypoint 219 -- relaxed retry
+[10:37:57]     09 seg 8: 0 states reach waypoint 219 -- giving up
+[10:37:57]     09 seg 8: DROPPING waypoint 219 ([5211,5391] d unreachable); it goes to the leftovers
+[10:37:58]     09 segments: 0:8->154st/10fb 1:39->19st/10fb 2:251->40st/12fb 3:51->174st/25fb 4:217->2st/26fb 5:168->4st/28fb 6:33->4st/29fb 7:157->3st/30fb 8:219->0st/0fb 9:None->9st/31fb
+[10:37:58]   09 f0.70/s0 half90: pool 162, +9 columns (deepest 31), 53 distinct

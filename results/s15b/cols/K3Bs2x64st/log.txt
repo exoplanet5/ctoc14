@@ -1,0 +1,10 @@
+[02:24:06] twintail K3Bs2x64st: pool 15, S [64], p 0.1, steps 1, beam 24/72, nproc 1; resume at step 1
+[02:24:18]   roots: 945 launch legs -> 204 kept; pool 15, S [64] p 0.1
+[02:33:08]   depth  2: 204 parents -> 2938 kids (2056 uniq) -> tried 39, settled 24, kept 21; t_end 479-945 d, tank 602-652, max S 0 (530 s, gen 467 s)
+[02:36:07]   depth  3: 21 parents -> 304 kids (302 uniq) -> tried 43, settled 24, kept 21; t_end 576-1512 d, tank 607-698, max S 0 (179 s, gen 71 s)
+[02:38:42]   depth  4: 21 parents -> 405 kids (405 uniq) -> tried 29, settled 24, kept 23; t_end 947-1500 d, tank 612-748, max S 0 (155 s, gen 93 s)
+[02:43:35]   depth  5: 23 parents -> 438 kids (437 uniq) -> tried 43, settled 24, kept 23; t_end 1162-2001 d, tank 621-843, max S 0 (293 s, gen 117 s)
+[02:47:23]   depth  6: 23 parents -> 445 kids (445 uniq) -> tried 25, settled 24, kept 24; t_end 1489-2492 d, tank 653-785, max S 0 (228 s, gen 141 s)
+[02:53:00]   depth  7: 24 parents -> 391 kids (390 uniq) -> tried 31, settled 24, kept 24; t_end 1889-2888 d, tank 664-907, max S 0 (337 s, gen 166 s)
+[03:00:19]   depth  8: 24 parents -> 370 kids (370 uniq) -> tried 35, settled 24, kept 24; t_end 2530-3245 d, tank 674-887, max S 0 (439 s, gen 199 s)
+[03:12:04]   depth  9: 24 parents -> 322 kids (322 uniq) -> tried 25, settled 24, kept 23; t_end 2723-3748 d, tank 676-910, max S 0 (705 s, gen 220 s)

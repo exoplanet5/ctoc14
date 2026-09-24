@@ -1,0 +1,20 @@
+[22:45:01] === 07 cond pool builder seg: pool 36 = own 27 + extra 9 [12, 68, 71, 118, 141, 171, 208, 251, 254]; hard in pool 9; source route 27 fb @ 815.1 kg (7.97 kg/fb)
+[22:45:01]   hard extra 251: waypoint at 3830 d (closest approach 0.077 AU to the source route)
+[22:45:01]   hard extra 254: waypoint at 3708 d (closest approach 0.059 AU to the source route)
+[22:45:01]   skeleton: 9 waypoints 205@734 214@1785 203@1986 88@2503 15@3637 254@3708 178@3791 251@3830 36@4767; easy 27
+[22:48:22]     07 seg 6: 2 states reach waypoint 178 -- relaxed retry
+[22:48:24]     07 seg 6: 4 states reach waypoint 178 -- giving up
+[22:48:24]     07 seg 7: 0 states reach waypoint 251 -- relaxed retry
+[22:48:24]     07 seg 7: 0 states reach waypoint 251 -- giving up
+[22:48:24]     07 seg 7: DROPPING waypoint 251 ([3785,3875] d unreachable); it goes to the leftovers
+[22:48:28]     07 segments: 0:205->26st/4fb 1:214->56st/8fb 2:203->30st/9fb 3:88->26st/11fb 4:15->613st/17fb 5:254->35st/18fb 6:178->2st/17fb 7:251->0st/0fb 8:36->8st/21fb 9:None->89st/26fb
+[22:48:28]   build 207 s: 89 states, deepest 26 of pool 36; Pareto 20:864 21:873 22:879 23:885 24:896 25:932 26:956
+[22:49:32]     26 pool fb (alt 0): settle FAILED (miss 5428264.575044273, 64 s)
+[22:50:21]     25 pool fb (alt 0): settle FAILED (miss 16572171.353019733, 48 s)
+[22:50:33]     25 pool fb (alt 1): planner 943 -> twin 921.5 kg, 12.86 kg/fb, 0.669 km/s/fb, J_i 1.2823, own 22/27 extra 3/9 (miss 2 km, 12 s)
+[22:51:35]     24 pool fb (alt 0): settle FAILED (miss 156122662.38779104, 62 s)
+[22:52:32]     24 pool fb (alt 1): planner 911 -> twin 1089.2 kg, 20.38 kg/fb, 0.971 km/s/fb, J_i 1.4715, own 22/27 extra 2/9 (miss 15 km, 58 s)
+[22:52:47]     23 pool fb (alt 0): planner 885 -> twin 1974.7 kg, 59.77 kg/fb, 2.027 km/s/fb, J_i 2.9460, own 21/27 extra 2/9 (miss 54 km, 15 s)
+[22:52:58]     22 pool fb (alt 0): planner 879 -> twin 1866.3 kg, 57.56 kg/fb, 2.019 km/s/fb, J_i 2.7226, own 20/27 extra 2/9 (miss 86 km, 12 s)
+[22:53:14]     21 pool fb (alt 0): planner 873 -> twin 934.8 kg, 15.94 kg/fb, 0.824 km/s/fb, J_i 1.2963, own 19/27 extra 2/9 (miss 3 km, 16 s)
+[22:53:14]   BEST 07: 25/36 pool targets @ 921.5 kg (12.86 kg/fb; source 27 @ 815.1 = 7.97 kg/fb); orphans [3, 12, 68, 69, 71, 87, 118, 171, 184, 251, 296]

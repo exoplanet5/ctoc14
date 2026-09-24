@@ -1,0 +1,224 @@
+{
+ "rows": [
+  {
+   "route": "00",
+   "pool": 37,
+   "planned": 35,
+   "planned_tank": 1316.46,
+   "settled": 35,
+   "tank": 927.2,
+   "missing": [
+    24,
+    163
+   ],
+   "t10d": 918.2,
+   "s1_lt20": 35,
+   "s1_best": 35,
+   "plan_wall": 200.8,
+   "wall": 218.7,
+   "end": {
+    "kind": "no_children",
+    "depth": 35,
+    "time_left_d": 25.3
+   }
+  },
+  {
+   "route": "01",
+   "pool": 36,
+   "planned": 35,
+   "planned_tank": 1128.68,
+   "settled": 35,
+   "tank": 935.12,
+   "missing": [
+    35
+   ],
+   "t10d": 904.4,
+   "s1_lt20": 33,
+   "s1_best": 34,
+   "plan_wall": 194.0,
+   "wall": 211.4,
+   "end": {
+    "kind": "no_children",
+    "depth": 35,
+    "time_left_d": 81.7
+   }
+  },
+  {
+   "route": "02",
+   "pool": 33,
+   "planned": 27,
+   "planned_tank": 1153.51,
+   "settled": 27,
+   "tank": 991.76,
+   "missing": [
+    17,
+    104,
+    217,
+    249,
+    264,
+    278
+   ],
+   "t10d": 903.7,
+   "s1_lt20": 28,
+   "s1_best": 28,
+   "plan_wall": 169.9,
+   "wall": 189.1,
+   "end": {
+    "kind": "no_children",
+    "depth": 27,
+    "time_left_d": 15.3
+   }
+  },
+  {
+   "route": "03",
+   "pool": 30,
+   "planned": 30,
+   "planned_tank": 1054.3,
+   "settled": 30,
+   "tank": 830.86,
+   "missing": [],
+   "t10d": 795.3,
+   "s1_lt20": 30,
+   "s1_best": 30,
+   "plan_wall": 171.3,
+   "wall": 189.4,
+   "end": {
+    "kind": "pool_exhausted",
+    "depth": 30
+   }
+  },
+  {
+   "route": "04",
+   "pool": 30,
+   "planned": 30,
+   "planned_tank": 1094.07,
+   "settled": 30,
+   "tank": 892.84,
+   "missing": [],
+   "t10d": 886.7,
+   "s1_lt20": 30,
+   "s1_best": 30,
+   "plan_wall": 160.0,
+   "wall": 177.2,
+   "end": {
+    "kind": "pool_exhausted",
+    "depth": 30
+   }
+  },
+  {
+   "route": "05",
+   "pool": 28,
+   "planned": 27,
+   "planned_tank": 1249.28,
+   "settled": 27,
+   "tank": 943.86,
+   "missing": [
+    157
+   ],
+   "t10d": 976.3,
+   "s1_lt20": 28,
+   "s1_best": 28,
+   "plan_wall": 159.7,
+   "wall": 195.4,
+   "end": {
+    "kind": "no_children",
+    "depth": 27,
+    "time_left_d": 31.7
+   }
+  },
+  {
+   "route": "06",
+   "pool": 27,
+   "planned": 26,
+   "planned_tank": 906.81,
+   "settled": 26,
+   "tank": 796.83,
+   "missing": [
+    218
+   ],
+   "t10d": 791.9,
+   "s1_lt20": 25,
+   "s1_best": 26,
+   "plan_wall": 145.5,
+   "wall": 160.3,
+   "end": {
+    "kind": "no_children",
+    "depth": 26,
+    "time_left_d": 20.8
+   }
+  },
+  {
+   "route": "07",
+   "pool": 27,
+   "planned": 26,
+   "planned_tank": 1155.77,
+   "settled": 26,
+   "tank": 972.77,
+   "missing": [
+    203
+   ],
+   "t10d": 815.1,
+   "s1_lt20": 24,
+   "s1_best": 24,
+   "plan_wall": 152.6,
+   "wall": 171.4,
+   "end": {
+    "kind": "no_children",
+    "depth": 26,
+    "time_left_d": 154.6
+   }
+  },
+  {
+   "route": "08",
+   "pool": 26,
+   "planned": 24,
+   "planned_tank": 1113.52,
+   "settled": 24,
+   "tank": 922.23,
+   "missing": [
+    93,
+    154
+   ],
+   "t10d": 870.6,
+   "s1_lt20": 23,
+   "s1_best": 24,
+   "plan_wall": 146.8,
+   "wall": 184.6,
+   "end": {
+    "kind": "no_children",
+    "depth": 24,
+    "time_left_d": 44.7
+   }
+  },
+  {
+   "route": "09",
+   "pool": 24,
+   "planned": 23,
+   "planned_tank": 1023.85,
+   "settled": 23,
+   "tank": 892.05,
+   "missing": [
+    120
+   ],
+   "t10d": 876.5,
+   "s1_lt20": 21,
+   "s1_best": 24,
+   "plan_wall": 138.2,
+   "wall": 168.9,
+   "end": {
+    "kind": "no_children",
+    "depth": 23,
+    "time_left_d": 116.5
+   }
+  }
+ ],
+ "total": {
+  "pool": 298,
+  "planned": 283,
+  "settled": 283,
+  "plan_cpu_s": 1638.8,
+  "cpu_s": 1866.4,
+  "sum_Ji": 12.7269,
+  "n": 10
+ }
+}

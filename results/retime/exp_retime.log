@@ -1,0 +1,37 @@
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:101: RuntimeWarning: overflow encountered in cosh
+  C[neg] = (np.cosh(sz[neg]) - 1) / (-z[neg])
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:102: RuntimeWarning: overflow encountered in sinh
+  S[neg] = (np.sinh(sz[neg]) - sz[neg]) / sz[neg] ** 3
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:131: RuntimeWarning: invalid value encountered in divide
+  dchi = -F / r
+/Users/mickey/solarsystem/ctoc14/tools/exp_retime.py:144: RuntimeWarning: divide by zero encountered in scalar divide
+  a = TMAX / m * 1e-3
+/Users/mickey/solarsystem/ctoc14/tools/exp_retime.py:104: RuntimeWarning: divide by zero encountered in scalar divide
+  a = TMAX / m * 1e-3
+24 tours refined in 340 s
+camp1 sc 1: n=31 lin= 7 fuel  390.5 ->  313.3 kg (- 77.2) sum dv 16.65 -> 12.88 max shift  2.25 d launch  +7.5 d passes 4    38 s max util 0.647->0.412 log 0
+camp1 sc 2: n=31 lin= 3 fuel  392.0 ->  335.9 kg (- 56.1) sum dv 16.61 -> 13.82 max shift  3.00 d launch +12.5 d passes 7    41 s max util 0.633->0.382 log 0
+camp1 sc 3: n=30 lin= 5 fuel  388.4 ->  331.0 kg (- 57.3) sum dv 16.64 -> 13.69 max shift  3.25 d launch +15.0 d passes 5    36 s max util 0.412->0.431 log 0
+camp1 sc 4: n=29 lin= 2 fuel  391.1 ->  333.8 kg (- 57.2) sum dv 16.34 -> 13.49 max shift  2.25 d launch  -5.0 d passes 4    17 s max util 0.603->0.574 log 0
+camp1 sc 5: n=28 lin= 4 fuel  390.5 ->  298.6 kg (- 92.0) sum dv 16.63 -> 12.01 max shift  3.00 d launch +20.0 d passes 5    35 s max util 0.562->0.541 log 0
+camp1 sc 6: n=26 lin= 5 fuel  386.4 ->  295.3 kg (- 91.2) sum dv 16.57 -> 12.05 max shift  3.75 d launch +12.5 d passes 8    50 s max util 0.297->0.280 log 0
+camp1 sc 7: n=25 lin= 8 fuel  385.1 ->  314.3 kg (- 70.8) sum dv 16.48 -> 13.02 max shift  2.25 d launch  +5.0 d passes 6    64 s max util 0.481->0.392 log 0
+camp1 sc 8: n=21 lin= 8 fuel  365.9 ->  327.1 kg (- 38.7) sum dv 15.95 -> 13.94 max shift  1.25 d launch -10.0 d passes 3    33 s max util 0.386->0.338 log 0
+camp1 sc 9: n=21 lin= 4 fuel  384.2 ->  327.1 kg (- 57.0) sum dv 16.61 -> 13.63 max shift  2.50 d launch +12.5 d passes 5    34 s max util 0.416->0.354 log 0
+camp1 sc10: n=20 lin= 6 fuel  331.9 ->  268.5 kg (- 63.4) sum dv 14.54 -> 11.32 max shift  4.75 d launch  +7.5 d passes 6    60 s max util 0.399->0.342 log 0
+camp1 sc11: n=19 lin= 7 fuel  355.9 ->  308.8 kg (- 47.1) sum dv 15.52 -> 13.11 max shift  3.00 d launch -12.5 d passes 5    64 s max util 0.357->0.315 log 0
+camp1 sc12: n=18 lin= 5 fuel  336.6 ->  304.4 kg (- 32.2) sum dv 14.76 -> 13.08 max shift  2.50 d launch -12.5 d passes 3    20 s max util 0.379->0.378 log 0
+camp2 sc 1: n=32 lin= 5 fuel  502.5 ->  420.6 kg (- 82.0) sum dv 19.98 -> 15.91 max shift  4.50 d launch -15.0 d passes 6    38 s max util 0.579->0.611 log 0
+camp2 sc 2: n=31 lin= 4 fuel  508.3 ->  423.3 kg (- 84.9) sum dv 19.71 -> 15.73 max shift  2.50 d launch  +2.5 d passes 4    27 s max util 0.676->0.625 log 0
+camp2 sc 3: n=30 lin= 4 fuel  502.1 ->  402.1 kg (-100.1) sum dv 19.83 -> 15.12 max shift  2.75 d launch -35.0 d passes 5    34 s max util 0.540->0.422 log 0
+camp2 sc 4: n=28 lin= 6 fuel  496.9 ->  434.4 kg (- 62.5) sum dv 19.79 -> 16.73 max shift  4.50 d launch  -7.5 d passes 5    53 s max util 0.694->0.587 log 0
+camp2 sc 5: n=27 lin= 6 fuel  509.4 ->  440.9 kg (- 68.5) sum dv 20.18 -> 16.88 max shift  3.00 d launch  +0.0 d passes 4    36 s max util 0.582->0.473 log 0
+camp2 sc 6: n=26 lin= 6 fuel  501.3 ->  408.7 kg (- 92.6) sum dv 19.84 -> 15.36 max shift  3.75 d launch +10.0 d passes 5    50 s max util 0.928->0.671 log 0
+camp2 sc 7: n=25 lin= 1 fuel  502.9 ->  434.8 kg (- 68.1) sum dv 19.73 -> 16.56 max shift  2.75 d launch -22.5 d passes 4    11 s max util 1.010->0.592 log 0
+camp2 sc 8: n=23 lin= 5 fuel  483.2 ->  422.1 kg (- 61.1) sum dv 19.55 -> 16.44 max shift  2.25 d launch +17.5 d passes 3    29 s max util 0.354->0.385 log 0
+camp2 sc 9: n=22 lin= 8 fuel  483.9 ->  434.5 kg (- 49.3) sum dv 19.54 -> 17.09 max shift  2.50 d launch +25.0 d passes 3    37 s max util 0.505->0.494 log 0
+camp2 sc10: n=18 lin= 6 fuel  438.2 ->  400.6 kg (- 37.6) sum dv 17.97 -> 16.18 max shift  2.75 d launch  +0.0 d passes 3    33 s max util 0.417->0.281 log 0
+camp2 sc11: n=16 lin= 7 fuel  355.9 ->  305.3 kg (- 50.5) sum dv 15.17 -> 12.73 max shift  3.50 d launch  +2.5 d passes 5    71 s max util 0.301->0.268 log 0
+camp2 sc12: n=16 lin= 5 fuel  362.2 ->  297.6 kg (- 64.6) sum dv 15.13 -> 11.99 max shift  2.50 d launch +15.0 d passes 4    39 s max util 0.355->0.362 log 0
+camp1: fuel 4498.5 -> 3758.1 kg; sum J_i (1.3f+20) 18.405 -> 16.396; (1.1f+10) 16.269 -> 15.084; planned misses 20
+camp2: fuel 5646.8 -> 4825.0 kg; sum J_i (1.3f+20) 20.919 -> 17.992; (1.1f+10) 17.578 -> 16.030; planned misses 11

@@ -1,0 +1,9 @@
+[22:11:35] start: covered 228, sum J_i 10.134
+[22:16:59]   round 0 route 07: +7 -> 27 @ 1140 kg (was 761)
+[22:18:52]   round 0 route 05: +1 -> 21 @ 865 kg (was 810)
+[22:21:46]   round 0 route 06: +5 -> 26 @ 1124 kg (was 830)
+[22:23:21]   round 0 route 02: +2 -> 34 @ 1055 kg (was 909)
+[22:26:38]   round 0 route 04: +4 -> 30 @ 1172 kg (was 914)
+[22:28:39]   round 0 route 01: +1 -> 38 @ 1032 kg (was 960)
+[22:30:13]   round 0 route 03: +1 -> 33 @ 1088 kg (was 1001)
+[22:30:52] round 0: +21 -> covered 249, sum J_i 11.561, J 62.561

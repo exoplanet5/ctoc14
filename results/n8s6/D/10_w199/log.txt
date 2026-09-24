@@ -1,0 +1,7 @@
+[10:41:36] skeletons: 8 routes, covered 67, J 241.4199; 05:9@670 09:9@734 13:9@668 01:8@647 03:8@642 06:8@678 10:8@653 12:8@664
+[10:46:44] skeletons: 8 routes, covered 67, J 241.4199; 05:9@670 09:9@734 13:9@668 01:8@647 03:8@642 06:8@678 10:8@653 12:8@664
+[10:46:44]   10: dropping waypoints [199] -> 7 left
+[10:55:45]     10 segments: 0:169->56st/4fb 1:166->151st/8fb 2:62->283st/17fb 3:116->16st/20fb 4:18->210st/26fb 5:282->30st/27fb 6:25->124st/35fb 7:None->149st/37fb
+[10:55:45]   10 f1.00/s0 half45: pool 232, +149 columns (deepest 37), 149 distinct
+[10:55:45] [10] 149 columns, depth 34-37, 57 distinct easy targets reached (542 s)
+[10:55:45] 149 columns written to results/n8s6/D/c_10_w199.jsonl

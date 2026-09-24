@@ -1,0 +1,5 @@
+[22:18:52] start 06: 21 flybys, tank 830 kg
+[22:19:53] round 1: 11/22 ok, singles 41 53 59 64 86 106 kg; +[104, 192, 223] -> 24 flybys, tank 991 kg (+161), 0.816 km/s/fb  (61 s)
+[22:20:53] round 2: 9/18 ok, singles 50 82 151 160 166 168 kg; +[116, 98] -> 26 flybys, tank 1124 kg (+133), 0.943 km/s/fb  (121 s)
+[22:21:46] round 3: 5 of 17 trials ok, none under 1250 kg / +90 kg
+[22:21:46] done: 26 flybys, tank 1124 kg, J_i 1.514

@@ -1,0 +1,91 @@
+{
+ "fleets": {
+  "TB5f": {
+   "files": {
+    "h01": "results/s14/probe_cover/N9/fleet/route_01.npz",
+    "h02": "results/s14/probe_cover/N9/fleet/route_02.npz",
+    "h03": "results/s14/probe_cover/N9/fleet/route_03.npz",
+    "h04": "results/s14/probe_cover/N9/fleet/route_04.npz",
+    "h05": "results/s14/probe_cover/N9/fleet/route_05.npz",
+    "h06": "results/s14/probe_cover/N9/fleet/route_06.npz",
+    "t1": "results/s13/gen/g02x/tailB55k4/lib/route_07_T6_26.npz",
+    "s1": "results/s15/cols/t03/TB5f/route_TB5fs1_22.npz",
+    "s2": "results/s15/cols/t03/TB5f/route_TB5fs2_14_1.npz"
+   },
+   "covered": 295,
+   "sumJi": 11.8697,
+   "misses": [
+    33,
+    110,
+    280
+   ],
+   "craft": 9,
+   "approach": {
+    "h01": {
+     "110": 0.2368
+    },
+    "h02": {},
+    "h03": {
+     "33": 0.1899,
+     "110": 0.2426
+    },
+    "h04": {
+     "33": 0.1075,
+     "280": 0.0664
+    },
+    "h05": {
+     "33": 0.2165
+    },
+    "h06": {
+     "110": 0.1197
+    },
+    "t1": {
+     "280": 0.1119
+    },
+    "s1": {},
+    "s2": {}
+   },
+   "closed": [
+    {
+     "host": "h01",
+     "got": [],
+     "dkg": 0.0
+    },
+    {
+     "host": "h03",
+     "got": [],
+     "dkg": 0.0
+    },
+    {
+     "host": "h04",
+     "got": [],
+     "dkg": 0.0
+    },
+    {
+     "host": "h05",
+     "got": [],
+     "dkg": 0.0
+    },
+    {
+     "host": "h06",
+     "got": [
+      110
+     ],
+     "dkg": 46.2
+    },
+    {
+     "host": "t1",
+     "got": [],
+     "dkg": 0.0
+    }
+   ],
+   "placed": [
+    110
+   ],
+   "unplaced": [
+    33,
+    280
+   ]
+  }
+ }
+}

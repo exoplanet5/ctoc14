@@ -1,0 +1,50 @@
+{
+ "job": {
+  "pool": null,
+  "S": [],
+  "p": 0.01,
+  "seed": 0,
+  "beam": 100,
+  "member": "H",
+  "dvS": 2.0,
+  "jit": 0.001,
+  "front": 24,
+  "cap": 1100.0,
+  "save_cap": 1300.0,
+  "max_settles": 10,
+  "ok_target": 6,
+  "dense": 3,
+  "stride": 3,
+  "repair": true,
+  "repair_settles": 5,
+  "absorb": null,
+  "absorb_hosts": 2,
+  "absorb_trials": 4,
+  "absorb_dmax": 0.2,
+  "absorb_kg": 150.0,
+  "settle_timeout": 240.0,
+  "kappa": 90.0,
+  "wall_budget": 2400.0,
+  "kind": "close",
+  "tag": "C01h6_s1",
+  "out": "results/s15/cols/r01/fclose/C01h6_s1",
+  "item_trials": 3,
+  "max_abs": 4
+ },
+ "kind": "close",
+ "hosts": [
+  {
+   "f": "results/s15/cols/r01/C01h6/route_C01h6s1_26.npz",
+   "tried": [
+    262,
+    254,
+    22
+   ],
+   "got": [],
+   "dkg": 0.0
+  }
+ ],
+ "cols": [],
+ "wall_s": 87,
+ "done": "21:10:03"
+}

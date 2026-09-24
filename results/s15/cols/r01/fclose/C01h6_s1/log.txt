@@ -1,0 +1,5 @@
+[21:08:38]     absorb[route_C01h6s1_26+[]]: 3 approaches of [22, 254, 262]; lintwin 262@4090d 0.025AU 12kg, 254@3716d 0.187AU 51kg, 22@252d 0.196AU 149kg
+[21:08:57]     absorb[route_C01h6s1_26+[]]: insert 262 at 4090 d (lintwin 12 kg) -> fail 148752.03689488655 (19 s)
+[21:09:28]     absorb[route_C01h6s1_26+[]]: insert 254 at 3716 d (lintwin 51 kg) -> fail 571667.6663984108 (31 s)
+[21:10:03]     absorb[route_C01h6s1_26+[]]: insert 22 at 252 d (lintwin 149 kg) -> fail 29328748.115097836 (35 s)
+[21:10:03] close C01h6_s1 done: 0 columns (87 s)

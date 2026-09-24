@@ -1,0 +1,11 @@
+[23:03:16] column F02p10: pool 298, S [15], p 0.01, member H, seed 220, absorb [15, 17, 20, 22, 33, 36, 53, 64, 71, 75, 90, 93, 108, 110, 118, 119, 132, 134, 137, 138, 139, 143, 157, 158, 168, 180, 216, 218, 219, 234, 243, 251, 254, 262, 288]
+[23:08:18]   plan H: pool 298, S [15], deepest 48, deepest with S 48; front 48:976 48:1016* 47:953 47:985* 46:935 46:945* 45:927 45:937* 44:921 43:909 (301 s)
+[23:08:29]     settle H 48 fb (S [15]) planner 1016 -> twin 1113 miss 47 OK (11 s)
+[23:08:41]     settle H 48 fb (S []) planner 976 -> twin 1073 miss 58 OK (12 s)
+[23:08:53]     settle H 47 fb (S [15]) planner 985 -> twin 1080 miss 83 OK (12 s)
+[23:09:00]     settle H 44 fb (S []) planner 921 -> twin 970 miss 56 OK (7 s)
+[23:09:07]     settle H 41 fb (S []) planner 898 -> twin 953 miss 65 OK (7 s)
+[23:09:12]     settle H 38 fb (S []) planner 866 -> twin 911 miss 77 OK (5 s)
+[23:09:14]     absorb[h48]: 5 approaches of [20, 93, 218, 219, 262]; lintwin 93@4430d 0.067AU 134kg, 262@5309d 0.107AU 238kg, 218@2001d 0.067AU 483kg, 219@1670d 0.175AU 689kg, 20@2004d 0.062AU 736kg
+[23:09:15]     absorb[h47]: 4 approaches of [20, 93, 218, 219]; lintwin 93@4422d 0.068AU 184kg, 218@2005d 0.067AU 558kg, 20@2000d 0.062AU 680kg, 219@1678d 0.175AU 760kg
+[23:09:15] column F02p10 done: 6 columns (0 absorbed); 359 s

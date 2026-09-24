@@ -1,0 +1,12 @@
+[20:18:18] column F01p20: pool 298, S [157, 168], p 0.02, member H, seed 113, absorb [64, 119, 137, 138, 157, 158, 168, 216]
+[20:22:49]   plan H: pool 298, S [157, 168], deepest 48, deepest with S 47; front 48:1035 47:1010* 46:1007* 46:1032** 45:1002* 45:1024** 44:988* 44:1022** 43:979* 43:1019** (271 s)
+[20:22:56]     settle H 48 fb (S []) planner 1035 -> twin 1123 miss 70 OK (7 s)
+[20:23:18]     settle H 47 fb (S [168]) planner 1010 -> twin 1047 miss 10 OK (22 s)
+[20:23:46]     settle H 46 fb (S [157, 168]) planner 1032 -> twin 1120 miss 66 OK (28 s)
+[20:23:57]     settle H 43 fb (S [157, 168]) planner 1019 -> twin 1565 miss 100 no (11 s)
+[20:24:08]     settle H 42 fb (S [168]) planner 967 -> twin 1012 miss 81 OK (11 s)
+[20:24:28]     settle H 39 fb (S [168]) planner 933 -> twin 963 miss 81 OK (21 s)
+[20:24:33]     settle H 36 fb (S [168]) planner 945 -> twin 951 miss 16 OK (4 s)
+[20:24:33]     absorb[h47]: no approach of [64, 119, 137, 138, 157, 158, 216] within 0.2 AU
+[20:24:33]     absorb[h42]: no approach of [64, 119, 137, 138, 157, 158, 216] within 0.2 AU
+[20:24:33] column F01p20 done: 6 columns (0 absorbed); 375 s

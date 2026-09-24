@@ -1,0 +1,3 @@
+[b300_p0809] beam 300 nproc 1 pool 50 strict: 181 s wall / 157 s cpu, deepest 22 total / 22 pool; Pareto(pool) 14:686 15:695 16:702 17:708 18:728 19:747 20:758 21:764 22:775
+   settle {'k_pool': 22, 'n_tot': 22, 'tank_planner': 774.6, 't_settle_s': 15.7, 'ok': True, 'miss_km': 5.1, 'lag_d': 1.0, 'tank_twin': 788.7, 'J_i': 1.1529, 'kg_per_fb': 8.58, 'dv_per_fb': 0.4831, 't_end_yr': 14.37, 't_launch_d': 260.0}
+   settle {'k_pool': 21, 'n_tot': 21, 'tank_planner': 763.6, 't_settle_s': 15.8, 'ok': True, 'miss_km': 2.5, 'lag_d': 1.0, 'tank_twin': 764.4, 'J_i': 1.1312, 'kg_per_fb': 7.83, 'dv_per_fb': 0.4478, 't_end_yr': 14.02, 't_launch_d': 260.0}

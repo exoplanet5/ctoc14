@@ -1,0 +1,4 @@
+>> /Users/mickey/.venvs/astro313/bin/python tools/convert_fleet.py results/plan_E3 results/CTOC14_Result_E3_fleet.txt --nproc 6 --tag p
+   done in 4021 s
+fleet: 9 usable spacecraft, covered 239
+>> /Users/mickey/.venvs/astro313/bin/python tools/run_tail_search.py results/plan_E3/mop0 results/plan_E3/mop0_targets.json 800 1000 1300 1600 2000

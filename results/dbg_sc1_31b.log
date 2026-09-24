@@ -1,0 +1,549 @@
+  leg   0 it  0: miss [km]       0.0 6539935.5  bplane       0.0 6539935.5  t*   170.00   262.32  max|T|=0.000
+  leg   0 it  1: miss [km]   27899.8  304392.7  bplane   27899.8  304392.7  t*   168.68   265.47  max|T|=0.140
+  leg   0 it  2: miss [km]      79.8     431.6  bplane      79.8     431.6  t*   168.71   265.30  max|T|=0.136
+  leg   0 it  3: miss [km]       0.1       0.8  bplane       0.1       0.8  t*   168.71   265.30  max|T|=0.136
+leg   0 frozen: ast 155 t=   168.7 d dist=   0.1 km m=1967.6 kg
+  leg   1 it  0: miss [km]       0.8 1949064.1  bplane       0.8 1949064.1  t*   265.30   332.51  max|T|=0.123
+  leg   1 it  1: miss [km]    3454.7   22409.7  bplane    3454.7   22409.7  t*   265.22   332.62  max|T|=0.302
+  leg   1 it  2: miss [km]       1.1       5.6  bplane       1.1       5.6  t*   265.22   332.61  max|T|=0.300
+leg   1 frozen: ast 279 t=   265.2 d dist=   1.1 km m=1936.0 kg
+  leg   2 it  0: miss [km]       5.6 49743104.5  bplane       5.6 49743104.5  t*   332.61   476.34  max|T|=0.109
+  leg   2 it  1: miss [km]  196707.7 10607475.1  bplane  196707.7 10303685.5  t*   334.46   496.47  max|T|=0.450
+  leg   2 it  2: miss [km]   18459.4 1208092.7  bplane   18459.4 1208092.7  t*   334.69   493.80  max|T|=0.450
+  leg   2 it  3: miss [km]    6258.0  305549.7  bplane    6258.0  305549.7  t*   334.74   493.92  max|T|=0.450
+  leg   2 it  4: miss [km]     232.4   17167.1  bplane     232.4   17167.1  t*   334.75   494.01  max|T|=0.450
+  leg   2 it  5: miss [km]      23.9     961.1  bplane      23.9     961.1  t*   334.75   494.02  max|T|=0.450
+  leg   2 it  6: miss [km]       1.8      63.1  bplane       1.8      63.1  t*   334.75   494.02  max|T|=0.450
+leg   2 frozen: ast 127 t=   334.7 d dist=   1.9 km m=1887.7 kg
+  leg   3 it  0: miss [km]      65.5 24370862.4  bplane      65.5 24370862.4  t*   494.02   670.84  max|T|=0.063
+  leg   3 it  1: miss [km]   51350.2  433181.3  bplane   51350.2  433181.3  t*   492.37   667.18  max|T|=0.163
+  leg   3 it  2: miss [km]      21.0     613.8  bplane      21.0     613.8  t*   492.35   667.18  max|T|=0.163
+  leg   3 it  3: miss [km]       0.0       0.2  bplane       0.0       0.2  t*   492.35   667.18  max|T|=0.163
+leg   3 frozen: ast  42 t=   492.3 d dist=   0.2 km m=1849.5 kg
+  leg   4 it  0: miss [km]       1.3 30270277.8  bplane       1.3 30270277.8  t*   667.18   845.35  max|T|=0.039
+  leg   4 it  1: miss [km]  115791.0 6287537.8  bplane  115791.0 6287537.8  t*   664.83   858.04  max|T|=0.119
+  leg   4 it  2: miss [km]     967.2   29636.4  bplane     967.2   29636.4  t*   665.01   858.91  max|T|=0.127
+  leg   4 it  3: miss [km]       0.3      14.3  bplane       0.3      14.3  t*   665.01   858.91  max|T|=0.128
+leg   4 frozen: ast 195 t=   665.0 d dist=   0.3 km m=1818.8 kg
+  leg   5 it  0: miss [km]      12.2 9730693.4  bplane      12.2 9730693.4  t*   858.91   943.26  max|T|=0.128
+  leg   5 it  1: miss [km]   67128.3 1742193.9  bplane   67128.3 1742193.9  t*   858.21   949.12  max|T|=0.266
+  leg   5 it  2: miss [km]     671.8   10382.6  bplane     671.8   10382.6  t*   858.31   948.99  max|T|=0.247
+  leg   5 it  3: miss [km]       1.4       5.3  bplane       1.4       5.3  t*   858.32   948.99  max|T|=0.246
+leg   5 frozen: ast 292 t=   858.3 d dist=   1.4 km m=1767.5 kg
+  leg   6 it  0: miss [km]       5.3 33801251.7  bplane       5.3 33801251.7  t*   948.99  1163.34  max|T|=0.058
+  leg   6 it  1: miss [km]   81258.7 2761332.4  bplane   81258.7 2761332.4  t*   952.53  1167.84  max|T|=0.224
+  leg   6 it  2: miss [km]     807.9   15505.0  bplane     807.9   15505.0  t*   952.28  1167.47  max|T|=0.213
+  leg   6 it  3: miss [km]       0.1       7.0  bplane       0.1       7.0  t*   952.27  1167.47  max|T|=0.213
+leg   6 frozen: ast 197 t=   952.3 d dist=   0.1 km m=1733.7 kg
+  leg   7 it  0: miss [km]       6.6 23416144.7  bplane       6.6 23416144.7  t*  1167.47  1286.68  max|T|=0.101
+  leg   7 it  1: miss [km]   23123.9 1020685.8  bplane   23123.9 1020685.8  t*  1166.80  1290.48  max|T|=0.309
+  leg   7 it  2: miss [km]     218.2     351.2  bplane     218.2     351.2  t*  1166.88  1290.54  max|T|=0.291
+  leg   7 it  3: miss [km]       0.1       0.5  bplane       0.1       0.5  t*  1166.88  1290.54  max|T|=0.291
+leg   7 frozen: ast 113 t=  1166.9 d dist=   0.1 km m=1659.0 kg
+  leg   8 it  0: miss [km]       0.4 13076727.3  bplane       0.4 13076727.3  t*  1290.54  1398.03  max|T|=0.085
+  leg   8 it  1: miss [km]   61630.3  688466.2  bplane   61630.3  688466.2  t*  1293.10  1407.20  max|T|=0.235
+  leg   8 it  2: miss [km]     232.2    1881.0  bplane     232.2    1881.0  t*  1293.05  1406.95  max|T|=0.236
+  leg   8 it  3: miss [km]       0.2       0.5  bplane       0.2       0.5  t*  1293.05  1406.95  max|T|=0.236
+leg   8 frozen: ast 105 t=  1293.1 d dist=   0.1 km m=1607.3 kg
+  leg   9 it  0: miss [km]       0.4 6294550.8  bplane       0.4 6294550.8  t*  1406.95  1468.81  max|T|=0.125
+  leg   9 it  1: miss [km]   76868.5  701319.4  bplane   76868.5  701319.4  t*  1404.23  1475.85  max|T|=0.355
+  leg   9 it  2: miss [km]     351.2    9124.2  bplane     351.2    9124.2  t*  1404.34  1475.28  max|T|=0.366
+  leg   9 it  3: miss [km]       0.0       0.6  bplane       0.0       0.6  t*  1404.34  1475.28  max|T|=0.366
+leg   9 frozen: ast 115 t=  1404.3 d dist=   0.4 km m=1574.8 kg
+  leg  10 it  0: miss [km]       0.6 8195175.2  bplane       0.6 8195175.2  t*  1475.28  1571.33  max|T|=0.092
+  leg  10 it  1: miss [km]  120692.1 1928457.5  bplane  120692.1 1928457.5  t*  1473.16  1583.68  max|T|=0.450
+  leg  10 it  2: miss [km]     250.5   36601.3  bplane     250.5   36601.3  t*  1473.14  1583.00  max|T|=0.450
+  leg  10 it  3: miss [km]      15.1      45.5  bplane      15.1      45.5  t*  1473.14  1583.00  max|T|=0.450
+leg  10 frozen: ast  83 t=  1473.1 d dist=  15.1 km m=1531.7 kg
+  leg  11 it  0: miss [km]      46.4 12034962.6  bplane      46.4 12034962.6  t*  1583.00  1696.20  max|T|=0.275
+  leg  11 it  1: miss [km]   31938.6  282099.6  bplane   31938.6  282099.6  t*  1580.78  1696.14  max|T|=0.450
+  leg  11 it  2: miss [km]      19.2      50.9  bplane      19.2      50.9  t*  1580.81  1696.14  max|T|=0.450
+leg  11 frozen: ast 283 t=  1580.8 d dist=  19.1 km m=1483.2 kg
+  leg  12 it  0: miss [km]      50.8 2119959.4  bplane      50.8 2119959.4  t*  1696.14  1738.53  max|T|=0.063
+  leg  12 it  1: miss [km]   10101.2   80798.4  bplane   10101.2   80798.4  t*  1696.27  1739.40  max|T|=0.281
+  leg  12 it  2: miss [km]      11.7      86.4  bplane      11.7      86.4  t*  1696.27  1739.38  max|T|=0.276
+leg  12 frozen: ast   7 t=  1696.3 d dist=  11.7 km m=1450.9 kg
+  leg  13 it  0: miss [km]      86.3 12439376.5  bplane      86.3 12439376.5  t*  1739.38  1931.23  max|T|=0.126
+  leg  13 it  1: miss [km]    9068.1  306498.7  bplane    9068.1  306498.7  t*  1739.67  1930.62  max|T|=0.450
+  leg  13 it  2: miss [km]      22.3    2126.7  bplane      22.3    2126.7  t*  1739.68  1930.95  max|T|=0.450
+  leg  13 it  3: miss [km]       0.2       2.8  bplane       0.2       2.8  t*  1739.68  1930.95  max|T|=0.450
+leg  13 frozen: ast 190 t=  1739.7 d dist=   0.2 km m=1434.6 kg
+  leg  14 it  0: miss [km]       2.2 25705628.2  bplane       2.2 25705628.2  t*  1930.95  2080.41  max|T|=0.162
+  leg  14 it  1: miss [km]  471709.8 2154301.9  bplane  471709.8 2154301.9  t*  1931.81  2074.37  max|T|=0.450
+  leg  14 it  2: miss [km]   57859.5   70892.9  bplane   57859.5   70892.9  t*  1932.17  2074.03  max|T|=0.450
+  leg  14 it  3: miss [km]     190.7     197.5  bplane     190.7     197.5  t*  1932.22  2074.03  max|T|=0.450
+leg  14 frozen: ast 295 t=  1932.2 d dist= 190.6 km m=1350.3 kg
+  leg  15 it  0: miss [km]     197.0 1066656.4  bplane     197.0 1066656.4  t*  2074.03  2200.60  max|T|=0.054
+  leg  15 it  1: miss [km]     636.2    4217.5  bplane     636.2    4217.5  t*  2073.99  2200.49  max|T|=0.086
+  leg  15 it  2: miss [km]       0.1       0.4  bplane       0.1       0.4  t*  2073.99  2200.49  max|T|=0.086
+leg  15 frozen: ast 133 t=  2074.0 d dist=   0.1 km m=1338.9 kg
+  leg  16 it  0: miss [km]       0.4 4314544.5  bplane       0.4 4314544.5  t*  2200.49  2347.77  max|T|=0.025
+  leg  16 it  1: miss [km]     812.1   25476.3  bplane     812.1   25476.3  t*  2200.70  2346.22  max|T|=0.027
+  leg  16 it  2: miss [km]       0.5       5.7  bplane       0.5       5.7  t*  2200.70  2346.21  max|T|=0.027
+leg  16 frozen: ast 293 t=  2200.7 d dist=   0.5 km m=1333.0 kg
+  leg  17 it  0: miss [km]       5.7 31233438.5  bplane       5.7 31233438.5  t*  2346.21  2419.77  max|T|=0.012
+  leg  17 it  1: miss [km]  387208.8 4471325.1  bplane  387208.8 4471325.1  t*  2339.83  2435.92  max|T|=0.219
+  leg  17 it  2: miss [km]    4808.5   76084.2  bplane    4808.5   76084.2  t*  2340.49  2433.99  max|T|=0.185
+  leg  17 it  3: miss [km]       2.0      16.2  bplane       2.0      16.2  t*  2340.51  2433.96  max|T|=0.185
+leg  17 frozen: ast 284 t=  2340.5 d dist=   2.0 km m=1291.0 kg
+  leg  18 it  0: miss [km]      16.3 25986603.0  bplane      16.3 25986603.0  t*  2433.96  2522.62  max|T|=0.065
+  leg  18 it  1: miss [km]   41043.3 1709191.2  bplane   41043.3 1709191.2  t*  2430.76  2523.26  max|T|=0.321
+  leg  18 it  2: miss [km]     293.0    4778.9  bplane     293.0    4778.9  t*  2430.94  2523.64  max|T|=0.298
+  leg  18 it  3: miss [km]       0.0       0.3  bplane       0.0       0.3  t*  2430.94  2523.64  max|T|=0.298
+leg  18 frozen: ast  18 t=  2430.9 d dist=   0.0 km m=1258.4 kg
+  leg  19 it  0: miss [km]       0.2 3539614.5  bplane       0.2 3539614.5  t*  2523.64  2554.66  max|T|=0.090
+  leg  19 it  1: miss [km]   52977.1   19412.1  bplane   52977.1   19412.1  t*  2525.01  2554.72  max|T|=0.231
+  leg  19 it  2: miss [km]      22.7      44.6  bplane      22.7      44.6  t*  2525.01  2554.72  max|T|=0.241
+leg  19 frozen: ast 184 t=  2525.0 d dist=  22.6 km m=1230.8 kg
+  leg  20 it  0: miss [km]      44.3 12067559.7  bplane      44.3 12067559.7  t*  2554.72  2704.94  max|T|=0.095
+  leg  20 it  1: miss [km]    1055.7  312477.7  bplane    1055.7  312477.7  t*  2554.82  2710.90  max|T|=0.229
+  leg  20 it  2: miss [km]       1.7     699.6  bplane       1.7     699.6  t*  2554.82  2710.63  max|T|=0.241
+  leg  20 it  3: miss [km]       0.0       0.2  bplane       0.0       0.2  t*  2554.82  2710.63  max|T|=0.241
+leg  20 frozen: ast 118 t=  2554.8 d dist=   0.0 km m=1220.6 kg
+  leg  21 it  0: miss [km]       0.1 13644314.4  bplane       0.1 13644314.4  t*  2710.63  2805.35  max|T|=0.088
+  leg  21 it  1: miss [km]  166043.1  272294.5  bplane  166043.1  272294.5  t*  2713.09  2810.89  max|T|=0.326
+  leg  21 it  2: miss [km]     207.3     180.7  bplane     207.3     180.7  t*  2713.06  2810.78  max|T|=0.315
+leg  21 frozen: ast 242 t=  2713.1 d dist= 207.4 km m=1185.1 kg
+  leg  22 it  0: miss [km]     181.8 7801177.9  bplane     181.8 7801177.9  t*  2810.78  2872.83  max|T|=0.076
+  leg  22 it  1: miss [km]   63178.7  256167.9  bplane   63178.7  256167.9  t*  2809.36  2873.52  max|T|=0.450
+  leg  22 it  2: miss [km]      18.6     648.8  bplane      18.6     648.8  t*  2809.38  2873.50  max|T|=0.450
+  leg  22 it  3: miss [km]       0.0       0.1  bplane       0.0       0.1  t*  2809.38  2873.50  max|T|=0.449
+leg  22 frozen: ast 100 t=  2809.4 d dist=   0.5 km m=1141.7 kg
+  leg  23 it  0: miss [km]       1.4 28087011.8  bplane       1.4 28087011.8  t*  2873.50  3073.38  max|T|=0.222
+  leg  23 it  1: miss [km]  179714.0 5730301.7  bplane  179714.0 5730301.7  t*  2873.96  3060.98  max|T|=0.450
+  leg  23 it  2: miss [km]   10371.3  184418.6  bplane   10371.3  184418.6  t*  2874.05  3061.60  max|T|=0.450
+  leg  23 it  3: miss [km]     154.7    2171.4  bplane     154.7    2171.4  t*  2874.05  3061.61  max|T|=0.450
+  leg  23 it  4: miss [km]       2.5      34.6  bplane       2.5      34.6  t*  2874.05  3061.61  max|T|=0.450
+leg  23 frozen: ast  35 t=  2874.1 d dist=   2.6 km m=1111.8 kg
+  leg  24 it  0: miss [km]      33.9 9845585.2  bplane      33.9 9845585.2  t*  3061.61  3109.38  max|T|=0.096
+  leg  24 it  1: miss [km]  106787.8  625396.0  bplane  106787.8  625396.0  t*  3064.83  3104.11  max|T|=0.172
+  leg  24 it  2: miss [km]     916.6    5572.0  bplane     916.6    5572.0  t*  3065.10  3103.63  max|T|=0.178
+  leg  24 it  3: miss [km]       2.8       6.9  bplane       2.8       6.9  t*  3065.11  3103.62  max|T|=0.178
+leg  24 frozen: ast 189 t=  3065.1 d dist=   2.2 km m=1082.1 kg
+  leg  25 it  0: miss [km]       7.5 23013194.1  bplane       7.5 23013194.1  t*  3103.62  3234.33  max|T|=0.021
+  leg  25 it  1: miss [km]    7481.5 1532506.7  bplane    7481.5 1532506.7  t*  3104.30  3239.74  max|T|=0.290
+  leg  25 it  2: miss [km]      35.4    6919.9  bplane      35.4    6919.9  t*  3104.28  3239.46  max|T|=0.277
+  leg  25 it  3: miss [km]       0.0       5.7  bplane       0.0       5.7  t*  3104.28  3239.46  max|T|=0.277
+leg  25 frozen: ast 146 t=  3104.3 d dist=   0.0 km m=1068.6 kg
+  leg  26 it  0: miss [km]       5.6 17519006.2  bplane       5.6 17519006.2  t*  3239.46  3325.59  max|T|=0.141
+  leg  26 it  1: miss [km]  441586.7 3835316.2  bplane  441586.7 3835316.2  t*  3236.39  3334.04  max|T|=0.450
+  leg  26 it  2: miss [km]    2050.3   21610.6  bplane    2050.3   21610.6  t*  3236.68  3333.84  max|T|=0.450
+  leg  26 it  3: miss [km]     371.4     492.8  bplane     371.4     492.8  t*  3236.68  3333.84  max|T|=0.450
+  leg  26 it  4: miss [km]       4.3       5.8  bplane       4.3       5.8  t*  3236.68  3333.84  max|T|=0.450
+leg  26 frozen: ast  16 t=  3236.7 d dist=   4.5 km m=1020.8 kg
+  leg  27 it  0: miss [km]       5.9 1464831.8  bplane       5.9 1464831.8  t*  3333.84  3411.88  max|T|=0.120
+  leg  27 it  1: miss [km]    2415.7    8764.1  bplane    2415.7    8764.1  t*  3333.99  3411.16  max|T|=0.218
+  leg  27 it  2: miss [km]       0.2       0.5  bplane       0.2       0.5  t*  3333.99  3411.17  max|T|=0.218
+leg  27 frozen: ast  61 t=  3334.0 d dist=   0.2 km m=1003.6 kg
+  leg  28 it  0: miss [km]       0.5 10635948.1  bplane       0.5 10635948.1  t*  3411.17  3514.57  max|T|=0.029
+  leg  28 it  1: miss [km]   10297.6  276071.2  bplane   10297.6  276071.2  t*  3409.72  3517.94  max|T|=0.125
+  leg  28 it  2: miss [km]       2.7      73.9  bplane       2.7      73.9  t*  3409.76  3517.87  max|T|=0.121
+leg  28 frozen: ast 258 t=  3409.8 d dist=   2.7 km m=994.3 kg
+  leg  29 it  0: miss [km]      73.9 48929690.6  bplane      73.9 34282009.5  t*  3517.87  3690.11  max|T|=0.032
+  leg  29 it  1: miss [km]  315893.0 13632750.4  bplane  315893.0 13632750.4  t*  3523.20  3690.75  max|T|=0.258
+  leg  29 it  2: miss [km]   26701.0 1343730.4  bplane   26701.0 1302270.3  t*  3521.81  3695.15  max|T|=0.223
+  leg  29 it  3: miss [km]     371.2   93343.2  bplane     371.2    4474.0  t*  3521.66  3695.15  max|T|=0.220
+  leg  29 it  4: miss [km]       0.0   98196.3  bplane       0.0      20.3  t*  3521.66  3695.15  max|T|=0.220
+  leg  29 it  5: miss [km]       0.0   98183.2  bplane       0.0       0.1  t*  3521.66  3695.15  max|T|=0.220
+  leg  29 it  6: miss [km]       0.0   98183.2  bplane       0.0       0.0  t*  3521.66  3695.15  max|T|=0.220
+  leg  29 it  7: miss [km]       0.0   98183.2  bplane       0.0       0.0  t*  3521.66  3695.15  max|T|=0.220
+  leg  29 it  8: miss [km]       0.0   98183.2  bplane       0.0       0.0  t*  3521.66  3695.15  max|T|=0.220
+  leg  29 it  9: miss [km]       0.0   98183.2  bplane       0.0       0.0  t*  3521.66  3695.15  max|T|=0.220
+  leg  29 it 10: miss [km]       0.0   98183.2  bplane       0.0       0.0  t*  3521.66  3695.15  max|T|=0.220
+  leg  29 it 11: miss [km]       0.0   98183.2  bplane       0.0       0.0  t*  3521.66  3695.15  max|T|=0.220
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! replanned from leg 29: 2 legs (was 2), lost []
+  leg  29 it  0: miss [km]  873267.8 48522986.5  bplane  873267.8 34423943.4  t*  3517.84  3684.91  max|T|=0.000
+  leg  29 it  1: miss [km]  219395.1 9930094.0  bplane  219395.1 9930094.0  t*  3522.46  3686.75  max|T|=0.192
+  leg  29 it  2: miss [km]   13085.7 1181538.1  bplane   13085.7  732790.1  t*  3521.47  3689.91  max|T|=0.185
+  leg  29 it  3: miss [km]     127.5  699492.7  bplane     127.5    8373.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  4: miss [km]       0.0  709133.1  bplane       0.0     201.2  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  5: miss [km]       0.0  708968.6  bplane       0.0       3.6  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  6: miss [km]       0.0  708972.6  bplane       0.0       0.1  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  7: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  8: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it  9: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 10: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  leg  29 it 11: miss [km]       0.0  708972.5  bplane       0.0       0.0  t*  3521.39  3689.91  max|T|=0.183
+  !! dropping asteroid 2 (miss 708973 km)
+  leg  29 it  0: miss [km]  873267.8  bplane  873267.8  t*  3517.84  max|T|=0.000
+  leg  29 it  1: miss [km]    2058.2  bplane    2058.2  t*  3517.87  max|T|=0.032
+  leg  29 it  2: miss [km]       0.9  bplane       0.9  t*  3517.87  max|T|=0.032
+leg  29 frozen: ast 202 t=  3517.9 d dist=   0.9 km m=989.7 kg
+INFO [2] 30 1010.294312929803

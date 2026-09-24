@@ -1,0 +1,18 @@
+c000: 21 fb, tank 777 kg, dv 10.04, J_i 1.142, 0.0544 J/fb
+c001: 21 fb, tank 777 kg, dv 10.04, J_i 1.142, 0.0544 J/fb
+c002: 20 fb -> NOT settled ('error', "LinAlgError('Singular matrix')")
+c003: 18 fb, tank 1857 kg, dv 44.21, J_i 2.703, 0.1502 J/fb
+c004: 20 fb, tank 735 kg, dv 7.84, J_i 1.105, 0.0553 J/fb
+c005: 19 fb, tank 738 kg, dv 8.01, J_i 1.108, 0.0583 J/fb
+c006: 19 fb, tank 738 kg, dv 8.02, J_i 1.108, 0.0583 J/fb
+c007: 20 fb, tank 768 kg, dv 9.58, J_i 1.134, 0.0567 J/fb
+c008: 19 fb, tank 813 kg, dv 11.81, J_i 1.175, 0.0618 J/fb
+c009: 19 fb, tank 793 kg, dv 10.83, J_i 1.157, 0.0609 J/fb
+c010: 19 fb, tank 738 kg, dv 8.00, J_i 1.108, 0.0583 J/fb
+c011: 19 fb, tank 748 kg, dv 8.55, J_i 1.117, 0.0588 J/fb
+c012: 19 fb, tank 713 kg, dv 6.68, J_i 1.087, 0.0572 J/fb
+c013: 20 fb -> NOT settled ('miss', inf)
+c014: 10 fb, tank 623 kg, dv 1.36, J_i 1.017, 0.1017 J/fb
+c015: 19 fb, tank 713 kg, dv 6.67, J_i 1.087, 0.0572 J/fb
+
+settled 14/16; median 19 fb, 743 kg, best J/fb 0.0544, median 0.0583

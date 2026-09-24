@@ -1,0 +1,32 @@
+[04:23:22] new run g0: N 2 H 540.0 d L 360.0 d proposer segbeam commit regrid nproc 2 stop_T 1080.0
+[04:23:22] [slice 0 T=0 d] propose: 2 jobs (0 craft, 2 root) on 2 workers, proposer segbeam
+[04:26:05]   job s00_r1 root  columns  20  levels 5  settles 40/43  end no_children  wall 163.7 s
+[04:29:08]   job s00_r0 root  columns  37  levels 10  settles 75/84  end no_children  wall 346.1 s
+[04:29:08] [slice 0] propose: 57 columns (0 bad dropped) in 346.1 s
+[04:29:08] [slice 0] auction: 57 columns, kept 57, dropped {}
+[04:29:08] [slice 0] auction: status optimal objective 12.954 vars 57 rows 24 chosen 2 (0.01 s)
+[04:29:08] [slice 0 T=0 d] launched 2/2  covered 10  remaining 288  fuel 83 kg  sumJi 2.0615  chosen: r->c0:6(+52) r->c1:4(+29)  rejected: -  (wall 346 s)
+[04:29:08] [slice 1 T=540 d] propose: 2 jobs (2 craft, 0 root) on 2 workers, proposer segbeam
+[04:34:42]   job s01_c0 craft columns  21  levels 7  settles 56/56  end no_children  wall 334.3 s
+[04:36:48]   job s01_c1 craft columns  26  levels 8  settles 64/82  end settle_wall  wall 460.0 s
+[04:36:48] [slice 1] propose: 47 columns (0 bad dropped) in 460.0 s
+[04:36:48] [slice 1] auction: 47 columns, kept 47, dropped {}
+[04:36:48] [slice 1] auction: status optimal objective 10.419 vars 47 rows 17 chosen 2 (0.008 s)
+[04:36:48] [slice 1 T=540 d] launched 2/2  covered 17  remaining 281  fuel 254 kg  sumJi 2.1985  chosen: c0:4(+91) c1:3(+80)  rejected: -  (wall 460 s)
+[04:36:48] stop: stop_T at T=1080 d (slice 2)
+[04:36:48] finalize: fleet/ 2 routes  covered 17  misses 281  fuel 254 kg  sumJi 2.1985  J 285.1985  honest True
+[04:36:48] g0: slice 2 phase propose T=1080 d  launched 2/2  covered 17  remaining 281  fuel 254 kg  sumJi 2.1985  done True (stop_T)
+[04:37:12] resume g0_kill: slice 1 phase propose T=540 d done=False
+[04:37:12] [slice 1 T=540 d] propose: 2 jobs (2 craft, 0 root) on 2 workers, proposer segbeam
+[04:40:31] interrupted (Interrupted): slice 1 -- phase files on disk are the resume point
+[04:40:34] resume g0_kill: slice 1 phase propose T=540 d done=False
+[04:40:34] [slice 1 T=540 d] propose: 2 jobs (2 craft, 0 root) on 2 workers, proposer segbeam
+[04:44:35]   job s01_c0 craft columns  21  levels 7  settles 56/56  end no_children  wall 241.2 s
+[04:46:43]   job s01_c1 craft columns  26  levels 8  settles 64/82  end settle_wall  wall 369.1 s
+[04:46:43] [slice 1] propose: 47 columns (0 bad dropped) in 369.1 s
+[04:46:43] [slice 1] auction: 47 columns, kept 47, dropped {}
+[04:46:43] [slice 1] auction: status optimal objective 10.419 vars 47 rows 17 chosen 2 (0.009 s)
+[04:46:43] [slice 1 T=540 d] launched 2/2  covered 17  remaining 281  fuel 254 kg  sumJi 2.1985  chosen: c0:4(+91) c1:3(+80)  rejected: -  (wall 369 s)
+[04:46:43] stop: stop_T at T=1080 d (slice 2)
+[04:46:43] finalize: fleet/ 2 routes  covered 17  misses 281  fuel 254 kg  sumJi 2.1985  J 285.1985  honest True
+[04:46:43] g0_kill: slice 2 phase propose T=1080 d  launched 2/2  covered 17  remaining 281  fuel 254 kg  sumJi 2.1985  done True (stop_T)

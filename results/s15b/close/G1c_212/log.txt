@@ -1,0 +1,7 @@
+[06:59:11] close: 9 craft, covered 297, sum J_i 11.9413, misses [212]; caps [0.15, 0.25] dmax 0.25
+[06:59:12]   cap 0.15 round 1: open [212]; 3 priced approaches, 2 attempts: 212->h01 0.134AU lin 0.290, 212->h02 0.090AU lin 0.442
+[06:59:51]     212 -> h01 (0.134 AU, lin 0.290): OK +218.7 kg dJ 0.2708 miss 66 km (7 s)
+[06:59:51]     212 -> h02 (0.090 AU, lin 0.442): fail 11464832.485185191 (40 s)
+[06:59:51]   cap 0.25 round 1: open [212]; 3 priced approaches, 1 attempts: 212->h04 0.202AU lin 0.469
+[07:00:17]     212 -> h04 (0.202 AU, lin 0.469): fail 11512595.356285721 (26 s)
+[07:00:17] close done: covered 297, sum J_i 11.9413 -> 11.9413, placed [], open [212] (66 s)

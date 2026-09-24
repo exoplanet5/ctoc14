@@ -1,0 +1,18 @@
+[05:09:49] new run g0_fix: N 2 H 540.0 d L 360.0 d proposer segbeam commit regrid nproc 2 stop_T 1080.0
+[05:09:49] [slice 0 T=0 d] propose: 2 jobs (0 craft, 2 root) on 2 workers, proposer segbeam, H_eff 540 d, lam 1.0
+[05:11:53]   job s00_r1 root  columns  20  levels 3  settles 24/26  end lookahead  wall 123.0 s
+[05:14:32]   job s00_r0 root  columns  37  levels 7  settles 56/63  end lookahead  wall 282.0 s
+[05:14:32] [slice 0] propose: 57 columns (0 bad dropped) in 283.2 s
+[05:14:32] [slice 0] auction: 57 columns, kept 57, dropped {}; lam 1.00 H_eff 540 d fuel budget 482 kg quota on
+[05:14:32] [slice 0] auction: status optimal objective 11.412 vars 57 rows 25 chosen 2 fuel 76/482 kg (0.008 s)
+[05:14:34] [slice 0 T=0 d] launched 2/2  covered 10  remaining 288  fuel 79 kg  sumJi 2.0583  chosen: r->c0:6(+47) r->c1:4(+29)  rejected: -  (wall 285 s)
+[05:14:34] [slice 1 T=540 d] propose: 2 jobs (2 craft, 0 root) on 2 workers, proposer segbeam, H_eff 540 d, lam 1.0
+[05:19:13]   job s01_c0 craft columns  19  levels 6  settles 48/50  end lookahead  wall 278.9 s
+[05:20:34]   job s01_c1 craft columns  26  levels 7  settles 56/71  end lookahead  wall 358.1 s
+[05:20:34] [slice 1] propose: 45 columns (0 bad dropped) in 359.5 s
+[05:20:34] [slice 1] auction: 45 columns, kept 44, dropped {'ramp': 1}; lam 1.00 H_eff 540 d fuel budget 482 kg quota on
+[05:20:34] [slice 1] auction: status optimal objective 8.195 vars 44 rows 22 chosen 2 fuel 143/482 kg (0.008 s)
+[05:20:36] [slice 1 T=540 d] launched 2/2  covered 17  remaining 281  fuel 222 kg  sumJi 2.1716  chosen: c0:3(+45) c1:4(+98)  rejected: -  (wall 362 s)
+[05:20:36] stop: stop_T at T=1080 d (slice 2)
+[05:20:36] finalize: fleet/ 2 routes  covered 17  misses 281  fuel 222 kg  sumJi 2.1716  J 285.1716  honest True
+[05:20:36] g0_fix: slice 2 phase propose T=1080 d  launched 2/2  covered 17  remaining 281  fuel 222 kg  sumJi 2.1716  done True (stop_T)

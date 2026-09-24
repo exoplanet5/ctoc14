@@ -1,0 +1,4 @@
+[21:08:48]     absorb[route_C03h5s3_20+[]]: 2 approaches of [134, 280]; lintwin 280@2970d 0.162AU 84kg, 134@1452d 0.171AU 465kg
+[21:08:53]     absorb[route_C03h5s3_20+[]]: insert 280 at 2970 d (lintwin 84 kg) -> OK tank 900 (+71.1 kg) (5 s)
+[21:08:54]     absorb[route_C03h5s3_20+[280]]: 1 approaches of [134]; lintwin 134@1456d 0.172AU 645kg
+[21:08:54] close C03h5_s3 done: 1 columns (6 s)

@@ -1,0 +1,2 @@
+[06:12:21] fixture fixture_fake job s01_c2 kind craft T 540 d H 540 d remaining 283
+[06:12:21] done: ok True columns 6 wall 0.0 s

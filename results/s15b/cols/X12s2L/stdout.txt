@@ -1,0 +1,6 @@
+[07:10:05] twintail X12s2L: pool 15, S [212, 247], p 0.5, steps 1, beam 30/90, nproc 1; resume at step 1
+[07:10:17]   roots: 1014 launch legs -> 214 kept; pool 15, S [212, 247] p 0.5
+[07:20:21]   depth  2: 214 parents -> 3265 kids (2284 uniq) -> tried 50, settled 30, kept 30; t_end 563-1220 d, tank 602-656, max S 1 (604 s, gen 491 s)
+[07:23:47]   depth  3: 30 parents -> 591 kids (571 uniq) -> tried 35, settled 30, kept 24; t_end 1138-1856 d, tank 613-692, max S 2 (207 s, gen 125 s)
+[07:27:29]   depth  4: 24 parents -> 443 kids (426 uniq) -> tried 34, settled 30, kept 28; t_end 1227-2301 d, tank 617-841, max S 2 (221 s, gen 118 s)
+[07:32:32]   depth  5: 28 parents -> 508 kids (503 uniq) -> tried 33, settled 30, kept 24; t_end 1763-2665 d, tank 652-744, max S 2 (303 s, gen 170 s)

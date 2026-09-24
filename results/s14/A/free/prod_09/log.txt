@@ -1,0 +1,8 @@
+[09:43:21] === s14_twinbeam free route 09: pool 24 (own targets), source 24 fb @ 876.5 kg; dv 1.2 drmax 0.15 beam 20 tries 40 roots 300
+[09:43:33] roots: 482 launch legs -> 113 kept (max root miss 0.0 km)
+[09:43:53] depth  2: 113 parents -> 119 children (58 unique) -> tried 21, settled 20, kept 17; t_end 752-1093 d, tank 603-616; best 2 @ 602.7 kg (21 s)
+[09:43:59] depth  3: 17 parents -> 5 children (3 unique) -> tried 3, settled 2, kept 2; t_end 1031-1276 d, tank 608-618; best 3 @ 608.4 kg (6 s)
+[09:44:01] depth  4: 2 parents -> 4 children (2 unique) -> tried 2, settled 2, kept 2; t_end 1311-1372 d, tank 620-622; best 4 @ 620.1 kg (2 s)
+[09:44:03] depth  5: 2 parents -> 1 children (1 unique) -> tried 1, settled 1, kept 1; t_end 1870-1870 d, tank 625-625; best 5 @ 625.2 kg (2 s)
+[09:44:03] depth  6: 1 parents -> 0 children (0 unique) -> tried 0, settled 0, kept 0; best 5 @ 625.2 kg (0 s)
+[09:44:03] RESULT route 09: re-flown 5/24 at twin tank 625.2 kg (source 876.5); end {'kind': 'no_children', 'depth': 5, 'time_left_d': 3608.7}; settles 27 (25 ok), wall 31 s

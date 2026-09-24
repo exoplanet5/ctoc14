@@ -1,0 +1,7 @@
+[09:40:12] load: 2522 files (32 new; {'ok': 2522}), 2381 distinct, 57 dominated -> 2324 columns
+[09:41:24]   N<=8 K>=287 alt 0: The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_s (71 s)
+[09:41:24]   N<=8 K>=290 alt 0: The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_s (1 s)
+[09:41:30]   N<=9 K>=298 alt 0: 9 craft 298 covered sum J_i 11.8327 (Optimization terminated , 3 s); misses []; depths [44, 43, 41, 39, 31, 30, 29, 23, 18]
+[09:41:30]   N<=9 K>=298 alt 1: 9 craft 298 covered sum J_i 11.8383 (Optimization terminated , 5 s); misses []; depths [44, 43, 42, 38, 31, 30, 29, 23, 18]
+[09:42:02]   N<=8 K>=286 alt 0: The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_s (109 s)
+[09:42:02] ranking by est closed: N9K298a0 11.8327->None | N9K298a1 11.8383->None (110 s)

@@ -1,0 +1,6 @@
+[19:56:26] column t1: pool 298, S [137, 158, 216], p 0.02, member H, seed 0, absorb [64, 119, 137, 138, 157, 158, 168, 216]
+[19:57:20]   plan H: pool 298, S [137, 158, 216], deepest 43, deepest with S 43; front 43:1003 43:1018* 42:990 42:1008* 41:983 41:1004* 40:977 40:994* 39:954 39:986* (54 s)
+[19:57:28]     settle H 43 fb (S [216]) planner 1018 -> twin 1047 miss 61 OK (9 s)
+[19:58:13]     settle H 43 fb (S []) planner 1003 -> twin 1031 miss 76 OK (45 s)
+[19:58:13]     absorb[h43]: 1 approaches of [216]; lintwin 216@567d 0.181AU 682kg
+[19:58:13] column t1 done: 2 columns (0 absorbed); 108 s

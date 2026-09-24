@@ -1,0 +1,118 @@
+{
+ "298": [],
+ "297": [
+  {
+   "covered": 297,
+   "sumJi": 11.9535,
+   "misses": [
+    64
+   ],
+   "picks": [
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+    "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+    "results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz",
+    "results/s15/cols/r01/C00h6/route_C00h6s1_28.npz",
+    "results/s15/cols/t03/TB2f/route_TB2fs1_21.npz",
+    "results/s15b/cols/X1s2k5/route_X1s2k5s1_14.npz"
+   ]
+  },
+  {
+   "covered": 297,
+   "sumJi": 12.0987,
+   "misses": [
+    33
+   ],
+   "picks": [
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+    "results/s15b/cols/X2h04k30/route_X2h04k30s1_34_2.npz",
+    "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+    "results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz",
+    "results/s15b/close/A1/cols/route_07x112_27.npz",
+    "results/s15b/close/A1/cols/route_08x37_23.npz",
+    "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_14_1.npz"
+   ]
+  },
+  {
+   "covered": 297,
+   "sumJi": 12.2346,
+   "misses": [
+    139
+   ],
+   "picks": [
+    "results/s15/cols/r01/fclose/C00h6_h1/route_C00h6_h101x246_47.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+    "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+    "results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz",
+    "results/s15b/cols/P4Ats/route_P4Atss1_26.npz",
+    "results/s15/cols/t03/TB5f/route_TB5fs1_22.npz",
+    "results/s15b/cols/P4Ats/route_P4Atss2_14.npz"
+   ]
+  }
+ ],
+ "296": [
+  {
+   "covered": 296,
+   "sumJi": 11.9036,
+   "misses": [
+    64,
+    110
+   ],
+   "picks": [
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+    "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+    "results/s13/gen/g02/master/N8_B10.6/fleet/route_06.npz",
+    "results/s15/cols/r01/C00h6/route_C00h6s1_28.npz",
+    "results/s15/cols/t03/TB2f/route_TB2fs1_21.npz",
+    "results/s15b/cols/X1s2k5/route_X1s2k5s1_14.npz"
+   ]
+  },
+  {
+   "covered": 296,
+   "sumJi": 11.9194,
+   "misses": [
+    33,
+    280
+   ],
+   "picks": [
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+    "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+    "results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz",
+    "results/s13/gen/g02x/tailB55k4/lib/route_07_T6_26.npz",
+    "results/s15/cols/t03/TB5f/route_TB5fs1_22.npz",
+    "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_14_1.npz"
+   ]
+  },
+  {
+   "covered": 296,
+   "sumJi": 11.921,
+   "misses": [
+    64,
+    223
+   ],
+   "picks": [
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+    "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+    "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+    "results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz",
+    "results/s15/cols/r01/C00h6/route_C00h6s1_28.npz",
+    "results/s15b/cols/X1s1k8/route_X1s1k8s1_20.npz",
+    "results/s15b/cols/X1s2k5/route_X1s2k5s1_14.npz"
+   ]
+  }
+ ]
+}

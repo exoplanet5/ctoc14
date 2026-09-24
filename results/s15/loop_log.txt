@@ -1,0 +1,92 @@
+[09-22 20:01:49] s15_loop start: {'rounds': 1, 'nproc': 8, 'start': 'results/s14/probe_cover/N9/fleet', 'target': 11.9, 'beam': 100, 'groups': 8, 'pure': 2, 'chains': 6, 'complements': 4, 'absorb_d': 0.06, 'absorb_items': 8, 'round1_groups': [[137, 158, 216], [157, 168], [119, 138], [64], [64, 137, 157], [64, 119, 137], [157, 158, 216], [137, 138, 157, 158]]}; best {'fleet': 'results/s14/probe_cover/N9/fleet', 'covered': 290, 'sumJi': 11.7045, 'J': 21.7045, 'lp': 14.5935, 'src': 's14 probe_cover N9'}
+[09-22 20:01:56] === round 1: best in 290 covered @ 11.7045 (J 21.7045); 48 jobs: column 34, chain 6, absorb 8
+[09-22 20:01:56]   48 jobs (0 already done); est 631 proc-min on 8 procs
+[09-22 20:07:15]   [1/48] F00p05 (column): 6 columns, deepest 48, max iso 1, 319 s (elapsed 5 min)
+[09-22 20:07:29]   [2/48] F00p10 (column): 6 columns, deepest 48, max iso 0, 333 s (elapsed 6 min)
+[09-22 20:12:38]   [3/48] F00p15 (column): 6 columns, deepest 47, max iso 2, 323 s (elapsed 11 min)
+[09-22 20:12:55]   [4/48] F00p20 (column): 6 columns, deepest 48, max iso 2, 326 s (elapsed 11 min)
+[09-22 20:17:52]   [5/48] F01p05 (column): 6 columns, deepest 46, max iso 1, 314 s (elapsed 16 min)
+[09-22 20:18:18]   [6/48] F01p10 (column): 6 columns, deepest 46, max iso 1, 323 s (elapsed 16 min)
+[09-22 20:18:46]   [7/48] C05h3 (chain): 3 columns, deepest 37, max iso 3, 1010 s (elapsed 17 min)
+[09-22 20:19:26]   [8/48] C01h6 (chain): 13 columns, deepest 26, max iso 6, 1050 s (elapsed 17 min)
+[09-22 20:21:17]   [9/48] C04h4 (chain): 3 columns, deepest 35, max iso 4, 1161 s (elapsed 19 min)
+[09-22 20:23:11]   [10/48] F01p15 (column): 6 columns, deepest 48, max iso 1, 319 s (elapsed 21 min)
+[09-22 20:24:11]   [11/48] F02p05 (column): 6 columns, deepest 48, max iso 1, 325 s (elapsed 22 min)
+[09-22 20:24:33]   [12/48] F01p20 (column): 6 columns, deepest 48, max iso 2, 375 s (elapsed 23 min)
+[09-22 20:25:00]   [13/48] F02p10 (column): 6 columns, deepest 48, max iso 1, 335 s (elapsed 23 min)
+[09-22 20:25:03]   [14/48] C00h6 (chain): 10 columns, deepest 28, max iso 6, 1387 s (elapsed 23 min)
+[09-22 20:26:40]   [15/48] F02p15 (column): 6 columns, deepest 47, max iso 1, 323 s (elapsed 25 min)
+[09-22 20:28:31]   [16/48] F02p20 (column): 6 columns, deepest 48, max iso 1, 320 s (elapsed 27 min)
+[09-22 20:28:34]   [17/48] C02h5 (chain): 18 columns, deepest 32, max iso 6, 1598 s (elapsed 27 min)
+[09-22 20:29:45]   [18/48] F03p05 (column): 6 columns, deepest 47, max iso 1, 334 s (elapsed 28 min)
+[09-22 20:30:09]   [19/48] F03p10 (column): 6 columns, deepest 48, max iso 0, 336 s (elapsed 28 min)
+[09-22 20:30:27]   [20/48] F03p15 (column): 6 columns, deepest 48, max iso 1, 327 s (elapsed 29 min)
+[09-22 20:30:44]   [21/48] F03p20 (column): 6 columns, deepest 47, max iso 1, 341 s (elapsed 29 min)
+[09-22 20:32:15]   [22/48] F04p05 (column): 6 columns, deepest 48, max iso 1, 335 s (elapsed 30 min)
+[09-22 20:34:06]   [23/48] F04p15 (column): 6 columns, deepest 47, max iso 0, 332 s (elapsed 32 min)
+[09-22 20:34:11]   [24/48] F04p10 (column): 6 columns, deepest 48, max iso 1, 340 s (elapsed 32 min)
+[09-22 20:35:26]   [25/48] F04p20 (column): 6 columns, deepest 48, max iso 1, 341 s (elapsed 34 min)
+[09-22 20:35:42]   [26/48] F05p05 (column): 6 columns, deepest 47, max iso 1, 333 s (elapsed 34 min)
+[09-22 20:36:06]   [27/48] F05p10 (column): 6 columns, deepest 48, max iso 2, 338 s (elapsed 34 min)
+[09-22 20:36:21]   [28/48] F05p15 (column): 6 columns, deepest 48, max iso 2, 337 s (elapsed 34 min)
+[09-22 20:37:46]   [29/48] C03h5 (chain): 19 columns, deepest 32, max iso 6, 2150 s (elapsed 36 min)
+[09-22 20:38:01]   [30/48] F05p20 (column): 6 columns, deepest 48, max iso 1, 346 s (elapsed 36 min)
+[09-22 20:39:50]   [31/48] F06p05 (column): 6 columns, deepest 48, max iso 1, 344 s (elapsed 38 min)
+[09-22 20:39:50]   [32/48] F06p10 (column): 6 columns, deepest 48, max iso 1, 339 s (elapsed 38 min)
+[09-22 20:40:57]   [33/48] F06p15 (column): 6 columns, deepest 47, max iso 2, 331 s (elapsed 39 min)
+[09-22 20:41:06]   [34/48] F06p20 (column): 6 columns, deepest 47, max iso 2, 324 s (elapsed 39 min)
+[09-22 20:41:22]   [35/48] A064 (absorb): 5 columns, deepest 41, max iso 4, 25 s (elapsed 39 min)
+[09-22 20:41:42]   [36/48] F07p10 (column): 6 columns, deepest 48, max iso 1, 321 s (elapsed 40 min)
+[09-22 20:41:48]   [37/48] F07p05 (column): 6 columns, deepest 47, max iso 1, 343 s (elapsed 40 min)
+[09-22 20:41:51]   [38/48] A138 (absorb): 0 columns, deepest 0, max iso 0, 2 s (elapsed 40 min)
+[09-22 20:41:54]   [39/48] A137 (absorb): 6 columns, deepest 41, max iso 2, 48 s (elapsed 40 min)
+[09-22 20:41:58]   [40/48] A168 (absorb): 5 columns, deepest 33, max iso 2, 16 s (elapsed 40 min)
+[09-22 20:42:14]   [41/48] A119 (absorb): 3 columns, deepest 32, max iso 2, 23 s (elapsed 40 min)
+[09-22 20:42:16]   [42/48] A216 (absorb): 2 columns, deepest 34, max iso 1, 18 s (elapsed 40 min)
+[09-22 20:42:18]   [43/48] A157 (absorb): 3 columns, deepest 32, max iso 2, 24 s (elapsed 40 min)
+[09-22 20:42:47]   [44/48] A158 (absorb): 4 columns, deepest 31, max iso 2, 84 s (elapsed 41 min)
+[09-22 20:43:17]   [45/48] F07p15 (column): 6 columns, deepest 48, max iso 1, 331 s (elapsed 41 min)
+[09-22 20:43:27]   [46/48] F07p20 (column): 6 columns, deepest 48, max iso 3, 326 s (elapsed 42 min)
+[09-22 20:44:56]   [47/48] E00 (column): 6 columns, deepest 48, max iso 0, 306 s (elapsed 43 min)
+[09-22 20:44:58]   [48/48] E01 (column): 6 columns, deepest 48, max iso 0, 308 s (elapsed 43 min)
+[09-22 20:44:58]   master: tools/s13_master.py /Users/mickey/solarsystem/ctoc14/results/s15/master/r01 results/s12/cover_clean/fleet/route_*.npz ... --N 8,9,10
+[09-22 20:50:52] === round 1 done (49 min): 298 columns (28 absorbed); gate(i) steered iso columns at depth>=35 & tank<=1100: 83
+[09-22 20:50:52]     N<=8: 282 covered, sum J_i 11.3185, J 29.3185, LP 23.5153; depths [48, 43, 41, 39, 34, 31, 26, 20]
+[09-22 20:50:52]     N<=9: 290 covered, sum J_i 11.7045, J 21.7045, LP 13.978; depths [46, 46, 44, 35, 32, 30, 22, 18, 17]
+[09-22 20:50:52]     N<=10: 298 covered, sum J_i 12.3509, J 14.3509, LP 13.943; depths [37, 36, 33, 30, 30, 28, 27, 27, 26, 24]
+[09-22 20:50:52]     best N<=9 now: 290 @ 11.7045; misses [64, 119, 137, 138, 157, 158, 168, 216]
+[09-22 20:50:52] s15_loop exit
+[09-22 21:39:33] s15_loop start: {'rounds': 2, 'nproc': 6, 'start': 'results/s14/probe_cover/N9/fleet', 'target': 11.9, 'beam': 100, 'groups': 3, 'pure': 2, 'chains': 8, 'complements': 4, 'absorb_d': 0.05, 'absorb_items': 5, 'close': 1, 'close_d': 0.25, 'min_cov': 280, 'grow': 1, 'step_grow': 3, 'tlim': 1200.0, 'round1_groups': [[137, 158, 216], [157, 168], [119, 138], [64], [64, 137, 157], [64, 119, 137], [157, 158, 216], [137, 138, 157, 158]]}; best {'fleet': 'results/s14/probe_cover/N9/fleet', 'covered': 290, 'sumJi': 11.7045, 'J': 21.7045, 'lp': 14.5935, 'src': 's14 probe_cover N9'}
+[09-22 21:39:33] === round 1 complete: best N<=9 now 290 @ 11.7045 (J 21.7045, s14 probe_cover N9); misses [64, 119, 137, 138, 157, 158, 168, 216]
+[09-22 21:39:33] === round 2 phase G: grow 6 heads of results/s14/probe_cover/N9/fleet
+[09-22 21:39:33]   6 jobs (0 already done); est 48 proc-min on 6 procs
+[09-22 21:39:33]   [1/6] G06 (grow): 0 columns, deepest 0, max iso 0, 0 s (elapsed 0 min)
+[09-22 21:39:34]   [2/6] G05 (grow): 0 columns, deepest 0, max iso 0, 0 s (elapsed 0 min)
+[09-22 21:39:34]   [3/6] G01 (grow): 0 columns, deepest 0, max iso 0, 0 s (elapsed 0 min)
+[09-22 21:39:34]   [4/6] G03 (grow): 0 columns, deepest 0, max iso 0, 0 s (elapsed 0 min)
+[09-22 21:39:34]   [5/6] G04 (grow): 0 columns, deepest 0, max iso 0, 0 s (elapsed 0 min)
+[09-22 21:39:35]   [6/6] G02 (grow): 0 columns, deepest 0, max iso 0, 1 s (elapsed 0 min)
+[09-22 21:39:35]     head 01: +[] for +0.0 kg
+[09-22 21:39:35]     head 02: +[] for +0.0 kg
+[09-22 21:39:35]     head 03: +[] for +0.0 kg
+[09-22 21:39:35]     head 04: +[] for +0.0 kg
+[09-22 21:39:35]     head 05: +[] for +0.0 kg
+[09-22 21:39:35]     head 06: +[] for +0.0 kg
+[09-22 21:39:48] === round 2: best in 290 covered @ 11.7045 (J 21.7045); premium set 35; 60 jobs: column 14, chain 12, absorb 34
+[09-22 21:39:48]   60 jobs (0 already done); est 887 proc-min on 6 procs
+[09-22 22:16:43]   [1/60] K03h4 (chain): 10 columns, deepest 41, max iso 3, 2215 s (elapsed 37 min)
+[09-22 22:18:37]   [2/60] C07h4 (chain): 28 columns, deepest 43, max iso 3, 2328 s (elapsed 39 min)
+[09-22 22:39:25]   [3/60] C04h4 (chain): 21 columns, deepest 35, max iso 4, 3577 s (elapsed 60 min)
+[09-22 22:40:02]   [4/60] C06h4 (chain): 31 columns, deepest 35, max iso 3, 3614 s (elapsed 60 min)
+[09-22 22:42:15]   [5/60] C05h3 (chain): 35 columns, deepest 36, max iso 5, 3747 s (elapsed 62 min)
+[09-22 22:44:17]   [6/60] C02h5 (chain): 0 columns, deepest 0, max iso 0, 1653 s (elapsed 64 min)
+[09-22 22:49:42]   [7/60] K02h3 (chain): 29 columns, deepest 43, max iso 3, 4194 s (elapsed 70 min)
+[09-22 22:55:58]   [8/60] F00p10 (column): 6 columns, deepest 48, max iso 1, 376 s (elapsed 76 min)
+[09-22 22:57:24]   [9/60] C03h5 (chain): 22 columns, deepest 34, max iso 4, 2327 s (elapsed 78 min)
+[09-22 23:01:47]   [10/60] F00p20 (column): 6 columns, deepest 48, max iso 1, 349 s (elapsed 82 min)
+[09-22 23:03:16]   [11/60] F01p10 (column): 6 columns, deepest 47, max iso 1, 352 s (elapsed 83 min)
+[09-22 23:09:15]   [12/60] F02p10 (column): 6 columns, deepest 48, max iso 1, 359 s (elapsed 89 min)
+[09-22 23:11:53]   [13/60] C00h6 (chain): 15 columns, deepest 26, max iso 4, 1948 s (elapsed 92 min)
+[09-22 23:13:37]   [14/60] F01p20 (column): 5 columns, deepest 46, max iso 2, 710 s (elapsed 94 min)
+[09-22 23:15:24]   [15/60] F02p20 (column): 8 columns, deepest 47, max iso 1, 369 s (elapsed 96 min)
+[09-22 23:17:22]   [16/60] F03p10 (column): 6 columns, deepest 47, max iso 0, 329 s (elapsed 98 min)

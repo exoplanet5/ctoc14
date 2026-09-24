@@ -1,0 +1,160 @@
+{
+ "pdf_check": {
+  "earth_pos_err_km": 0.0005406920891520935,
+  "launch_vinf_kms": 4.000000000020374,
+  "ast174_dist_to_sample_flyby_km": 0.009473779901173606
+ },
+ "vs_lead_ephemeris": {
+  "n_times": 62,
+  "max_pos_diff_km": 4.3848597187667316e-05,
+  "max_vel_diff_kms": 6.473146713532302e-11,
+  "max_earth_pos_diff_km": 1.715974823417079e-05
+ },
+ "kepler_residual_max": 8.881784197001252e-16,
+ "fine_grid": {
+  "dt_d": 0.1,
+  "n_samples": 54789,
+  "perihelion_count_mismatch_ids": [],
+  "ecliptic_crossing_count_mismatch_ids": [],
+  "rmin_grid_minus_analytic_au": {
+   "max": 3.35374853996373e-06,
+   "min": -1.2667200621763186e-11
+  },
+  "rmax_analytic_minus_grid_au": {
+   "max": 7.876498564485246e-08,
+   "min": -1.757882728270488e-11
+  },
+  "dearth_grid_minus_refined_au": {
+   "max": 9.200791135652656e-06,
+   "min": -4.980460488468452e-13
+  },
+  "dearth_time_diff_d_max": 0.05000742604897823,
+  "zabs_max_diff_au_max": 1.11991801943212e-06,
+  "total_perihelia_grid": 2146,
+  "total_crossings_grid": 4293
+ },
+ "nodes": {
+  "n": 4293,
+  "max_abs_z_km": 0.22458909498527646,
+  "max_abs_r_err_au": 9.11253406066237e-10,
+  "in_window": true,
+  "asc_z_slope_positive": true,
+  "desc_z_slope_negative": true
+ },
+ "moid": {
+  "max_abs_diff_au": 4.975013456753885e-14,
+  "max_abs_diff_km": 7.442514198342277e-06,
+  "ids_diff_gt_1em6_au": [],
+  "n_lt_0p05": 298,
+  "n_lt_0p02": 118,
+  "n_lt_0p01": 52,
+  "ids_ge_0p05": [
+   117,
+   280
+  ],
+  "min_moid_id": 76,
+  "min_moid_au": 0.00011188573926623253
+ },
+ "rederived": {
+  "classes": {
+   "easy": 120,
+   "moderate": 74,
+   "hard": 104,
+   "very_hard": 0,
+   "unreachable": 2
+  },
+  "in_band_crossings": 2731,
+  "in_band_per_year": [
+   185,
+   187,
+   181,
+   173,
+   188,
+   185,
+   178,
+   186,
+   184,
+   178,
+   180,
+   180,
+   187,
+   177,
+   182
+  ],
+  "in_band_per_year_mean": 182.06666666666666,
+  "in_band_per_year_std": 4.249967320135794,
+  "in_band_asteroids": 292,
+  "in_band_crossings_by_class": {
+   "easy": 878,
+   "moderate": 693,
+   "hard": 1160
+  },
+  "near_1au_0p9_1p1": 1783,
+  "earth_ca_lt_0p1": 86,
+  "earth_ca_lt_0p05": 33,
+  "earth_ca_lt_0p02": 3,
+  "atira_ids": [
+   296,
+   297
+  ],
+  "unreachable_ids": [
+   131,
+   144
+  ],
+  "ids_rmin_window_gt_2p5": [
+   131,
+   144
+  ],
+  "ids_retrograde": [
+   131
+  ],
+  "all_q_le_1p3": true,
+  "all_cross_annulus": true,
+  "n_rad_s_col_ok": true,
+  "id131": {
+   "r_au_at": [
+    10.710503691587332,
+    15.331221387653608,
+    16.069359377092322,
+    13.312537372968562
+   ],
+   "dates": [
+    "2030-01-01",
+    "2035-01-01",
+    "2040-01-01",
+    "2044-12-31"
+   ],
+   "d_earth_au_at": [
+    10.376495593488045,
+    14.82093337411727,
+    15.472616293469015,
+    12.63413789313008
+   ],
+   "d_earth_min_finegrid_au": 10.0773735113578,
+   "r_min_finegrid_au": 10.710503691587332
+  },
+  "id144": {
+   "r_au_at": [
+    33.819254857052776,
+    34.591513516994155,
+    34.579891080618786,
+    33.783866707199785
+   ],
+   "dates": [
+    "2030-01-01",
+    "2035-01-01",
+    "2040-01-01",
+    "2044-12-31"
+   ],
+   "d_earth_au_at": [
+    34.04873012939125,
+    34.89590339992676,
+    34.95691611892067,
+    34.23218401684208
+   ],
+   "d_earth_min_finegrid_au": 32.895024843624476,
+   "r_min_finegrid_au": 33.783866707199785
+  }
+ },
+ "elapsed_s": 86.2
+}

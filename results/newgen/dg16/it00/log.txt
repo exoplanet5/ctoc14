@@ -1,0 +1,18 @@
+[12:16:10] greedy cover: n 9, m0 1600, w_fuel 0.520, tank ceiling 1038 kg
+[12:16:10] prizes from results/newgen/dg16/prizes_00.json: min 1.00 median 1.00 max 1.00
+[12:18:01] route 1: 298 targets left, beam 111 s, best planner 46 flybys (fuel 943, tank 1025)
+[12:18:24]    46 flybys: planner tank 1025 -> twin tank 1115 (J_i 1.503, dv 24.2 = 0.526/flyby, value -44.497, 23 s)
+[12:18:34]    46 flybys: planner tank 1025 -> twin tank 1067 (J_i 1.445, dv 22.5 = 0.489/flyby, value -44.555, 10 s)
+[12:19:02]    46 flybys: planner tank 1028 -> twin tank 1108 (J_i 1.494, dv 24.0 = 0.521/flyby, value -44.506, 28 s)
+[12:19:10]    46 flybys: planner tank 1029 -> twin tank 1123 (J_i 1.513, dv 24.5 = 0.532/flyby, value -44.487, 8 s)
+[12:19:22]    46 flybys: planner tank 1030 -> twin tank 1132 (J_i 1.524, dv 24.8 = 0.539/flyby, value -44.476, 12 s)
+[12:19:22] route 1: ACCEPTED 46 targets, tank 1067; fleet 1 routes, covered 46, J 255.4447; 01:46@1067  (192 s)
+[12:20:52] route 2: 252 targets left, beam 90 s, best planner 43 flybys (fuel 936, tank 1019)
+[12:21:01]    43 flybys: planner tank 1019 -> twin tank 1098 (J_i 1.482, dv 23.6 = 0.549/flyby, value -41.518, 9 s)
+[12:21:08]    42 flybys: planner tank 979 -> twin tank 1009 (J_i 1.378, dv 20.3 = 0.484/flyby, value -40.622, 7 s)
+[12:21:17]    42 flybys: planner tank 988 -> twin tank 1038 (J_i 1.411, dv 21.4 = 0.510/flyby, value -40.589, 10 s)
+[12:21:25]    42 flybys: planner tank 995 -> twin tank 1044 (J_i 1.418, dv 21.6 = 0.515/flyby, value -40.582, 8 s)
+[12:21:35]    42 flybys: planner tank 997 -> twin tank 1033 (J_i 1.405, dv 21.2 = 0.505/flyby, value -40.595, 10 s)
+[12:21:35] route 2: ACCEPTED 43 targets, tank 1098; fleet 2 routes, covered 89, J 213.9268; 01:46@1067 02:43@1098  (133 s)
+[12:22:49] route 3: 209 targets left, beam 74 s, best planner 39 flybys (fuel 879, tank 978)
+[12:23:00]    39 flybys: planner tank 978 -> twin tank 1079 (J_i 1.459, dv 22.9 = 0.588/flyby, value -37.541, 10 s)

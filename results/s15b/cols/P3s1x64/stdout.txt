@@ -1,0 +1,6 @@
+[02:17:10] twintail P3s1x64: pool 22, S [64], p 0.1, steps 1, beam 24/72, nproc 1; resume at step 1
+[02:17:22]   roots: 290 launch legs -> 72 kept; pool 22, S [64] p 0.1
+[02:18:47]   depth  2: 72 parents -> 269 kids (193 uniq) -> tried 29, settled 24, kept 17; t_end 531-1108 d, tank 602-654, max S 0 (85 s, gen 55 s)
+[02:19:45]   depth  3: 17 parents -> 107 kids (107 uniq) -> tried 29, settled 24, kept 21; t_end 790-1483 d, tank 610-669, max S 0 (59 s, gen 18 s)
+[02:20:36]   depth  4: 21 parents -> 116 kids (116 uniq) -> tried 24, settled 24, kept 24; t_end 977-1727 d, tank 614-735, max S 0 (51 s, gen 27 s)
+[02:21:39]   depth  5: 24 parents -> 128 kids (128 uniq) -> tried 24, settled 24, kept 22; t_end 1102-1934 d, tank 627-687, max S 0 (64 s, gen 35 s)

@@ -1,0 +1,16 @@
+[21:24:36] craft 0: carrier routes 21@689 22@854 18@708 18@741 -> c00
+[21:30:47] craft 0: 40 flybys @ 1034 kg -> fleet covered 40, sum J_i 1.406, J 261.406
+[21:31:48] craft 1: carrier routes 15@641 14@683 14@650 8@618 -> c00
+[21:38:32] craft 1: 37 flybys @ 960 kg -> fleet covered 77, sum J_i 2.729, J 225.729
+[21:39:25] craft 2: carrier routes 12@702 9@637 10@666 12@625 -> c03
+[21:45:05] craft 2: 32 flybys @ 909 kg -> fleet covered 109, sum J_i 3.999, J 194.999
+[21:45:45] craft 3: carrier routes 12@628 12@647 -> c00
+[21:52:22] craft 3: 32 flybys @ 1001 kg -> fleet covered 141, sum J_i 5.368, J 164.368
+[21:52:55] craft 4: carrier routes 10@624 10@634 9@625 10@627 -> c00
+[21:57:45] craft 4: 26 flybys @ 914 kg -> fleet covered 167, sum J_i 6.642, J 139.642
+[21:58:17] craft 5: carrier routes 8@614 8@627 10@622 7@639 -> c02
+[22:00:55] craft 5: 20 flybys @ 810 kg -> fleet covered 187, sum J_i 7.814, J 120.814
+[22:01:33] craft 6: carrier routes 9@628 9@629 10@631 5@611 -> c02
+[22:04:38] craft 6: 21 flybys @ 830 kg -> fleet covered 208, sum J_i 9.006, J 101.006
+[22:05:02] craft 7: carrier routes 7@636 10@648 10@634 5@616 -> c02
+[22:07:00] craft 7: 20 flybys @ 761 kg -> fleet covered 228, sum J_i 10.134, J 82.134

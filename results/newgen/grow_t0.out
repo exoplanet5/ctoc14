@@ -1,0 +1,42 @@
+[03:02:00] grow: launch 0.0 d, v_inf 0,0,0, 298 allowed targets, lambda 0.04
+[03:02:13] +174 at 96 d (dist 0.023 AU): dJ +0.0000; flybys 1, tank 601.5 kg, J_i 1.0011 (16/16 ok)
+[03:02:21] +6 at 2835 d (dist 0.030 AU): dJ +0.0000; flybys 2, tank 601.5 kg, J_i 1.0011 (16/16 ok)
+[03:02:28] +135 at 1464 d (dist 0.038 AU): dJ +0.0010; flybys 3, tank 602.9 kg, J_i 1.0021 (16/16 ok)
+[03:02:44] +227 at 835 d (dist 0.022 AU): dJ +0.0010; flybys 4, tank 604.3 kg, J_i 1.0031 (15/16 ok)
+[03:03:00] +95 at 5424 d (dist 0.010 AU): dJ +0.0002; flybys 5, tank 604.7 kg, J_i 1.0034 (15/16 ok)
+[03:03:17] +28 at 3168 d (dist 0.023 AU): dJ +0.0026; flybys 6, tank 608.3 kg, J_i 1.0059 (15/16 ok)
+[03:03:32] +69 at 2625 d (dist 0.012 AU): dJ +0.0000; flybys 7, tank 608.3 kg, J_i 1.0060 (15/16 ok)
+[03:03:49] +153 at 4395 d (dist 0.032 AU): dJ +0.0017; flybys 8, tank 610.6 kg, J_i 1.0076 (15/16 ok)
+[03:04:05] +83 at 5013 d (dist 0.019 AU): dJ +0.0025; flybys 9, tank 614.1 kg, J_i 1.0102 (15/16 ok)
+[03:04:22] +67 at 976 d (dist 0.035 AU): dJ +0.0032; flybys 10, tank 618.4 kg, J_i 1.0133 (15/16 ok)
+[03:04:41] +299 at 3310 d (dist 0.041 AU): dJ +0.0033; flybys 11, tank 623.0 kg, J_i 1.0167 (15/16 ok)
+/Users/mickey/.venvs/astro313/lib/python3.13/site-packages/numpy/linalg/_linalg.py:2803: RuntimeWarning: overflow encountered in multiply
+  s = (x.conj() * x).real
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:181: RuntimeWarning: divide by zero encountered in log
+  chi[hyp] = sgn * np.sqrt(-a) * np.log(-2 * mu * alpha[hyp] * dt[hyp] / (rdotv[hyp] + sgn * np.sqrt(-mu * a) * (1 - r0n[hyp] * alpha[hyp])))
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:117: RuntimeWarning: invalid value encountered in divide
+  C[neg] = (np.cosh(sz[neg]) - 1) / (-z[neg])
+/Users/mickey/solarsystem/ctoc14/ctoc14/kepler.py:118: RuntimeWarning: invalid value encountered in subtract
+  S[neg] = (np.sinh(sz[neg]) - sz[neg]) / sz[neg] ** 3
+[03:05:01] +19 at 4321 d (dist 0.034 AU): dJ +0.0039; flybys 12, tank 628.2 kg, J_i 1.0206 (15/16 ok)
+[03:05:19] +123 at 3551 d (dist 0.012 AU): dJ +0.0026; flybys 13, tank 631.7 kg, J_i 1.0231 (15/16 ok)
+[03:05:39] +118 at 1891 d (dist 0.040 AU): dJ +0.0009; flybys 14, tank 632.9 kg, J_i 1.0241 (14/16 ok)
+[03:06:01] +112 at 5238 d (dist 0.037 AU): dJ +0.0041; flybys 15, tank 638.4 kg, J_i 1.0282 (12/16 ok)
+[03:06:26] +39 at 4555 d (dist 0.043 AU): dJ +0.0070; flybys 16, tank 647.6 kg, J_i 1.0352 (10/15 ok)
+[03:06:49] +293 at 4694 d (dist 0.010 AU): dJ +0.0002; flybys 17, tank 647.9 kg, J_i 1.0354 (11/16 ok)
+[03:07:14] +171 at 4796 d (dist 0.023 AU): dJ +0.0024; flybys 18, tank 651.1 kg, J_i 1.0378 (11/16 ok)
+[03:07:38] +300 at 4160 d (dist 0.020 AU): dJ +0.0063; flybys 19, tank 659.3 kg, J_i 1.0441 (9/15 ok)
+[03:08:02] +42 at 1287 d (dist 0.043 AU): dJ +0.0097; flybys 20, tank 671.7 kg, J_i 1.0538 (8/14 ok)
+[03:08:19] +12 at 2641 d (dist 0.028 AU): dJ +0.0077; flybys 21, tank 681.4 kg, J_i 1.0615 (7/12 ok)
+[03:08:38] +59 at 2359 d (dist 0.043 AU): dJ +0.0079; flybys 22, tank 691.2 kg, J_i 1.0694 (6/12 ok)
+[03:09:01] +195 at 2238 d (dist 0.022 AU): dJ +0.0053; flybys 23, tank 697.8 kg, J_i 1.0747 (8/13 ok)
+[03:09:20] +262 at 5313 d (dist 0.043 AU): dJ +0.0154; flybys 24, tank 716.4 kg, J_i 1.0901 (6/12 ok)
+[03:09:36] +73 at 5443 d (dist 0.042 AU): dJ +0.0214; flybys 25, tank 741.7 kg, J_i 1.1114 (4/10 ok)
+[03:09:54] +176 at 3729 d (dist 0.048 AU): dJ +0.0213; flybys 26, tank 766.0 kg, J_i 1.1327 (2/9 ok)
+[03:10:13] +186 at 4025 d (dist 0.048 AU): dJ +0.0099; flybys 27, tank 777.2 kg, J_i 1.1425 (3/10 ok)
+[03:10:36] +207 at 3465 d (dist 0.040 AU): dJ +0.0131; flybys 28, tank 791.6 kg, J_i 1.1556 (2/10 ok)
+[03:11:00] +244 at 3596 d (dist 0.037 AU): dJ +0.0145; flybys 29, tank 807.4 kg, J_i 1.1701 (3/12 ok)
+[03:11:23] +245 at 3843 d (dist 0.011 AU): dJ +0.0001; flybys 30, tank 807.5 kg, J_i 1.1702 (4/13 ok)
+[03:11:48] +109 at 3669 d (dist 0.015 AU): dJ +0.0064; flybys 31, tank 814.4 kg, J_i 1.1766 (4/13 ok)
+[03:12:14] cheapest insertion 230 dJ 0.0894 > lambda: stop
+[03:12:14] done: 31 flybys, tank 814.4 kg, J_i 1.1766, J_i per flyby 0.0380

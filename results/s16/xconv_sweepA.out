@@ -1,0 +1,6 @@
+[16:27:29] 24 conversions (opt_iters 40) on 5 procs; 1 in index
+[16:35:36] 8bc99e18134f_o40 42 fb: tank 944.64 -> m0 948.89 (+4.26 kg) miss 36 km valid True hs 0.1 n_opt 7 (487 s) results/s16/polish/D/cols/route_r1_pT05n_42.npz
+[16:35:41] 7072ffc16f02_o40 42 fb: tank 944.69 -> m0 949.11 (+4.42 kg) miss 27 km valid True hs 0.1 n_opt 7 (492 s) results/s16/iter/A/cols/route_c1b608a1rs_42.npz
+[16:35:42] 82a79efe84e8_o40 42 fb: tank 944.82 -> m0 948.85 (+4.03 kg) miss 23 km valid True hs 0.1 n_opt 7 (493 s) results/s16/polish/C/cols/route_r1_pT05j_42.npz
+[16:35:52] c0ccd8dc8efd_o40 42 fb: tank 944.76 -> m0 949.08 (+4.32 kg) miss 72 km valid True hs 0.1 n_opt 7 (503 s) results/s16/polish/D/cols/route_r1_pT03f_42.npz
+[16:36:16] 4ed52f69f299_o40 42 fb: tank 944.45 -> m0 948.45 (+4.01 kg) miss 36 km valid True hs 0.1 n_opt 19 (526 s) results/s16/polish/B2/cols/route_r1_pT05k_42.npz

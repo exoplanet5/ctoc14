@@ -1,0 +1,10 @@
+[07:19:07]   h01: 46 fb, stored tank 1004.21 (miss 1 km) -> re-settled 1004.18 (miss 1 km) OK (1 s)
+[07:19:07]   h02: 46 fb, stored tank 1029.03 (miss 5 km) -> re-settled 1029.00 (miss 5 km) OK (1 s)
+[07:19:07]   h03: 44 fb, stored tank 1045.11 (miss 2 km) -> re-settled 1045.08 (miss 1 km) OK (1 s)
+[07:19:07]   h04: 35 fb, stored tank 881.64 (miss 2 km) -> re-settled 881.52 (miss 2 km) OK (1 s)
+[07:19:07]   h05: 32 fb, stored tank 968.36 (miss 29 km) -> re-settled 968.30 (miss 9 km) OK (1 s)
+[07:19:07]   h06: 31 fb, stored tank 1061.69 (miss 59 km) -> re-settled 1061.65 (miss 44 km) OK (1 s)
+[07:19:07]   s1: 22 fb, stored tank 883.92 (miss 45 km) -> re-settled 883.91 (miss 34 km) OK (1 s)
+[07:19:07]   s2: 14 fb, stored tank 862.69 (miss 97 km) -> re-settled 862.64 (miss 45 km) OK (1 s)
+[07:19:07]   t1: 28 fb, stored tank 1019.20 (miss 72 km) -> re-settled 1018.64 (miss 22 km) OK (1 s)
+[07:19:07] resettle: 9 craft, covered 298, sum J_i stored 12.0598 -> re-settled 12.0588; all settled: True

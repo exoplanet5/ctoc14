@@ -1,0 +1,50 @@
+[
+ {
+  "f": "results/s13/plan13/sr_N6a/01/route_01.npz",
+  "n": 48,
+  "tank": 1046.934,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/plan13/close_N6a/closed/route_03.npz",
+  "n": 43,
+  "tank": 1194.38,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/plan13/close_N6a/closed/route_02.npz",
+  "n": 41,
+  "tank": 1202.902,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/plan13/close_N6a/closed/route_04.npz",
+  "n": 41,
+  "tank": 1268.728,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/plan13/close_N6a/closed/route_05.npz",
+  "n": 36,
+  "tank": 1011.652,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/plan13/close_N6a/closed/route_06.npz",
+  "n": 27,
+  "tank": 891.064,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/plan13/close_N6a/closed/route_07.npz",
+  "n": 26,
+  "tank": 1254.32,
+  "resettled": true
+ },
+ {
+  "f": "results/s13/plan13/close_N6a/closed/route_08.npz",
+  "n": 18,
+  "tank": 902.25,
+  "resettled": true
+ }
+]

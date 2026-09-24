@@ -1,0 +1,1 @@
+restarted 23:34 after full.json crash (path bug: out arg must be a bare filename)

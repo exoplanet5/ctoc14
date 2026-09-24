@@ -1,0 +1,258 @@
+{
+ "gens": {
+  "01": {
+   "slots": [
+    "g01/full1",
+    "g01/full2",
+    "g01/full3",
+    "g01/full4",
+    "g01/full5",
+    "g01/full6",
+    "g01/tail5",
+    "g01/tail4"
+   ],
+   "master": {
+    "dir": "results/s13/gen/g01/master",
+    "N8": {
+     "covered": 282,
+     "sumJi": 11.3304,
+     "J": 29.3304,
+     "lp": 27.9237,
+     "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/gen/g01/master/N8/fleet",
+     "dup_targets": [
+      26,
+      90,
+      121
+     ],
+     "craft": 8
+    },
+    "N9": {
+     "covered": 290,
+     "sumJi": 12.1267,
+     "J": 22.1267,
+     "lp": 17.2198,
+     "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/gen/g01/master/N9/fleet",
+     "dup_targets": [
+      18,
+      26,
+      56,
+      79,
+      90,
+      94,
+      118,
+      121,
+      156,
+      179,
+      188,
+      196,
+      197,
+      198,
+      204,
+      208,
+      230,
+      231
+     ],
+     "craft": 9
+    },
+    "frontier": {
+     "10.55": {
+      "covered": 276,
+      "sumJi": 10.5046,
+      "J": 34.5046,
+      "lp": null,
+      "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/gen/g01/master/N8_B10.55/fleet",
+      "dup_targets": [],
+      "craft": 8
+     },
+     "10.6": {
+      "covered": 277,
+      "sumJi": 10.596,
+      "J": 33.596,
+      "lp": null,
+      "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/gen/g01/master/N8_B10.6/fleet",
+      "dup_targets": [],
+      "craft": 8
+     },
+     "10.75": {
+      "covered": 278,
+      "sumJi": 10.6492,
+      "J": 32.6492,
+      "lp": null,
+      "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/gen/g01/master/N8_B10.75/fleet",
+      "dup_targets": [],
+      "craft": 8
+     }
+    }
+   },
+   "probe": {
+    "covered": 278,
+    "sumJi": 10.6492,
+    "projected_J": 27.4688,
+    "cheap": [
+     18,
+     264
+    ],
+    "dear": [
+     110,
+     160,
+     243,
+     283
+    ],
+    "unplaceable": [
+     7,
+     15,
+     16,
+     25,
+     64,
+     123,
+     129,
+     138,
+     158,
+     168,
+     216,
+     232,
+     282,
+     289
+    ]
+   },
+   "best": {
+    "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/gen/g01/master/N8_B10.75/fleet",
+    "covered": 278,
+    "sumJi": 10.6492
+   },
+   "done": true,
+   "finished": "2026-09-22 14:16:29"
+  },
+  "02": {
+   "slots": [
+    "g02/full1",
+    "g02/full2",
+    "g02/full3",
+    "g02/full4",
+    "g02/tail5",
+    "g02/tail4",
+    "g02/pilot1",
+    "g02/pilot2"
+   ],
+   "master": {
+    "dir": "results/s13/gen/g02/master",
+    "N8": {
+     "covered": 282,
+     "sumJi": 11.3185,
+     "J": 29.3185,
+     "lp": 25.6774,
+     "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/gen/g02/master/N8/fleet",
+     "dup_targets": [],
+     "craft": 8
+    },
+    "N9": {
+     "covered": 290,
+     "sumJi": 11.7045,
+     "J": 21.7045,
+     "lp": 14.9726,
+     "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/gen/g02/master/N9/fleet",
+     "dup_targets": [
+      17,
+      51,
+      95,
+      173,
+      175,
+      188,
+      199,
+      203,
+      242,
+      243,
+      249,
+      262
+     ],
+     "craft": 9
+    },
+    "frontier": {
+     "10.55": {
+      "covered": 276,
+      "sumJi": 10.5028,
+      "J": 34.5028,
+      "lp": null,
+      "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/gen/g02/master/N8_B10.55/fleet",
+      "dup_targets": [],
+      "craft": 8
+     },
+     "10.6": {
+      "covered": 277,
+      "sumJi": 10.5545,
+      "J": 33.5545,
+      "lp": null,
+      "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/gen/g02/master/N8_B10.6/fleet",
+      "dup_targets": [],
+      "craft": 8
+     },
+     "10.75": {
+      "covered": 279,
+      "sumJi": 10.6378,
+      "J": 31.6378,
+      "lp": null,
+      "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/gen/g02/master/N8_B10.75/fleet",
+      "dup_targets": [],
+      "craft": 8
+     }
+    }
+   },
+   "probe": {
+    "covered": 279,
+    "sumJi": 10.6378,
+    "projected_J": 26.0225,
+    "cheap": [
+     110
+    ],
+    "dear": [
+     32,
+     71,
+     96,
+     158,
+     168,
+     247
+    ],
+    "unplaceable": [
+     64,
+     118,
+     120,
+     137,
+     138,
+     150,
+     157,
+     216,
+     219,
+     234,
+     251,
+     254
+    ]
+   },
+   "best": {
+    "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/gen/g02/master/N8_B10.75/fleet",
+    "covered": 279,
+    "sumJi": 10.6378
+   },
+   "done": true,
+   "finished": "2026-09-22 17:37:59"
+  },
+  "03": {
+   "slots": [
+    "g03/full1",
+    "g03/full2",
+    "g03/full3",
+    "g03/full4",
+    "g03/tail5",
+    "g03/tail4",
+    "g03/pilot1",
+    "g03/pilot2"
+   ]
+  }
+ },
+ "started": "2026-09-22 11:16:10",
+ "best0": {
+  "fleet": "/Users/mickey/solarsystem/ctoc14/results/s13/gen/g00/master/N8_B10.75/fleet",
+  "covered": 273,
+  "sumJi": 10.4667
+ },
+ "restart_note": "2026-09-22 12:12: generation 1 restarted.  First attempt (g01_jitall, s13_pass, PREM gc16 hard set): all 6 full passes ended at route 1 (8-level front all over the 1050 kg head cap); tails 278 @ 10.763, 279 @ 10.946 kept as archive columns.  Now: tools/s13_pass2.py (24-level front) and PREM_01 = 0.01 on U1 (FREE N6a premium set)."
+}

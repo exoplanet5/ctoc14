@@ -1,0 +1,6 @@
+[01:33:30] 1015 route files
+[01:33:30] 423 distinct routes; depth 46..4; union covers 298 of 298
+[01:33:30] LP bound 14.355; duals: median 0.0000, max 0.598, >= 0.05: 72
+[01:33:30] -> results/s7/probe1b/duals.json
+[01:33:30] MILP Optimization terminated successfully. (H: 10 craft, 298 covered, sum J_i 12.355, J 14.355 (incl. 2 permanent misses)
+[01:33:30] saved 10 routes -> results/s7/probe1b/fleet   (covered 298, J 14.355)

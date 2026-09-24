@@ -1,0 +1,34 @@
+{
+ "args": {
+  "out": "results/s13/gen",
+  "gens": 3,
+  "alt": "full2,full4,full6,tail4,pilot2",
+  "alt_args": "--choice value",
+  "deadline": "2026-09-23 06:00",
+  "pass_tool": "tools/s13_pass2.py"
+ },
+ "rest": [
+  "--pass-args=--members T1,T2,T3,T5,T6"
+ ],
+ "gens": {
+  "01": {
+   "start": 1790050103.077405,
+   "wall_s": 7687,
+   "g05": {
+    "passed": false,
+    "text": "frontier <= 10.55: 276 @ 10.5046 (need >= 278); projected closed J 27.469 (need < 13.9)"
+   }
+  },
+  "02": {
+   "start": 1790057789.928766,
+   "wall_s": 12089,
+   "g05": {
+    "passed": false,
+    "text": "frontier <= 10.55: 276 @ 10.5028 (need >= 278); projected closed J 26.023 (need < 13.9)"
+   }
+  },
+  "03": {
+   "start": 1790069879.4222238
+  }
+ }
+}

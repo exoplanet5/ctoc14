@@ -1,0 +1,76 @@
+{
+ "misses": [
+  17,
+  36,
+  108,
+  118,
+  180,
+  216,
+  219,
+  220,
+  243,
+  247,
+  258,
+  288
+ ],
+ "n_positive": 0,
+ "n_positive_tank_ok": 0,
+ "per_miss": {
+  "17": {
+   "n": 0,
+   "best": null
+  },
+  "36": {
+   "n": 0,
+   "best": null
+  },
+  "108": {
+   "n": 0,
+   "best": null
+  },
+  "118": {
+   "n": 0,
+   "best": null
+  },
+  "180": {
+   "n": 0,
+   "best": null
+  },
+  "216": {
+   "n": 0,
+   "best": null
+  },
+  "219": {
+   "n": 0,
+   "best": null
+  },
+  "220": {
+   "n": 0,
+   "best": null
+  },
+  "243": {
+   "n": 0,
+   "best": null
+  },
+  "247": {
+   "n": 0,
+   "best": null
+  },
+  "258": {
+   "n": 0,
+   "best": null
+  },
+  "288": {
+   "n": 0,
+   "best": null
+  }
+ },
+ "greedy": {
+  "n": 0,
+  "net": 0,
+  "recovered": [],
+  "extra_kg": 0,
+  "moves": []
+ },
+ "sec": 6
+}

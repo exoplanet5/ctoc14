@@ -1,0 +1,144 @@
+{
+ "slice": 3,
+ "T_d": 1620.0,
+ "H_d": 540.0,
+ "L_d": 360.0,
+ "crafts": [
+  4,
+  7
+ ],
+ "rows": [
+  {
+   "craft": 4,
+   "ok": true,
+   "error": null,
+   "wall_s": 237.7,
+   "plan_s": 170.2,
+   "n_columns": 16,
+   "planbeam": [
+    {
+     "n_new": 1,
+     "dtank_min": 2.3,
+     "potential_of_cheapest": 3,
+     "potential_max": 3,
+     "n_cols": 7
+    },
+    {
+     "n_new": 2,
+     "dtank_min": 6.0,
+     "potential_of_cheapest": 0,
+     "potential_max": 3,
+     "n_cols": 3
+    },
+    {
+     "n_new": 3,
+     "dtank_min": 11.9,
+     "potential_of_cheapest": 0,
+     "potential_max": 3,
+     "n_cols": 3
+    },
+    {
+     "n_new": 4,
+     "dtank_min": 30.0,
+     "potential_of_cheapest": 1,
+     "potential_max": 1,
+     "n_cols": 2
+    },
+    {
+     "n_new": 5,
+     "dtank_min": 58.8,
+     "potential_of_cheapest": 0,
+     "potential_max": 0,
+     "n_cols": 1
+    }
+   ],
+   "segbeam": {
+    "1": {
+     "dtank_min": 2.58718854669371,
+     "potential_of_cheapest": 3,
+     "potential_max": 3,
+     "n_cols": 6
+    },
+    "2": {
+     "dtank_min": 16.085632226556186,
+     "potential_of_cheapest": 3,
+     "potential_max": 3,
+     "n_cols": 7
+    },
+    "3": {
+     "dtank_min": 57.624866440007395,
+     "potential_of_cheapest": 3,
+     "potential_max": 3,
+     "n_cols": 4
+    },
+    "4": {
+     "dtank_min": 184.0272384646729,
+     "potential_of_cheapest": 0,
+     "potential_max": 1,
+     "n_cols": 2
+    }
+   },
+   "seg_wall_s": 482.1
+  },
+  {
+   "craft": 7,
+   "ok": true,
+   "error": null,
+   "wall_s": 193.5,
+   "plan_s": 157.3,
+   "n_columns": 15,
+   "planbeam": [
+    {
+     "n_new": 1,
+     "dtank_min": 1.0,
+     "potential_of_cheapest": 0,
+     "potential_max": 3,
+     "n_cols": 10
+    },
+    {
+     "n_new": 2,
+     "dtank_min": 17.8,
+     "potential_of_cheapest": 1,
+     "potential_max": 1,
+     "n_cols": 2
+    },
+    {
+     "n_new": 3,
+     "dtank_min": 30.3,
+     "potential_of_cheapest": 0,
+     "potential_max": 2,
+     "n_cols": 3
+    }
+   ],
+   "segbeam": {
+    "1": {
+     "dtank_min": 1.7845908351226853,
+     "potential_of_cheapest": 2,
+     "potential_max": 3,
+     "n_cols": 7
+    },
+    "2": {
+     "dtank_min": 23.153882640913707,
+     "potential_of_cheapest": 0,
+     "potential_max": 3,
+     "n_cols": 8
+    },
+    "3": {
+     "dtank_min": 96.094691902509,
+     "potential_of_cheapest": 2,
+     "potential_max": 2,
+     "n_cols": 1
+    },
+    "4": {
+     "dtank_min": 219.09705350354034,
+     "potential_of_cheapest": 0,
+     "potential_max": 0,
+     "n_cols": 1
+    }
+   },
+   "seg_wall_s": 377.0
+  }
+ ],
+ "total_wall_s": 237.7,
+ "built": "2026-09-24 06:29:57"
+}

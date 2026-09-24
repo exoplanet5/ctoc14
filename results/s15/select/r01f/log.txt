@@ -1,0 +1,2 @@
+[20:57:18] load: 2001 files ({'ok': 2001}), 1245 distinct, 27 dominated -> 1218 columns
+[21:07:06]   frontier K>=291: The problem is infeasible. (HiGHS Status 8: model_status is 

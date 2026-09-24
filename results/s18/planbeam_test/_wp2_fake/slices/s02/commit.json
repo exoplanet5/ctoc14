@@ -1,0 +1,108 @@
+{
+ "slice": 2,
+ "T_d": 1080.0,
+ "mode": "none",
+ "accepted": [
+  {
+   "craft": 0,
+   "column_id": "s02_c0_k0",
+   "n_new": 6,
+   "tank": 792.9627633015066,
+   "dtank": 70.301,
+   "miss": 0.0,
+   "secs": 0.0,
+   "honest": false,
+   "root": false
+  },
+  {
+   "craft": 1,
+   "column_id": "s02_c1_k2",
+   "n_new": 6,
+   "tank": 766.620477233491,
+   "dtank": 72.655,
+   "miss": 0.0,
+   "secs": 0.0,
+   "honest": false,
+   "root": false
+  },
+  {
+   "craft": 2,
+   "column_id": "s02_c2_k2",
+   "n_new": 5,
+   "tank": 771.2820447018141,
+   "dtank": 58.597,
+   "miss": 0.0,
+   "secs": 0.0,
+   "honest": false,
+   "root": false
+  }
+ ],
+ "rejected": [],
+ "results": {
+  "0:s02_c0_k0": {
+   "craft": 0,
+   "column_id": "s02_c0_k0",
+   "ok": true,
+   "tank": 792.9627633015066,
+   "miss": 0.0,
+   "secs": 0.0,
+   "error": null,
+   "honest": {
+    "ok": false,
+    "note": "commit none"
+   }
+  },
+  "1:s02_c1_k2": {
+   "craft": 1,
+   "column_id": "s02_c1_k2",
+   "ok": true,
+   "tank": 766.620477233491,
+   "miss": 0.0,
+   "secs": 0.0,
+   "error": null,
+   "honest": {
+    "ok": false,
+    "note": "commit none"
+   }
+  },
+  "2:s02_c2_k2": {
+   "craft": 2,
+   "column_id": "s02_c2_k2",
+   "ok": true,
+   "tank": 771.2820447018141,
+   "miss": 0.0,
+   "secs": 0.0,
+   "error": null,
+   "honest": {
+    "ok": false,
+    "note": "commit none"
+   }
+  }
+ },
+ "record": {
+  "slice": 2,
+  "T_d": 1080.0,
+  "H_eff_d": 540.0,
+  "n_jobs": 3,
+  "n_columns": 18,
+  "n_kept": 12,
+  "chosen": {
+   "0": "s02_c0_k0",
+   "1": "s02_c1_k2",
+   "2": "s02_c2_k2"
+  },
+  "rejected": [],
+  "launched": 3,
+  "covered": 44,
+  "remaining": 254,
+  "fuel": 530.9,
+  "sumJi": 3.4273,
+  "wall_s": 4.0,
+  "auction_status": "optimal",
+  "retries": [],
+  "lam": 1.5,
+  "fuel_budget": 482.3,
+  "fuel_slice": 201.6,
+  "cap": 828.0
+ }
+}

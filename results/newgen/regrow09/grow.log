@@ -1,0 +1,20 @@
+[07:15:06] grow: launch 360.0 d, v_inf -0.432364,0.113245,2.548142, 28 allowed targets, lambda 1.0
+[07:15:20] +267 at 1849 d (dist 0.041 AU): dJ +0.0000; flybys 1, tank 601.5 kg, J_i 1.0011 (7/8 ok)
+[07:15:31] +68 at 3723 d (dist 0.082 AU): dJ +0.0001; flybys 2, tank 601.6 kg, J_i 1.0011 (7/8 ok)
+[07:15:43] +49 at 2873 d (dist 0.070 AU): dJ +0.0036; flybys 3, tank 606.6 kg, J_i 1.0047 (8/8 ok)
+[07:16:03] +271 at 698 d (dist 0.064 AU): dJ +0.0030; flybys 4, tank 610.8 kg, J_i 1.0078 (6/8 ok)
+[07:16:15] +221 at 3448 d (dist 0.084 AU): dJ +0.0013; flybys 5, tank 612.6 kg, J_i 1.0091 (8/8 ok)
+[07:16:30] +71 at 5322 d (dist 0.047 AU): dJ +0.0028; flybys 6, tank 616.4 kg, J_i 1.0119 (8/8 ok)
+[07:16:50] +118 at 1893 d (dist 0.075 AU): dJ +0.0053; flybys 7, tank 623.7 kg, J_i 1.0172 (8/8 ok)
+[07:17:22] +42 at 1690 d (dist 0.044 AU): dJ +0.0111; flybys 8, tank 638.5 kg, J_i 1.0283 (7/8 ok)
+[07:17:58] +6 at 1328 d (dist 0.051 AU): dJ +0.0143; flybys 9, tank 657.3 kg, J_i 1.0426 (7/8 ok)
+[07:18:43] +272 at 4210 d (dist 0.055 AU): dJ +0.0156; flybys 10, tank 677.3 kg, J_i 1.0582 (6/8 ok)
+[07:19:30] +188 at 5123 d (dist 0.147 AU): dJ +0.0148; flybys 11, tank 695.7 kg, J_i 1.0731 (6/8 ok)
+[07:20:14] +2 at 4783 d (dist 0.125 AU): dJ +0.0127; flybys 12, tank 711.2 kg, J_i 1.0857 (6/8 ok)
+[07:21:05] +260 at 2090 d (dist 0.188 AU): dJ +0.0208; flybys 13, tank 735.9 kg, J_i 1.1065 (4/8 ok)
+[07:21:59] +292 at 3036 d (dist 0.046 AU): dJ +0.0059; flybys 14, tank 742.8 kg, J_i 1.1124 (5/8 ok)
+[07:22:58] +39 at 4557 d (dist 0.242 AU): dJ +0.0044; flybys 15, tank 747.8 kg, J_i 1.1168 (6/8 ok)
+[07:24:04] +273 at 3804 d (dist 0.133 AU): dJ +0.0185; flybys 16, tank 769.0 kg, J_i 1.1353 (6/8 ok)
+[07:24:53] +165 at 2909 d (dist 0.047 AU): dJ +0.0285; flybys 17, tank 800.6 kg, J_i 1.1638 (3/5 ok)
+[07:25:26] no successful trial among 2
+[07:25:26] done: 17 flybys, tank 800.6 kg, J_i 1.1638, J_i per flyby 0.0685

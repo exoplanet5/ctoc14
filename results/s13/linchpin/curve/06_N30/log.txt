@@ -1,0 +1,9 @@
+[21:55:37] === 06 cond pool builder beam: pool 57 = own 27 + extra 30 [4, 10, 13, 16, 26, 30, 43, 59, 60, 63, 65, 67, 78, 85, 104, 107, 115, 125, 130, 140, 156, 165, 170, 190, 226, 228, 229, 238, 252, 253]; hard in pool 9; source route 27 fb @ 791.9 kg (7.11 kg/fb)
+[22:18:46]   build 1389 s: 17835 states, deepest 28 of pool 57; Pareto 18:717 19:721 20:726 21:730 22:735 23:744 24:750 25:756 26:761 27:769 28:786
+[22:21:29]     28 pool fb (alt 0): settle FAILED (miss 114352396.02834433, 163 s)
+[22:24:05]     28 pool fb (alt 1): settle FAILED (miss 149202464.3041353, 156 s)
+[22:26:13]     27 pool fb (alt 0): settle FAILED (miss 288797188.55751055, 129 s)
+[22:28:12]     27 pool fb (alt 1): settle FAILED (miss 207371344.37254545, 118 s)
+[22:30:27]     26 pool fb (alt 0): settle FAILED (miss 152314351.11029172, 135 s)
+[22:32:36]     26 pool fb (alt 1): settle FAILED (miss 28120630.66254164, 129 s)
+[22:32:36]   06: NOTHING settled

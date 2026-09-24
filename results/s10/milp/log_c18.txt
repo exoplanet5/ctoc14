@@ -1,0 +1,22 @@
+[17:16:58] === GREEDY over 239 carriers, dmax 0.2, pmin 0.15; 28461 pairs
+[17:23:37]   N 18: sum J_i + miss 21.0279 -> J 23.0279; covered 298, tanks 824 767 874 804 838 812 819 794 859 784 843 767 781 762 721 859 798 776; depths 21 19 19 20 24 22 20 22 26 20 24 21 25 20 18 23 21 20
+[17:23:37] BEST N 18: predicted sum J_i 21.0279, misses 0, J 23.0279
+[17:23:37]    carrier  205: base 12 @ 634 kg +  9 assigned = 21 fb, tank 824 kg, J_i 1.1853 (0.0564 J/fb); d 0.130 0.046 0.060 0.048 0.049 0.073 0.058 0.027 0.077
+[17:23:37]    carrier  164: base 10 @ 624 kg +  9 assigned = 19 fb, tank 767 kg, J_i 1.1332 (0.0596 J/fb); d 0.042 0.050 0.138 0.078 0.084 0.106 0.068 0.005 0.026
+[17:23:37]    carrier  238: base 14 @ 670 kg +  5 assigned = 19 fb, tank 874 kg, J_i 1.2344 (0.0650 J/fb); d 0.176 0.008 0.153 0.049 0.060
+[17:23:37]    carrier  142: base 12 @ 629 kg +  8 assigned = 20 fb, tank 804 kg, J_i 1.1668 (0.0583 J/fb); d 0.138 0.040 0.033 0.080 0.129 0.018 0.082 0.149
+[17:23:37]    carrier  178: base 18 @ 715 kg +  6 assigned = 24 fb, tank 838 kg, J_i 1.1993 (0.0500 J/fb); d 0.017 0.111 0.047 0.051 0.067 0.030
+[17:23:37]    carrier  216: base 15 @ 672 kg +  7 assigned = 22 fb, tank 812 kg, J_i 1.1741 (0.0534 J/fb); d 0.068 0.164 0.074 0.037 0.039 0.037 0.113
+[17:23:37]    carrier  121: base 11 @ 667 kg +  9 assigned = 20 fb, tank 819 kg, J_i 1.1809 (0.0590 J/fb); d 0.045 0.099 0.096 0.042 0.113 0.032 0.047 0.033 0.037
+[17:23:37]    carrier   57: base 17 @ 665 kg +  5 assigned = 22 fb, tank 794 kg, J_i 1.1574 (0.0526 J/fb); d 0.032 0.116 0.030 0.064 0.079
+[17:23:37]    carrier  108: base 19 @ 690 kg +  7 assigned = 26 fb, tank 859 kg, J_i 1.2196 (0.0469 J/fb); d 0.038 0.020 0.032 0.103 0.060 0.100 0.027
+[17:23:37]    carrier  206: base 14 @ 651 kg +  6 assigned = 20 fb, tank 784 kg, J_i 1.1483 (0.0574 J/fb); d 0.056 0.109 0.014 0.076 0.082 0.031
+[17:23:37]    carrier  203: base 16 @ 669 kg +  8 assigned = 24 fb, tank 843 kg, J_i 1.2041 (0.0502 J/fb); d 0.093 0.077 0.037 0.038 0.078 0.041 0.037 0.021
+[17:23:37]    carrier   63: base 18 @ 651 kg +  3 assigned = 21 fb, tank 767 kg, J_i 1.1339 (0.0540 J/fb); d 0.120 0.082 0.086
+[17:23:37]    carrier  113: base 20 @ 671 kg +  5 assigned = 25 fb, tank 781 kg, J_i 1.1460 (0.0458 J/fb); d 0.072 0.018 0.053 0.041 0.014
+[17:23:37]    carrier  200: base 14 @ 632 kg +  6 assigned = 20 fb, tank 762 kg, J_i 1.1295 (0.0565 J/fb); d 0.049 0.077 0.096 0.061 0.062 0.022
+[17:23:37]    carrier  239: base  9 @ 622 kg +  9 assigned = 18 fb, tank 721 kg, J_i 1.0935 (0.0607 J/fb); d 0.055 0.123 0.042 0.032 0.049 0.008 0.078 0.070 0.023
+[17:23:37]    carrier  173: base 16 @ 705 kg +  7 assigned = 23 fb, tank 859 kg, J_i 1.2194 (0.0530 J/fb); d 0.167 0.043 0.043 0.037 0.103 0.044 0.048
+[17:23:37]    carrier  125: base 11 @ 629 kg + 10 assigned = 21 fb, tank 798 kg, J_i 1.1611 (0.0553 J/fb); d 0.093 0.102 0.119 0.134 0.052 0.014 0.044 0.059 0.032 0.009
+[17:23:37]    carrier  176: base 13 @ 666 kg +  7 assigned = 20 fb, tank 776 kg, J_i 1.1412 (0.0571 J/fb); d 0.081 0.020 0.014 0.084 0.057 0.068 0.019
+[17:23:37] -> results/s10/milp/cplan_n18.json

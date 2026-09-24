@@ -1,0 +1,38 @@
+[22:40:39] chain P0: pool 187, S [], p 0.0, steps 5, members ['H', 'T2']; resume at step 1
+[22:44:48]   step 1 plan H: pool 187, S [], deepest 44 (with S 0); front 44:1015 43:1001 42:991 41:987 40:976 39:970 38:955 37:948 (250 s)
+[22:49:27]   step 1 plan T2: pool 187, S [], deepest 44 (with S 0); front 44:1030 43:1025 42:1018 41:1015 40:1008 39:1001 38:990 37:980 (279 s)
+[22:49:36]     settle H 44 fb (S []) planner 1015 -> twin 1075 miss 68 OK (9 s)
+[22:50:20]     settle T2 44 fb (S []) planner 1030 -> twin 1102 miss 70 OK (44 s)
+[22:50:28]     settle H 43 fb (S []) planner 1001 -> twin 1076 miss 69 OK (8 s)
+[22:50:40]     settle H 40 fb (S []) planner 976 -> twin 1055 miss 2 OK (12 s)
+[22:50:47]     settle H 37 fb (S []) planner 948 -> twin 1032 miss 73 OK (7 s)
+[22:50:52]     absorb[s1 grow]+[]: 12 approaches of [14, 61, 89, 100, 135, 171, 195, 202, 210, 269]; lintwin 100@1317d 0.014AU 19kg, 195@1712d 0.019AU 22kg, 135@4714d 0.047AU 62kg, 61@3359d 0.040AU 77kg, 202@3501d 0.016AU 104kg, 14@3367d 0.040AU 106kg
+[22:51:03]     absorb[s1 grow]+[]: insert 100 at 1317 d (lintwin 19 kg) -> OK tank 1094 (+19.5 kg) (11 s)
+[22:51:12]     absorb[s1 grow]+[]: insert 195 at 1712 d (lintwin 22 kg) -> OK tank 1093 (+18.4 kg) (10 s)
+[22:51:17]     absorb[s1 grow]+[195]: 11 approaches of [14, 61, 89, 100, 135, 171, 202, 210, 269]; lintwin 100@1317d 0.015AU 38kg, 135@4714d 0.047AU 75kg, 61@3359d 0.040AU 88kg, 202@3501d 0.016AU 94kg, 14@3367d 0.040AU 107kg, 269@3039d 0.043AU 288kg
+[22:51:17]   step 1: TOOK {'member': 'H', 'n': 44, 'tank': 1093.1, 's_taken': [], 'grown': [195]}; chain covered 45/187
+[22:54:49]   step 2 plan T2: pool 142, S [], deepest 37 (with S 0); front 37:1028 36:1022 35:1015 34:1012 33:1001 32:992 31:974 30:968 (212 s)
+[22:58:17]   step 2 plan T3: pool 142, S [], deepest 38 (with S 0); front 38:999 37:944 36:940 35:934 34:929 33:921 32:903 31:900 (209 s)
+[23:01:48]   step 2 plan T6: pool 142, S [], deepest 36 (with S 0); front 36:1032 35:1023 34:1016 33:1009 32:1006 31:993 30:966 29:954 (211 s)
+[23:02:01]     settle T3 38 fb (S []) planner 999 -> twin 1756 miss 144 no (13 s)
+[23:02:13]     settle T3 37 fb (S []) planner 944 -> twin 998 miss 4 OK (12 s)
+[23:02:40]     settle T2 37 fb (S []) planner 1028 -> twin 1021 miss 8 OK (27 s)
+[23:02:49]     settle T3 36 fb (S []) planner 940 -> twin 992 miss 2 OK (9 s)
+[23:02:57]     settle T3 33 fb (S []) planner 921 -> twin 991 miss 63 OK (8 s)
+[23:03:02]     settle T3 30 fb (S []) planner 891 -> twin 958 miss 51 OK (5 s)
+[23:03:04]     absorb[s2 grow]+[]: 6 approaches of [32, 113, 126, 210, 255]; lintwin 255@2762d 0.024AU 14kg, 113@2063d 0.035AU 27kg, 255@4861d 0.039AU 65kg, 32@3848d 0.029AU 91kg, 126@3575d 0.044AU 99kg, 210@4562d 0.050AU 171kg
+[23:03:12]     absorb[s2 grow]+[]: insert 255 at 2762 d (lintwin 14 kg) -> OK tank 1008 (+10.3 kg) (7 s)
+[23:03:13]     absorb[s2 grow]+[255]: 4 approaches of [32, 113, 126, 210]; lintwin 113@2063d 0.036AU 28kg, 32@3849d 0.030AU 87kg, 126@3571d 0.045AU 109kg, 210@4562d 0.050AU 178kg
+[23:03:13]   step 2: TOOK {'member': 'T3', 'n': 37, 'tank': 1008.1, 's_taken': [], 'grown': [255]}; chain covered 83/187
+[23:06:04]   step 3 plan T2: pool 104, S [], deepest 37 (with S 0); front 37:1014 36:989 35:978 34:962 33:945 32:932 31:919 30:895 (171 s)
+[23:08:53]   step 3 plan T3: pool 104, S [], deepest 36 (with S 0); front 36:1017 35:964 34:938 33:841 32:805 31:801 30:788 29:779 (169 s)
+[23:12:03]   step 3 plan T6: pool 104, S [], deepest 37 (with S 0); front 37:1022 36:999 35:990 34:984 33:962 32:954 31:940 30:934 (191 s)
+[23:12:13]     settle T2 37 fb (S []) planner 1014 -> twin 1035 miss 67 OK (9 s)
+[23:13:06]     settle T6 37 fb (S []) planner 1022 -> twin 1052 miss 76 OK (54 s)
+[23:13:16]     settle T2 36 fb (S []) planner 989 -> twin 996 miss 77 OK (10 s)
+[23:13:24]     settle T3 33 fb (S []) planner 841 -> twin 838 miss 1 OK (9 s)
+[23:13:30]     settle T3 30 fb (S []) planner 788 -> twin 804 miss 49 OK (5 s)
+[23:13:32]     absorb[s3 grow]+[]: 5 approaches of [107, 109, 185, 254, 283]; lintwin 254@5298d 0.031AU 65kg, 107@1588d 0.033AU 72kg, 185@5052d 0.045AU 79kg, 283@3816d 0.034AU 88kg, 109@4885d 0.048AU 363kg
+[23:13:32]   step 3: TOOK {'member': 'T2', 'n': 37, 'tank': 1035.3, 's_taken': []}; chain covered 120/187
+[23:15:05]   step 4 plan T2: pool 67, S [], deepest 25 (with S 0); front 25:906 24:874 23:857 22:852 21:835 20:829 19:789 18:787 (93 s)
+[23:16:53]   step 4 plan T3: pool 67, S [], deepest 28 (with S 0); front 28:988 27:954 26:926 25:897 24:881 23:845 22:830 21:821 (108 s)

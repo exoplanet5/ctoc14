@@ -1,0 +1,170 @@
+{
+ "fleet": "/Users/mickey/solarsystem/ctoc14/results/s16/fleets/Ex",
+ "craft": 9,
+ "covered": 298,
+ "misses": [],
+ "sumJi": 11.72274,
+ "honest": true,
+ "routes": [
+  {
+   "name": "r1",
+   "n": 42,
+   "irregular": 0,
+   "max_imp_cap": 0.9782,
+   "max_window_cap": 0.9782,
+   "miss_km": 58.5,
+   "tank": 944.38,
+   "Ji": 1.30649
+  },
+  {
+   "name": "r2",
+   "n": 41,
+   "irregular": 0,
+   "max_imp_cap": 0.933,
+   "max_window_cap": 0.933,
+   "miss_km": 28.7,
+   "tank": 908.901,
+   "Ji": 1.26933
+  },
+  {
+   "name": "r3",
+   "n": 41,
+   "irregular": 0,
+   "max_imp_cap": 0.9879,
+   "max_window_cap": 0.9879,
+   "miss_km": 58.2,
+   "tank": 986.287,
+   "Ji": 1.35205
+  },
+  {
+   "name": "r4",
+   "n": 38,
+   "irregular": 0,
+   "max_imp_cap": 0.9609,
+   "max_window_cap": 0.9609,
+   "miss_km": 63.9,
+   "tank": 913.117,
+   "Ji": 1.27368
+  },
+  {
+   "name": "r5",
+   "n": 31,
+   "irregular": 0,
+   "max_imp_cap": 0.9946,
+   "max_window_cap": 0.9946,
+   "miss_km": 22.0,
+   "tank": 958.097,
+   "Ji": 1.32121
+  },
+  {
+   "name": "r6",
+   "n": 30,
+   "irregular": 0,
+   "max_imp_cap": 0.9611,
+   "max_window_cap": 0.9611,
+   "miss_km": 36.3,
+   "tank": 901.548,
+   "Ji": 1.26178
+  },
+  {
+   "name": "r7",
+   "n": 30,
+   "irregular": 0,
+   "max_imp_cap": 0.9803,
+   "max_window_cap": 0.9803,
+   "miss_km": 67.0,
+   "tank": 1017.135,
+   "Ji": 1.38673
+  },
+  {
+   "name": "r8",
+   "n": 24,
+   "irregular": 0,
+   "max_imp_cap": 0.997,
+   "max_window_cap": 0.997,
+   "miss_km": 33.2,
+   "tank": 927.233,
+   "Ji": 1.28837
+  },
+  {
+   "name": "r9",
+   "n": 21,
+   "irregular": 0,
+   "max_imp_cap": 0.9979,
+   "max_window_cap": 0.9979,
+   "miss_km": 64.0,
+   "tank": 902.831,
+   "Ji": 1.2631
+  }
+ ],
+ "source": "results/s16/fleets/Ex",
+ "note": "E twin routes + exact conversions with optimise stall test 1e-6 (xconv/tight)",
+ "when": "09-23 17:04",
+ "exact_sumJi": 11.739947,
+ "exact_J": 13.739947,
+ "conversions": {
+  "r1": {
+   "src": "results/s16/fleets/E/route_r1.npz",
+   "key": "433974ce2693_o200g1e-06",
+   "dir": "/Users/mickey/solarsystem/ctoc14/results/s16/xconv/tight",
+   "m0": 948.034746094718,
+   "hs": 0.1
+  },
+  "r2": {
+   "src": "results/s16/fleets/E/route_r2.npz",
+   "key": "21ae69c35731_o200g1e-06",
+   "dir": "/Users/mickey/solarsystem/ctoc14/results/s16/xconv/tight",
+   "m0": 910.8331312152637,
+   "hs": 0.1
+  },
+  "r3": {
+   "src": "results/s16/fleets/E/route_r3.npz",
+   "key": "6d4f27966a9b_o200g1e-06",
+   "dir": "/Users/mickey/solarsystem/ctoc14/results/s16/xconv/tight",
+   "m0": 988.8930889797168,
+   "hs": 0.1
+  },
+  "r4": {
+   "src": "results/s16/fleets/E/route_r4.npz",
+   "key": "c43ad8352491_o200g1e-06",
+   "dir": "/Users/mickey/solarsystem/ctoc14/results/s16/xconv/tight",
+   "m0": 915.5025472299479,
+   "hs": 0.1
+  },
+  "r5": {
+   "src": "results/s16/fleets/E/route_r5.npz",
+   "key": "dfd0bcca0110_o200g1e-06",
+   "dir": "/Users/mickey/solarsystem/ctoc14/results/s16/xconv/tight",
+   "m0": 959.5685452243716,
+   "hs": 0.1
+  },
+  "r6": {
+   "src": "results/s16/fleets/E/route_r6.npz",
+   "key": "f941ab93ef93_o200g1e-06",
+   "dir": "/Users/mickey/solarsystem/ctoc14/results/s16/xconv/tight",
+   "m0": 902.2510761856423,
+   "hs": 0.1
+  },
+  "r7": {
+   "src": "results/s16/fleets/E/route_r7.npz",
+   "key": "a4568e297ef2_o200g1e-06",
+   "dir": "/Users/mickey/solarsystem/ctoc14/results/s16/xconv/tight",
+   "m0": 1018.8523654069166,
+   "hs": 0.05
+  },
+  "r8": {
+   "src": "results/s16/fleets/E/route_r8.npz",
+   "key": "a7a0989ecdc8_o200g1e-06",
+   "dir": "/Users/mickey/solarsystem/ctoc14/results/s16/xconv/tight",
+   "m0": 927.7174551305048,
+   "hs": 0.1
+  },
+  "r9": {
+   "src": "results/s16/fleets/E/route_r9.npz",
+   "key": "146a4cfa507f_o200g1e-06",
+   "dir": "/Users/mickey/solarsystem/ctoc14/results/s16/xconv/tight",
+   "m0": 903.9797687341097,
+   "hs": 0.05
+  }
+ }
+}

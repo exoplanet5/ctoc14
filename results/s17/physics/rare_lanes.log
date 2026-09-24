@@ -1,0 +1,8 @@
+40000 carriers: rare candidates (gap<0.03) best 42 median 15 top3000 min 27  (2s)
+library 3000 lanes: rare per single lane best 16 median 10; (9s)
+greedy 8 lanes: rare covered 81 (per lane [16, 13, 12, 11, 10, 7, 7, 5])
+round 1: rare covered 79/95  per lane [16, 13, 11, 11, 8, 6, 8, 6]  model dv [11.1, 7.2, 5.9, 6.7, 3.5, 5.4, 6.5, 3.9]  (17s)
+round 2: rare covered 79/95  per lane [16, 13, 11, 11, 8, 6, 8, 6]  model dv [11.1, 7.2, 5.9, 6.7, 3.5, 4.9, 6.5, 2.9]  (24s)
+round 3: rare covered 79/95  per lane [16, 13, 11, 11, 8, 6, 8, 6]  model dv [11.1, 7.2, 5.9, 6.7, 3.5, 4.9, 6.5, 2.9]  (31s)
+sanity, same carriers on ALL targets: flybys [27, 25, 29, 25, 28, 27, 20, 27]  model dv [16.1, 15.2, 18.1, 14.6, 16.7, 16.1, 10.6, 18.6]
+missing rare: [15, 23, 61, 75, 82, 96, 107, 119, 138, 159, 177, 217, 224, 234, 259, 282]

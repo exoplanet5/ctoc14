@@ -1,0 +1,14 @@
+[13:48:12] load: 2809 files (319 new; {'ok': 2809}), 2647 distinct, 66 dominated -> 2581 columns
+[13:48:48]   N<=9 K>=298 alt 0: 9 craft 298 covered sum J_i 11.8195 (Optimization terminated , 8 s); misses []; depths [44, 42, 41, 38, 31, 30, 30, 23, 19]
+[13:48:48]   N<=9 K>=298 alt 1: 9 craft 298 covered sum J_i 11.8208 (Optimization terminated , 17 s); misses []; depths [44, 43, 41, 38, 30, 30, 30, 23, 19]
+[13:48:48]   N<=9 K>=298 alt 2: 9 craft 298 covered sum J_i 11.8213 (Optimization terminated , 27 s); misses []; depths [44, 43, 41, 38, 31, 30, 30, 23, 18]
+[13:48:48]   N<=9 K>=298 alt 3: 9 craft 298 covered sum J_i 11.8216 (Optimization terminated , 36 s); misses []; depths [43, 42, 41, 39, 31, 30, 30, 23, 19]
+[13:49:09]   N<=9 K>=297 alt 0: 9 craft 297 covered sum J_i 11.7799 (Optimization terminated , 14 s); misses [148]; depths [44, 42, 41, 38, 31, 30, 30, 22, 19]
+[13:49:09]   N<=9 K>=297 alt 1: 9 craft 297 covered sum J_i 11.7825 (Optimization terminated , 29 s); misses [56]; depths [43, 42, 41, 38, 31, 30, 30, 23, 19]
+[13:49:09]   N<=9 K>=297 alt 2: 9 craft 297 covered sum J_i 11.7861 (Optimization terminated , 44 s); misses [234]; depths [44, 42, 41, 38, 31, 30, 29, 23, 19]
+[13:49:09]   N<=9 K>=297 alt 3: 9 craft 297 covered sum J_i 11.7876 (Optimization terminated , 56 s); misses [206]; depths [44, 42, 41, 38, 30, 30, 30, 23, 19]
+[13:51:08]   N<=9 K>=296 alt 0: 9 craft 296 covered sum J_i 11.7429 (Optimization terminated , 45 s); misses [56, 148]; depths [43, 42, 41, 38, 31, 30, 30, 22, 19]
+[13:51:08]   N<=9 K>=296 alt 1: 9 craft 296 covered sum J_i 11.7465 (Optimization terminated , 92 s); misses [148, 234]; depths [44, 42, 41, 38, 31, 30, 29, 22, 19]
+[13:51:08]   N<=9 K>=296 alt 2: 9 craft 296 covered sum J_i 11.7471 (Optimization terminated , 127 s); misses [148, 172]; depths [44, 42, 41, 38, 31, 30, 30, 21, 19]
+[13:51:08]   N<=9 K>=296 alt 3: 9 craft 296 covered sum J_i 11.7480 (Optimization terminated , 176 s); misses [148, 206]; depths [44, 42, 41, 38, 30, 30, 30, 22, 19]
+[13:51:14] ranking by est closed: N9K298a0 11.8195->11.81948 | N9K298a1 11.8208->11.82077 | N9K298a2 11.8213->11.82126 | N9K298a3 11.8216->11.8216 | N9K297a3 11.7876->11.82426 | N9K297a1 11.7825->11.82666 | N9K297a2 11.7861->11.83886 | N9K297a0 11.7799->11.89984 | N9K296a3 11.7480->11.90461 | N9K296a0 11.7429->11.91503 | N9K296a1 11.7465->11.91921 | N9K296a2 11.7471->11.93323 (189 s)

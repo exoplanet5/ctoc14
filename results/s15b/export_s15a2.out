@@ -1,0 +1,36 @@
+[11:32:01] export start
+[11:39:12]   h01: impulsive tank 909.9 -> exact m0 911.6 (miss 6 km), valid True (RK4 step 0.1 d)
+[11:39:26]   h05: impulsive tank 920.9 -> exact m0 921.9 (miss 24 km), valid True (RK4 step 0.1 d)
+[11:39:38]   h02: impulsive tank 969.6 -> exact m0 972.8 (miss 23 km), valid True (RK4 step 0.1 d)
+[11:39:41]   s2: impulsive tank 882.1 -> exact m0 881.5 (miss 63 km), valid True (RK4 step 0.1 d)
+[11:40:07]   s1: impulsive tank 922.2 -> exact m0 922.1 (miss 18 km), valid True (RK4 step 0.1 d)
+[11:40:07]   h04: impulsive tank 922.4 -> exact m0 925.1 (miss 27 km), valid True (RK4 step 0.1 d)
+[11:40:11]   h03: impulsive tank 1048.7 -> exact m0 1051.1 (miss 47 km), valid True (RK4 step 0.1 d)
+[11:40:57]   h06: impulsive tank 951.0 -> exact m0 949.8 (miss 20 km), valid True (RK4 step 0.1 d)
+[11:41:17]   t1: impulsive tank 1030.1 -> exact m0 1029.7 (miss 89 km), valid True (RK4 step 0.1 d)
+[11:41:17] 9 craft, covered 298, J 13.8422; h03:44/44@1051 h02:43/43@973 h01:41/41@912 h04:39/39@925 h05:31/31@922 t1:30/30@1030 h06:29/29@950 s1:23/23@922 s2:18/18@881
+[11:41:17] export done
+frag_h01.txt
+frag_h02.txt
+frag_h03.txt
+frag_h04.txt
+frag_h05.txt
+frag_h06.txt
+frag_s1.txt
+frag_s2.txt
+frag_t1.txt
+wrote results/CTOC14_Result_s15a.txt with 47582 rows from 9 spacecraft
+spacecraft: 9, m0 = [911.610882017291, 972.7918753942851, 1051.120240926471, 925.0735444904084, 921.9255594671458, 949.8042441894364, 922.12651647035, 881.4694009829673, 1029.7024378917808]
+covered 298, missed 2, J = 13.8422  (sum J_i = 11.8422)
+max errors: pos 3.3333e-08 km, vel 7.9720e-12 m/s, mass 1.1369e-13 kg, max |T| 0.45310 N
+RESULT: PASS
+[12:02:18] combined
+[12:02:51] validated
+   9  46929    412016516.504  158      342.843   15.525 COUNTED
+   9  47153    431245232.274   32      503.184    9.946 COUNTED
+   9  47251    439660788.793  182      650.326   24.013 COUNTED
+   9  47286    442590534.381  147      641.045   42.495 COUNTED
+   9  47580    467916857.532  104      690.439   19.563 COUNTED
+------------------------------------------------------------------------------
+N_covered = 298   N_miss = 2   sum J_i = 11.842227   J = 13.842227
+VERDICT: VALID

@@ -1,0 +1,1 @@
+{"kind": "column", "tag": "t1", "out": "results/s15/test/t1", "S": [137, 158, 216], "p": 0.02, "beam": 20, "max_settles": 3, "ok_target": 2, "absorb_trials": 2, "absorb_hosts": 1, "absorb": [64, 119, 137, 138, 157, 158, 168, 216], "wall_budget": 1200}

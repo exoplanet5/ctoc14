@@ -1,0 +1,59 @@
+[
+ {
+  "it": 1,
+  "sumJi0": 11.74388,
+  "sumJi": 11.73324,
+  "covered": 298,
+  "fleet": "results/s16/iter/B/it1/fleet",
+  "picks": [
+   "results/s16/iter/B/cols/route_7072ffc1rs_42.npz",
+   "results/s16/polish/C/cols/route_r2_s0_41.npz",
+   "results/s16/polish/C/cols/route_r3_pT03c_41.npz",
+   "results/s16/polish/C/cols/route_r4_s0_38.npz",
+   "results/s16/polish/C/cols/route_r6_pT03c_31.npz",
+   "results/s16/iter/B/cols/route_f42c28eam208_30.npz",
+   "results/s16/polish/C/cols/route_r7_tLwm_30.npz",
+   "results/s16/polish/C/cols/route_r8_pT03c_24.npz",
+   "results/s16/iter/B/cols/route_9f512757x208_21.npz"
+  ],
+  "wall": 294
+ },
+ {
+  "it": 2,
+  "sumJi0": 11.73324,
+  "sumJi": 11.72725,
+  "covered": 298,
+  "fleet": "results/s16/iter/B/it2/fleet",
+  "picks": [
+   "results/s16/polish/B1/cols/route_r1_pT03a_42.npz",
+   "results/s16/polish/C/cols/route_r2_s0_41.npz",
+   "results/s16/iter/B/cols/route_ad0e4eb4rs_41.npz",
+   "results/s16/polish/C/cols/route_r4_s0_38.npz",
+   "results/s16/polish/C/cols/route_r6_pT03c_31.npz",
+   "results/s16/polish/B1/cols/route_r6_pT05b_30.npz",
+   "results/s16/iter/B/cols/route_f7d3b304rs_30.npz",
+   "results/s16/iter/B/cols/route_afdc5df4rs_24.npz",
+   "results/s16/polish/B1/cols/route_r9_pT10a_21.npz"
+  ],
+  "wall": 233
+ },
+ {
+  "it": 3,
+  "sumJi0": 11.72725,
+  "sumJi": 11.72585,
+  "covered": 298,
+  "fleet": "results/s16/iter/B/it3/fleet",
+  "picks": [
+   "results/s16/iter/B/cols/route_9244998crs_42.npz",
+   "results/s16/polish/C/cols/route_r2_s0_41.npz",
+   "results/s16/polish/B2/cols/route_r3_pT03d_41.npz",
+   "results/s16/polish/B2/cols/route_r4_pT03d_38.npz",
+   "results/s16/polish/C/cols/route_r6_pT03c_31.npz",
+   "results/s16/polish/B2/cols/route_r6_pT10l_30.npz",
+   "results/s16/polish/B2/cols/route_r7_pT05k_30.npz",
+   "results/s16/iter/B/cols/route_afdc5df4rs_24.npz",
+   "results/s16/iter/B/cols/route_8b42f729rs_21.npz"
+  ],
+  "wall": 142
+ }
+]

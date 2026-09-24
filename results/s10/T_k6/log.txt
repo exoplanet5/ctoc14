@@ -1,0 +1,8 @@
+[15:59:16] 240 carriers; switch cost median 1.882 km/s, neighbourhood 6 median 0.125 km/s
+[15:59:16] pools built in 0 s: 7470 events each (median)
+[15:59:17] 4 routes in 0 s
+[15:59:17]   seed   0: 20 flybys over 5 carriers (4 switches), model dv 2.91 phase + 2.50 gap + 0.12 switch km/s, value 19.52
+[15:59:17]   seed   1: 20 flybys over 5 carriers (4 switches), model dv 2.91 phase + 2.50 gap + 0.12 switch km/s, value 19.52
+[15:59:17]   seed   2: 20 flybys over 5 carriers (8 switches), model dv 2.25 phase + 2.79 gap + 0.66 switch km/s, value 20.99
+[15:59:17]   seed   3: 20 flybys over 4 carriers (7 switches), model dv 2.34 phase + 2.84 gap + 0.56 switch km/s, value 20.68
+[15:59:17] -> results/s10/T_k6/routes.json

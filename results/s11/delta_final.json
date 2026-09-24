@@ -1,0 +1,74 @@
+[
+ {
+  "tag": "baseline",
+  "n": 574,
+  "J": 14.354600510146534,
+  "lp": 14.354600510134407,
+  "craft": 10,
+  "covered": 298,
+  "sumJ": 12.354600510134087,
+  "n_eff": 168,
+  "maxdisjoint": 4,
+  "disjoint_cov": 157,
+  "pick": [
+   "results/n8/B/r0/route_08.npz",
+   "results/newgen/rt1/route_01.npz",
+   "results/newgen/ifleet10/route_02.npz",
+   "results/newgen/ifleet10/route_03.npz",
+   "results/newgen/ifleet10/route_04.npz",
+   "results/newgen/ifleet6/route_05.npz",
+   "results/newgen/rt1/route_06.npz",
+   "results/newgen/ifleet10/route_09.npz",
+   "results/newgen/ifleet10/route_12.npz",
+   "results/newgen/ifleet10/route_13.npz"
+  ]
+ },
+ {
+  "tag": "base+farmA",
+  "n": 603,
+  "J": 14.354600510119237,
+  "lp": 14.354600510133885,
+  "craft": 10,
+  "covered": 298,
+  "sumJ": 12.354600510134087,
+  "n_eff": 180,
+  "maxdisjoint": 4,
+  "disjoint_cov": 157,
+  "pick": [
+   "results/n8/B/r0/route_08.npz",
+   "results/newgen/rt1/route_01.npz",
+   "results/newgen/ifleet10/route_02.npz",
+   "results/newgen/ifleet10/route_03.npz",
+   "results/newgen/ifleet10/route_04.npz",
+   "results/newgen/ifleet6/route_05.npz",
+   "results/newgen/rt1/route_06.npz",
+   "results/newgen/ifleet10/route_09.npz",
+   "results/newgen/ifleet10/route_12.npz",
+   "results/newgen/ifleet10/route_13.npz"
+  ]
+ },
+ {
+  "tag": "base+farmR",
+  "n": 615,
+  "J": 14.354600510134196,
+  "lp": 14.354600510134043,
+  "craft": 10,
+  "covered": 298,
+  "sumJ": 12.354600510134087,
+  "n_eff": 180,
+  "maxdisjoint": 4,
+  "disjoint_cov": 157,
+  "pick": [
+   "results/n8/B/r0/route_08.npz",
+   "results/newgen/rt1/route_01.npz",
+   "results/newgen/ifleet10/route_02.npz",
+   "results/newgen/ifleet10/route_03.npz",
+   "results/newgen/ifleet10/route_04.npz",
+   "results/newgen/ifleet6/route_05.npz",
+   "results/newgen/rt1/route_06.npz",
+   "results/newgen/ifleet10/route_09.npz",
+   "results/newgen/ifleet10/route_12.npz",
+   "results/newgen/ifleet10/route_13.npz"
+  ]
+ }
+]

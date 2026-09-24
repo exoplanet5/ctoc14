@@ -1,0 +1,11 @@
+[20:30:27] column F05p10: pool 298, S [64, 119, 137], p 0.01, member H, seed 151, absorb [64, 119, 137, 138, 157, 158, 168, 216]
+[20:35:12]   plan H: pool 298, S [64, 119, 137], deepest 48, deepest with S 47; front 48:1028 47:1011 47:1030* 46:996 46:1023* 45:985 45:1035* 44:980 44:1029* 43:973 (285 s)
+[20:35:22]     settle H 48 fb (S []) planner 1028 -> twin 1130 miss 74 OK (10 s)
+[20:35:29]     settle H 47 fb (S [64]) planner 1030 -> twin 1087 miss 51 OK (7 s)
+[20:35:39]     settle H 47 fb (S []) planner 1011 -> twin 1091 miss 0 OK (11 s)
+[20:35:50]     settle H 44 fb (S [137]) planner 1029 -> twin 1098 miss 0 OK (11 s)
+[20:35:58]     settle H 41 fb (S [137]) planner 994 -> twin 1042 miss 22 OK (8 s)
+[20:36:05]     settle H 38 fb (S []) planner 931 -> twin 961 miss 51 OK (7 s)
+[20:36:05]     absorb[h47]: 1 approaches of [137]; lintwin 137@4347d 0.086AU 519kg
+[20:36:06]     absorb[h47]: 1 approaches of [158]; lintwin 158@4761d 0.151AU 391kg
+[20:36:06] column F05p10 done: 6 columns (0 absorbed); 338 s

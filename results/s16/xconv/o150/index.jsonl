@@ -1,0 +1,6 @@
+{"key": "21ae69c35731_o150", "src": "results/s16/fleets/E/route_r2.npz", "opt_iters": 150, "n": 41, "tank": 908.9006560102572, "m0": 911.4629476553322, "miss": 71.66872260475088, "ok": true, "hs": 0.1, "n_opt": 7, "sec": 452}
+{"key": "6d4f27966a9b_o150", "src": "results/s16/fleets/E/route_r3.npz", "opt_iters": 150, "n": 41, "tank": 986.2866782075373, "m0": 989.3488478847796, "miss": 36.65760820883696, "ok": true, "hs": 0.1, "n_opt": 8, "sec": 468}
+{"key": "433974ce2693_o150", "src": "results/s16/fleets/E/route_r1.npz", "opt_iters": 150, "n": 42, "tank": 944.3802538593361, "m0": 948.6621732132674, "miss": 23.70518714546872, "ok": true, "hs": 0.1, "n_opt": 10, "sec": 474}
+{"key": "a7a0989ecdc8_o150", "src": "results/s16/fleets/E/route_r8.npz", "opt_iters": 150, "n": 24, "tank": 927.2333857070846, "m0": 929.0732594890238, "miss": 26.236922916671368, "ok": true, "hs": 0.1, "n_opt": 23, "sec": 476}
+{"key": "f941ab93ef93_o150", "src": "results/s16/fleets/E/route_r6.npz", "opt_iters": 150, "n": 30, "tank": 901.5475939376395, "m0": 902.9980973101616, "miss": 30.4616378160173, "ok": true, "hs": 0.1, "n_opt": 7, "sec": 484}
+{"key": "dfd0bcca0110_o150", "src": "results/s16/fleets/E/route_r5.npz", "opt_iters": 150, "n": 31, "tank": 958.0972074667297, "m0": 959.7032190396826, "miss": 94.27843064851535, "ok": true, "hs": 0.1, "n_opt": 15, "sec": 493}

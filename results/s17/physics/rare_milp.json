@@ -1,0 +1,166 @@
+[
+ {
+  "N": 8,
+  "w": 0.0,
+  "disjoint": true,
+  "status": "Optimization terminated successfully. (H",
+  "secs": 2.9,
+  "rare_cov": 62,
+  "union": 213,
+  "slots": 323,
+  "rare_slots": 62,
+  "fuel": 3731,
+  "depths": [
+   46,
+   37,
+   45,
+   44,
+   37,
+   41,
+   36,
+   37
+  ],
+  "keys": [
+   "d1fb8539dda0a405",
+   "00606eca6feab12d",
+   "bc767602fe59fc99",
+   "ac1fdfd331b50d63",
+   "14602cb12119fa88",
+   "c57f515980e97d3c",
+   "702b7489403a59b9",
+   "e66db9bd62065556"
+  ]
+ },
+ {
+  "N": 8,
+  "w": 0.3,
+  "disjoint": true,
+  "status": "Optimization terminated successfully. (H",
+  "secs": 9.9,
+  "rare_cov": 61,
+  "union": 220,
+  "slots": 324,
+  "rare_slots": 61,
+  "fuel": 3999,
+  "depths": [
+   37,
+   46,
+   41,
+   44,
+   44,
+   39,
+   36,
+   37
+  ],
+  "keys": [
+   "0332c37cc4f6842e",
+   "d1fb8539dda0a405",
+   "6df758ff2016832d",
+   "4e075a074ee2b8de",
+   "ac1fdfd331b50d63",
+   "99fcfbce04c9040c",
+   "702b7489403a59b9",
+   "e66db9bd62065556"
+  ]
+ },
+ {
+  "N": 9,
+  "w": 0.0,
+  "disjoint": true,
+  "status": "Optimization terminated successfully. (H",
+  "secs": 2.1,
+  "rare_cov": 65,
+  "union": 225,
+  "slots": 360,
+  "rare_slots": 65,
+  "fuel": 4028,
+  "depths": [
+   46,
+   37,
+   45,
+   44,
+   37,
+   37,
+   41,
+   36,
+   37
+  ],
+  "keys": [
+   "d1fb8539dda0a405",
+   "00606eca6feab12d",
+   "bc767602fe59fc99",
+   "ac1fdfd331b50d63",
+   "016c4bb04ace9508",
+   "14602cb12119fa88",
+   "c57f515980e97d3c",
+   "702b7489403a59b9",
+   "e66db9bd62065556"
+  ]
+ },
+ {
+  "N": 9,
+  "w": 0.3,
+  "disjoint": true,
+  "status": "Optimization terminated successfully. (H",
+  "secs": 6.6,
+  "rare_cov": 65,
+  "union": 227,
+  "slots": 366,
+  "rare_slots": 65,
+  "fuel": 4099,
+  "depths": [
+   37,
+   46,
+   45,
+   44,
+   44,
+   37,
+   40,
+   36,
+   37
+  ],
+  "keys": [
+   "0332c37cc4f6842e",
+   "d1fb8539dda0a405",
+   "bc767602fe59fc99",
+   "4e075a074ee2b8de",
+   "ac1fdfd331b50d63",
+   "016c4bb04ace9508",
+   "808c7bfb0b45f50c",
+   "702b7489403a59b9",
+   "e66db9bd62065556"
+  ]
+ },
+ {
+  "N": 8,
+  "w": 0.3,
+  "disjoint": false,
+  "status": "Optimization terminated successfully. (H",
+  "secs": 36.3,
+  "rare_cov": 74,
+  "union": 249,
+  "slots": 334,
+  "rare_slots": 90,
+  "fuel": 4076,
+  "depths": [
+   36,
+   40,
+   38,
+   42,
+   47,
+   47,
+   45,
+   39
+  ],
+  "keys": [
+   "342f1e051866effc",
+   "af431b504dab01cd",
+   "c5a0e0e0de7dcea4",
+   "1823d8f5cf7837ba",
+   "871b890ef6fc1649",
+   "b7c4e3c8faca3f12",
+   "643c75111a553c7d",
+   "c056d20ce99a8b78"
+  ]
+ }
+]

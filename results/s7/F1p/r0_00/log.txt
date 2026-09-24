@@ -1,0 +1,3 @@
+[22:30:13] start 00: 40 flybys, tank 1034 kg
+[22:30:52] round 1: 3 of 10 trials ok, none under 1250 kg / +90 kg
+[22:30:52] done: 40 flybys, tank 1034 kg, J_i 1.406

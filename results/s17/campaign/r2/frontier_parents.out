@@ -1,0 +1,6 @@
+parents 3347 cols 0 children
+{"N": 9, "K": 298, "msg": "Optimization terminated successfully. (HiGHS Status 7: Optimal)", "sec": 10, "bound": 11.722740157581907, "sumJi": 11.722740157582226, "covered": 298, "misses": []}
+{"N": 9, "K": 296, "msg": "Optimization terminated successfully. (HiGHS Status 7: Optimal)", "sec": 43, "bound": 11.655165511149518, "sumJi": 11.655165511149612, "covered": 296, "misses": [148, 212]}
+{"N": 9, "K": 294, "msg": "Time limit reached. (HiGHS Status 13: Time limit reached)", "sec": 300, "bound": 11.457366637167418, "sumJi": 11.605189100380345, "covered": 294, "misses": [106, 148, 212, 234]}
+{"N": 8, "K": 286, "msg": "Optimization terminated successfully. (HiGHS Status 7: Optimal)", "sec": 73, "bound": 11.183504537288266, "sumJi": 11.183504537288254, "covered": 286, "misses": [17, 36, 108, 118, 180, 216, 219, 220, 243, 247, 258, 288]}
+done

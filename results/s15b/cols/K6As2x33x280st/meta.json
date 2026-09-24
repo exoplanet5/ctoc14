@@ -1,0 +1,793 @@
+{
+ "job": {
+  "beam": 24,
+  "tries": 72,
+  "roots": 300,
+  "dv": 1.2,
+  "drmax": 0.15,
+  "mc": 60,
+  "k_epochs": 3,
+  "lin_cap": 3.0,
+  "res_max": 150000000.0,
+  "grid": "0,800,20",
+  "iters": 100,
+  "timeout": 240.0,
+  "p": 0.06,
+  "S": [
+   33,
+   280
+  ],
+  "w_fuel": 1.5,
+  "w_t": null,
+  "cap": 1150.0,
+  "kappa": 90.0,
+  "w_iso": 1.0,
+  "steps": 1,
+  "nproc": 1,
+  "wall_budget": 28800.0,
+  "min_save": 11,
+  "save_cap": 1300.0,
+  "level_budget": null,
+  "tag": "K6As2x33x280st",
+  "out": "results/s15b/cols/K6As2x33x280st",
+  "own": [
+   11,
+   32,
+   71,
+   96,
+   104,
+   118,
+   120,
+   138,
+   139,
+   150,
+   173,
+   180,
+   219,
+   234
+  ],
+  "own_prize": 2.0,
+  "runner": "tools/s15b_twintail.py",
+  "fleet_pre": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+   "results/s15/cols/r01/fclose/C01h6_h6/route_C01h6_h606x110_31.npz",
+   "results/s13/gen/g02x/tailB55k4/lib/route_07_T6_26.npz",
+   "results/s15/cols/t03/TB5f/route_TB5fs1_22.npz"
+  ],
+  "replaced": "results/s15/cols/t03/TB5f/route_TB5fs2_14_1.npz",
+  "src_fleet": "results/s15/select/r03f/frontier.json:296",
+  "src_route": "s2",
+  "stones": [
+   6,
+   15,
+   17,
+   20,
+   22,
+   36,
+   51,
+   58,
+   64,
+   75,
+   93,
+   95,
+   108,
+   119,
+   124,
+   132,
+   137,
+   141,
+   145,
+   147,
+   157,
+   158,
+   165,
+   168,
+   172,
+   175,
+   188,
+   199,
+   203,
+   213,
+   216,
+   220,
+   223,
+   240,
+   242,
+   243,
+   246,
+   247,
+   249,
+   251,
+   254,
+   262,
+   266,
+   283,
+   284,
+   287,
+   288,
+   298
+  ],
+  "stone_prize": 0.01
+ },
+ "kind": "twintail",
+ "pool_n": 16,
+ "chain": {
+  "steps": [
+   {
+    "k": 1,
+    "pool": 16,
+    "S": [
+     33,
+     280
+    ],
+    "end": {
+     "kind": "no_children",
+     "depth": 18
+    },
+    "deepest": 14,
+    "settles": 461,
+    "settle_ok": 365,
+    "wall_s": 5708,
+    "ncols": 10,
+    "took": {
+     "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_14_1.npz",
+     "n": 14,
+     "tank": 812.32,
+     "iso": [
+      138
+     ],
+     "s_taken": []
+    },
+    "covered": 14
+   }
+  ],
+  "covered": [
+   11,
+   32,
+   71,
+   96,
+   104,
+   118,
+   120,
+   138,
+   139,
+   150,
+   173,
+   180,
+   219,
+   234
+  ],
+  "cols": [
+   {
+    "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_14.npz",
+    "n": 14,
+    "n_real": 14,
+    "tank": 830.2,
+    "miss": 56.3,
+    "kind": "score",
+    "targets": [
+     11,
+     32,
+     71,
+     96,
+     104,
+     118,
+     120,
+     138,
+     139,
+     150,
+     173,
+     180,
+     219,
+     234
+    ],
+    "iso": [
+     138
+    ],
+    "s_taken": [],
+    "t_end_d": 4989.5,
+    "t_launch_d": 0.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_14_1.npz",
+    "n": 14,
+    "n_real": 14,
+    "tank": 812.32,
+    "miss": 94.9,
+    "kind": "light",
+    "targets": [
+     11,
+     32,
+     71,
+     96,
+     104,
+     118,
+     120,
+     138,
+     139,
+     150,
+     173,
+     180,
+     219,
+     234
+    ],
+    "iso": [
+     138
+    ],
+    "s_taken": [],
+    "t_end_d": 5420.4,
+    "t_launch_d": 0.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_14_2.npz",
+    "n": 14,
+    "n_real": 14,
+    "tank": 863.16,
+    "miss": 18.9,
+    "kind": "s",
+    "targets": [
+     11,
+     32,
+     71,
+     96,
+     104,
+     118,
+     120,
+     138,
+     139,
+     150,
+     173,
+     180,
+     219,
+     280
+    ],
+    "iso": [
+     138
+    ],
+    "s_taken": [
+     280
+    ],
+    "t_end_d": 4962.7,
+    "t_launch_d": 0.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_13.npz",
+    "n": 13,
+    "n_real": 13,
+    "tank": 803.29,
+    "miss": 92.6,
+    "kind": "score",
+    "targets": [
+     11,
+     71,
+     96,
+     104,
+     118,
+     120,
+     138,
+     139,
+     150,
+     173,
+     180,
+     219,
+     234
+    ],
+    "iso": [
+     138
+    ],
+    "s_taken": [],
+    "t_end_d": 4559.4,
+    "t_launch_d": 0.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_13_1.npz",
+    "n": 13,
+    "n_real": 13,
+    "tank": 775.69,
+    "miss": 78.1,
+    "kind": "light",
+    "targets": [
+     11,
+     32,
+     71,
+     96,
+     118,
+     120,
+     138,
+     139,
+     150,
+     173,
+     180,
+     219,
+     234
+    ],
+    "iso": [
+     138
+    ],
+    "s_taken": [],
+    "t_end_d": 5098.9,
+    "t_launch_d": 0.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_13_2.npz",
+    "n": 13,
+    "n_real": 13,
+    "tank": 814.76,
+    "miss": 86.9,
+    "kind": "s",
+    "targets": [
+     11,
+     32,
+     71,
+     96,
+     118,
+     120,
+     138,
+     139,
+     150,
+     173,
+     180,
+     219,
+     280
+    ],
+    "iso": [
+     138
+    ],
+    "s_taken": [
+     280
+    ],
+    "t_end_d": 4959.7,
+    "t_launch_d": 0.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_12.npz",
+    "n": 12,
+    "n_real": 12,
+    "tank": 784.79,
+    "miss": 2.2,
+    "kind": "score",
+    "targets": [
+     71,
+     96,
+     104,
+     118,
+     120,
+     138,
+     139,
+     150,
+     173,
+     180,
+     219,
+     234
+    ],
+    "iso": [
+     138
+    ],
+    "s_taken": [],
+    "t_end_d": 4367.3,
+    "t_launch_d": 0.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_12_1.npz",
+    "n": 12,
+    "n_real": 12,
+    "tank": 758.68,
+    "miss": 90.9,
+    "kind": "light",
+    "targets": [
+     32,
+     71,
+     96,
+     104,
+     118,
+     120,
+     138,
+     139,
+     150,
+     173,
+     219,
+     234
+    ],
+    "iso": [
+     138
+    ],
+    "s_taken": [],
+    "t_end_d": 5420.3,
+    "t_launch_d": 0.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_11.npz",
+    "n": 11,
+    "n_real": 11,
+    "tank": 771.57,
+    "miss": 74.3,
+    "kind": "score",
+    "targets": [
+     71,
+     96,
+     104,
+     118,
+     120,
+     138,
+     139,
+     150,
+     173,
+     180,
+     219
+    ],
+    "iso": [
+     138
+    ],
+    "s_taken": [],
+    "t_end_d": 4061.6,
+    "t_launch_d": 0.0,
+    "step": 1
+   },
+   {
+    "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_11_1.npz",
+    "n": 11,
+    "n_real": 11,
+    "tank": 731.4,
+    "miss": 56.1,
+    "kind": "light",
+    "targets": [
+     32,
+     71,
+     96,
+     104,
+     118,
+     120,
+     139,
+     150,
+     173,
+     219,
+     234
+    ],
+    "iso": [],
+    "s_taken": [],
+    "t_end_d": 5007.9,
+    "t_launch_d": 0.0,
+    "step": 1
+   }
+  ],
+  "taken": [
+   {
+    "k": 1,
+    "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_14_1.npz",
+    "n": 14,
+    "tank": 812.32,
+    "targets": [
+     11,
+     32,
+     71,
+     96,
+     104,
+     118,
+     120,
+     138,
+     139,
+     150,
+     173,
+     180,
+     219,
+     234
+    ]
+   }
+  ]
+ },
+ "cols": [
+  {
+   "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_14.npz",
+   "n": 14,
+   "n_real": 14,
+   "tank": 830.2,
+   "miss": 56.3,
+   "kind": "score",
+   "targets": [
+    11,
+    32,
+    71,
+    96,
+    104,
+    118,
+    120,
+    138,
+    139,
+    150,
+    173,
+    180,
+    219,
+    234
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [],
+   "t_end_d": 4989.5,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_14_1.npz",
+   "n": 14,
+   "n_real": 14,
+   "tank": 812.32,
+   "miss": 94.9,
+   "kind": "light",
+   "targets": [
+    11,
+    32,
+    71,
+    96,
+    104,
+    118,
+    120,
+    138,
+    139,
+    150,
+    173,
+    180,
+    219,
+    234
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [],
+   "t_end_d": 5420.4,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_14_2.npz",
+   "n": 14,
+   "n_real": 14,
+   "tank": 863.16,
+   "miss": 18.9,
+   "kind": "s",
+   "targets": [
+    11,
+    32,
+    71,
+    96,
+    104,
+    118,
+    120,
+    138,
+    139,
+    150,
+    173,
+    180,
+    219,
+    280
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    280
+   ],
+   "t_end_d": 4962.7,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_13.npz",
+   "n": 13,
+   "n_real": 13,
+   "tank": 803.29,
+   "miss": 92.6,
+   "kind": "score",
+   "targets": [
+    11,
+    71,
+    96,
+    104,
+    118,
+    120,
+    138,
+    139,
+    150,
+    173,
+    180,
+    219,
+    234
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [],
+   "t_end_d": 4559.4,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_13_1.npz",
+   "n": 13,
+   "n_real": 13,
+   "tank": 775.69,
+   "miss": 78.1,
+   "kind": "light",
+   "targets": [
+    11,
+    32,
+    71,
+    96,
+    118,
+    120,
+    138,
+    139,
+    150,
+    173,
+    180,
+    219,
+    234
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [],
+   "t_end_d": 5098.9,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_13_2.npz",
+   "n": 13,
+   "n_real": 13,
+   "tank": 814.76,
+   "miss": 86.9,
+   "kind": "s",
+   "targets": [
+    11,
+    32,
+    71,
+    96,
+    118,
+    120,
+    138,
+    139,
+    150,
+    173,
+    180,
+    219,
+    280
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [
+    280
+   ],
+   "t_end_d": 4959.7,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_12.npz",
+   "n": 12,
+   "n_real": 12,
+   "tank": 784.79,
+   "miss": 2.2,
+   "kind": "score",
+   "targets": [
+    71,
+    96,
+    104,
+    118,
+    120,
+    138,
+    139,
+    150,
+    173,
+    180,
+    219,
+    234
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [],
+   "t_end_d": 4367.3,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_12_1.npz",
+   "n": 12,
+   "n_real": 12,
+   "tank": 758.68,
+   "miss": 90.9,
+   "kind": "light",
+   "targets": [
+    32,
+    71,
+    96,
+    104,
+    118,
+    120,
+    138,
+    139,
+    150,
+    173,
+    219,
+    234
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [],
+   "t_end_d": 5420.3,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_11.npz",
+   "n": 11,
+   "n_real": 11,
+   "tank": 771.57,
+   "miss": 74.3,
+   "kind": "score",
+   "targets": [
+    71,
+    96,
+    104,
+    118,
+    120,
+    138,
+    139,
+    150,
+    173,
+    180,
+    219
+   ],
+   "iso": [
+    138
+   ],
+   "s_taken": [],
+   "t_end_d": 4061.6,
+   "t_launch_d": 0.0,
+   "step": 1
+  },
+  {
+   "f": "results/s15b/cols/K6As2x33x280st/route_K6As2x33x280sts1_11_1.npz",
+   "n": 11,
+   "n_real": 11,
+   "tank": 731.4,
+   "miss": 56.1,
+   "kind": "light",
+   "targets": [
+    32,
+    71,
+    96,
+    104,
+    118,
+    120,
+    139,
+    150,
+    173,
+    219,
+    234
+   ],
+   "iso": [],
+   "s_taken": [],
+   "t_end_d": 5007.9,
+   "t_launch_d": 0.0,
+   "step": 1
+  }
+ ],
+ "covered": 14,
+ "wall_s": 5720
+}

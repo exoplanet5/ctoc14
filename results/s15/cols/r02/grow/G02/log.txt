@@ -1,0 +1,2 @@
+[21:39:35]     absorb[route_02]+[]: 4 approaches of [51, 58, 150, 213]; lintwin 213@4546d 0.048AU 47kg, 58@3098d 0.046AU 187kg, 51@2813d 0.050AU 211kg, 150@2785d 0.043AU 461kg
+[21:39:35] grow G02 done: [{'f': 'results/s14/probe_cover/N9/fleet/route_02.npz', 'got': [], 'dkg': 0.0, 'tank0': 1029.0}] (1 s)

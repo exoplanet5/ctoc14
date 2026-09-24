@@ -1,0 +1,76 @@
+[14:16:31]        r1 42 fb tank   945.96 J_i 1.3082 irregular 0 imp/cap 0.999 window/cap 0.999 miss 6 km
+[14:16:31]        r2 41 fb tank   909.09 J_i 1.2695 irregular 0 imp/cap 0.962 window/cap 0.962 miss 1 km
+[14:16:31]        r3 41 fb tank   988.07 J_i 1.3540 irregular 0 imp/cap 0.996 window/cap 0.996 miss 58 km
+[14:16:31]        r4 38 fb tank   913.28 J_i 1.2738 irregular 0 imp/cap 0.981 window/cap 0.981 miss 69 km
+[14:16:31]        r5 31 fb tank   920.34 J_i 1.2812 irregular 0 imp/cap 0.995 window/cap 0.995 miss 72 km
+[14:16:31]        r6 31 fb tank   958.28 J_i 1.3214 irregular 0 imp/cap 0.993 window/cap 0.993 miss 66 km
+[14:16:31]        r7 30 fb tank  1026.10 J_i 1.3970 irregular 0 imp/cap 1.000 window/cap 1.000 miss 70 km
+[14:16:31]        r8 24 fb tank   928.50 J_i 1.2897 irregular 0 imp/cap 0.999 window/cap 0.999 miss 61 km
+[14:16:31]        r9 20 fb tank   900.77 J_i 1.2610 irregular 0 imp/cap 0.999 window/cap 0.999 miss 33 km
+[14:16:31]   honest check /Users/mickey/solarsystem/ctoc14/results/s16/iter/A/it5/fleet: 9 craft, covered 298, sum J_i 11.7558, honest True
+[14:16:31] NEW BEST 11.75584 from results/s16/iter/A/it5/fleet (iter A it5 (MILP moves + polish))
+[14:27:26]        r1 42 fb tank   945.01 J_i 1.3072 irregular 0 imp/cap 0.995 window/cap 0.995 miss 70 km
+[14:27:26]        r2 41 fb tank   908.90 J_i 1.2693 irregular 0 imp/cap 0.933 window/cap 0.933 miss 42 km
+[14:27:26]        r3 41 fb tank   986.86 J_i 1.3527 irregular 0 imp/cap 0.997 window/cap 0.997 miss 56 km
+[14:27:26]        r4 38 fb tank   913.15 J_i 1.2737 irregular 0 imp/cap 0.973 window/cap 0.973 miss 39 km
+[14:27:26]        r5 31 fb tank   919.53 J_i 1.2803 irregular 0 imp/cap 0.892 window/cap 0.892 miss 72 km
+[14:27:26]        r6 31 fb tank   958.27 J_i 1.3214 irregular 0 imp/cap 0.983 window/cap 0.983 miss 39 km
+[14:27:26]        r7 30 fb tank  1025.88 J_i 1.3967 irregular 0 imp/cap 0.981 window/cap 0.981 miss 41 km
+[14:27:26]        r8 24 fb tank   928.04 J_i 1.2892 irregular 0 imp/cap 0.997 window/cap 0.997 miss 55 km
+[14:27:26]        r9 20 fb tank   898.37 J_i 1.2586 irregular 0 imp/cap 1.000 window/cap 1.000 miss 74 km
+[14:27:26]   honest check /Users/mickey/solarsystem/ctoc14/results/s16/iter/A/it7/fleet: 9 craft, covered 298, sum J_i 11.7491, honest True
+[14:27:26] NEW BEST 11.74913 from results/s16/iter/A/it7/fleet (iter A it7 (MILP moves + polish rounds s15a,it3-it6))
+[14:33:20]        r1 42 fb tank   944.69 J_i 1.3068 irregular 0 imp/cap 0.999 window/cap 0.999 miss 4 km
+[14:33:20]        r2 41 fb tank   908.90 J_i 1.2693 irregular 0 imp/cap 0.933 window/cap 0.933 miss 42 km
+[14:33:20]        r3 41 fb tank   986.75 J_i 1.3526 irregular 0 imp/cap 0.999 window/cap 0.999 miss 13 km
+[14:33:20]        r4 38 fb tank   913.15 J_i 1.2737 irregular 0 imp/cap 0.973 window/cap 0.973 miss 39 km
+[14:33:20]        r5 31 fb tank   918.89 J_i 1.2797 irregular 0 imp/cap 0.923 window/cap 0.923 miss 81 km
+[14:33:20]        r6 31 fb tank   958.27 J_i 1.3214 irregular 0 imp/cap 0.983 window/cap 0.983 miss 39 km
+[14:33:20]        r7 30 fb tank  1022.70 J_i 1.3931 irregular 0 imp/cap 0.996 window/cap 0.996 miss 9 km
+[14:33:20]        r8 24 fb tank   927.83 J_i 1.2890 irregular 0 imp/cap 0.996 window/cap 0.996 miss 48 km
+[14:33:20]        r9 20 fb tank   898.15 J_i 1.2583 irregular 0 imp/cap 0.999 window/cap 0.999 miss 70 km
+[14:33:20]   honest check /Users/mickey/solarsystem/ctoc14/results/s16/fleets/C: 9 craft, covered 298, sum J_i 11.7439, honest True
+[14:33:20] NEW BEST 11.74388 from results/s16/fleets/C (select C (moves + polish + exchange 241<->284))
+[14:54:01]        r1 42 fb tank   944.47 J_i 1.3066 irregular 0 imp/cap 0.984 window/cap 0.984 miss 13 km
+[14:54:01]        r2 41 fb tank   908.90 J_i 1.2693 irregular 0 imp/cap 0.933 window/cap 0.933 miss 29 km
+[14:54:01]        r3 41 fb tank   986.56 J_i 1.3523 irregular 0 imp/cap 0.999 window/cap 0.999 miss 6 km
+[14:54:01]        r4 38 fb tank   913.15 J_i 1.2737 irregular 0 imp/cap 0.973 window/cap 0.973 miss 29 km
+[14:54:01]        r5 31 fb tank   958.10 J_i 1.3212 irregular 0 imp/cap 0.995 window/cap 0.995 miss 22 km
+[14:54:01]        r6 30 fb tank   902.66 J_i 1.2629 irregular 0 imp/cap 0.999 window/cap 0.999 miss 60 km
+[14:54:01]        r7 30 fb tank  1017.61 J_i 1.3873 irregular 0 imp/cap 0.985 window/cap 0.985 miss 33 km
+[14:54:01]        r8 24 fb tank   927.61 J_i 1.2888 irregular 0 imp/cap 0.999 window/cap 0.999 miss 4 km
+[14:54:01]        r9 21 fb tank   904.79 J_i 1.2651 irregular 0 imp/cap 0.998 window/cap 0.998 miss 84 km
+[14:54:01]   honest check /Users/mickey/solarsystem/ctoc14/results/s16/iter/B/it2/fleet: 9 craft, covered 298, sum J_i 11.7272, honest True
+[14:54:01] NEW BEST 11.72725 from results/s16/iter/B/it2/fleet (iter B it2 (moves 208 h05->s2 + polish B1))
+[14:59:18]        r1 42 fb tank   944.38 J_i 1.3065 irregular 0 imp/cap 0.978 window/cap 0.978 miss 58 km
+[14:59:18]        r2 41 fb tank   908.90 J_i 1.2693 irregular 0 imp/cap 0.933 window/cap 0.933 miss 29 km
+[14:59:18]        r3 41 fb tank   986.29 J_i 1.3520 irregular 0 imp/cap 0.988 window/cap 0.988 miss 58 km
+[14:59:18]        r4 38 fb tank   913.12 J_i 1.2737 irregular 0 imp/cap 0.961 window/cap 0.961 miss 64 km
+[14:59:18]        r5 31 fb tank   958.10 J_i 1.3212 irregular 0 imp/cap 0.995 window/cap 0.995 miss 22 km
+[14:59:18]        r6 30 fb tank   901.55 J_i 1.2618 irregular 0 imp/cap 0.961 window/cap 0.961 miss 36 km
+[14:59:18]        r7 30 fb tank  1017.13 J_i 1.3867 irregular 0 imp/cap 0.980 window/cap 0.980 miss 67 km
+[14:59:18]        r8 24 fb tank   927.23 J_i 1.2884 irregular 0 imp/cap 0.997 window/cap 0.997 miss 33 km
+[14:59:18]        r9 21 fb tank   902.83 J_i 1.2631 irregular 0 imp/cap 0.998 window/cap 0.998 miss 64 km
+[14:59:18]   honest check /Users/mickey/solarsystem/ctoc14/results/s16/fleets/E: 9 craft, covered 298, sum J_i 11.7227, honest True
+[14:59:18] NEW BEST 11.72274 from results/s16/fleets/E (select E (final loop: moves + exchanges + polish))
+[17:04:59]        r1 42 fb tank   944.38 J_i 1.3065 irregular 0 imp/cap 0.978 window/cap 0.978 miss 58 km
+[17:04:59]        r2 41 fb tank   908.90 J_i 1.2693 irregular 0 imp/cap 0.933 window/cap 0.933 miss 29 km
+[17:04:59]        r3 41 fb tank   986.29 J_i 1.3520 irregular 0 imp/cap 0.988 window/cap 0.988 miss 58 km
+[17:04:59]        r4 38 fb tank   913.12 J_i 1.2737 irregular 0 imp/cap 0.961 window/cap 0.961 miss 64 km
+[17:04:59]        r5 31 fb tank   958.10 J_i 1.3212 irregular 0 imp/cap 0.995 window/cap 0.995 miss 22 km
+[17:04:59]        r6 30 fb tank   901.55 J_i 1.2618 irregular 0 imp/cap 0.961 window/cap 0.961 miss 36 km
+[17:04:59]        r7 30 fb tank  1017.13 J_i 1.3867 irregular 0 imp/cap 0.980 window/cap 0.980 miss 67 km
+[17:04:59]        r8 24 fb tank   927.23 J_i 1.2884 irregular 0 imp/cap 0.997 window/cap 0.997 miss 33 km
+[17:04:59]        r9 21 fb tank   902.83 J_i 1.2631 irregular 0 imp/cap 0.998 window/cap 0.998 miss 64 km
+[17:04:59]   honest check /Users/mickey/solarsystem/ctoc14/results/s16/fleets/Ex: 9 craft, covered 298, sum J_i 11.7227, honest True
+[17:04:59]    r1: twin 944.38 -> exact 948.03 (+3.65 kg, o200, hs 0.1) 433974ce2693_o200g1e-06  [results/s16/fleets/E/route_r1.npz]
+[17:04:59]    r2: twin 908.90 -> exact 910.83 (+1.93 kg, o200, hs 0.1) 21ae69c35731_o200g1e-06  [results/s16/fleets/E/route_r2.npz]
+[17:04:59]    r3: twin 986.29 -> exact 988.89 (+2.61 kg, o200, hs 0.1) 6d4f27966a9b_o200g1e-06  [results/s16/fleets/E/route_r3.npz]
+[17:04:59]    r4: twin 913.12 -> exact 915.50 (+2.39 kg, o200, hs 0.1) c43ad8352491_o200g1e-06  [results/s16/fleets/E/route_r4.npz]
+[17:04:59]    r5: twin 958.10 -> exact 959.57 (+1.47 kg, o200, hs 0.1) dfd0bcca0110_o200g1e-06  [results/s16/fleets/E/route_r5.npz]
+[17:04:59]    r6: twin 901.55 -> exact 902.25 (+0.70 kg, o200, hs 0.1) f941ab93ef93_o200g1e-06  [results/s16/fleets/E/route_r6.npz]
+[17:04:59]    r7: twin 1017.13 -> exact 1018.85 (+1.72 kg, o200, hs 0.05) a4568e297ef2_o200g1e-06  [results/s16/fleets/E/route_r7.npz]
+[17:04:59]    r8: twin 927.23 -> exact 927.72 (+0.48 kg, o200, hs 0.1) a7a0989ecdc8_o200g1e-06  [results/s16/fleets/E/route_r8.npz]
+[17:04:59]    r9: twin 902.83 -> exact 903.98 (+1.15 kg, o200, hs 0.05) 146a4cfa507f_o200g1e-06  [results/s16/fleets/E/route_r9.npz]
+[17:04:59]   exact-aware results/s16/fleets/Ex: twin 11.72274, exact 11.73995, honest True, covered 298; stored best exact 11.746635308000123
+[17:04:59] NEW BEST (exact) 11.73995 (twin 11.72274) from results/s16/fleets/Ex: 9 craft, covered 298, J 13.7399; r1:42/42@948 r2:41/41@911 r3:41/41@989 r4:38/38@916 r5:31/31@960 r6:30/30@902 r7:30/30@1019 r8:24/24@928 r9:21/21@904; previous kept in /Users/mickey/solarsystem/ctoc14/results/s16/hist/0923_170459

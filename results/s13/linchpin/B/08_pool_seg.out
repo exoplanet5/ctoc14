@@ -1,0 +1,31 @@
+[21:15:12] === 08 cond pool builder seg: pool 38 = own 26 + extra 12 [69, 87, 88, 103, 116, 121, 169, 170, 191, 203, 230, 299]; hard in pool 9; source route 26 fb @ 870.6 kg (10.41 kg/fb)
+[21:15:12]   hard extra 88: waypoint at 4036 d (closest approach 0.088 AU to the source route)
+[21:15:12]   hard extra 116: waypoint at 1388 d (closest approach 0.068 AU to the source route)
+[21:15:12]   hard extra 169: waypoint at 579 d (closest approach 0.128 AU to the source route)
+[21:15:12]   hard extra 203: waypoint at 4716 d (closest approach 0.190 AU to the source route)
+[21:15:12]   skeleton: 9 waypoints 169@579 86@1010 108@1285 116@1388 196@1416 145@3265 88@4036 96@4447 203@4716; easy 29
+[21:15:42]     08 seg 0: 3 states reach waypoint 169 -- relaxed retry
+[21:16:41]     08 seg 1: 0 states reach waypoint 86 -- relaxed retry
+[21:16:42]     08 seg 1: 0 states reach waypoint 86 -- giving up
+[21:16:42]     08 seg 1: DROPPING waypoint 86 ([965,1055] d unreachable); it goes to the leftovers
+[21:16:42]     08 seg 2: 0 states reach waypoint 108 -- relaxed retry
+[21:16:43]     08 seg 2: 0 states reach waypoint 108 -- giving up
+[21:16:43]     08 seg 2: DROPPING waypoint 108 ([1240,1330] d unreachable); it goes to the leftovers
+[21:16:43]     08 seg 3: 0 states reach waypoint 116 -- relaxed retry
+[21:16:43]     08 seg 3: 0 states reach waypoint 116 -- giving up
+[21:16:43]     08 seg 3: DROPPING waypoint 116 ([1343,1433] d unreachable); it goes to the leftovers
+[21:16:43]     08 seg 4: 0 states reach waypoint 196 -- relaxed retry
+[21:16:44]     08 seg 4: 0 states reach waypoint 196 -- giving up
+[21:16:44]     08 seg 4: DROPPING waypoint 196 ([1371,1461] d unreachable); it goes to the leftovers
+[21:16:44]     08 seg 5: 0 states reach waypoint 145 -- relaxed retry
+[21:16:47]     08 seg 6: 0 states reach waypoint 88 -- relaxed retry
+[21:16:48]     08 seg 6: 4 states reach waypoint 88 -- giving up
+[21:16:48]     08 seg 7: 0 states reach waypoint 96 -- relaxed retry
+[21:16:49]     08 seg 7: 2 states reach waypoint 96 -- giving up
+[21:16:49]     08 seg 8: 0 states reach waypoint 203 -- relaxed retry
+[21:16:49]     08 seg 8: 0 states reach waypoint 203 -- giving up
+[21:16:49]     08 seg 8: DROPPING waypoint 203 ([4671,4761] d unreachable); it goes to the leftovers
+[21:16:49]     08 segments: 0:169->2st/2fb 1:86->0st/0fb 2:108->0st/0fb 3:116->0st/0fb 4:196->0st/0fb 5:145->4st/8fb 6:88->2st/8fb 7:96->1st/9fb 8:203->0st/0fb 9:None->1st/9fb
+[21:16:49]   build 96 s: 1 states, deepest 9 of pool 38; Pareto 9:695
+[21:16:57]     9 pool fb (alt 0): settle FAILED (miss nan, 8 s)
+[21:16:57]   08: NOTHING settled

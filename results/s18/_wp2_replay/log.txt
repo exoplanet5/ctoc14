@@ -1,0 +1,21 @@
+[01:19:44] new run _wp2_replay: N 2 H 540.0 d L 360.0 d proposer fixture_replay commit regrid nproc 2 stop_T 1080.0
+[01:19:44] [slice 0 T=0 d] propose: 2 jobs (0 craft, 2 root) on 2 workers, proposer fixture_replay
+[01:19:44]   job s00_r1 root  columns   0  levels 1  settles 0/0  end fixture  wall 0.0 s
+[01:19:45]   job s00_r0 root  columns   4  levels 1  settles 4/4  end fixture  wall 0.4 s
+[01:19:45] [slice 0] propose: 4 columns (0 bad dropped) in 0.4 s
+[01:19:45] [slice 0] auction: 4 columns, kept 4, dropped {}
+[01:19:45] [slice 0] auction: status optimal objective 9.749 vars 4 rows 7 chosen 2 (0.003 s)
+[01:19:45] [slice 0 T=0 d] launched 2/2  covered 8  remaining 290  fuel 37 kg  sumJi 2.0268  chosen: r->c0:4(+15) r->c1:4(+19)  rejected: -  (wall 0 s)
+[01:19:45] [slice 1 T=540 d] propose: 2 jobs (2 craft, 0 root) on 2 workers, proposer fixture_replay
+[01:19:45] interrupted (Interrupted): slice 1 -- phase files on disk are the resume point
+[01:19:45] resume _wp2_replay: slice 1 phase propose T=540 d done=False
+[01:19:45] [slice 1 T=540 d] propose: 2 jobs (2 craft, 0 root) on 2 workers, proposer fixture_replay
+[01:19:45]   job s01_c1 craft columns   2  levels 1  settles 2/2  end fixture  wall 0.3 s
+[01:19:45]   job s01_c0 craft columns   2  levels 1  settles 2/2  end fixture  wall 0.5 s
+[01:19:45] [slice 1] propose: 4 columns (0 bad dropped) in 0.5 s
+[01:19:45] [slice 1] auction: 4 columns, kept 4, dropped {}
+[01:19:45] [slice 1] auction: status optimal objective 10.101 vars 4 rows 8 chosen 2 (0.003 s)
+[01:19:46] [slice 1 T=540 d] launched 2/2  covered 16  remaining 282  fuel 86 kg  sumJi 2.0634  chosen: c0:4(+32) c1:4(+17)  rejected: -  (wall 1 s)
+[01:19:46] stop: stop_T at T=1080 d (slice 2)
+[01:19:46] finalize: fleet/ 2 routes  covered 16  misses 282  fuel 86 kg  sumJi 2.0634  J 286.0634  honest True
+[01:19:46] _wp2_replay: slice 2 phase propose T=1080 d  launched 2/2  covered 16  remaining 282  fuel 86 kg  sumJi 2.0634  done True (stop_T)

@@ -1,0 +1,5 @@
+combined verification of results/s16/efleet (tight conversions of results/s16/best/fleet, SOURCE_MD5 4d9e3228ee24c5e8bb12354f80b810a6), 09-23 17:29
+tools/combine_submission.py -> scratch file (deleted) ; tools/validator2.py:
+------------------------------------------------------------------------------
+N_covered = 298   N_miss = 2   sum J_i = 11.739947   J = 13.739947
+VERDICT: VALID

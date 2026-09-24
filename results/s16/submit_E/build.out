@@ -1,0 +1,12 @@
+[17:02:58] combine start
+wrote results/CTOC14_Result_s16E.txt with 47598 rows from 9 spacecraft
+spacecraft: 9, m0 = [948.6621732132674, 911.4629476553322, 989.3488478847796, 916.5495489086567, 959.7032190396826, 902.9980973101616, 1019.5404980878105, 929.0732594890238, 904.6207553067194]
+covered 298, missed 2, J = 13.7466  (sum J_i = 11.7466)
+max errors: pos 2.9802e-08 km, vel 7.9079e-12 m/s, mass 1.1369e-13 kg, max |T| 0.45972 N
+RESULT: PASS
+[17:26:20] combined
+[17:26:55] validated
+------------------------------------------------------------------------------
+N_covered = 298   N_miss = 2   sum J_i = 11.746635   J = 13.746635
+VERDICT: VALID
+MD5 (results/CTOC14_Result_s16E.txt) = cc438c69d975bad84646953b70bd6f03

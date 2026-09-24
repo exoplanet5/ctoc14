@@ -1,0 +1,294 @@
+{
+ "job_id": "s00_r1",
+ "kind": "root",
+ "craft": null,
+ "ok": true,
+ "error": null,
+ "columns": [
+  {
+   "id": "s00_r1_k0",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    119,
+    288,
+    10,
+    209,
+    132
+   ],
+   "epochs": [
+    33868800.0,
+    40176000.0,
+    41126400.0,
+    44150400.0,
+    45273600.0
+   ],
+   "all_targets": [
+    119,
+    288,
+    10,
+    209,
+    132
+   ],
+   "n_new": 5,
+   "npz": null,
+   "tank": 662.6349433272752,
+   "tank_prev": 601.5,
+   "dtank": 61.13494332727521,
+   "miss": 0.0,
+   "t_launch": 26784000.0,
+   "t_end": 45273600.0,
+   "potential": 3,
+   "counts": {
+    "pin": 2,
+    "med": 2,
+    "fil": 1
+   },
+   "depth": 1,
+   "score": -5.0,
+   "job_id": "s00_r1"
+  },
+  {
+   "id": "s00_r1_k1",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    209,
+    187,
+    29,
+    10,
+    138
+   ],
+   "epochs": [
+    29721600.0,
+    32745600.0,
+    36979200.0,
+    44755200.0,
+    46310400.0
+   ],
+   "all_targets": [
+    209,
+    187,
+    29,
+    10,
+    138
+   ],
+   "n_new": 5,
+   "npz": null,
+   "tank": 664.23481649438,
+   "tank_prev": 601.5,
+   "dtank": 62.73481649437997,
+   "miss": 0.0,
+   "t_launch": 26784000.0,
+   "t_end": 46310400.0,
+   "potential": 2,
+   "counts": {
+    "pin": 2,
+    "med": 2,
+    "fil": 1
+   },
+   "depth": 1,
+   "score": -5.0,
+   "job_id": "s00_r1"
+  },
+  {
+   "id": "s00_r1_k2",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    252,
+    290,
+    132,
+    137
+   ],
+   "epochs": [
+    30326400.0,
+    32227200.0,
+    37324800.0,
+    42508800.0
+   ],
+   "all_targets": [
+    252,
+    290,
+    132,
+    137
+   ],
+   "n_new": 4,
+   "npz": null,
+   "tank": 650.3827108294664,
+   "tank_prev": 601.5,
+   "dtank": 48.88271082946642,
+   "miss": 0.0,
+   "t_launch": 26784000.0,
+   "t_end": 42508800.0,
+   "potential": 6,
+   "counts": {
+    "pin": 4,
+    "med": 0,
+    "fil": 0
+   },
+   "depth": 1,
+   "score": -4.0,
+   "job_id": "s00_r1"
+  },
+  {
+   "id": "s00_r1_k3",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    119,
+    10,
+    29,
+    95,
+    45,
+    138
+   ],
+   "epochs": [
+    30585600.0,
+    31536000.0,
+    32659200.0,
+    39225600.0,
+    40435200.0,
+    45273600.0
+   ],
+   "all_targets": [
+    119,
+    10,
+    29,
+    95,
+    45,
+    138
+   ],
+   "n_new": 6,
+   "npz": null,
+   "tank": 673.0514382322256,
+   "tank_prev": 601.5,
+   "dtank": 71.55143823222556,
+   "miss": 0.0,
+   "t_launch": 26784000.0,
+   "t_end": 45273600.0,
+   "potential": 3,
+   "counts": {
+    "pin": 2,
+    "med": 3,
+    "fil": 1
+   },
+   "depth": 1,
+   "score": -6.0,
+   "job_id": "s00_r1"
+  },
+  {
+   "id": "s00_r1_k4",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    112,
+    242,
+    215,
+    109,
+    273,
+    257,
+    9,
+    296,
+    24,
+    87,
+    76
+   ],
+   "epochs": [
+    28857600.0,
+    30672000.0,
+    34214400.0,
+    36979200.0,
+    39052800.0,
+    40780800.0,
+    42163200.0,
+    42854400.0,
+    43200000.0,
+    43804800.0,
+    44755200.0
+   ],
+   "all_targets": [
+    112,
+    242,
+    215,
+    109,
+    273,
+    257,
+    9,
+    296,
+    24,
+    87,
+    76
+   ],
+   "n_new": 11,
+   "npz": null,
+   "tank": 731.0170512530628,
+   "tank_prev": 601.5,
+   "dtank": 129.51705125306285,
+   "miss": 0.0,
+   "t_launch": 26784000.0,
+   "t_end": 44755200.0,
+   "potential": 0,
+   "counts": {
+    "pin": 0,
+    "med": 0,
+    "fil": 11
+   },
+   "depth": 1,
+   "score": -11.0,
+   "job_id": "s00_r1",
+   "note": "quota violator (11 fillers)"
+  },
+  {
+   "id": "s00_r1_k5",
+   "craft": null,
+   "kind": "root",
+   "targets": [
+    119,
+    29
+   ],
+   "epochs": [
+    38102400.0,
+    45446400.0
+   ],
+   "all_targets": [
+    119,
+    29
+   ],
+   "n_new": 2,
+   "npz": null,
+   "tank": 1300.0,
+   "tank_prev": 601.5,
+   "dtank": 698.5,
+   "miss": 0.0,
+   "t_launch": 26784000.0,
+   "t_end": 45446400.0,
+   "potential": 3,
+   "counts": {
+    "pin": 1,
+    "med": 1,
+    "fil": 0
+   },
+   "depth": 1,
+   "score": -2.0,
+   "job_id": "s00_r1",
+   "note": "fuel violator (tank 1300)"
+  }
+ ],
+ "stats": {
+  "levels": 1,
+  "n_states": 6,
+  "n_columns": 6,
+  "settles": 0,
+  "settle_ok": 0,
+  "price_s": 0.0,
+  "settle_s": 0.0,
+  "wall_s": 0.01,
+  "end": {
+   "kind": "fixture",
+   "depth": 0
+  },
+  "hist": [],
+  "note": "fake: no twins"
+ }
+}

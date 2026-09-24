@@ -1,0 +1,2012 @@
+[
+{
+"kind": "column",
+"tag": "F00p05",
+"out": "results/s15/cols/r01/F00p05",
+"S": [
+137,
+158,
+216
+],
+"p": 0.005,
+"seed": 100,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F00p10",
+"out": "results/s15/cols/r01/F00p10",
+"S": [
+137,
+158,
+216
+],
+"p": 0.01,
+"seed": 101,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F00p15",
+"out": "results/s15/cols/r01/F00p15",
+"S": [
+137,
+158,
+216
+],
+"p": 0.015,
+"seed": 102,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F00p20",
+"out": "results/s15/cols/r01/F00p20",
+"S": [
+137,
+158,
+216
+],
+"p": 0.02,
+"seed": 103,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F01p05",
+"out": "results/s15/cols/r01/F01p05",
+"S": [
+157,
+168
+],
+"p": 0.005,
+"seed": 110,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F01p10",
+"out": "results/s15/cols/r01/F01p10",
+"S": [
+157,
+168
+],
+"p": 0.01,
+"seed": 111,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F01p15",
+"out": "results/s15/cols/r01/F01p15",
+"S": [
+157,
+168
+],
+"p": 0.015,
+"seed": 112,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F01p20",
+"out": "results/s15/cols/r01/F01p20",
+"S": [
+157,
+168
+],
+"p": 0.02,
+"seed": 113,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F02p05",
+"out": "results/s15/cols/r01/F02p05",
+"S": [
+119,
+138
+],
+"p": 0.005,
+"seed": 120,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F02p10",
+"out": "results/s15/cols/r01/F02p10",
+"S": [
+119,
+138
+],
+"p": 0.01,
+"seed": 121,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F02p15",
+"out": "results/s15/cols/r01/F02p15",
+"S": [
+119,
+138
+],
+"p": 0.015,
+"seed": 122,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F02p20",
+"out": "results/s15/cols/r01/F02p20",
+"S": [
+119,
+138
+],
+"p": 0.02,
+"seed": 123,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F03p05",
+"out": "results/s15/cols/r01/F03p05",
+"S": [
+64
+],
+"p": 0.005,
+"seed": 130,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F03p10",
+"out": "results/s15/cols/r01/F03p10",
+"S": [
+64
+],
+"p": 0.01,
+"seed": 131,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F03p15",
+"out": "results/s15/cols/r01/F03p15",
+"S": [
+64
+],
+"p": 0.015,
+"seed": 132,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F03p20",
+"out": "results/s15/cols/r01/F03p20",
+"S": [
+64
+],
+"p": 0.02,
+"seed": 133,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F04p05",
+"out": "results/s15/cols/r01/F04p05",
+"S": [
+64,
+137,
+157
+],
+"p": 0.005,
+"seed": 140,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F04p10",
+"out": "results/s15/cols/r01/F04p10",
+"S": [
+64,
+137,
+157
+],
+"p": 0.01,
+"seed": 141,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F04p15",
+"out": "results/s15/cols/r01/F04p15",
+"S": [
+64,
+137,
+157
+],
+"p": 0.015,
+"seed": 142,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F04p20",
+"out": "results/s15/cols/r01/F04p20",
+"S": [
+64,
+137,
+157
+],
+"p": 0.02,
+"seed": 143,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F05p05",
+"out": "results/s15/cols/r01/F05p05",
+"S": [
+64,
+119,
+137
+],
+"p": 0.005,
+"seed": 150,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F05p10",
+"out": "results/s15/cols/r01/F05p10",
+"S": [
+64,
+119,
+137
+],
+"p": 0.01,
+"seed": 151,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F05p15",
+"out": "results/s15/cols/r01/F05p15",
+"S": [
+64,
+119,
+137
+],
+"p": 0.015,
+"seed": 152,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F05p20",
+"out": "results/s15/cols/r01/F05p20",
+"S": [
+64,
+119,
+137
+],
+"p": 0.02,
+"seed": 153,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F06p05",
+"out": "results/s15/cols/r01/F06p05",
+"S": [
+157,
+158,
+216
+],
+"p": 0.005,
+"seed": 160,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F06p10",
+"out": "results/s15/cols/r01/F06p10",
+"S": [
+157,
+158,
+216
+],
+"p": 0.01,
+"seed": 161,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F06p15",
+"out": "results/s15/cols/r01/F06p15",
+"S": [
+157,
+158,
+216
+],
+"p": 0.015,
+"seed": 162,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F06p20",
+"out": "results/s15/cols/r01/F06p20",
+"S": [
+157,
+158,
+216
+],
+"p": 0.02,
+"seed": 163,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F07p05",
+"out": "results/s15/cols/r01/F07p05",
+"S": [
+137,
+138,
+157,
+158
+],
+"p": 0.005,
+"seed": 170,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F07p10",
+"out": "results/s15/cols/r01/F07p10",
+"S": [
+137,
+138,
+157,
+158
+],
+"p": 0.01,
+"seed": 171,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F07p15",
+"out": "results/s15/cols/r01/F07p15",
+"S": [
+137,
+138,
+157,
+158
+],
+"p": 0.015,
+"seed": 172,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "F07p20",
+"out": "results/s15/cols/r01/F07p20",
+"S": [
+137,
+138,
+157,
+158
+],
+"p": 0.02,
+"seed": 173,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 9.0
+},
+{
+"kind": "column",
+"tag": "E00",
+"out": "results/s15/cols/r01/E00",
+"S": [],
+"p": 0.0,
+"seed": 1000,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 8.0
+},
+{
+"kind": "column",
+"tag": "E01",
+"out": "results/s15/cols/r01/E01",
+"S": [],
+"p": 0.0,
+"seed": 1001,
+"member": "H",
+"beam": 100,
+"absorb": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"wall_budget": 2400.0,
+"_est": 8.0
+},
+{
+"kind": "chain",
+"tag": "C00h6",
+"out": "results/s15/cols/r01/C00h6",
+"pool": [
+6,
+11,
+15,
+17,
+20,
+22,
+32,
+33,
+36,
+51,
+58,
+64,
+71,
+75,
+93,
+95,
+96,
+104,
+108,
+110,
+118,
+119,
+120,
+124,
+132,
+137,
+138,
+139,
+141,
+145,
+147,
+150,
+157,
+158,
+165,
+168,
+172,
+173,
+175,
+180,
+188,
+199,
+203,
+213,
+216,
+219,
+220,
+223,
+234,
+240,
+242,
+243,
+246,
+247,
+249,
+251,
+254,
+262,
+266,
+280,
+283,
+284,
+287,
+288,
+298
+],
+"S": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"p": 0.02,
+"seed": 500,
+"steps": 3,
+"members": [
+"H",
+"T2"
+],
+"members_small": [
+"T2",
+"T3",
+"T6"
+],
+"beam": 100,
+"absorb": null,
+"heads": [
+"results/s14/probe_cover/N9/fleet/route_01.npz",
+"results/s14/probe_cover/N9/fleet/route_02.npz",
+"results/s14/probe_cover/N9/fleet/route_03.npz",
+"results/s14/probe_cover/N9/fleet/route_04.npz",
+"results/s14/probe_cover/N9/fleet/route_05.npz",
+"results/s14/probe_cover/N9/fleet/route_06.npz"
+],
+"wall_budget": 4500.0,
+"_est": 33.0
+},
+{
+"kind": "chain",
+"tag": "C01h6",
+"out": "results/s15/cols/r01/C01h6",
+"pool": [
+6,
+11,
+15,
+17,
+20,
+22,
+32,
+33,
+36,
+51,
+58,
+64,
+71,
+75,
+93,
+95,
+96,
+104,
+108,
+110,
+118,
+119,
+120,
+124,
+132,
+137,
+138,
+139,
+141,
+145,
+147,
+150,
+157,
+158,
+165,
+168,
+172,
+173,
+175,
+180,
+188,
+199,
+203,
+213,
+216,
+219,
+220,
+223,
+234,
+240,
+242,
+243,
+246,
+247,
+249,
+251,
+254,
+262,
+266,
+280,
+283,
+284,
+287,
+288,
+298
+],
+"S": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"p": 0.01,
+"seed": 501,
+"steps": 3,
+"members": [
+"H",
+"T2"
+],
+"members_small": [
+"T2",
+"T3",
+"T6"
+],
+"beam": 100,
+"absorb": null,
+"heads": [
+"results/s14/probe_cover/N9/fleet/route_01.npz",
+"results/s14/probe_cover/N9/fleet/route_02.npz",
+"results/s14/probe_cover/N9/fleet/route_03.npz",
+"results/s14/probe_cover/N9/fleet/route_04.npz",
+"results/s14/probe_cover/N9/fleet/route_05.npz",
+"results/s14/probe_cover/N9/fleet/route_06.npz"
+],
+"wall_budget": 4500.0,
+"_est": 33.0
+},
+{
+"kind": "chain",
+"tag": "C02h5",
+"out": "results/s15/cols/r01/C02h5",
+"pool": [
+3,
+6,
+10,
+11,
+15,
+17,
+18,
+20,
+22,
+26,
+29,
+32,
+33,
+36,
+51,
+52,
+58,
+59,
+60,
+62,
+64,
+71,
+75,
+82,
+86,
+87,
+90,
+93,
+95,
+96,
+97,
+104,
+107,
+108,
+110,
+116,
+118,
+119,
+120,
+121,
+124,
+129,
+132,
+135,
+137,
+138,
+139,
+141,
+145,
+147,
+148,
+150,
+151,
+156,
+157,
+158,
+165,
+168,
+172,
+173,
+175,
+180,
+186,
+188,
+199,
+203,
+204,
+212,
+213,
+216,
+219,
+220,
+223,
+233,
+234,
+240,
+242,
+243,
+246,
+247,
+249,
+251,
+253,
+254,
+258,
+262,
+266,
+269,
+275,
+280,
+283,
+284,
+287,
+288,
+298
+],
+"S": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"p": 0.015,
+"seed": 502,
+"steps": 4,
+"members": [
+"H",
+"T2"
+],
+"members_small": [
+"T2",
+"T3",
+"T6"
+],
+"beam": 100,
+"absorb": null,
+"heads": [
+"results/s14/probe_cover/N9/fleet/route_01.npz",
+"results/s14/probe_cover/N9/fleet/route_02.npz",
+"results/s14/probe_cover/N9/fleet/route_03.npz",
+"results/s14/probe_cover/N9/fleet/route_04.npz",
+"results/s14/probe_cover/N9/fleet/route_05.npz"
+],
+"wall_budget": 6000.0,
+"_est": 44.0
+},
+{
+"kind": "chain",
+"tag": "C03h5",
+"out": "results/s15/cols/r01/C03h5",
+"pool": [
+4,
+6,
+7,
+11,
+15,
+16,
+17,
+20,
+22,
+23,
+25,
+32,
+33,
+34,
+36,
+40,
+50,
+51,
+53,
+58,
+64,
+71,
+75,
+79,
+89,
+93,
+95,
+96,
+98,
+99,
+100,
+104,
+108,
+110,
+118,
+119,
+120,
+124,
+132,
+134,
+137,
+138,
+139,
+141,
+143,
+145,
+147,
+150,
+154,
+157,
+158,
+165,
+166,
+168,
+169,
+170,
+172,
+173,
+175,
+177,
+180,
+188,
+199,
+203,
+208,
+213,
+216,
+217,
+218,
+219,
+220,
+223,
+228,
+231,
+234,
+240,
+241,
+242,
+243,
+246,
+247,
+249,
+251,
+254,
+256,
+257,
+262,
+263,
+264,
+266,
+267,
+280,
+283,
+284,
+287,
+288,
+298
+],
+"S": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"p": 0.015,
+"seed": 503,
+"steps": 4,
+"members": [
+"H",
+"T2"
+],
+"members_small": [
+"T2",
+"T3",
+"T6"
+],
+"beam": 100,
+"absorb": null,
+"heads": [
+"results/s14/probe_cover/N9/fleet/route_01.npz",
+"results/s14/probe_cover/N9/fleet/route_02.npz",
+"results/s14/probe_cover/N9/fleet/route_03.npz",
+"results/s14/probe_cover/N9/fleet/route_04.npz",
+"results/s14/probe_cover/N9/fleet/route_06.npz"
+],
+"wall_budget": 6000.0,
+"_est": 44.0
+},
+{
+"kind": "chain",
+"tag": "C04h4",
+"out": "results/s15/cols/r01/C04h4",
+"pool": [
+3,
+4,
+6,
+7,
+10,
+11,
+15,
+16,
+17,
+18,
+20,
+22,
+23,
+25,
+26,
+29,
+32,
+33,
+34,
+36,
+40,
+50,
+51,
+52,
+53,
+58,
+59,
+60,
+62,
+64,
+71,
+75,
+79,
+82,
+86,
+87,
+89,
+90,
+93,
+95,
+96,
+97,
+98,
+99,
+100,
+104,
+107,
+108,
+110,
+116,
+118,
+119,
+120,
+121,
+124,
+129,
+132,
+134,
+135,
+137,
+138,
+139,
+141,
+143,
+145,
+147,
+148,
+150,
+151,
+154,
+156,
+157,
+158,
+165,
+166,
+168,
+169,
+170,
+172,
+173,
+175,
+177,
+180,
+186,
+188,
+199,
+203,
+204,
+208,
+212,
+213,
+216,
+217,
+218,
+219,
+220,
+223,
+228,
+231,
+233,
+234,
+240,
+241,
+242,
+243,
+246,
+247,
+249,
+251,
+253,
+254,
+256,
+257,
+258,
+262,
+263,
+264,
+266,
+267,
+269,
+275,
+280,
+283,
+284,
+287,
+288,
+298
+],
+"S": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"p": 0.01,
+"seed": 504,
+"steps": 5,
+"members": [
+"H",
+"T2"
+],
+"members_small": [
+"T2",
+"T3",
+"T6"
+],
+"beam": 100,
+"absorb": null,
+"heads": [
+"results/s14/probe_cover/N9/fleet/route_01.npz",
+"results/s14/probe_cover/N9/fleet/route_02.npz",
+"results/s14/probe_cover/N9/fleet/route_03.npz",
+"results/s14/probe_cover/N9/fleet/route_04.npz"
+],
+"wall_budget": 7500.0,
+"_est": 55.0
+},
+{
+"kind": "chain",
+"tag": "C05h3",
+"out": "results/s15/cols/r01/C05h3",
+"pool": [
+3,
+4,
+6,
+7,
+10,
+11,
+15,
+16,
+17,
+18,
+20,
+22,
+23,
+24,
+25,
+26,
+27,
+29,
+32,
+33,
+34,
+36,
+37,
+40,
+50,
+51,
+52,
+53,
+58,
+59,
+60,
+62,
+64,
+68,
+69,
+71,
+73,
+75,
+76,
+78,
+79,
+82,
+84,
+86,
+87,
+88,
+89,
+90,
+93,
+95,
+96,
+97,
+98,
+99,
+100,
+104,
+106,
+107,
+108,
+109,
+110,
+112,
+113,
+116,
+118,
+119,
+120,
+121,
+122,
+124,
+129,
+132,
+134,
+135,
+136,
+137,
+138,
+139,
+140,
+141,
+143,
+145,
+146,
+147,
+148,
+149,
+150,
+151,
+152,
+154,
+156,
+157,
+158,
+165,
+166,
+168,
+169,
+170,
+172,
+173,
+175,
+177,
+178,
+180,
+181,
+185,
+186,
+188,
+199,
+202,
+203,
+204,
+208,
+212,
+213,
+216,
+217,
+218,
+219,
+220,
+223,
+227,
+228,
+231,
+232,
+233,
+234,
+235,
+236,
+240,
+241,
+242,
+243,
+244,
+246,
+247,
+249,
+251,
+253,
+254,
+256,
+257,
+258,
+259,
+262,
+263,
+264,
+266,
+267,
+269,
+275,
+280,
+282,
+283,
+284,
+287,
+288,
+289,
+290,
+295,
+298,
+300
+],
+"S": [
+64,
+119,
+137,
+138,
+157,
+158,
+168,
+216
+],
+"p": 0.02,
+"seed": 505,
+"steps": 6,
+"members": [
+"H",
+"T2"
+],
+"members_small": [
+"T2",
+"T3",
+"T6"
+],
+"beam": 100,
+"absorb": null,
+"heads": [
+"results/s14/probe_cover/N9/fleet/route_01.npz",
+"results/s14/probe_cover/N9/fleet/route_02.npz",
+"results/s14/probe_cover/N9/fleet/route_03.npz"
+],
+"wall_budget": 9000.0,
+"_est": 78.0
+},
+{
+"kind": "absorb",
+"tag": "A064",
+"out": "results/s15/cols/r01/A064",
+"items": [
+[
+"results/s13/gen/g01/full2/lib/route_03_H_40.npz",
+64
+],
+[
+"results/s13/seed_passes/N10a/route_03.npz",
+64
+],
+[
+"results/s13/gen/g02/full3/lib/route_05_H_32.npz",
+64
+],
+[
+"results/s13/gen/g01/full5/lib/route_05_H_31.npz",
+64
+],
+[
+"results/s13/gen/g01/full5/lib/route_05_H_29.npz",
+64
+],
+[
+"results/s13/gen/g02/pilot2/route_07.npz",
+64
+],
+[
+"results/newgen/gc16/route_06.npz",
+64
+],
+[
+"results/newgen/skel8/route_03.npz",
+64
+]
+],
+"item_trials": 1,
+"absorb_dmax": 0.06,
+"absorb_kg": 80.0,
+"wall_budget": 1800.0,
+"_est": 6.4
+},
+{
+"kind": "absorb",
+"tag": "A119",
+"out": "results/s15/cols/r01/A119",
+"items": [
+[
+"results/s13/linchpin/A/07_pool_beam/route_07.npz",
+119
+],
+[
+"results/s13/linchpin/A/07_own_beam/route_07.npz",
+119
+],
+[
+"results/s13/gen/g01/full2/lib/route_04_H_31.npz",
+119
+],
+[
+"results/s13/g0/pass_a/route_07.npz",
+119
+],
+[
+"results/s13/seed_passes/G4a/route_01.npz",
+119
+]
+],
+"item_trials": 1,
+"absorb_dmax": 0.06,
+"absorb_kg": 80.0,
+"wall_budget": 1800.0,
+"_est": 4.0
+},
+{
+"kind": "absorb",
+"tag": "A137",
+"out": "results/s15/cols/r01/A137",
+"items": [
+[
+"results/s13/seed_passes/P20/route_01.npz",
+137
+],
+[
+"results/s13/gen/g02/full4/lib/route_03_H_37.npz",
+137
+],
+[
+"results/s13/gen/g02/full4/lib/route_03_H_36.npz",
+137
+],
+[
+"results/s13/gen/g03/full2/lib/route_03_H_40.npz",
+137
+],
+[
+"results/s13/gen/g03/full2/route_03.npz",
+137
+],
+[
+"results/s13/linchpin/A/00_own_beam/route_00.npz",
+137
+],
+[
+"results/s14/A/s2/pl_L3_b100/p00/route_00.npz",
+137
+],
+[
+"results/s14/A/best_routes/route_00.npz",
+137
+]
+],
+"item_trials": 1,
+"absorb_dmax": 0.06,
+"absorb_kg": 80.0,
+"wall_budget": 1800.0,
+"_est": 6.4
+},
+{
+"kind": "absorb",
+"tag": "A138",
+"out": "results/s15/cols/r01/A138",
+"items": [
+[
+"results/s13/gen/g02/full4/lib/route_05_Hpre_16.npz",
+138
+],
+[
+"results/s13/gen/g01/full3/lib/route_05_H_31.npz",
+138
+],
+[
+"results/s13/gen/g01/full3/lib/route_05_H_32.npz",
+138
+],
+[
+"results/s13/gen/g01/full3/lib/route_05_H_30.npz",
+138
+],
+[
+"results/s13/linchpin/curve/07_N30/route_07.npz",
+138
+],
+[
+"results/s13/gen/g02/tail4/lib/route_06_T2_32.npz",
+138
+],
+[
+"results/s13/gen/g02x/tailB55/lib/route_07_T3_24.npz",
+138
+]
+],
+"item_trials": 1,
+"absorb_dmax": 0.06,
+"absorb_kg": 80.0,
+"wall_budget": 1800.0,
+"_est": 5.6000000000000005
+},
+{
+"kind": "absorb",
+"tag": "A157",
+"out": "results/s15/cols/r01/A157",
+"items": [
+[
+"results/s13/seed_passes/P20/route_04.npz",
+157
+],
+[
+"results/s13/gen/g03/full4/lib/route_04_H_31.npz",
+157
+],
+[
+"results/newgen/ifleet1/route_08.npz",
+157
+],
+[
+"results/newgen/ifleet0/route_08.npz",
+157
+]
+],
+"item_trials": 1,
+"absorb_dmax": 0.06,
+"absorb_kg": 80.0,
+"wall_budget": 1800.0,
+"_est": 3.2
+},
+{
+"kind": "absorb",
+"tag": "A158",
+"out": "results/s15/cols/r01/A158",
+"items": [
+[
+"results/s13/g0/pass_a/lib/route_06_T5_30.npz",
+158
+],
+[
+"results/s13/gen/g02/tail4/lib/route_05_H_29.npz",
+158
+],
+[
+"results/s13/gen/g02/tail4/lib/route_05_H_28.npz",
+158
+],
+[
+"results/s13/gen/g02/pilot1/route_07.npz",
+158
+],
+[
+"results/s13/gen/g02/tail4/lib/route_05_H_27.npz",
+158
+],
+[
+"results/s13/gen/g02/tail4/lib/route_05_H_26.npz",
+158
+],
+[
+"results/newgen/skel8/route_05.npz",
+158
+],
+[
+"results/s13/linchpin/A/00_own_beam/route_00.npz",
+158
+]
+],
+"item_trials": 1,
+"absorb_dmax": 0.06,
+"absorb_kg": 80.0,
+"wall_budget": 1800.0,
+"_est": 6.4
+},
+{
+"kind": "absorb",
+"tag": "A168",
+"out": "results/s15/cols/r01/A168",
+"items": [
+[
+"results/s13/seed_passes/V0/route_02.npz",
+168
+],
+[
+"results/s13/gen/g03/full1/lib/route_05_H_32.npz",
+168
+],
+[
+"results/s13/gen/g03/full1/lib/route_05_H_31.npz",
+168
+],
+[
+"results/s13/gen/g03/full1/lib/route_05_H_30.npz",
+168
+],
+[
+"results/s13/gen/g03/full1/lib/route_05_H_29.npz",
+168
+],
+[
+"results/s13/gen/g03/full1/lib/route_05_H_28.npz",
+168
+],
+[
+"results/s13/gen/g02x/tailB55k4/lib/route_07_T6_26.npz",
+168
+],
+[
+"results/s13/gen/g02x/tailB55k4/lib/route_07_T6_27.npz",
+168
+]
+],
+"item_trials": 1,
+"absorb_dmax": 0.06,
+"absorb_kg": 80.0,
+"wall_budget": 1800.0,
+"_est": 6.4
+},
+{
+"kind": "absorb",
+"tag": "A216",
+"out": "results/s15/cols/r01/A216",
+"items": [
+[
+"results/newgen/gc16/route_04.npz",
+216
+],
+[
+"results/s13/gen/g01/full5/route_08.npz",
+216
+]
+],
+"item_trials": 1,
+"absorb_dmax": 0.06,
+"absorb_kg": 80.0,
+"wall_budget": 1800.0,
+"_est": 1.6
+}
+]

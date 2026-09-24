@@ -1,0 +1,23 @@
+680 carriers
+ dmax 0.06: cand median 39, union 298
+   K=8 cap=40 n_carriers   60: covered [210, 211]
+   K=8 cap=40 n_carriers  120: covered [213, 217]
+   K=8 cap=40 n_carriers  240: covered [224, 222]
+   K=8 cap=40 n_carriers  480: covered [225, 225]
+   K=8 cap=40 n_carriers  680: covered [233]
+   K=10 cap=40 n_carriers   60: covered [228, 233]
+   K=10 cap=40 n_carriers  120: covered [233, 237]
+   K=10 cap=40 n_carriers  240: covered [245, 252]
+   K=10 cap=40 n_carriers  480: covered [247, 247]
+   K=10 cap=40 n_carriers  680: covered [254]
+ dmax 0.1: cand median 69, union 298
+   K=8 cap=40 n_carriers   60: covered [264, 263]
+   K=8 cap=40 n_carriers  120: covered [269, 269]
+   K=8 cap=40 n_carriers  240: covered [272, 274]
+   K=8 cap=40 n_carriers  480: covered [270, 269]
+   K=8 cap=40 n_carriers  680: covered [269]
+   K=10 cap=40 n_carriers   60: covered [277, 277]
+   K=10 cap=40 n_carriers  120: covered [281, 284]
+   K=10 cap=40 n_carriers  240: covered [282, 287]
+   K=10 cap=40 n_carriers  480: covered [284, 288]
+   K=10 cap=40 n_carriers  680: covered [285]

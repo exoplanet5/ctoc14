@@ -1,0 +1,3 @@
+[21:08:35]     absorb[route_C00h6s3_8+[]]: 3 approaches of [71, 108]; lintwin 71@3293d 0.180AU 24kg, 108@1289d 0.115AU 255kg, 108@2717d 0.103AU 413kg
+[21:08:47]     absorb[route_C00h6s3_8+[]]: insert 71 at 3293 d (lintwin 24 kg) -> fail 227285.55867918176 (12 s)
+[21:08:47] close C00h6_s3 done: 0 columns (13 s)

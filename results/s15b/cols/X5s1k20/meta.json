@@ -1,0 +1,249 @@
+{
+ "job": {
+  "beam": 24,
+  "tries": 72,
+  "roots": 300,
+  "dv": 1.2,
+  "drmax": 0.15,
+  "mc": 60,
+  "k_epochs": 3,
+  "lin_cap": 3.0,
+  "res_max": 150000000.0,
+  "grid": "0,800,20",
+  "iters": 100,
+  "timeout": 240.0,
+  "p": 0.5,
+  "S": [
+   212
+  ],
+  "w_fuel": 1.5,
+  "w_t": null,
+  "cap": 1150.0,
+  "kappa": 90.0,
+  "w_iso": 1.0,
+  "steps": 1,
+  "nproc": 1,
+  "wall_budget": 28800.0,
+  "min_save": 20,
+  "save_cap": 1300.0,
+  "level_budget": null,
+  "tag": "X5s1k20",
+  "out": "results/s15b/cols/X5s1k20",
+  "route": "results/s15/cols/t03/TB2f/route_TB2fs1_21.npz",
+  "k": 20,
+  "own": [
+   22,
+   33,
+   58,
+   71,
+   93,
+   95,
+   96,
+   132,
+   137,
+   138,
+   139,
+   150,
+   172,
+   173,
+   199,
+   213,
+   223,
+   240,
+   249,
+   266,
+   280
+  ],
+  "own_prize": 1.0,
+  "runner": "tools/s15b_prefix.py",
+  "fleet_pre": [
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_01.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_02.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_03.npz",
+   "results/s13/gen/g02/master/N8_B10.55/fleet/route_04.npz",
+   "results/s13/gen/g02/master/N8_B10.6/fleet/route_05.npz",
+   "results/s15b/cols/X3h06k27/route_X3h06k27s1_30.npz",
+   "results/s15/cols/r01/C00h6/route_C00h6s1_28.npz",
+   "results/s15b/cols/X1s2k5/route_X1s2k5s1_14.npz"
+  ],
+  "replaced": "results/s15/cols/t03/TB2f/route_TB2fs1_21.npz",
+  "src_fleet": "results/s15b/fleets/G1",
+  "src_route": "s1",
+  "prefix_end": [
+   172,
+   5072.254797327445
+  ],
+  "note": "G1 (B297 + h06x64 X3h06k27s1_30) miss 212: append/designed-in after a known 212 neighbour (150->212@5235, 256->212@5231, 37->212@5228)"
+ },
+ "kind": "twintail",
+ "pool_n": 22,
+ "chain": {
+  "steps": [
+   {
+    "k": 1,
+    "pool": 22,
+    "S": [
+     212
+    ],
+    "end": {
+     "kind": "no_children",
+     "depth": 21
+    },
+    "deepest": 21,
+    "settles": 1,
+    "settle_ok": 1,
+    "wall_s": 22,
+    "ncols": 1,
+    "took": {
+     "f": "results/s15b/cols/X5s1k20/route_X5s1k20s1_21.npz",
+     "n": 21,
+     "tank": 884.32,
+     "iso": [
+      137,
+      138
+     ],
+     "s_taken": []
+    },
+    "covered": 21
+   }
+  ],
+  "covered": [
+   22,
+   33,
+   58,
+   71,
+   93,
+   95,
+   96,
+   132,
+   137,
+   138,
+   139,
+   150,
+   172,
+   173,
+   199,
+   213,
+   223,
+   240,
+   249,
+   266,
+   280
+  ],
+  "cols": [
+   {
+    "f": "results/s15b/cols/X5s1k20/route_X5s1k20s1_21.npz",
+    "n": 21,
+    "n_real": 21,
+    "tank": 884.32,
+    "miss": 4.4,
+    "kind": "score",
+    "targets": [
+     22,
+     33,
+     58,
+     71,
+     93,
+     95,
+     96,
+     132,
+     137,
+     138,
+     139,
+     150,
+     172,
+     173,
+     199,
+     213,
+     223,
+     240,
+     249,
+     266,
+     280
+    ],
+    "iso": [
+     137,
+     138
+    ],
+    "s_taken": [],
+    "t_end_d": 5096.8,
+    "t_launch_d": 20.0,
+    "step": 1
+   }
+  ],
+  "taken": [
+   {
+    "k": 1,
+    "f": "results/s15b/cols/X5s1k20/route_X5s1k20s1_21.npz",
+    "n": 21,
+    "tank": 884.32,
+    "targets": [
+     22,
+     33,
+     58,
+     71,
+     93,
+     95,
+     96,
+     132,
+     137,
+     138,
+     139,
+     150,
+     172,
+     173,
+     199,
+     213,
+     223,
+     240,
+     249,
+     266,
+     280
+    ]
+   }
+  ]
+ },
+ "cols": [
+  {
+   "f": "results/s15b/cols/X5s1k20/route_X5s1k20s1_21.npz",
+   "n": 21,
+   "n_real": 21,
+   "tank": 884.32,
+   "miss": 4.4,
+   "kind": "score",
+   "targets": [
+    22,
+    33,
+    58,
+    71,
+    93,
+    95,
+    96,
+    132,
+    137,
+    138,
+    139,
+    150,
+    172,
+    173,
+    199,
+    213,
+    223,
+    240,
+    249,
+    266,
+    280
+   ],
+   "iso": [
+    137,
+    138
+   ],
+   "s_taken": [],
+   "t_end_d": 5096.8,
+   "t_launch_d": 20.0,
+   "step": 1
+  }
+ ],
+ "covered": 21,
+ "wall_s": 22
+}
