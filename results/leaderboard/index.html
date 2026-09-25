@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CTOC14 Leaderboard Monitor</title>
+<meta name="description" content="How the CTOC14 Problem A leaderboard evolved: shown/raw J per team against submission time, N coded by line width, rank track of the top teams.">
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="board.js"></script>
+<style>
+:root {
+  --bg: #07090f; --bg-panel: #0d111b; --border: #1f2937; --text: #d6dce6; --text-dim: #8a94a6;
+  --accent: #4cc9f0; --us: #fbbf24; --grid: #1c2433; --font: Menlo, "SF Mono", Consolas, "DejaVu Sans Mono", monospace;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--font); font-size: 12px; }
+#app { display: grid; grid-template-columns: 1fr 470px; grid-template-rows: auto 1fr; height: 100vh; }
+header { grid-column: 1 / 3; display: flex; flex-wrap: wrap; align-items: center; gap: 14px; padding: 8px 14px; border-bottom: 1px solid var(--border); background: var(--bg-panel); }
+header h1 { font-size: 14px; margin: 0; color: var(--accent); letter-spacing: 0.04em; }
+header .meta { color: var(--text-dim); }
+header label { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; }
+header .ctl { display: inline-flex; align-items: center; gap: 6px; padding-left: 12px; border-left: 1px solid var(--border); }
+header .ctl > span.k { color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.06em; font-size: 10px; }
+header input[type=range] { width: 120px; }
+header button { background: #16213a; color: var(--text); border: 1px solid #2b3a55; border-radius: 3px; padding: 2px 8px; font: inherit; cursor: pointer; }
+header button.on { background: #0e4f66; border-color: var(--accent); }
+#charts { position: relative; overflow: hidden; padding: 4px 0 0 4px; }
+#charts svg { display: block; }
+#side { border-left: 1px solid var(--border); background: var(--bg-panel); overflow: auto; }
+#side h2 { font-size: 11px; margin: 10px 12px 4px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em; }
+table.st { border-collapse: collapse; width: 100%; }
+table.st th, table.st td { padding: 2px 5px; font-size: 11px; text-align: right; white-space: nowrap; border-bottom: 1px solid #141a26; }
+table.st th { color: var(--text-dim); font-weight: normal; font-size: 10px; position: sticky; top: 0; background: var(--bg-panel); }
+table.st td.team, table.st th.team { text-align: left; max-width: 150px; overflow: hidden; text-overflow: ellipsis; }
+table.st tr { cursor: pointer; }
+table.st tr:hover { background: #141c2c; }
+table.st tr.pinned { background: #1a2740; }
+table.st tr.hidden-team { opacity: 0.35; }
+.sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+.dropped { color: var(--text-dim); font-style: italic; }
+#tip { position: absolute; pointer-events: none; background: rgba(13,17,27,0.96); border: 1px solid var(--border); border-radius: 4px; padding: 6px 8px; font-size: 11px; line-height: 1.45; display: none; z-index: 5; max-width: 320px; }
+#tip b { color: var(--accent); }
+.axis text { fill: var(--text-dim); font-family: var(--font); font-size: 10px; }
+.axis line, .axis path { stroke: #2a3446; }
+.grid line { stroke: var(--grid); }
+.lbl { font-size: 10px; fill: var(--text); }
+.note { padding: 6px 12px 10px; color: var(--text-dim); line-height: 1.5; font-size: 11px; }
+.note b { color: var(--text); }
+@media (max-width: 900px) { #app { grid-template-columns: 1fr; grid-template-rows: auto auto auto; height: auto; } header { grid-column: 1; } #side { border-left: 0; border-top: 1px solid var(--border); } }
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>CTOC14 Leaderboard Monitor</h1>
+    <span class="meta" id="meta"></span>
+    <span class="ctl"><span class="k">J</span><button id="b-shown" class="on">shown</button><button id="b-raw">raw</button></span>
+    <span class="ctl"><span class="k">scale</span><button id="b-log" class="on">log</button><button id="b-lin">linear</button></span>
+    <span class="ctl"><span class="k">J range</span><button id="b-now" class="on">current scores</button><button id="b-all">full history</button></span>
+    <span class="ctl"><span class="k">top</span><input type="range" id="topn" min="3" max="68" value="12"><b id="topn-val">12</b></span>
+    <span class="ctl"><label><input type="checkbox" id="c-width" checked>N as line width</label><svg id="wlegend" width="250" height="18"></svg></span>
+    <span class="ctl"><label><input type="checkbox" id="c-dropped">include removed teams</label></span>
+    <span class="ctl"><label><input type="checkbox" id="c-snaps" checked>snapshot ticks</label></span>
+    <span class="ctl"><button id="b-clear">clear pins</button></span>
+    <span class="ctl"><a href="../viz/" style="color:var(--accent)">fleet viewer →</a></span>
+  </header>
+  <div id="charts"><div id="tip"></div></div>
+  <div id="side">
+    <h2>Standings at the last snapshot <span id="side-t"></span></h2>
+    <table class="st" id="standings"><thead><tr><th>#</th><th class="team">team</th><th>J shown</th><th>J raw</th><th>N</th><th>last submit</th><th>subs</th></tr></thead><tbody></tbody></table>
+  </div>
+</div>
+<script>
+(function () {
+  const B = window.BOARD;
+  const P = d3.timeParse('%Y-%m-%d %H:%M');
+  const tStart = P(B.t_start), tEnd = P(B.t_end), tLast = P(B.last_snapshot), tFirstSnap = P(B.first_snapshot);
+  const kOf = t => 1 - 0.1 * (tEnd - t) / (tEnd - tStart);
+  const US = null;
+  const state = { mode: 'shown', scale: 'log', fit: 'now', topn: 12, width: true, dropped: false, snaps: true, pins: new Set(), hover: null };
+  const teams = B.teams.map(t => ({ ...t, ev: t.events.map(e => ({ ...e, d: P(e.t) })), tLastSnap: P(t.last_snap) }));
+  const byName = new Map(teams.map(t => [t.team, t]));
+  // rank track per team: [{d, r}] with r = null when not ranked at that time
+  const track = new Map(teams.map(t => [t.team, []]));
+  for (const row of B.rank_track) {
+    const d = P(row.t), pos = new Map(row.order.map((n, i) => [n, i + 1]));
+    for (const t of teams) track.get(t.team).push({ d, r: pos.get(t.team) || null });
+  }
+  // colours: by current rank; ours fixed
+  const palette = d3.schemeTableau10.concat(d3.schemeSet2, d3.schemePastel1, d3.schemeDark2, d3.schemeSet3);
+  const color = new Map(); let ci = 0;
+  for (const t of teams) color.set(t.team, palette[ci++ % palette.length]);
+  const widthOf = N => state.width ? Math.min(7, 1 + 0.6 * (N - 9)) : 1.6;
+  const fmtT = d3.timeFormat('%m-%d %H:%M'), fmtD = d3.timeFormat('%m-%d');
+  const Jof = e => state.mode === 'raw' ? e.raw : e.J;
+
+  document.getElementById('meta').textContent = `${B.n_snapshots} pages ${B.first_snapshot} .. ${B.last_snapshot} (Beijing) · ${teams.length} teams · ${d3.sum(teams, t => t.n_sub)} submissions · built ${B.generated}`;
+  document.getElementById('side-t').textContent = B.last_snapshot;
+
+  function visibleTeams() {
+    const ranked = teams.filter(t => state.dropped || !t.dropped);
+    ranked.sort((a, b) => (a.cur.J - b.cur.J));
+    return ranked.slice(0, state.topn);
+  }
+  function emphasised(name) {   // 1 = full, 0 = dimmed
+    if (state.hover) return state.hover === name ? 1 : 0.12;
+    if (state.pins.size) return state.pins.has(name) ? 1 : 0.12;
+    return 1;
+  }
+
+  const tip = document.getElementById('tip');
+  function showTip(ev, html) { tip.style.display = 'block'; tip.innerHTML = html; moveTip(ev); }
+  function moveTip(ev) {
+    const r = document.getElementById('charts').getBoundingClientRect();
+    let x = ev.clientX - r.left + 14, y = ev.clientY - r.top + 14;
+    if (x + 330 > r.width) x = Math.max(0, ev.clientX - r.left - 330);
+    if (y + 120 > r.height) y = Math.max(0, ev.clientY - r.top - 120);
+    tip.style.left = x + 'px'; tip.style.top = y + 'px';
+  }
+  function hideTip() { tip.style.display = 'none'; }
+  function rankAt(name, d) {
+    const tr = track.get(name); let r = null;
+    for (const p of tr) { if (p.d <= d) r = p.r; else break; }
+    return r;
+  }
+  function tipHtml(t, e) {
+    const r = rankAt(t.team, e.d);
+    return `<b>${t.team}</b> <span style="color:#8a94a6">${t.org}</span><br>submitted ${e.t}<br>J shown ${e.J.toFixed(6)} · raw ${e.raw.toFixed(4)} (k ${e.k.toFixed(4)})<br>N ${e.N} · rank ${r ?? '?'} at that time`;
+  }
+
+  const charts = d3.select('#charts');
+  let svg = charts.append('svg');
+
+  function draw() {
+    const W = document.getElementById('charts').clientWidth - 8, H = Math.max(420, document.getElementById('charts').clientHeight - 8);
+    svg.attr('width', W).attr('height', H); svg.selectAll('*').remove();
+    const m = { l: 62, r: 150, t: 16, b: 26 }, gap = 34;
+    const h1 = Math.round((H - m.t - m.b - gap) * 0.66), h2 = H - m.t - m.b - gap - h1;
+    const vis = visibleTeams(); const visSet = new Set(vis.map(t => t.team));
+    const x = d3.scaleTime().domain([tStart, d3.timeHour.offset(tLast, 8)]).range([m.l, W - m.r]);
+    // ---- J chart ----
+    const segs = []; // {t, e, x0, x1, next}
+    for (const t of vis) for (let i = 0; i < t.ev.length; i++) {
+      const e = t.ev[i], nx = t.ev[i + 1];
+      const end = nx ? nx.d : (t.dropped ? t.tLastSnap : x.domain()[1]);
+      segs.push({ t, e, d0: e.d, d1: end, next: nx || null });
+    }
+    let jmin = d3.min(segs, s => Jof(s.e)), jmax = d3.max(segs, s => Jof(s.e));
+    if (state.fit === 'now') jmax = d3.max(vis, t => Jof(t.ev[t.ev.length - 1]));   // early history runs off the bottom
+    const pad = state.scale === 'log' ? 1.03 : (jmax - jmin) * 0.05 + 1e-6;
+    const y = (state.scale === 'log' ? d3.scaleLog().domain([jmin / pad, jmax * pad]) : d3.scaleLinear().domain([jmin - pad, jmax + pad])).range([m.t, m.t + h1]);
+    const g1 = svg.append('g');
+    g1.append('clipPath').attr('id', 'clip1').append('rect').attr('x', m.l).attr('y', m.t - 1).attr('width', W - m.l - m.r).attr('height', h1 + 2);
+    const yt = y.ticks(state.scale === 'log' ? 10 : 8);
+    g1.append('g').attr('class', 'grid').selectAll('line').data(yt).join('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y).attr('y2', y);
+    g1.append('g').attr('class', 'axis').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).tickValues(yt).tickFormat(d3.format(jmax / jmin > 3 ? '.3~s' : '.4~f')));
+    g1.append('g').attr('class', 'axis').attr('transform', `translate(0,${m.t + h1})`).call(d3.axisBottom(x).ticks(d3.timeDay.every(2)).tickFormat(fmtD));
+    g1.append('text').attr('class', 'lbl').attr('x', m.l + 6).attr('y', m.t + 18).attr('fill', '#8a94a6').text(`${state.mode === 'raw' ? 'raw J = shown / k(t)' : 'shown J = raw × k(t)'}, lower is up, ${state.scale} scale, ${state.fit === 'now' ? 'fitted to the current scores (early history runs off the bottom)' : 'full history'} · top ${vis.length}${state.pins.size ? ' · pinned ' + [...state.pins].join(', ') : ''}`);
+    // history before the first page is only what later pages still showed
+    g1.append('rect').attr('x', m.l).attr('y', m.t).attr('width', Math.max(0, x(tFirstSnap) - m.l)).attr('height', h1).attr('fill', '#ffffff').attr('opacity', 0.025);
+    if (state.snaps) g1.append('g').selectAll('line').data(B.snapshot_times.map(P)).join('line').attr('x1', d => x(d)).attr('x2', d => x(d)).attr('y1', m.t).attr('y2', m.t + 6).attr('stroke', '#4cc9f0').attr('opacity', 0.9);
+    const lines = g1.append('g').attr('clip-path', 'url(#clip1)');
+    const order = vis.slice().sort((a, b) => b.cur.J - a.cur.J); // draw the best last (on top)
+    for (const t of order) {
+      const gt = lines.append('g').attr('opacity', emphasised(t.team)).attr('data-team', t.team);
+      const col = color.get(t.team);
+      for (const s of segs) if (s.t === t) {
+        gt.append('line').attr('x1', x(s.d0)).attr('x2', x(s.d1)).attr('y1', y(Jof(s.e))).attr('y2', y(Jof(s.e))).attr('stroke', col).attr('stroke-width', widthOf(s.e.N)).attr('stroke-linecap', 'butt')
+          .style('cursor', 'pointer').on('mouseenter mouseover', ev => { state.hover = t.team; refreshEmphasis(); showTip(ev, tipHtml(t, s.e)); }).on('mousemove', moveTip).on('mouseleave', () => { state.hover = null; refreshEmphasis(); hideTip(); }).on('click', () => togglePin(t.team));
+        if (s.next) gt.append('line').attr('x1', x(s.d1)).attr('x2', x(s.d1)).attr('y1', y(Jof(s.e))).attr('y2', y(Jof(s.next))).attr('stroke', col).attr('stroke-width', 1).attr('opacity', 0.7);
+        gt.append('circle').attr('cx', x(s.d0)).attr('cy', y(Jof(s.e))).attr('r', 2.6).attr('fill', col).attr('stroke', '#07090f').attr('stroke-width', 1)
+          .on('mouseenter mouseover', ev => { state.hover = t.team; refreshEmphasis(); showTip(ev, tipHtml(t, s.e)); }).on('mousemove', moveTip).on('mouseleave', () => { state.hover = null; refreshEmphasis(); hideTip(); });
+      }
+      if (t.dropped) gt.append('circle').attr('cx', x(t.tLastSnap)).attr('cy', y(Jof(t.ev[t.ev.length - 1]))).attr('r', 3.5).attr('fill', 'none').attr('stroke', col);
+    }
+    // end labels, pushed apart
+    const labs = vis.map(t => ({ t, y0: y(Jof(t.ev[t.ev.length - 1])) })).sort((a, b) => a.y0 - b.y0);
+    let prev = -1e9; for (const l of labs) { l.y = Math.max(l.y0, prev + 11); prev = l.y; }
+    const over = labs.length ? labs[labs.length - 1].y - (m.t + h1) : 0;
+    if (over > 0) { for (let i = labs.length - 1, lim = m.t + h1; i >= 0; i--) { labs[i].y = Math.min(labs[i].y, lim); lim = labs[i].y - 11; } }
+    const lg = g1.append('g');
+    for (const l of labs) {
+      const col = color.get(l.t.team), xe = W - m.r, r = rankAt(l.t.team, x.domain()[1]);
+      lg.append('line').attr('x1', xe + 2).attr('x2', xe + 14).attr('y1', l.y0).attr('y2', l.y).attr('stroke', col).attr('opacity', 0.6 * emphasised(l.t.team)).attr('data-team', l.t.team).attr('class', 'lblk');
+      lg.append('text').attr('class', 'lbl').attr('x', xe + 17).attr('y', l.y + 3.5).attr('fill', col).attr('opacity', emphasised(l.t.team)).attr('data-team', l.t.team)
+        .text(`${r ?? '–'} ${l.t.team}${l.t.dropped ? ' †' : ''}`).style('cursor', 'pointer')
+        .on('mouseenter', () => { state.hover = l.t.team; refreshEmphasis(); }).on('mouseleave', () => { state.hover = null; refreshEmphasis(); }).on('click', () => togglePin(l.t.team));
+    }
+    // ---- rank chart ----
+    const y2top = m.t + h1 + gap, maxR = Math.max(1, d3.max(vis, t => rankAt(t.team, x.domain()[1]) || 0), Math.min(state.topn, 20));
+    const y2 = d3.scaleLinear().domain([0.5, maxR + 0.5]).range([y2top, y2top + h2]);
+    const g2 = svg.append('g');
+    g2.append('clipPath').attr('id', 'clip2').append('rect').attr('x', m.l).attr('y', y2top - 4).attr('width', W - m.l - m.r).attr('height', h2 + 8);
+    const rt = d3.range(1, maxR + 1).filter(r => maxR <= 12 || r % Math.ceil(maxR / 12) === 0 || r === 1);
+    g2.append('g').attr('class', 'grid').selectAll('line').data(rt).join('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y2).attr('y2', y2);
+    g2.append('g').attr('class', 'axis').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y2).tickValues(rt).tickFormat(d3.format('d')));
+    g2.append('g').attr('class', 'axis').attr('transform', `translate(0,${y2top + h2})`).call(d3.axisBottom(x).ticks(d3.timeDay.every(2)).tickFormat(fmtD));
+    g2.append('text').attr('class', 'lbl').attr('x', m.l + 6).attr('y', y2top - 6).attr('fill', '#8a94a6').text('rank by shown J, recomputed at every submission (teams the pages listed; before the first page only their surviving entries are known)');
+    g2.append('rect').attr('x', m.l).attr('y', y2top).attr('width', Math.max(0, x(tFirstSnap) - m.l)).attr('height', h2).attr('fill', '#ffffff').attr('opacity', 0.025);
+    const rl = g2.append('g').attr('clip-path', 'url(#clip2)');
+    const step = d3.line().x(p => x(p.d)).y(p => y2(p.r)).defined(p => p.r != null).curve(d3.curveStepAfter);
+    for (const t of order) {
+      const pts = track.get(t.team).filter(p => p.d <= x.domain()[1]);
+      if (!pts.length) continue;
+      const last = pts[pts.length - 1];
+      const ext = pts.concat([{ d: t.dropped ? t.tLastSnap : x.domain()[1], r: t.dropped ? null : last.r }]);
+      const col = color.get(t.team), lastR = rankAt(t.team, x.domain()[1]);
+      rl.append('path').attr('d', step(ext)).attr('fill', 'none').attr('stroke', col).attr('stroke-width', 1.8).attr('opacity', emphasised(t.team)).attr('data-team', t.team).style('cursor', 'pointer')
+        .on('mouseenter mouseover', ev => { state.hover = t.team; refreshEmphasis(); showTip(ev, `<b>${t.team}</b><br>rank now ${lastR ?? '–'} · J ${t.cur.J.toFixed(6)} · N ${t.cur.N}`); }).on('mousemove', moveTip).on('mouseleave', () => { state.hover = null; refreshEmphasis(); hideTip(); }).on('click', () => togglePin(t.team));
+      if (lastR != null) g2.append('text').attr('class', 'lbl').attr('x', W - m.r + 6).attr('y', y2(lastR) + 3.5).attr('fill', col).attr('opacity', emphasised(t.team)).attr('data-team', t.team).text(`${lastR} ${t.team}`);
+    }
+    // width legend (header)
+    const wl = d3.select('#wlegend'); wl.selectAll('*').remove();
+    if (state.width) [9, 10, 11, 12, 14].forEach((N, i) => { const x0 = i * 50; wl.append('line').attr('x1', x0).attr('x2', x0 + 16).attr('y1', 9).attr('y2', 9).attr('stroke', '#d6dce6').attr('stroke-width', widthOf(N)); wl.append('text').attr('class', 'lbl').attr('x', x0 + 19).attr('y', 12).attr('font-size', 9).attr('fill', '#8a94a6').text(`N${N}${N === 14 ? '+' : ''}`); });
+    drawTable(vis, visSet);
+  }
+  function refreshEmphasis() {
+    svg.selectAll('[data-team]').attr('opacity', function () { const n = this.getAttribute('data-team'); const base = this.classList.contains('lblk') ? 0.6 : 1; return base * emphasised(n); });
+    d3.selectAll('#standings tbody tr').classed('pinned', function () { return state.pins.has(this.dataset.team); });
+  }
+  function togglePin(name) { if (state.pins.has(name)) state.pins.delete(name); else state.pins.add(name); refreshEmphasis(); }
+
+  function drawTable(vis, visSet) {
+    const tb = d3.select('#standings tbody'); tb.selectAll('*').remove();
+    const rows = teams.filter(t => state.dropped || !t.dropped).sort((a, b) => a.cur.J - b.cur.J);
+    for (const t of rows) {
+      const r = rankAt(t.team, d3.timeHour.offset(tLast, 8));
+      const tr = tb.append('tr').attr('data-team', t.team).classed('hidden-team', !visSet.has(t.team)).classed('pinned', state.pins.has(t.team))
+        .on('mouseenter', () => { state.hover = t.team; refreshEmphasis(); }).on('mouseleave', () => { state.hover = null; refreshEmphasis(); }).on('click', () => togglePin(t.team));
+      tr.append('td').text(t.dropped ? '†' : r ?? '');
+      tr.append('td').attr('class', 'team').attr('title', t.org + (t.dropped ? ' — no longer on the page after ' + t.last_snap : '')).html(`<span class="sw" style="background:${color.get(t.team)}"></span>${t.team}${t.dropped ? ' <span class="dropped">gone</span>' : ''}`);
+      tr.append('td').text(t.cur.J.toFixed(6)); tr.append('td').text(t.cur.raw.toFixed(4)); tr.append('td').text(t.cur.N);
+      tr.append('td').text(t.cur.t.slice(5)); tr.append('td').text(t.n_sub);
+    }
+  }
+
+  function setBtn(a, b, on) { document.getElementById(a).classList.toggle('on', on); document.getElementById(b).classList.toggle('on', !on); }
+  document.getElementById('b-shown').onclick = () => { state.mode = 'shown'; setBtn('b-shown', 'b-raw', true); draw(); };
+  document.getElementById('b-raw').onclick = () => { state.mode = 'raw'; setBtn('b-shown', 'b-raw', false); draw(); };
+  document.getElementById('b-log').onclick = () => { state.scale = 'log'; setBtn('b-log', 'b-lin', true); draw(); };
+  document.getElementById('b-now').onclick = () => { state.fit = 'now'; setBtn('b-now', 'b-all', true); draw(); };
+  document.getElementById('b-all').onclick = () => { state.fit = 'all'; setBtn('b-now', 'b-all', false); draw(); };
+  document.getElementById('b-lin').onclick = () => { state.scale = 'linear'; setBtn('b-log', 'b-lin', false); draw(); };
+  document.getElementById('topn').oninput = ev => { state.topn = +ev.target.value; document.getElementById('topn-val').textContent = state.topn; draw(); };
+  document.getElementById('c-width').onchange = ev => { state.width = ev.target.checked; draw(); };
+  document.getElementById('c-dropped').onchange = ev => { state.dropped = ev.target.checked; draw(); };
+  document.getElementById('c-snaps').onchange = ev => { state.snaps = ev.target.checked; draw(); };
+  document.getElementById('b-clear').onclick = () => { state.pins.clear(); refreshEmphasis(); };
+  window.addEventListener('resize', draw);
+  draw();
+  console.log(`[board] ${B.n_snapshots} snapshots, ${teams.length} teams`);
+})();
+</script>
+</body>
+</html>
